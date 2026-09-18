@@ -1,0 +1,37 @@
+/bin/remote-layer-probe; echo REMOTE_EXIT=$?; echo SERIAL_DONE_a40a
+<-probe; echo REMOTE_EXIT=$?; echo SERIAL_DONE_a40ae                         775ca6f4270859bfb609361c3
+<?; echo SERIAL_DONE_a40ae775ca6f4270859bfb609361c36                         a
+
+System Policy: bash(38) allow process-exec* /bin/remote-layer-probe
+REMOTE_PROBE_BEGIN
+
+REMOTE_SURFACE_CREATE_BEGIN
+
+REMOTE_SURFACE_PRESENT=1
+
+REMOTE_SURFACE_SIZE=16384 STRIDE=256
+
+REMOTE_LOCK_RESULT=0
+
+REMOTE_CONTEXT_BEGIN
+
+REMOTE_CONTEXT_PRESENT=1
+
+REMOTE_CONTEXT_ID=2671984802
+
+REMOTE_COMMIT_BEGIN
+
+REMOTE_COMMIT_RETURNED
+
+com.apple.xpc.launchd|1970-01-01 00:01:16.351539 <Notice>: Last log repeated 1 times
+
+com.apple.xpc.launchd|1970-01-01 00:01:16.222244 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = remote-layer-pr[38], error = 3: No such process
+
+REMOTE_SERVER_RENDER_BEGIN
+
+Alarm clock: 14            /bin/remote-layer-probe
+
+REMOTE_EXIT=142
+
+SERIAL_DONE_a40ae775ca6f4270859bfb609361c36a
+

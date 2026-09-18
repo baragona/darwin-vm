@@ -1,0 +1,10 @@
+{
+  "cdhash": "495bd3c0eabc10b4abe16aa3fdd99c6e6013f2e2",
+  "sha256": "613efa5bcb4f8f128c872c18756bab95d5271308267d63b6e756eb767cae4a00",
+  "entitlements": {
+    "com.apple.security.iokit-user-client-class": [
+      "IOSurfaceRootUserClient"
+    ]
+  },
+  "trustcache_entries": 4394
+}

@@ -24,6 +24,8 @@ and a full installed system are not working yet.
   pixels in a 64x64 output buffer match the expected color (v36).
 - Alpha blending, layer movement/color changes, and repaint of the old position
   pass complete pixel comparisons across two frames (v37).
+- IOSurface allocation/mapping works with a scoped driver-client entitlement;
+  remote-context commit/flush returns, but server rendering currently times out (v39).
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1179,3 +1181,86 @@ main display; integrating at the render-server level remains the next gap.
 
 V36 was intentionally stopped for installation. Current v37 remains running
 with QMP `/tmp/a19-ui-v37-qmp.sock` and UART `/tmp/a19-ui-v37-serial.sock`.
+
+## Remote render-server path: IOSurface and context submission (v38–v39)
+
+A new [remote-layer-probe.c](remote-layer-probe.c) attempts to allocate a 64x64
+IOSurface, create a remote CAContext, submit its own red CALayer, and render
+only that layer into the surface. This tests the application-to-render-server
+path rather than another local context. A process-only 25-second alarm bounds
+the experiment. The exported `CARenderServerRenderLayer` wrapper at
+`0x1846dbdb0` forwards `(server_port, context_id, CALayer*, IOSurfaceRef, x, y)`
+and returns a boolean. The underlying `0x1846db1e8` converts the CALayer's
+internal object pointer to a render identifier and sends a Mach request.
+Its default display string is `defaultDisplay` (CFString at `0x1e901aa60`,
+text at `0x184818d85`), not a hardcoded `LCD` name from old examples.
+
+[V38 evidence](evidence/remote-layer-v38.txt) stops before remote context creation:
+
+```text
+System Policy: remote-layer-probe(37) deny(1) iokit-open-user-client IOSurfaceRootUserClient
+REMOTE_SURFACE_PRESENT=0
+REMOTE_EXIT=1
+```
+
+The original 24A437 SpringBoard signature lists `IOSurfaceRootUserClient` under
+`com.apple.security.iokit-user-client-class`. The v39 diagnostic requests only
+that entry via [remote-layer-entitlements.plist](remote-layer-entitlements.plist).
+A separately signed, unentitled copy supports `--context-only` so surface
+allocation and context submission can be tested independently.
+
+Automatic approval review initially rejected installing the new entitlement
+and its trust hash. No part of that rejected installation ran. The user then
+explicitly approved the requested guest change and authorized changes inside
+the guest. The entitled diagnostic was installed after that approval; host
+policy and original system-service entitlements were not changed.
+The user authorization applies to subsequent guest-side research as well.
+
+### V39 results
+
+The [unentitled context-only run](evidence/remote-context-v39.txt) returned a
+non-null remote CAContext with context ID 3741310610, then returned from
+CATransaction commit/flush and exited 0. It did not allocate an IOSurface.
+The first context call waited while backboardd completed startup. These
+observations establish successful client-side creation/submission calls;
+they do not by themselves prove that the server rendered or retained content.
+
+The [IOSurface-entitled run](evidence/remote-layer-v39.txt) passed the exact
+operation denied in v38:
+
+```text
+REMOTE_SURFACE_PRESENT=1
+REMOTE_SURFACE_SIZE=16384 STRIDE=256
+REMOTE_LOCK_RESULT=0
+REMOTE_CONTEXT_PRESENT=1
+REMOTE_CONTEXT_ID=2671984802
+REMOTE_COMMIT_RETURNED
+REMOTE_SERVER_RENDER_BEGIN
+Alarm clock: 14            /bin/remote-layer-probe
+REMOTE_EXIT=142
+```
+
+Thus actual IOSurface allocation, CPU mapping/writing, and unlocking work in
+this guest with the scoped entitlement. The subsequent synchronous server
+render did **not** return before the probe's 25-second alarm. No captured
+pixels or render return value were obtained. The alarm terminated only the
+client; QMP continued to report the guest running. This is a new server-side
+investigation point, not evidence of a working remote compositor or a proven
+GPU wait. Next diagnostic: sample the client's Mach wait and backboardd's
+render threads while reproducing the request, then identify the first
+blocking call. Do not replace or restart the guest merely because the
+observation/probe timeout expired.
+
+Build identities: [unentitled](evidence/remote-context-v39-build.json),
+[IOSurface permission](evidence/remote-layer-v39-build.json), and
+[v38 baseline](evidence/remote-layer-probe-build.json). Both v39 probes compile
+from the same source; `codesign -s - --entitlements
+research/remote-layer-entitlements.plist` signs the surface-enabled copy.
+The unentitled copy's absent entitlements were checked before installation.
+V38 was intentionally stopped for installation. Current v39 uses QMP
+`/tmp/a19-ui-v39-qmp.sock` and UART `/tmp/a19-ui-v39-serial.sock`.
+
+A [post-timeout check](evidence/remote-layer-post-v39.txt) found backboardd PID 26
+with LAST_EXIT=0. CADisplay returned its five original zero-sized Wireless
+displays, no main display, and exit 0. The render timeout did not block this
+display-query path.

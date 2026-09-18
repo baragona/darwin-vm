@@ -1,0 +1,17 @@
+/bin/remote-layer-probe; echo REMOTE_EXIT=$?; echo SERIAL_DONE_26fa
+<-probe; echo REMOTE_EXIT=$?; echo SERIAL_DONE_26fa3                         6c51a134c2088127be9e1ab89
+<?; echo SERIAL_DONE_26fa36c51a134c2088127be9e1ab89f                         6
+
+System Policy: bash(37) allow process-exec* /bin/remote-layer-probe
+REMOTE_PROBE_BEGIN
+
+REMOTE_SURFACE_CREATE_BEGIN
+
+System Policy: remote-layer-probe(37) deny(1) iokit-open-user-client IOSurfaceRootUserClient
+IOUC IOSurfaceRootUserClient failed MACF in process pid 37, remote-layer-pro
+REMOTE_SURFACE_PRESENT=0
+
+REMOTE_EXIT=1
+
+SERIAL_DONE_26fa36c51a134c2088127be9e1ab89f6
+
