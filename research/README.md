@@ -907,10 +907,10 @@ The exact cache contains `-[CAWindowServerVirtualDisplay initWithOptions:]` at
 `kCAVirtualDisplayWidth`, `kCAVirtualDisplayHeight`, and
 `kCAVirtualDisplayUpdateRate`. Width and height are required according to its
 embedded diagnostic string. The constructor also has pixel-format and physical
-size options. A bounded standalone virtual-display construction probe is a
-concrete next step; it has not been implemented or run. Neither framebuffer
-allocation, CPU rendering, attachment to backboardd, nor use as the main
-display is established by these symbols. The earlier boot-option path remains
+size options. A bounded standalone virtual-display construction probe was subsequently
+implemented and tested in v32/v33 (below). Neither framebuffer allocation,
+CPU rendering, attachment to backboardd, nor use as the main display is
+established by these symbols alone. The earlier boot-option path remains
 gated by the internal-build check; no QuartzCore code or feature flags were
 modified.
 
@@ -919,3 +919,75 @@ V31 is running at QMP `/tmp/a19-ui-v31-qmp.sock` and UART
 in v31. The original sandboxed container helper and native `/private/var`
 mount from v30 remain in use. SpringBoard, usable display modes, rendering,
 and interactive input are still unfinished.
+
+## Virtual display construction succeeds (v32–v33)
+
+`virtual-display-probe.c` dynamically loads the matching guest QuartzCore and
+constructs `CAWindowServerVirtualDisplay` with width 1024, height 768, and
+update rate 60. It has no entitlements and does not register a render service
+or attach its display to backboardd. A 20-second process-only alarm bounds the
+experiment; its existing thread sampler can report a stall after five seconds.
+
+The [v32 construction result](evidence/virtual-display-construction-v32.txt)
+returned a non-null object named `Virtual-0`, ID 1, with bounds
+`0,0,1024,768`, and process exit status 0. These are local object properties;
+ID 1 is not evidence that backboardd's Wireless display was replaced.
+
+The expanded v33 probe prints runtime method encodings and accepts
+`--render-empty`. It verifies that `renderForTime:` takes a double and returns
+void before invoking it. [Observed result](evidence/virtual-display-empty-render-v33.txt):
+
+```text
+VIRTUAL_METHOD=renderForTime: TYPE=v24@0:8d16
+VIRTUAL_METHOD=acquireFrozenSurface TYPE=^{__IOSurface=}16@0:8
+VIRTUAL_METHOD=beginExternalUpdate:usingSoftwareRenderer: TYPE=v28@0:8^v16B24
+VIRTUAL_RENDER_EMPTY_RETURNED
+VIRTUAL_FROZEN_SURFACE_PRESENT=0
+VIRTUAL_EXIT=0
+```
+
+This proves object construction and return from an empty render invocation.
+It does **not** prove framebuffer allocation, generated pixels, main-display
+registration, or GUI rendering. The probe does not enable the display, submit
+a layer context, or create an external render update; any of these may matter
+to whether a surface is produced.
+
+Static inspection finds that `VirtualServer::renderer()` at `0x184629cc4`
+calls `CAMetalContextCreate` (`0x1847c341c`) and
+`CA::OGL::new_metal_context` (`0x18458ec84`). Thus virtual-display construction
+alone does not establish GPU independence. The runtime external-update method
+exposes a software-renderer boolean; exported `CARenderUpdateBegin`,
+`CARenderUpdateBegin2`, and `CARenderUpdateFinish` are concrete next leads for
+a CPU rendering experiment, but their calling contracts still need verification.
+No private update structure or surface pointer was guessed or dereferenced.
+
+Build and run:
+
+```sh
+xcrun clang -Wall -Wextra -Werror -Wno-incompatible-sysroot \
+  -target arm64-apple-ios27.0 -nostdlib -DTHREAD_PROBE_LIBRARY \
+  research/virtual-display-probe.c research/thread-probe.c \
+  /tmp/a19-restore/usr/lib/libSystem.B.dylib -o /tmp/a19-virtual-display-probe
+codesign -s - /tmp/a19-virtual-display-probe
+# Stage in the stopped disposable guest and merge its CDHash into the trust cache.
+# In the guest:
+/bin/virtual-display-probe --render-empty
+echo VIRTUAL_EXIT=$?
+```
+
+The probe compiled with warnings treated as errors; construction and empty
+render modes were exercised in the guest. [v32 build](evidence/virtual-display-probe-build.json)
+and [v33 build](evidence/virtual-display-render-probe-build.json) preserve
+binary hashes and trust-cache entry counts.
+
+V33 remains running with QMP `/tmp/a19-ui-v33-qmp.sock`, UART
+`/tmp/a19-ui-v33-serial.sock`, no attached debugger, and no Developer Mode
+override. V31 and v32 were intentionally stopped for image updates.
+The original sandboxed container helper, native var mount, ICU resources, and
+BackBoard configuration remain in use. Full interactive graphical boot is
+still unverified and unfinished.
+
+A [post-experiment query](evidence/virtual-display-isolation-v33.txt) still reports
+the original five zero-sized Wireless displays, no main display, and
+backboardd PID 26 with `LAST_EXIT=0`. The standalone virtual object was not
+installed as the system display.

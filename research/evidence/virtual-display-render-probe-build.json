@@ -1,0 +1,7 @@
+{
+  "cdhash": "4a7df79b855bdd74337767782151c5e0edf98a33",
+  "sha256": "73257d368fc0bbaa562e6630256de97504ace3df99148728dd6fde5a9bb94866",
+  "trustcache_entries": 4387,
+  "entitlements": "none",
+  "purpose": "Runtime signatures and isolated empty-render attempt; process-only 20-second alarm"
+}
