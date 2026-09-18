@@ -97,6 +97,40 @@ local build artifacts, and raw logs are not committed to this fork.
 - Both targets have a kernel collection, device tree, SPTM, TXM, ramdisk,
   generated trust cache, and source URL record in `firmware/<target>/info`.
 - Shell syntax checks and `git diff --check` passed.
-- Boot verification is pending the administrator ownership fix above.
-  The host requires a password for `sudo`; do not treat firmware preparation
-  alone as a verified boot.
+- The host required a password for `sudo`; the owner ran both ownership fixes
+  in a local terminal before boot verification.
+- Both VMs booted simultaneously to interactive root shells, and executed
+  `uname -v`, `id`, and `cat /System/Library/CoreServices/SystemVersion.plist`.
+
+| Check | M4 Mac mini | iPhone 17 |
+| --- | --- | --- |
+| Shell prompt | `bash-3.2#` | `bash-5.3#` |
+| Kernel | `xnu-13432.1.9~1/RELEASE_ARM64_T8132` | `xnu-13432.2.10~2/RELEASE_ARM64_T8150` |
+| Darwin version | 27.0.0 | 27.0.0 |
+| ProductVersion | 27.0 | 27.0 |
+| ProductBuildVersion | 26A428 | 24A437 |
+| Identity | `uid=0(root) gid=0(wheel)` | `uid=0(root) gid=0(wheel)` |
+| Trust-cache entries | 546 | 470 |
+
+Local serial transcripts are `logs/boot-mac-mini-m4.log` and
+`logs/boot-iphone-17.log`, captured with:
+
+```sh
+script -q logs/boot-mac-mini-m4.log ./run-mac-mini-m4.sh
+script -q logs/boot-iphone-17.log ./run-iphone-17.sh
+```
+
+Observed limitations and tips:
+
+- `sw_vers` is absent in these minimal ramdisks. Read
+  `/System/Library/CoreServices/SystemVersion.plist` to check the build.
+- The restore root filesystem boots read-only; `/tmp` has no usable backing
+  directory. A write smoke check therefore failed, while normal command
+  execution and file reads succeeded. To add programs, use the upstream
+  host-side ramdisk editing and trust-cache procedure.
+- Boot logs contain missing-service/hardware warnings, and iPhone SEP timeout
+  messages continue after the shell starts. These did not prevent the tested
+  commands from running.
+- Sending a long command to QEMU's serial console in a single automated write
+  lost characters. Verification used short commands or eight-character chunks
+  with 250 ms pauses. Type normally in an interactive terminal.
