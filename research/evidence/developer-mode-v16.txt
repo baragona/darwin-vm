@@ -1,0 +1,33 @@
+# Live Developer Mode experiment: v16
+# -restore alone reached the enable path but status stayed 0.
+AMFI: Enabling developer mode since we are restoring....
+security.mac.amfi.developer_mode_status=0 bytes=4
+security.mac.amfi.developer_mode_resolved=1 bytes=4
+  Developer mode is disabled, com.apple.system-task-ports is disallowed
+  Developer mode is disabled, com.apple.system-task-ports is disallowed
+
+# LLDB temporary state override (exact 24A437/T8150 layout):
+memory read --size 1 --count 1 0xfffffe0017088db4 -> 00
+memory write --size 1 0xfffffe0017088db4 1
+memory read --size 1 --count 1 0xfffffe0017088db4 -> 01
+process detach
+
+# Guest verification after override:
+security.mac.amfi.developer_mode_status=1 bytes=4
+security.mac.amfi.developer_mode_resolved=1 bytes=4
+TASK PID=18 RESULT=0
+DYLD_SLIDE=0x1441c000 CACHE_BASE=0x19441c000
+THREADS_RESULT=0 COUNT=1
+RESUME_RESULT=0
+TASK PID=4 RESULT=0
+DYLD_SLIDE=0x1441c000 CACHE_BASE=0x19441c000
+THREADS_RESULT=0 COUNT=3
+RESUME_RESULT=0
+
+# v17 after the same override:
+/bin/cache-diagnostics devmode
+
+System Policy: bash(25) allow process-exec* /bin/cache-diagnostics
+security.mac.amfi.developer_mode_status=1 bytes=4
+
+security.mac.amfi.developer_mode_resolved=1

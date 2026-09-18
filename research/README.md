@@ -11,8 +11,10 @@ and a full installed system are not working yet.
 - Notifyd and both preference daemons start through normal boot registration.
 - HID, render, notification and preference Mach-port lookups succeed.
 - `IOSurfaceRoot` is registered, but no GPU attachment or rendered UI is verified.
-- The QuartzCore display-list probe reaches its API call and has not returned
-  during observation. SpringBoard and graphical interaction remain unfinished.
+- LLDB works through QEMU; a temporary TXM state override enables guest task inspection.
+- Thread samples put the display client in CASGetDisplays/Mach receive and
+  backboardd in AppleKeyStore connection setup during Biome initialization.
+- SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
 
@@ -368,6 +370,128 @@ QuartzCore load and runtime lookup succeeded. The `+[CADisplay displays]` call
 had not returned on subsequent observations, while QMP reported the VM running
 and SEP timeout messages continued. This does not establish a permanent hang
 or its cause; it establishes that the display API did not complete within the
-observed interval. The live experiment is left available for inspection at
-`/tmp/a19-ui-v13-qmp.sock` and `/tmp/a19-ui-v13-serial.sock` unless explicitly
-stopped later. Raw local transcripts are in `logs/ui-probe-v13-*.log`.
+observed interval. That experiment was later stopped explicitly for the thread-sampling tests. Raw local transcripts are in `logs/ui-probe-v13-*.log`.
+
+
+## Developer Mode and debugging (v14–v16)
+
+A tool signed with `com.apple.private.cs.debugger` was killed before execution
+because Developer Mode was off (v14). Removing that entitlement exposed the
+same restriction on `com.apple.system-task-ports` (v15). These were guest AMFI
+restrictions, not limitations of the host debugger or inability to inspect QEMU.
+
+The exact AMFI binary has an existing `-restore` boot-argument path. Adding it
+caused `AMFI: Enabling developer mode since we are restoring....`, but this log
+alone was misleading: the guest sysctls still reported status=0, resolved=1,
+and the entitled tool was still rejected. `cache-diagnostics devmode` reads
+both sysctls without changing them.
+
+### Verified temporary override
+
+LLDB attached successfully through QEMU's loopback-only GDB server, recognized
+the kernel's 0x20000000 slide, read CPU registers, and detached/resumed the VM.
+The kernel Developer Mode getter reads a pointer at 0xfffffe0027ea1600. In this
+exact boot, it points to TXM's state byte at 0xfffffe0017088db4. Reading that byte
+returned 0; writing 1 through LLDB changed the actual TXM state read by the
+kernel, not just the sysctl display.
+
+After resuming, the guest reported `security.mac.amfi.developer_mode_status=1`.
+The previously rejected task inspector executed, obtained task ports for both
+the display client and backboardd (`task_for_pid` result 0), read their thread
+states and stack candidates, and resumed each target successfully. See
+[verification evidence](evidence/developer-mode-v16.txt).
+
+This is an explicit, temporary debugger override of the disposable guest's
+security state. It is lost on reboot and is **not** proof that the normal
+Developer Mode enablement flow or persistent settings work. The normal device
+workflow is documented by [Apple](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device).
+No host security setting was changed.
+
+The addresses above apply only to the tested loader layout and firmware:
+
+- TXM SHA-256: `e058931840ac000f6d050578fd7fc4ddb8c640125d92a713f61433be793fbf04`
+- Diagnostic bootkc SHA-256: `77fc882042df1c309a6f47ebb893bcf73dd4af19e3f0a5198f195f71bf0a727d`
+
+Debugger setup for that stopped/known experiment:
+
+```sh
+python3 research/qmp.py /tmp/a19-ui-v16-qmp.sock human-monitor-command \
+  '{"command-line":"gdbserver tcp:127.0.0.1:63417"}'
+xcrun lldb firmware/iphone-17-ui-probe/bootkc-cache-owner-probe
+# LLDB:
+# gdb-remote 127.0.0.1:63417
+# memory read --format x --size 8 --count 1 0xfffffe0027ea1600
+# memory read --size 1 --count 1 0xfffffe0017088db4
+# After verifying the expected pointer and byte for this exact firmware:
+# memory write --size 1 0xfffffe0017088db4 1
+# process detach
+```
+
+The v16 guest was subsequently stopped for the no-SEP configuration experiment;
+use the socket of the actual live experiment, not an old socket filename.
+
+### Thread sampling and the display wait
+
+`thread-probe.c` provides a bounded frame-pointer sampler. `display-probe.c`
+links it with `THREAD_PROBE_LIBRARY` and samples its own blocked thread after
+five seconds, without special entitlements. The standalone build attempts
+`task_for_pid` using `thread-probe-entitlements.plist`; Developer Mode must be
+active for these entitlements. The first standalone experiment suspended the
+whole target. The current implementation suspends/resumes individual threads,
+skips its own sampler thread, and resumes before printing to avoid a same-process
+stdio-lock deadlock. Its self-sampling path was verified in v16.
+
+Build using the installed Darwin SDK headers and the matching iOS libSystem:
+
+```sh
+xcrun clang -Wall -Wextra -Werror -Wno-incompatible-sysroot \
+  -target arm64-apple-ios27.0 -nostdlib -DTHREAD_PROBE_LIBRARY \
+  research/display-probe.c research/thread-probe.c \
+  /tmp/a19-restore/usr/lib/libSystem.B.dylib -o /tmp/display-probe
+codesign -s - /tmp/display-probe
+
+xcrun clang -Wall -Wextra -Werror -Wno-incompatible-sysroot \
+  -target arm64-apple-ios27.0 -nostdlib research/thread-probe.c \
+  /tmp/a19-restore/usr/lib/libSystem.B.dylib -o /tmp/thread-probe
+codesign -s - --entitlements research/thread-probe-entitlements.plist /tmp/thread-probe
+```
+
+Install and trust-cache these binaries as before. Saved return addresses are
+masked to their low 39 bits as a PAC-stripping heuristic; this is not a general
+unwinder. The helper reports the guest shared-cache slide for symbolication.
+Subtract that slide before using `ipsw dyld a2f --in ADDRESSES --json`.
+Bulk symbol aliases can be wrong (one Mach-message frame was labeled as an
+unrelated Objective-C method), so interpret names alongside image ranges and
+neighboring frames.
+
+The display client stack goes through `+[CADisplay displays]`, `ensure_displays`,
+`query_displays`, `__CASGetDisplays`, and Mach-message receive. Backboardd's main
+thread is in `IOServiceOpen` through AppleKeyStore connection setup and
+`+[BMDataProtection isClassCXUnlocked]`, called during Biome initialization.
+These samples identify a key-store/data-protection dependency before display
+initialization can be assessed. They do not prove that this is the only blocker.
+[Client symbols](evidence/display-wait-symbols.json) and
+[backboardd symbols](evidence/backboard-wait-symbols.json) retain the raw tool
+output, including the alias limitation above.
+
+### No-SEP configuration experiment
+
+The stripped tree still advertises `sepfw-load-at-boot=1` although no working
+SEP is emulated. `disable-sep-boot.py` changes only that existing four-byte
+property to 0 in a new file, preserving all other tree bytes. `DTREE` can now
+override the tree path in `run-boot-display.sh`. This is an experiment in
+accurate hardware configuration, not SEP emulation. The first test is v17,
+using `dtree-no-sep` and the same `-restore` boot arguments.
+
+
+V17 did **not** resolve the issue: even with `sepfw-load-at-boot=0`, the kernel
+logged `_sep_enabled = 1`, Developer Mode remained status=0/resolved=1, and the
+display client's sample showed the same CASGetDisplays/Mach receive path.
+The byte-level tree edit was verified, but changing that one property is not
+sufficient to put this driver stack into a no-SEP mode.
+
+The latest v17 guest was then given the same temporary TXM state override via
+LLDB and left running for further inspection. Its QMP socket is
+`/tmp/a19-ui-v17-qmp.sock`, UART socket `/tmp/a19-ui-v17-serial.sock`, and GDB
+endpoint `127.0.0.1:63417` (loopback only). The next investigation is the
+AppleKeyStore user-client open, now accessible to the guest task inspector.

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "18830314e039ef34a7c0e06cb3387c4b9f3fee8b37707e8735ea209aa2f32a75",
+  "patched_sha256": "e31038bfd750b90de0fe05d95ade984ef15fa8c4d6bad91dddbeba557ba3f8ad",
+  "property": "sepfw-load-at-boot",
+  "value_offset": "0xb6c",
+  "before": 1,
+  "after": 0
+}

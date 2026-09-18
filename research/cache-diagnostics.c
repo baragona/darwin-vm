@@ -9,6 +9,16 @@ extern void perror(const char *);
 extern void *malloc(size_t);
 extern long write(int, const void *, size_t);
 int main(int argc, char **argv) {
+    if (argc > 1 && argv[1][0] == 'd' && argv[1][1] == 'e') {
+        const char *names[] = {"security.mac.amfi.developer_mode_status",
+                              "security.mac.amfi.developer_mode_resolved"};
+        for (unsigned i = 0; i < 2; ++i) {
+            unsigned long long value = 0; size_t length = sizeof(value);
+            if (sysctlbyname(names[i], &value, &length, 0, 0)) perror(names[i]);
+            else printf("%s=%llu bytes=%lu\n", names[i], value, length);
+        }
+        return 0;
+    }
     (void)argv;
     if (argc > 1) {
         size_t length = 0;
