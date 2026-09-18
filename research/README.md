@@ -742,3 +742,40 @@ V23 is stopped. V24 is running with QMP `/tmp/a19-ui-v24-qmp.sock` and UART
 `/tmp/a19-ui-v24-serial.sock`; `/mnt1` and `/mnt2` are currently mounted writable.
 No GDB server or Developer Mode override has been enabled in v24. `/var` is
 still read-only and graphical startup remains incomplete.
+
+
+### Early writable /var experiment (v25)
+
+On the stopped image, the existing `private/var` directory was renamed to
+`/var-seed`, and `/private/var` became a symlink to `/mnt1`. The root Bash
+launch job now runs `/bin/bash /bin/init-writable-var`, installed from
+[`init-writable-var.sh`](init-writable-var.sh). That script mounts 512 MiB tmpfs,
+copies the seed, creates runtime directories, sets root/mobile ownership,
+verifies a write/readback, and finally execs an interactive Bash. Backboardd's
+RunAtLoad was set false; its existing Mach services start it on demand after
+the readiness marker and shell prompt. Other launchd activity can occur before
+the script: an early mobile/tmp fixup still reports read-only filesystem.
+
+The script completed. Guest numeric ownership is root 0:0 (0700), mobile
+501:501 (0755), and tmp 0:0 (1777). A second post-startup write/readback through
+`/var/tmp` succeeds. [Storage proof](evidence/v25-var-proof.txt).
+
+The container helper nevertheless returns DURING_STARTUP. A breakpoint at
+`MCMLibraryRepair::createPathsIfNecessaryWithError:`'s caller confirms a false
+return and NSPOSIXErrorDomain code 1 (EPERM). The sandbox log names the blocked
+resolved path `/mnt1/root/Library/MobileContainerManager`.
+[Debugger findings](evidence/container-path-creation-v25.md) and
+[startup excerpts](evidence/v25-var-startup-excerpts.txt).
+
+This identifies the limitation of the symlink layout: shell writes work, but
+service sandbox rules see `/mnt1/...`, not an allowed canonical data path.
+A policy-compatible data-volume layout or a narrowly scoped diagnostic service
+policy adjustment is still required. Do not treat the shell write proof as
+proof that full iOS services can use this /var mapping. Persistent storage,
+APFS-specific metadata, and SEP/data protection also remain unresolved.
+
+V24 is stopped. V25 is running at `/tmp/a19-ui-v25-qmp.sock`, UART
+`/tmp/a19-ui-v25-serial.sock`, with loopback GDB `127.0.0.1:63425`.
+All hardware breakpoints were removed and LLDB detached; no Developer Mode
+override was applied. /var remains backed by volatile tmpfs, while backboardd
+still aborts and no graphical display has been established.

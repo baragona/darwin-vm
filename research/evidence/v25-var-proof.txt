@@ -1,0 +1,14 @@
+/bin/ls -ldn /var/root /var/mobile /var/tmp /var/run; /bin/echo ver</root /var/mobile /var/tmp /var/run; /bin/echo veri                         fied > /var/tmp/after-sta< /var/run; /bin/echo verified > /var/tmp/after-star                         tup; /bin/cat /var/tmp/af<ied > /var/tmp/after-startup; /bin/cat /var/tmp/aft                         er-startup; /sbin/mount; <up; /bin/cat /var/tmp/after-startup; /sbin/mount; e                         cho SERIAL_DONE_0a5244df5<r-startup; /sbin/mount; echo SERIAL_DONE_0a5244df5e                         5a4648aab5a21d2bd8d50b
+System Policy: bash(37) allow process-exec* /bin/ls
+drwxr-xr-x 4 501 501 176 Jan  1 00:00 /var/mobile
+drwx------ 3   0   0  88 Jan  1 00:00 /var/root
+drwxr-xr-x 2   0   0   0 Jan  1 00:00 /var/run
+drwxrwxrwt 2   0   0  88 Jan  1 00:00 /var/tmp
+System Policy: bash(38) allow process-exec* /bin/echo
+System Policy: bash(39) allow process-exec* /bin/cat
+verified
+System Policy: bash(40) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+tmpfs on /mnt1 (tmpfs, local, nosuid)
+SERIAL_DONE_0a5244df5e5a4648aab5a21d2bd8d50b

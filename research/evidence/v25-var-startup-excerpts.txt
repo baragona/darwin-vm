@@ -1,0 +1,19 @@
+com.apple.xpc.launchd|1970-01-01 00:00:14.269830 (fixup-mobile-tmp) <Error>: could not set create /private/var/mobile/tmp: Read-only file system
+writable-var
+WRITABLE_VAR_READY
+tmpfs on /mnt1 (tmpfs, local, nosuid)
+CADISPLAY_QUERY_BEGIN
+DYLD_SLIDE=0xd914000 CACHE_BASE=0x18d914000
+Sandbox: containermanagerd_system(31) deny(1) file-write-create /mnt1/root/Library/MobileContainerManager
+com.apple.xpc.launchd|1970-01-01 00:00:25.659245 (user/501/com.apple.backboardd [26]) <Notice>: exited due to SIGABRT | sent by backboardd[26], ran for 6324ms
+tmpfs on /mnt1 (tmpfs, local, nosuid)
+CADISPLAY_QUERY_BEGIN
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 44]: /usr/libexec/containermanagerd_system, launch typeSandbox: containermanagerd_system(44) deny(1) file-write-create /mnt1/root/Library/MobileContainerManager
+com.apple.xpc.launchd|1970-01-01 00:01:44.623713 (user/501/com.apple.backboardd [42]) <Notice>: exited due to SIGABRT | sent by backboardd[42], ran for 2681ms
+DYLD_SLIDE=0xd914000 CACHE_BASE=0x18d914000
+CADISPLAY_QUERY_BEGIN
+Sandbox: containermanagerd_system(48) deny(1) file-write-create /mnt1/root/Library/MobileContainerManager
+com.apple.xpc.launchd|1970-01-01 00:01:54.817104 (user/501/com.apple.backboardd [46]) <Notice>: exited due to SIGABRT | sent by backboardd[46], ran for 2623ms
+DYLD_SLIDE=0xd914000 CACHE_BASE=0x18d914000
+Sandbox: containermanagerd_system(51) deny(1) file-write-create /mnt1/root/Library/MobileContainerManager
+com.apple.xpc.launchd|1970-01-01 00:02:05.250905 (user/501/com.apple.backboardd [49]) <Notice>: exited due to SIGABRT | sent by backboardd[49], ran for 2759ms
