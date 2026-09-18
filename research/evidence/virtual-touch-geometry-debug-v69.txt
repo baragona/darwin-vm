@@ -1,0 +1,201 @@
+(lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103785040: 416
+0x103785048: 496
+0x103785050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103785368: 208
+0x103785370: 476
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1037858a0: 416
+0x1037858a8: 496
+0x1037858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103785b58: 208
+0x103785b60: 476
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 445
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 445
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 413
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 413
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103085040: 416
+0x103085048: 496
+0x103085050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085368: 208
+0x103085370: 382
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1030858a0: 416
+0x1030858a8: 496
+0x1030858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085b58: 208
+0x103085b60: 382
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103085040: 416
+0x103085048: 496
+0x103085050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085368: 208
+0x103085370: 351
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1030858a0: 416
+0x1030858a8: 496
+0x1030858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085b58: 208
+0x103085b60: 351
+(lldb)  (lldb)  register read x3
+      x3 = 0x0c00007da6d4db00
+(lldb)  (lldb)  register read x3
+      x3 = 0x0900007da6d4e540
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 319
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 319
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103085040: 416
+0x103085048: 496
+0x103085050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085368: 208
+0x103085370: 288
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1030858a0: 416
+0x1030858a8: 496
+0x1030858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085b58: 208
+0x103085b60: 288
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103085040: 416
+0x103085048: 496
+0x103085050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085368: 208
+0x103085370: 256
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1030858a0: 416
+0x1030858a8: 496
+0x1030858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103085b58: 208
+0x103085b60: 256
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 225
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 225
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103285040: 416
+0x103285048: 496
+0x103285050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103285368: 208
+0x103285370: 193
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1032858a0: 416
+0x1032858a8: 496
+0x1032858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103285b58: 208
+0x103285b60: 193
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 162
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 162
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 131
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 131
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 99
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 99
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x103385040: 416
+0x103385048: 496
+0x103385050: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385368: 208
+0x103385370: 99
+(lldb)  (lldb)  memory read -f f -s 8 -c 3 `$sp+0x40`
+0x1033858a0: 416
+0x1033858a8: 496
+0x1033858b0: 1
+(lldb)  (lldb)  memory read -f f -s 8 -c 2 `$x19+8`
+0x103385b58: 208
+0x103385b60: 99
+(lldb)  

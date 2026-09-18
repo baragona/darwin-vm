@@ -2093,3 +2093,18 @@ and reaches the observed event-posting method. The screen still shows Hello.
 The probe source now discovers CADisplay.mainDisplay.uniqueId and supplies
 it as `displayUUID`. This V69 build compiles and signs successfully but
 awaits installation and a guest test without the identifier override.
+
+
+### Display-associated probe passes guest verification (v69)
+
+The updated binary discovers this boot's LCD ID and supplies `displayUUID`
+without input debugger overrides. Read-only observers verified 28 geometry
+samples at 416×496, scale 1, and finite swipe coordinates from (208,476)
+to (208,99). The event-posting method was reached twice. Three gestures
+each returned all 14 dispatches through the monitor, but the welcome screen
+still does not advance. Existing UI bootstrap workarounds remain required.
+[Runtime evidence and screenshots](evidence/virtual-touch-runtime-v69.md).
+
+Guest inspection also found Setup.app and the original SetupAssistant budd
+daemon absent. Their exact firmware binaries are already trusted; restoring
+these setup components is the next integration experiment.

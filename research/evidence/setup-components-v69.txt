@@ -1,0 +1,6 @@
+/bin/ls -ld /System/Library/PrivateFrameworks/SetupAssistant.framew<em/Library/PrivateFrameworks/SetupAssistant.framewo                         rk/budd /launchjobs/com.a<ks/SetupAssistant.framework/budd /launchjobs/com.ap                         ple.purplebuddy.budd.plis<k/budd /launchjobs/com.apple.purplebuddy.budd.plist                         ; /bin/df -k /; echo SERI<le.purplebuddy.budd.plist; /bin/df -k /; echo SERIA                         L_DONE_97368858b55d40cbb2< /bin/df -k /; echo SERIAL_DONE_97368858b55d40cbb21                         606d7ca15adfa
+System Policy: bash(84) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/PrivateFrameworks/SetupAssistant.framework/budd': No such file or directory
+ls: cannot access '/launchjobs/com.apple.purplebuddy.budd.plist': No such file or directory
+bash: /bin/df: No such file or directory
+SERIAL_DONE_97368858b55d40cbb21606d7ca15adfa

@@ -1,0 +1,28 @@
+{
+  "display_uuid": "C5392DFA-E7E9-4753-8249-B0A42371E934",
+  "geometry_samples": 28,
+  "geometry_each": [
+    416,
+    496,
+    1
+  ],
+  "coordinate_samples": 28,
+  "all_coordinates_finite": true,
+  "first_coordinate": [
+    208.0,
+    476.0
+  ],
+  "last_coordinate": [
+    208.0,
+    99.0
+  ],
+  "observed_post_method_hits": 2,
+  "input_overrides": false,
+  "ui_bootstrap_overrides_still_required": true,
+  "three_gestures_each": {
+    "successful_dispatches": 14,
+    "matching_callbacks": 14,
+    "exit": 0
+  },
+  "welcome_screen_advanced": false
+}

@@ -1,0 +1,344 @@
+/bin/display-capture-probe --wake; /bin/hid-input-probe --virtual-s<ure-probe --wake; /bin/hid-input-probe --virtual-sw                         ipe; echo VIRTUAL_SETTLED<-input-probe --virtual-swipe; echo VIRTUAL_SETTLED_                         EXIT=$?; /bin/display-cap<pe; echo VIRTUAL_SETTLED_EXIT=$?; /bin/display-capt                         ure-probe; /bin/display-p<XIT=$?; /bin/display-capture-probe; /bin/display-pa                         ck-probe; echo DISPLAY_DA<re-probe; /bin/display-pack-probe; echo DISPLAY_DAT                         A_BEGIN; /bin/base64 /pri<k-probe; echo DISPLAY_DATA_BEGIN; /bin/base64 /priv                         ate/var/tmp/display-captu<_BEGIN; /bin/base64 /private/var/tmp/display-captur                         e.zlib; echo DISPLAY_DATA<te/var/tmp/display-capture.zlib; echo DISPLAY_DATA_                         END; /bin/ls -ld /Applica<.zlib; echo DISPLAY_DATA_END; /bin/ls -ld /Applicat                         ions/Setup.app /usr/libex<ND; /bin/ls -ld /Applications/Setup.app /usr/libexe                         c/budd; echo SERIAL_DONE_<ons/Setup.app /usr/libexec/budd; echo SERIAL_DONE_f                         96f320da4e04fb7bc383d7750</budd; echo SERIAL_DONE_f96f320da4e04fb7bc383d77505                         193e0
+System Policy: bash(78) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=0 NAME=off
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:08:27.156734 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 00:08:27.044442 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[78], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:29.061694 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=12522 OPAQUE_PIXELS=206336
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(79) allow process-exec* /bin/hid-input-probe
+HID_PROBE_BEGIN
+HID_CLIENT_TYPE=1 NAME=Monitor
+com.apple.xpc.launchd|1970-01-01 00:08:31.943091 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[79], error = 3: No such process
+HID_CLIENT=1
+HID_SERVICES=-1
+VTOUCH_DELEGATE_PROTOCOL_PRESENT=0
+VTOUCH_DISPLAY_UUID=C5392DFA-E7E9-4753-8249-B0A42371E934
+VTOUCH_SERVICE_OBJECT=1
+VTOUCH_PROPERTY KEY=DeviceUsagePairs FOUND=1
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=HIDPropertiesRequiredForMatching FOUND=0
+VTOUCH_PROPERTY KEY=Hidden FOUND=0
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=ProductID FOUND=1
+VTOUCH_PROPERTY KEY=VendorID FOUND=1
+VTOUCH_PROPERTY KEY=ReportInterval FOUND=0
+VTOUCH_PROPERTY KEY=BatchInterval FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=ProtectedAccess FOUND=0
+VTOUCH_PROPERTY KEY=QueueSize FOUND=0
+VTOUCH_PROPERTY KEY=SensorPropertySupported FOUND=0
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=LocationID FOUND=0
+VTOUCH_PROPERTY KEY=HIDServiceAccessEntitlement FOUND=0
+VTOUCH_PROPERTY KEY=Unregistered FOUND=0
+VTOUCH_SET_PROPERTY KEY=PreserveTimestamp PRESENT=1
+VTOUCH_SET_PROPERTY KEY=LogLevel PRESENT=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=QuantizationDPI PRESENT=1
+VTOUCH_SET_PROPERTY KEY=GraphicsOrientation PRESENT=1
+VTOUCH_PROPERTY KEY=MaxHoverHeight FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=DeviceOpenedByEventSystem PRESENT=1
+VTOUCH_NOTIFICATION=10
+VTOUCH_STATE=10 SERVICE_ID=0x7da6d8c8000002
+HID_SWIPE_FRAME=0 TOUCH=1 Y=0.960
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=AccurateMaxDigitizerPressureValue FOUND=0
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_VIRTUAL_DISPATCH_FRAME=0 RESULT=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=NeedsHostState FOUND=0
+VTOUCH_SET_PROPERTY KEY=TouchDetectionMode PRESENT=1
+HID_SWIPE_FRAME=1 TOUCH=1 Y=0.897
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_VIRTUAL_DISPATCH_FRAME=1 RESULT=1
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.960 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.960
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.897 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.897
+HID_SWIPE_FRAME=2 TOUCH=1 Y=0.833
+HID_VIRTUAL_DISPATCH_FRAME=2 RESULT=1
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.833 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.833
+HID_SWIPE_FRAME=3 TOUCH=1 Y=0.770
+HID_VIRTUAL_DISPATCH_FRAME=3 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.770 CHILDREN=1
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_FINGER TOUCH=1 X=0.500 Y=0.770
+HID_SWIPE_FRAME=4 TOUCH=1 Y=0.707
+HID_VIRTUAL_DISPATCH_FRAME=4 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.707 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.707
+HID_SWIPE_FRAME=5 TOUCH=1 Y=0.643
+HID_VIRTUAL_DISPATCH_FRAME=5 RESULT=1
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.643 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.643
+HID_SWIPE_FRAME=6 TOUCH=1 Y=0.580
+HID_VIRTUAL_DISPATCH_FRAME=6 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.580 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.580
+HID_SWIPE_FRAME=7 TOUCH=1 Y=0.517
+HID_VIRTUAL_DISPATCH_FRAME=7 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.517 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.517
+HID_SWIPE_FRAME=8 TOUCH=1 Y=0.453
+HID_VIRTUAL_DISPATCH_FRAME=8 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.453 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.453
+HID_SWIPE_FRAME=9 TOUCH=1 Y=0.390
+HID_VIRTUAL_DISPATCH_FRAME=9 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.390 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.390
+HID_SWIPE_FRAME=10 TOUCH=1 Y=0.327
+HID_VIRTUAL_DISPATCH_FRAME=10 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.327 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.327
+HID_SWIPE_FRAME=11 TOUCH=1 Y=0.263
+HID_VIRTUAL_DISPATCH_FRAME=11 RESULT=1
+com.apple.xpc.launchd|1970-01-01 00:08:38.944974 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.263 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.263
+HID_SWIPE_FRAME=12 TOUCH=1 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=12 RESULT=1
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.200
+HID_SWIPE_FRAME=13 TOUCH=0 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=13 RESULT=1
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=0 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=0 X=0.500 Y=0.200
+HID_MATCHING_CALLBACKS=14
+HID_PROBE_END
+VIRTUAL_SETTLED_EXIT=0
+System Policy: bash(80) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=12522 OPAQUE_PIXELS=206336
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(81) allow process-exec* /bin/display-pack-probe
+PACK_RAW_BYTES=825344 PACKED_BYTES=9144 WRITTEN=9144 CLOSE=0
+DISPLAY_DATA_BEGIN
+System Policy: bash(82) allow process-exec* /bin/base64
+eJzt3QeUXFX9OHATShBCL4YIEnoJRUA6kQhoqAekRpEmEoVDNwpSRMBDBwMiIBKkSO8oRUFEMEgJ
+aJAWEQm9JKFEovT7P993frP/yTK7OzM7s3d29/M953PE7OzsfW/evO979937vZ/5zGfSZwAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+pjPfe5zaciQIdnb0YoW
+XnjhtMoqq6RFF100DRgwIHt7cptnnnnSiiuuWPxv7rZUKz63JZZYIq211lpp5MiRaYsttkhbb711
+2nbbbXtE/K34m/G3ow3RFscS/dVss82Wvv/976dbbrklvfzyy6kUL730UrrpppvS/vvv3+n34/bb
+b09/+MMfqrbqqqt22ab4npZev84661S1Hd/85jc7/buXXHJJ+t73vpe++MUvFttc7f7ZeOON0w03
+3JBmzJiRyuPtt99OF198cVpjjTWqatdtt91W9d9cbrnl2tq95pprdrjPR48e3eHPjjrqqKr/3tFH
+H138zplnntnla1dYYYV0zjnnpNdff71tX3z88cfpiSeeSJdddln6zne+kwYOHJj9uK5kvvnmS5tu
+ummP5ZpqRZuibbn3D/SkuJ6/6667UlcRuWn++eev+B4fffRRl79fHiNGjOiyXeVtuuCCC6raljiH
+Vht/+9vf0mKLLdbp+80555zpiiuu6PK9/vvf/6bddtuty3Z98MEHVX8ucV1cis0337zDfX7kkUd2
++LNPPvkkffWrX63q711zzTXF79x3332dvu4nP/lJ8b5dxR133FEcW7mP73Jxft9qq62y55qORNvk
+IPqLOP8+99xzbeeMuHbdcccdi/6U4cOHp1133bW4/ynF5MmT0xxzzPGp9ymd7+68887iXNuVJZdc
+stN2xc/jeroUcZ8x11xzdbk9pfN8tOcHP/jBLH74wx+ms88+Oz300EOzbM8XvvCFiu8V23n33Xe3
+vfb5559PBx54YHEvttRSSxXnimOPPXaWe4Azzjij4nV/rvwTEfewCy64YJd/r5r8E/d6pZg2bVqx
+/XFvGJ/Xaqutlr7+9a+nm2++uS0/vfDCCxXv3XKI+/dWvO+pdB+kL47+4OSTT247n0QfUUevO/jg
+g9teF+eY9j/v7FxYjx/96EfF+/3zn/8sznMRkQu7+r1qz/N77LFH2znyuuuuq/ia6LsqReTgQYMG
+VXzd0KFD05///Oe21+677751t6tco/JPxFVXXdXl3+sq/+y1115t7/eXv/wlLbDAAh2+V9xzxT1h
+xIQJE7If5yGeseTOLdWKtubeX9BsjzzySHGOiPuAzl4X12NPPvlk27m4/c8bnX+eeuqp4v3ivuW8
+884r/vvWW2/t8vdqOc//6le/Kl47derUT11vxj3R//73v+LnDz/8cJp99tk7fa+4N3vllVeK18f9
+UPvX58o/r776att7dNY/GDrLP4ssskh68803246Vueeeu8v2x/VCKTbccMPsx3rsz9x5pVrR1tz7
+C5ot+pSqvT6OZ86bbbZZ0d/S/meNzD/rrrtu8V5xfxL9OvGsKCL+RozL6+x3aznP77TTTm3nx+g7
+Kv9Z9NWVotL2VhJ9c6XYaKON6m5XSSPyT+Tve++9t/jv6MPsrN/z2muvbbu3af+z/fbbr60to0aN
+"AppleSEPKeyStore":pid:0,:14008: AppleKeyStoreUserClient: Assertion timer fired
+qqr9kdMfe+yx4nduvPHG7Md6jDXLnVeqFW3Nvb+g2aLvKSKu3at5vtKRRuafGFcVEX1a8f/jPBbP
+ESIOO+ywTn+3lvP8V77ylbZz6pZbbjnLz+6///7i3994442q2x39c5F3Qvux67nyT4xpHDZsWHrn
+nXeK/x/Pszp6ttBZ/ik9B3vrrbdq+ixjjHpct8RYvp4+ttuL8c6580q1oq2ldsfzoHiG1mpjOaC7
+yp/rxHVyPMuo530alX9ivFnpeU+Mky79+6mnnlr829///vdOf7+W83z5NX2Mtyj9e4w7KD0b+uMf
+/9iQ/Zwz/8T/33PPPdveq6Mc3lH+iXHqpfe75557sh+z9erJ+T3dFW0ttbv0b9GHWU2/J/QWcc0e
+c0VKEeeZGPcc831WX331qudwlM5PMb4s5sJ0ZplllunwfWJsQ+k8XX69F/N1StHZXJtqz/Of/exn
+i7ENEc8888wsc4EiB5di3LhxDdnPpXZ9+OGHRV6pRowHaVT+CaV73ffee6/i/KuO8k/cy5XirLPO
+yn7M1it3TqlVpXaXXydBXxA5KM49leZ0xDODmHcZ48U6Gv8Vapn/E2O0O3qfeE4Q8bvf/e5TPyuN
+f4gxzh39flf5J54fRV/bo48+2tae2Lby10RfRyn22WefhuzjWuYlVYpG5J/I56W5xZMmTSruNct/
+p6P8U74/9t577w63MfpvI693JPdxnjufNCL/bLLJJtn3IzRDPCf48Y9/nP71r39VPAfGM6IvfelL
+FX+3Efknzo+RNyIqjdU65phjip+99tprHdYuKD/PRz5tr3389Kc//dR7rLfeem0/r1RboB6tkH9C
+jB0o7Yfo0yz/WUf5p7wfcPvtt+9wG6dPn97pNiy00EJZj+/c+aQR+edrX/ta9vMENFuMP95ll13S
+hRdeWDyDL0U8x24/tis04vnPAQccULzHzJkzK9YSi2fYpYi5n5Xeo9rzfIypjvEHld5j6aWXbntd
+pfxUj/L7shibXY2Y59ro/BOijzQi5veWX093lH/mnXfetnZ0Nv5D/ml+/qmmbgj0JdHvdvzxx7ed
+R6Lvqv1rGpF/SnUJIsfFc/9KSvdHHY0XL3/OEv1G5dZff/1i/FZEaWxdJfGMtxQxl78R+zD3+INy
+0RdW6sucMmVKW72Xzsa/leYRxdjEjtobY7ujLkS50nbHPVfuZ+e580kj8s/yyy+fdR9CLuPHjy/O
+JXFui2vi8p91N/+svPLKnV47t4+YG1qpFl1X5/nyeT2d9SWV+iD//e9/N2TftVL+Kb13KZdHTdb4
+t87yT6m+Q4yRrOeYadR+7I7ePv4trp9y53BolOgPiRpvoZp6U3G+LkX7+ezdzT8nnXRS8fsxxz7G
+fXUknn+X6sLVU+cmnpG/+OKLxWti/FulWnbh9NNPb7tu76pWXcnnP//54j4xxPoMtbSrkmbmn1Cq
+cRQRc3E7yz+nnHJK22vjPFjtNkTeiahUM6On9db5P9FPHOM/q6nhB+0tvvjixTOTmNMc4r/j33K9
+pqT8OXs1c9rL66G1H0PdnfwTY7xLOaGaOtelutiV6sRUc56PHFaKgw46qMt9c/nll1e1HRdddFHx
++ujjGzx4cM3taq/Z+SfGcMQ+jIhnN6VaTJXyT9TfibGQEbFGQzXtL39+FdvfyO9UPXpr/YPYj+ae
+Uq/yfFCeF3K9ptzjjz9enB9iXmFn46vjXinqfkVELYL248+6k3/i3FqKauqOxJjoUiy77LKz/Kya
+83zku9J2x1zXjupolq+7cMghh3TapjhnlO7LoqZr+5+3Yv4JMdai/ZpGlfJPOPzww9teE2MYOrp3
+DHGPVKoXFzWe2vfX5qD+G/1R+3xQkus15crrH0R+iX7n8ucq8Ww6vg+l+5OIMWPGfOp9Sue7c889
+t7h36Er5+ejSSy8tfjfmplQz3zXyRcyhjIi1aMp/Vu15fptttmnbntNOO63ia2KuUIz1LkW0c6WV
+Vmr7eYxRi362GCNYishnlWpItGr+CeV1rTvLP9F3GevLlSKeBUW7SsdL5KOo3Td27Nj0n//8p+11
+1a4/1GzqX9MftXL+CXGOivFi5RFzfWJsVHnEOb/9XM2Setefi36qd999t/i3zuaVtleap/rss8/O
+8uyqlvN86Zl6bFfcB1R6TfQzlu77ShH9UE8//XRbDiw/b3d03mjl/BOuv/76Wbajo9fF5xVrRJVH
+PCOLz6G03kL5fqr0jC4X6//QH7Vy/1v5702cOLFtTFR5xFizBx98sLi27ej3680/5XXJ1l577ar3
+6c477/yp9wq1nOejj6gUndX/jue+xx133CzzoMoj1u+LeUKdrdHQ6vknni+U1o/oLP+UxD1TjOEu
+XyOwFLGNV1555adqsLYC65/S37Tq+INKoiZLjLWJvLD77rsX6xJ0tfZNfxH9T9F3GDURYq5srEXR
+38ckxTzhOMaiVmyMoYtx9K1+vMT5vRXvg6JNcg9A3xb9W9FXGveYcZ0W4517cn5Q/K34m/G3ow3R
+Fn1uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AACEoUOHppEjR9Zk3XXXzd5uAHq3/fffP9UaTz/9dPZ2d2WppZZKe+yxRxo/fnzadNNNs7cHgFn1
+lfyz7LLLpm9/+9vpkksuSVOmTJmlvTvvvHP29gEwq96af1ZcccU0ZsyYdPnll6eXXnqp0/bKPwCt
+pzfknwEDBqThw4cXbb366qvTa6+9VlN75R+A1tOK+WfgwIFpjTXWSAcddFC6/vrr09SpU2tuo/wD
+0NpaIf/MNttsae21106HHXZYuvnmm9Obb77ZrXwj/wC0vpz55+tf/3q69dZb0zvvvNPQfNM+5B+A
+1pMz/1x88cVNyDYpzZw5M915553p6KOPTiNGjEhzzjln9v0MwKz6Qv6ZMWNGuv3229MRRxyRNthg
+gzTHHHNk368AdK435p+33nor/fa3v01jx45N66yzTpp99tmz70cAatMb8s+0adPSjTfemA455JC0
+5pprFuPjcu83ALqnFfPP66+/nq699tp0wAEHpNVWW62Y/5N7PwHQWK2Qf15++eV05ZVXpu9973tp
+5ZVXbuj2zT333Gn++efPvp8BmFXO/LPeeuul5ZdfvqHbM3jw4DRq1Kh04oknpgkTJqQPPvjA+GuA
+FtQK80+7I+5ttt5663TqqaemBx98MH344Yefaq/8A9B6elv+WWihhdJ2222XzjzzzPTII4+kjz/+
+uMv2yj8ArafV88+iiy6adtxxx3T22WenSZMmpU8++aTm9so/AK2n1fLP4osvnnbdddd07rnnpiee
+eKKufCP/ALS+3PlniSWWSLvttlu64IIL0uTJk7udayqF/APQenLmn+hTa3Y8+eSTRU2e3PsZgFm1
+wvyfRkX01T322GPp5z//edppp53SYostln3/AlBZb84/Mfbt0UcfTT/72c/S9ttvnxZeeOHs+xOA
+6vSm/PPRRx+lhx56KJ122mlpm222SQsssED2/QdAfVo5/0Ttgvvvvz+ddNJJaYsttkjzzjtv9v0F
+QGO0Uv5577330r333ptOOOGEtPnmmxe123LvHwCaI2f+iTk+d999dzr22GPTyJEj01xzzZV9fwDQ
+M3LP/wGgf5J/AMhB/gEgB/kHgBzkHwBykH8AyEH+ASAH+QeAHOQfAHKQfwDIQf6p3pxzzpnWX3/9
+tMMOO6QxY8akI488Mp155pnp0ksvTbfddltRm/upp55KEydOLOoK3XTTTcXPzjnnnHT88cen0aNH
+p5VXXjnNNtts2bcFIDf5p2Ozzz57kW8iz9x5553pv//9b837qlL873//Sw8//HC68MIL0ze/+c00
+ePDg7NsK0NPkn8puueWW9J///Kch+aariLx23XXXpZ133lnN735qjjnmSEOGDEnDhw9PI0aMSGut
+tVb6whe+kD772c9mbxs0i/xTWaw9lCPefffddOWVVxbruQ4aNCj7fqA5BgwYUKwxcvLJJ6cHHngg
+ffjhhxWPh1jj95FHHkmnn3562mSTTbK3GxpJ/qksV/4pj3feead4frTVVlulgQMHZt8ndF/c3+63
+335p8uTJdR0Tsd78brvtVuSv3NsC3SX/VNYK+ac8/v3vf6dDDz00zTfffNn3DfX5yle+kqZMmdKQ
+4+Gee+5JyyyzTPZtgu6QfyprtfxTihkzZqRx48Y59/QiMY7lrLPOSp988klDj4Xoq42xmLm3D+ol
+/1TWqvmnFPFcIMZ3x7qxufcVHYux9ldffXXTjoM4Trfbbrvs2wn1kH8qa/X8Ux5/+9vf0l577ZXm
+mWee7PuN/y+e2V122WVN//zff//94hlh7u2FWrVq/vnLX/6S3nvvvZo0si+iN+WfUkR/zG9+85vi
+XBR9PrmPrf4sxgeMHz++xz77mFMW4+lybzfUolXzT9QSqDVi/kyj/n5vzD/l8cYbbxR1FzbYYIPs
+x1h/dN555/X4Zx7zyNZbb73s2w7Vkn8q6+35pzxi7NxPf/rTovZP7uOtPzjhhBOyfdZ///vf1Xei
+15B/KutL+ac8nnvuuXT99deno446Km255Zbpc5/7XPZjMMQ8/5/97Gc1a7Xr/S996Uvpo48+yvoZ
+x/yi3PsBqiH/VNZX80+lePPNN4t7pBjHEPNKbr755mLe669+9auKfvjDHzblM586dWrNbT/xxBOz
+f4dKoobOpEmTmvAJ1RbTpk1LCy20UPb9AV2RfyrrT/mn1rjvvvua8plHjdda49Zbb83+HSo5+uij
+m7C364t49pd7f0BX5J/KSvkn5gz+85//LGqyHX744WnPPfdM2267bdpoo42K5ynRfxXrMoQFF1ww
+LbnkkmmllVZKa6+9dvryl7+cvvGNb6TjjjuumAMS18aNqqGdM5qVf0499dSa2/Liiy9m/w6FOBZi
+DGarRPQBrrbaatn3C3RG/qnswAMPLPJHo+vdxJyQVVZZJR188MHpd7/7XY/V2G5kNCv/xFoU9UTk
+/ZzfofhMJ0yY0OC93P2IMXg59wt0Rf7JK54ZRF3jc889N02fPr3mbc4Rzco/cQ9RT+SuC33AAQd0
+e5/G3K24z471C2M+aSPi1VdfVbeWlib/tI7ow4s5tDfeeGOH9fhbIZqVf2Lc8MyZM2tuT9yr5vrM
+5p9//rqvGyLfRJ/usssu+6n9sPzyyxdrLsS80u7ExhtvnP24ho7IP61piSWWKObsvP766zXvh2ZH
+s/JPiLVwao0Yk5frc4rxd7VG3N/8+Mc/Lq43unr/z3/+8+muu+6q+W+UIsao5z6WoSPyT2uLNeh2
+3333uvZHs6KZ+ef888+vuT0xbjzHZzN06NCax5PE/cyoUaNq+jtzzTVXuu2222reLxHPP/989mMY
+OiL/9B7rrrtuUc+yUc8H6o1m5p/vfve7NbcnxnrlqL16wQUX1NzOWnNPSdwrRZ6tJ9ZZZ53sxy5U
+Uk/+efbZZ5veLvmnY4suumgxfi7WwswRzcw/Uc+gnujpMQgrrrhizXUOouZEd/5m5JFYd6PWiJye
++5iFSurJPzFPvdntijpWtUasS5x7f/a01VdfvXhOHWt191Q0M/9EHZ566tc0qyZDR2644Yaa2vfH
+P/6xIWPRar3nioj5Z7mPU6iknvwT/T/NbtfLL79cc7tiferc+7MnDR48uLi2rSdXdyeamX/Ck08+
+WXObIh/01H6PeWG1RDwjatR6tdEHW2vkHJ8Bnakn/0TEc/FmtSnWTqmn/s1JJ52UfX/2hOHDhxf1
+VXrynqc8mp1/rrjiiprbFGOgYy5Vs/d9HJsPP/xwTW370Y9+1NA2xLjtWqKVahRBuaiVW08MGzas
+aW2K+ez1xEUXXZR9fzZLPF+PNU5jXb7c0ez8E31p9cQ222zT9M8hxiLWEv/6178anhd//etf19SG
+XOMDoSv77LNPTcdyKZr5rD/WTKsn/vrXv2bfn40WdeZ++ctfZrvXqRTNzj8xRqyeuPzyy5varphr
+GjUFaoldd9214e2I5zm1RMwhy30cQyX11tw644wzmtamcePG1dWmiKWXXjr7Pu2ueFZw7LHHFtfO
+rRjNzj9R07WeiFp6c889d9PaFX2etcTEiROL/rpGt6PWPvOYc5T7mIZKtt9++5qO5VLEM+9mfLdi
+jNArr7xSV5siujvGNYcY87XFFlsUc9Xrefbe3Yga388880y69tpr08knn1zUhIlxDVG7e/To0Z+y
+2WabNX2fvPbaa3VtS9SMaEZ74j601rHPW2+9dVPacsopp9TUDnNQaVX19nVEfOtb32p4e+qZf1ge
+L730Usus6dmZGENw2GGHpd///vfdrvFVT8T4wriej1wS4+hy74/26lkLKCLq5sUapI1sS9TAqbXf
+LcYINGvf/Pa3v62pLVHTKPfnCZXEOjX1RpzDGln7Psa1NmLdt/i+Rc2S3Pu2XKxHucsuu6Tx48cX
+a9bkiKjtGXW24/laM+5dGyn6d+uNJ554Ii222GINaccCCyxQd+2jq6666lO1Rbsr+gfifqaWuOmm
+m7J/nlDJIossUtd3qxTxXRg5cmS32hDfqb333ruh6w/86U9/yrL+Vpz3RowYUYzriH6SqGUdfWr1
+zFtvVMRnFGPKcq+TU4s4HroTMUc68n132rDWWmsV65J3J+J66uyzzy5qVjRiv0TfaK1hHSBaWT01
+78sjnh/E2KPoj1t88cWr/rsrrLBC+va3v53+8Y9/dOvvdxRxzr/kkkvSlltu2bBzb9TGj3uZL37x
+i8XYpmOOOaaoyRbXyG+//XZTtqPeePzxx4tzcLQ59zFWq3rHQLaP6MeLWkVxLVLNPV+8Ju7DY85m
+I9czjTmov/nNb4r+znrvPddff/26+gei1nbuzxM60uhn3pMnTy7uP+LaP+YqnHnmmUWNmAsvvDBd
+d911RS2SadOmNfRvdhWRI2M7Yy5e5Mpf/OIXRe6IOavRtrPOOqvom4rzzsUXX1zMgYw59bEdMX9i
+ypQpRX6J92n1iHFzcS3Qm9ceixzf6HjjjTeKMfq33357sZ56fN4xzjA+++gru+eee4rnh82OOJbi
+O7HjjjumIUOGdLkvYi2g+B7VuybUmDFjsn+e0JG4LhO9P+K5UpxreqIOQE/ojWuT1xNRzzfu0yIn
+xpiQGMMXdd5ibEqsh1pPPbzyyNEPDdWqtwaPaI2Iuak/+MEPWm7MRXe16vyn3hRxz5/7c4TOrLHG
+Grm/JqKOiOdb0V/YqLFerWbSpEm5d3Gvj5/85CfZP0foTHfnfIqej3vvvTetueaa2Y+dZqpnLW4x
+a6y88srZP0foSjyDF60f8ey6u+OKe4sJEybk3t29Oh577LHsnyFUI9YxE60bMfYu6vj3tWc8nfH8
+p3txxBFHZP8MoVq33HJL7q9Mp9GseUKtHFGbJ+5NYzxy7uOjp8WcGVFfxLiD/nStQu8Xc0cbWYOg
+kRHzblZZZZX0hz/8IXdTeiRizG2sZ7TkkktmPy5yqHcNKNGcGnjQE6LmcStGzFuN9kXdgd4wB7Q7
+EfW6ItfmPhZyivqsrR6xFmArHovHH3989s8P6nX99dfn/gp9KsrHekV9gr4W7777bjr//PPNFfw/
+sR5FK0esVxH9W1HDoJX6CR999NE+M/+Y/ilqJdZab76ZcfTRR8/SvlgvJ+aG94WI89ihhx5a1FnO
+/bm3klYej/nWW2+lVVddta2t66yzTkt8X2K8RtTqyf3ZQXcNHTq0Jc7xJ5xwQsX2DRo0qOXHS3QU
+0T8fdeiiLmqrr4OQS9SkacWImqRRn7R9e2N8SNSTy1XnPGra9ab65tCVODcedNBBWdZHi4j1Czpr
+X/QzxJqdvSGiRs7VV1+ddtttN+eJLtQzFyBqxMac3GZGXDfssMMOnbY9+ol7et7SiSee2KtrzUJn
+4llwfL97KmLsaKxtUE3bIkfutNNORZ3GVouYK/rzn/88ffWrX01zzjln9s+xt4ia1LVGrHEz++yz
+F9cszRgTMHHixGLsS7XHZDwXuuuuu5o6PiFqlsSxn/vzgmaL7/amm26axo0b1+01uTqKWLch7g/q
+uZaLNW723HPP9NxzzzWlbV3FCy+8UIxbi3PntttuW6zZnPsz663qqfsW69WVfn+rrbZK9913X0PO
+/TEuZOzYsXWvobTccsulU089tVj7oRER/XvRd7vddtsV38ncnxXkEOO0jjrqqPTggw/WXSc/1uWM
+dVcOOeSQtN566zVknbR4j5j7EOt9Rp94o2r4x/uU1jWK9YNOO+20ot1f+9rXGra2JZ8p7hvqiUrj
+1YcNG1Yco7XeG8dxGc9yIo/FWJdGbFf0Fccx/v3vf79YFyvWZ6024tiLuddxbdNf54NBZ2Isanw3
+ov87zslxHxPrTkbNmLh+3HfffdPOO+9c9EXFeKFa1kntjrhGjHNTPDOOvvtYH+fII48s2hXrz8W6
+BQceeGDx73vssUdRWy2uLUeNGlX8zkorrZTmnXfe7Pu3P5h77rmL+8haY8aMGV3eM8cztzgONt98
+87T77rsX1yexlnVcQ8T/j7Eg6667bpGzemp7l1lmmbThhhsW98t77bVX8T2JtUrjuxLjz2OM3fzz
+z5/9cwHo6+I5ej1x9913Z287AL3TCiuskN5///268k/cy+RuPwC9T/S7xXiBeiP6sXJvAwC9Szzf
+iDpq9cYjjzySfRsA6F0WWWSRIn90J6xxA/SUGMO6wQYbZG8H3RPzo2KecXci1qjoyfFqQP+1/vrr
+F3VsYrxt/Hfu9lCfGJsfc/e7G1dccUX2bQH6vrjnidxTivjvuBfK3S6qE/OCY45Nd8YZtI811lgj
++3YBfVvM0Yt7nvbx9ttvF3MGc7evr4t7zf3337+ovxR10av9vZhjHHMro1ZEI+53yuO2227Lvl+A
+vm2jjTaqmHvKc1DUU8jdzr4sck95xOcRa81ETdq4n4k6R9dcc0264YYbirmgMaagmevhRF03/a9A
+M3WVe0oR64FZ77552uef3PHLX/4y+z4B+q6NN964ptqhb775ZlprrbWyt7svaqX889prr1krFmia
+ESNG1FW3OnJQ1D/N3f6+ppXyz+jRo7PvD6BviprTseZKvTF9+vSq1wmjOq2Sfy655JLs+wLom+IZ
+TndyTymmTZtWrJuQe3v6ilbIP7HO1KBBg7LvC6BvmmeeedK9997b7XNVrBEXNS1zb09fkTv/xNjt
+WsZ9A9Rj8ODBacKECXWfqyJ/RR7LvR19Sc78E+tW608FekqsN/rXv/615nNV5K3IX7nb39fkyj8v
+vviiflSgx0Vd/ujzrzYeeOCBNN9882Vvd1+UI/8888wzaamllsq+7UD/FPM8Hn744S7PVfGayFe5
+29tX9XT+ufLKK83xAbJbcMEFO10j5tFHHy1ek7udfVlP5Z+opfStb30r+/YClCy00EJFrbH2MWnS
+pLTwwgtnb19f1+z8E+v4jB8/Pi255JLZtxWgvcgzkW9K8Y9//KNYPzN3u/qDZuWfjz/+OF1++eVp
++eWXz76NAJ1ZdNFFi7wT62Yutthi2dvTX8QaClOnTm1Y3on+1LFjx6Ylllgi+7YBVCvyzpAhQ7K3
+o78ZOHBgsdbS4Ycfni677LIih8ycObPLXPP++++niRMnFjWrx4wZk1ZYYYXs2wJA7zZgwIDi2dyw
+YcPS6quvXtQs32yzzYr1mJZbbrmifzTWPc3dTgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACgNquvvno64YQT0p133pmeffbZNH369DRz5sz0/vvvp48//jiJ/hXxmcdnH8dAHAtxTMSx
+EcdIHCu5j1egbzjvvPNyn+5EL4s4ZnIft0Dvdscdd+Q+lYleGnHs5D5+gd7JfY/obrgPAmoVffhC
+NCI8DwJqIf+IRoX8A9RK/5vobuh/A+pl/IGoN4w/ALrLfZCoNdz3AI1i/qkoD/NPAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAADy+H9XoFY/
+DISPLAY_DATA_END
+System Policy: bash(83) allow process-exec* /bin/ls
+ls: cannot access '/Applications/Setup.app': No such file or directory
+ls: cannot access '/usr/libexec/budd': No such file or directory
+SERIAL_DONE_f96f320da4e04fb7bc383d77505193e0

@@ -1,0 +1,10 @@
+{
+  "width": 416,
+  "height": 496,
+  "format": "BGRA",
+  "bytes": 825344,
+  "sha256": "e37b43131126e9e648db4785fca60d36ae2474e9fe0595d05dc46e5f8f3c0833",
+  "colored_pixels": 206336,
+  "opaque_pixels": 206336,
+  "orientation": "raw row order; no transform"
+}
