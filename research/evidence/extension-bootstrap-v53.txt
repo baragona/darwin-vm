@@ -1,0 +1,27 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.usermanagerd.<submit /launchjobs/com.apple.mobile.usermanagerd.pr                         com.apple.xpc.launchd|1970-01-01 00:00:54.394825 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-probe[24], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:54.459930 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[26], error = 3: No such process
+obecom.apple.xpc.launchd|1970-01-01 00:00:54.661005 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[26], error = 3: No such process
+.plist; /bin/lscom.apple.xpc.launchd|1970-01-01 00:00:55.064495 (user/501) <Warning>: failed lookup: name = com.apple.FSEvents, flags = 0x9, requestor = cfprefsd[30], error = 3: No such process
+_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+ /Sycom.apple.xpc.launchd|1970-01-01 00:00:55.433509 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[26], error = 3: No such process
+ste<le.mobile.usermanagerd.probe.plist; /bin/ls /System                         /Library/Frameworks/Exten<be.plist; /bin/ls /System/Library/Frameworks/Extens                         ionFoundation.framework; <Library/Frameworks/ExtensionFoundation.framework; /                         bin/launch-probe list; ec<onFoundation.framework; /bin/launch-probe list; ech                         o SERIAL_DONE_317eb2b491a<in/launch-probe list; echo SERIAL_DONE_317eb2b491a1                         4d29b66bcc9f474c8a39
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(39) allow process-exec* /bin/ls
+XPCServices
+com.apple.xpc.launchd|1970-01-01 00:01:01.751952 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:01:01.748604 (com.apple.mobile.usermanagerd) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|1970-01-01 00:01:01.749588 (user/501/com.apple.mobile.usermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:01:01.749793 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawn scheduled
+System Policy: bash(40) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=4
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+com.apple.xpc.launchd|1970-01-01 00:01:01.749831 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:01:01.750565 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+SERIAL_DONE_317eb2b491a14d29b66bcc9f474c8a39

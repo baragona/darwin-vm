@@ -1,0 +1,23 @@
+/ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+bin/ls -l /System/Library/Frameworks/ExtensionFoundation.framework<m/Library/Frameworks/ExtensionFoundation.framework/                         ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+XPACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+CServices/extensionkits<sionFoundation.framework/XPCServices/extensionkitse                         rvice.xpc; /ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+bin/launch-pr<PCServices/extensionkitservice.xpc; /bin/launch-pro                         be list; echo SERIAL_DONE<vice.xpc; /bin/launch-probe list; echo SERIAL_DONE_                         3e8637053ac3454f81a19a881<e list; echo SERIAL_DONE_3e8637053ac3454f81a19a8818                         aACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+d91ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+fc
+System Policy: bash(403) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc': No such file or directory
+System Policy: bash(404) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=8
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.runningboardd PID=378 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=357 LAST_EXIT=0
+JOB com.apple.backboardd PID=372 LAST_EXIT=15
+JOB com.apple.lsd PID=343 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=341 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=352 LAST_EXIT=11
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_3e8637053ac3454f81a19a8818ad91fc

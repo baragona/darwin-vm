@@ -1,0 +1,46 @@
+{
+  "build": "24A437",
+  "files": [
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/activation_rules.plist",
+      "size": 4906,
+      "sha256": "45ccaaa044c34868272db2739abd34c5aa259a88ba7e22e0def04ed80af60d4f"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/Info.plist",
+      "size": 733,
+      "sha256": "f3b99bca7269d8beba1a50e21cbfb2a498ab11684a6ba38ed64a158a1f5f2958"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/config.plist",
+      "size": 6319,
+      "sha256": "9188eef3ffba5d1fe596616ef4ce34edc1fdc16800f35fdc457179c5094580c4"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/compatibility.plist",
+      "size": 2748,
+      "sha256": "465b2e57c79f4e512ee38382151aa10ad192856aefd8c520467e37177ea3b111"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/_CodeSignature/CodeResources",
+      "size": 2768,
+      "sha256": "e904b4d4e7cc8490cea24fbdfe86d5306ed9a0039a3e537d069985f2592b1888"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc/extensionkitservice",
+      "size": 70496,
+      "sha256": "bcf35f13992df87746359b4a8d3b72496a333d4e94742af21871dc50a3cacb9d"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc/Info.plist",
+      "size": 912,
+      "sha256": "c868ad5e911a4071105ec27b663d21638c9761d8ca35de1f64936cf9cc01137b"
+    },
+    {
+      "path": "System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc/_CodeSignature/CodeResources",
+      "size": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    }
+  ],
+  "all_bytes_match_mounted_firmware": true
+}

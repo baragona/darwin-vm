@@ -1869,3 +1869,18 @@ one filter evaluation advances startup again, to a Swift cast abort involving
 _NSXPCDistantObject and ExtensionFoundation._EXDiscoveryServiceProtocol.
 [Exact addresses, limits, and evidence](evidence/credential-backlight-v52.md).
 These are ephemeral diagnostics; interactive graphics remains unverified.
+
+
+### Extension discovery resources and launch-domain rejection (v54)
+
+The missing ExtensionFoundation framework resources and extensionkitservice
+bundle are now copied from matching firmware into the guest image. A separately
+entitled rebuild probe successfully recreates SpringBoard's application record
+without a debugger authorization override. The other temporary persona/display
+experiments reproduce on the new boot.
+
+Launchd now discovers extensionkitservice but rejects its framework path for
+the requesting process domain with error 147 (“did not ship in the requestor's
+bundle”). SpringBoard still encounters the discovery-protocol cast abort.
+[Evidence, image manifests, and current state](evidence/extension-service-v54.md).
+The next investigation is guest launch-domain/path eligibility; no usable UI yet.
