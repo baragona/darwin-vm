@@ -1,0 +1,72 @@
+/bin/tail -c 16000 /var/tmp/springboard.stderr; /bin/ls -l /Applica<0 /var/tmp/springboard.stderr; /bin/ls -l /Applicat                         ions/Setup.app/Setup; ech<err; /bin/ls -l /Applications/Setup.app/Setup; echo                          SERIAL_DONE_6b2f02e21a51<ons/Setup.app/Setup; echo SERIAL_DONE_6b2f02e21a514                         da3912510597c640230
+System Policy: bash(138) allow process-exec* /bin/tail
+1970-01-01 00:03:12.-686 SpringBoard[61:621] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:03:15.-906 SpringBoard[61:621] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+1970-01-01 00:03:20.-752 SpringBoard[61:672] Error: Daemon connection invalidated
+1970-01-01 00:04:31.-790 SpringBoard[61:621] #configurationUpdateManager longPressBehavior: 0 previousValue: 0
+1970-01-01 00:04:42.-969 SpringBoard[61:621] Unbalanced calls to begin/end appearance transitions for <SBCoverSheetPrimarySlidingViewController: 0x5000079632fc700>.
+1970-01-01 00:12:55.-942 SpringBoard[105:1073] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f4748) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f4760).
+1970-01-01 00:13:05.-576 SpringBoard[109:1121] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f5708) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f5720).
+1970-01-01 00:13:15.-235 SpringBoard[111:1151] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f4168) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f4180).
+1970-01-01 00:13:25.-144 SpringBoard[114:1185] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f4168) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f4180).
+1970-01-01 00:13:35.-555 SpringBoard[118:1219] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f5708) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f5720).
+1970-01-01 00:13:45.-646 SpringBoard[119:1247] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f5708) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f5720).
+1970-01-01 00:13:55.-802 SpringBoard[120:1275] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:13:57.-968 SpringBoard[120:1275] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+Could not cast value of type '_NSXPCDistantObject' (0x7d50d66c28) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x7d50d66c40).
+1970-01-01 00:14:06.-421 SpringBoard[121:1309] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+Could not cast value of type '_NSXPCDistantObject' (0x2064f4168) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x2064f4180).
+1970-01-01 00:14:59.-570 SpringBoard[126:1358] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:15:01.-820 SpringBoard[126:1358] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+1970-01-01 00:15:06.-50 SpringBoard[126:1409] Error: Daemon connection invalidated
+1970-01-01 00:16:13.-753 SpringBoard[126:1358] #configurationUpdateManager longPressBehavior: 0 previousValue: 0
+1970-01-01 00:16:22.-623 SpringBoard[126:1358] Unbalanced calls to begin/end appearance transitions for <SBCoverSheetPrimarySlidingViewController: 0xc00007c493ec000>.
+*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'The appLayouts array MUST contain the app layout we're transitioning to.'
+*** First throw call stack:
+(0x19fc97190 0x19fa14380 0x1a0508940 0x244116984 0x24457be48 0x2447485d8 0x244748030 0x1aeeb3474 0x1aeeb3504 0x1aeef5318 0x1aeef37ec 0x1aeef3b2c 0x2449b40e8 0x1ce0f3ccc 0x1ce10dfb4 0x1ce103374 0x1ce103044 0x19fc487a0 0x19fc3988c 0x19fc3a7f4 0x24a2fcf24 0x1a3f181cc 0x2442993b0 0x19fa8b5b8)
+libc++abi: terminating due to uncaught exception of type NSException
+System Policy: bash(139) allow process-exec* /bin/ls
+-rwxrwxr-x 1 _unknown _unknown 4213216 Sep 10  2026 /Applications/Setup.app/Setup
+SERIAL_DONE_6b2f02e21a514da3912510597c640230

@@ -1,0 +1,15 @@
+/sbin/mount; /sbin/mount -uw /; echo ROOT_UPDATE_STATUS=$?; /sbin/m<n/mount -uw /; echo ROOT_UPDATE_STATUS=$?; /sbin/mo                         unt; echo SERIAL_DONE_32d<PDATE_STATUS=$?; /sbin/mount; echo SERIAL_DONE_32d1                         21a733554b50912b95878b5d2<nt; echo SERIAL_DONE_32d121a733554b50912b95878b5d2f                         53
+System Policy: bash(142) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+tmpfs on /private/var (tmpfs, local, nosuid)
+System Policy: bash(143) allow process-exec* /sbin/mount
+System Policy: mount(144) allow process-exec* /System/Library/Filesystems/apfs.fs/mount_apfs
+mount_apfs: volume could not be mounted: Operation not permitted
+mount: / failed with 77
+ROOT_UPDATE_STATUS=77
+System Policy: bash(145) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+tmpfs on /private/var (tmpfs, local, nosuid)
+SERIAL_DONE_32d121a733554b50912b95878b5d2f53

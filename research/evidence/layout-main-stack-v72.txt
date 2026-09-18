@@ -1,0 +1,118 @@
+0x18af7fc10
+IMAGE
+-----
+ >  (__TEXT_STUBS.)
+
+0x188143c10: ?
+
+0x1876bb978
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x18487f978: -[UIImageConfiguration .cxx_destruct] + 32
+
+0x187727a70
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1848eba70: ___78-[_UIAssetManager imageNamed:configuration:cachingOptions:attachCatalogImage:]_block_invoke_2 + 372
+
+0x1877278a8
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1848eb8a8: ___88-[_UIAssetManager _performLookUpObjectForTraitCollection:outNamedLookup:objectAccessor:]_block_invoke + 88
+
+0x1877277ec
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1848eb7ec: -[UITraitCollection _enumerateThemeAppearanceNamesForLookup:] + 200
+
+0x1877276a0
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1848eb6a0: -[_UIAssetManager _performLookUpObjectForTraitCollection:outNamedLookup:objectAccessor:] + 244
+
+0x1879dc814
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x184ba0814: -[_UIAssetManager _lookUpObjectForTraitCollection:objectAccessor:] + 36
+
+0x1876d6ea4
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x18489aea4: ___78-[_UIAssetManager imageNamed:configuration:cachingOptions:attachCatalogImage:]_block_invoke + 796
+
+0x187c01734
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x184dc5734: -[_UIAssetManager imageNamed:configuration:] + 332
+
+0x18772d988
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1848f1988: +[UIImage imageNamed:inBundle:variableValue:withConfiguration:] + 360
+
+0x187d995a4
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x184f5d5a4: -[UISystemKeyboardDockController configuredGlyphWithName:] + 132
+
+0x1877c280c
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x18498680c: -[UISystemKeyboardDockController updateDockItemsVisibilityWithCustomDictationAction:] + 1296
+
+0x187768d08
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x18492cd08: -[UISystemKeyboardDockController updateDockItemsVisibility] + 76
+
+0x187e55438
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x185019438: -[UIDictationController postNotificationName:userInfo:] + 692
+
+0x187efd6a0
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1850c16a0: -[UIDictationController dictationConnnectionDidChangeAvailability:] + 112
+
+0x18864e3fc
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1858123fc: -[UIDictationConnection dictationConnnectionDidChangeAvailability:] + 60
+
+0x19bed47ec
+IMAGE
+-----
+ > /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices (__TEXT.__text)
+
+0x1990987ec: ___63-[AFDictationConnection _tellSpeechDelegateAvailabilityChanged]_block_invoke + 60

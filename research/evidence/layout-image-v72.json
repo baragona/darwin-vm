@@ -1,0 +1,37 @@
+{
+  "build": "24A437",
+  "backup": "service-root.pre-layout-v72.dmg",
+  "files": [
+    {
+      "path": "bin/ls-rebuild-probe",
+      "sha256": "74c8d2d510586b55840052cf176198198a88c6638af5166ed1eff22e762f4e84",
+      "bytes": 69264
+    },
+    {
+      "path": "launchjobs/com.apple.mobilegestalt.probe.plist",
+      "sha256": "2845a5e717301d926af27dd6d5fa8a76b3976a7f564770748507f66aa6af81c7",
+      "bytes": 752
+    }
+  ],
+  "probe_cdhash": "85ddb3a2f233bfb507765285750a3fd005c89e6b",
+  "trust_cache_entries_before": 4409,
+  "trust_cache_entries_after": 4410,
+  "trust_cache_sha256": "38c7504fe105494bfd2d24b8353cbcf46a6852acb7e2a60b7e5174b2cdd200f1",
+  "runtime_validation": {
+    "booted": true,
+    "probe_executed": true,
+    "setup_installed_before_rebuild": true,
+    "setup_installed_after_rebuild": true,
+    "setup_url": "file:///Applications/Setup.app/",
+    "springboard_installed": true,
+    "rebuild_result": 1,
+    "setup_registration_not_needed": true,
+    "ui_transition_investigation": "Membership breakpoint not reached in observation; input probe explicitly cancelled; SpringBoard main-thread sample is in keyboard image lookup",
+    "missing_bundle_is_installed": false,
+    "missing_bundle_url": null,
+    "springboard_pid": 67,
+    "mobilegestalt_pid": 60
+  },
+  "ownership_fix_applied": false,
+  "ownership_fix_note": "Guest root remount returned 77 (EPERM); host sudo -n required a password, so no ownership change was made."
+}

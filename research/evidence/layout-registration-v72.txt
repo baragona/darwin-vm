@@ -1,0 +1,190 @@
+echo BEFORE_REBUILD; /bin/ls-rebuild-probe --query com.apple.purple<LD; /bin/ls-rebuild-probe --query com.apple.purpleb                         uddy; /bin/launch-probe s<--query com.apple.purplebuddy; /bin/launch-probe st                         op com.apple.backboardd; <ddy; /bin/launch-probe stop com.apple.backboardd; /                         bin/sleep 2; /bin/launch-<p com.apple.backboardd; /bin/sleep 2; /bin/launch-p                         robe start com.apple.back<in/sleep 2; /bin/launch-probe start com.apple.backb                         oardd; /bin/sleep 3; /bin<obe start com.apple.backboardd; /bin/sleep 3; /bin/                         ls-rebuild-probe --rebuil<ardd; /bin/sleep 3; /bin/ls-rebuild-probe --rebuild                         -system; echo AFTER_REBUI<s-rebuild-probe --rebuild-system; echo AFTER_REBUIL                         D; /bin/ls-rebuild-probe <system; echo AFTER_REBUILD; /bin/ls-rebuild-probe -                         -query com.apple.purplebu<; /bin/ls-rebuild-probe --query com.apple.purplebud                         dy; /bin/ls-rebuild-probe<query com.apple.purplebuddy; /bin/ls-rebuild-probe                          --query com.apple.springb<y; /bin/ls-rebuild-probe --query com.apple.springbo                         ard; echo SERIAL_DONE_3bc<-query com.apple.springboard; echo SERIAL_DONE_3bcb                         f3c61714494fa4fd95bf8ddbc<rd; echo SERIAL_DONE_3bcbf3c61714494fa4fd95bf8ddbcb                         05
+BEFORE_REBUILD
+System Policy: bash(48) allow process-exec* /bin/ls-rebuild-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_IDENTIFIER=com.apple.purplebuddy
+com.apple.xpc.launchd|1970-01-01 00:02:19.577057 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-rebuild-prob[48], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x100e6eaa0> com.apple.purplebuddy file:///Applications/Setup.app/ <com.apple.purplebuddy <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///Applications/Setup.app/
+LS_PROBE_END
+com.apple.xpc.launchd|1970-01-01 00:02:19.880253 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = ls-rebuild-prob[48], error = 3: No such process
+System Policy: bash(49) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:02:20.020559 (user/501/com.apple.backboardd [26]) <Notice>: legacy-stop service: caller = launch-probe[49]<-bash[3], value = 0x0
+com.apple.xpc.launchd|1970-01-01 00:02:20.023651 (user/501/com.apple.backboardd [26]) <Notice>: signaled service: Terminated: 15
+com.apple.xpc.launchd|1970-01-01 00:02:20.023724 (user/501/com.apple.backboardd [26]) <Notice>: service state: SIGTERMed
+com.apple.xpc.launchd|1970-01-01 00:02:20.023786 (user/501/com.apple.backboardd [26]) <Notice>: scheduling cleanup in 3 sec after sending Terminated: 15
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+com.apple.xpc.launchd|1970-01-01 00:02:20.083015 (user/501/com.apple.backboardd [26]) <Notice>: exited due to SIGTERM | sent by launchd[1], ran for 121578ms
+com.apple.xpc.launchd|1970-01-01 00:02:20.083235 (user/501/com.apple.backboardd [26]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:02:20.083379 (user/501/com.apple.backboardd [26]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:20.083471 (user/501) <Notice>: service inactive: com.apple.backboardd
+com.apple.xpc.launchd|1970-01-01 00:02:20.084167 (user/501/com.apple.backboardd [26]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:02:20.085166 (pid/26 [backboardd]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:02:20.085201 (pid/26 [backboardd]) <Notice>: removing active service: com.apple.ACCHWComponentAuthService
+com.apple.xpc.launchd|1970-01-01 00:02:20.085588 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: signaled service: Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:02:20.085636 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: service state: SIGKILLed
+com.apple.xpc.launchd|1970-01-01 00:02:20.085683 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: scheduling cleanup in 9 sec after sending Killed: 9
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(50) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:02:20.118079 (pid/28 [ACCHWComponentA]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:02:20.118409 (pid/28 [ACCHWComponentA]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:02:20.119524 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: exited due to SIGKILL | sent by launchd[1] during teardown of process-scoped services after host exited, ran for 120013ms
+com.apple.xpc.launchd|1970-01-01 00:02:20.119593 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:02:20.119644 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:20.119675 (pid/26 [backboardd]) <Notice>: service inactive: com.apple.ACCHWComponentAuthService
+com.apple.xpc.launchd|1970-01-01 00:02:20.120113 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: internal event: PETRIFIED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:20.120158 (pid/26 [backboardd]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:02:20.120220 (pid/26/com.apple.ACCHWComponentAuthService [28]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:02:20.120679 (system) <Notice>: removing child: pid/28
+com.apple.xpc.launchd|1970-01-01 00:02:20.120783 (system) <Notice>: removing child: pid/26
+System Policy: bash(51) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: xpcproxy(52) allow process-exec* /usr/libexec/backboardd
+com.apple.xpc.launchd|1970-01-01 00:02:22.336186 (user/501/com.apple.backboardd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:22.336413 (user/501/com.apple.backboardd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:22.336448 (user/501/com.apple.backboardd) <Notice>: service state: spawning
+System Policy: bash(53) allow process-exec* /bin/sleep
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 52]: /usr/libexec/backboardd, launch type 1, failure prcom.apple.xpc.launchd|1970-01-01 00:02:22.337147 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:22.337179 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:22.337221 (user/501/com.apple.backboardd) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:02:22.355791 (user/501/com.apple.backboardd [52]) <Notice>: xpcproxy spawned with pid 52
+com.apple.xpc.launchd|1970-01-01 00:02:22.355947 (user/501/com.apple.backboardd [52]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:22.355996 (user/501/com.apple.backboardd [52]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:22.357583 (user/501/com.apple.backboardd [52]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:22.407060 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:22.407115 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:22.657053 (user/501/com.apple.backboardd [52]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:22.657308 (user/501/com.apple.backboardd [52]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:22.657427 (user/501/com.apple.backboardd [52]) <Notice>: Successfully spawned backboardd[52] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:02:22.763672 (pid/52 [backboardd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:22.763845 (pid/52 [backboardd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:22.821513 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:22.851427 (user/501) <Warning>: failed lookup: name = com.apple.oscard, flags = 0x8, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:22.903590 (pid/52 [backboardd]) <Notice>: uncorking domain
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+System Policy: xpcproxy(54) allow process-exec* /System/Library/PrivateFrameworks/CoreAccessories.framework/XPCServices/ACCHWComponentAuthService.xpc/ACCHWComponentAuthService
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:52,sel:35:8589: unexpected session uid: -1 requested by: backboardd (52)
+"AppleSEPKeyStore":pid:52,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:52,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:52,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:52,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:52,:13996: operation failed (sel: 17 ret: e00002d8)
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 54]: /System/Library/PrivateFrameworks/CoreAccessories."AppleSEPKeyStore":pid:52,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:52,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:52,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:52,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:52,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:52,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:52,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:52,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:52,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:52,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:52,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:52,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:23.238617 (pid/52 [backboardd]) <Error>: Path not allowed in target domain: type = pid, path = /System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /usr/libexec
+com.apple.xpc.launchd|1970-01-01 00:02:23.249271 (pid/52 [backboardd]) <Notice>: Service stub initialized for com.apple.ACCHWComponentAuthService
+com.apple.xpc.launchd|1970-01-01 00:02:23.249653 (pid/52/com.apple.ACCHWComponentAuthService) <Notice>: initialized endpoint after lookup
+com.apple.xpc.launchd|1970-01-01 00:02:23.262121 (pid/52/com.apple.ACCHWComponentAuthService) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:23.262178 (pid/52/com.apple.ACCHWComponentAuthService) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:23.262212 (pid/52/com.apple.ACCHWComponentAuthService) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:23.262559 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.262600 (pid/52 [backboardd]) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.262652 (pid/52/com.apple.ACCHWComponentAuthService) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:02:23.328961 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: xpcproxy spawned with pid 54
+com.apple.xpc.launchd|1970-01-01 00:02:23.329135 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:23.329186 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:23.329736 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:23.330838 (user/501) <Warning>: failed lookup: name = com.apple.runningboard, flags = 0x8, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.681020 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.771283 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.771347 (pid/52 [backboardd]) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.787493 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:24.488977 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:23.826115 (user/501) <Warning>: failed lookup: name = com.apple.frontboard.systemappservices, flags = 0x200, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.915914 (user/501) <Warning>: failed lookup: name = com.apple.analyticsd, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.973258 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:23.992289 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:23.992344 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:23.992471 (pid/52/com.apple.ACCHWComponentAuthService [54]) <Notice>: Successfully spawned ACCHWComponentAuthService[54] because ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:02:24.005807 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:24.491855 <Notice>: Flushed 30 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:02:24.901213 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:02:24.637772 (pid/54 [ACCHWComponentA]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:24.637963 (pid/54 [ACCHWComponentA]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:25.035691 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ACCHWComponentA[54], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:25.061515 (pid/54 [ACCHWComponentA]) <Notice>: uncorking domain
+System Policy: bash(55) allow process-exec* /bin/ls-rebuild-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501
+com.apple.xpc.launchd|1970-01-01 00:02:25.784193 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-rebuild-prob[55], error = 3: No such process
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+LS_REBUILD_RESULT=1
+LS_PROBE_END
+AFTER_REBUILD
+System Policy: bash(56) allow process-exec* /bin/ls-rebuild-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_IDENTIFIER=com.apple.purplebuddy
+com.apple.xpc.launchd|1970-01-01 00:02:28.350895 (user/501) <Warning>: failed lookup: name = com.apple.CoreServices.fshelper, requestor = lsd[45], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x101166aa0> com.apple.purplebuddy file:///Applications/Setup.app/ <com.apple.purplebuddy <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///Applications/Setup.app/
+LS_PROBE_END
+System Policy: bash(57) allow process-exec* /bin/ls-rebuild-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_IDENTIFIER=com.apple.springboard
+com.apple.xpc.launchd|1970-01-01 00:02:28.470037 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-rebuild-prob[56], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:28.579971 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = ls-rebuild-prob[56], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x103646aa0> com.apple.springboard file:///System/Library/CoreServices/SpringBoard.app/ <com.apple.springboard <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///System/Library/CoreServices/SpringBoard.app/
+LS_PROBE_END
+SERIAL_DONE_3bcbf3c61714494fa4fd95bf8ddbcb05
