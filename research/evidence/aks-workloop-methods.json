@@ -1,0 +1,128 @@
+[
+  {
+    "class": "AppleKeyStore",
+    "bundle": "com.apple.driver.AppleSEPKeyStore",
+    "vtable_addr": "0xfffffe000819dd78",
+    "methods": [
+      {
+        "index": 20,
+        "offset": 160,
+        "slot_addr": "0xfffffe000819de18",
+        "target": "0xfffffe000b2e1c04",
+        "method": "fn_0xa0()",
+        "class": "AppleKeyStore",
+        "auth": true,
+        "pac": 1621,
+        "pac_hex": "0x655",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      },
+      {
+        "index": 86,
+        "offset": 688,
+        "slot_addr": "0xfffffe000819e028",
+        "target": "0xfffffe00095bef80",
+        "method": "fn_0x2b0()",
+        "class": "AppleKeyStore",
+        "auth": true,
+        "pac": 15464,
+        "pac_hex": "0x3c68",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      },
+      {
+        "index": 111,
+        "offset": 888,
+        "slot_addr": "0xfffffe000819e0f0",
+        "target": "0xfffffe00095bfc00",
+        "method": "fn_0x378()",
+        "class": "AppleKeyStore",
+        "auth": true,
+        "pac": 25486,
+        "pac_hex": "0x638e",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      }
+    ]
+  },
+  {
+    "class": "AppleKeyStoreUserClient",
+    "bundle": "com.apple.driver.AppleSEPKeyStore",
+    "vtable_addr": "0xfffffe000819e7c8",
+    "methods": [
+      {
+        "index": 20,
+        "offset": 160,
+        "slot_addr": "0xfffffe000819e868",
+        "target": "0xfffffe000b2e1c04",
+        "method": "fn_0xa0()",
+        "class": "AppleKeyStoreUserClient",
+        "auth": true,
+        "pac": 1621,
+        "pac_hex": "0x655",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      },
+      {
+        "index": 86,
+        "offset": 688,
+        "slot_addr": "0xfffffe000819ea78",
+        "target": "0xfffffe00095ca83c",
+        "method": "fn_0x2b0()",
+        "class": "AppleKeyStoreUserClient",
+        "auth": true,
+        "pac": 15464,
+        "pac_hex": "0x3c68",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      },
+      {
+        "index": 111,
+        "offset": 888,
+        "slot_addr": "0xfffffe000819eb40",
+        "target": "0xfffffe000b2e83b4",
+        "method": "fn_0x378()",
+        "class": "AppleKeyStoreUserClient",
+        "auth": true,
+        "pac": 25486,
+        "pac_hex": "0x638e",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      }
+    ]
+  },
+  {
+    "class": "IOWorkLoop",
+    "bundle": "com.apple.kernel",
+    "vtable_addr": "0xfffffe0007ebad88",
+    "methods": [
+      {
+        "index": 20,
+        "offset": 160,
+        "slot_addr": "0xfffffe0007ebae28",
+        "target": "0xfffffe000b32daf4",
+        "method": "fn_0xa0()",
+        "class": "IOWorkLoop",
+        "auth": true,
+        "pac": 4584,
+        "pac_hex": "0x11e8",
+        "key": 0,
+        "addr_div": true,
+        "cache_level": 0,
+        "overrides": true
+      }
+    ]
+  }
+]

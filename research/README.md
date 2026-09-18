@@ -524,3 +524,33 @@ V17 is stopped. The current v18 guest is running with QMP
 `127.0.0.1:63418`. Developer Mode was temporarily set to 1 and read back in the
 guest. The next direction is to trace the kernel-side user-client open rather
 than infer driver readiness from the startup log.
+
+
+### Kernel-side user-client trace (v19)
+
+A fresh boot with QEMU `-S -gdb tcp:127.0.0.1:63419` allowed hardware
+breakpoints before managed backboardd starts. `ipsw kernel cpp --methods`
+recovered the stripped AppleKeyStore / AppleKeyStoreUserClient / IOWorkLoop
+vtables. The user-client startup entry is unslid `0xfffffe00095ca83c`.
+
+The trace passed base startup and the entitlement-check sequence. It did not
+reach the instruction after the work-loop call at `0xfffffe00095cab0c`.
+Live object reads confirm the newly allocated command gate and the actual
+IOWorkLoop vtable. The resolved call matches `IOWorkLoop::addEventSource`,
+which delegates to its control gate; compare [Apple's implementation](https://github.com/apple-oss-distributions/xnu/blob/main/iokit/Kernel/IOWorkLoop.cpp).
+This narrows the wait to event-source attachment or its callees, rather than a
+completed user-client open followed by a user-space key operation. Identifying
+the gate owner and its blocked kernel stack is the next step; SEP causality
+is still unproven.
+
+[Breakpoint observations](evidence/aks-workloop-v19.md) and
+[recovered method slots](evidence/aks-workloop-methods.json) preserve addresses
+and interpretation limits. A second unmanaged backboardd test in v18 exited
+because its HID endpoint already belonged to the managed job; it did not
+reach this breakpoint. Use the managed startup for reproducing the trace.
+
+V18 is stopped. V19 is now running at `/tmp/a19-ui-v19-qmp.sock`, UART
+`/tmp/a19-ui-v19-serial.sock`, GDB `127.0.0.1:63419`. All trace breakpoints were
+removed before detaching; the temporary TXM Developer Mode override was applied
+and read back. The automatic UI probe still did not complete its CADisplay
+query. There is no graphical-startup success claim.
