@@ -2007,3 +2007,38 @@ probe's output before interpreting the image. Transfers can exceed a short
 collector timeout; that timeout does not stop the guest command. QEMU's
 configured serial logfile can preserve the complete transfer across collector
 reconnections. No touch-input success has been established yet.
+
+
+### HID press/release delivery and legible setup greeting (v65)
+
+The signed [HID probe](hid-input-probe.c) creates a Monitor client and can
+send a bounded Consumer Menu/Home press and release with `--home`.
+Both events passed the guest server's entitlement check unchanged, reached
+its accepted dispatch path, and returned through the monitor callback with
+the correct sender ID, usage, and down/up values. Service enumeration still
+returns no array; dispatch and monitor delivery are verified separately.
+
+A later [actual LCD frame](evidence/hid-after-v65.png) shows `Ciao` and the
+swipe-up instruction with legible text. The animated greeting and early
+baseline prevent attributing this change solely to the Home event.
+[Full input, display, and startup evidence](evidence/hid-runtime-v65.md).
+Touch input and advancing past the welcome screen remain unverified.
+
+The [display packer](display-pack-probe.c) reduces raw UART export size:
+
+```sh
+/bin/display-pack-probe
+echo DISPLAY_DATA_BEGIN
+/bin/base64 /private/var/tmp/display-capture.zlib
+echo DISPLAY_DATA_END
+```
+
+Decode that complete transcript with:
+
+```sh
+python3 research/decode-display-capture.py --zlib TRANSCRIPT OUTPUT_PREFIX
+```
+
+The V65 greeting frame transferred 19347 compressed bytes instead of 825344
+raw bytes. The decoder rejects incomplete streams, trailing data, and output
+larger than the fixed framebuffer; compression does not alter any pixels.

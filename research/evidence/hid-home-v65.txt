@@ -1,0 +1,32 @@
+/bin/hicom.apple.xpc.launchd|1970-01-01 00:05:09.125986 (user/501) <Warning>: failed lookup: name = com.apple.iconservices, requestor = SpringBoard[58], error = 3: No such process
+d-input-probe --home; echo HIDcom.apple.xpc.launchd|1970-01-01 00:05:10.463765 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+_HOMEcom.apple.xpc.launchd|1970-01-01 00:05:10.712579 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = CommCenter[64], error = 3: No such process
+_EXIT=$?; echo SERIAL_Dcom.apple.xpc.launchd|1970-01-01 00:05:11.916027 (user/501) <Warning>: failed lookup: name = com.apple.nehelper, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+<--home; echo HID_HOME_EXIT=$?; echo SERIAL_DONE_c7f                       d8fe67217404f93e839f8f622<?; echo SERIAL_DONE_c7fd8fe67217404f93e839f8f6222a8                         d
+System Policy: bash(71) allow process-exec* /bin/hid-input-probe
+com.apple.xpc.launchd|1970-01-01 00:05:17.447237 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[51], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:05:18.419458 (user/501) <Warning>: failed lookup: name = com.apple.nehelper, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+HID_PROBE_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:05:19.863211 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = installd[47], error = 3: No such process
+Sandbox: CommCenter(64) allow mach-lookup com.apple.mobile.usermanagerd.xpc
+com.apple.xpc.launchd|1970-01-01 00:05:20.698317 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+HID_CLIENT_TYPE=1 NAME=Monitor
+com.apple.xpc.launchd|1970-01-01 00:05:22.658941 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[71], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:05:24.150521 (user/501) <Warning>: failed lookup: name = com.apple.apsd, requestor = CommCenter[64], error = 3: No such process
+HID_CLIENT=1
+com.apple.xpc.launchd|1970-01-01 00:05:27.100811 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = CommCenter[64], error = 3: No such process
+HID_SERVICES=-1
+HID_DISPATCH_BEGIN PAGE=12 USAGE=64 DOWN=1
+HID_DISPATCH_RETURNED
+"AppleSEPKeyStore":pid:58,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:26:3384: no sks endpoint to send to
+HID_OBSERVED TYPE=3 PAGE=12 USAGE=64 DOWN=1
+HID_DISPATCH_BEGIN PAGE=12 USAGE=64 DOWN=0
+HID_DISPATCH_RETURNED
+HID_OBSERVED TYPE=3 PAGE=12 USAGE=64 DOWN=0
+com.apple.xpc.launchd|1970-01-01 00:05:30.741087 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+HID_MATCHING_CALLBACKS=2
+HID_PROBE_END
+HID_HOME_EXIT=0
+SERIAL_DONE_c7fd8fe67217404f93e839f8f6222a8d

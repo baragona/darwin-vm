@@ -1,0 +1,24 @@
+{
+  "build": "24A437",
+  "probes": [
+    {
+      "path": "bin/hid-input-probe",
+      "sha256": "54e138a7f40b9eca6d2d70c732c7f070ec7727e27f86d13ec5e48bc90a759fd0",
+      "cdhash": "b322a8b1fd8c1c0827bfa898ce6a25dfa76ac9b2"
+    },
+    {
+      "path": "bin/display-pack-probe",
+      "sha256": "939efea5f947d3f6c64ab949c6c18ad8d0773fda3d703c4a23e62175e7848171",
+      "cdhash": "ec3b161b9c3b76d29b20d6b5e88294ad4700b4ed"
+    }
+  ],
+  "trust_cache_entries_before": 4403,
+  "trust_cache_entries_after": 4405,
+  "previous_entries_preserved": true,
+  "runtime_validation": {
+    "hid_client": "Monitor created; service array NULL",
+    "home_pair": "dispatch permission mask 0x0a; both events reach server accepted dispatch; two matching monitor callbacks; exit 0",
+    "display_packer": "825344-byte actual frame compressed to 19347 bytes, decoded and counts verified",
+    "ui": "legible setup greeting; touch not tested"
+  }
+}

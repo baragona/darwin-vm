@@ -1,0 +1,6 @@
+/bin/launch-probe lookup com.apple.iohideventsystem; /bin/launch-pr< lookup com.apple.iohideventsystem; /bin/launch-pro                         be lookup com.apple.backb<ntsystem; /bin/launch-probe lookup com.apple.backbo                         ard.hid.services; echo SE<e lookup com.apple.backboard.hid.services; echo SER                         IAL_DONE_00c7b75a85304aab<rd.hid.services; echo SERIAL_DONE_00c7b75a85304aab9                         4b6462f2f3d5791
+System Policy: bash(74) allow process-exec* /bin/launch-probe
+LOOKUP com.apple.iohideventsystem RESULT=0 PORT=7171
+System Policy: bash(75) allow process-exec* /bin/launch-probe
+LOOKUP com.apple.backboard.hid.services RESULT=0 PORT=3587
+SERIAL_DONE_00c7b75a85304aab94b6462f2f3d5791
