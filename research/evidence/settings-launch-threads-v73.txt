@@ -1,0 +1,248 @@
+/bin/thread-probe 95; /bin/thread-probe 46"AppleSEPKeyStore":pid:92,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:92,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:92,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:92,:13996: operation failed (sel: 7 ret: e00002d8)
+; echo SERIAL_DONE_f2acom.apple.xpc.launchd|1970-01-01 00:12:18.544692 (user/501) <Warning>: failed lookup: name = com.apple.iokit.powerdxpc, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:19.254834 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:12:18.640704 (user/501) <Warning>: failed lookup: name = com.apple.devicedatareset.DeviceDataResetObservationService.NonLaunching, flags = 0x88, requestor = SpringBoard[95], error = 3: No such process
+<6; echo SERIAL_DONE_f2abc0fe50ca4fb28f8e4916bd9de71                      com.apple.xpc.launchd|1970-01-01 00:12:19.262311 (user/501) <Warning>: failed lookup: name = com.apple.splashboard.launchimage, flags = 0x200, requestor = SpringBoard[95], error = 3: No such process
+2
+com.apple.xpc.launchd|1970-01-01 00:12:20.480846 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:25.032343 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:25.113714 (user/501) <Warning>: failed lookup: name = com.apple.iconservices, requestor = SpringBoard[95], error = 3: No such process
+System Policy: bash(101) allow process-exec* /bin/thread-probe
+com.apple.xpc.launchd|1970-01-01 00:12:25.410965 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[54], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:29.338994 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+"AppleSEPKeyStore":pid:46,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:46,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:46,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:46,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:12:29.826337 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:29.777793 (user/501) <Warning>: failed lookup: name = com.apple.appprotectiond.guard, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:31.240590 (user/501) <Warning>: failed lookup: name = PurplePPTServer, flags = 0x1, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:31.663480 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+TASK PID=95 RESULT=0
+DYLD_SLIDE=0x4000 CACHE_BASE=0x180004000
+THREADS_RESULT=0 COUNT=20
+THREAD 0 PC=0x237efbcd4 LR=0x237eff308 FP=0x16b6d5e40
+ FRAME 0 RETURN=0x237eff228
+ FRAME 1 RETURN=0x237eff074
+ FRAME 2 RETURN=0x18063a46c
+ FRAME 3 RETURN=0x180639828
+ FRAME 4 RETURN=0x18063a7f4
+ FRAME 5 RETURN=0x22acfcf24
+ FRAME 6 RETURN=0x1849181cc
+ FRAME 7 RETURN=0x224c993b0
+ FRAME 8 RETURN=0x18048b5b8
+ FRAME 9 RETURN=0x0
+THREAD 1 PC=0x237f015f8 LR=0x18053fda0 FP=0x16b75e820
+ FRAME 0 RETURN=0x2a2a6792c
+ FRAME 1 RETURN=0x2ad368d24
+com.apple.xpc.launchd|1970-01-01 00:12:34.150715 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:12:33.962627 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:34.092029 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+ FRAME 2 RETURN=0x1aeaf3ccc
+ FRAME 3 RETURN=0x1aeb0dfb4
+ FRAME 4 RETURN=0x1aeafc87c
+ FRAME 5 RETURN=0x1aeafd470
+ FRAME 6 RETURN=0x1aeb07c8c
+ FRAME 7 RETURN=0x1aeb076b0
+ FRAME 8 RETURN=0x18053f238
+ FRAME 9 RETURN=0x18053e910
+THREAD 2 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 3 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 4 PC=0x237efba80 LR=0x18053f284 FP=0x105786b50
+ FRAME 0 RETURN=0x18053e910
+THREAD 5 PC=0x237efbcd4 LR=0x237eff308 FP=0x1067858e0
+ FRAME 0 RETURN=0x237eff228
+ FRAME 1 RETURN=0x237eff074
+ FRAME 2 RETURN=0x18063a46c
+ FRAME 3 RETURN=0x180639438
+ FRAME 4 RETURN=0x18063a7f4
+ FRAME 5 RETURN=0x1806dcda8
+ FRAME 6 RETURN=0x1a842a854
+ FRAME 7 RETURN=0x180542038
+ FRAME 8 RETURN=0x18053e91c
+THREAD 6 PC=0x237efbcd4 LR=0x237eff308 FP=0x106a85f80
+ FRAME 0 RETURN=0x237eff228
+ FRAME 1 RETURN=0x237eff074
+ FRAME 2 RETURN=0x1805d9efc
+ FRAME 3 RETURN=0x1805d9000
+ FRAME 4 RETURN=0x1805a1b90
+ FRAME 5 RETURN=0x1805a2758
+ FRAME 6 RETURN=0x1805b3ba4
+ FRAME 7 RETURN=0x1805b9104
+ FRAME 8 RETURN=0x1805b8c2c
+ FRAME 9 RETURN=0x1805b8b38
+ FRAME 10 RETURN=0x1805b4550
+ FRAME 11 RETURN=0x1805b63dc
+ FRAME 12 RETURN=0x19e4c1d80
+ FRAME 13 RETURN=0x19e4c1c9c
+ FRAME 14 RETURN=0x19e4c4ca0
+ FRAME 15 RETURN=0x19e4d54e8
+ FRAME 16 RETURN=0x224cfe61c
+ FRAME 17 RETURN=0x224cfe058
+ FRAME 18 RETURN=0x1aeaf3ccc
+ FRAME 19 RETURN=0x1aeb0dfb4
+ FRAME 20 RETURN=0x1aeafc87c
+ FRAME 21 RETURN=0x1aeafd470
+ FRAME 22 RETURN=0x1aeb07c8c
+ FRAME 23 RETURN=0x1aeb076b0
+THREAD 7 PC=0x237efbcd4 LR=0x237eff308 FP=0x107185d40
+ FRAME 0 RETURN=0x237eff228
+ FRAME 1 RETURN=0x237eff074
+ FRAME 2 RETURN=0x18063a46c
+ FRAME 3 RETURN=0x180639438
+ FRAME 4 RETURN=0x18063a7f4
+ FRAME 5 RETURN=0x1806dcda8
+ FRAME 6 RETURN=0x1c133fcc8
+ FRAME 7 RETURN=0x180d00edc
+ FRAME 8 RETURN=0x180542038
+ FRAME 9 RETURN=0x18053e91c
+THREAD 8 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 9 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 10 PC=0x18060ad50 LR=0x18060acf8 FP=0x107d85aa0
+ FRAME 0 RETURN=0x18060a360
+ FRAME 1 RETURN=0x180b1f45c
+ FRAME 2 RETURN=0x18c3316a0
+ FRAME 3 RETURN=0x18c32b5ac
+ FRAME 4 RETURN=0x18c32b0bc
+ FRAME 5 RETURN=0x18c32d9e4
+ FRAME 6 RETURN=0x18c331694
+ FRAME 7 RETURN=0x18c32b5ac
+ FRAME 8 RETURN=0x18c32b0bc
+ FRAME 9 RETURN=0x18c32d9e4
+ FRAME 10 RETURN=0x18c331a60
+ FRAME 11 RETURN=0x18c331cb0
+ FRAME 12 RETURN=0x18c331c10
+ FRAME 13 RETURN=0x18c32dce4
+ FRAME 14 RETURN=0x18c33466c
+ FRAME 15 RETURN=0x18c34070c
+ FRAME 16 RETURN=0x18c3384a4
+ FRAME 17 RETURN=0x1a7cec350
+ FRAME 18 RETURN=0x1aeaf3ccc
+ FRAME 19 RETURN=0x1aeb0dfb4
+ FRAME 20 RETURN=0x1aeafc87c
+ FRAME 21 RETURN=0x1aeafd470
+ FRAME 22 RETURN=0x1aeb07c8c
+ FRAME 23 RETURN=0x1aeb076b0
+THREAD 11 PC=0x180610db4 LR=0x1806e7194 FP=0x107c85df0
+ FRAME 0 RETURN=0x1806e7194
+ FRAME 1 RETURN=0x1806e6ee4
+ FRAME 2 RETURN=0x180687ab4
+ FRAME 3 RETURN=0x1806df1ac
+ FRAME 4 RETURN=0x1806ec458
+ FRAME 5 RETURN=0x180c74554
+ FRAME 6 RETURN=0x1c183b6e0
+ FRAME 7 RETURN=0x1c183b68c
+ FRAME 8 RETURN=0x1c183b36c
+ FRAME 9 RETURN=0x1c1835a4c
+ FRAME 10 RETURN=0x1c183c5ec
+ FRAME 11 RETURN=0x1c1830ff0
+ FRAME 12 RETURN=0x1c1836fb0
+ FRAME 13 RETURN=0x1c4f86ed4
+ FRAME 14 RETURN=0x1c4f89ef8
+ FRAME 15 RETURN=0x1c4f88f3c
+ FRAME 16 RETURN=0x1c4f8a3e0
+ FRAME 17 RETURN=0x1c4f8aa08
+ FRAME 18 RETURN=0x1c4f89dc8
+ FRAME 19 RETURN=0x1c4fa00ec
+ FRAME 20 RETURN=0x1aeb03cd0
+ FRAME 21 RETURN=0x1aeb0dfb4
+ FRAME 22 RETURN=0x1aeafe570
+ FRAME 23 RETURN=0x1aeb07c8c
+THREAD 12 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 13 PC=0x237efba80 LR=0x18053f284 FP=0x105486b60
+ FRAME 0 RETURN=0x18053e910
+THREAD 14 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 15 PC=0x18053e908 LR=0x0 FP=0x0
+THREAD 16 PC=0x244206bd4 LR=0x2441fa6a8 FP=0x106d84b30
+ FRAME 0 RETURN=0x244206804
+ FRAME 1 RETURN=0x1aeb0dfcc
+ FRAME 2 RETURN=0x1aeb08fb4
+ FRAME 3 RETURN=0x1aeb0dfb4
+ FRAME 4 RETURN=0x1aeafa4e8
+ FRAME 5 RETURN=0x1aeb086f8
+ FRAME 6 RETURN=0x1aeb08818
+ FRAME 7 RETURN=0x2442078dc
+ FRAME 8 RETURN=0x24420799c
+ FRAME 9 RETURN=0x183ce7a78
+ FRAME 10 RETURN=0x183ce74d0
+ FRAME 11 RETURN=0x183ce70a0
+ FRAME 12 RETURN=0x183ce7d6c
+ FRAME 13 RETURN=0x183ce1d6c
+ FRAME 14 RETURN=0x183c68080
+ FRAME 15 RETURN=0x183ccf668
+ FRAME 16 RETURN=0x183ccf75c
+ FRAME 17 RETURN=0x298be8b74
+ FRAME 18 RETURN=0x298be87e4
+ FRAME 19 RETURN=0x298bef284
+ FRAME 20 RETURN=0x184a527c8
+ FRAME 21 RETURN=0x184f944b4
+ FRAME 22 RETURN=0x184ea4fa0
+ FRAME 23 RETURN=0x298be7738
+THREAD 17 PC=0x237efbc50 LR=0x1aeaf586c FP=0x106e86c50
+ FRAME 0 RETURN=0x1aeaf5f50
+ FRAME 1 RETURN=0x19f16c958
+ FRAME 2 RETURN=0x19f159ee4
+ FRAME 3 RETURN=0x19f141c14
+ FRAME 4 RETURN=0x180d00edc
+ FRAME 5 RETURN=0x180542038
+ FRAME 6 RETURN=0x18053e91c
+THREAD 18 PC=0x237efba80 LR=0x18053f284 FP=0x107786b50
+ FRAME 0 RETURN=0x18053e910
+THREAD 19 PC=0x18053e908 LR=0x0 FP=0x0
+RESUME_RESULT=0
+com.apple.xpc.launchd|1970-01-01 00:12:34.713257 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:34.780798 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:34.796249 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:34.833957 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:34.890334 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:34.911474 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:35.000856 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:35.951042 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:35.894106 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:36.168350 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:35.991838 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:36.385343 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:12:36.378108 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:36.395674 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:36.869191 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:12:36.770012 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:36.805721 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:38.210945 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:36.957975 (user/501) <Warning>: failed lookup: name = com.appSystem Policy: bash(102) allow process-exec* /bin/thread-probe
+le.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:38.211991 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:37.012687 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:38.390007 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:38.378223 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:38.867924 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:38.567555 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:40.194252 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:12:39.444294 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:40.638880 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:12:40.547696 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:40.845385 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:40.761779 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+TASK PID=46 RESULT=0
+DYLD_SLIDE=0x4000 CACHE_BASE=0x180004000
+THREADS_RESULT=0 COUNT=2
+THREAD 0 PC=0x237efbcd4 LR=0x237eff308 FP=0x16eefa4d0
+ FRAME 0 RETURN=0x237eff228
+ FRAME 1 RETURN=0x237eff074
+ FRAME 2 RETURN=0x18063a46c
+ FRAME 3 RETURN=0x180639438
+ FRAME 4 RETURN=0x18063a7f4
+ FRAME 5 RETURN=0x1806dcda8
+ FRAME 6 RETURN=0x186f4da0c
+ FRAME 7 RETURN=0x186f4d978
+ FRAME 8 RETURN=0x18048b5b8
+ FRAME 9 RETURN=0x0
+THREAD 1 PC=0x237efba80 LR=0x18053f284 FP=0x16f00efe0
+ FRAME 0 RETURN=0x18053e910
+RESUME_RESULT=0
+com.apple.xpc.launchd|1970-01-01 00:12:43.977403 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:42.276024 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:43.804011 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+SERIAL_DONE_f2abc0fe50ca4fb28f8e4916bd9de712

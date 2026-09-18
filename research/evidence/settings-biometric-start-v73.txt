@@ -1,0 +1,85 @@
+/bin/launch-probe submit /var/tmp/biometric-probe-v73.plist; /bin/l< submit /var/tmp/biometric-probe-v73.plist; /bin/la                         unch-probe start com.appl<-probe-v73.plist; /bin/launch-probe start com.apple                         .biometrickitd.pearl; /bi<nch-probe start com.apple.biometrickitd.pearl; /bin                         /launch-probe lookup com.<biometrickitd.pearl; /bin/launch-probe lookup com.a                         pple.pearld; /bin/launch-<launch-probe lookup com.apple.pearld; /bin/launch-p                         robe start com.apple.Spri<ple.pearld; /bin/launch-probe start com.apple.Sprin                         gBoard; /bin/launch-probe<obe start com.apple.SpringBoard; /bin/launch-probe                          list; echo SERIAL_DONE_4c<Board; /bin/launch-probe list; echo SERIAL_DONE_4c5                         384fba92c446aa4b021324e46<ist; echo SERIAL_DONE_4c5384fba92c446aa4b021324e469                         6ce
+System Policy: bash(90) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(91) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:11:07.469419 (user/501/com.apple.biometrickitd.pearl) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:07.470007 (user/501/com.apple.biometrickitd.pearl) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:11:07.470046 (user/501/com.apple.biometrickitd.pearl) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:11:07.470885 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:07.470921 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:07.470966 (user/501/com.apple.biometrickitd.pearl) <Notice>: launching: non-ipc demand
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: xpcproxy(92) allow process-exec* /private/var/tmp/biometrickitd-v72
+com.apple.xpc.launchd|1970-01-01 00:11:07.499691 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: xpcproxy spawned with pid 92
+com.apple.xpc.launchd|1970-01-01 00:11:07.499979 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: internal event: SPAWNED, code = 0
+System Policy: bash(93) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:11:07.500036 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:11:07.500792 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:07.575389 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:07.575550 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:07.671565 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: service state: running
+LOOKUP com.apple.pearld RESULT=0 PORT=2819
+com.apple.xpc.launchd|1970-01-01 00:11:07.671698 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:07.671848 (user/501/com.apple.biometrickitd.pearl [92]) <Notice>: Successfully spawned biometrickitd-v72[92] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:11:07.857439 (pid/92 [biometrickitd-v]) <Notice>: uncorking exec source upfront
+System Policy: bash(94) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:11:07.858177 (pid/92 [biometrickitd-v]) <Notice>: created
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:11:08.019931 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = biometrickitd-v[92], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:11:08.034174 (user/501/com.apple.SpringBoard) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:08.034394 (user/501/com.apple.SpringBoard) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:11:08.034432 (user/501/com.apple.SpringBoard) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:11:08.035330 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:08.035360 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:08.035413 (user/501/com.apple.SpringBoard) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:11:08.035531 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:11:08.035553 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: bash(96) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:11:08.767593 (user/501/com.apple.SpringBoard [95]) <Notice>: service spawned with pid 95
+com.apple.xpc.launchd|1970-01-01 00:11:08.767914 (user/501/com.apple.SpringBoard [95]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:08.767967 (user/501/com.apple.SpringBoard [95]) <Notice>: service state: spawned
+com.apple.xpc.launchd|1970-01-01 00:11:08.768117 (user/501/com.apple.SpringBoard [95]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:11:08.768157 (user/501/com.apple.SpringBoard [95]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:08.768246 (user/501/com.apple.SpringBoard [95]) <Notice>: job state = running
+com.apple.xpc.launchd|1970-01-01 00:11:08.768393 (user/501/com.apple.SpringBoard [95]) <Notice>: Successfully spawned SpringBoard[95] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:11:08.768510 (user/501/com.apple.SpringBoard [95]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:11:09.119048 (pid/95 [SpringBoard]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:11:09.119341 (pid/95 [SpringBoard]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:11:09.301374 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = SpringBoard[95], error = 3: No such process
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=13
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=95 LAST_EXIT=15
+JOB com.apple.runningboardd PID=67 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=62 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=48 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=54 LAST_EXIT=15
+JOB com.apple.lsd PID=46 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=92 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=44 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=65 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+com.apple.xpc.launchd|1970-01-01 00:11:10.151053 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = SpringBoard[95], error = 3: No such process
+"AppleSEPKeyStore":pid:95,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:95,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:95,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:95,:13996: operation failed (sel: 35 ret: e00002d8)
+"AppleSEPKeyStore":pid:95,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:95,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:95,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:95,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:95,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:95,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:95,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:95,:13996: operation failed (sel: 7 ret: e00002d8)
+SERIAL_DONE_4c5384fba92c446aa4b021324e4696ce
