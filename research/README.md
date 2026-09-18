@@ -18,8 +18,9 @@ and a full installed system are not working yet.
   superseded; the original container helper is restored in v30.
 - Matching ICU data gets container migration past date-formatter initialization.
 - Backboardd reaches its main run loop and QuartzCore render-server threads.
-- A fresh CADisplay query completes: five wireless displays, all with 0 × 0
-  modes, and no main display. A usable output and rendered UI remain absent.
+- The baseline exposes five zero-sized wireless displays. Guest debugger
+  configuration now adds a 416 × 496 virtual LCD selected by CADisplay as
+  the main display (v42); presentation and interaction remain unverified.
 - Direct CPU composition of a local opaque red CALayer is verified: all 4,096
   pixels in a 64x64 output buffer match the expected color (v36).
 - Alpha blending, layer movement/color changes, and repaint of the old position
@@ -29,6 +30,8 @@ and a full installed system are not working yet.
   (v39), including with Developer Mode restored to off.
 - Adding the missing public passwd database fixes SpringBoard's user-directory
   crash; its next verified assertion requires a non-null main display (v42).
+- With the virtual LCD selected, SpringBoard passes its missing-display
+  assertion and next rejects an inert process handle with pid -1 (v42).
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1395,3 +1398,21 @@ startup diagnostics; RunningBoard has not been started in this experiment.
 The [post-trace check](evidence/springboard-post-trap-v42.txt) confirms backboardd
 still runs and CADisplay queries complete. The five Wireless displays remain
 zero-sized and `CADISPLAY_MAIN_PRESENT=0`; SpringBoard is stopped with LAST_EXIT=5.
+
+
+## Client-visible virtual main LCD (v42)
+
+[Procedure and interpretation](evidence/virtual-main-v42.md) document two
+small, temporary debugger changes in backboardd: enable the existing virtual
+main-display path, then provide `LCD` as its constructor name. The default
+`CAVirtualMainDisplay` name produces a supported internal display but does
+not pass the client main-display name filter, which recognizes `LCD` or
+`Internal`. Supplying `LCD` yields `CADISPLAY_MAIN_PRESENT=1` with a nonzero
+416 × 496 mode. No fabricated main-display pointer or skipped assertion is
+involved. Developer Mode stayed off.
+
+SpringBoard then advances to FrontBoard workspace/process initialization,
+where it asserts `invalid pid for <inert:[anon<SpringBoard>:-1]*>`.
+Investigate RunningBoard and launch-domain registration next. The display
+changes are process-local and must be repeated after restarting backboardd;
+a maintained boot configuration and graphical presentation remain future work.
