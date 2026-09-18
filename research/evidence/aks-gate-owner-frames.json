@@ -1,0 +1,98 @@
+{
+  "note": "Candidate frame-pointer chain from saved kernel-stack dump, not a validated unwind; top-16-bit PAC stripping heuristic. Seed selected from scan.",
+  "gate_owner": "0xfffffe25c9fed8a0",
+  "recursion_count": 2,
+  "stack_base": "0xfffffe50bc120000",
+  "frames": [
+    {
+      "frame": "0xfffffe50bc123560",
+      "next": "0xfffffe50bc1235e0",
+      "return": "0xfffffe002b2f5874",
+      "unslid_return": "0xfffffe000b2f5874"
+    },
+    {
+      "frame": "0xfffffe50bc1235e0",
+      "next": "0xfffffe50bc123680",
+      "return": "0xfffffe00295f0458",
+      "unslid_return": "0xfffffe00095f0458"
+    },
+    {
+      "frame": "0xfffffe50bc123680",
+      "next": "0xfffffe50bc123730",
+      "return": "0xfffffe00295c5dfc",
+      "unslid_return": "0xfffffe00095c5dfc"
+    },
+    {
+      "frame": "0xfffffe50bc123730",
+      "next": "0xfffffe50bc1237d0",
+      "return": "0xfffffe00295c5f70",
+      "unslid_return": "0xfffffe00095c5f70"
+    },
+    {
+      "frame": "0xfffffe50bc1237d0",
+      "next": "0xfffffe50bc123910",
+      "return": "0xfffffe00295c4f24",
+      "unslid_return": "0xfffffe00095c4f24"
+    },
+    {
+      "frame": "0xfffffe50bc123910",
+      "next": "0xfffffe50bc123980",
+      "return": "0xfffffe002b3318f4",
+      "unslid_return": "0xfffffe000b3318f4"
+    },
+    {
+      "frame": "0xfffffe50bc123980",
+      "next": "0xfffffe50bc1239d0",
+      "return": "0xfffffe00295c0b2c",
+      "unslid_return": "0xfffffe00095c0b2c"
+    },
+    {
+      "frame": "0xfffffe50bc1239d0",
+      "next": "0xfffffe50bc123b30",
+      "return": "0xfffffe00295f60b4",
+      "unslid_return": "0xfffffe00095f60b4"
+    },
+    {
+      "frame": "0xfffffe50bc123b30",
+      "next": "0xfffffe50bc123be0",
+      "return": "0xfffffe00295c0980",
+      "unslid_return": "0xfffffe00095c0980"
+    },
+    {
+      "frame": "0xfffffe50bc123be0",
+      "next": "0xfffffe50bc123c70",
+      "return": "0xfffffe00295f1f04",
+      "unslid_return": "0xfffffe00095f1f04"
+    },
+    {
+      "frame": "0xfffffe50bc123c70",
+      "next": "0xfffffe50bc123ce0",
+      "return": "0xfffffe002b3318f4",
+      "unslid_return": "0xfffffe000b3318f4"
+    },
+    {
+      "frame": "0xfffffe50bc123ce0",
+      "next": "0xfffffe50bc123da0",
+      "return": "0xfffffe00295ebb20",
+      "unslid_return": "0xfffffe00095ebb20"
+    },
+    {
+      "frame": "0xfffffe50bc123da0",
+      "next": "0xfffffe50bc123e20",
+      "return": "0xfffffe002858d298",
+      "unslid_return": "0xfffffe000858d298"
+    },
+    {
+      "frame": "0xfffffe50bc123e20",
+      "next": "0xfffffe50bc123f20",
+      "return": "0xfffffe002ac2930c",
+      "unslid_return": "0xfffffe000ac2930c"
+    },
+    {
+      "frame": "0xfffffe50bc123f20",
+      "next": "0xffff000000000000",
+      "return": "0xfffffe002ab48378",
+      "unslid_return": "0xfffffe000ab48378"
+    }
+  ]
+}

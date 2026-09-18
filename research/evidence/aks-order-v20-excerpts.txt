@@ -1,0 +1,37 @@
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:4,sel:35:8589: unexpected session uid: -1 requested by: backboardd (4)
+"AppleSEPKeyStore":pid:4,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:4,sel:17:66: ioreg: 1, boot_arg: 0
+"AppleSEPKeyStore":pid:4,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:4,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:4,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:4,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:4,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:4,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:4,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:4,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:4,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:4,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:4,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:4,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:4,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:4,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:4,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:4,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+com.apple.xpc.launchd|1970-01-01 00:00:20.036269 (user/501/com.apple.backboardd [4]) <Notice>: exited due to SIGABRT | sent by backboardd[4], ran for 6190ms
+DISPLAY_PROBE_BEGIN
+CADISPLAY_QUERY_BEGIN
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+DISPLAY_SELF_SAMPLE_BEGIN
+THREAD 0 PC=0x251f2d818 LR=0x1a1f3c648 FP=0x16f31f420
+ FRAME 2 RETURN=0x19e4193b8
+ FRAME 3 RETURN=0x19e51b05c
+THREAD 0 RESUME_RESULT=0
+DISPLAY_SELF_SAMPLE_END
+com.apple.xpc.launchd|1970-01-01 00:00:26.377451 (user/501/com.apple.backboardd [20]) <Notice>: exited due to SIGABRT | sent by backboardd[20], ran for 1824ms
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+com.apple.xpc.launchd|1970-01-01 00:00:36.906543 (user/501/com.apple.backboardd [27]) <Notice>: exited due to SIGABRT | sent by backboardd[27], ran for 1805ms

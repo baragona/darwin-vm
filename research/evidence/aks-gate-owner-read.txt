@@ -1,0 +1,95 @@
+(lldb) target create --arch arm64 firmware/iphone-17-ui-probe/bootkc-cache-owner-probe
+Current executable set to '/private/tmp/darwinvm-a19/firmware/iphone-17-ui-probe/bootkc-cache-owner-probe' (arm64e).
+(lldb) gdb-remote 127.0.0.1:63419
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Load Address: 0xfffffe002700c000
+Kernel slid 0x20000000 in memory.
+Loaded kernel file /private/tmp/darwinvm-a19/firmware/iphone-17-ui-probe/bootkc-cache-owner-probe
+Process 1 stopped
+* thread #1, stop reason = signal SIGTRAP
+    frame #0: 0xfffffe002abfb31c bootkc-cache-owner-probe`___lldb_unnamed_symbol_fffffe000abfb200 + 284
+bootkc-cache-owner-probe`___lldb_unnamed_symbol_fffffe000abfb200:
+->  0xfffffe002abfb31c <+284>: ldr    x10, [x20, #0x1b8]
+    0xfffffe002abfb320 <+288>: ldr    x10, [x10, #0x58]
+    0xfffffe002abfb324 <+292>: cmp    x10, x8
+    0xfffffe002abfb328 <+296>: b.ne   0xfffffe002abfb314        ; <+276>
+Target 0: (bootkc-cache-owner-probe) stopped.
+(lldb) memory read --format x --size 8 --count 10 0xfffffe25c9d84d90
+0xfffffe25c9d84d90: 0x000a393b22000110 0x00000000400f7b35
+0xfffffe25c9d84da0: 0xfffffe002b7b0be0 0xf8fffe25c9fed8a0
+0xfffffe25c9d84db0: 0x0000000000000002 0x0000000000000000
+0xfffffe25c9d84dc0: 0x0000000022000110 0x0000000000000000
+0xfffffe25c9d84dd0: 0xfffffe002b7b0be0 0x0000000000000000
+(lldb) memory read --format x --size 8 --count 16 0xfffffe1b341ae070
+0xfffffe1b341ae070: 0xfffffe0027ebad88 0x0000000000000001
+0xfffffe1b341ae080: 0xfcfffe25c9d84d90 0x0000000000000000
+0xfffffe1b341ae090: 0xf6fffe210010be70 0xf3fffe32640d64d0
+0xfffffe1b341ae0a0: 0xf8fffe25c9fe7040 0x0000000000000000
+0xfffffe1b341ae0b0: 0xf4fffe25c9d945e0 0x0000000000000000
+0xfffffe1b341ae0c0: 0x0000000000000000 0x0000000022000110
+0xfffffe1b341ae0d0: 0x0000000000000000 0x0000000000000000
+0xfffffe1b341ae0e0: 0x0000000000000000 0x0000000000000000
+(lldb) process detach
+Process 1 detached
+(lldb) target create --arch arm64 firmware/iphone-17-ui-probe/bootkc-cache-owner-probe
+Current executable set to '/private/tmp/darwinvm-a19/firmware/iphone-17-ui-probe/bootkc-cache-owner-probe' (arm64e).
+(lldb) gdb-remote 127.0.0.1:63419
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Load Address: 0xfffffe002700c000
+Kernel slid 0x20000000 in memory.
+Loaded kernel file /private/tmp/darwinvm-a19/firmware/iphone-17-ui-probe/bootkc-cache-owner-probe
+Process 1 stopped
+* thread #1, stop reason = signal SIGTRAP
+    frame #0: 0xfffffe002abfb31c bootkc-cache-owner-probe`___lldb_unnamed_symbol_fffffe000abfb200 + 284
+bootkc-cache-owner-probe`___lldb_unnamed_symbol_fffffe000abfb200:
+->  0xfffffe002abfb31c <+284>: ldr    x10, [x20, #0x1b8]
+    0xfffffe002abfb320 <+288>: ldr    x10, [x10, #0x58]
+    0xfffffe002abfb324 <+292>: cmp    x10, x8
+    0xfffffe002abfb328 <+296>: b.ne   0xfffffe002abfb314        ; <+276>
+Target 0: (bootkc-cache-owner-probe) stopped.
+(lldb) memory read --binary --outfile /tmp/v19-gate-owner-stack.bin --count 16384 0xfffffe50bc120000
+16384 bytes written to '/tmp/v19-gate-owner-stack.bin'
+(lldb) disassemble --start-address 0xfffffe002b32d580 --count 38
+bootkc-cache-owner-probe`___lldb_unnamed_symbol_fffffe000b32d580:
+    0xfffffe002b32d580 <+0>:  pacibsp 
+    0xfffffe002b32d584 <+4>:  stp    x20, x19, [sp, #-0x20]!
+    0xfffffe002b32d588 <+8>:  stp    x29, x30, [sp, #0x10]
+    0xfffffe002b32d58c <+12>: add    x29, sp, #0x10
+    0xfffffe002b32d590 <+16>: mov    x3, x2
+    0xfffffe002b32d594 <+20>: mov    x2, x1
+    0xfffffe002b32d598 <+24>: ldr    x19, [x0, #0x10]
+    0xfffffe002b32d59c <+28>: ldr    w20, [x19, #0x20]
+    0xfffffe002b32d5a0 <+32>: str    wzr, [x19, #0x20]
+    0xfffffe002b32d5a4 <+36>: str    xzr, [x19, #0x18]
+    0xfffffe002b32d5a8 <+40>: mov    x0, x19
+    0xfffffe002b32d5ac <+44>: mov    w1, #0x10                 ; =16 
+    0xfffffe002b32d5b0 <+48>: bl     0xfffffe002abd9b80        ; ___lldb_unnamed_symbol_fffffe000abd9b80
+    0xfffffe002b32d5b4 <+52>: mrs    x8, TPIDR_EL1
+    0xfffffe002b32d5b8 <+56>: str    x8, [x19, #0x18]
+    0xfffffe002b32d5bc <+60>: str    w20, [x19, #0x20]
+    0xfffffe002b32d5c0 <+64>: ldp    x29, x30, [sp, #0x10]
+    0xfffffe002b32d5c4 <+68>: ldp    x20, x19, [sp], #0x20
+    0xfffffe002b32d5c8 <+72>: retab  
+
+bootkc-cache-owner-probe`___lldb_unnamed_symbol_fffffe000b32d5cc:
+    0xfffffe002b32d5cc <+0>:  bti    c
+    0xfffffe002b32d5d0 <+4>:  ldr    x8, [x0, #0x10]
+    0xfffffe002b32d5d4 <+8>:  ldr    x10, [x8, #0x18]
+    0xfffffe002b32d5d8 <+12>: mrs    x9, TPIDR_EL1
+    0xfffffe002b32d5dc <+16>: cmp    x10, x9
+    0xfffffe002b32d5e0 <+20>: b.eq   0xfffffe002b32d60c        ; <+64>
+    0xfffffe002b32d5e4 <+24>: mov    w10, #0x0                 ; =0 
+    0xfffffe002b32d5e8 <+28>: mov    w0, #0x0                  ; =0 
+    0xfffffe002b32d5ec <+32>: ldr    w11, [x9, #0x4f8]
+    0xfffffe002b32d5f0 <+36>: add    x12, x8, #0x8
+    0xfffffe002b32d5f4 <+40>: casa   w10, w11, [x12]
+    0xfffffe002b32d5f8 <+44>: cbnz   w10, 0xfffffe002b32d608   ; <+60>
+    0xfffffe002b32d5fc <+48>: str    x9, [x8, #0x18]
+    0xfffffe002b32d600 <+52>: mov    w0, #0x1                  ; =1 
+    0xfffffe002b32d604 <+56>: str    w0, [x8, #0x20]
+    0xfffffe002b32d608 <+60>: ret    
+    0xfffffe002b32d60c <+64>: ldr    w9, [x8, #0x20]
+    0xfffffe002b32d610 <+68>: add    w9, w9, #0x1
+    0xfffffe002b32d614 <+72>: str    w9, [x8, #0x20]
+(lldb) process detach
+Process 1 detached

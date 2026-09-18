@@ -1,0 +1,8 @@
+{
+  "source_sha256": "77fc882042df1c309a6f47ebb893bcf73dd4af19e3f0a5198f195f71bf0a727d",
+  "patched_sha256": "aa1c6ea64f47c21a1e69bde190b06f40e903b50bfeb052910cc10c191eb6685d",
+  "offset": "0x25c1df8",
+  "before": "85a900941300805288f241b9e8030035",
+  "after": "1300805288f241b90804003582a90094",
+  "description": "Check endpoint-disable field before SEPManager lookup"
+}

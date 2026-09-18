@@ -554,3 +554,47 @@ V18 is stopped. V19 is now running at `/tmp/a19-ui-v19-qmp.sock`, UART
 removed before detaching; the temporary TXM Developer Mode override was applied
 and read back. The automatic UI probe still did not complete its CADisplay
 query. There is no graphical-startup success claim.
+
+
+### Gate owner found; endpoint-order patch removes the wait (v20)
+
+The v19 work-loop gate has owner `0xfffffe25c9fed8a0` and recursion count 2.
+Live disassembly verifies gateLock at workLoop +0x10, owner at lock +0x18,
+and count at +0x20. Its saved-stack candidate chain includes AKS returns
+`0xfffffe00095f0458`, `0xfffffe00095c5dfc`, and `0xfffffe00095c5f70`.
+See [reads](evidence/aks-gate-owner-read.txt) and
+[candidate frames](evidence/aks-gate-owner-frames.json); the latter uses a
+bounded pointer-chain/PAC heuristic, not a fully validated kernel unwinder.
+
+The matching disassembly explains why `aks-endpoint=0` failed: the helper calls
+the AppleSEPManager lookup at `0xfffffe00095c5df8` **before** checking the
+endpoint-disable field. That lookup constructs the `AppleSEPManager` service
+match and waits with timeout argument -1 at `0xfffffe00095f0454`. The observed
+owner stack sits in this path while holding the work-loop gate.
+
+`patch-aks-endpoint-order.py` reorders four instructions so the existing disable
+check runs before the lookup. It requires the exact diagnostic bootkc hash,
+verifies old bytes, and writes a separate output. With the flag unset, the
+original lookup still runs. This is an experimental firmware-specific control-
+flow patch, not SEP emulation or a fix for unavailable keys.
+
+```sh
+python3 research/patch-aks-endpoint-order.py   firmware/iphone-17-ui-probe/bootkc-cache-owner-probe   firmware/iphone-17-ui-probe/bootkc-aks-endpoint-order
+# Run the previous configuration with this BOOTKC and aks-endpoint=0.
+```
+
+V20 boots successfully. Backboardd PID 4 now reaches AKS external selectors
+17 and 7, which return `e00002d8` for unavailable endpoint operations. It no
+longer stays in the old user-client-open wait. It subsequently exits with
+SIGABRT after about six seconds; two on-demand restarts also abort after about
+two seconds. The display query does not report a display count. This is a
+verified removal of the earlier wait, **not** graphical startup success. The
+abort's cause has not yet been identified; failed service lookups alone are
+not sufficient to attribute it.
+
+[Patch hashes](evidence/aks-endpoint-order-patch.json) and
+[boot excerpts](evidence/aks-order-v20-excerpts.txt) record the experiment.
+V19 is stopped. Current v20 sockets are `/tmp/a19-ui-v20-qmp.sock` and
+`/tmp/a19-ui-v20-serial.sock`, with GDB at `127.0.0.1:63420`. Temporary Developer
+Mode was enabled after boot. The next direction is capturing backboardd's
+abort stack, now that it can progress beyond key-store initialization.

@@ -1,0 +1,20 @@
+/bin/cache-diagnostics devmode; /bin/launch-probe list; echo STATE_
+<stics devmode; /bin/launch-probe list; echo STATE_D                         ONE
+
+System Policy: bash(29) allow process-exec* /bin/cache-diagnostics
+security.mac.amfi.developer_mode_status=1 bytes=4
+
+security.mac.amfi.developer_mode_resolved=1 bytes=4
+
+System Policy: bash(30) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+
+LAUNCH_JOB_COUNT=3
+
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+
+JOB com.apple.backboardd PID=-1 LAST_EXIT=6
+
+JOB com.apple.cfprefsd.xpc.daemon PID=9 LAST_EXIT=0
+
+STATE_DONE
