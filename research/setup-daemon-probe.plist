@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.purplebuddy.budd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.purplebuddy.budd.cloud.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.budd.migration.source.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.budd.proximity.source.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.budd.proximity.target.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.budd.proximityautomateddeviceenrollment.target.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.budd.settings.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.budd.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.setup.budd.proximity.override.xpc</key>
+		<true/>
+		<key>com.apple.purplebuddy.setupctl.budd.proximity.override.service.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/SetupAssistant.framework/budd</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/var/tmp/budd.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/var/tmp/budd.stdout</string>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

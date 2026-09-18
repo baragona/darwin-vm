@@ -1,0 +1,26 @@
+# Historical snapshot ONLY: 24A437, V70, UserManager PID 44.
+# Addresses and breakpoint numbers must be re-derived after every boot.
+# Sourced while stopped at the first persona list helper call.
+register write x0 0x7c47010370
+breakpoint command add -o 'register write x0 0x7c47010370' 1
+breakpoint modify --auto-continue true 1
+breakpoint set -H -a 0x102edf70c
+breakpoint command add -o 'register write x1 0x7c47010370' 2
+breakpoint modify --auto-continue true 2
+breakpoint set -H -a 0x18e1e4138
+breakpoint command add -o 'memory write -s 1 0x1eda7f9d8 1' 3
+breakpoint modify --auto-continue true 3
+breakpoint set -H -a 0x18e2014b8
+breakpoint command add -o 'register write x8 0x1f2ab7900' 4
+breakpoint modify --auto-continue true 4
+breakpoint set -H -a 0x1c510a120
+breakpoint command add 5
+register write w0 0xffffffff
+register write pc 0x1c510a124
+DONE
+breakpoint modify --auto-continue true 5
+breakpoint set -H -a 0x22f2f65f0 -c '*(unsigned int*)((*(unsigned long long*)(($x24 & 0x00ffffffffffffff)+8)&0x00ffffffffffffff)+0x68)==1'
+breakpoint command add -o 'register write x0 0' 6
+breakpoint modify --auto-continue true 6
+breakpoint list
+continue

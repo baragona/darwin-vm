@@ -1,0 +1,49 @@
+{
+  "build": "24A437",
+  "image_bytes_before": 8589934592,
+  "image_bytes_after": 9663676416,
+  "apfs_resize_fsck_exit": 0,
+  "backup": "service-root.pre-setup-v70.dmg",
+  "components": [
+    {
+      "path": "Applications/Setup.app",
+      "files": 1137,
+      "logical_bytes": 84349026,
+      "all_file_hashes_and_modes_match": true,
+      "manifest_sha256": "1b7e221e049cb7b6da0e5b37931f8820902ff9dcf1a377a642d63f80c3035796"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SetupAssistant.framework",
+      "files": 5,
+      "logical_bytes": 546504,
+      "all_file_hashes_and_modes_match": true,
+      "manifest_sha256": "dba464c87afcc17154dd31973f9ace3f54ef4107b4ba49e844d5520dc272ae20"
+    }
+  ],
+  "mach_o_files": [
+    {
+      "path": "Applications/Setup.app/Setup",
+      "sha256": "9a10bccd8dfa63cdd41101f5b5ed01764ad7077cbef3f86a08f55e324039b608",
+      "cdhash": "d7116316390c8c064ddd37c1ba1d87973576944a",
+      "already_trusted": true
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SetupAssistant.framework/budd",
+      "sha256": "c27bd8190e6aaf7b177cf0677755c8f9e13650170cf403435cce68e82091ad07",
+      "cdhash": "d6a5763ffc917b67c718aa2f957689f4e46ab243",
+      "already_trusted": true
+    }
+  ],
+  "job_sha256": "717c0e5ec5a21dcc193565f823c6d66e200b41bb1eff7cd5caa88854ed5f6b37",
+  "trust_cache_unchanged_sha256": "582706da48992873e4259992f8de52da5c0fa82e15b7755640860786f7b3a2a2",
+  "free_bytes_after": 1086590976,
+  "runtime_validation": {
+    "booted": true,
+    "memory_gib": 16,
+    "budd_pid": 39,
+    "budd_last_exit": 0,
+    "ls_rebuild_result": 1,
+    "ui_usable": false,
+    "failure": "UIKeyboardImpl updateReturnKey: nil returnKeyDisplayName followed by SpringBoard SIGABRT; resource cause under investigation"
+  }
+}

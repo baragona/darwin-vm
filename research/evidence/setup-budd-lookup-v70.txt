@@ -1,0 +1,19 @@
+/bin/launch-probe lookup com.apple.purplebuddy.budd.xpc; /bin/launc< lookup com.apple.purplebuddy.budd.xpc; /bin/launch                         -pcom.apple.xpc.launchd|1970-01-01 00:07:28.285695 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[70], error = 3: No such process
+robe list; echo SERIAL_<ddy.budd.xpc; /bin/launch-probe list; echo SERIAL_D                         ONE_fe605326dab947018c9e1<probe list; echo SERIAL_DONE_fe605326dab947018c9e18                         28e13a7313
+System Policy: bash(91) allow process-exec* /bin/launch-probe
+LOOKUP com.apple.purplebuddy.budd.xpc RESULT=0 PORT=6659
+System Policy: bash(92) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=11
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.CommCenter PID=70 LAST_EXIT=0
+JOB com.apple.runningboardd PID=62 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=53 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=57 LAST_EXIT=15
+JOB com.apple.lsd PID=51 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=49 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=39 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=44 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_fe605326dab947018c9e1828e13a7313

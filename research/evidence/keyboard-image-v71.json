@@ -1,0 +1,48 @@
+{
+  "build": "24A437",
+  "backup": "service-root.pre-keyboard-v71.dmg",
+  "components": [
+    {
+      "path": "System/Library/PrivateFrameworks/TextInputUI.framework",
+      "files": 46,
+      "logical_bytes": 7695214,
+      "all_file_hashes_and_modes_match": true,
+      "manifest_sha256": "8665bffc254d2e2a153e3b116480e38c4d66acc49299fe2762dd849c8031a7e1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/TextInput.framework",
+      "files": 82,
+      "logical_bytes": 2066806,
+      "all_file_hashes_and_modes_match": true,
+      "manifest_sha256": "c476295f34baab60bb0207697e80d433eb8132af7966ac934f46fc766237e3f7"
+    },
+    {
+      "path": "System/Library/KeyboardLayouts",
+      "files": 256,
+      "logical_bytes": 2067986,
+      "all_file_hashes_and_modes_match": true,
+      "manifest_sha256": "a035ac3fa808548b0b1b6bdb32bcc002c6ba4ffa79545a30525aea290a43dfdb"
+    },
+    {
+      "path": "System/Library/TextInput",
+      "files": 1080,
+      "logical_bytes": 2494769,
+      "all_file_hashes_and_modes_match": true,
+      "manifest_sha256": "8b6b26cd529f3be4e0f8bd353b3ae05fe5307a403140b99e8e966cc5a2b198b3"
+    }
+  ],
+  "runtime_validation": "pending",
+  "mach_o_files": [
+    {
+      "path": "System/Library/TextInput/kbd",
+      "cdhash": "0adc677a1a1cc99312ee6f2ab5cbc76d9b90d435",
+      "already_trusted": true
+    },
+    {
+      "path": "System/Library/TextInput/Plugins/MessagesDataKeyboardPlugin.bundle/MessagesDataKeyboardPlugin",
+      "cdhash": "b35e90cdf08a6b3143be74bc0410dbe6dd4c1498",
+      "already_trusted": true
+    }
+  ],
+  "trust_cache_unchanged_sha256": "582706da48992873e4259992f8de52da5c0fa82e15b7755640860786f7b3a2a2"
+}
