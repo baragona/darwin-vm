@@ -1,0 +1,31 @@
+{
+  "original_sha256": "ddff2eb1a81b596050afac6ced2005f687174b267f474f8320777cf79a3dcd62",
+  "probe_sha256": "46076125280b230b783088909665d30a52ba71b28c8a78cc4933fec734038f7e",
+  "changes": {
+    "KeepAlive": {
+      "original": true,
+      "probe": false
+    },
+    "StandardErrorPath": {
+      "original": null,
+      "probe": "/private/var/tmp/springboard.stderr"
+    },
+    "StandardOutPath": {
+      "original": null,
+      "probe": "/private/var/tmp/springboard.stdout"
+    },
+    "_Conclave": {
+      "original": "com.apple.springboard.conclave",
+      "probe": null
+    },
+    "_PanicOnCrash": {
+      "original": {
+        "PanicOnConsecutiveCrash": true,
+        "InternalOnly": true,
+        "PanicOnCrashDeadline": 180
+      },
+      "probe": null
+    }
+  },
+  "initial_probe_sha256": "bdab25bc1fdb5993349bd1d56f8029412067215c0eb6fa78d74829cc738ea754"
+}

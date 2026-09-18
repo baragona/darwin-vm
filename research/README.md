@@ -1302,3 +1302,46 @@ solid-color layer without a registered GPU. No SpringBoard content or usable
 main display is established by this result. Developer Mode is currently off;
 no debugger is attached. QEMU's loopback GDB endpoint remains available for
 further diagnostics at `127.0.0.1:63439`.
+
+## SpringBoard reaches execution, then crashes (v40)
+
+With both rendering paths producing pixels, the investigation moved to the
+actual system application. A diagnostic copy of the original SpringBoard
+launch plist retained its mobile user, program, and MachServices. KeepAlive
+was disabled, `_PanicOnCrash` removed, and stdout/stderr redirected to
+`/private/var/tmp/springboard.{stdout,stderr}`.
+
+A 4,250-byte single-line transfer via the short-command UART helper lost data
+and left Bash in a continuation prompt. It did not submit a valid job. V39 was
+then intentionally stopped to install the plist through the disk image;
+do not use that UART helper as a general long-line file uploader.
+
+The [first v40 submission](evidence/springboard-launch-v40.txt) returned errno
+137 before execution. The legacy launch helper submits into the mobile user
+domain (`user/501`); launchd rejects `_Conclave` there with “Conclave can only
+be set on LaunchDaemons or Extensions.” No stock launchctl was found in the
+mounted restore, system, or cryptex trees.
+
+Removing only `_Conclave` from that diagnostic plist allowed the
+[next submission](evidence/springboard-no-conclave-v40.txt) to return errno 0.
+SpringBoard PID 43 executed, then exited with SIGSEGV after 2,666 ms. Launchd
+reported `PID=-1 LAST_EXIT=11`; stderr was empty. Backboardd remained PID 26
+with LAST_EXIT=0. This is application execution, not successful initialization
+or evidence of SpringBoard pixels. No automatic crash/restart loop was enabled.
+
+The checked-in [springboard-probe.plist](springboard-probe.plist) now includes
+the Conclave removal. [Configuration differences and hashes](evidence/springboard-launch-config.json)
+record both the initial rejected variant and the updated diagnostic variant.
+This mobile-domain probe is not a faithful system-daemon launch: the correct
+bootstrap domain and Conclave setup remain separate integration work.
+`HighPriorityIO` also produces a non-fatal unknown-key warning, and launchd
+reports a missing type-6 persona. Neither has been established as the crash's
+cause. Catch the synchronous SIGSEGV before diagnosing it as missing GPU,
+display, resources, or service dependencies.
+
+Current v40 is running on QMP `/tmp/a19-ui-v40-qmp.sock`, UART
+`/tmp/a19-ui-v40-serial.sock`; Developer Mode has not been overridden and no
+debugger is attached. `/launchjobs/com.apple.SpringBoard.probe.plist` in the
+image is the initial Conclave-bearing version; the successfully submitted
+version is `/private/var/tmp/springboard-no-conclave.plist`. Stage the updated
+checked-in plist during the next intentional image update.

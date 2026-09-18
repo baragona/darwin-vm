@@ -1,0 +1,100 @@
+/usr/bin/sed "/_Conclave/{N;d;}" /launchjobs/com.apple.SpringBoard.
+<onclave/{N;d;}" /launchjobs/com.apple.SpringBoard.p                         robe.plist > /private/var
+<s/com.apple.SpringBoard.probe.plist > /private/var/                         tmp/springboard-no-concla
+<obe.plist > /private/var/tmp/springboard-no-conclav                         e.plist; /bin/launch-prob
+<mp/springboard-no-conclave.plist; /bin/launch-probe                          submit /private/var/tmp/
+<.plist; /bin/launch-probe submit /private/var/tmp/s                         pringboard-no-conclave.pl
+<submit /private/var/tmp/springboard-no-conclave.pli                         st; sleep 5; /bin/launch-
+<ringboard-no-conclave.plist; sleep 5; /bin/launch-p                         robe list; cat /private/v
+<t; sleep 5; /bin/launch-probe list; cat /private/va                         r/tmp/springboard.stderr;
+<obe list; cat /private/var/tmp/springboard.stderr;                          echo SERIAL_DONE_0aa5a13a
+</tmp/springboard.stderr; echo SERIAL_DONE_0aa5a13a6                         63c4e9f96b6901897fddbf2
+
+System Policy: bash(41) allow process-exec* /usr/bin/sed
+System Policy: bash(42) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+
+LAUNCH_REPLY_ERRNO=0
+
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+System Policy: bash(44) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:02:30.175823 <Notice>: Last log repeated 1 times
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.011048 (com.apple.SpringBoard) <Error>: Unknown key for plist importer (key: HighPriorityIO type: bool)
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.011533 (user/501/com.apple.SpringBoard) <Warning>: (lint): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.357878 <Notice>: Last log repeated 1 times
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.019181 (user/501/com.apple.SpringBoard) <Notice>: service will attempt to elide xpcproxy
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.019477 (user/501/com.apple.SpringBoard) <Notice>: internal event: WILL_SPAWN, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.019536 (user/501/com.apple.SpringBoard) <Notice>: service state: spawn scheduled
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.019570 (user/501/com.apple.SpringBoard) <Notice>: service state: spawning
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.022047 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.022086 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.022130 (user/501/com.apple.SpringBoard) <Notice>: launching: system support
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.022247 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.022268 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.774361 (user/501/com.apple.SpringBoard [43]) <Notice>: service spawned with pid 43
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.774598 (user/501/com.apple.SpringBoard [43]) <Notice>: internal event: SPAWNED, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.774661 (user/501/com.apple.SpringBoard [43]) <Notice>: service state: spawned
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.774849 (user/501/com.apple.SpringBoard [43]) <Notice>: service state: running
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.774893 (user/501/com.apple.SpringBoard [43]) <Notice>: internal event: INIT, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.774991 (user/501/com.apple.SpringBoard [43]) <Notice>: Successfully spawned SpringBoard[43] because system support
+
+com.apple.xpc.launchd|1970-01-01 00:02:30.775109 (user/501/com.apple.SpringBoard [43]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:02:31.477507 (pid/43 [SpringBoard]) <Notice>: uncorking exec source upfront
+
+com.apple.xpc.launchd|1970-01-01 00:02:31.477659 (pid/43 [SpringBoard]) <Notice>: created
+
+com.apple.xpc.launchd|1970-01-01 00:02:31.927333 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = SpringBoard[43], error = 3: No such process
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.728477 (user/501/com.apple.SpringBoard [43]) <Notice>: exited due to SIGSEGV | sent by exc handler[43], ran for 2666ms
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.728730 (user/501/com.apple.SpringBoard [43]) <Notice>: service has crashed 1 times in a row (last was not dirty)
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.728809 (user/501/com.apple.SpringBoard [43]) <Notice>: service state: exited
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.728968 (user/501/com.apple.SpringBoard [43]) <Notice>: internal event: EXITED, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.729082 (user/501) <Notice>: service inactive: com.apple.SpringBoard
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.730534 (user/501/com.apple.SpringBoard [43]) <Notice>: service state: not running
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.731493 (pid/43 [SpringBoard]) <Notice>: shutting down
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.731551 (pid/43 [SpringBoard]) <Notice>: cleaning up
+
+com.apple.xpc.launchd|1970-01-01 00:02:32.731620 (system) <Notice>: removing child: pid/43
+
+System Policy: bash(45) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+
+LAUNCH_JOB_COUNT=4
+
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+
+JOB com.apple.SpringBoard PID=-1 LAST_EXIT=11
+
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+
+System Policy: bash(46) allow process-exec* /bin/cat
+SERIAL_DONE_0aa5a13a663c4e9f96b6901897fddbf2
+
