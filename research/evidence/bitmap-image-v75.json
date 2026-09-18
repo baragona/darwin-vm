@@ -1,0 +1,11 @@
+{
+  "image": "service-root-bitmap-v75.dmg",
+  "trustcache": "bitmap-v75.tc",
+  "trustcache_entries": 4415,
+  "guest_path": "/bin/software-render-probe",
+  "cdhash": "1d52ca4d0dec1706ee4fd1379ec07f19595ba693",
+  "sha256": "55df845999298b5ad7a1f899bf13060fb213dc715277754590e84807287ef481",
+  "entitlements": "none",
+  "boot_tested": true,
+  "bitmap_test_passed": true
+}

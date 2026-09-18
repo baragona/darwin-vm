@@ -1,0 +1,27 @@
+/bin/software-render-probe --bitmap; echo BITMAP_EXIT=$?; echo SERI<der-probe --bitmap; echo BITMAP_EXIT=$?; echo SERIA                         L_DONE_6df6d6925d01473380<ITMAP_EXIT=$?; echo SERIAL_DONE_6df6d6925d01473380d                         ff7403d9dfe75
+System Policy: bash(37) allow process-exec* /bin/software-render-probe
+SW_PROBE_BEGIN
+SW_CREATE_BEGIN
+SW_RENDERER_PRESENT=1
+SW_DESTINATION_RESULT=1
+SW_LOCAL_CONTEXT_BEGIN
+SW_LOCAL_CONTEXT_PRESENT=1
+com.apple.xpc.launchd|1970-01-01 00:00:46.952057 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = software-render[37], error = 3: No such process
+SW_BITMAP_IMAGE_PRESENT=1
+SW_LAYER_COMMIT_BEGIN
+SW_LAYER_COMMIT_RETURNED
+SW_RENDER_CONTEXT_PRESENT=1
+SW_FRAME=0
+SW_UPDATE_PRESENT=1
+SW_ADD_CONTEXT_BEGIN
+SW_ADD_CONTEXT_RETURNED
+SW_RENDER_LAYER_BEGIN
+SW_RENDER_LAYER_RETURNED
+SW_FINISH_RETURNED
+SW_CHANGED_BYTES=16384 GUARD_CHANGED_BYTES=0
+SW_FIRST_PIXEL=0000ffff CENTER=ff0000ff
+SW_BITMAP_RED=1024 GREEN=1024 BLUE=1024 YELLOW=1024 OTHER=0 PASS=1
+SW_OUTPUT_BYTES=16384 CLOSE_RESULT=0
+SW_PROBE_END
+BITMAP_EXIT=0
+SERIAL_DONE_6df6d6925d01473380dff7403d9dfe75

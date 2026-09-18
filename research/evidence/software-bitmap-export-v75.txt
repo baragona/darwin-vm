@@ -1,0 +1,10 @@
+/bin/cp /var/tmp/software-bitmap.raw /var/tmp/display-capture.bgra <software-bitmap.raw /var/tmp/display-capture.bgra &                         & /bin/display-pack-probe<mp/display-capture.bgra && /bin/display-pack-probe                          && echo DISPLAY_DATA_BEGI< /bin/display-pack-probe && echo DISPLAY_DATA_BEGIN                          && /bin/base64 /var/tmp/<& echo DISPLAY_DATA_BEGIN && /bin/base64 /var/tmp/d                         isplay-capture.zlib && ec<&& /bin/base64 /var/tmp/display-capture.zlib && ech                         o DISPLAY_DATA_END; echo <splay-capture.zlib && echo DISPLAY_DATA_END; echo S                         ERIAL_DONE_8f1334d4addb46< DISPLAY_DATA_END; echo SERIAL_DONE_8f1334d4addb46d                         0a93ee64998bc70cd
+System Policy: bash(38) allow process-exec* /bin/cp
+System Policy: bash(39) allow process-exec* /bin/display-pack-probe
+PACK_RAW_BYTES=16384 PACKED_BYTES=98 WRITTEN=98 CLOSE=0
+DISPLAY_DATA_BEGIN
+System Policy: bash(40) allow process-exec* /bin/base64
+eJzt0MEJAAAIAkD3X7raQohD9H8mM2m2HX5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+/gf+
+9gG31fLz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz83/wL7UA3g4=
+DISPLAY_DATA_END
+SERIAL_DONE_8f1334d4addb46d0a93ee64998bc70cd
