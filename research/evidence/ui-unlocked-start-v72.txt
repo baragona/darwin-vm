@@ -1,0 +1,67 @@
+/bin/launch-probe stop com.apple.SpringBoard; /bin/slecom.apple.xpc.launchd|1970-01-01 00:56:57.873085 <Notice>: Flushed 21 logs [limit: 20]
+ep 2; /bin/l<stop com.apple.SpringBoard; /bin/sleep 2; /bin/laun                        ch-probe start com.appl<; /bin/sleep 2; /bin/launch-probe start com.apple.S                       pringBoard; echo SERIAL<be start com.apple.SpringBoard; echo SERIAL_DONE_0e                       21529238de4bda94fba<d; echo SERIAL_DONE_0e21529238de4bda94fbaf3d104f52a                   9
+com.apple.xpc.launchd|1970-01-01 00:57:02.588742 <Notice>: Last log repeated 227 times
+com.apple.xpc.launchd|1970-01-01 00:57:02.507184 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:57:02.548041 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[186], error = 3: No such process
+System Policy: bash(225) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:57:05.712062 <Notice>: Flushed 47 logs [limit: 20]
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+System Policy: bash(226) allow process-exec* /bin/sleep
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+com.apple.xpc.launchd|1970-01-01 00:57:09.013549 <Notice>: Last log repeated 120 times
+com.apple.xpc.launchd|1970-01-01 00:57:08.696931 (user/501/com.apple.SpringBoard [186]) <Notice>: legacy-stop service: caller = launch-probe[225]<-bash[3], value = 0x0
+com.apple.xpc.launchd|1970-01-01 00:57:08.698344 (user/501/com.apple.SpringBoard [186]) <Notice>: signaled service: Terminated: 15
+com.apple.xpc.launchd|1970-01-01 00:57:08.698395 (user/501/com.apple.SpringBoard [186]) <Notice>: service state: SIGTERMed
+com.apple.xpc.launchd|1970-01-01 00:57:08.698440 (user/501/com.apple.SpringBoard [186]) <Notice>: scheduling cleanup in 3 sec after sending Terminated: 15
+com.apple.xpc.launchd|1970-01-01 00:57:08.700793 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[186], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:57:08.924809 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[52], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:57:09.185709 <Notice>: Flushed 48 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:57:09.236986 (user/501/com.apple.SpringBoard [186]) <Notice>: exited due to SIGTERM | sent by launchd[1], ran for 1207544ms
+com.apple.xpc.launchd|1970-01-01 00:57:09.237120 (user/501/com.apple.SpringBoard [186]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:57:09.237185 (user/501/com.apple.SpringBoard [186]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:57:09.237235 (user/501/com.apple.SpringBoard [186]) <Notice>: job state = exited
+com.apple.xpc.launchd|1970-01-01 00:57:09.237849 (user/501) <Notice>: service inactive: com.apple.SpringBoard
+com.apple.xpc.launchd|1970-01-01 00:57:09.239346 (user/501/com.apple.SpringBoard [186]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:57:09.240155 (pid/186 [SpringBoard]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:57:09.240188 (pid/186 [SpringBoard]) <Notice>: removing active service: com.apple.extensionkitservice
+com.apple.xpc.launchd|1970-01-01 00:57:09.240450 (pid/186/com.apple.extensionkitservice [187]) <Notice>: signaled service: Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:57:09.240490 (pid/186/com.apple.extensionkitservice [187]) <Notice>: service state: SIGKILLed
+com.apple.xpc.launchd|1970-01-01 00:57:09.240533 (pid/186/com.apple.extensionkitservice [187]) <Notice>: scheduling cleanup in 9 sec after sending Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:57:09.348288 (pid/186/com.apple.extensionkitservice [187]) <Notice>: exited due to SIGKILL | sent by launchd[1] during teardown of process-scoped services after host exited, ran for 1195055ms
+com.apple.xpc.launchd|1970-01-01 00:57:09.348355 (pid/186/com.apple.extensionkitservice [187]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:57:09.348407 (pid/186/com.apple.extensionkitservice [187]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:57:09.348456 (pid/186/com.apple.extensionkitservice [187]) <Notice>: job state = exited
+com.apple.xpc.launchd|1970-01-01 00:57:09.348939 (pid/186 [SpringBoard]) <Notice>: service inactive: com.apple.extensionkitservice
+com.apple.xpc.launchd|1970-01-01 00:57:09.349103 (pid/186/com.apple.extensionkitservice [187]) <Notice>: internal event: PETRIFIED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:57:09.349148 (pid/186/com.apple.extensionkitservice [187]) <Notice>: job state = removed
+com.apple.xpc.launchd|1970-01-01 00:57:09.349225 (pid/186 [SpringBoard]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:57:09.349287 (pid/186/com.apple.extensionkitservice [187]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:57:09.350054 (system) <Notice>: removing child: pid/186
+com.apple.xpc.launchd|1970-01-01 00:57:09.351026 (pid/187 [extensionkitser]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:57:09.351436 (pid/187 [extensionkitser]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:57:09.351566 (system) <Notice>: removing child: pid/187
+com.apple.xpc.launchd|1970-01-01 00:57:09.401569 <Notice>: Flushed 24 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:57:09.482597 <Error>: job not found, returning ENOSERVICE to 64147 with manual pipe reply
+System Policy: bash(227) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+SERIAL_DONE_0e21529238de4bda94fbaf3d104f52a9
