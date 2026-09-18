@@ -1,0 +1,9 @@
+/bin/ls-registration-probe; echo SERIAL_DONE_08c1d8425e654af296c516<ion-probe; echo SERIAL_DONE_08c1d8425e654af296c5168                         51821f8bf
+System Policy: bash(43) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_PROXY=<LSApplicationProxy: 0x105260950> com.apple.springboard (null) <com.apple.springboard <INVALID >:0>
+LS_IS_INSTALLED=0
+LS_BUNDLE_URL=(nil)
+LS_PROBE_END
+SERIAL_DONE_08c1d8425e654af296c516851821f8bf

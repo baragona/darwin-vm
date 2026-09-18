@@ -1559,3 +1559,21 @@ host-tool execution limitation, not evidence about LaunchServices or the
 registration API. No application registration was attempted. The guest remains
 booted with container/lsd jobs submitted; virtual LCD and RunningBoard have not
 yet been reapplied on this boot. Retest the query before drawing conclusions.
+
+
+### V47 registration execution and error capture
+
+After renewed guest authorization, the UART tests executed successfully.
+The [initial query](evidence/ls-query-before-v47.txt) returns an INVALID
+SpringBoard proxy, isInstalled=0 and nil bundleURL. The explicit
+[registration attempt](evidence/ls-register-v47.txt) returns false; a
+[fresh process](evidence/ls-query-after-v47.txt) confirms the record remains
+absent. This rules out treating a non-null proxy as an installed application.
+
+[Debugger observations](evidence/ls-registration-error-v47.md) capture the
+underlying NSOSStatusErrorDomain **-9499**, with LSRegistration.mm /
+_LSRegisterBundleNode error metadata. The exact failing inner branch still
+needs tracing; the code alone does not establish a missing service or an
+entitlement denial. Both temporary hardware breakpoints were deleted and
+the debugger detached. The guest remains running with no application record
+created, and no SpringBoard/RunningBoard job started in this boot.

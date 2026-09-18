@@ -1,0 +1,10 @@
+/bin/ls-registration-probe; echo SERIAL_DONE_2a40cad143c44a598da6d6<ion-probe; echo SERIAL_DONE_2a40cad143c44a598da6d67                         806e5586f
+System Policy: bash(41) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:07:56.420845 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-registration[41], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x100d9c950> com.apple.springboard (null) <com.apple.springboard <INVALID >:0>
+LS_IS_INSTALLED=0
+LS_BUNDLE_URL=(nil)
+LS_PROBE_END
+SERIAL_DONE_2a40cad143c44a598da6d67806e5586f
