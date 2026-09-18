@@ -2079,3 +2079,17 @@ dispatch entitlements are unchanged.
 V68 verifies the corrected binary without any attached debugger: service
 enumeration succeeded, every virtual dispatch returned success, and all
 14 matching monitor callbacks arrived. [Clean-run checks](evidence/virtual-touch-validation-v68.json).
+
+
+### Touch coordinates require an explicit display association (v68)
+
+The virtual touchscreen reaches BackBoard and creates a finger contact,
+but omitting `displayUUID` leaves its touch state with a nil display ID.
+Geometry lookup returns zero size and scale, producing NaN coordinates.
+Using the actual CADisplay identifier restores 416×496 geometry at scale 1
+and reaches the observed event-posting method. The screen still shows Hello.
+[Exact observations and experiment limits](evidence/virtual-touch-geometry-v68.md).
+
+The probe source now discovers CADisplay.mainDisplay.uniqueId and supplies
+it as `displayUUID`. This V69 build compiles and signs successfully but
+awaits installation and a guest test without the identifier override.

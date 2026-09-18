@@ -113,6 +113,17 @@ uint64_t virtual_touch_start(void) {
     void *yes = ((void *(*)(void *, void *, unsigned char))message)(class_named("NSNumber"), selector("numberWithBool:"), 1);
     put(properties, string("DisplayIntegrated"), yes);
     put(properties, string("Built-In"), yes);
+    /* DisplayIntegrated alone does not bind a virtual service to the LCD.
+     * Without displayUUID, 24A437 creates a touch state with nil display ID
+     * and geometryForDisplayUUID: returns zero size/scale (NaN coordinates).
+     * Discover this boot's identifier rather than hard-coding a UUID. */
+    void *quartz = dlopen("/System/Library/Frameworks/QuartzCore.framework/QuartzCore", RTLD_NOW);
+    if (!quartz) { printf("VTOUCH_QUARTZ_ERROR=%s\n", dlerror()); return 0; }
+    void *display = get(class_named("CADisplay"), "mainDisplay");
+    void *display_id = get(display, "uniqueId");
+    if (!display_id) { puts("VTOUCH_ERROR=missing-main-display-id"); return 0; }
+    printf("VTOUCH_DISPLAY_UUID=%s\n", text(display_id));
+    put(properties, string("displayUUID"), display_id);
     void *usage = get(class_named("NSMutableDictionary"), "dictionary");
     put(usage, string("DeviceUsagePage"), number(13));
     put(usage, string("DeviceUsage"), number(4));

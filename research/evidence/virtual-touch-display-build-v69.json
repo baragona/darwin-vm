@@ -1,0 +1,14 @@
+{
+  "build": "24A437",
+  "sha256": "77193c336dff999a98070fedcd16be9fda4133ac915ef58d9e4bcdf81044f370",
+  "cdhash": "d76733ec0f637d2241681030c41d698efbec0590",
+  "sources": {
+    "research/hid-input-probe.c": "307f10d314ee16accce0f36aaaa674f82af7c26d938756818e93a18a3b8d91c9",
+    "research/virtual-touch-service.c": "5dbb5558470ce5111b5ab726a99be3246e57f78e9ee7f0a8a42cfa0d59f98bce",
+    "research/virtual-touch-service.h": "25200cf691429d75a44dcc7fe95f0905ea3e1821367acb53e8d42d27b160f932"
+  },
+  "compiled_with_warnings_as_errors": true,
+  "strict_signature_verified": true,
+  "installed": false,
+  "runtime_validation": "pending: V68 verified the display UUID via a BackBoard debugger override; source property path not yet tested"
+}
