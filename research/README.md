@@ -1825,3 +1825,17 @@ complete translation correctness or restore the graphical UI. V52 remains
 running with no debugger attached. The installer, lsd, and UserManager probe
 jobs have not been submitted in this boot. The populated manifest remains
 in the disk seed. No host security settings or QEMU submodule source changed.
+
+
+### Persona enumeration reaches installer; attribute fetch fails (v52)
+
+Tracing an identified installer request now confirms that the synthetic seed
+can return four persona IDs with no enumeration error after a diagnostic
+caller-user substitution. The next per-persona attribute request fails with
+NSPOSIXErrorDomain/ENOENT. UserManagement converts that failure into an empty
+array plus NSError, explaining the installer's later empty-list message.
+A follow-up substitution crashed UserManager before the attribute lookup;
+it is inconclusive and is not a fix. [Exact observations and cleanup](evidence/persona-attributes-v52.md).
+All breakpoints were removed and LLDB detached. The developer override was
+restored to zero. The guest remains running; the earlier statement that no
+support-service jobs had been submitted describes the pre-experiment state.

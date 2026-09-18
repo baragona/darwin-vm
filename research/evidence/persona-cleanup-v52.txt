@@ -1,0 +1,15 @@
+/bin/launch-probe remove com.apple.mobile.installd; /bin/launch-pro< remove com.apple.mobile.installd; /bin/launch-prob                         e list; echo SERIAL_DONE_<nstalld; /bin/launch-probe list; echo SERIAL_DONE_9                         338d337459d404a97162667e2< list; echo SERIAL_DONE_9338d337459d404a97162667e2b                         5c667
+System Policy: bash(353) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:06:17.809041 (user/501/com.apple.mobile.installd) <Notice>: legacy-remove service: caller = launch-probe[353]<-bash[3], value = 0x0
+System Policy: bash(354) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=6
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=343 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=341 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=352 LAST_EXIT=11
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_9338d337459d404a97162667e2b5c667

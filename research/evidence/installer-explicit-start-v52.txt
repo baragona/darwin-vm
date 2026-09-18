@@ -1,0 +1,6 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.installd.prob< submit /launchjobs/com.apple.mobile.installd.probe                         .plist; echo SERIAL_DONE_<ple.mobile.installd.probe.plist; echo SERIAL_DONE_e                         a144a6352c44197ac096046e4<plist; echo SERIAL_DONE_ea144a6352c44197ac096046e40                         7233c
+System Policy: bash(347) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_ea144a6352c44197ac096046e407233c
