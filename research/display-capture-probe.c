@@ -9,7 +9,16 @@
 #include <string.h>
 #include <unistd.h>
 
-int main(void) {
+/* 24A437 cadisplay_state_to_string table: 0 off, 1 on, 2 flipbook,
+ * 3 suppressed. A transition request is not proof of completion. */
+static const char *state_name(long state) {
+    const char *names[] = {"off", "on", "flipbook", "suppressed"};
+    return state >= 0 && state < 4 ? names[state] : "unknown";
+}
+
+int main(int argc, char **argv) {
+    int wake = argc == 2 && !strcmp(argv[1], "--wake");
+    if (argc > 1 && !wake) { fputs("usage: display-capture-probe [--wake]\n", stderr); return 2; }
     enum { WIDTH = 416, HEIGHT = 496, ROW_BYTES = WIDTH * 4 };
     setbuf(stdout, NULL);
     alarm(30);
@@ -40,6 +49,29 @@ int main(void) {
     const char *text = ((const char *(*)(void *, void *))msg)(name, sel("UTF8String"));
     printf("DISPLAY_CAPTURE_NAME=%s WIDTH=%u HEIGHT=%u\n", text ? text : "(nil)", WIDTH, HEIGHT);
     if (!text || strcmp(text, "LCD")) return 1;
+    void *control = get(display, sel("stateControl"));
+    printf("DISPLAY_CAPTURE_STATE_CONTROL=%d\n", control != NULL);
+    if (control) {
+        long (*state)(void *, void *) = (long (*)(void *, void *))msg;
+        long before = state(control, sel("displayState"));
+        printf("DISPLAY_CAPTURE_STATE_BEFORE=%ld NAME=%s\n", before, state_name(before));
+        if (wake) {
+            int (*run_loop)(void *, double, unsigned char) =
+                (int (*)(void *, double, unsigned char))dlsym(RTLD_DEFAULT, "CFRunLoopRunInMode");
+            void **mode = dlsym(RTLD_DEFAULT, "kCFRunLoopDefaultMode");
+            if (!run_loop || !mode) return 1;
+            puts("DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN");
+            ((void (*)(void *, void *, long, void *))msg)(control,
+                sel("transitionToDisplayState:withCompletion:"), 1, NULL);
+            /* Let asynchronous state notifications arrive before sampling.
+             * A request returning, or this delay, does not imply success. */
+            (void)run_loop(*mode, 2.0, 0);
+            long after = state(control, sel("displayState"));
+            printf("DISPLAY_CAPTURE_STATE_AFTER=%ld NAME=%s\n", after, state_name(after));
+        }
+    } else if (wake) {
+        puts("DISPLAY_CAPTURE_WAKE_UNAVAILABLE"); return 1;
+    }
     void *dict = get(cls("NSMutableDictionary"), sel("dictionary"));
     const char *keys[] = {"kIOSurfaceWidth", "kIOSurfaceHeight", "kIOSurfaceBytesPerElement",
         "kIOSurfaceBytesPerRow", "kIOSurfaceAllocSize", "kIOSurfacePixelFormat"};

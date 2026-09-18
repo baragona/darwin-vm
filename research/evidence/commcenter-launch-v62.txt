@@ -1,0 +1,116 @@
+/bin/lacom.apple.xpc.launchd|1970-01-01 00:06:05.295183 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+unch-probe starcom.apple.xpc.launchd|1970-01-01 00:06:05.866058 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+t com.apple.CommCenter; sleep 2com.apple.xpc.launchd|1970-01-01 00:06:06.639266 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:07.216714 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+; /com.apple.xpc.launchd|1970-01-01 00:06:07.431695 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:07.844990 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+bin/laun< start com.apple.CommCenter; sleep 2; /bin/launch-p                      com.apple.xpc.launchd|1970-01-01 00:06:08.242312 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+robe list; /bin/cat /v<r; sleep 2; /bin/launch-probe list; /bin/cat /var/t                      mp/commcom.apple.xpc.launchd|1970-01-01 00:06:09.955352 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+center.scom.apple.xpc.launchd|1970-01-01 00:06:10.148897 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+tderr; <obe list; /bin/cat /var/tmp/commcenter.stderr; echo                       SERIAL_DONE_com.apple.xpc.launchd|1970-01-01 00:06:10.268422 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:11.308958 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:11.083553 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+<; echo SERIAL_DONE_5f65706b59244806be593f834ca84296             
+com.apple.xpc.launchd|1970-01-01 00:06:11.651877 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:13.660166 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:13.406962 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+System Policy: bash(67) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:06:13.573408 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:14.115305 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:13.939525 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:15.621307 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:16.256559 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:06:16.122896 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:16.940326 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:17.454251 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:06:17.997820 (user/501/com.apple.CommCenter) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:17.998015 (user/501/com.apple.CommCenter) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:06:17.998099 (user/501/com.apple.CommCenter) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:06:17.999694 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:17.999732 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:17.999777 (user/501/com.apple.CommCenter) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:06:18.137174 (user/501/com.apple.CommCenter [68]) <Notice>: xpcproxy spawned with pid 68
+com.apple.xpc.launchd|1970-01-01 00:06:18.137413 (user/501/com.apple.CommCenter [68]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:18.137460 (user/501/com.apple.CommCenter [68]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:06:18.138090 (user/501/com.apple.CommCenter [68]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:18.146945 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:18.944014 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:18.837541 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:19.706255 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:20.365322 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:20.339751 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+System Policy: bash(69) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:06:21.082861 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:21.465750 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:22.541556 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:23.793519 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:23.543644 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:23.959535 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:23.959677 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:24.111897 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:24.832777 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:24.725667 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+System Policy: xpcproxy(68) allow process-exec* /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter
+com.apple.xpc.launchd|1970-01-01 00:06:25.786174 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:27.176860 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:26.160614 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:26.166419 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:27.177920 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:26.756942 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:27.512234 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.700019 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:27.810657 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.259555 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.896136 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:28.830355 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.923696 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:29.912461 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:06:29.681636 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:29.689790 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+System Policy: bash(70) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:06:32.857431 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:06:32.643208 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:32.651715 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:33.634487 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:33.409430 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=11
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=59 LAST_EXIT=0
+JOB com.apple.CommCenter PID=68 LAST_EXIT=0
+JOB com.apple.runningboardd PID=57 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=51 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+com.apple.xpc.launchd|1970-01-01 00:06:36.033866 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:36.365942 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:37.143411 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:37.981737 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:37.721701 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:38.439296 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+System Policy: bash(71) allow process-exec* /bin/cat
+com.apple.xpc.launchd|1970-01-01 00:06:39.272684 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:39.046155 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:39.465970 (user/501/com.apple.CommCenter [68]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:06:39.466145 (user/501/com.apple.CommCenter [68]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:39.466249 (user/501/com.apple.CommCenter [68]) <Notice>: Successfully spawned CommCenter[68] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:06:40.176808 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:40.449867 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:40.775366 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:40.934199 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:41.461170 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:42.832636 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:42.818454 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:42.914068 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:43.714368 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:43.446850 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:43.883823 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:44.090793 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[59], error = 3: No such process
+SERIAL_DONE_5f65706b59244806be593f834ca84296

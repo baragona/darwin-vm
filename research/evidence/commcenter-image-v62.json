@@ -2742,5 +2742,5 @@
   "cdhash": "c1155de4b084caf8f5c42bea58256da761bc2c28",
   "already_in_trust_cache": true,
   "trust_cache_entries": 4401,
-  "runtime_validation": "pending explicit launch; not included in automatic startup"
+  "runtime_validation": "V62: explicit start launches original CommCenter PID 68; SpringBoard sample is in normal UIKit event wait. Both before/after captures remain black. Full telephony functionality unverified; see exclave-runtime-v62.md."
 }

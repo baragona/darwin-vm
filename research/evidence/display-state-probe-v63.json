@@ -1,0 +1,21 @@
+{
+  "build": "24A437",
+  "path": "bin/display-capture-probe",
+  "sha256": "c3f8dc07ab24d7dd2fe4f3be547335f0cf736203060323f81a9aa1969c6580b8",
+  "cdhash": "82a357aa815caceb382a6be4f410294dea0842a5",
+  "signature_verification": "codesign --verify --strict passed",
+  "trust_cache_entries_before": 4401,
+  "trust_cache_entries_after": 4402,
+  "previous_entries_preserved": true,
+  "changes": [
+    "report CADisplayStateControl displayState",
+    "optional --wake requests state 1 and services the default run loop for up to two seconds before capture"
+  ],
+  "state_enum": {
+    "0": "off",
+    "1": "on",
+    "2": "flipbook",
+    "3": "suppressed"
+  },
+  "runtime_validation": "pending V63"
+}

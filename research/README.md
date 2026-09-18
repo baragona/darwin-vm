@@ -1943,3 +1943,17 @@ The original noncellular CommCenter daemon is also staged for a separate
 manual experiment on the observed telephony wait.
 [Runtime path trace, image manifests, and next checks](evidence/indicator-runtime-v61.md).
 Usable display output and input remain unverified.
+
+
+### Original indicator lookup succeeds; normal event wait observed (v62)
+
+Restoring the ExclaveOS assets fixes Camera lookup without the temporary
+indicator fallback. The original noncellular CommCenter also launches, and a
+SpringBoard main-thread sample reaches the normal UIKit event wait. Captures
+before and after telephony startup still contain only black RGB pixels.
+[Runtime checks and evidence](evidence/exclave-runtime-v62.md).
+
+The capture probe now reports LCD state. Explicit `/bin/display-capture-probe --wake` requests the build's display state 1 (on), services its run loop, and
+captures afterward; it does not inject touch input or prove a successful wake.
+This extension is installed for V63 but not yet runtime tested.
+[Build identities](evidence/display-state-probe-v63.json).

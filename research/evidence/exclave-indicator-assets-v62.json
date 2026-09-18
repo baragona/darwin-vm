@@ -107,5 +107,5 @@
     }
   ],
   "total_bytes": 22444268,
-  "runtime_validation": "pending V62; V61 verified actual missing cryptex path"
+  "runtime_validation": "V62: preferred ExclaveOS assets path selected; original Camera lookup returns type 0 without overrides. See exclave-runtime-v62.md."
 }

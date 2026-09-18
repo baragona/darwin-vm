@@ -1,0 +1,68 @@
+[
+  {
+    "runtime": "0x2577ffcd4",
+    "unslid": "0x237ef7cd4",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237ef7cd4: _mach_msg2_trap + 8",
+    "error": ""
+  },
+  {
+    "runtime": "0x257803308",
+    "unslid": "0x237efb308",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237efb308: _mach_msg2_internal + 76",
+    "error": ""
+  },
+  {
+    "runtime": "0x257803228",
+    "unslid": "0x237efb228",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237efb228: _mach_msg_overwrite + 424",
+    "error": ""
+  },
+  {
+    "runtime": "0x257803074",
+    "unslid": "0x237efb074",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237efb074: _mach_msg + 24",
+    "error": ""
+  },
+  {
+    "runtime": "0x19ff3e46c",
+    "unslid": "0x18063646c",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x18063646c: ___CFRunLoopServiceMachPort + 136",
+    "error": ""
+  },
+  {
+    "runtime": "0x19ff3d828",
+    "unslid": "0x180635828",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x180635828: ___CFRunLoopRun + 1604",
+    "error": ""
+  },
+  {
+    "runtime": "0x19ff3e7f4",
+    "unslid": "0x1806367f4",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x1806367f4: __CFRunLoopRunSpecificWithOptions + 344",
+    "error": ""
+  },
+  {
+    "runtime": "0x24a600f24",
+    "unslid": "0x22acf8f24",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices (__TEXT.__text)\n\n0x22acf8f24: _GSEventRunModal + 120",
+    "error": ""
+  },
+  {
+    "runtime": "0x1a421c1cc",
+    "unslid": "0x1849141cc",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x1849141cc: _UIApplicationMain + 336",
+    "error": ""
+  },
+  {
+    "runtime": "0x24459d3b0",
+    "unslid": "0x224c953b0",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224c953b0: _SBSystemAppMain + 5288",
+    "error": ""
+  },
+  {
+    "runtime": "0x19fd8f5b8",
+    "unslid": "0x1804875b8",
+    "symbol": "IMAGE\n-----\n > /usr/lib/dyld (__TEXT.__text)\n\n0x1804875b8: start + 6616",
+    "error": ""
+  }
+]
