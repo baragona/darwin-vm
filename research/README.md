@@ -20,6 +20,8 @@ and a full installed system are not working yet.
 - Backboardd reaches its main run loop and QuartzCore render-server threads.
 - A fresh CADisplay query completes: five wireless displays, all with 0 × 0
   modes, and no main display. A usable output and rendered UI remain absent.
+- Direct CPU composition of a local opaque red CALayer is verified: all 4,096
+  pixels in a 64x64 output buffer match the expected color (v36).
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1068,3 +1070,53 @@ binary hash. No entitlement or Developer Mode override was needed. V34 was
 intentionally stopped for installation; current v35 uses QMP
 `/tmp/a19-ui-v35-qmp.sock` and UART `/tmp/a19-ui-v35-serial.sock`.
 A usable main display, actual UI pixels, and interactive input remain unfinished.
+
+## First verified Core Animation pixels (v36)
+
+`software-render-probe --layer` successfully rendered an opaque red CALayer
+through the iOS software backend, without a GPU attachment, debugger override,
+or extra entitlements. This advances the earlier empty-update result to actual
+layer content. The probe creates a local CAContext, attaches a 64x64 CALayer
+with a DeviceRGB red background, disables implicit actions, commits and flushes
+the transaction, obtains the opaque renderContext, and adds it to the update
+with CARenderUpdateAddContext. It uses CACurrentMediaTime for the update time.
+
+[Guest transcript](evidence/software-layer-v36.txt):
+
+```text
+SW_LOCAL_CONTEXT_PRESENT=1
+SW_LAYER_COMMIT_RETURNED
+SW_RENDER_CONTEXT_PRESENT=1
+SW_ADD_CONTEXT_RETURNED
+SW_RENDER_LAYER_RETURNED
+SW_CHANGED_BYTES=16384 GUARD_CHANGED_BYTES=0
+SW_FIRST_PIXEL=0000ffff CENTER=0000ffff
+SW_OUTPUT_BYTES=16384 CLOSE_RESULT=0
+SOFTWARE_EXIT=0
+```
+
+The output was transferred from `/private/var/tmp/software-layer.raw` via
+`/bin/base64` on the guest UART. Host verification decoded exactly 16,384 bytes
+and compared the **entire buffer** against `bytes([0,0,255,255]) * 4096`.
+All 4,096 pixels matched opaque red interpreted as BGRA8; both 4,096-byte guard
+regions remained unchanged. The raw output's SHA-256 is
+`c34fb4331b2d031d7c644860b54a678424c66ef12352fc165a91dc09840d98fd`.
+
+Artifacts:
+
+- [Raw guest output](evidence/software-layer-v36.bgra)
+- [PNG conversion of that output](evidence/software-layer-v36.png)
+- [Exact pixel verification](evidence/software-layer-v36-verification.json)
+- [Signed probe identity](evidence/software-layer-probe-build.json)
+
+This is a single local solid-color layer, not SpringBoard or the system's main
+display. It does not yet establish multi-layer composition, alpha blending,
+frame-to-frame updates, textures, text, presentation speed, or touch input.
+Those can now be tested against actual output instead of inferred from object
+construction. Connecting the software backend to the system render server and
+a usable display remains necessary for the interactive emulator goal.
+
+Build uses the v35 command above with the updated source. Run `/bin/software-render-probe
+--layer` in the guest; the no-argument empty-update mode remains available.
+V35 was intentionally stopped for installation. V36 remains running on QMP
+`/tmp/a19-ui-v36-qmp.sock` and UART `/tmp/a19-ui-v36-serial.sock`.

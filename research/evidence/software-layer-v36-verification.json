@@ -1,0 +1,10 @@
+{
+  "width": 64,
+  "height": 64,
+  "bytes": 16384,
+  "pixel_format": "BGRA8",
+  "expected_pixel_hex": "0000ffff",
+  "matching_pixels": 4096,
+  "sha256": "c34fb4331b2d031d7c644860b54a678424c66ef12352fc165a91dc09840d98fd",
+  "guard_changed_bytes": 0
+}
