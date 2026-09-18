@@ -1,5 +1,6 @@
 /* Minimal research launchctl substitute using the iOS legacy launch API.
  * list: enumerate the caller's bootstrap domain. submit FILE: submit a plist.
+ * start/stop/remove LABEL: control an existing job in that same domain.
  * This does not switch domains or reproduce launchctl's policy preprocessing.
  * Link against matching restore-image CoreFoundation and libSystem.
  */
@@ -100,7 +101,18 @@ int main(int argc, char **argv) {
     }
     launch_data_t request = 0;
     int submitting = argc == 3 && !strcmp(argv[1], "submit");
-    if (submitting) {
+    const char *action = argc == 3 && !strcmp(argv[1], "start") ? "StartJob" :
+        argc == 3 && !strcmp(argv[1], "stop") ? "StopJob" :
+        argc == 3 && !strcmp(argv[1], "remove") ? "RemoveJob" : 0;
+    if (action) {
+        request = launch_data_alloc(1);
+        launch_data_t label = launch_data_new_string(argv[2]);
+        if (!request || !label || !launch_data_dict_insert(request, label, action)) {
+            if (label) launch_data_free(label);
+            if (request) launch_data_free(request);
+            return 1;
+        }
+    } else if (submitting) {
         int file = open(argv[2], 0);
         if (file < 0) { perror("open plist"); return 1; }
         size_t capacity = 1024 * 1024;
@@ -130,7 +142,7 @@ int main(int argc, char **argv) {
         }
     } else if (argc == 1 || (argc == 2 && !strcmp(argv[1], "list"))) {
         request = launch_data_new_string("GetJobs");
-    } else { printf("usage: launch-probe [list | submit PLIST | lookup SERVICE]\n"); return 2; }
+    } else { printf("usage: launch-probe [list | submit PLIST | lookup SERVICE | start LABEL | stop LABEL | remove LABEL]\n"); return 2; }
     if (!request) return 1;
     launch_data_t reply = launch_msg(request); launch_data_free(request);
     if (!reply) { perror("launch_msg"); return 1; }
@@ -138,7 +150,7 @@ int main(int argc, char **argv) {
     printf("LAUNCH_REPLY_TYPE=%d\n", type);
     if (type == 9) {
         int error = launch_data_get_errno(reply);
-        printf("LAUNCH_REPLY_ERRNO=%d\n", error); result = submitting && !error ? 0 : 1;
+        printf("LAUNCH_REPLY_ERRNO=%d\n", error); result = (submitting || action) && !error ? 0 : 1;
     }
     if (type == 1 && !submitting) {
         printf("LAUNCH_JOB_COUNT=%lu\n", launch_data_dict_get_count(reply));

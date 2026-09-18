@@ -1,0 +1,14 @@
+/bin/launch-probe start com.apple.SpringBoard; echo START_EXIT=$?; 
+< start com.apple.SpringBoard; echo START_EXIT=$?; e                         cho SERIAL_DONE_8a2eae7c4
+<rd; echo START_EXIT=$?; echo SERIAL_DONE_8a2eae7c41                         d14fa4818dced1a42bbe28
+
+System Policy: bash(42) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+
+LAUNCH_REPLY_ERRNO=0
+
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+START_EXIT=0
+
+SERIAL_DONE_8a2eae7c41d14fa4818dced1a42bbe28
+
