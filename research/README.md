@@ -2042,3 +2042,19 @@ python3 research/decode-display-capture.py --zlib TRANSCRIPT OUTPUT_PREFIX
 The V65 greeting frame transferred 19347 compressed bytes instead of 825344
 raw bytes. The decoder rejects incomplete streams, trailing data, and output
 larger than the fixed framebuffer; compression does not alter any pixels.
+
+
+### Digitizer delivery works; touchscreen service mapping is missing (v66)
+
+The HID probe's `--swipe` sends a hand with one finger through 14 frames,
+including release. All 14 returned through the monitor with matching
+coordinates, touch state, masks, and display-integration fields. A BackBoard
+observer then found the routing failure: `_determineServiceForEvent:sender:fromTouchPad:`
+returned no service for every frame from the synthetic sender. No routing
+result was overridden. The display still shows the welcome greeting.
+[Exact runtime evidence and images](evidence/swipe-runtime-v66.md).
+
+The next step is a registered virtual touchscreen with an assigned service
+ID. Monitor delivery alone is insufficient to claim working touch input.
+The source also corrects registry-ID decoding from a borrowed CFNumber;
+that enumeration-only fix is compiled but awaits the next guest build.

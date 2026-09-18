@@ -1,0 +1,20 @@
+{
+  "dispatched_frames": 14,
+  "matching_callbacks": 14,
+  "verified_fields": [
+    "mask",
+    "touch",
+    "display-integrated",
+    "normalized x/y",
+    "one child",
+    "child x/y and touch"
+  ],
+  "release_verified": true,
+  "ui_transition": "not achieved: repeat capture remains welcome greeting",
+  "routing_observation": {
+    "backboard_service_lookup_hits": 14,
+    "null_results": 14,
+    "overrides": false,
+    "observer_removed": true
+  }
+}

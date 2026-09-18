@@ -1,0 +1,33 @@
+/bin/display-capture-probe; /bin/display-pack-probe; echo DISPLAY_D<ure-probe; /bin/display-pack-probe; echo DISPLAY_DA                         TA_BEGIN; /bin/base64 /pr<ck-probe; echo DISPLAY_DATA_BEGIN; /bin/base64 /pri                         vate/var/tmp/display-capt<A_BEGIN; /bin/base64 /private/var/tmp/display-captu                         re.zlib; echo DISPLAY_DAT<ate/var/tmp/display-capture.zlib; echo DISPLAY_DATA                         _END; echo SERIAL_DONE_1e<e.zlib; echo DISPLAY_DATA_END; echo SERIAL_DONE_1e1                         8066f832d4d48ae58216fe84<END; echo SERIAL_DONE_1e18066f832d4d48ae58216fe8464                        b36
+System Policy: bash(76) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=0 NAME=off
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=0 OPAQUE_PIXELS=206336
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(77) allow process-exec* /bin/display-pack-probe
+PACK_RAW_BYTES=825344 PACKED_BYTES=824 WRITTEN=824 CLOSE=0
+DISPLAY_DATA_BEGIN
+System Policy: bash(78) allow process-exec* /bin/base64
+eJztwwENAAAMw6D6N/0LGSRUl6qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqOf8K2CQ4=
+DISPLAY_DATA_END
+SERIAL_DONE_1e18066f832d4d48ae58216fe8464b36
