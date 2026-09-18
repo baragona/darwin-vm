@@ -1,0 +1,30 @@
+[
+  {
+    "frame": 0,
+    "matching_pixels": 4096,
+    "rectangle_pixels": 384,
+    "background_pixels": 3712,
+    "rectangle_bgra": "80007fff",
+    "raw_rectangle": [
+      8,
+      36,
+      24,
+      16
+    ],
+    "sha256": "cb08b9733cff4dc5b94abb77611f464dc82d1d38692b02cd7ee24a23444da00c"
+  },
+  {
+    "frame": 1,
+    "matching_pixels": 4096,
+    "rectangle_pixels": 384,
+    "background_pixels": 3712,
+    "rectangle_bgra": "00ff00ff",
+    "raw_rectangle": [
+      32,
+      20,
+      24,
+      16
+    ],
+    "sha256": "ae7c18558341e947dc137aac0424409f2d14e10ae474fedba6f097792b0c30d7"
+  }
+]

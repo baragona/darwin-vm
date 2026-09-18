@@ -22,6 +22,8 @@ and a full installed system are not working yet.
   modes, and no main display. A usable output and rendered UI remain absent.
 - Direct CPU composition of a local opaque red CALayer is verified: all 4,096
   pixels in a 64x64 output buffer match the expected color (v36).
+- Alpha blending, layer movement/color changes, and repaint of the old position
+  pass complete pixel comparisons across two frames (v37).
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1120,3 +1122,60 @@ Build uses the v35 command above with the updated source. Run `/bin/software-ren
 --layer` in the guest; the no-argument empty-update mode remains available.
 V35 was intentionally stopped for installation. V36 remains running on QMP
 `/tmp/a19-ui-v36-qmp.sock` and UART `/tmp/a19-ui-v36-serial.sock`.
+
+## Verified alpha composition and frame updates (v37)
+
+The `--scene` mode reuses one local CAContext, CPU renderer, and output buffer
+for two frames. Frame 0 places a 24x16 blue layer with alpha 0.5 at layer
+coordinates (8,12) over the opaque red root. Frame 1 moves it to (32,28) and
+changes it to opaque green, with implicit animations disabled. Each update
+marks the full 64x64 destination dirty; this does not test minimal dirty-region
+tracking. The second frame deliberately retains the previous destination bytes
+before rendering, so old content must actually be repainted.
+
+[Guest transcript](evidence/software-scene-v37.txt) reports both frames completed,
+16,384 output bytes each, and no changed guard bytes. The host retrieved both
+buffers via base64 and [verified every pixel](evidence/software-scene-v37-verification.json):
+
+| Frame | Rectangle BGRA | Rectangle pixels | Red background pixels | Raw buffer rectangle |
+| --- | --- | --- | --- | --- |
+| 0 | `80007fff` | 384 | 3,712 | (8,36), 24x16 |
+| 1 | `00ff00ff` | 384 | 3,712 | (32,20), 24x16 |
+
+All 4,096 pixels matched in each frame, including red in the old rectangle's
+position after movement. The default software destination reverses the layer
+Y direction: raw row origin is `64 - layer_y - height`. This agrees with the
+destination setter's negative-stride path inspected in v35. The alpha result
+is blue=128, red=127, alpha=255 for this DeviceRGB scene.
+
+Actual guest outputs: [frame 0](evidence/software-scene-v37-0.png),
+[frame 1](evidence/software-scene-v37-1.png). The adjacent `.bgra` files retain
+all original output bytes. [Build identity](evidence/software-scene-probe-build.json)
+records the tested signed executable. The probe compiled with warnings treated
+as errors and exited 0; pixel correctness was separately verified on the host.
+
+Reproduction after building/staging the updated probe:
+
+```sh
+# Guest:
+/bin/software-render-probe --scene
+echo FRAME0_BEGIN
+/bin/base64 /private/var/tmp/software-scene-0.raw
+echo FRAME0_END
+echo FRAME1_BEGIN
+/bin/base64 /private/var/tmp/software-scene-1.raw
+echo FRAME1_END
+# Host, using the captured UART transcript:
+python3 research/verify-software-scene.py logs/v37-scene-pixels.txt research/evidence/software-scene-v37
+```
+
+This establishes a functioning local software compositor for the tested
+solid-color layers. It does not yet connect remote application contexts or
+backboardd's display to this renderer. Fonts, textures, performance, a usable
+main display, SpringBoard, and interactive input remain unverified. Static
+inspection identifies `-[CAWindowServer addDisplay:]` at `0x18475d698`, but its
+existence is not proof that a standalone process can register the system's
+main display; integrating at the render-server level remains the next gap.
+
+V36 was intentionally stopped for installation. Current v37 remains running
+with QMP `/tmp/a19-ui-v37-qmp.sock` and UART `/tmp/a19-ui-v37-serial.sock`.

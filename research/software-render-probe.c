@@ -1,7 +1,7 @@
 /* 24A437-specific opaque software-renderer experiment. No system display changes.
  * ABI traced through CARenderOGLNew_, software callback constructor, and
  * SWContext::set_destination(void*,long,unsigned long,void*,long,int,int,int,int).
- * The empty update is a smoke test, not proof of layer or GUI composition.
+ * Empty, solid-layer, and two-frame composition modes remain isolated from UI.
  */
 #include <dlfcn.h>
 #include <stdint.h>
@@ -11,8 +11,9 @@
 #include <unistd.h>
 typedef struct { double x,y,w,h; } Rect;
 int main(int argc, char **argv) {
-    int layer_mode=argc==2 && !strcmp(argv[1],"--layer");
-    if(argc>1 && !layer_mode) { puts("usage: software-render-probe [--layer]"); return 2; }
+    int scene_mode=argc==2 && !strcmp(argv[1],"--scene");
+    int layer_mode=scene_mode || (argc==2 && !strcmp(argv[1],"--layer"));
+    if(argc>1 && !layer_mode) { puts("usage: software-render-probe [--layer | --scene]"); return 2; }
     setbuf(stdout,NULL); alarm(20);
     puts("SW_PROBE_BEGIN");
     void *h=dlopen("/System/Library/Frameworks/QuartzCore.framework/QuartzCore",RTLD_NOW);
@@ -46,13 +47,14 @@ int main(int argc, char **argv) {
     Rect bounds={0,0,W,H};
     void *context=NULL;
     double time=1.0;
-    if(layer_mode) {
-        void *(*cls)(const char*)=(void*(*)(const char*))dlsym(RTLD_DEFAULT,"objc_getClass");
+    void *child=NULL;
+    void *(*cls)(const char*)=(void*(*)(const char*))dlsym(RTLD_DEFAULT,"objc_getClass");
         void *(*sel)(const char*)=(void*(*)(const char*))dlsym(RTLD_DEFAULT,"sel_registerName");
         void *msg=dlsym(RTLD_DEFAULT,"objc_msgSend");
         void *(*space_create)(void)=(void*(*)(void))dlsym(RTLD_DEFAULT,"CGColorSpaceCreateDeviceRGB");
         void *(*color_create)(void*,const double*)=(void*(*)(void*,const double*))dlsym(RTLD_DEFAULT,"CGColorCreate");
         double (*now)(void)=(double(*)(void))dlsym(h,"CACurrentMediaTime");
+    if(layer_mode) {
         if(!cls||!sel||!msg||!space_create||!color_create||!now) { puts("SW_LAYER_SYMBOLS_MISSING"); return 1; }
         void *(*get)(void*,void*)=(void*(*)(void*,void*))msg;
         void (*send)(void*,void*)=(void(*)(void*,void*))msg;
@@ -68,6 +70,16 @@ int main(int argc, char **argv) {
         void *color=color_create(space_create(),rgba);
         if(!layer||!color) { puts("SW_LAYER_OR_COLOR_MISSING"); return 1; }
         ((void(*)(void*,void*,void*))msg)(layer,sel("setBackgroundColor:"),color);
+        if(scene_mode) {
+            child=get(cls("CALayer"),sel("layer"));
+            Rect child_frame={8,12,24,16};
+            double blue[]={0,0,1,0.5};
+            void *child_color=color_create(space_create(),blue);
+            if(!child||!child_color) return 1;
+            ((void(*)(void*,void*,Rect))msg)(child,sel("setFrame:"),child_frame);
+            ((void(*)(void*,void*,void*))msg)(child,sel("setBackgroundColor:"),child_color);
+            ((void(*)(void*,void*,void*))msg)(layer,sel("addSublayer:"),child);
+        }
         ((void(*)(void*,void*,void*))msg)(local,sel("setLayer:"),layer);
         puts("SW_LAYER_COMMIT_BEGIN");
         send(cls("CATransaction"),sel("commit"));
@@ -78,6 +90,24 @@ int main(int argc, char **argv) {
         if(!context) return 1;
         time=now();
     }
+    size_t total_guard_changed=0;
+    for(int frame=0;frame<(scene_mode?2:1);frame++) {
+    if(frame==1) {
+        void (*send)(void*,void*)=(void(*)(void*,void*))msg;
+        send(cls("CATransaction"),sel("begin"));
+        ((void(*)(void*,void*,_Bool))msg)(cls("CATransaction"),sel("setDisableActions:"),1);
+        Rect child_frame={32,28,24,16};
+        double green[]={0,1,0,1};
+        void *color=color_create(space_create(),green);
+        if(!color) return 1;
+        ((void(*)(void*,void*,Rect))msg)(child,sel("setFrame:"),child_frame);
+        ((void(*)(void*,void*,void*))msg)(child,sel("setBackgroundColor:"),color);
+        send(cls("CATransaction"),sel("commit"));
+        send(cls("CATransaction"),sel("flush"));
+        time=now();
+    }
+    printf("SW_FRAME=%d\n",frame);
+    /* Keep previous pixels on frame 1: stale content must be repainted. */
     void *update=begin(NULL,0,time,NULL,0,&bounds);
     printf("SW_UPDATE_PRESENT=%d\n",update!=NULL);
     if(!update) return 1;
@@ -102,13 +132,17 @@ int main(int argc, char **argv) {
     printf("SW_FIRST_PIXEL=%02x%02x%02x%02x CENTER=%02x%02x%02x%02x\n",
         pixels[0],pixels[1],pixels[2],pixels[3],pixels[SIZE/2],pixels[SIZE/2+1],pixels[SIZE/2+2],pixels[SIZE/2+3]);
     if(layer_mode && changed && !guard_changed) {
-        FILE *output=fopen("/private/var/tmp/software-layer.raw","wb");
+        const char *path=scene_mode?(frame?"/private/var/tmp/software-scene-1.raw":"/private/var/tmp/software-scene-0.raw"):"/private/var/tmp/software-layer.raw";
+        FILE *output=fopen(path,"wb");
         if(!output) { perror("output"); return 1; }
         size_t written=fwrite(pixels,1,SIZE,output);
         int closed=fclose(output);
         printf("SW_OUTPUT_BYTES=%zu CLOSE_RESULT=%d\n",written,closed);
+        if(written!=SIZE || closed) return 1;
+    }
+    total_guard_changed+=guard_changed;
     }
     puts("SW_PROBE_END");
     /* Process exit owns private renderer cleanup. */
-    return guard_changed?1:0;
+    return total_guard_changed?1:0;
 }
