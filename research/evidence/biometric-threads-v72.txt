@@ -1,0 +1,233 @@
+/bin/tcom.apple.xpc.launchd|1970-01-01 00:23:55.858900 (user/501) <Warning>: failed lookup: name = com.apple.PointerUI.pointeruid.service, flags = 0x200, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:23:55.919501 (user/501) <Warning>: failed lookup: name = com.apple.managedconfiguration.profiled.public, flags = 0x8, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:23:56.047490 (user/501) <Warning>: failed lookup: name = com.apple.posterboardservices.services, flags = 0x200, requestor = SpringBoard[127], error = 3: No such process
+hread-probe 1com.apple.xpc.launchd|1970-01-01 00:23:56.253990 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:23:56.261485 (user/501) <Warning>: failed lookup: name = com.apple.mobileactivationd, flags = 0x8, requestor = SpringBoard[127], error = 3: No such process
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:127,sel:135:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:127,sel:135:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:127,sel:135:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:127,:13996: operation failed (sel: 135 ret: e00002d8)
+27; /bicom.apple.xpc.launchd|1970-01-01 00:23:56.759099 (user/501) <Warning>: failed lookup: name = com.apple.managedconfiguration.profiled.public, flags = 0x8, requestor = SpringBoard[127], error = 3: No such process
+n/thread-probe 121; ec"AppleSEPKeyStore":pid:121,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:121,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:121,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:121,:13996: operation failed (sel: 7 ret: e00002d8)
+ho SE"AppleSEPKeyStore":pid:121,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:121,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:121,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:121,:13996: operation failed (sel: 7 ret: e00002d8)
+RIAL_DONE_03dcom.apple.xpc.launchd|1970-01-01 00:23:58.710700 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[127], error = 3: No such process
+< 127; /bin/thread-probe 121; echo SERIAL_DONE_03db0                        035963f45c6a403b3c6ad2<; echo SERIAL_DONE_03db0035963f45c6a403b3c6ad2104b2                      "AppleSEPKeyStore":pid:127,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:127,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:127,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:127,:13996: operation failed (sel: 35 ret: e00002d8)
+"AppleSEPKeyStore":pid:127,sel:8:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:127,sel:8:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:127,sel:8:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:127,:13996: operation failed (sel: 8 ret: e00002d8)
+"AppleSEPKeyStore":pid:127,sel:26:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:127,sel:26:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:127,sel:26:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:127,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:127,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:127,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:127,:13996: operation failed (sel: 35 ret: e00002d8)
+
+com.apple.xpc.launchd|1970-01-01 00:24:01.680397 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:24:01.195652 (user/501) <Warning>: failed lookup: name = com.apple.iokit.powerdxpc, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:24:01.268165 (user/501) <Warning>: failed lookup: name = com.apple.TextInput, flags = 0x8, requestor = SpringBoard[127], error = 3: No such process
+System Policy: bash(137) allow process-exec* /bin/thread-probe
+com.apple.xpc.launchd|1970-01-01 00:24:02.037573 (user/501) <Warning>: failed lookup: name = com.apple.SystemConfiguration.NetworkInformation, flags = 0x8, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:24:02.236391 (user/501) <Warning>: failed lookup: name = com.apple.chronoservices, flags = 0x200, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:24:05.619025 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+TASK PID=127 RESULT=0
+DYLD_SLIDE=0x2e3c000 CACHE_BASE=0x182e3c000
+THREADS_RESULT=0 COUNT=14
+THREAD 0 PC=0x23ad33cd4 LR=0x23ad37308 FP=0x16b7b16b0
+ FRAME 0 RETURN=0x23ad36588
+ FRAME 1 RETURN=0x187245f60
+ FRAME 2 RETURN=0x187243cb4
+ FRAME 3 RETURN=0x1872407c0
+ FRAME 4 RETURN=0x187241018
+ FRAME 5 RETURN=0x187837c30
+ FRAME 6 RETURN=0x1834b89f4
+ FRAME 7 RETURN=0x183471d40
+ FRAME 8 RETURN=0x183471374
+ FRAME 9 RETURN=0x1834727f4
+ FRAME 10 RETURN=0x22db34f24
+ FRAME 11 RETURN=0x1877501cc
+ FRAME 12 RETURN=0x227ad13b0
+ FRAME 13 RETURN=0x1832c35b8
+ FRAME 14 RETURN=0x0
+THREAD 1 PC=0x23ad33cd4 LR=0x23ad37308 FP=0x105885bd0
+ FRAME 0 RETURN=0x23ad37228
+ FRAME 1 RETURN=0x23ad37074
+ FRAME 2 RETURN=0x19cfdc7e0
+ FRAME 3 RETURN=0x19cfdc670
+ FRAME 4 RETURN=0x1b1945fb4
+ FRAME 5 RETURN=0x1b193c130
+ FRAME 6 RETURN=0x19d038120
+ FRAME 7 RETURN=0x19cfdc5fc
+ FRAME 8 RETURN=0x2a589e5e0
+ FRAME 9 RETURN=0x2a589e4d8
+ FRAME 10 RETURN=0x1b1945fb4
+ FRAME 11 RETURN=0x1b192eb60
+ FRAME 12 RETURN=0x2a589e45c
+ FRAME 13 RETURN=0x2a5892c60
+ FRAME 14 RETURN=0x1b1945fb4
+ FRAME 15 RETURN=0x1b1930700
+ FRAME 16 RETURN=0x1b1943bb0
+ FRAME 17 RETURN=0x1b1942a74
+ FRAME 18 RETURN=0x1b1934710
+ FRAME 19 RETURN=0x1b1935470
+ FRAME 20 RETURN=0x1b193fc8c
+ FRAME 21 RETURN=0x1b193f6b0
+ FRAME 22 RETURN=0x183377238
+ FRAME 23 RETURN=0x183376910
+THREAD 2 PC=0x23ad3a134 LR=0x1b196302c FP=0x105686b40
+ FRAME 0 RETURN=0x1b192dac4
+ FRAME 1 RETURN=0x1b193c4e0
+ FRAME 2 RETURN=0x1b193bfcc
+ FRAME 3 RETURN=0x2273f7cdc
+ FRAME 4 RETURN=0x2273f78cc
+ FRAME 5 RETURN=0x2273f77d8
+ FRAME 6 RETURN=0x1b1945fb4
+ FRAME 7 RETURN=0x1b192eb60
+ FRAME 8 RETURN=0x2273f77ac
+ FRAME 9 RETURN=0x2273f9434
+ FRAME 10 RETURN=0x2282f3140
+ FRAME 11 RETURN=0x1b192bccc
+ FRAME 12 RETURN=0x1b1945fb4
+ FRAME 13 RETURN=0x1b1930450
+ FRAME 14 RETURN=0x1b193e9f8
+ FRAME 15 RETURN=0x1b193f0e4
+ FRAME 16 RETURN=0x1833771fc
+ FRAME 17 RETURN=0x183376910
+THREAD 3 PC=0x23ad395f8 LR=0x183377da0 FP=0x106186820
+ FRAME 0 RETURN=0x2a589f92c
+ FRAME 1 RETURN=0x2b01a0d24
+ FRAME 2 RETURN=0x1b192bccc
+ FRAME 3 RETURN=0x1b1945fb4
+ FRAME 4 RETURN=0x1b193487c
+ FRAME 5 RETURN=0x1b1935470
+ FRAME 6 RETURN=0x1b193fc8c
+ FRAME 7 RETURN=0x1b193f6b0
+ FRAME 8 RETURN=0x183377238
+ FRAME 9 RETURN=0x183376910
+THREAD 4 PC=0x23ad33cd4 LR=0x23ad37308 FP=0x1069858e0
+ FRAME 0 RETURN=0x23ad37228
+ FRAME 1 RETURN=0x23ad37074
+ FRAME 2 RETURN=0x18347246c
+ FRAME 3 RETURN=0x183471438
+ FRAME 4 RETURN=0x1834727f4
+ FRAME 5 RETURN=0x183514da8
+ FRAME 6 RETURN=0x1ab262854
+ FRAME 7 RETURN=0x18337a038
+ FRAME 8 RETURN=0x18337691c
+THREAD 5 PC=0x23ad33cd4 LR=0x23ad37308 FP=0x106b85d40
+ FRAME 0 RETURN=0x23ad37228
+ FRAME 1 RETURN=0x23ad37074
+ FRAME 2 RETURN=0x18347246c
+ FRAME 3 RETURN=0x183471438
+ FRAME 4 RETURN=0x1834727f4
+ FRAME 5 RETURN=0x183514da8
+ FRAME 6 RETURN=0x1c4177cc8
+ FRAME 7 RETURN=0x183b38edc
+ FRAME 8 RETURN=0x18337a038
+ FRAME 9 RETURN=0x18337691c
+THREAD 6 PC=0x23ad3a134 LR=0x1b196302c FP=0x107986700
+ FRAME 0 RETURN=0x1b192dac4
+ FRAME 1 RETURN=0x1b193c4e0
+ FRAME 2 RETURN=0x1b193bfcc
+ FRAME 3 RETURN=0x22701f778
+ FRAME 4 RETURN=0x1b192bccc
+ FRAME 5 RETURN=0x1b1945fb4
+ FRAME 6 RETURN=0x1b193487c
+ FRAME 7 RETURN=0x1b1935470
+ FRAME 8 RETURN=0x1b193fc8c
+ FRAME 9 RETURN=0x1b193f6b0
+ FRAME 10 RETURN=0x183377238
+ FRAME 11 RETURN=0x183376910
+THREAD 7 PC=0x23ad33a54 LR=0x1b194f6c4 FP=0x107e85cd0
+ FRAME 0 RETURN=0x1b1950058
+ FRAME 1 RETURN=0x1b193c3d4
+ FRAME 2 RETURN=0x1b193bfcc
+ FRAME 3 RETURN=0x19d038120
+ FRAME 4 RETURN=0x19cfdc5fc
+ FRAME 5 RETURN=0x1c81e5060
+ FRAME 6 RETURN=0x1c81e4f54
+ FRAME 7 RETURN=0x1c81e457c
+ FRAME 8 RETURN=0x1c81e42c8
+ FRAME 9 RETURN=0x22797359c
+ FRAME 10 RETURN=0x1c7f2d184
+ FRAME 11 RETURN=0x1c7ddf02c
+ FRAME 12 RETURN=0x1c7ddeee8
+ FRAME 13 RETURN=0x1b192bccc
+ FRAME 14 RETURN=0x1b1945fb4
+ FRAME 15 RETURN=0x1b193487c
+ FRAME 16 RETURN=0x1b1935470
+ FRAME 17 RETURN=0x1b193fc8c
+ FRAME 18 RETURN=0x1b193f6b0
+ FRAME 19 RETURN=0x183377238
+ FRAME 20 RETURN=0x183376910
+THREAD 8 PC=0x23ad33a80 LR=0x183377284 FP=0x107b86fe0
+ FRAME 0 RETURN=0x183376910
+THREAD 9 PC=0x183376908 LR=0x0 FP=0x0
+THREAD 10 PC=0x23ad33a80 LR=0x183377284 FP=0x107d86fe0
+ FRAME 0 RETURN=0x183376910
+THREAD 11 PC=0x23ad33a80 LR=0x183377284 FP=0x106886fe0
+ FRAME 0 RETURN=0x183376910
+THREAD 12 PC=0x23ad33c50 LR=0x1b192d86c FP=0x105786c50
+ FRAME 0 RETURN=0x1b192df50
+ FRAME 1 RETURN=0x1a1fa4958
+ FRAME 2 RETURN=0x1a1f91ee4
+ FRAME 3 RETURN=0x1a1f79c14
+ FRAME 4 RETURN=0x183b38edc
+ FRAME 5 RETURN=0x18337a038
+ FRAME 6 RETURN=0x18337691c
+THREAD 13 PC=0x23ad33a80 LR=0x183377284 FP=0x105a86fe0
+ FRAME 0 RETURN=0x183376910
+RESUME_RESULT=0
+System Policy: bash(138) allow process-exec* /bin/thread-probe
+"AppleSEPKeyStore":pid:121,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:121,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:121,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:121,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:24:06.641932 (user/501) <Warning>: failed lookup: name = com.apple.iokit.powerdxpc, requestor = SpringBoard[127], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:24:07.220819 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:24:07.038696 (user/501) <Warning>: failed lookup: name = com.apple.devicedatareset.DeviceDataResetObservationService.NonLaunching, flags = 0x88, requestor = SpringBoard[127], error = 3: No such process
+TASK PID=121 RESULT=0
+DYLD_SLIDE=0x2e3c000 CACHE_BASE=0x182e3c000
+THREADS_RESULT=0 COUNT=4
+THREAD 0 PC=0x23ad33cd4 LR=0x23ad37308 FP=0x16dc464e0
+ FRAME 0 RETURN=0x23ad37228
+ FRAME 1 RETURN=0x23ad37074
+ FRAME 2 RETURN=0x18347246c
+ FRAME 3 RETURN=0x183471438
+ FRAME 4 RETURN=0x1834727f4
+ FRAME 5 RETURN=0x18393bda8
+ FRAME 6 RETURN=0x183b364d4
+ FRAME 7 RETURN=0x1021b95c0
+ FRAME 8 RETURN=0x1021b932c
+ FRAME 9 RETURN=0x1832c35b8
+ FRAME 10 RETURN=0x0
+THREAD 1 PC=0x23ad33cd4 LR=0x23ad37308 FP=0x16dd598e0
+ FRAME 0 RETURN=0x23ad37228
+ FRAME 1 RETURN=0x23ad37074
+ FRAME 2 RETURN=0x18347246c
+ FRAME 3 RETURN=0x183471438
+ FRAME 4 RETURN=0x1834727f4
+ FRAME 5 RETURN=0x183514da8
+ FRAME 6 RETURN=0x1ab262854
+ FRAME 7 RETURN=0x18337a038
+ FRAME 8 RETURN=0x18337691c
+THREAD 2 PC=0x23ad33a80 LR=0x183377284 FP=0x16dde6b50
+ FRAME 0 RETURN=0x183376910
+THREAD 3 PC=0x23ad33a80 LR=0x183377284 FP=0x16dccefe0
+ FRAME 0 RETURN=0x183376910
+RESUME_RESULT=0
+com.apple.xpc.launchd|1970-01-01 00:24:07.417261 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[127], error = 3: No such process
+SERIAL_DONE_03db0035963f45c6a403b3c6ad2104b2

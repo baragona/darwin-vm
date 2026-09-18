@@ -1,0 +1,808 @@
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+/b"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+in/"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ls"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ -l"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ /"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+usr"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+/l"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ib"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ex"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ec/"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+bi"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ome"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+tr"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ick"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+itd"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+; "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+/bi"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+n/"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+lau"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+nch"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+-p"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+rob"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+e l"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ook"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+up "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+com"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+<bexec/biometrickitd; /bin/launch-probe lookup com.a                         "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ppl"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+e."AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+pea"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+rld"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+; "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ec"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ho "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+SER"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+IA"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+L_"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+<aunch-probe lookup com.apple.pearld; echo SERIAL_DO                         "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+NE"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+_d"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+bd"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+297"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+e1"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+95"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ee4"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+5dc"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+b2"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+2ff"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+<e.pearld; echo SERIAL_DONE_dbd297e195ee45dcb22ffd0b                        "AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+b8"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+d5"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+d1"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+5f"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+System Policy: bash(93) allow process-exec* /bin/ls
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+ls: cannot access '/usr/libexec/biometrickitd': No such file or directory
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+System Policy: bash(94) allow process-exec* /bin/launch-probe
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+LOOKUP com.apple.pearld RESULT=1102 PORT=0
+"AppleSEPKeyStore":pid:67,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:67,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:67,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:67,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:13:10.719648 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:13:10.527614 (user/501) <Warning>: failed lookup: name = com.apple.pearld, flags = 0x1, requestor = launch-probe[94], error = 3: No such process
+SERIAL_DONE_dbd297e195ee45dcb22ffd0bb8d5d15f

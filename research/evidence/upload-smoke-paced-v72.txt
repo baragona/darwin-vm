@@ -1,0 +1,12 @@
+if [ ! -e /var/tmp/upload-smoke-v72.txt ]; then /bin/stty -echo; ec<p/upload-smoke-v72.txt ]; then /bin/stty -echo; ech                         o UPLOAD_READY_b71d99c610<then /bin/stty -echo; echo UPLOAD_READY_b71d99c6101                         e44f9aa0e499eddd29ad4; el< UPLOAD_READY_b71d99c6101e44f9aa0e499eddd29ad4; els                         e echo UPLOAD_DESTINATION<44f9aa0e499eddd29ad4; else echo UPLOAD_DESTINATION_                         EXISTS; fi
+System Policy: bash(101) allow process-exec* /bin/stty
+UPLOAD_READY_b71d99c6101e44f9aa0e499eddd29ad4
+bash-5.3# > > System Policy: bash(102) allow process-exec* /bin/base64
+bash-5.3# System Policy: bash(103) allow process-exec* /bin/sha256sum
+90ab0f6c71f28b69f3c3606c6351ccd3b97b0260e8783ee7e1ffb80d26fdb551  /var/tmp/upload-smoke-v72.txt.upload-b71d99c6101e44f9aa0e499eddd29ad4
+System Policy: bash(104) allow process-exec* /bin/stty
+UPLOAD_HASHED_b71d99c6101e44f9aa0e499eddd29ad4
+bash-5.3# if [ ! -e /var/tmp/upload-smoke-v72.txt ]; then /bin/chmod 644 /var<p/upload-smoke-v72.txt ]; then /bin/chmod 644 /var/                         tmp/upload-smoke-v72.txt.<then /bin/chmod 644 /var/tmp/upload-smoke-v72.txt.u                         pload-b71d99c6101e44f9aa0<mp/upload-smoke-v72.txt.upload-b71d99c6101e44f9aa0e                         499eddd29ad4 && /bin/mv /<load-b71d99c6101e44f9aa0e499eddd29ad4 && /bin/mv /v                         ar/tmp/upload-smoke-v72.t<99eddd29ad4 && /bin/mv /var/tmp/upload-smoke-v72.tx                         t.upload-b71d99c6101e44f9<r/tmp/upload-smoke-v72.txt.upload-b71d99c6101e44f9a                         a0e499eddd29ad4 /var/tmp/<.upload-b71d99c6101e44f9aa0e499eddd29ad4 /var/tmp/u                         pload-smoke-v72.txt && ec<0e499eddd29ad4 /var/tmp/upload-smoke-v72.txt && ech                         o UPLOAD_DONE_b71d99c6101<load-smoke-v72.txt && echo UPLOAD_DONE_b71d99c6101e                         44f9aa0e499eddd29ad4; fi
+System Policy: bash(105) allow process-exec* /bin/chmod
+System Policy: bash(106) allow process-exec* /bin/mv
+UPLOAD_DONE_b71d99c6101e44f9aa0e499eddd29ad4
