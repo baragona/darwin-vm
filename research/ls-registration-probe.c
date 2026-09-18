@@ -51,7 +51,8 @@ int main(int argc,char **argv) {
         const char *method="_LSPrivateRebuildApplicationDatabasesForSystemApps:internal:user:uid:";
         if(!responds(workspace,method)) { puts("REBUILD_SELECTOR_MISSING");return 1; }
         puts("LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501");
-        int ok=((signed char(*)(Obj,void*,signed char,signed char,signed char,unsigned int))message)(workspace,selector(method),1,0,0,501);
+        unsigned int uid=501;
+        int ok=((signed char(*)(Obj,void*,signed char,signed char,signed char,const unsigned int*))message)(workspace,selector(method),1,0,0,&uid);
         printf("LS_REBUILD_RESULT=%d\n",ok);
         if(!ok) return 1;
     }

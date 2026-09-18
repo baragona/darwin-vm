@@ -1,0 +1,23 @@
+{
+  "build": "24A437",
+  "files": [
+    {
+      "path": "bin/ls-registration-probe",
+      "size": 68752,
+      "sha256": "a939ed76efa812fde05b34321008b499706a4fc08d154b10d3291a3a16b75791"
+    },
+    {
+      "path": "usr/libexec/usermanagerd",
+      "size": 1023968,
+      "sha256": "376309780d1a3deaa0c1b85a837900f4b73b4b4ee421c110a47e9d5a79552d17"
+    },
+    {
+      "path": "launchjobs/com.apple.mobile.usermanagerd.probe.plist",
+      "size": 1182,
+      "sha256": "e6c56d31a3c7ec855cb1cbf1a82e598bdab0088be0fd4721cfb1dd76263f3b06"
+    }
+  ],
+  "cdhash": "2207903a10c26f148a16648e77d0c24bce1c7c49",
+  "trustcache_entries_before": 4397,
+  "trustcache_entries_after": 4398
+}

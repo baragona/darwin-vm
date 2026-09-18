@@ -1631,3 +1631,57 @@ The installd job was removed (errno 0 and launchd legacy-remove confirmed).
 A [fresh query](evidence/ls-query-after-remove-v48.txt) then completes normally
 and still reports SpringBoard INVALID/isInstalled=0/bundleURL=nil. V48 remains
 running with container/lsd services; no debugger is attached.
+
+
+### UserManager dependency experiment (v49)
+
+V49 stages the byte-identical 24A437 /usr/libexec/usermanagerd and a
+[diagnostic job](usermanagerd-probe.plist). The original root identity,
+arguments (-t 15), environment and all three Mach services are preserved.
+For legacy submission, LimitLoadToSessionType=System is removed; this changes
+the bootstrap domain and must not be confused with normal system startup.
+_PanicOnCrash is removed, KeepAlive and pressured exit are disabled, and
+stdout/stderr are captured in /var/tmp. [Hashes](evidence/usermanagerd-v49.json)
+also identify the installed probe, now skipping the preliminary application
+query for --rebuild-system. No added entitlements or original daemon patches.
+
+V49 UserManager executes but aborts with "Daemon failed to load persona
+manifest." Static inspection identifies /private/var/keybags/persona.kb and
+the version-1 keys UsePersonaManifestVersion, UsePersonaGenerationID and
+UserPersonaDictionary. The keybags directory was absent. It was created live,
+then a minimal XML manifest (version 1, generation 1, empty user dictionary)
+was written only if absent. The equivalent [seed plist](persona-empty-manifest.plist)
+is an experiment; runtime validation follows. These /var changes are volatile.
+
+The initial v49 rebuild call segfaulted because the probe incorrectly passed
+uid 501 by value. Disassembly at 0x186e712b8 dereferences this argument as
+uint32_t*. Source now passes &uid and compiles cleanly. The installed v49
+binary still has the old calling convention. A debugger-assisted attempt
+replaced the argument with a stack pointer, but its write used LLDB's default
+hexadecimal parsing: readback was 1281, not 501. That attempt ended in SIGALRM
+and is invalid as a UID-501 rebuild test. No registration conclusion is drawn
+from either diagnostic error. The temporary breakpoint was deleted and the
+debugger detached.
+
+The empty persona seed is accepted: after removing and resubmitting its job,
+UserManager PID 66 remains listed with LAST_EXIT=0. Installd advances from
+its initial dependency wait to MIInstallerErrorDomain code 4 with underlying
+NSPOSIXErrorDomain code 2 (ENOENT), SourceFileLine=207. The exact missing
+container path is not yet established. [Observed transitions](evidence/persona-seed-result-v49.txt).
+The fresh SpringBoard query still ends via SIGALRM while installd crash-loops.
+
+V49 subsequently hits the [same SPTM panic](evidence/sptm-panic-v49.txt) at
+0xfffffe00071024e0 (ESR 0x02000000) seen in v42. The attempted installd
+RemoveJob does not complete. The log ends with nested panic limit/reset-or-spin;
+this is a verified terminal guest failure, not an observation timeout. Preserve
+the persona seed in /var-seed/keybags for the next boot, along with the corrected
+UID-pointer probe. Do not claim the v49 guest remains usable.
+
+V50 image preparation is complete: the seed is persisted at
+/var-seed/keybags/persona.kb and the corrected UID-pointer probe is installed
+and trusted. [Exact hashes](evidence/persona-seed-image-v50.json) identify both.
+The image is detached. V50 has not yet been booted; the next test should start
+UserManager and the container/lsd services, then test rebuild authorization
+before resubmitting the known-failing installd job. The rebuild server checks
+com.apple.lsapplicationworkspace.rebuildappdatabases (static inspection); the
+probe currently has no such entitlement.

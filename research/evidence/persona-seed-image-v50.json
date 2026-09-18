@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "bin/ls-registration-probe",
+      "sha256": "5436a433fd6c1ab1a764555107106dc902a0e6c5ed10f92a88820fbfbc213851"
+    },
+    {
+      "path": "var-seed/keybags/persona.kb",
+      "sha256": "942622e0485d228954e9a995ad29df01c8e2805d34d805cf4ca9c7b246aedcef"
+    }
+  ],
+  "cdhash": "89b3dd9151248fbd0464a0dcc13ae6ffc1c49cca",
+  "trustcache_entries_before": 4398,
+  "trustcache_entries_after": 4399
+}
