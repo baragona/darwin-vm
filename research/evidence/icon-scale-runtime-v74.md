@@ -2,7 +2,7 @@
 
 With IconServices51 restored, the system-app rebuild returned1 and a fresh display
 query verified LCD416x496. The first display query aborted during render-server
-startup; the later query completed. MobileGestalt80, biometric83, RunningBoard87
+startup; the later query completed. MobileGestalt80, biometric83, RunningBoard86
 and SpringBoard89 were started (consult the transcripts for exact launch state).
 The known extensionkitservice stat check was verified at launchd0x102099d0c,
 base0x102070000 (Mach-O magic checked). Path, helper result1, mode0755 and UID99
