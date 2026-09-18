@@ -1,0 +1,19 @@
+/bin/ls-registration-probe --rebuild-system; echo SERIAL_DONE_23735<ion-probe --rebuild-system; echo SERIAL_DONE_237353                         2ce66143778d8ac06d24be3ca<; echo SERIAL_DONE_2373532ce66143778d8ac06d24be3ca4                         
+System Policy: bash(44) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501
+com.apple.xpc.launchd|1970-01-01 00:03:02.688121 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-registration[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:03.224000 (user/501) <Warning>: failed lookup: name = com.apple.managedconfiguration.profiled.public, flags = 0x8, requestor = lsd[42], error = 3: No such process
+"AppleSEPKeyStore":pid:42,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:42,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:42,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:42,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:42,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:42,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:42,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:42,:13996: operation failed (sel: 7 ret: e00002d8)
+LS_REBUILD_RESULT=1
+LS_PROBE_END
+com.apple.xpc.launchd|1970-01-01 00:03:04.119729 (user/501) <Warning>: failed lookup: name = com.apple.mobile.installd, requestor = lsd[42], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:04.215085 (user/501) <Warning>: failed lookup: name = com.apple.CoreServices.fshelper, requestor = lsd[42], error = 3: No such process
+SERIAL_DONE_2373532ce66143778d8ac06d24be3ca4

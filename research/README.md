@@ -1685,3 +1685,46 @@ UserManager and the container/lsd services, then test rebuild authorization
 before resubmitting the known-failing installd job. The rebuild server checks
 com.apple.lsapplicationworkspace.rebuildappdatabases (static inspection); the
 probe currently has no such entitlement.
+
+
+### Corrected rebuild call and authorization (v50)
+
+V50 boots with cache slide 0x121b0000. The persisted empty persona manifest
+works across reboot: UserManager PID 38 is listed LAST_EXIT=0 alongside
+containermanagerd PID 40 and lsd PID 42. Installd is initially absent.
+The corrected UID-pointer probe completes without a crash and returns false.
+A hardware breakpoint at 0x186ee6528 + slide captures x26=0 immediately after
+_LSCheckEntitlementForXPCConnection for
+com.apple.lsapplicationworkspace.rebuildappdatabases.
+
+For one diagnostic call, x26 was changed to 1 and read back, then the
+breakpoint was deleted and debugger detached. This permits the rebuild
+operation rather than fabricating its result. The API returns true, but the
+[fresh query](evidence/query-after-rebuild-v50.txt) still reports SpringBoard
+INVALID, isInstalled=0 and nil bundleURL. Installd/fshelper lookup failures
+remain. This proves API success is insufficient for the intended database
+contents. [Baseline](evidence/rebuild-v50.txt) and
+[authorized diagnostic call](evidence/rebuild-auth-v50.txt).
+
+A [single-entitlement plist](ls-rebuild-entitlements.plist) is prepared for a
+reproducible signed probe; it has not yet been installed/tested. The current
+guest probe is still unentitled and no debugger is attached.
+
+Creating /private/var/installd and chowning it to 33:33 does not fix the
+startup failure: the original installd still exits with underlying ENOENT,
+SourceFileLine=207. [Failure](evidence/installd-home-result-v50.txt) and
+[service listing](evidence/installer-state-v50.txt) rule out the simple missing
+home-directory hypothesis. This change is only in volatile /var, not the image.
+
+Further static landmarks: InstalledContentLibrary implements
++[MIMCMContainer daemonContainerForIdentifier:personaUniqueString:error:]
+at 0x1ab0b4220, its block at 0x1ab0b4420, and
++[MIMCMContainer daemonContainerForPersona:error:] at 0x1ab0b44a8.
+The block requests class 10 (daemon) with creation enabled. This is distinct
+from the account home. InstalledContentLibrary symbols are available via a
+scoped ipsw dyld symaddr dump; a whole-cache exact lookup for the wrong class
+MIUserManagement wastes several minutes and finds nothing.
+
+Installd RemoveJob returns errno 0. V50 remains running, with the supporting
+UserManager/container/lsd jobs and no debugger attached. No virtual LCD,
+RunningBoard or SpringBoard job has been applied in this boot.

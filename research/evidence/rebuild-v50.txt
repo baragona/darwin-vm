@@ -1,0 +1,7 @@
+/bin/ls-registration-probe --rebuild-system; echo SERIAL_DONE_7b695<ion-probe --rebuild-system; echo SERIAL_DONE_7b6957                         141388409fb944e2bdb11465f<; echo SERIAL_DONE_7b6957141388409fb944e2bdb11465f4                         
+System Policy: bash(43) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501
+LS_REBUILD_RESULT=0
+SERIAL_DONE_7b6957141388409fb944e2bdb11465f4
+bash-5.3# 

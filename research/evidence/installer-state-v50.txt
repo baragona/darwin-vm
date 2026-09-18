@@ -1,0 +1,12 @@
+/bin/launch-probe list; echo SERIAL_DONE_b9f5dd56400343c98dfd324d2f< list; echo SERIAL_DONE_b9f5dd56400343c98dfd324d2f1                         dd58f
+System Policy: bash(51) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=7
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=-1 LAST_EXIT=6
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=42 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=40 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_b9f5dd56400343c98dfd324d2f1dd58f
