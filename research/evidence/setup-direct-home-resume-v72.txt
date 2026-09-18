@@ -1,0 +1,25 @@
+HID_PROBE_END
+com.apple.xpc.launchd|1970-01-01 00:38:58.494891 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:38:58.556732 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[186], error = 3: No such process
+"AppleSEPKeyStore":pid:0,:14008: AppleKeyStoreUserClient: Assertion timer fired
+System Policy: bash(195) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:39:06.960824 <Notice>: Last log repeated 23 times
+com.apple.xpc.launchd|1970-01-01 00:39:06.694067 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=14
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=186 LAST_EXIT=6
+JOB com.apple.CommCenter PID=72 LAST_EXIT=0
+JOB com.apple.runningboardd PID=65 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=60 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=52 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=121 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=174 LAST_EXIT=9
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=172 LAST_EXIT=9
+com.apple.xpc.launchd|1970-01-01 00:39:11.613583 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[186], error = 3: No such process
+S

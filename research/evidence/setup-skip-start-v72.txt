@@ -1,0 +1,6 @@
+/bin/launch-probe start com.apple.SpringBoard; echo SERIAL_DONE_03b< start com.apple.SpringBoard; echo SERIAL_DONE_03b8                         8076714d4496b21f9c2aa4f61<rd; echo SERIAL_DONE_03b88076714d4496b21f9c2aa4f61f                         03
+System Policy: bash(175) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_03b88076714d4496b21f9c2aa4f61f03

@@ -1,0 +1,7 @@
+echo PREF_BEGIN; /bin/base64 /var/mobile/Library/Preferences/com.ap</bin/base64 /var/mobile/Library/Preferences/com.app                         le.purplebuddy.plist; ech<brary/Preferences/com.apple.purplebuddy.plist; echo                          PREF_END; echo SERIAL_DO<e.purplebuddy.plist; echo PREF_END; echo SERIAL_DON                         E_21f15bed37394c3aaf48d4f<PREF_END; echo SERIAL_DONE_21f15bed37394c3aaf48d4f3                         98b5ea07
+PREF_BEGIN
+System Policy: bash(157) allow process-exec* /bin/base64
+YnBsaXN0MDDRAQJfEBlsYXN0UHJlcGFyZUxhdW5jaFNlbnRpbmVsogMEM8HNJ+GLqt+LEAEICycq
+MwAAAAAAAAEBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAA1
+PREF_END
+SERIAL_DONE_21f15bed37394c3aaf48d4f398b5ea07

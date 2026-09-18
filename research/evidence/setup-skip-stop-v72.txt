@@ -1,0 +1,15 @@
+/bin/launch-probe stop com.apple.purplebuddy.budd; /bin/launch-prob< stop com.apple.purplebuddy.budd; /bin/launch-probe                          stop com.apple.cfprefsd.<y.budd; /bin/launch-probe stop com.apple.cfprefsd.x                         pc.daemon; echo SERIAL_DO<stop com.apple.cfprefsd.xpc.daemon; echo SERIAL_DON                         E_1b765c441cd2400d9b36d99<c.daemon; echo SERIAL_DONE_1b765c441cd2400d9b36d991                         f1f7c5ab
+System Policy: bash(158) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(159) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:33:04.827114 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 00:33:04.739936 (user/501/com.apple.purplebuddy.budd [63]) <Notice>: legacy-stop service: caller = launch-probe[158]<-bash[3], value = 0x0
+com.apple.xpc.launchd|1970-01-01 00:33:04.741328 (user/501/com.apple.purplebuddy.budd [63]) <Notice>: signaled service: Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:33:04.741379 (user/501/com.apple.purplebuddy.budd [63]) <Notice>: service state: SIGKILLed
+com.apple.xpc.launchd|1970-01-01 00:33:04.741423 (user/501/com.apple.purplebuddy.budd [63]) <Notice>: scheduling cleanup in 9 sec after sending Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:33:04.767242 (user/501/com.apple.purplebuddy.budd [63]) <Notice>: exited due to SIGKILL | sent by launchd[1], ran for 1792687ms
+com.apple.xpc.launchd|1970-01-01 00:33:04.767306 (user/501/com.apple.purplebuddy.budd [63]) <Notice>: service state: exited
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_1b765c441cd2400d9b36d991f1f7c5ab
