@@ -1,0 +1,18 @@
+{
+  "ExcludePSCFromBackup": {
+    "MCMMigrationTime": "1970-01-01T00:00:24Z",
+    "MCMMigrationVersionNumber": "24A437"
+  },
+  "LastBuildInfo": {
+    "FullVersionString": "Version 27.0 (Build 24A437)",
+    "Version": "Version",
+    "ProductVersion": "27.0",
+    "ReleaseType": "Restore",
+    "BuildID": "300FEE0C-ACD5-11F1-A246-1FF2AA4B7BC9",
+    "ProductBuildVersion": "24A437",
+    "ProductCopyright": "1983-2026 Apple Inc.",
+    "ProductName": "iPhone OS",
+    "Build": "Build",
+    "ShortVersionString": "27.0"
+  }
+}

@@ -12,8 +12,11 @@ and a full installed system are not working yet.
 - HID, render, notification and preference Mach-port lookups succeed.
 - `IOSurfaceRoot` is registered, but no GPU attachment or rendered UI is verified.
 - LLDB works through QEMU; a temporary TXM state override enables guest task inspection.
-- Thread samples put the display client in CASGetDisplays/Mach receive and
-  backboardd in AppleKeyStore connection setup during Biome initialization.
+- The AppleKeyStore endpoint-order patch gets backboardd past its initial wait.
+- With writable var, a scoped helper path exception, and matching ICU resources,
+  the container helper completes migration and creates a system container.
+- Container sandbox-extension issuance under `/mnt1` is the current startup
+  blocker; backboardd still aborts and no display enumeration completes.
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -792,3 +795,40 @@ portion of that migration method; see the [evidence and next breakpoints](eviden
 This remains a diagnostic helper build, not a completed container or graphics
 implementation. The v26 guest is running with all breakpoints removed and
 LLDB detached; Developer Mode was not overridden.
+
+## ICU resources resolve container migration startup crash (v27–v28)
+
+Tracing refined the v26 crash interval to
+`-[MCMMigrationStatus _iso8601DateFormatter]` during migration-completion
+bookkeeping. The guest lacked `/usr/share/icu`. Adding the matching 24A437
+`icudt78l.dat` and `icutzformat.txt`, without executable changes, got the
+helper past startup. See [debugger evidence](evidence/migration-date-formatter-v27.md)
+and [resource hashes](evidence/icu-resources-v28.json).
+
+In v28, `containermanagerd_system` PID 31 remains alive on repeated checks
+and writes `mcm_migration_status.plist`. The [decoded status](evidence/migration-status-v28.json)
+records `ExcludePSCFromBackup` for build 24A437 at `1970-01-01T00:00:24Z`.
+The 1970 timestamp reflects this guest's clock, not host time. It also creates
+a system container with metadata, Documents, Library/Caches,
+Library/Preferences, and tmp. These are stronger evidence than an absence
+of crashes alone.
+
+The next observed denial is:
+
+```text
+Sandbox: containermanagerd_system(31) deny(1) file-issue-extension target:/mnt1/containers/Data/System/F44F7D22-E8DE-4FD4-95EF-F861F7B6755C extension-class:com.apple.sandbox.system-container
+```
+
+The scoped read/write entitlement fixes directory creation but does not
+permit issuing this extension at the resolved tmpfs path. Container child
+directories are currently mode 000, owned by nobody; successful client
+access has not been demonstrated. Backboardd PID 26 still exits with SIGABRT.
+Do not treat the resource fix as completed container access or graphical boot.
+
+The old v26 and v27 guests eventually hit SPTM/nested kernel panics after
+repeated failures; their relationship to the helper fault remains unknown.
+Both were stopped after confirmed panic, not an observation timeout.
+The fresh v28 guest is running, with no debugger attached or Developer Mode
+override. QMP: `/tmp/a19-ui-v28-qmp.sock`; UART: `/tmp/a19-ui-v28-serial.sock`.
+Only resource hashes, decoded diagnostic output, and notes are committed;
+Apple's ICU files remain local firmware assets.

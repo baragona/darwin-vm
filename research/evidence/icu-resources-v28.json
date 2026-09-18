@@ -1,0 +1,15 @@
+{
+  "source": "iPhone18,3 iOS 27.0 24A437 full system image",
+  "files": [
+    {
+      "path": "/usr/share/icu/icudt78l.dat",
+      "size": 36103568,
+      "sha256": "09781b9fdd79428c724099159f85dc522b07ddbf51cb7c23d16606a254d758f1"
+    },
+    {
+      "path": "/usr/share/icu/icutzformat.txt",
+      "size": 3,
+      "sha256": "327d09f9e798492441b2a7839e2ce11498c64ae4c36ea98e248b89c5fc3172fe"
+    }
+  ]
+}
