@@ -671,3 +671,31 @@ V21 is stopped. Current v22 is running with QMP `/tmp/a19-ui-v22-qmp.sock`, UART
 `/tmp/a19-ui-v22-serial.sock`, and loopback GDB `127.0.0.1:63422`. All breakpoints
 were removed. Developer Mode has not been overridden in v22. Graphical startup
 is not complete.
+
+
+### Matching ContainerManager resources staged (v23)
+
+The complete `System/Library/PrivateFrameworks/ContainerManagerCommon.framework`
+resource directory was copied from the exact system image into the stopped
+service ramdisk. All 28 plist files were byte-compared against the source;
+[resource hashes](evidence/container-config-resources.json) record the inputs.
+No kernel, launch configuration, or boot argument changed for this test.
+
+The permanent error changed from `INVALID_CONFIG_FILE` (149) to `DURING_STARTUP`
+(91). [Live error observations](evidence/container-error-v23.md). Configuration
+loading is no longer the observed failure, but the new error is generic: its
+specific cause remains unproven. Backboardd still aborts and the display query
+does not report a display count.
+
+The read-only /var and denied tmpfs mount remain unresolved. An entitlement
+comparison found that the restore image's mount_tmpfs has no listed
+entitlements, while restored_external has `com.apple.private.security.no-sandbox`
+and `com.apple.private.security.disk-device-access`. A trusted diagnostic mount
+helper with these restore-service entitlements is a concrete next experiment;
+it has not yet been installed or tested. It should first prove an isolated
+writable mount before any broader /var setup.
+
+V22 is stopped. V23 is running at QMP `/tmp/a19-ui-v23-qmp.sock`, UART
+`/tmp/a19-ui-v23-serial.sock`, and GDB `127.0.0.1:63423`. All hardware breakpoints
+were removed. Developer Mode has not been overridden in v23. Graphical startup
+remains incomplete.

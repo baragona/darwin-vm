@@ -1,0 +1,114 @@
+[
+  {
+    "file": "Base.plist",
+    "sha256": "dc203b8c87f3c4d8c7f893c5cdcfb6e0d2257b32770af932fd130d1e33bdae67"
+  },
+  {
+    "file": "Container.Class.app.plist",
+    "sha256": "4c86cd263a3ded630e36421e066fef9279ca96aa4937c49684f707ca24ea9a87"
+  },
+  {
+    "file": "Container.Class.appData.plist",
+    "sha256": "61a7e1c01c2c63fa59f34553dd92bc399d16d3774399d0c9ea4306253aa2278f"
+  },
+  {
+    "file": "Container.Class.appGroup.plist",
+    "sha256": "0db659abab2807089c6b149eba5ea4524c926c7830a168af21a69f4d274c16d7"
+  },
+  {
+    "file": "Container.Class.daemon.plist",
+    "sha256": "708b2ed86ca6acdb3aab11427be5c9a5247ad18127241d09b640699a9e0c0224"
+  },
+  {
+    "file": "Container.Class.framework.plist",
+    "sha256": "bc501971293a6e2239f03bd85cc9d3a4cd5b57bbdfad411f4d9c033b196de0ad"
+  },
+  {
+    "file": "Container.Class.perUserApp.plist",
+    "sha256": "c5ff4bd197b4f68c97f07dc15775a15edb22563325bfabe458891a1475be1600"
+  },
+  {
+    "file": "Container.Class.plugin.plist",
+    "sha256": "23aa42d11418e1cc58d671d8a8d7d4d72351e0107e42f7b3e80a40194ea27992"
+  },
+  {
+    "file": "Container.Class.pluginData.plist",
+    "sha256": "444cf25534aef66b1d51d444032fc9fd55a6014c8f44834e9928600200542067"
+  },
+  {
+    "file": "Container.Class.protectedSystem.plist",
+    "sha256": "ae0c72d9a7fc503d32084bbc0d532d61b7e7099724668111ab3fdb6249b95770"
+  },
+  {
+    "file": "Container.Class.systemData.plist",
+    "sha256": "bbabd2e734aeb7677dcfd7013201ec8e7fdd9b9857a1d56694bb10f1d38a5ca8"
+  },
+  {
+    "file": "Container.Class.systemGroup.plist",
+    "sha256": "e7b957a885517e2a288e5b8c226ecd9d9a918e56d0241a09f8ca53b5ce546a4c"
+  },
+  {
+    "file": "Container.Class.tempDir.plist",
+    "sha256": "592e8a38b1ca889f7b7f284495b08f07abc623cae7d4bd64f4906fe543c878b4"
+  },
+  {
+    "file": "Container.Class.vpn.plist",
+    "sha256": "f21f16205a55df80cc6077c72e7b6f832fbdcb744ffec4030c37805e768e855c"
+  },
+  {
+    "file": "Container.Class.vpnData.plist",
+    "sha256": "cf5f150089b420693d46dc70ef7fa8518827b3cc9da72b0d43fba3064b95a6ad"
+  },
+  {
+    "file": "Container.Class.xpcService.plist",
+    "sha256": "904a9e264f82d0b989e015c19d1e5a583e2fd1b3218130b55e1b787938a62519"
+  },
+  {
+    "file": "Container.Global.Bundle.plist",
+    "sha256": "37c668086b96e1bf74970781785b3c14d0bf59a7100ee4fef8b67efd0f90265b"
+  },
+  {
+    "file": "Container.Global.System.plist",
+    "sha256": "9c786035ae7b225ffc656e34f1cfdabc008c9ecdcc5c7d0a018840f0f64b7b6c"
+  },
+  {
+    "file": "Container.Global.plist",
+    "sha256": "3f2ed8fe4f91b69a90638e7caf4643c92160c30118e51363fbf506ac97d4a5dc"
+  },
+  {
+    "file": "Container.User.Bundle.plist",
+    "sha256": "816f40efed834fb2bcf1bd0ba686e066ed32e30d800cda0ae75ae216c7c15acf"
+  },
+  {
+    "file": "Container.User.Data.plist",
+    "sha256": "7593b2a8fc2f610edd9d1a955e0bb1aa00c47e03e7e8b7e582399e0bb5c64368"
+  },
+  {
+    "file": "Container.User.plist",
+    "sha256": "40bd23fa246aaa0cd88f19d456cead9a1f10559e010541e2cb11c720cc5b761e"
+  },
+  {
+    "file": "Containers.plist",
+    "sha256": "83867c1a7859d9c6ea60dea6b51dbc2c1609d0511f474770b1d417f5c062f10a"
+  },
+  {
+    "file": "Info.plist",
+    "sha256": "c5f0fb6e0fe03133b96e77ec8e10a6edf91edd468483b1660c57f312fd95b87d"
+  },
+  {
+    "file": "Platform.plist",
+    "sha256": "57041a241c2c83a87607783300a08fdceca3e9b949704b06075f1269f1760b2c"
+  },
+  {
+    "file": "SingleDaemon.plist",
+    "sha256": "c7c6c84b28321d4baf46fe708af26bf7753a47dc947345a056b6d4f2af94b95a"
+  },
+  {
+    "file": "System.plist",
+    "sha256": "8908cf9e1d5ad7f8a64bb6ae571db2b896b88189c831a4348e392e1c73f47cea"
+  },
+  {
+    "file": "User.plist",
+    "sha256": "980427345660e0e1f0003053b768dc40357a80de19a20ab534ab67ef7d9dfc36"
+  }
+]
