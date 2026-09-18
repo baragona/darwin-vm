@@ -1,0 +1,9 @@
+/bin/launch-probe list; echo POST_STRESS_SHELL_RESPONSIVE; echo SER< list; echo POST_STRESS_SHELL_RESPONSIVE; echo SERI                         AL_DONE_f83a350299d44fad9<ELL_RESPONSIVE; echo SERIAL_DONE_f83a350299d44fad9c                         f50281e97fede6
+System Policy: bash(337) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=3
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+POST_STRESS_SHELL_RESPONSIVE
+SERIAL_DONE_f83a350299d44fad9cf50281e97fede6

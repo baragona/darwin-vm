@@ -1,0 +1,241 @@
+/bin/launch-probe start com.apple.mobile.installd; echo SERIAL_DONE< start com.apple.mobile.installd; echo SERIAL_DONE_                         3b6e15e36e6f4077a61da1a58<stalld; echo SERIAL_DONE_3b6e15e36e6f4077a61da1a58a                         1a35fb
+System Policy: bash(76) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+panic(cpu 0 caller 0xfffffe002b44c010): panic_with_register_state: [DISPATCH_ID_SPTM_CORE] [SPTM] Synchronous exception taken while SP0 selected at pc 0xfffffe00071024e0, lr 0xfffffe0007101ff4
+	  x0:  0xfffffdf1b2efbc18 x1:  0x0000000000000000  x2:  0x0000000000000000  x3:  0x000000000000c000
+	  x4:  0x30903e9f00000000 x5:  0x0000000000000131  x6:  0x0000000000000aeb  x7:  0x0000000000009eaf
+	  x8:  0x310800336511a515 x9:  0x310800336511a515  x10: 0x0000000fc0000000  x11: 0x0000000000200000
+	  x12: 0xfffffe000709e240 x13: 0x0000000000000102  x14: 0xfffffe0007023bc0  x15: 0x000000000000000e
+	  x16: 0x000000000000000e x17: 0x0000000040000000  x18: 0x0000000000000001  x19: 0xfffffdf1b2efbc18
+	  x20: 0x000000000000008a x21: 0x0000000000000000  x22: 0x0000000fc0000000  x23: 0x0000000000000000
+	  x24: 0x0000000000000000 x25: 0x0000000000000001  x26: 0x0000000000000000  x27: 0xfffffe000709e000
+	  x28: 0xfffffe0007116180 fp:  0xfffffdf001767fd0  lr:  0xfffffe0007101ff4  sp:  0xfffffdf001767f10
+	  pc:  0xfffffe00071024e0 cpsr: 0x20003208         esr: 0x0000000002000000          far: 0x0000000000000000
+	  LLC_ERR_STS: 0x0000000002000000  LLC_ERR_ADR: 0xfffffe00071024e0  LLC_ERR_INF: 0x0000000020003208
+
+Nested panic detected - entry count: 2 panic_caller: 0xfffffe002b4351f8
+Kernel text exec slide: 0x0000000023b40000
+Kernel text exec base: 0xfffffe002ab44000
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Panicked thread: 0xfbfffe29d02b50c0, backtrace: 0xfffffecffbbda570, tid: 787
+		  lr: 0xfffffe002ab8b680  fp: 0xfffffecffbbda5f0
+		  lr: 0xfffffe002ab8afbc  fp: 0xfffffecffbbda7b0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbda7d0
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffecffbbda950
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffecffbbdaa00
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffecffbbdaad0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdaae0
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffecffbbdaf90
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffecffbbdb010
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffecffbbdb080
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffecffbbdb150
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdb160
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffecffbbdb500
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffecffbbdb6c0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbdb6e0
+		  lr: 0xfffffe002b44c010  fp: 0xfffffecffbbdb6f0
+		  lr: 0xfffffe0007104fd4  fp: 0xfffffdf00176fd90
+		  lr: 0xfffffe00071050fc  fp: 0xfffffdf00176fdb0
+		  lr: 0xfffffe00071052a8  fp: 0xfffffdf00176ffe0
+		  lr: 0xfffffe00070a82a4  fp: 0xfffffdf00176fff0
+		  lr: 0xfffffe00071024e0  fp: 0xfffffdf001767fd0
+		  lr: 0xfffffe00070a64fc  fp: 0xfffffdf001767fe0
+		  lr: 0xfffffe00070a6314  fp: 0xfffffdf001767ff0
+		  lr: 0xfffffe002b41b77c  fp: 0xfffffecffbbdb700
+		  lr: 0xfffffe002ad390c8  fp: 0xfffffecffbbdb740
+		  lr: 0xfffffe002ac9adc8  fp: 0xfffffecffbbdb780
+		  lr: 0xfffffe002b0d89b8  fp: 0xfffffecffbbdb960
+		  lr: 0xfffffe002b0df528  fp: 0xfffffecffbbdba10
+		  lr: 0xfffffe002b0de180  fp: 0xfffffecffbbdbde0
+		  lr: 0xfffffe002b26279c  fp: 0xfffffecffbbdbe40
+		  lr: 0xfffffe002ad51cc8  fp: 0xfffffecffbbdbf10
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdbf20
+		  lr: 0x000000024a1980fc  fp: 0x0000000000000000
+      Kernel Extensions in backtrace:
+         com.apple.sptm(27.0)[325C14BC-3EFA-33A3-9E5C-7A7049E321CD]@0xfffffe00070a4000->0xfffffe000710bfff
+Nested panic string:
+Kernel data abort. at pc 0xfffffe002ad5b344, lr 0xfffffe002ab8bc28 (saved state: 0xfffffecffbbdaaf0)
+	  x0:  0xfffffe002704677f x1:  0x0000000000000001  x2:  0x0000000000000000  x3:  0x0000000000000000
+	  x4:  0x0000000000000010 x5:  0x0000000000000001  x6:  0x0000000000000001  x7:  0xfffffe002b44c010
+	  x8:  0x0000000000000000 x9:  0xe04512202f600050  x10: 0xfffffe0027def9d0  x11: 0x0000000000000000
+	  x12: 0x000000000000002f x13: 0x0000000000000000  x14: 0x000000000000000f  x15: 0xfffffe0027055bf2
+	  x16: 0xfffffe002b3eed58 x17: 0x0000000000000a98  x18: 0x0000000000000000  x19: 0xfffffe002b7b3148
+	  x20: 0x0000000000000000 x21: 0xfffffe002b73b000  x22: 0x0000000000000000  x23: 0x0000000000000000
+	  x24: 0xfffffe002704677f x25: 0xfffffe002b718000  x26: 0x0000000000000001  x27: 0xfffffe002b7b3000
+	  x28: 0xfffffe002b73b000 fp:  0xfffffecffbbdaf90  lr:  0xfffffe002ab8bc28  sp:  0xfffffecffbbdae40
+	  pc:  0xfffffe002ad5b344 cpsr: 0x604033c8         esr: 0x0000000096000046  far: 0x00000000000000b1
+
+<end nested panic string>
+panic(cpu 0 caller 0xfffffe002b44c010): panic_with_register_state: [DISPATCH_ID_SPTM_CORE] [SPTM] Synchronous exception taken while SP0 selected at pc 0xfffffe00071024e0, lr 0xfffffe0007101ff4
+	  x0:  0xfffffdf1b2efbc18 x1:  0x0000000000000000  x2:  0x0000000000000000  x3:  0x000000000000c000
+	  x4:  0x30903e9f00000000 x5:  0x0000000000000131  x6:  0x0000000000000aeb  x7:  0x0000000000009eaf
+	  x8:  0x310800336511a515 x9:  0x310800336511a515  x10: 0x0000000fc0000000  x11: 0x0000000000200000
+	  x12: 0xfffffe000709e240 x13: 0x0000000000000102  x14: 0xfffffe0007023bc0  x15: 0x000000000000000e
+	  x16: 0x000000000000000e x17: 0x0000000040000000  x18: 0x0000000000000001  x19: 0xfffffdf1b2efbc18
+	  x20: 0x000000000000008a x21: 0x0000000000000000  x22: 0x0000000fc0000000  x23: 0x0000000000000000
+	  x24: 0x0000000000000000 x25: 0x0000000000000001  x26: 0x0000000000000000  x27: 0xfffffe000709e000
+	  x28: 0xfffffe0007116180 fp:  0xfffffdf001767fd0  lr:  0xfffffe0007101ff4  sp:  0xfffffdf001767f10
+	  pc:  0xfffffe00071024e0 cpsr: 0x20003208         esr: 0x0000000002000000          far: 0x0000000000000000
+	  LLC_ERR_STS: 0x0000000002000000  LLC_ERR_ADR: 0xfffffe00071024e0  LLC_ERR_INF: 0x0000000020003208
+
+Nested panic detected - entry count: 3 panic_caller: 0xfffffe002b4351f8
+Kernel text exec slide: 0x0000000023b40000
+Kernel text exec base: 0xfffffe002ab44000
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Panicked thread: 0xfbfffe29d02b50c0, backtrace: 0xfffffecffbbd9660, tid: 787
+		  lr: 0xfffffe002ab8b680  fp: 0xfffffecffbbd96e0
+		  lr: 0xfffffe002ab8afbc  fp: 0xfffffecffbbd98a0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbd98c0
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffecffbbd9a40
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffecffbbd9af0
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffecffbbd9bc0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbd9bd0
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffecffbbda080
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffecffbbda100
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffecffbbda170
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffecffbbda240
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbda250
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffecffbbda5f0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffecffbbda7b0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbda7d0
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffecffbbda950
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffecffbbdaa00
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffecffbbdaad0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdaae0
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffecffbbdaf90
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffecffbbdb010
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffecffbbdb080
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffecffbbdb150
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdb160
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffecffbbdb500
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffecffbbdb6c0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbdb6e0
+		  lr: 0xfffffe002b44c010  fp: 0xfffffecffbbdb6f0
+		  lr: 0xfffffe0007104fd4  fp: 0xfffffdf00176fd90
+		  lr: 0xfffffe00071050fc  fp: 0xfffffdf00176fdb0
+		  lr: 0xfffffe00071052a8  fp: 0xfffffdf00176ffe0
+		  lr: 0xfffffe00070a82a4  fp: 0xfffffdf00176fff0
+		  lr: 0xfffffe00071024e0  fp: 0xfffffdf001767fd0
+		  lr: 0xfffffe00070a64fc  fp: 0xfffffdf001767fe0
+		  lr: 0xfffffe00070a6314  fp: 0xfffffdf001767ff0
+		  lr: 0xfffffe002b41b77c  fp: 0xfffffecffbbdb700
+		  lr: 0xfffffe002ad390c8  fp: 0xfffffecffbbdb740
+		  lr: 0xfffffe002ac9adc8  fp: 0xfffffecffbbdb780
+		  lr: 0xfffffe002b0d89b8  fp: 0xfffffecffbbdb960
+		  lr: 0xfffffe002b0df528  fp: 0xfffffecffbbdba10
+		  lr: 0xfffffe002b0de180  fp: 0xfffffecffbbdbde0
+		  lr: 0xfffffe002b26279c  fp: 0xfffffecffbbdbe40
+		  lr: 0xfffffe002ad51cc8  fp: 0xfffffecffbbdbf10
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdbf20
+		  lr: 0x000000024a1980fc  fp: 0x0000000000000000
+      Kernel Extensions in backtrace:
+         com.apple.sptm(27.0)[325C14BC-3EFA-33A3-9E5C-7A7049E321CD]@0xfffffe00070a4000->0xfffffe000710bfff
+Nested panic string:
+Kernel data abort. at pc 0xfffffe002ad5b344, lr 0xfffffe002ab8bc28 (saved state: 0xfffffecffbbd9be0)
+	  x0:  0xfffffe002704677f x1:  0x0000000000000001  x2:  0x0000000000000000  x3:  0x0000000000000000
+	  x4:  0x0000000000000010 x5:  0x0000000000000001  x6:  0x0000000000000001  x7:  0xfffffe002b4351f8
+	  x8:  0x0000000000000000 x9:  0xe04512202f600050  x10: 0xfffffe0027def9d0  x11: 0x0000000000000000
+	  x12: 0x000000000000002f x13: 0x0000000000000000  x14: 0x000000000000000f  x15: 0xfffffe0027055bf2
+	  x16: 0xfffffe002b3eed58 x17: 0x0000000000000a98  x18: 0x0000000000000000  x19: 0xfffffe002b7b3148
+	  x20: 0x0000000000000000 x21: 0xfffffe002b73b000  x22: 0x0000000000000000  x23: 0x0000000000000000
+	  x24: 0xfffffe002704677f x25: 0xfffffe002b718000  x26: 0x0000000000000000  x27: 0xfffffe002b7b3000
+	  x28: 0xfffffe002b73b000 fp:  0xfffffecffbbda080  lr:  0xfffffe002ab8bc28  sp:  0xfffffecffbbd9f30
+	  pc:  0xfffffe002ad5b344 cpsr: 0x604033c8         esr: 0x0000000096000046  far: 0x00000000000000b1
+
+<end nested panic string>
+panic(cpu 0 caller 0xfffffe002b44c010): panic_with_register_state: [DISPATCH_ID_SPTM_CORE] [SPTM] Synchronous exception taken while SP0 selected at pc 0xfffffe00071024e0, lr 0xfffffe0007101ff4
+	  x0:  0xfffffdf1b2efbc18 x1:  0x0000000000000000  x2:  0x0000000000000000  x3:  0x000000000000c000
+	  x4:  0x30903e9f00000000 x5:  0x0000000000000131  x6:  0x0000000000000aeb  x7:  0x0000000000009eaf
+	  x8:  0x310800336511a515 x9:  0x310800336511a515  x10: 0x0000000fc0000000  x11: 0x0000000000200000
+	  x12: 0xfffffe000709e240 x13: 0x0000000000000102  x14: 0xfffffe0007023bc0  x15: 0x000000000000000e
+	  x16: 0x000000000000000e x17: 0x0000000040000000  x18: 0x0000000000000001  x19: 0xfffffdf1b2efbc18
+	  x20: 0x000000000000008a x21: 0x0000000000000000  x22: 0x0000000fc0000000  x23: 0x0000000000000000
+	  x24: 0x0000000000000000 x25: 0x0000000000000001  x26: 0x0000000000000000  x27: 0xfffffe000709e000
+	  x28: 0xfffffe0007116180 fp:  0xfffffdf001767fd0  lr:  0xfffffe0007101ff4  sp:  0xfffffdf001767f10
+	  pc:  0xfffffe00071024e0 cpsr: 0x20003208         esr: 0x0000000002000000          far: 0x0000000000000000
+	  LLC_ERR_STS: 0x0000000002000000  LLC_ERR_ADR: 0xfffffe00071024e0  LLC_ERR_INF: 0x0000000020003208
+
+Nested panic detected - entry count: 4 panic_caller: 0xfffffe002b4351f8
+Kernel text exec slide: 0x0000000023b40000
+Kernel text exec base: 0xfffffe002ab44000
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Panicked thread: 0xfbfffe29d02b50c0, backtrace: 0xfffffecffbbd8750, tid: 787
+		  lr: 0xfffffe002ab8b680  fp: 0xfffffecffbbd87d0
+		  lr: 0xfffffe002ab8afbc  fp: 0xfffffecffbbd8990
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbd89b0
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffecffbbd8b30
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffecffbbd8be0
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffecffbbd8cb0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbd8cc0
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffecffbbd9170
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffecffbbd91f0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffecffbbd9260
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffecffbbd9330
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbd9340
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffecffbbd96e0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffecffbbd98a0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbd98c0
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffecffbbd9a40
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffecffbbd9af0
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffecffbbd9bc0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbd9bd0
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffecffbbda080
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffecffbbda100
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffecffbbda170
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffecffbbda240
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbda250
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffecffbbda5f0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffecffbbda7b0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbda7d0
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffecffbbda950
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffecffbbdaa00
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffecffbbdaad0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdaae0
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffecffbbdaf90
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffecffbbdb010
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffecffbbdb080
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffecffbbdb150
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffecffbbdb160
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffecffbbdb500
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffecffbbdb6c0
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffecffbbdb6e0
+		  lr: 0xfffffe002b44c010  fp: 0xfffffecffbbdb6f0
+		  lr: 0xfffffe0007104fd4  fp: 0xfffffdf00176fd90
+		  lr: 0xfffffe00071050fc  fp: 0xfffffdf00176fdb0
+		  lr: 0xfffffe00071052a8  fp: 0xfffffdf00176ffe0
+		  lr: 0xfffffe00070a82a4  fp: 0xfffffdf00176fff0
+		  lr: 0xfffffe00071024e0  fp: 0xfffffdf001767fd0
+		  lr: 0xfffffe00070a64fc  fp: 0xfffffdf001767fe0
+		  lr: 0xfffffe00070a6314  fp: 0xfffffdf001767ff0
+		  lr: 0xfffffe002b41b77c  fp: 0xfffffecffbbdb700
+		  lr: 0xfffffe002ad390c8  fp: 0xfffffecffbbdb740
+		  lr: 0xfffffe002ac9adc8  fp: 0xfffffecffbbdb780
+Backtrace continues...
+      Kernel Extensions in backtrace:
+         com.apple.sptm(27.0)[325C14BC-3EFA-33A3-9E5C-7A7049E321CD]@0xfffffe00070a4000->0xfffffe000710bfff
+Nested panic string:
+Kernel data abort. at pc 0xfffffe002ad5b344, lr 0xfffffe002ab8bc28 (saved state: 0xfffffecffbbd8cd0)
+	  x0:  0xfffffe002704677f x1:  0x0000000000000001  x2:  0x0000000000000000  x3:  0x0000000000000000
+	  x4:  0x0000000000000010 x5:  0x0000000000000001  x6:  0x0000000000000001  x7:  0xfffffe002b4351f8
+	  x8:  0x0000000000000000 x9:  0xe04512202f600050  x10: 0xfffffe0027def9d0  x11: 0x0000000000000000
+	  x12: 0x000000000000002f x13: 0x0000000000000000  x14: 0x000000000000000f  x15: 0xfffffe0027055bf2
+	  x16: 0xfffffe002b3eed58 x17: 0x0000000000000a98  x18: 0x0000000000000000  x19: 0xfffffe002b7b3148
+	  x20: 0x0000000000000000 x21: 0xfffffe002b73b000  x22: 0x0000000000000000  x23: 0x0000000000000000
+	  x24: 0xfffffe002704677f x25: 0xfffffe002b718000  x26: 0x0000000000000000  x27: 0xfffffe002b7b3000
+	  x28: 0xfffffe002b73b000 fp:  0xfffffecffbbd9170  lr:  0xfffffe002ab8bc28  sp:  0xfffffecffbbd9020
+	  pc:  0xfffffe002ad5b344 cpsr: 0x604033c8         esr: 0x0000000096000046  far: 0x00000000000000b1
+
+<end nested panic string>
+panic(cpu 0 caller 0xfffffe002b44c010): panic_with_register_state: [DISPATCH_ID_SPTM_CORE] [SPTM] Synchronous exception taken while SP0 selected at pc 0xfffffe00071024e0, lr 0xfffffe0007101ff4
+	  x0:  0xfffffdf1b2efbc18 x1:  0x0000000000000000  x2:  0x0000000000000000  x3:  0x000000000000c000
+	  x4:  0x30903e9f00000000 x5:  0x0000000000000131  x6:  0x0000000000000aeb  x7:  0x0000000000009eaf
+	  x8:  0x310800336511a515 x9:  0x310800336511a515  x10: 0x0000000fc0000000  x11: 0x0000000000200000
+	  x12: 0xfffffe000709e240 x13: 0x0000000000000102  x14: 0xfffffe0007023bc0  x15: 0x000000000000000e
+	  x16: 0x000000000000000e x17: 0x0000000040000000  x18: 0x0000000000000001  x19: 0xfffffdf1b2efbc18
+	  x20: 0x000000000000008a x21: 0x0000000000000000  x22: 0x0000000fc0000000  x23: 0x0000000000000000
+	  x24: 0x0000000000000000 x25: 0x0000000000000001  x26: 0x0000000000000000  x27: 0xfffffe000709e000
+	  x28: 0xfffffe0007116180 fp:  0xfffffdf001767fd0  lr:  0xfffffe0007101ff4  sp:  0xfffffdf001767f10
+	  pc:  0xfffffe00071024e0 cpsr: 0x20003208         esr: 0x0000000002000000          far: 0x0000000000000000
+	  LLC_ERR_STS: 0x0000000002000000  LLC_ERR_ADR: 0xfffffe00071024e0  LLC_ERR_INF: 0x0000000020003208
+
+Nested panic count exceeds limit 5, machine will reset or spin

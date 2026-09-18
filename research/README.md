@@ -1785,3 +1785,43 @@ The normal SpringBoard query still returns INVALID/isInstalled=0/nil URL.
 The guest-only developer override was restored, all breakpoints removed,
 and the debugger detached. V51 is running with the installer job removed;
 no interactive SpringBoard or touch input is available yet.
+
+
+### Repeated SPTM panic: experimental invalidation workaround (v52)
+
+The [persona-client follow-up](evidence/persona-client-followup-v51.md) did
+not resolve installer startup. V51 then reached the same terminal SPTM panic
+as earlier runs. Original-file comparison confirms the fault word 0x0020134d
+is present in Apple's SPTM, not runtime corruption from these experiments.
+Its control-flow context suggests ASID-generation invalidation: x13 contains
+a low-byte index and high-byte generation; the faulting branch is taken when
+the stored generation differs, near TTBR0_EL1/TCR_EL1 updates. Exact custom
+instruction semantics remain unverified.
+
+A [hash-guarded experimental patcher](patch-sptm-invalidation-probe.py)
+substitutes architectural `tlbi vmalle1is` at that single site. This is a
+conservative full EL1 TLB invalidation hypothesis, not an upstream-ready
+emulation implementation. The boot wrapper accepts an explicit SPTM override
+and continues to use the original by default:
+
+```sh
+python3 research/patch-sptm-invalidation-probe.py \
+  firmware/iphone-17-ui-probe/sptm \
+  firmware/iphone-17-ui-probe/sptm-tlbi-probe
+# Add to the existing v51 boot environment:
+SPTM=firmware/iphone-17-ui-probe/sptm-tlbi-probe
+```
+
+V52 boots and completes **300 consecutive process launches**. A hardware
+breakpoint proves execution reached the substituted instruction with
+x13=0x102, x24=0, x25=1, matching the earlier fault conditions. After the
+breakpoint was removed and debugger detached, execution continued through
+PID 336 and printed PROCESS_STRESS_COMPLETED=300. [Exact observations and
+hashes](evidence/sptm-invalidation-v52.md), [stress transcript](evidence/sptm-process-stress-v52.txt),
+and [post-test shell check](evidence/sptm-post-stress-v52.txt).
+
+This makes further service experiments more practical; it does not prove
+complete translation correctness or restore the graphical UI. V52 remains
+running with no debugger attached. The installer, lsd, and UserManager probe
+jobs have not been submitted in this boot. The populated manifest remains
+in the disk seed. No host security settings or QEMU submodule source changed.

@@ -1,0 +1,7 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.installd.prob< submit /launchjobs/com.apple.mobile.installd.probe                         .plist; echo SERIAL_DONE_<ple.mobile.installd.probe.plist; echo SERIAL_DONE_e                         7d1004d3c5745a3b650d8d76c<plist; echo SERIAL_DONE_e7d1004d3c5745a3b650d8d76ca                         52141
+System Policy: bash(73) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:14:04.303627 (user/501/com.apple.mobile.installd) <Notice>: internal event: WILL_SPAWN, code = 0
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_e7d1004d3c5745a3b650d8d76ca52141
