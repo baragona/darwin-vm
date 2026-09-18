@@ -1,0 +1,34 @@
+/bin/hid-input-probe --home; /bin/ls /com.apple.xpc.launchd|1970-01-01 01:09:05.120563 <Notice>: Last log repeated 218 times
+com.apple.xpc.launchd|1970-01-01 01:09:05.048280 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+Applicationscom.apple.xpc.launchd|1970-01-01 01:09:05.089613 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:09:05.732697 <Notice>: Flushed 20 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 01:09:06.229805 <Notice>: Flushed 21 logs [limit: 20]
+; echo SERI<obe --home; /bin/ls /Applications; echo SERIAL_DONE                   _93ca2e6d6a2com.apple.xpc.launchd|1970-01-01 01:09:07.675949 <Notice>: Flushed 22 logs [limit: 20]
+84663b9c0aab<cations; echo SERIAL_DONE_93ca2e6d6a284663b9c0aab27                        d353611
+com.apple.xpc.launchd|1970-01-01 01:09:08.894438 <Notice>: Flushed 20 logs [limit: 20]
+System Policy: bash(262) allow process-exec* /bin/hid-input-probe
+HID_PROBE_BEGIN
+HID_CLIENT_TYPE=1 NAME=Monitor
+com.apple.xpc.launchd|1970-01-01 01:09:14.808082 <Notice>: Last log repeated 167 times
+com.apple.xpc.launchd|1970-01-01 01:09:14.711840 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:09:14.778961 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:09:15.453056 <Notice>: Last log repeated 8 times
+com.apple.xpc.launchd|1970-01-01 01:09:15.314029 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[262], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:09:15.458513 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+HID_CLIENT=1
+HID_SERVICES=-1
+HID_DISPATCH_BEGIN PAGE=12 USAGE=64 DOWN=1
+HID_DISPATCH_RETURNED
+HID_OBSERVED TYPE=3 PAGE=12 USAGE=64 DOWN=1
+HID_DISPATCH_BEGIN PAGE=12 USAGE=64 DOWN=0
+HID_DISPATCH_RETURNED
+HID_OBSERVED TYPE=3 PAGE=12 USAGE=64 DOWN=0
+HID_MATCHING_CALLBACKS=2
+HID_PROBE_END
+System Policy: bash(263) allow process-exec* /bin/ls
+com.apple.xpc.launchd|1970-01-01 01:09:27.642285 <Notice>: Flushed 20 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 01:09:27.860828 <Notice>: Last log repeated 210 times
+com.apple.xpc.launchd|1970-01-01 01:09:27.702618 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+Setup.app
+com.apple.xpc.launchd|1970-01-01 01:09:27.712367 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+SERIAL_DONE_93ca2e6d6a284663b9c0aab27d353611

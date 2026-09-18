@@ -1,0 +1,299 @@
+/bin/displcom.apple.xpc.launchd|1970-01-01 00:58:54.971785 (user/501) <Warning>: failed lookup: name = com.apple.pluginkit.pkd, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.113603 (user/501) <Warning>: failed lookup: name = com.apple.wirelessproxd, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.120794 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.160202 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.165879 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.171538 (user/501) <Warning>: failed lookup: name = com.apple.assistant.settings, requestor = SpringBoard[238], error = 3: No such process
+ay-cacom.apple.xpc.launchd|1970-01-01 00:58:55.219292 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.401550 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.407016 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.411706 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.562185 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.567692 (user/501) <Warning>: failed lookup: name = com.apple.locationd.registration, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:55.572548 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+pture-pcom.apple.xpc.launchd|1970-01-01 00:58:56.777502 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:58:56.484519 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:56.490126 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:56.516468 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:56.721874 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:56.726688 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.050086 <Notice>: Last log repeated 1 times
+robe -com.apple.xpc.launchd|1970-01-01 00:58:56.927474 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:56.932536 (user/501) <Warning>: failed lookup: name = com.apple.posterboardservices.services, flags = 0x200, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.120954 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+-wAMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 239]: /System/Library/Frameworks/ExtensionFoundation.frak"AppleSEPKeyStore":pid:121,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:121,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:121,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:121,:13996: operation failed (sel: 7 ret: e00002d8)
+e; /bcom.apple.xpc.launchd|1970-01-01 00:58:57.491024 (pid/238/com.apple.extensionkitservice [239]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:58:57.491189 (pid/238/com.apple.extensionkitservice [239]) <Notice>: internal event: INIT, code = 0
+in"AppleSEPKeyStore":pid:238,sel:35:8589: unexpected session uid: -1 requested by: SpringBoard (238)
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:238,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 17 ret: e00002d8)
+/hid-incom.apple.xpc.launchd|1970-01-01 00:58:57.491302 (pid/238/com.apple.extensionkitservice [239]) <Notice>: Successfully spawned extensionkitservice[239] because ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:58:57.491903 (user/501) <Warning>: failed lookup: name = com.apple.SystemConfiguration.configd, flags = 0x41, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.497963 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.537544 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.843158 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:58:57.715471 (user/501) <Warning>: failed lookup: name = com.apple.duetactivityscheduler, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.763772 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.endpoint.xpc, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+pu"AppleSEPKeyStore":pid:238,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:238,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:238,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:238,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 17 ret: e00002d8)
+t-com.apple.xpc.launchd|1970-01-01 00:58:57.776379 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.794478 (user/501) <Warning>: failed lookup: name = com.apple.carkit.service, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.799254 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.866716 (user/501) <Warning>: failed lookup: name = com.apple.assistant.settings, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.907401 (user/501) <Warning>: failed lookup: name = com.apple.locationd.registration, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.912666 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.935366 (user/501) <Warning>: failed activation: name = com.apple.usernotificationsserver.DefaultDataProviderFactory, flags = 0x0, requestor = SpringBoard[238], error = 1: Operation not permitted
+probe --homcom.apple.xpc.launchd|1970-01-01 00:58:57.937080 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:57.976748 (pid/239 [extensionkitser]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:58:57.976889 (pid/239 [extensionkitser]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:58:57.978783 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.046328 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.051400 (user/501) <Warning>: failed lookup: name = com.apple.timed.xpc, requestor = SpringBoard[238], error = 3: No such process
+e; /bicom.apple.xpc.launchd|1970-01-01 00:58:58.142964 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.152179 (user/501) <Warning>: failed lookup: name = com.apple.carkit.app.service, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.173432 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.178104 (pid/238 [SpringBoard]) <Warning>: failed lookup: name = com.apple.PerfPowerTelemetryClientRegistrationService, requestor = SpringBoard[238], error = 3: No such process
+<re-probe --wake; /bin/hid-input-probe --home; /bin/                         hcom.apple.xpc.launchd|1970-01-01 00:58:58.339591 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.348086 (user/501) <Warning>: failed lookup: name = com.apple.carkit.service, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.353981 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.391785 (user/501) <Warning>: failed lookup: name = com.apple.linkd.registry, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.404450 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.529308 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:58:58.438215 (user/501) <Warning>: failed lookup: name = com.apple.duetactivityscheduler, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.443571 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = extensionkitser[239], error = 3: No such process
+idcom.apple.xpc.launchd|1970-01-01 00:58:58.448234 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.473271 (user/501) <Warning>: failed lookup: name = com.apple.assistant.settings, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.480783 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.488723 (user/501) <Warning>: failed lookup: name = com.apple.coreduetd.context, flags = 0x8, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:58.496533 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:58:59.055717 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:58:58.744100 (pid/238/com.apple.extensionkitservice [239]) <Notice>: job state = running
+-incom.apple.xpc.launchd|1970-01-01 00:58:58.794682 (pid/239 [extensionkitser]) <Notice>: uncorking domain
+com.apple.xpc.launchd|1970-01-01 00:58:59.355685 (user/501) <Warning>: failed lookup: name = com.apple.usernotificationsvendor.listener, requestor = SpringBoard[238], error = 3: No such process
+pucom.apple.xpc.launchd|1970-01-01 00:58:59.611090 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[238], error = 3: No such process
+tcom.apple.xpc.launchd|1970-01-01 00:58:59.643989 (user/501) <Warning>: failed lookup: name = com.apple.accountsd.accountmanager, requestor = SpringBoard[238], error = 3: No such process
+-probe --virtual<input-probe --home; /bin/hid-input-probe --virtual-                         swipe; /bin/display-captu<id-input-probe --virtual-swipe; /bin/display-captur                         e-probe; /bin/display-pac<wipe; /bin/display-capture-probe; /bin/display-pack                         -probe; echo DISPLAY_DATA<-probe; /bin/display-pack-probe; echo DISPLAY_DATA_                         BEGIN; /bin/base64 /priva<probe; echo DISPLAY_DATA_BEGIN; /bin/base64 /privat                         e/var/tmp/display-capture<EGIN; /bin/base64 /private/var/tmp/display-capture.                         zlib; echo DIcom.apple.xpc.launchd|1970-01-01 00:59:07.212265 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+SPLAY_DATA_E</var/tmp/display-capture.zlib; echo DISPLAY_DATA_EN                         D; /bin/launch-probe list<lib; echo DISPLAY_DATA_END; /bin/launch-probe list;                          echo SERIAL_DONE_48d508a<; /bin/launch-probe list; echo SERIAL_DONE_48d508ae                         0bfc42a5938e857fd44201ba
+System Policy: bash(240) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=0 NAME=off
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:59:11.618732 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[240], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=0 NAME=off
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=0 COLORED_PIXELS=0 OPAQUE_PIXELS=0
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(241) allow process-exec* /bin/hid-input-probe
+HID_PROBE_BEGIN
+HID_CLIENT_TYPE=1 NAME=Monitor
+HID_CLIENT=1
+com.apple.xpc.launchd|1970-01-01 00:59:13.833840 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[241], error = 3: No such process
+HID_SERVICES=-1
+HID_DISPATCH_BEGIN PAGE=12 USAGE=64 DOWN=1
+HID_DISPATCH_RETURNED
+HID_OBSERVED TYPE=3 PAGE=12 USAGE=64 DOWN=1
+HID_DISPATCH_BEGIN PAGE=12 USAGE=64 DOWN=0
+HID_DISPATCH_RETURNED
+HID_OBSERVED TYPE=3 PAGE=12 USAGE=64 DOWN=0
+HID_MATCHING_CALLBACKS=2
+HID_PROBE_END
+System Policy: bash(242) allow process-exec* /bin/hid-input-probe
+HID_PROBE_BEGIN
+HID_CLIENT_TYPE=1 NAME=Monitor
+HID_CLIENT=1
+com.apple.xpc.launchd|1970-01-01 00:59:16.631181 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[242], error = 3: No such process
+HID_SERVICES=-1
+VTOUCH_DELEGATE_PROTOCOL_PRESENT=0
+VTOUCH_DISPLAY_UUID=0759ABED-1427-4D98-A11C-D26D599E5456
+VTOUCH_SERVICE_OBJECT=1
+VTOUCH_PROPERTY KEY=DeviceUsagePairs FOUND=1
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=HIDPropertiesRequiredForMatching FOUND=0
+VTOUCH_PROPERTY KEY=Hidden FOUND=0
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=ProductID FOUND=1
+VTOUCH_PROPERTY KEY=VendorID FOUND=1
+VTOUCH_PROPERTY KEY=ReportInterval FOUND=0
+VTOUCH_PROPERTY KEY=BatchInterval FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=ProtectedAccess FOUND=0
+VTOUCH_PROPERTY KEY=QueueSize FOUND=0
+VTOUCH_PROPERTY KEY=SensorPropertySupported FOUND=0
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=LocationID FOUND=0
+VTOUCH_PROPERTY KEY=HIDServiceAccessEntitlement FOUND=0
+VTOUCH_PROPERTY KEY=Unregistered FOUND=0
+VTOUCH_SET_PROPERTY KEY=PreserveTimestamp PRESENT=1
+VTOUCH_SET_PROPERTY KEY=LogLevel PRESENT=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=QuantizationDPI PRESENT=1
+VTOUCH_SET_PROPERTY KEY=GraphicsOrientation PRESENT=1
+VTOUCH_PROPERTY KEY=MaxHoverHeight FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+com.apple.xpc.launchd|1970-01-01 00:59:16.890518 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=DeviceOpenedByEventSystem PRESENT=1
+VTOUCH_NOTIFICATION=10
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=NeedsHostState FOUND=0
+VTOUCH_SET_PROPERTY KEY=TouchDetectionMode PRESENT=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_STATE=10 SERVICE_ID=0x7a24de8c00000b
+HID_SWIPE_FRAME=0 TOUCH=1 Y=0.960
+VTOUCH_PROPERTY KEY=AccurateMaxDigitizerPressureValue FOUND=0
+HID_VIRTUAL_DISPATCH_FRAME=0 RESULT=1
+HID_SWIPE_FRAME=1 TOUCH=1 Y=0.897
+HID_VIRTUAL_DISPATCH_FRAME=1 RESULT=1
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.960 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.960
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.897 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.897
+HID_SWIPE_FRAME=2 TOUCH=1 Y=0.833
+HID_VIRTUAL_DISPATCH_FRAME=2 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.833 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.833
+HID_SWIPE_FRAME=3 TOUCH=1 Y=0.770
+HID_VIRTUAL_DISPATCH_FRAME=3 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.770 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.770
+HID_SWIPE_FRAME=4 TOUCH=1 Y=0.707
+HID_VIRTUAL_DISPATCH_FRAME=4 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.707 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.707
+HID_SWIPE_FRAME=5 TOUCH=1 Y=0.643
+HID_VIRTUAL_DISPATCH_FRAME=5 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.643 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.643
+HID_SWIPE_FRAME=6 TOUCH=1 Y=0.580
+HID_VIRTUAL_DISPATCH_FRAME=6 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.580 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.580
+HID_SWIPE_FRAME=7 TOUCH=1 Y=0.517
+HID_VIRTUAL_DISPATCH_FRAME=7 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.517 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.517
+HID_SWIPE_FRAME=8 TOUCH=1 Y=0.453
+HID_VIRTUAL_DISPATCH_FRAME=8 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.453 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.453
+HID_SWIPE_FRAME=9 TOUCH=1 Y=0.390
+HID_VIRTUAL_DISPATCH_FRAME=9 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.390 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.390
+HID_SWIPE_FRAME=10 TOUCH=1 Y=0.327
+HID_VIRTUAL_DISPATCH_FRAME=10 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.327 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.327
+HID_SWIPE_FRAME=11 TOUCH=1 Y=0.263
+HID_VIRTUAL_DISPATCH_FRAME=11 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.263 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.263
+HID_SWIPE_FRAME=12 TOUCH=1 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=12 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.200
+HID_SWIPE_FRAME=13 TOUCH=0 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=13 RESULT=1
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=0 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=0 X=0.500 Y=0.200
+HID_MATCHING_CALLBACKS=14
+HID_PROBE_END
+System Policy: bash(243) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=0 NAME=off
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=0 COLORED_PIXELS=0 OPAQUE_PIXELS=0
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(244) allow process-exec* /bin/display-pack-probe
+PACK_RAW_BYTES=825344 PACKED_BYTES=821 WRITTEN=821 CLOSE=0
+DISPLAY_DATA_BEGIN
+System Policy: bash(245) allow process-exec* /bin/base64
+eJztwYEAAAAAgCB/kD0XqQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAGGTZccM=
+DISPLAY_DATA_END
+System Policy: bash(246) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=14
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=238 LAST_EXIT=6
+JOB com.apple.CommCenter PID=72 LAST_EXIT=0
+JOB com.apple.runningboardd PID=65 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=60 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=52 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=121 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=174 LAST_EXIT=9
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=172 LAST_EXIT=9
+SERIAL_DONE_48d508ae0bfc42a5938e857fd44201ba

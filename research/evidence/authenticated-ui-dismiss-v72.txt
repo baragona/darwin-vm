@@ -1,0 +1,369 @@
+/bin/display-capture-probe --wake; /bin/hid-input-probe --virtual<re-probe --wake; /bin/hid-input-probe --virtual-swi                       pe; /bin/sleep 2; /bin/d<put-probe --virtual-swipe; /bin/sleep 2; /bin/displ                        ay-capture-probe; /bin/< /bin/sleep 2; /bin/display-capture-probe; /bin/dis                       play-pack-probe; echo D<-capture-probe; /bin/display-pack-probe; echo DISPL                       AY_DATA_BEGIN; /bin/b<ay-pack-probe; echo DISPLAY_DATA_BEGIN; /bin/base64                      /private/var/tmp/displa<DATA_BEGIN; /bin/base64 /private/var/tmp/display-ca                        pture.zlib; echo DISPLAY_com.apple.xpc.launchd|1970-01-01 01:05:50.730345 <Notice>: Last log repeated 37 times
+<vate/var/tmp/display-capture.zlib; echo DISPLAY_DAT                         A_ENcom.apple.xpc.launchd|1970-01-01 01:05:50.489184 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+D; /bin/com.apple.xpc.launchd|1970-01-01 01:05:50.537519 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+launch-probe<re.zlib; echo DISPLAY_DATA_END; /bin/launch-probe l                        ist; ec<in/launch-probe list; echo SERIAL_DONE_eba8e303049e       431bbee6666b50e3b1af
+System Policy: bash(255) allow process-exec* /bin/display-capture-probe
+com.apple.xpc.launchd|1970-01-01 01:06:00.706322 <Notice>: Last log repeated 56 times
+com.apple.xpc.launchd|1970-01-01 01:06:00.500621 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:01.210401 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=1 NAME=on
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 01:06:06.286787 <Notice>: Last log repeated 23 times
+com.apple.xpc.launchd|1970-01-01 01:06:05.921387 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[255], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:05.929084 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=27663 OPAQUE_PIXELS=206336
+com.apple.xpc.launchd|1970-01-01 01:06:11.119745 <Notice>: Last log repeated 41 times
+com.apple.xpc.launchd|1970-01-01 01:06:10.422659 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:10.603687 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(256) allow process-exec* /bin/hid-input-probe
+HID_PROBE_BEGIN
+com.apple.xpc.launchd|1970-01-01 01:06:20.261487 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 01:06:20.069238 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:20.285342 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+HID_CLIENT_TYPE=1 NAME=Monitor
+com.apple.xpc.launchd|1970-01-01 01:06:22.038218 <Notice>: Last log repeated 27 times
+com.apple.xpc.launchd|1970-01-01 01:06:21.714118 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[256], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:21.807652 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+HID_CLIENT=1
+com.apple.xpc.launchd|1970-01-01 01:06:24.565705 <Notice>: Last log repeated 14 times
+com.apple.xpc.launchd|1970-01-01 01:06:24.325072 (user/501) <Warning>: failed lookup: name = com.apple.apsd, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:24.719588 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+HID_SERVICES=-1
+VTOUCH_DELEGATE_PROTOCOL_PRESENT=0
+VTOUCH_DISPLAY_UUID=0759ABED-1427-4D98-A11C-D26D599E5456
+VTOUCH_SERVICE_OBJECT=1
+VTOUCH_PROPERTY KEY=DeviceUsagePairs FOUND=1
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=HIDPropertiesRequiredForMatching FOUND=0
+VTOUCH_PROPERTY KEY=Hidden FOUND=0
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=ProductID FOUND=1
+VTOUCH_PROPERTY KEY=VendorID FOUND=1
+VTOUCH_PROPERTY KEY=ReportInterval FOUND=0
+VTOUCH_PROPERTY KEY=BatchInterval FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=ProtectedAccess FOUND=0
+VTOUCH_PROPERTY KEY=QueueSize FOUND=0
+VTOUCH_PROPERTY KEY=SensorPropertySupported FOUND=0
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=LocationID FOUND=0
+VTOUCH_PROPERTY KEY=HIDServiceAccessEntitlement FOUND=0
+VTOUCH_PROPERTY KEY=Unregistered FOUND=0
+VTOUCH_SET_PROPERTY KEY=PreserveTimestamp PRESENT=1
+VTOUCH_SET_PROPERTY KEY=LogLevel PRESENT=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=QuantizationDPI PRESENT=1
+VTOUCH_SET_PROPERTY KEY=GraphicsOrientation PRESENT=1
+VTOUCH_PROPERTY KEY=MaxHoverHeight FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=DeviceOpenedByEventSystem PRESENT=1
+VTOUCH_NOTIFICATION=10
+VTOUCH_STATE=10 SERVICE_ID=0x7a24de8a00000c
+HID_SWIPE_FRAME=0 TOUCH=1 Y=0.960
+HID_VIRTUAL_DISPATCH_FRAME=0 RESULT=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=NeedsHostState FOUND=0
+VTOUCH_PROPERTY KEY=AccurateMaxDigitizerPressureValue FOUND=0
+HID_SWIPE_FRAME=1 TOUCH=1 Y=0.897
+HID_VIRTUAL_DISPATCH_FRAME=1 RESULT=1
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.960 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.960
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.897 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.897
+HID_SWIPE_FRAME=2 TOUCH=1 Y=0.833
+com.apple.xpc.launchd|1970-01-01 01:06:31.093524 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 01:06:30.694064 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:30.861117 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+"AppleSEPKeyStore":pid:121,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:121,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:121,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:121,:13996: operation failed (sel: 7 ret: e00002d8)
+HID_VIRTUAL_DISPATCH_FRAME=2 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.833 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.833
+HID_SWIPE_FRAME=3 TOUCH=1 Y=0.770
+HID_VIRTUAL_DISPATCH_FRAME=3 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.770 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.770
+HID_SWIPE_FRAME=4 TOUCH=1 Y=0.707
+HID_VIRTUAL_DISPATCH_FRAME=4 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.707 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.707
+HID_SWIPE_FRAME=5 TOUCH=1 Y=0.643
+HID_VIRTUAL_DISPATCH_FRAME=5 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.643 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.643
+HID_SWIPE_FRAME=6 TOUCH=1 Y=0.580
+VTOUCH_SET_PROPERTY KEY=TouchDetectionMode PRESENT=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+HID_VIRTUAL_DISPATCH_FRAME=6 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.580 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.580
+HID_SWIPE_FRAME=7 TOUCH=1 Y=0.517
+HID_VIRTUAL_DISPATCH_FRAME=7 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.517 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.517
+HID_SWIPE_FRAME=8 TOUCH=1 Y=0.453
+HID_VIRTUAL_DISPATCH_FRAME=8 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.453 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.453
+HID_SWIPE_FRAME=9 TOUCH=1 Y=0.390
+HID_VIRTUAL_DISPATCH_FRAME=9 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.390 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.390
+HID_SWIPE_FRAME=10 TOUCH=1 Y=0.327
+HID_VIRTUAL_DISPATCH_FRAME=10 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.327 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.327
+HID_SWIPE_FRAME=11 TOUCH=1 Y=0.263
+HID_VIRTUAL_DISPATCH_FRAME=11 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.263 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.263
+HID_SWIPE_FRAME=12 TOUCH=1 Y=0.200
+com.apple.xpc.launchd|1970-01-01 01:06:41.722615 <Notice>: Last log repeated 8 times
+com.apple.xpc.launchd|1970-01-01 01:06:41.481719 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:41.711153 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+HID_VIRTUAL_DISPATCH_FRAME=12 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.200
+HID_SWIPE_FRAME=13 TOUCH=0 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=13 RESULT=1
+"AppleSEPKeyStore":pid:238,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 35 ret: e00002d8)
+"AppleSEPKeyStore":pid:238,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:238,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:238,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:238,:13996: operation failed (sel: 17 ret: e00002d8)
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=0 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=0 X=0.500 Y=0.200
+HID_MATCHING_CALLBACKS=14
+com.apple.xpc.launchd|1970-01-01 01:06:52.500205 <Notice>: Last log repeated 26 times
+com.apple.xpc.launchd|1970-01-01 01:06:52.305620 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:06:52.561318 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+HID_PROBE_END
+com.apple.xpc.launchd|1970-01-01 01:06:54.192518 <Notice>: Flushed 20 logs [limit: 20]
+System Policy: bash(257) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 01:07:01.018780 <Notice>: Flushed 33 logs [limit: 20]
+System Policy: bash(258) allow process-exec* /bin/display-capture-probe
+com.apple.xpc.launchd|1970-01-01 01:07:05.759633 <Notice>: Last log repeated 202 times
+com.apple.xpc.launchd|1970-01-01 01:07:05.116340 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:07:05.233986 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+DISPLAY_CAPTURE_BEGIN
+com.apple.xpc.launchd|1970-01-01 01:07:08.235552 <Notice>: Flushed 32 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 01:07:09.837822 <Notice>: Flushed 27 logs [limit: 20]
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=77334 OPAQUE_PIXELS=206336
+com.apple.xpc.launchd|1970-01-01 01:07:13.676212 <Notice>: Flushed 25 logs [limit: 20]
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(259) allow process-exec* /bin/display-pack-probe
+com.apple.xpc.launchd|1970-01-01 01:07:16.651580 <Notice>: Last log repeated 166 times
+com.apple.xpc.launchd|1970-01-01 01:07:14.782149 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:07:15.008937 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:07:16.653716 <Notice>: Flushed 33 logs [limit: 20]
+PACK_RAW_BYTES=825344 PACKED_BYTES=7746 WRITTEN=7746 CLOSE=0
+DISPLAY_DATA_BEGIN
+System Policy: bash(260) allow process-exec* /bin/base64
+eJzt3Q2Q1HX9wHGDnkjN7Akqe7BHExQLzUZjMi2zjMpRywlKHSvJ6YFRKsECbSKpzKIcG/JhqMZw
+1LAaeiITysiJMtLCEiqgyKIMjZCMjO///9n//3eznHt3e3d7+9m7e71nXvPv7x3H/pb9fj+3u7/d
+3WuvvcpeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjzPjx
+48uECRPSL0cnesITnlAOPvjg8qQnPak87GEPS7882fbee+/yghe8oPZ/sy9Ls+Lf7YADDigvfvGL
+yzHHHFNOOOGEcuKJJ5Zp06a1Rfxd8XfG3x2XIS6L2xKj1dixY8t5551XvvGNb5Q//elPpWrLli3l
+com.apple.xpc.launchd|1970-01-01 01:07:23.873791 <Notice>: Flushed 24 logs [limit: 20]
+a1/7WjnnnHN6XR/f/va3y4oVK5o2adKkPi9TrNPq+4844oimjuMtb3lLr3/vF7/4xTJz5sxy2GGH
+1Y652evnZS97WVm2bFnZvn17qe++++4rS5YsKZMnT27qcn3rW99q+u987nOf23W5X/SiF/V4nZ92
+2mk9fu2CCy5o+u/70Ic+VPszl156aZ/f+/znP79cdtllZevWrV3XxX//+9+ybt268uUvf7m8/e1v
+L2PGjEm/XTfy2Mc+thx77LFtmzXNissUly37+oF2it/nb7rpptJXMZv222+/hj/jwQcf7PPP1zd1
+6tQ+L1f9ZfrCF77Q1LHEHtpsa9euLU9+8pN7/XmPfOQjy1e+8pU+f9bOnTvL9OnT+7xcu3btavrf
+JX4vrnrlK1/Z43U+d+7cHr+2e/fu8qpXvaqpv++6666r/Zlbbrml1++78MILaz+3r77zne/UblvZ
+t+96sb+/9rWvTZ81PYnLZgYxWsT+u3Hjxq49I353Pfnkk2uPp0ycOLG8+c1vrt3/qbrrrrvKIx7x
+iIf8nGq/+973vlfba/vy9Kc/vdfLFV+P36er4n7Gox/96D6Pp9rn4/K8//3v38MHPvCB8tnPfras
+WbNmj+N5xjOe0fBnxXHefPPNXd+7efPm8p73vKd2X+yZz3xmba+YP3/+HvcBPvWpTzX8vT9r/kRx
+H3b//ffv8+9rZv7Efb2qe+65p3b8cd8w/r0OOeSQctJJJ5Wvf/3rXfPpD3/4Q8P7bhni/nsn3u9p
+dD/IY3GMBgsXLuzaT+Ixop6+733ve1/X98Ue0/3rve2FAzFnzpzaz1u/fn1tn4tiFvb155rd59/2
+trd17ZE33HBDw++Jx66qYgY/6lGPavh9T33qU8sPfvCDru99xzveMeDLVa9V8ye69tpr+/z7+po/
+Z5xxRtfP+9GPflQe97jH9fiz4j5X3CeMVq9enX47D/EcS/ZsaVZc1uzrC4babbfdVtsj4n5Ab98X
+v4/deeedXXtx96+3ev78+te/rv28uN/y+c9/vva/v/nNb/b55/qzz19xxRW17/3b3/72kN834z7R
+v/71r9rXf/rTn5aHP/zhvf6suG929913174/7g91//6s+fPnP/+562f09vhg6G3+PPGJTyzbtm3r
+com.apple.xpc.launchd|1970-01-01 01:07:24.730074 <Notice>: Last log repeated 172 times
+uq085jGP6fPyx+8LVUcddVT6bT2uz+y50qy4rNnXFwy1eEyp2d+P4znn4447rvZ4S/evtXL+vOQl
+L6n9rLh/Eo/rxHNFUfwdcV5eb3+2P/v8Kaec0rU/xmNH9V+Lx+qqGh1vI/HYXNXRRx894MtVacX8
+ifn9wx/+sPa/4zHM3h73vP7667vu23T/2rve9a6uy/LqV7+6qcsfM/2OO+6o/Zkbb7wx/bYe55pl
+z5VmxWXNvr5gqMVjT1H87t7M8ys9aeX8ifOqonhMK/7/2MfieYTo3HPP7fXP9meff8UrXtG1p77m
+Na/Z42s//vGPa//9r3/9a9OXOx6fi7kTup+7njV/4pzGZz3rWeUf//hH7f+P57N6em6ht/lTPQ92
+77339uvfMs5Rj99b4ly+dt+2u4vznbPnSrPislaXO54PiufQOu1cDhis+ud14vfkeC5jID+nVfMn
+zjernu+J86Sr//6JT3yi9t9+8Ytf9Prn+7PP1/9OH+dbVP89zjuonhv6/ve/35LrOXP+xP9/+umn
+d/2snmZ4T/MnzlOvft6qVavSb7MD1c7X9wxWXNbqclf/LR7DbOZxTxgu4nf2eK1IVewzcd5zvN7n
+0EMPbfo1HNX+FOeXxWthevPsZz+7x58T5zZU+3T973vxep2q3l5r0+w+P27cuNq5DdGGDRv2eC1Q
+zOCqz3zmMy25nqvL9Z///Kc2V5oR54O0av6E6r7uAw880PD1Vz3Nn7gvV7Vo0aL02+xAZc+U/mp0
+uet/T4KRIGZQ7D2NXtMRzxnE6y7jfLGezv8K/Xn9T5yj3dPPiecJouXLlz/ka9X5D3GOc09/vq/5
+E88fxWNtP//5z7suTxxb/ffEYx1VZ511Vkuu4/68LqlRrZg/Mc+r1xbffvvttfua9X+mp/lTf32c
+eeaZPR5jPH4bc70n2bfz7HnSivnz8pe/PP16hKEQzxPMmzev/Pa3v224B8ZzRIcffnjDP9uK+RP7
+Y8yNqNG5Wh/+8IdrX/vLX/7S43sX1O/zMU+7695HP/rRh/yMI488suvrjd5bYCA6Yf6EOHeguh7i
+Mc36r/U0f+ofB3zjG9/Y4zH+/e9/7/UYHv/4x6fevrPnSSvmz/HHH5++T8BQi/OP3/SmN5Urr7yy
+9hx8VTyP3f3crtCK53/e/e53137G/fff3/C9xOI57Kp47Wejn9HsPh/nVMf5B41+xoEHHtj1fY3m
+00DU3y+Lc7ObEa9zbfX8CfEYaRSv763/fbqn+bPvvvt2XY7ezv8wf4Z+/jTzviEwksTjbh/5yEe6
+9pF47Kr797Ri/lTvSxAzLp73b6S6f9TT+eL1z7PE40b1XvrSl9bO34qqc+saied4q+K1/K24DrPP
+P6gXj4VVj2Vu2rSp6/1eejv/rXodUZyb2NPljXO7430h6lXHHfe5sp87z54nrZg/z3ve81KvQ8hy
+1VVX1faS2Nvid+L6rw12/rzwhS/s9Xfn7sVrQxu9F11f+3z963p6eyypegzy97//fUuuu06aP9XP
+rmZ5vCdr/Lfe5k/1/g5xjuRAbjOtuh4HY7if/xa/P2XPcGiVeDwk3uMtNPN+U7FfV3V/Pftg58/F
+F19c+/PxGvs476sn8fx39b5wA3mfm3iO/I9//GPte+L8t0bvZRcuueSSrt/b+3qvusrTnva02v3E
+EJ/P0J/L1chQzp9QvcdRFK/F7W3+fPzjH+/63tgHmz2GmDtRo/fMaLfh+vqfeJw4zv9s5j38oLun
+POUptedM4jXNIf53/Les76nUP8/ezGva698Prfs51IOZP3GOdzUTmnmf6+p9sRu9T0wz+3zMsKr3
+vve9fV4311xzTVPHcfXVV9e+Px7j22efffp9ubob6vkT53DEdRjFczfVezE1mj/x/jtxLmQUn9HQ
+zOWvf/4qjr+Va2oghuv7H8T16LWnDFT9PKifC1nfU+9Xv/pVbX+I1xX2dn513FeK9/2K4r0Iup9/
+Npj5E3trVTPvOxLnRFc95znP2eNrzezzMe+q447Xuvb0Ppr1n7swa9asXi9T7BnV/bJ4T9fuX+/E
++RPiXIvun2nUaP6ED37wg13fE+cw9HTfMcR9pOr94uI9nro/XpvB+78xGnWfB5Ws76lX//4HMV/i
+cef651XiuelYD9X9k+id73znQ35Otd9dfvnltfsOfanfj770pS/V/my8NqWZ17vGvIjXUEbxWTT1
+X2t2n3/d617XdTyf/OQnG35PvFYozvWuist50EEHdX09zlGLx9niHMGqmGeN3kOiU+dPqH9f697m
+Tzx2GZ8vVxXPBcXlqm4vMY/ivftmz55d/vnPf3Z9X7OfPzTUvP81o1Enz58Qe1ScL1ZfvNYnzo2q
+L/b87q/VrAz08+ficaodO3bU/ltvryvtrnqd6u9+97s9nrvqzz5fPacexxX3Axp9TzzOWN3vq4rH
+oX7zm990zcD6fbunfaOT50/46le/usdx9PR98e8VnxFVXzxHFv8O1ect1F9PjZ6jy+LzfxiNOvnx
+t/o/97Of/azrnKj64lyzn/zkJ7XfbXv68wOdP/XvSzZlypSmr9NTTz31IT8r9Gefj8eIqnp7/+94
+3veiiy7a43VQ9cXn98XrhHr7jIZOnz/x/EL1+RG9zZ9K3GeKc7jrPyOwKo5x6dKlD3kP1k7g808Z
+bTr1/ING4j1Z4lybmAtvfetba59L0Ndn34wW8fhTPHYY74kQr5WNz6IY7eckxeuE4zYW7xUb59DF
+efSdfnuJ/b0T7wfFZTJ7AEa2eHwrHiuN+5jxe1qc79zO1wfF3xV/Z/zdcRnisnjMDQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAgE510EEHlVNPPbVccMEF5aqrriorVqwod9xxR7n77rvLzp07izQSitty3Kbjth238bit
+x20+bvuxBrLXIYwGhx56aDn//PPLTTfdVB544IHsbUHqiGItxJqItRFrJHudwkix7777lvPOO6/c
+fvvt2ctcGhbFWok1E2sne/3CcLT33nuXBQsWuJ8jDbBYO7GGYi1lr2cYLs4666yydevW7OUrjYhi
+LcWayl7X0Mn222+/snTp0uzlKo3IYm3FGste59BpjjzyyHLXXXdlL1FpRBdrLNZa9nqHTvH617++
+/Pvf/85emtKoKNZarLnsdQ/ZTjnllOzlKI3KYu1lr3/IcsIJJ2QvQWlUF2swex+Adps0aVK57777
+spefNKqLNRhrMXs/gHZas2ZN9tKT9L/FWszeD6BdPve5z2UvOUl1xZrM3hdgqHnOR+rMPBfESOdx
+N6kz8zgcI9npp5+evcQk9VKs0ex9AobCbbfdlr28JPVSrNHsfQJa7dhjj81eWpKaKNZq9n4BrXTl
+lVdmLytJTRRrNXu/gFa69957s5eVpCaKtZq9X0CrHH300dlLSlI/ijWbvW9AK1xwwQXZy0lSP4o1
+m71vQCssX748ezlJ6kexZrP3DWiFu+++O3s5SepHsWaz9w0YrL333jt7KUkaQLF2s/cPGIzJkydn
+LyNJAyjWbvb+AYPxhje8IXsZSRpAsXaz9w8YjHPOOSd7GUkaQLF2s/cPGIyLLrooexlJGkCxdrP3
+DxiMyy67LHsZSRpAsXaz9w8YjIsvvjh7GUkaQLF2s/cPGIxzzz03exlJGkCxdrP3DxiM0047LXsZ
+SRpAsXaz9w8YjKOOOip7GUkaQLF2s/cPGIzx48dnLyNJAyjWbvb+AYN1//33Zy8lSf0o1mz2vgGt
+sHr16uzlJKkfxZrN3jegFS699NLs5SSpH8Wazd43oBVOOumk7OUkqR/Fms3eN6AV9tlnn+zlJKkf
+xZrN3jegVb773e9mLylJTRRrNXu/gFY688wzs5eVpCaKtZq9X0ArjRkzptx3333ZS0tSL8UajbWa
+vV9Aqy1YsCB7eUnqpVij2fsEDIX999+/7NixI3uJSWpQrM1Yo9n7BAyV2bNnZy8zSQ2KtZm9P8BQ
+u+WWW7KXmqS6Yk1m7wvQDocddljZvXt39pKT9L/FWow1mb0vQLs4H1vqjJxvzWh00UUXZS89aVQX
+azB7H4Asn/70p7OXoDQqi7WXvf4h2yWXXJK9FKVRVay57HUPneL888/PXpLSqCjWWvZ6h05z8skn
+l3vuuSd7eUojslhbscay1zl0qgMOOKBcf/312UtVGlHFmoq1lb2+YTg49dRTy+233569bKVhXayh
+WEvZ6xmGo+nTp3u/BKmfxZqJtZO9fmEkOOSQQ2qvVbjtttuyl7bUkcXaiDUSayV7vcJIFe/Re+KJ
+J5b58+eXG264ofzyl78s999/f/byl9pS3NbjNh+3/VgDsRa8bzXkGjduXDnwwAPLEUccUY4//vja
+495nnHFGOeecc8p5551X5s6dWy688MLysY99rPb6h0WLFpXLL7+8XHHFFWXJkiXlmmuuKddee225
+7rrroOXithW3sbitxW0ubntxG4zbYtwm47YZt9G4rcZtNm67cRuO23LcpuO2Hbfx7HUGAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC01tixY8uECRPKxIkTy9SpU8u0adPK9OnTy8yZM8vs
+2bPLvHnzysKFC8uiRYvK4sWLy5IlS8rSpUvLsmXLyvLly8uKFSvKypUry+rVq8uaNWvK2rVry7p1
+68r69evLxo0by5YtW8rWrVvLtm3byvbt28vOnTvLrl27yoMPPlh2795dJLWvWHOx9mINxlqMNRlr
+M9ZorNVYs7F2Yw3HWo41HWs71nis9VjzsfZjD4i9IPaE2Btij4i9IvaM2DtiD4m9JPaU2Ftij4m9
+Jnu/o73GjRtXpkyZUrs9zJ8/v3abidvShg0byo4dO7KXg6RRVOw5sffEHhR7UexJsTfFHhV7VfZ+
+ycDF7xfHHHNMmTNnTrnxxhvLpk2bsm9uktR0sWfF3hV7WOxl7jN1tsmTJ5e5c+eWVatWZd90JKnl
+xd4We1zsddn7LXuVSZMmlQULFtQep5Wk0VLsebH3xR6YvQ+PNjNmzHA/R5LK/90vij0xe18e6WbN
+mlU7L0WStGexN8Yemb1PjzRnn3122bx5c/Y/ryR1fLFXxp6ZvW8Pd8cdd1y59dZbs/85JWnYFXtn
+7KHZ+/hwM2bMmNpruSRJgyv20thTs/f14SDOdY/XHEuSWlPsqbG3Zu/vnSzes0KSNDTFHpu9z3ei
+q6++OvufRpJGfLHXZu/3nWL8+PHl5ptvzv4nkaRRU+y5sfdm7/+ZDj744HLnnXdm/1NI0qgr9t7Y
+g7PnQIbDDz+89j7nkqScYg+OvTh7HrR79sTnbEiScou9eLTMoLi/536PJHVOsSeP9Mfi4vkuz/dI
+UucVe/NIPifBeW6S1LnFHp09J4aC1/dIUuc30l4f5H0NJGn4NFLeJyHec0iSNLwa7u8XF++56r1E
+JWn4FXv3cH7fbJ+hIEnDt9jDs+fIQMTnHkmShnfD8TPsfG6pJA3/Yi/Pnif9EZ89LkkaGcWenj1X
+mrV58+bsq0uS1KJiT8+eK82YNWtW9lUlSWpxsbdnz5e+bNy4MftqkiS1uNjbs+dLb2bMmJF9FUmS
+hqjY47PnTE9WrVqVffVIkoao2OOz50wjkyZNyr5qJElDXOz12fOmuwULFmRfLZKkIS72+ux50936
+9euzrxZJ0hAXe332vKk3efLk7KtEktSmYs/PnjuVuXPnZl8dkqQ2FXt+9typOO9NkkZPnXIe3Nix
+Y7OvCklSm4u9P3v++HxTSRp9dcLno86ZMyf7apAktbnY+7Pnz4033ph9NUiS2tyyZcvS58+mTZuy
+rwZJUpuLvT9z9owbNy77KpAkJRUzIGv+TJkyJfvwJUlJxQzImj/Tp0/PPnxJUlIxA7Lmz/z587MP
+X5KUVMyArPmzZMmS7MOXJCUVMyBr/qxcuTL78CVJScUMyJo/GzZsyD58SVJSMQOy5s+OHTuyD1+S
+lFTMgIzZ431HJUkZ70M6YcKE7MOWJCUXs6Dd82fixInZhy1JSi5mQbvnz9SpU7MPW5KUXMyCds+f
+adOmZR+2JCm5mAXtnj/ee0eSlPEePDNnzsw+bElScjEL2j1/Zs+enX3YkqTkYha0e/7Mmzcv+7Al
+ScnFLGj3/Fm4cGH2YUuSkotZ0O75s2jRouzDliQlF7Og3fNn8eLF2YctSUouZkG754/P/pEkZXwG
+0NKlS7MPW5KUXMyCds+fZcuWZR+2JCm5mAXtnj/Lly/PPmxJUnIxC9o9f1asWJF92JKk5GIWtHv+
+xOd+S5JGdzEL2j1/Vq9enX3YkqTkYha0e/6sWbMm+7AlScnFLGj3/Fm7dm32YUuSkotZ0O75s27d
+uuzDliQlF7Og3fNn/fr12YctSUouZkG758/GjRuzD1uSlFzMgnbPny1btmQftiQpuZgF7Z4/W7du
+zT5sSVJyMQvaPX+2bduWfdiSpORiFrR7/mzfvj37sCVJycUsaPf82blzZ/ZhS5KSi1nQ7vmza9eu
+7MOWJCUXs8D8kSS1u4z54/E3SVLG42/OP5AkZZx/4PxrSVLG+ddefypJynj9qfffkSRlvP+O9x+V
+JGW8/6jPX5AkZXz+gs+fkyRlfP6cz9+WJGV8/vaaNWuyD1uSlFzMgnbPn9WrV2cftiQpuZgF7Z4/
+K1euzD5sSVJyMQvaPX9WrFiRfdiSpORiFrR7/ixfvjz7sCVJycUsaPf8WbZsWfZhS5KSi1nQ7vmz
+dOnS7MOWJCUXs6Dd82fJkiXZhy1JSi5mQbvnz+LFi7MPW5KUXMyCds+fRYsWZR+2JCm5mAXtnj8L
+Fy7MPmxJUnIxC9o9f+bNm5d92JKk5GIWtHv+zJ49O/uwJUnJxSxo9/yZOXNm9mFLkpKLWdDu+TN9
++vTsw5YkJRezoN3zZ9q0admHLUlKLmZBu+fP1KlTsw9bkpRczIJ2z5+JEydmH7YkKbmYBe2ePxMm
+TMg+bElScjEL2j1/xo4dm33YkqTkYha0e/6EHTt2ZB+6JCmpmAEZsyds2LAh+/AlSUnFDMiaP/G5
+35Kk0VnMgKz54zOAJGn0lvHZP5X58+dnH74kKamYAVnzx3vwSNLoLeO9dypTpkzJPnxJUlIxA7Lm
+z7hx47IPX5KUVMyArPkTNm3alH0VSJLaXOz9mbMnLFu2LPtqkCS1udj7s+fPnDlzsq8GSVKbi70/
+e/4cc8wx2VeDJKnNxd6fPX+8D6kkjb6y3ne0u1WrVmVfFZKkNhV7fvbcqcydOzf76pAktanY87Pn
+TmXy5MnZV4ckqU3Fnp89d+qtX78++yqRJA1xsddnz5vuFixYkH21SJKGuNjrs+dNd5MmTcq+WiRJ
+Q1zs9dnzphHnwUnSyK2TznvrbsaMGdlXjyRpiIo9PnvO9Gbjxo3ZV5EkqcXF3p49X/oya9as7KtJ
+ktTiYm/Pni/N2Lx5c/ZVJUlqUbGnZ8+VZp199tnZV5ckqUXFnp49V/rj1ltvzb7KJEmDLPby7HnS
+X8cdd1z21SZJGmSxl2fPk4FYtGhR9lUnSRpgsYdnz5GBGjNmTFm3bl32VShJ6mexd8cenj1HBsPn
+o0rS8KsTPt+0FWbPnp19VUqSmiz27Oy50UpXX3119lUqSeqj2Kuz58VQuPnmm7OvWklSD8UenT0n
+hsr48ePLnXfemX0VS5K6FXtz7NHZc2IoHXzwwWXLli3ZV7Uk6f+LPTn25uz50A6HH3542bp1a/ZV
+LkmjvtiLY0/OngvtnkHuB0lSXrEHj7bZU4n7e54PkqT2F3vvaHnMrSfxfJfz4iSpfcWeO9LPNegP
+rw+SpKFvpL6+Z7C8T4IkDV0j7X0NWi3ec8h7lkpS64o9daS8n9tQi/dc9dkNkjT4Yi8d7u9jnSE+
+98jnqEpS/4u9c7h+dlwnic8e37x5c/Y/pyR1fLFXxp6ZvW+PNLNmzSobN27M/ueVpI4r9sbYI7P3
+6ZFuxowZZdWqVdn/3JKUXuyFsSdm78ujzaRJk8qCBQvK+vXrs28CktS2Ys+LvS/2wOx9mL3K5MmT
+y9y5c90vkjQii70t9rjY67L3W3o2duzY2rnuc+bMKcuWLSubNm3KvulIUtPFnhV7V+xhsZfFnpa9
+rzJw48aNK1OmTCnTp08v8+fPL0uWLCkrV64sGzZsKDt27Mi+uUkaRcWeE3tP7EGxF8WeFHtT7FGx
+com.apple.xpc.launchd|1970-01-01 01:07:24.665126 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:07:24.675404 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+V2Xvl7RX/H4xYcKEMnHixDJ16tQybdq02u1h5syZtfesmDdvXlm4cGHttVyLFy+u3WaWLl1a+x1l
++fLlZcWKFbXb0urVq8uaNWvK2rVra685jsdp47yUeJ/z+JyNbdu2le3bt5edO3eWXbt2lQcffLDs
+3r07ezlIo6pYc7H2Yg3GWow1GWsz1mis1VizsXZjDcdajjUdazvWeKz1WPOx9mMPiL0g9oTYG2KP
+iL0i9ozYO2IPib0k9pTYW2KPcV8GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIbG/wCW0V5v
+DISPLAY_DATA_END
+System Policy: bash(261) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 01:07:29.838885 <Notice>: Flushed 31 logs [limit: 20]
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=14
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=238 LAST_EXIT=6
+JOB com.apple.CommCenter PID=72 LAST_EXIT=0
+JOB com.apple.runningboardd PID=65 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=60 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=52 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=121 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=174 LAST_EXIT=9
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=172 LAST_EXIT=9
+SERIAL_DONE_eba8e303049e431bbee6666b50e3b1af

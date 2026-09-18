@@ -1,0 +1,10 @@
+^C/bin/s
+tty ecbash-5.3# /bin/stty echo; com.apple.xpc.launchd|1970-01-01 01:02:01.009825 <Notice>: Flushed 29 logs [limit: 20]
+echo GUEST_READY; echo SERIAL_DONE_a28046a6e4com.apple.xpc.launchd|1970-01-01 01:02:02.366693 <Notice>: Flushed 26 logs [limit: 20]
+5a4069<o GUEST_READY; echo SERIAL_DONE_a28046a6e45a4069b35                         584dc93790800
+com.apple.xpc.launchd|1970-01-01 01:02:04.673657 <Notice>: Last log repeated 211 times
+com.apple.xpc.launchd|1970-01-01 01:02:04.508758 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[72], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:02:04.572803 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[238], error = 3: No such process
+System Policy: bash(247) allow process-exec* /bin/stty
+GUEST_READY
+SERIAL_DONE_a28046a6e45a4069b35584dc93790800
