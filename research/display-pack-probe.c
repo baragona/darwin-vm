@@ -1,11 +1,10 @@
-/* Compress the fixed capture losslessly for transfer over the guest UART. */
+/* Compress a bounded BGRA capture losslessly for transfer over the guest UART. */
 #include <dlfcn.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 
 int main(void) {
-    enum { SIZE = 416 * 496 * 4 };
     alarm(15);
     unlink("/private/var/tmp/display-capture.zlib");
     void *z = dlopen("/usr/lib/libz.1.dylib", RTLD_NOW);
@@ -13,12 +12,17 @@ int main(void) {
     int (*compress)(unsigned char *, unsigned long *, const unsigned char *, unsigned long, int) =
         z ? dlsym(z, "compress2") : NULL;
     if (!bound || !compress) return 1;
+    FILE *input = fopen("/private/var/tmp/display-capture.bgra", "rb");
+    if (!input) return 1;
+    if (fseek(input, 0, SEEK_END)) { fclose(input); return 1; }
+    long bytes = ftell(input);
+    if (bytes <= 0 || bytes > 16 * 1024 * 1024 || bytes % 4 ||
+        fseek(input, 0, SEEK_SET)) { fclose(input); return 1; }
+    const unsigned SIZE = (unsigned)bytes;
     unsigned char *raw = malloc(SIZE);
     unsigned long length = bound(SIZE);
     unsigned char *packed = malloc(length);
-    if (!raw || !packed) return 1;
-    FILE *input = fopen("/private/var/tmp/display-capture.bgra", "rb");
-    if (!input) return 1;
+    if (!raw || !packed) { free(raw); free(packed); fclose(input); return 1; }
     size_t read = fread(raw, 1, SIZE, input);
     int extra = fgetc(input), failed = ferror(input), closed = fclose(input);
     if (read != SIZE || extra != EOF || failed || closed) return 1;

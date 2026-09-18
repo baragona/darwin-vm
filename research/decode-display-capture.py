@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Decode display-capture-probe's fixed 416x496 BGRA UART export to PNG.
+"""Decode display-capture-probe's BGRA UART export to PNG.
 
 Export with: echo DISPLAY_DATA_BEGIN; /bin/base64
 /private/var/tmp/display-capture.bgra; echo DISPLAY_DATA_END
@@ -26,14 +26,21 @@ def main():
     parser.add_argument('output_prefix', type=Path)
     parser.add_argument('--zlib', action='store_true',
                         help='decode the lossless display-pack-probe output')
+    parser.add_argument('--width', type=int, default=416,
+                        help='captured mode width; legacy default 416')
+    parser.add_argument('--height', type=int, default=496,
+                        help='captured mode height; legacy default 496')
     args = parser.parse_args()
+    if not (0 < args.width <= 4096 and 0 < args.height <= 4096
+            and args.width * args.height <= 4 * 1024 * 1024):
+        parser.error('dimensions must be positive and fit a 16 MiB BGRA frame')
     lines = args.transcript.read_text().splitlines()
     begin = lines.index('DISPLAY_DATA_BEGIN')
     end = lines.index('DISPLAY_DATA_END', begin + 1)
     encoded = ''.join(line for line in lines[begin + 1:end]
                       if re.fullmatch(r'[A-Za-z0-9+/]+={0,2}', line))
     data = base64.b64decode(encoded, validate=True)
-    width, height = 416, 496
+    width, height = args.width, args.height
     if args.zlib:
         unpacker = zlib.decompressobj()
         data = unpacker.decompress(data, width * height * 4 + 1)

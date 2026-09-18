@@ -1,7 +1,7 @@
 /* Experimental 24A437 display capture; API success does not imply visible UI.
  * CARenderServerRenderDisplay wrapper at 0x1846dbefc takes server port,
  * display-name CFString, IOSurface, x offset, y offset and returns bool.
- * Captures the diagnostic 416x496 LCD, not QEMU's boot framebuffer.
+ * Captures the current LCD mode, not QEMU's boot framebuffer.
  */
 #include <dlfcn.h>
 #include <stdint.h>
@@ -19,7 +19,6 @@ static const char *state_name(long state) {
 int main(int argc, char **argv) {
     int wake = argc == 2 && !strcmp(argv[1], "--wake");
     if (argc > 1 && !wake) { fputs("usage: display-capture-probe [--wake]\n", stderr); return 2; }
-    enum { WIDTH = 416, HEIGHT = 496, ROW_BYTES = WIDTH * 4 };
     setbuf(stdout, NULL);
     alarm(30);
     puts("DISPLAY_CAPTURE_BEGIN");
@@ -44,6 +43,17 @@ int main(int argc, char **argv) {
     void *(*get)(void *, void *) = (void *(*)(void *, void *))msg;
     void *display = get(cls("CADisplay"), sel("mainDisplay"));
     if (!display) { puts("DISPLAY_CAPTURE_NO_MAIN_DISPLAY"); return 1; }
+    void *mode = get(display, sel("currentMode"));
+    if (!mode) { puts("DISPLAY_CAPTURE_NO_MODE"); return 1; }
+    unsigned long width = ((unsigned long (*)(void *, void *))msg)(mode, sel("width"));
+    unsigned long height = ((unsigned long (*)(void *, void *))msg)(mode, sel("height"));
+    /* Bound allocation and multiplication before narrowing for IOSurface. */
+    if (!width || !height || width > 4096 || height > 4096 ||
+        width * height > 4 * 1024 * 1024) {
+        puts("DISPLAY_CAPTURE_UNSUPPORTED_SIZE"); return 1;
+    }
+    const unsigned WIDTH = (unsigned)width, HEIGHT = (unsigned)height;
+    const unsigned ROW_BYTES = WIDTH * 4;
     void *name = get(display, sel("name"));
     if (!name) return 1;
     const char *text = ((const char *(*)(void *, void *))msg)(name, sel("UTF8String"));

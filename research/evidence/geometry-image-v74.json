@@ -1,0 +1,29 @@
+{
+  "binaries": [
+    {
+      "guest_path": "/bin/display-capture-probe",
+      "sha256": "fc06ab8e0abf743aa386844c85a1b6a36ffe5c4a1ddc2ad16f22da426b1f8c25",
+      "cdhash": "8851274b8dc535b922bc655e6c4ec5eec8f0a741"
+    },
+    {
+      "guest_path": "/bin/display-pack-probe",
+      "sha256": "f16490f6cead88e0009b3f50e0d1c5af0858399b7c9760e72f10e407fe39cde6",
+      "cdhash": "2e2f1f8b04ec9e8bc48aa7270abeb911fa991a2f"
+    },
+    {
+      "guest_path": "/bin/ls-open-probe",
+      "sha256": "0136ce08db5270b254383bb55f5cc4bf7307e6ea5c0ad1483fa09dcf92b79f11",
+      "cdhash": "f3c27a04e9369b0e1e59f21bc038e134ceeee515"
+    },
+    {
+      "guest_path": "/usr/libexec/biometrickitd",
+      "sha256": "91328f1a2e6ea8bb84f8e05502d9bb05dfbad88fe003d5f30ec8aa17467efac1",
+      "cdhash": "f683f2e8bcf7a6a466380fb4d5779f2825285948"
+    }
+  ],
+  "trustcache_entries_before": 4411,
+  "trustcache_entries_after": 4414,
+  "image": "service-root-geometry-v74.dmg",
+  "trustcache": "geometry-v74.tc",
+  "boot_tested": false
+}

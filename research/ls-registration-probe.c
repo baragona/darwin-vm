@@ -46,7 +46,7 @@ int main(int argc,char **argv) {
     Obj identifier=string(bundle_id);
     Obj proxy_class=class_named("LSApplicationProxy");
     if(!responds(proxy_class,"applicationProxyForIdentifier:")) { puts("PROXY_SELECTOR_MISSING");return 1; }
-    if(!rebuild) {
+    if(!rebuild&&!open_app) {
         puts("LS_QUERY_BEGIN");
         printf("LS_IDENTIFIER=%s\n",bundle_id);
         Obj proxy=arg(proxy_class,"applicationProxyForIdentifier:",identifier);

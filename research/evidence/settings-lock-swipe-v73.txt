@@ -1,0 +1,636 @@
+apple.xpc.launchd|1970-01-01 00:16:46.447631 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+/bin/display-capture-probe --wakcom.apple.xpc.launchd|1970-01-01 00:16:48.433296 <Notice>: Last log repeated 3 times
+e; /com.apple.xpc.launchd|1970-01-01 00:16:48.231562 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+bin/hid-inputcom.apple.xpc.launchd|1970-01-01 00:16:48.694645 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:16:48.667228 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:16:48.921354 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+-prcom.apple.xpc.launchd|1970-01-01 00:16:49.349472 <Notice>: Last log repeated 1 times
+obe com.apple.xpc.launchd|1970-01-01 00:16:49.132279 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+--virtual-<re-probe --wake; /bin/hid-input-probe --virtual-swi                        pe; /com.apple.xpc.launchd|1970-01-01 00:16:50.253381 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:16:49.871892 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+bincom.apple.xpc.launchd|1970-01-01 00:16:50.254797 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:16:50.155335 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+/slcom.apple.xpc.launchd|1970-01-01 00:16:50.255554 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:16:50.197670 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+eep 3; /bin/<input-probe --virtual-swipe; /bin/sleep 3; /bin/dis                       play-captucom.apple.xpc.launchd|1970-01-01 00:16:51.299037 <Notice>: Last log repeated 22 times
+re-com.apple.xpc.launchd|1970-01-01 00:16:51.177209 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:16:51.235129 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+probe; /com.apple.xpc.launchd|1970-01-01 00:16:51.330311 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:16:51.335881 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+bin<; /bin/sleep 3; /bin/display-capture-probe; /bin/di                        splay-pa<-probe; echo DISPLAY_DATA_BEGIN; /bin/base64 /priva        com.apple.xpc.launchd|1970-01-01 00:16:52.604626 <Notice>: Last log repeated 17 times
+com.apple.xpc.launchd|1970-01-01 00:16:52.204597 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:16:54.976294 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:16:52.461269 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+te/var/tmp/dcom.apple.xpc.launchd|1970-01-01 00:16:55.285881 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 00:16:54.987461 (user/501) <Warning>: failed lookup: name = com.apple.hangtelemetryd, requestor = SpringBoard[95], error = 3: No such process
+isplcom.apple.xpc.launchd|1970-01-01 00:16:55.058857 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:16:55.097068 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+ay-captur<IN; /bin/base64 /private/var/tmp/display-capture.zl                         ib; echo DIcom.apple.xpc.launchd|1970-01-01 00:16:56.577125 <Notice>: Last log repeated 2 times
+SPLAY_Dcom.apple.xpc.launchd|1970-01-01 00:16:56.410337 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:16:56.854260 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:16:56.828866 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+<ND; echo SERIAL_DONE_7e0ede5d82ce4c29b105e9b244903e                  c3
+com.apple.xpc.launchd|1970-01-01 00:16:59.817880 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:16:59.594923 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:00.735409 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:00.511452 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+System Policy: bash(108) allow process-exec* /bin/display-capture-probe
+com.apple.xpc.launchd|1970-01-01 00:17:02.119033 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:01.633437 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:02.361844 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:01.943287 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:02.395827 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:02.837657 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:02.612964 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:03.102259 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:02.697262 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:03.835711 <Notice>: Last log repeated 2 times
+DISPLAY_CAPTURE_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:17:03.640693 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:04.611664 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:03.740715 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:05.107333 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:04.668620 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:04.702482 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:05.045669 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:05.683471 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:05.710620 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:06.223725 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:05.768537 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:07.059742 <Notice>: Last log repeated 13 times
+com.apple.xpc.launchd|1970-01-01 00:17:06.737718 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:07.061126 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:06.844148 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:10.933889 <Notice>: Last log repeated 17 times
+com.apple.xpc.launchd|1970-01-01 00:17:07.768855 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:10.935448 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:07.847839 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:10.951167 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:11.009709 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:11.587934 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:11.480851 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:11.486986 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=1 NAME=on
+com.apple.xpc.launchd|1970-01-01 00:17:13.371642 <Notice>: Last log repeated 3 times
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:17:13.106595 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:13.373103 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:13.179524 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:14.280873 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:14.131966 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[108], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:14.137154 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:14.733820 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:14.297970 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:15.362073 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:15.163668 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=1 NAME=on
+com.apple.xpc.launchd|1970-01-01 00:17:16.430191 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:16.260941 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:16.668998 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:16.614901 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+com.apple.xpc.launchd|1970-01-01 00:17:17.877156 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:17.696235 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=43399 OPAQUE_PIXELS=206336
+com.apple.xpc.launchd|1970-01-01 00:17:18.254046 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:18.339685 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+com.apple.xpc.launchd|1970-01-01 00:17:19.277912 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:19.428306 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:19.481655 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:19.681690 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:20.507659 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:20.327891 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:20.717110 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:20.407018 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:20.717896 <Notice>: Last log repeated 2 times
+System Policy: bash(109) allow process-exec* /bin/hid-input-probe
+com.apple.xpc.launchd|1970-01-01 00:17:20.637315 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:20.672740 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:21.843698 <Notice>: Last log repeated 11 times
+com.apple.xpc.launchd|1970-01-01 00:17:21.379827 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:22.300451 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:21.483071 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:22.578166 <Notice>: Last log repeated 12 times
+com.apple.xpc.launchd|1970-01-01 00:17:22.413922 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:24.023921 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:22.698141 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:24.196051 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:24.135883 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+HID_PROBE_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:17:24.428216 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:24.213234 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:25.450926 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:25.158437 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+HID_CLIENT_TYPE=1 NAME=Monitor
+com.apple.xpc.launchd|1970-01-01 00:17:26.527757 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:26.317599 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:26.733430 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:26.625784 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:26.717611 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:28.023113 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = hid-input-probe[109], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:28.150116 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:28.718985 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:28.856359 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+HID_CLIENT=1
+com.apple.xpc.launchd|1970-01-01 00:17:30.465764 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:17:30.286033 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:31.014627 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:30.746103 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+HID_SERVICES=-1
+com.apple.xpc.launchd|1970-01-01 00:17:31.529977 <Notice>: Last log repeated 1 times
+VTOUCH_DELEGATE_PROTOCOL_PRESENT=0
+com.apple.xpc.launchd|1970-01-01 00:17:31.289178 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:31.506412 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:31.943005 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:32.564189 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:32.317782 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:32.999505 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:32.786895 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:33.345655 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+VTOUCH_DISPLAY_UUID=26064660-CCE7-4558-8B92-0BF3C00C7095
+com.apple.xpc.launchd|1970-01-01 00:17:33.643114 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:33.466759 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:34.372289 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:35.098267 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:35.433616 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:17:35.328838 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:35.335820 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:35.435275 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:35.398172 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:35.608858 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:35.537564 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+VTOUCH_SERVICE_OBJECT=1
+VTOUCH_PROPERTY KEY=DeviceUsagePairs FOUND=1
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=HIDPropertiesRequiredForMatching FOUND=0
+VTOUCH_PROPERTY KEY=Hidden FOUND=0
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=ProductID FOUND=1
+VTOUCH_PROPERTY KEY=VendorID FOUND=1
+VTOUCH_PROPERTY KEY=ReportInterval FOUND=0
+VTOUCH_PROPERTY KEY=BatchInterval FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=ProtectedAccess FOUND=0
+VTOUCH_PROPERTY KEY=QueueSize FOUND=0
+VTOUCH_PROPERTY KEY=SensorPropertySupported FOUND=0
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=LocationID FOUND=0
+VTOUCH_PROPERTY KEY=HIDServiceAccessEntitlement FOUND=0
+VTOUCH_PROPERTY KEY=Unregistered FOUND=0
+VTOUCH_SET_PROPERTY KEY=PreserveTimestamp PRESENT=1
+VTOUCH_SET_PROPERTY KEY=LogLevel PRESENT=1
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsagePage FOUND=1
+VTOUCH_PROPERTY KEY=PrimaryUsage FOUND=1
+VTOUCH_PROPERTY KEY=Product FOUND=1
+VTOUCH_PROPERTY KEY=Transport FOUND=1
+VTOUCH_PROPERTY KEY=Authenticated FOUND=0
+VTOUCH_PROPERTY KEY=Built-In FOUND=1
+VTOUCH_PROPERTY KEY=IAPHIDAccessoryCategory FOUND=0
+VTOUCH_SET_PROPERTY KEY=QuantizationDPI PRESENT=1
+VTOUCH_SET_PROPERTY KEY=GraphicsOrientation PRESENT=1
+VTOUCH_PROPERTY KEY=MaxHoverHeight FOUND=0
+VTOUCH_PROPERTY KEY=DisplayIntegrated FOUND=1
+VTOUCH_SET_PROPERTY KEY=DeviceOpenedByEventSystem PRESENT=1
+VTOUCH_NOTIFICATION=10
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+com.apple.xpc.launchd|1970-01-01 00:17:36.541395 <Notice>: Last log repeated 13 times
+com.apple.xpc.launchd|1970-01-01 00:17:36.448765 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+VTOUCH_STATE=10 SERVICE_ID=0x7c2ed60c000000
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+HID_SWIPE_FRAME=0 TOUCH=1 Y=0.960
+com.apple.xpc.launchd|1970-01-01 00:17:36.600352 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:37.153443 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:17:36.865124 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:36.872776 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+VTOUCH_PROPERTY KEY=NeedsHostState FOUND=0
+VTOUCH_SET_PROPERTY KEY=TouchDetectionMode PRESENT=1
+VTOUCH_PROPERTY KEY=AccurateMaxDigitizerPressureValue FOUND=0
+HID_VIRTUAL_DISPATCH_FRAME=0 RESULT=1
+VTOUCH_PROPERTY KEY=displayUUID FOUND=1
+HID_SWIPE_FRAME=1 TOUCH=1 Y=0.897
+HID_VIRTUAL_DISPATCH_FRAME=1 RESULT=1
+com.apple.xpc.launchd|1970-01-01 00:17:38.015494 <Notice>: Last log repeated 8 times
+com.apple.xpc.launchd|1970-01-01 00:17:37.505103 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:38.016908 <Notice>: Last log repeated 1 t"AppleSEPKeyStore":pid:92,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:92,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:92,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:92,:13996: operation failed (sel: 7 ret: e00002d8)
+imes
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.960 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.960
+com.apple.xpc.launchd|1970-01-01 00:17:37.608124 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.897 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.897
+HID_SWIPE_FRAME=2 TOUCH=1 Y=0.833
+com.apple.xpc.launchd|1970-01-01 00:17:38.092647 (pid/95 [SpringBoard]) <Warning>: failed lookup: name = com.apple.PerfPowerTelemetryClientRegistrationService, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:38.755455 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+HID_VIRTUAL_DISPATCH_FRAME=2 RESULT=1
+com.apple.xpc.launchd|1970-01-01 00:17:38.926928 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.833 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.833
+HID_SWIPE_FRAME=3 TOUCH=1 Y=0.770
+HID_VIRTUAL_DISPATCH_FRAME=3 RESULT=1
+com.apple.xpc.launchd|1970-01-01 00:17:40.362179 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.770 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.770
+HID_SWIPE_FRAME=4 TOUCH=1 Y=0.707
+HID_VIRTUAL_DISPATCH_FRAME=4 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.707 CHILDREN=1
+com.apple.xpc.launchd|1970-01-01 00:17:41.942062 <Notice>: Last log repeated 1 times
+HID_FINGER TOUCH=1 X=0.500 Y=0.707
+HID_SWIPE_FRAME=5 TOUCH=1 Y=0.643
+com.apple.xpc.launchd|1970-01-01 00:17:41.731467 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+HID_VIRTUAL_DISPATCH_FRAME=5 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.643 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.643
+HID_SWIPE_FRAME=6 TOUCH=1 Y=0.580
+HID_VIRTUAL_DISPATCH_FRAME=6 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.580 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.580
+HID_SWIPE_FRAME=7 TOUCH=1 Y=0.517
+HID_VIRTUAL_DISPATCH_FRAME=7 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.517 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.517
+HID_SWIPE_FRAME=8 TOUCH=1 Y=0.453
+HID_VIRTUAL_DISPATCH_FRAME=8 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.453 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.453
+HID_SWIPE_FRAME=9 TOUCH=1 Y=0.390
+HID_VIRTUAL_DISPATCH_FRAME=9 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.390 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.390
+HID_SWIPE_FRAME=10 TOUCH=1 Y=0.327
+com.apple.xpc.launchd|1970-01-01 00:17:46.916629 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+HID_VIRTUAL_DISPATCH_FRAME=10 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.327 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.327
+HID_SWIPE_FRAME=11 TOUCH=1 Y=0.263
+HID_VIRTUAL_DISPATCH_FRAME=11 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.263 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.263
+HID_SWIPE_FRAME=12 TOUCH=1 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=12 RESULT=1
+HID_OBSERVED TYPE=11 MASK=4 TOUCH=1 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=1 X=0.500 Y=0.200
+HID_SWIPE_FRAME=13 TOUCH=0 Y=0.200
+HID_VIRTUAL_DISPATCH_FRAME=13 RESULT=1
+HID_OBSERVED TYPE=11 MASK=3 TOUCH=0 INTEGRATED=1 X=0.500 Y=0.200 CHILDREN=1
+HID_FINGER TOUCH=0 X=0.500 Y=0.200
+com.apple.xpc.launchd|1970-01-01 00:17:54.224534 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:52.487587 (user/501) <Warning>: failed lookup: name = com.apple.splashboard.launchimage, flags = 0x200, requestor = SpringBoard[95], error = 3: No such process
+HID_MATCHING_CALLBACKS=14
+com.apple.xpc.launchd|1970-01-01 00:17:54.362617 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+HID_PROBE_END
+com.apple.xpc.launchd|1970-01-01 00:17:56.016879 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:17:55.609476 (user/501) <Warning>: failed lookup: name = com.apple.appprotectiond.guard, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:55.733253 (user/501) <Warning>: failed lookup: name = com.apple.splashboard.launchimage, flags = 0x200, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:56.063117 (user/501) <Warning>: failed lookup: name = PurplePPTServer, flags = 0x1, requestor = SpringBoard[95], error = 3: No such process
+System Policy: bash(110) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:17:56.430073 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:56.487119 (user/501) <Warning>: failed lookup: name = com.apple.appprotectiond.guard, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:56.531222 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:57.441770 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:57.758771 (user/501) <Warning>: failed lookup: name = PurplePPTServer, flags = 0x1, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:57.843791 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:57.956358 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:17:59.654992 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:17:59.346095 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:00.609142 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:18:00.031727 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:00.610682 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:00.179261 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:01.304846 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:18:01.065026 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:02.254806 <Notice>: Last log repeated 1 times
+System Policy: bash(111) allow process-exec* /bin/display-capture-probe
+com.apple.xpc.launchd|1970-01-01 00:18:02.027347 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:02.256230 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:02.144948 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:02.489400 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:02.320359 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:03.418255 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 00:18:03.232666 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:03.276473 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:03.383350 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:03.389958 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:04.296027 <Notice>: Last log repeated 12 times
+com.apple.xpc.launchd|1970-01-01 00:18:04.265673 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:04.458361 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:04.322732 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:05.416799 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 00:18:05.296615 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:05.449352 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:05.515536 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:05.576589 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:18:06.660898 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 00:18:06.383680 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:06.662791 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:06.436889 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:07.461791 <Notice>: Last log repeated 14 times
+com.apple.xpc.launchd|1970-01-01 00:18:07.425091 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:07.615924 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:07.538132 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:08.493375 <Notice>: Last log repeated 16 times
+com.apple.xpc.launchd|1970-01-01 00:18:08.455410 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:08.702260 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:08.505270 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:09.788356 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 00:18:09.483615 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:10.540259 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:09.802476 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:10.541677 <Notice>: Last log repeated 11 times
+com.apple.xpc.launchd|1970-01-01 00:18:10.514061 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=1 NAME=on
+com.apple.xpc.launchd|1970-01-01 00:18:11.311397 <Notice>: Last log repeated 1 times
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:18:10.660842 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_RENDER_RESULT=1
+com.apple.xpc.launchd|1970-01-01 00:18:11.678928 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 00:18:11.540557 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=98883 OPAQUE_PIXELS=206336
+com.apple.xpc.launchd|1970-01-01 00:18:11.904463 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:11.640253 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:12.587935 <Notice>: Last log repeated 12 times
+com.apple.xpc.launchd|1970-01-01 00:18:12.569973 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+com.apple.xpc.launchd|1970-01-01 00:18:12.907464 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:12.720873 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+System Policy: bash(112) allow process-exec* /bin/display-pack-probe
+com.apple.xpc.launchd|1970-01-01 00:18:13.817305 <Notice>: Last log repeated 11 times
+com.apple.xpc.launchd|1970-01-01 00:18:13.613863 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:14.274839 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:13.683522 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:14.685637 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 00:18:14.638616 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:14.887955 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:14.696771 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:15.954264 <Notice>: Last log repeated 11 times
+com.apple.xpc.launchd|1970-01-01 00:18:15.663107 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:16.172586 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:15.804451 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+PACK_RAW_BYTES=825344 PACKED_BYTES=11451 WRITTEN=11451 CLOSE=0
+com.apple.xpc.launchd|1970-01-01 00:18:17.341518 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 00:18:16.692033 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:17.343027 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:17.035692 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:17.807735 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:18:17.720776 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+DISPLAY_DATA_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:18:18.260543 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:18.160947 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:19.004276 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:18:18.763847 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:19.005751 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:18:18.834231 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+System Policy: bash(113) allow process-exec* /bin/base64
+com.apple.xpc.launchd|1970-01-01 00:18:19.872982 <Notice>: Last log repeated 13 times
+com.apple.xpc.launchd|1970-01-01 00:18:19.822524 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:19.931798 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:19.976638 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:19.982723 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:21.021309 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:18:20.848035 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:20.957121 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:21.026066 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:21.031794 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:22.034644 <Notice>: Last log repeated 15 times
+com.apple.xpc.launchd|1970-01-01 00:18:21.878153 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:21.918728 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:22.071611 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:22.872694 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[95], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:18:22.912941 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[95], error = 3: No such process
+eJztnQl4VNX9vxVqa1xqtVXiWu3iAlGsaLVqHhFxq8WlLqhQl8ct1VqjRitIg7RNiWtNsVZcKK5x
+jW2lG1qBKvUp1VKtoIIVqIjiEhUDIiDn//9cfzcOYWYyc3Pnfu+Zed/neR+WTJI595zz/czdzl1n
+nXXcOoiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+iLiWX/jCF9zOO+/samtr3dFHH+1OP/10V19f7xobG91VV13lbrjhBjdhwgR3zz33uLa2NveHP/zB
+Pfroo27atGnuqaeeck8//bR77rnn3AsvvOBefvllt2DBArdo0SL31ltvuffee891dHS45cuXu1Wr
+VrnVq1e77rDeHoiIGJ/V1dXusMMOcxdffLG75ZZb3NSpU4OcKCQPksZ6WyEiYnR33XXXYB9G+yuv
+v/66daQUhfW2Q0TE4jzggAPcuHHjgv0an7HejoiI2L2bb765GzlypJszZ451bMSG9TZFRMTcfuUr
+XwmuCyhHrLctIiKu7ec//3l37bXXWkdESbHexoiIuKZnnHGGe/PNN63joeRYb2dERPzErbbayj30
+0EPWsZAY1tsbERHXCe4HXbx4sXUkJIr1NkdErHR1XVslYr3dEREr2fHjx1vHgBnW2x4RsVLVmgWV
+jPX2x/js06dPsPaT9ftIo1/84hdd3759g3v41l13XfP3Y+2GG27odtppp+BP6/dSqOq3bbbZxu2x
+xx5u4MCBwRpnRxxxhBsyZEgi6nfpd+p36z3ovUQdS5/5zGfcn/70J+vyb471mMLo9u7dO1hj8Pe/
+com.apple.xpc.launchd|1970-01-01 00:18:23.581027 <Notice>: Last log repeated 1 times
+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
+NkA6SPp66564yy67uCuvvNK9+uqr3bYr7fs+K1asMN+eleyYMWMSmF0AkAvNQes6ENUDDjjAXXvt
+tW727NlZ25amfZ+u2UP+pMNf/OIXCc84ABCae9bzPy633HJLN3ToUNfS0hKs3a3nR6Q5f5Q95E86
+vOaaa6ynIkBFoTlnPe9Lra6hGzx4sKurq3PNzc3u7rvvdtOmTXMvvviie+edd3qcPz3NHs7/pMfL
+LrvMekoCVASaa9bzPS2uv/76rrq62n396193e+yxh6utrXUHH3ywO/LII90JJ5zgTjnlFHfWWWe5
+c88919XX17tLL73UjRo1KjhuOXbsWHf11Ve766+/3v3qV79yN998s5swYYK744473D333OPuvfde
+d999962l/j/8mnX78VOPPfZY9/bbb1tPT4CyRHNLc8x6niOm1W222cY98MAD1lMVoKzQnNLcsp7f
+iD54/PHHu2effdZ62gJ4jeaQ5pL1fEb00WHDhrFeAkCRaM5o7ljPX8RycNdddw3O+T3zzDPWUxsg
+lWhuaI5orljPV8RyVWv0HnHEEW706NHuwQcfdP/5z3+C6/0BKgGNdY15jX3NAc2FNKxbjVjJVlVV
+uR122MHttddewXpROu592mmnBddOXnzxxW7kyJHuiiuucD//+c+D+x90r9qNN97obrnlFjdx4sTg
+/gBdF3n//fcjxq7GlsaYxprGnMaexqDGosakxqbGqMaqxqzGrsawxrLGtMa2xrj1PENERERERERE
+RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE
+xHjt3bu3q66udv369XO1tbVuyJAhbtiwYa6urs41NDS4xsZG19zc7FpaWtz48ePdxIkTXWtrq2tr
+a3OTJk1ykydPdlOmTHHTp093M2bMcDNnznSzZs1yc+bMcfPmzXMLFy50ixcvdu3t7W7JkiVu2bJl
+bsWKFW7VqlVu9erVDgCSQ3NOc09zUHNRc1JzU3NUc1VzVnNXc1hzWXNac1tzXHNdc15zXzVAtUA1
+QbVBNUK1QjVDtUM1RLVENUW1RTVGtca63mGyVlVVuQEDBgTjYfTo0cGY0ViaO3eu6+josJ4OAFBB
+qOao9qgGqRapJqk2qUapVlnXS4yuPl8MHDjQjRgxwj388MNu/vz51sMNAKBgVLNUu1TDVMvYZ0q3
+/fv3dyNHjnRTp061HjoAALGj2qYap1pnXW9xHVdTU+OampqC47QAAJWCap5qn2qgdR2uNIcPH85+
+DgCA+2S/SDXRui6Xu/X19cF1KQAAsCaqjaqR1nW63DznnHPcggULrLsXACD1qFaqZlrXbd896KCD
+3FNPPWXdnQAA3qHaqRpqXcd9s1evXsG9XAAA0DNUS1VTreu6D+pad91zDAAA8aCaqtpqXd/TrNas
+AACA0qAaa13n0+iECROsuwYAoOxRrbWu92mxT58+7vHHH7fuEgCAikE1V7XXuv5b2rdvXzd79mzr
+rgAAqDhUe1WDrXPAwj333DNY5xwAAGxQDVYtts6DpLNHz9kAAABbVIsrJYO0v8d+DwBAelBNLvdj
+cTrfxfkeAID0odpcztckcJ0bAEB6UY22zolSyP09AADpp9zuD2JdAwAAfyiXdRK05hAAAPiF7+vF
+ac1V1hIFAPAP1W6f183mGQoAAP6iGm6dI1HUc48AAMBvfHyGHc8tBQDwH9Vy6zwpRj17HAAAygPV
+dOtcKdQFCxZYby4AAIgJ1XTrXCnE+vp6600FAAAxo9punS/dOW/ePOvNBAAAMaPabp0v+Rw+fLj1
+JgIAgBKhGm+dM7mcOnWq9eYBAIASoRpvnTPZrKmpsd40AABQYlTrrfOmq01NTdabBQAASoxqvXXe
+dHXOnDnWmwUAAEqMar113mTav39/600CAAAJoZpvnTuhI0eOtN4cAACQEKr51rkTynVvAACVQ1qu
+g+vdu7f1pgAAgIRR7bfOH55vCgBQeaTh+agjRoyw3gwAAJAwqv3W+fPwww9bbwYAAEiYtrY28/yZ
+P3++9WYAAICEUe23zJ6qqirrTQAAAEYoA6zyZ8CAAdbNBwAAI5QBVvkzbNgw6+YDAIARygCr/Bk9
+erR18wEAwAhlgFX+TJw40br5AABghDLAKn+mTJli3XwAADBCGWCVP3PnzrVuPgAAGKEMsMqfjo4O
+6+YDAIARygCL7GHdUQAAsFiHtLq62rrZAABgjLIg6fzp16+fdbMBAMAYZUHS+VNbW2vdbAAAMEZZ
+kHT+DBkyxLrZAABgjLIg6fxh7R0AALBYg6eurs662QAAYIyyIOn8aWhosG42AAAYoyxIOn8aGxut
+mw0AAMYoC5LOn+bmZutmAwCAMcqCpPOnpaXFutkAAGCMsiDp/Bk/frx1swEAwBhlQdL5w7N/AADA
+4hlAra2t1s0GAABjlAVJ509bW5t1swEAwBhlQdL5M2nSJOtmAwCAMcqCpPNn8uTJ1s0GAABjlAVJ
+54+e+w0AAJWNsiDp/Jk+fbp1swEAwBhlQdL5M2PGDOtmAwCAMcqCpPNn5syZ1s0GAABjlAVJ58+s
+WbOsmw0AAMYoC5LOnzlz5lg3GwAAjFEWJJ0/8+bNs242AAAYoyxIOn8WLlxo3WwAADBGWZB0/ixe
+vNi62QAAYIyyIOn8aW9vt242AAAYoyxIOn+WLFli3WwAADBGWZB0/ixbtsy62QAAYIyyIOn8WbFi
+hXWzAQDAGGUB+QMAAEljkT8cfwMAAIvjb1x/AAAAFtcfcP01AABYXH/N/acAAGBx/ynr7wAAgMX6
+O6w/CgAAFuuP8vwFAACweP4Cz58DAACL58/x/G0AALB4/vaMGTOsmw0AAMYoC5LOn+nTp1s3GwAA
+jFEWJJ0/U6ZMsW42AAAYoyxIOn8mT55s3WwAADBGWZB0/kyaNMm62QAAYIyyIOn8aWtrs242AAAY
+oyxIOn9aW1utmw0AAMYoC5LOn4kTJ1o3GwAAjFEWJJ0/48ePt242AAAYoyxIOn9aWlqsmw0AAMYo
+C5LOn+bmZutmAwCAMcqCpPOnsbHRutkAAGCMsiDp/GloaLBuNgAAGKMsSDp/6urqrJsNAADGKAuS
+zp9hw4ZZNxsAAIxRFiSdP0OGDLFuNgAAGKMsSDp/amtrrZsNAADGKAuSzp9+/fpZNxsAAIxRFiSd
+P9XV1dbNBgAAY5QFSedP7969rZsNAADGKAuSzh/Z0dFh3XQAADBCGWCRPXLu3LnWzQcAACOUAVb5
+o+d+AwBAZaIMsMofngEEAFC5WDz7J3T06NHWzQcAACOUAVb5wxo8AACVi8XaO6EDBgywbj4AABih
+DLDKn6qqKuvmAwCAEcoAq/yR8+fPt94EAACQMKr9ltkj29rarDcDAAAkjGq/df6MGDHCejMAAEDC
+qPZb58/AgQOtNwMAACSMar91/rAOKQBA5WG17mhXp06dar0pAAAgIVTzrXMndOTIkdabAwAAEkI1
+3zp3Qvv372+9OQAAICFU861zJ9M5c+ZYbxIAACgxqvXWedPVpqYm680CAAAlRrXeOm+6WlNTY71Z
+AACgxKjWW+dNNrkODgCgfEnTdW9dHT58uPXmAQCAEqEab50z+Zw3b571JgIAgJhRbbfOl+6sr6+3
+3kwAABAzqu3W+VKICxYssN5UAAAQE6rp1rlSqOecc4715gIAgJhQTbfOlWJ86qmnrDcZAAD0ENVy
+6zwp1oMOOsh6swEAQA9RLbfOkyi2tLRYbzoAAIiIarh1jkS1V69ebtasWdabEAAAikS1WzXcOkd6
+Is9HBQDwjzQ83zQOGxoarDclAAAUiGq2dW7E6YQJE6w3KQAAdINqtXVelMLHH3/cetMCAEAOVKOt
+c6JU9unTx82ePdt6EwMAQBdUm1WjrXOilPbt29ctXLjQelMDAMD/oZqs2mydD0m45557usWLF1tv
+cgCAike1WDXZOheSziD2gwAA7FANrrTsCdX+HueDAACSR7W3Uo655VLnu7guDgAgOVRzy/1ag2Lk
+/iAAgNJTrvf39FTWSQAAKB3ltq5B3GrNIdYsBQCID9XUclnPrdRqzVWe3QAA0HNUS31fx9pCPfeI
+56gCABSPaqevz45Lk3r2+IIFC6y7EwAg9ahWqmZa1+1ys76+3s2bN8+6ewEAUodqo2qkdZ0ud4cP
+H+6mTp1q3d0AAOaoFqomWtflSrOmpsY1NTW5OXPmWA8BAIDEUM1T7VMNtK7DuI7r37+/GzlyJPtF
+AFCWqLapxqnWWddbzG3v3r2Da91HjBjh2tra3Pz5862HDgBAwahmqXaphqmWqaZZ11WMblVVlRsw
+YIAbNmyYGz16tJs4caKbMmWKmzt3ruvo6LAebgBQQajmqPaoBqkWqSapNqlGqVZZ10tMVn2+qK6u
+dv369XO1tbVuyJAhwXioq6sL1qxobGx0zc3Nwb1c48ePD8ZMa2tr8Bll0qRJbvLkycFYmj59upsx
+Y4abOXNmcM+xjtPquhStc67nbLS3t7slS5a4ZcuWuRUrVrhVq1a51atXW08HgIpCc05zT3NQc1Fz
+UnNTc1RzVXNWc1dzWHNZc1pzW3Ncc11zXnNfNUC1QDVBtUE1QrVCNUO1QzVEtUQ1RbVFNYZ9GURE
+RERERERERERERERERERERERERERERERERERERERERERERERERERERERExNL4/wBFkkh9
+DISPLAY_DATA_END
+SERIAL_DONE_7e0ede5d82ce4c29b105e9b244903ec3
