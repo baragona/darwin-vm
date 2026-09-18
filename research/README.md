@@ -1472,3 +1472,16 @@ RunAtLoad is enabled, KeepAlive disabled, and stdout/stderr redirected under
 /var/tmp. [File identity](evidence/lsd-files-v45.json) records exact copies.
 Service startup and database/application registration still need testing.
 The missing service is a lead, not yet a verified fix for _systemAppInfo.
+
+
+V45 LaunchServices submission succeeds and lsd executes, but exits with
+SIGABRT in approximately 368 ms. Its stderr is empty. A second launch was
+caught directly at libc `abort` (unslid `0x187f788b0`, v45 cache slide
+`0x4fd8000`). [The stack](evidence/lsd-abort-v45-symbols.json) passes through
+`_LSLazyLoadObjectOnQueue`, `-[_LSDefaults userContainerURL]`,
+`-[_LSDefaults preSydroFSecurePreferencesFileURL]`, and `_LSServerMain`.
+Repeated lookup failures for `com.apple.containermanagerd` immediately precede
+this failure. This identifies per-user container initialization as the next
+LaunchServices dependency; the existing system container helper is separate.
+The debugger was detached and all breakpoints removed. V45 remains running;
+virtual LCD and RunningBoard have not yet been applied in this boot.
