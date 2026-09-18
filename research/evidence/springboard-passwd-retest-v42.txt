@@ -1,0 +1,108 @@
+/bin/launch-probe submit /launchjobs/com.apple.SpringBoard.probe.pl
+< submit /launchjobs/com.apple.SpringBoard.probe.pli                         st; sleep 5; /bin/launch-
+<ple.SpringBoard.probe.plist; sleep 5; /bin/launch-p                         robe list; cat /private/v
+<t; sleep 5; /bin/launch-probe list; cat /private/va                         r/tmp/springboard.stderr;
+<obe list; cat /private/var/tmp/springboard.stderr;                          echo SERIAL_DONE_ff67a2c6
+</tmp/springboard.stderr; echo SERIAL_DONE_ff67a2c66                         3314dcfb7749809a622ec24
+
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+LAUNCH_REPLY_TYPE=9
+
+LAUNCH_REPLY_ERRNO=0
+
+System Policy: bash(39) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:00:54.562823 (com.apple.SpringBoard) <Error>: Unknown key for plist importer (key: HighPriorityIO type: bool)
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.563405 (user/501/com.apple.SpringBoard) <Warning>: (lint): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.846755 <Notice>: Last log repeated 1 times
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.569780 (user/501/com.apple.SpringBoard) <Notice>: service will attempt to elide xpcproxy
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.570049 (user/501/com.apple.SpringBoard) <Notice>: internal event: WILL_SPAWN, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.570105 (user/501/com.apple.SpringBoard) <Notice>: service state: spawn scheduled
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.570141 (user/501/com.apple.SpringBoard) <Notice>: service state: spawning
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.572710 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.572750 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.572797 (user/501/com.apple.SpringBoard) <Notice>: launching: system support
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.572916 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:54.572939 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.318445 (user/501/com.apple.SpringBoard [38]) <Notice>: service spawned with pid 38
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.318650 (user/501/com.apple.SpringBoard [38]) <Notice>: internal event: SPAWNED, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.318697 (user/501/com.apple.SpringBoard [38]) <Notice>: service state: spawned
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.318849 (user/501/com.apple.SpringBoard [38]) <Notice>: service state: running
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.318887 (user/501/com.apple.SpringBoard [38]) <Notice>: internal event: INIT, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.318984 (user/501/com.apple.SpringBoard [38]) <Notice>: Successfully spawned SpringBoard[38] because system support
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.319070 (user/501/com.apple.SpringBoard [38]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:00:56.018568 (pid/38 [SpringBoard]) <Notice>: uncorking exec source upfront
+
+com.apple.xpc.launchd|1970-01-01 00:00:56.018730 (pid/38 [SpringBoard]) <Notice>: created
+
+com.apple.xpc.launchd|1970-01-01 00:00:56.512952 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = SpringBoard[38], error = 3: No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:57.481294 (user/501) <Warning>: failed lookup: name = com.apple.runningboard, flags = 0x8, requestor = SpringBoard[38], error = 3: No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:57.645167 (user/501) <Warning>: failed lookup: name = com.apple.FSEvents, flags = 0x9, requestor = cfprefsd[30], error = 3: No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:57.662789 (user/501) <Warning>: failed lookup: name = com.apple.chronoservices, flags = 0x200, requestor = SpringBoard[38], error = 3: No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:58.059132 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-probe[24], error = 3: No such process
+
+
+com.apple.xpc.launchd|1970-01-01 00:00:58.131211 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[26], error = 3: No such process
+
+com.apple.xpc.launchd|1970-01-01 00:00:58.334437 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[26], error = 3: No such process
+
+_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+com.apple.xpc.launchd|1970-01-01 00:00:59.261149 (user/501/com.apple.SpringBoard [38]) <Notice>: exited due to SIGTRAP | sent by exc handler[38], ran for 4601ms
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.261452 (user/501/com.apple.SpringBoard [38]) <Notice>: service has crashed 1 times in a row (last was not dirty)
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.261518 (user/501/com.apple.SpringBoard [38]) <Notice>: service state: exited
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.261654 (user/501/com.apple.SpringBoard [38]) <Notice>: internal event: EXITED, code = 0
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.261745 (user/501) <Notice>: service inactive: com.apple.SpringBoard
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.262978 (user/501/com.apple.SpringBoard [38]) <Notice>: service state: not running
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.319614 (pid/38 [SpringBoard]) <Notice>: shutting down
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.319689 (pid/38 [SpringBoard]) <Notice>: cleaning up
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.319799 (system) <Notice>: removing child: pid/38
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.438274 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[26], error = 3: No such process
+
+System Policy: bash(40) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+
+LAUNCH_JOB_COUNT=4
+
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+
+JOB com.apple.SpringBoard PID=-1 LAST_EXIT=5
+
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+
+System Policy: bash(41) allow process-exec* /bin/cat
+SERIAL_DONE_ff67a2c663314dcfb7749809a622ec24
+

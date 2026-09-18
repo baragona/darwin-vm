@@ -1,0 +1,7 @@
+uid=501(mobile) gid=501(mobile) groups=501(mobile),250(_analyticsusers),286(_accessory_mobile_share),299(systemusers)
+cat: /etc/passwd: No such file or directory
+LAUNCH_JOB_COUNT=4
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=-1 LAST_EXIT=11
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0

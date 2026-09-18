@@ -27,6 +27,8 @@ and a full installed system are not working yet.
 - IOSurface allocation/mapping works with a scoped driver-client entitlement;
   remote-context commit/flush and server rendering succeed after the initial timeout
   (v39), including with Developer Mode restored to off.
+- Adding the missing public passwd database fixes SpringBoard's user-directory
+  crash; its next verified assertion requires a non-null main display (v42).
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1345,3 +1347,51 @@ debugger is attached. `/launchjobs/com.apple.SpringBoard.probe.plist` in the
 image is the initial Conclave-bearing version; the successfully submitted
 version is `/private/var/tmp/springboard-no-conclave.plist`. Stage the updated
 checked-in plist during the next intentional image update.
+
+## SpringBoard's user-directory crash fixed; main-display assertion exposed (v41–v42)
+
+The new `launch-probe start LABEL` control enables repeated managed launches
+without recreating jobs or changing SpringBoard's execution identity.
+`stop LABEL` and `remove LABEL` send their corresponding legacy launch messages
+in the caller's current domain; they do not select the system domain. The
+helper compiles with warnings as errors, remains unentitled, and was
+[successfully tested restarting SpringBoard](evidence/launch-start-springboard-v42.txt).
+Stop/remove have not yet been exercised. [Build identity](evidence/launch-control-v41-build.json).
+
+A direct root launch was **not** an adequate reproduction of the mobile job:
+it reached SIGTRAP while the managed job still had a SIGSEGV. The kernel
+exception entry provided a better capture point. [V41 crash evidence](evidence/springboard-user-directory-v41.md)
+shows `getpwuid(getuid())` returning null inside `BSCurrentUserDirectory`;
+the unchecked directory-field access faults at address 0x30. Its caller is
+ChronoServices initialization through SBChronoApplicationProcessStateObserver.
+
+The diagnostic root lacked `/etc/passwd`. Root could resolve the mobile
+account from `/etc/master.passwd`, masking the missing public database during
+root-only checks. V42 adds only the matched system image's
+`/private/etc/passwd`, mode 0644; the protected master database remains
+unchanged. [File identity](evidence/public-user-database-v42.json) records its
+size/hash without committing account database contents.
+
+[Retest](evidence/springboard-passwd-retest-v42.txt) reaches a later failure.
+A managed restart under the debugger identifies the explicit assertion:
+**`Invalid condition not satisfying: mainDisplay`** in FBSDisplayMonitor,
+called by FBDisplayManager and FBSystemShellInitialize.
+[Debugger observations](evidence/springboard-main-display-v42.md) and
+[symbolication](evidence/springboard-main-display-v42-symbols.json) preserve
+the actual fault and call chain. This is now a demonstrated main-display
+requirement, beyond the earlier observation that CADisplay.mainDisplay is nil.
+The next integration step is a valid main display and usable mode in the
+render server; suppressing this assertion would not establish either.
+
+V40 and v41 were intentionally stopped for image updates after debugger
+cleanup. Current v42 is running with QMP `/tmp/a19-ui-v42-qmp.sock`, UART
+`/tmp/a19-ui-v42-serial.sock`, and a loopback GDB endpoint at
+`127.0.0.1:63442`. No debugger is attached, all trace breakpoints were deleted,
+and Developer Mode is unchanged/off. The updated Conclave-free SpringBoard
+job is now installed in `/launchjobs/com.apple.SpringBoard.probe.plist`.
+The staged RunningBoard job also has KeepAlive disabled for future bounded
+startup diagnostics; RunningBoard has not been started in this experiment.
+
+The [post-trace check](evidence/springboard-post-trap-v42.txt) confirms backboardd
+still runs and CADisplay queries complete. The five Wireless displays remain
+zero-sized and `CADISPLAY_MAIN_PRESENT=0`; SpringBoard is stopped with LAST_EXIT=5.

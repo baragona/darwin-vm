@@ -1,0 +1,8 @@
+{
+  "source": "/private/etc/passwd from 24A437 system image",
+  "sha256": "932d58b21a43aa09bc51f198d0193be37a68948d6c3e0eee7bc8c3fa4aa41c04",
+  "bytes": 3595,
+  "guest_destination": "/private/etc/passwd",
+  "mode": "0644",
+  "previously_absent": true
+}
