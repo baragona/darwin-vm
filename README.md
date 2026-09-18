@@ -1,5 +1,7 @@
 # darwin-vm
 
+Fork setup: [M4 Mac mini (26A428) and iPhone 17 (24A437) notes](SETUP-NOTES.md).
+
 Run iOS/ macOS in Qemu. Supports emulating iPhone 17, 16, 15, 14, 13, and 12
 (A19-A14) and M5-M1 Macs (tested with Macbook Air and Mac Mini). You can debug
 the kernel, edit the root filesystem, and run a root shell + custom programs.
