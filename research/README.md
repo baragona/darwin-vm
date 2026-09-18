@@ -1839,3 +1839,19 @@ it is inconclusive and is not a fix. [Exact observations and cleanup](evidence/p
 All breakpoints were removed and LLDB detached. The developer override was
 restored to zero. The guest remains running; the earlier statement that no
 support-service jobs had been submitted describes the pre-experiment state.
+
+
+### SpringBoard registration succeeds; startup reaches credential initialization (v52)
+
+A fresh UserManager experiment supplies the verified mobile-user key only as
+borrowed arguments at the list and attribute helper calls. All four attributes
+reach installer, which now remains running. A system-app database rebuild
+(with a one-shot guest debugger authorization change) produces a real
+SpringBoard record: a separate process reports isInstalled=1 and the correct
+bundle URL. URL-only registration had still failed beforehand.
+
+After restoring the virtual LCD and starting RunningBoard, SpringBoard stays
+alive and reaches lock-screen credential initialization. Its main thread is
+sampled inside ACMContextCreateWithFlags/IOKit transport while serial logs
+repeat missing Secure Enclave endpoint waits. No interactive UI is claimed.
+[Reproduction details, evidence, and current debugger state](evidence/persona-registration-success-v52.md).

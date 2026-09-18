@@ -1,0 +1,58 @@
+[
+  {
+    "runtime": "0x19ebe18b8",
+    "unslid": "0x18f0718b8",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (__TEXT.__text)\n\n0x18f0718b8: _IOConnectCallMethod + 236\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x19ebe1658",
+    "unslid": "0x18f071658",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (__TEXT.__text)\n\n0x18f071658: _IOConnectCallStructMethod + 56\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x1cb24de3c",
+    "unslid": "0x1bb6dde3c",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (__TEXT.__text)\n\n0x1bb6dde3c: _ioKitTransport + 200\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x1cb24f8a0",
+    "unslid": "0x1bb6df8a0",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (__TEXT.__text)\n\n0x1bb6df8a0: _LibCall_ACMContextCreate + 196\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x1cb23ff60",
+    "unslid": "0x1bb6cff60",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (__TEXT.__text)\n\n0x1bb6cff60: _ACMContextCreateWithFlags + 200\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x1cb1d6124",
+    "unslid": "0x1bb666124",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (__TEXT.__text)\n\n0x1bb666124: -[SBFCredentialSet initWithSerializedCredentialSet:] + 192\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x234e923b8",
+    "unslid": "0x2253223b8",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x2253223b8: -[SBLockScreenCoordinator initWithWindowSceneManager:biometricResource:walletPreArmController:activeDisplayPolicy:] + 132\n",
+    "stderr": ""
+  },
+  {
+    "runtime": "0x23487f034",
+    "unslid": "0x224d0f034",
+    "returncode": 0,
+    "output": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224d0f034: -[SpringBoard applicationDidFinishLaunching:] + 6232\n",
+    "stderr": ""
+  }
+]

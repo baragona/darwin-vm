@@ -1,0 +1,20 @@
+/bin/chown -R 33:33 /var/installd; /bin/ls-registration-probe; /bin<33 /var/installd; /bin/ls-registration-probe; /bin/                         launch-probe list; echo S<registration-probe; /bin/launch-probe list; echo SE                         RIAL_DONE_af7f7138fa9940d<aunch-probe list; echo SERIAL_DONE_af7f7138fa9940de                         9b60f1e2281e2644
+System Policy: bash(366) allow process-exec* /bin/chown
+System Policy: bash(367) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_PROXY=<LSApplicationProxy: 0x1050d03a0> com.apple.springboard file:///System/Library/CoreServices/SpringBoard.app/ <com.apple.springboard <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///System/Library/CoreServices/SpringBoard.app/
+LS_PROBE_END
+System Policy: bash(368) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=7
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=357 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=343 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=341 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=352 LAST_EXIT=11
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_af7f7138fa9940de9b60f1e2281e2644

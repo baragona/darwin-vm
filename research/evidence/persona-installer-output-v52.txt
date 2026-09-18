@@ -1,0 +1,15 @@
+/bin/cat /var/tmp/installd.stderr /var/tmp/installd.stdout; /bin/la</installd.stderr /var/tmp/installd.stdout; /bin/lau                         nch-probe list; echo SERI<installd.stdout; /bin/launch-probe list; echo SERIA                         L_DONE_6c4e07bd7a344888b8<ch-probe list; echo SERIAL_DONE_6c4e07bd7a344888b8a                         7a8cc4d7e0da2
+System Policy: bash(361) allow process-exec* /bin/cat
+1970-01-01 00:08:58.-139 installd[357:1244] Foundation called mkdir("/var/installd/Library/MobileInstallation/LinkedParentBundles.plist.sb-50c9b5cd-3ohioY"), it didn't return 0, and errno was set to 2.
+1970-01-01 00:08:58.-81 installd[357:1244] Foundation called mkdir("/var/installd/Library/MobileInstallation/LastBuildInfo.plist.sb-50c9b5cd-1VsjAt"), it didn't return 0, and errno was set to 2.
+System Policy: bash(362) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=7
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=357 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=343 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=341 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=352 LAST_EXIT=11
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_6c4e07bd7a344888b8a7a8cc4d7e0da2

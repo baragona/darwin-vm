@@ -1,0 +1,32 @@
+/bin/mkdir -p /var/installd/Library/MobileInstallation; /usr/sbin/c<r/installd/Library/MobileInstallation; /usr/sbin/ch                         own -R 33:33 /var/install<nstallation; /usr/sbin/chown -R 33:33 /var/installd                         ; /bin/ls-registration-pr<wn -R 33:33 /var/installd; /bin/ls-registration-pro                         be --rebuild-system; echo< /bin/ls-registration-probe --rebuild-system; echo                          SERIAL_DONE_1b542968b1804<e --rebuild-system; echo SERIAL_DONE_1b542968b18043                         3db8615529928fa2a2
+System Policy: bash(363) allow process-exec* /bin/mkdir
+bash: /usr/sbin/chown: No such file or directory
+System Policy: bash(365) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501
+com.apple.xpc.launchd|1970-01-01 00:12:06.488740 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-registration[365], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:12:08.095036 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = lsd[343], error = 3: No such process
+"AppleSEPKeyStore":pid:343,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:343,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:343,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:343,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:343,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:343,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:343,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:343,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:343,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:343,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:343,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:343,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:343,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:343,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:343,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:343,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:343,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:343,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:343,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:343,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:12:08.413179 (user/501) <Warning>: failed lookup: name = com.apple.iconservices, requestor = lsd[343], error = 3: No such process
+LS_REBUILD_RESULT=1
+LS_PROBE_END
+SERIAL_DONE_1b542968b180433db8615529928fa2a2
