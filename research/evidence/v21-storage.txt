@@ -1,0 +1,8 @@
+/sbin/mount; /bin/touch /private/var/tmp/write-test; echo WRITE_RES</touch /private/var/tmp/write-test; echo WRITE_RESU                         LT=$?; echo STORAGE_DONE
+System Policy: bash(29) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+System Policy: bash(30) allow process-exec* /bin/touch
+touch: cannot touch '/private/var/tmp/write-test': Read-only file system
+WRITE_RESULT=1
+STORAGE_DONE

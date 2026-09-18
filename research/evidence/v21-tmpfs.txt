@@ -1,0 +1,9 @@
+/sbin/mount_tmpfs -s 268435456 /private/var/tmp; echo MOUNT_RESULT=< -s 268435456 /private/var/tmp; echo MOUNT_RESULT=$                         ?; /bin/touch /private/va</tmp; echo MOUNT_RESULT=$?; /bin/touch /private/var                         /tmp/write-test; echo WRI<; /bin/touch /private/var/tmp/write-test; echo WRIT                         E_RESULT=$?; echo TMPFS_D<tmp/write-test; echo WRITE_RESULT=$?; echo TMPFS_DO                         NE
+System Policy: bash(31) allow process-exec* /System/Library/Filesystems/tmpfs.fs/mount_tmpfs
+System Policy: mount_tmpfs(31) deny(1) file-mount /private/var/tmp
+mount_tmpfs: Unsuccessful mount: Operation not permitted
+MOUNT_RESULT=1
+System Policy: bash(32) allow process-exec* /bin/touch
+touch: cannot touch '/private/var/tmp/write-test': Read-only file system
+WRITE_RESULT=1
+TMPFS_DONE

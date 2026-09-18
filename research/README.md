@@ -637,3 +637,37 @@ running with QMP `/tmp/a19-ui-v21-qmp.sock` and UART
 has yet been enabled for v21. Its shared-cache slide is `0x4e8c000`. The next
 step is tracing ContainerManagerCommon's helper startup/exit and preparing the
 required writable container environment. Graphical startup remains unverified.
+
+
+### Container service permanent errors and storage checks (v21/v22)
+
+V21's `_exit(0)` originated from
+`____containermanagerd_reply_with_error_block_invoke`; it is an error-response
+exit, not evidence of a working daemon. A breakpoint on the permanent-error
+listener captured an MCMError whose type was 102. The exact firmware's error
+string table maps this to `USER_HOME_DIRECTORY_MISSING`.
+[Debugger observations](evidence/container-permanent-error-v21.md).
+
+Independent [mount/write checks](evidence/v21-storage.txt) confirmed that the
+root APFS ramdisk is read-only, including `/private/var/tmp`. An attempted
+256 MiB tmpfs mount on that directory was denied by System Policy's file-mount
+check and failed with Operation not permitted; no writable filesystem was
+created. [Tmpfs evidence](evidence/v21-tmpfs.txt).
+
+For v22, `/private/var/root` and `/private/var/mobile` were created with mode
+0755 on the stopped image's ownership-disabled host mount. Ownership and
+writability are not solved by this experiment. The permanent error changed to
+149, `INVALID_CONFIG_FILE`, proving that the helper got beyond the previous
+home-path check. Backboardd still aborts. [V22 evidence](evidence/container-error-v22.md).
+
+The original full system image contains `ContainerManagerCommon.framework`
+resources including `Containers.plist`, `Platform.plist`, `SingleDaemon.plist`,
+`User.plist`, and multiple Container.Class/Container.User plists. These were not
+staged when the dyld cache was installed. Inspecting/staging the matching
+configuration is the next step, with writable /var still an independent
+requirement.
+
+V21 is stopped. Current v22 is running with QMP `/tmp/a19-ui-v22-qmp.sock`, UART
+`/tmp/a19-ui-v22-serial.sock`, and loopback GDB `127.0.0.1:63422`. All breakpoints
+were removed. Developer Mode has not been overridden in v22. Graphical startup
+is not complete.
