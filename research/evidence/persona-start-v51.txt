@@ -1,0 +1,35 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.usermanagerd.< submit /launchjobs/com.apple.mobile.usermanagerd.p                         robe.plist; /bin/sleep 2;<ple.mobile.usermanagerd.probe.plist; /bin/sleep 2;                          /bin/launch-probe list; e<obe.plist; /bin/sleep 2; /bin/launch-probe list; ec                         ho SERIAL_DONE_cd83096483<bin/launch-probe list; echo SERIAL_DONE_cd830964833                         f451abb0e438a6451f83e
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(39) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:00:49.689978 (com.apple.mobile.usermanagerd) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|1970-01-01 00:00:49.690630 (user/501/com.apple.mobile.usermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.690676 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:00:49.690709 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:00:49.691565 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:49.691592 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:49.691631 (user/501/com.apple.mobile.usermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:00:49.709435 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: xpcproxy spawned with pid 38
+com.apple.xpc.launchd|1970-01-01 00:00:49.709733 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.709802 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:49.710709 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.861653 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:49.861792 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: xpcproxy(38) allow process-exec* /usr/libexec/usermanagerd
+com.apple.xpc.launchd|1970-01-01 00:00:49.909876 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:49.910054 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.910170 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: Successfully spawned usermanagerd[38] because speculative
+com.apple.xpc.launchd|1970-01-01 00:00:49.960351 (pid/38 [usermanagerd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:00:49.960508 (pid/38 [usermanagerd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:00:50.002779 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = usermanagerd[38], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:50.155642 (user/501) <Warning>: failed activation: name = com.apple.mobile.usermanagerd.xpc, flags = 0x0, requestor = usermanagerd[38], error = 37: Operation already in progress
+System Policy: bash(40) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=4
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_cd830964833f451abb0e438a6451f83e

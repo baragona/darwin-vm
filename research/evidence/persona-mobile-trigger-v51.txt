@@ -1,0 +1,6 @@
+/bin/launch-probe start com.apple.mobile.installd; echo SERIAL_DONE< start com.apple.mobile.installd; echo SERIAL_DONE_                         80e21668762d4d0085803d806<stalld; echo SERIAL_DONE_80e21668762d4d0085803d8068                         8d80a9
+System Policy: bash(69) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_80e21668762d4d0085803d80688d80a9

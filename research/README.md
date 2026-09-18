@@ -1753,3 +1753,35 @@ Potential next directions are provisioning a valid default-persona manifest
 from the matching implementation, or supplying the APFS boot-volume state
 required by stock initialization. The original daemon's manifest constructors
 and parsing methods are visible through ipsw macho info --objc --verbose.
+
+
+### Populated persona seed and missing caller identity (v51)
+
+The [experimental seed generator](make-persona-seed.py) reproduces the v1
+manifest nesting from the matching usermanagerd parser: UserPersonaDictionary
+maps user UUID strings to data containing a NUMENT/BLOB dictionary; BLOB is
+data containing an array of persona dictionaries. The system-session
+constructor uses types 3 and 5, while the user constructor uses 0, 3, 5, 4.
+UUIDs and kernel IDs in this test are synthetic; generating the file does
+not allocate kernel personas or provision APFS volumes. The empty seed is
+retained as a separate earlier experiment.
+
+V51 starts UserManager with this populated seed, but stock installer startup
+still fails at SourceFileLine 207. Debugging reveals its request uses the
+embedded, user-specific persona-list method, whose caller-to-user resolver
+returns nil. A one-shot substitution of the existing mobile user string
+makes the daemon's lookup return **four personas**, verified at the actual
+array-count return. This confirms the seed reaches live daemon state.
+Nevertheless, the installer still fails afterward, including when the
+system-session UUID is substituted instead. The next investigation is the
+client response/conversion into persona attributes and subsequent lookups,
+alongside proper kernel persona/session initialization.
+
+[Exact debugger observations and image hash](evidence/persona-debug-v51.md),
+[baseline installer start](evidence/persona-installer-start-v51.txt),
+[system-user diagnostic result](evidence/persona-system-lookup-result-v51.txt),
+and [mobile-user diagnostic result](evidence/persona-mobile-result-v51.txt).
+The normal SpringBoard query still returns INVALID/isInstalled=0/nil URL.
+The guest-only developer override was restored, all breakpoints removed,
+and the debugger detached. V51 is running with the installer job removed;
+no interactive SpringBoard or touch input is available yet.

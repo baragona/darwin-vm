@@ -1,0 +1,42 @@
+/bin/cat /var/tmp/usermanagerd.stderr /var/tmp/usermanagerd.stdout;</usermanagerd.stderr /var/tmp/usermanagerd.stdout;                          /bin/ls -l /var/keybags; <tmp/usermanagerd.stdout; /bin/ls -l /var/keybags; /                         bin/launch-probe remove c<bin/ls -l /var/keybags; /bin/launch-probe remove co                         m.apple.System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+mcom.apple.xpc.launchd|1970-01-01 00:03:07.881195 (user/501/com.apple.mobile.installd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:03:07.881722 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:07.881759 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:07.881824 (user/501/com.apple.mobile.installd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:03:07.899806 (user/501/com.apple.mobile.installd [54]) <Notice>: xpcproxy spawned with pid 54
+com.apple.xpc.launchd|1970-01-01 00:03:07.899964 (user/501/com.apple.mobile.installd [54]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:07.900015 (user/501/com.apple.mobile.installd [54]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:03:07.900059 (user/501/com.apple.mobile.installd [54]) <Notice>: deferred event: domain spawn response: 0
+com.apple.xpc.launchd|1970-01-01 00:03:07.900154 (user/501/com.apple.mobile.installd [54]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+ocom.apple.xpc.launchd|1970-01-01 00:03:07.958584 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:07.958733 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: xpcproxy(54) allow process-exec* /usr/libexec/installd
+com.apple.xpc.launchd|1970-01-01 00:03:08.005302 (user/501/com.apple.mobile.installd [54]) <Notice>: service state: running
+bcom.apple.xpc.launchd|1970-01-01 00:03:08.005478 (user/501/com.apple.mobile.installd [54]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:08.005580 (user/501/com.apple.mobile.installd [54]) <Notice>: Successfully spawned installd[54] because ipc (mach)
+icom.apple.xpc.launchd|1970-01-01 00:03:08.077805 (pid/54 [installd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:03:08.077960 (pid/54 [installd]) <Notice>: created
+lecom.apple.xpc.launchd|1970-01-01 00:03:08.162546 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = installd[54], error = 3: No such process
+.iSandbox: installd(54) deny(1) file-read-data /var
+nstcom.apple.xpc.launchd|1970-01-01 00:03:08.396662 (user/501/com.apple.mobile.installd [54]) <Notice>: exited with exit reason (namespace: 18 code: 0x2) - OS_REASON_LIBSYSTEM | Failed to get installd daemon container: Error Domain=MIInstallerErrorDomain Code=4 UserInfo={NSUnderlyingError=0x7bcac18360 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}, FunctionName=<private>, SourceFileLine=207, NSLocalizedDescription=<private>}, ran for 497ms
+com.apple.xpc.launchd|1970-01-01 00:03:08.396842 (user/501/com.apple.mobile.installd [54]) <Notice>: service has crashed 7 times in a row (last was dirty)
+com.apple.xpc.launchd|1970-01-01 00:03:08.396883 (user/501/com.apple.mobile.installd [54]) <Notice>: service state: exited
+acom.apple.xpc.launchd|1970-01-01 00:03:08.396933 (user/501/com.apple.mobile.installd [54]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:08.396959 (user/501) <Notice>: service inactive: com.apple.mobile.installd
+com.apple.xpc.launchd|1970-01-01 00:03:08.397138 (user/501/com.apple.mobile.installd [54]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:03:08.397380 (user/501/com.apple.mobile.installd) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+com.apple.xpc.launchd|1970-01-01 00:03:08.398203 (user/501/com.apple.mobile.installd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:08.398246 (user/501/com.apple.mobile.installd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:03:08.398281 (user/501/com.apple.mobile.installd) <Notice>: service spawn deferred by 10 seconds due to throttle
+com.apple.xpc.launchd|1970-01-01 00:03:08.398866 (pid/54 [installd]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:03:08.398913 (pid/54 [installd]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:03:08.398983 (system) <Notice>: removing child: pid/54
+lld; <in/launch-probe remove com.apple.mobile.installd; e                         cho SERIAL_DONE_97fb8b0fd<.apple.mobile.installd; echo SERIAL_DONE_97fb8b0fd2                         78496bb48b30e71d88b3f0
+System Policy: bash(55) allow process-exec* /bin/cat
+System Policy: bash(56) allow process-exec* /bin/ls
+total 16
+-rw-r--r-- 1 root wheel 2635 Sep 18  2026 persona.kb
+System Policy: bash(57) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_97fb8b0fd278496bb48b30e71d88b3f0

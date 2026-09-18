@@ -1,0 +1,101 @@
+/bin/launch-probe submit /launchjobs/com.apple.containermanagerd.pr< submit /launchjobs/com.apple.containermanagerd.pro                         be.plist; /bin/launch-pro<ple.containermanagerd.probe.plist; /bin/launch-prob                         e submit /launchjobs/com.<e.plist; /bin/launch-probe submit /launchjobs/com.a                         pple.lsd.probe.plist; /bi< submit /launchjobs/com.apple.lsd.probe.plist; /bin                         /launch-probe submit /lau<ple.lsd.probe.plist; /bin/launch-probe submit /laun                         chjobs/com.apple.mobile.i<launch-probe submit /launchjobs/com.apple.mobile.in                         stalld.probe.plist; /bin/<hjobs/com.apple.mobile.installd.probe.plist; /bin/s                         leep 3; /bin/launch-probe<talld.probe.plist; /bin/sleep 3; /bin/launch-probe                          list; echo SERIAL_DONE_48<eep 3; /bin/launch-probe list; echo SERIAL_DONE_485                         a14b06430491fa4d1800d8d30<ist; echo SERIAL_DONE_485a14b06430491fa4d1800d8d30b                         2fd
+System Policy: bash(41) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(43) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(45) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:02:04.332693 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:04.329824 (user/501/com.apple.containermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(47) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:02:04.330309 (user/501/com.apple.containermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:04.330347 (user/501/com.apple.containermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:04.330924 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.330955 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.330998 (user/501/com.apple.containermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:02:04.347878 (user/501/com.apple.containermanagerd [42]) <Notice>: xpcproxy spawned with pid 42
+com.apple.xpc.launchd|1970-01-01 00:02:04.348065 (user/501/com.apple.containermanagerd [42]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.348152 (user/501/com.apple.containermanagerd [42]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:04.348939 (user/501/com.apple.containermanagerd [42]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.466721 (user/501/com.apple.lsd) <Error>: Non-system service tried to claim event stream com.apple.launchservices.LSObserver
+com.apple.xpc.launchd|1970-01-01 00:02:04.466876 (user/501/com.apple.lsd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.466918 (user/501/com.apple.lsd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:04.466949 (user/501/com.apple.lsd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:04.468050 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.468078 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.468121 (user/501/com.apple.lsd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:02:04.485877 (user/501/com.apple.lsd [44]) <Notice>: xpcproxy spawned with pid 44
+com.apple.xpc.launchd|1970-01-01 00:02:04.486039 (user/501/com.apple.lsd [44]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.486086 (user/501/com.apple.lsd [44]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:04.486871 (user/501/com.apple.lsd [44]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.604854 (user/501/com.apple.mobile.installd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.605014 (user/501/com.apple.mobile.installd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:04.605049 (user/501/com.apple.mobile.installd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:04.605602 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.605630 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.605672 (user/501/com.apple.mobile.installd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:02:04.622201 (user/501/com.apple.mobile.installd [46]) <Notice>: xpcproxy spawned with pid 46
+com.apple.xpc.launchd|1970-01-01 00:02:04.622346 (user/501/com.apple.mobile.installd [46]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.622391 (user/501/com.apple.mobile.installd [46]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:04.623111 (user/501/com.apple.mobile.installd [46]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:04.829501 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.829661 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.875502 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.875665 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.879813 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:04.879922 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: xpcproxy(44) allow process-exec* /usr/libexec/lsd
+System Policy: xpcproxy(42) allow process-exec* /usr/libexec/containermanagerd
+System Policy: xpcproxy(46) allow process-exec* /usr/libexec/installd
+com.apple.xpc.launchd|1970-01-01 00:02:05.011103 (user/501/com.apple.mobile.installd [46]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:05.011330 (user/501/com.apple.mobile.installd [46]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:05.011435 (user/501/com.apple.mobile.installd [46]) <Notice>: Successfully spawned installd[46] because speculative
+com.apple.xpc.launchd|1970-01-01 00:02:05.021696 (user/501/com.apple.containermanagerd [42]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:05.021860 (user/501/com.apple.containermanagerd [42]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:05.021957 (user/501/com.apple.containermanagerd [42]) <Notice>: Successfully spawned containermanagerd[42] because speculative
+com.apple.xpc.launchd|1970-01-01 00:02:05.039755 (user/501/com.apple.lsd [44]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:05.039900 (user/501/com.apple.lsd [44]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:05.039989 (user/501/com.apple.lsd [44]) <Notice>: Successfully spawned lsd[44] because speculative
+com.apple.xpc.launchd|1970-01-01 00:02:05.083148 (pid/42 [containermanage]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:05.083300 (pid/42 [containermanage]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:05.123363 (pid/44 [lsd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:05.123506 (pid/44 [lsd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:05.204506 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = containermanage[42], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:05.297657 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = lsd[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:05.446193 (pid/46 [installd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:05.446347 (pid/46 [installd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:05.641165 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = installd[46], error = 3: No such process
+Sandbox: installd(46) deny(1) file-read-data /var
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:42,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:42,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:42,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:42,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:06.960415 (user/501/com.apple.mobile.installd [46]) <Notice>: exited with exit reason (namespace: 18 code: 0x2) - OS_REASON_LIBSYSTEM | Failed to get installd daemon container: Error Domain=MIInstallerErrorDomain Code=4 UserInfo={NSUnderlyingError=0x76d6c18360 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}, FunctionName=<private>, SourceFileLine=207, NSLocalizedDescription=<private>}, ran for 2332ms
+com.apple.xpc.launchd|1970-01-01 00:02:06.960640 (user/501/com.apple.mobile.installd [46]) <Notice>: service has crashed 1 times in a row (last was dirty)
+com.apple.xpc.launchd|1970-01-01 00:02:06.960708 (user/501/com.apple.mobile.installd [46]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:02:06.960850 (user/501/com.apple.mobile.installd [46]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:06.960940 (user/501) <Notice>: service inactive: com.apple.mobile.installd
+com.apple.xpc.launchd|1970-01-01 00:02:06.961109 (user/501/com.apple.mobile.installd [46]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:02:06.961790 (pid/46 [installd]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:02:06.961835 (pid/46 [installd]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:02:06.961906 (system) <Notice>: removing child: pid/46
+System Policy: bash(48) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=7
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=-1 LAST_EXIT=6
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=44 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=42 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_485a14b06430491fa4d1800d8d30b2fd

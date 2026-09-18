@@ -1,0 +1,15 @@
+/bin/launch-probe list; /bin/launch-probe remove com.apple.mobile.i< list; /bin/launch-probe remove com.apple.mobile.in                         stalld; echo SERIAL_DONE_<emove com.apple.mobile.installd; echo SERIAL_DONE_1                         891f73f87954b169dd856fed9<talld; echo SERIAL_DONE_1891f73f87954b169dd856fed9f                         b1a53
+System Policy: bash(71) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=7
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=-1 LAST_EXIT=6
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=44 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=42 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+System Policy: bash(72) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_1891f73f87954b169dd856fed9fb1a53

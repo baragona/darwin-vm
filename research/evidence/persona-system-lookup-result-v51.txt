@@ -1,0 +1,20 @@
+/bin/launch-probe list; /bin/cat /var/tmp/installd.stderr; /bin/ls-< list; /bin/cat /var/tmp/installd.stderr; /bin/ls-r                         egistration-probe; echo S<nstalld.stderr; /bin/ls-registration-probe; echo SE                         RIAL_DONE_fda770f207df4fc<gistration-probe; echo SERIAL_DONE_fda770f207df4fca                         af3fddfc9a34fe3b
+System Policy: bash(66) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=7
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=-1 LAST_EXIT=6
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.lsd PID=44 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=42 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+System Policy: bash(67) allow process-exec* /bin/cat
+System Policy: bash(68) allow process-exec* /bin/ls-registration-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_PROXY=<LSApplicationProxy: 0x104b1ebb0> com.apple.springboard (null) <com.apple.springboard <INVALID >:0>
+LS_IS_INSTALLED=0
+LS_BUNDLE_URL=(nil)
+LS_PROBE_END
+SERIAL_DONE_fda770f207df4fcaaf3fddfc9a34fe3b
