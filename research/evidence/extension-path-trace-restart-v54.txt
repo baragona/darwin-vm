@@ -1,0 +1,27 @@
+/bin/launch-probe ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+stop com.apple.SpringBoard; /bin/sleep 3; /bin/la< stop com.apple.SpringBoard; /bin/sleep 3; /bin/lau                         nch-probe start com.apple<d; /bin/sleep 3; /bin/launch-probe start com.apple.                         SpringBoard; echo SERIAL_<ch-probe start com.apple.SpringBoard; echo SERIAL_D                         ONEACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+_4d16156bf84f49dba7455<pringBoard; echo SERIAL_DONE_4d16156bf84f49dba74553                         2ee93dd155
+System Policy: bash(71) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(72) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:10:34.974804 (user/501/com.apple.SpringBoard [70]) <Notice>: legacy-stop service: caller = launch-probe[71]<-bash[3], value = 0x0
+com.apple.xpc.launchd|1970-01-01 00:10:34.976352 (user/501/com.apple.SpringBoard [70]) <Notice>: signaled service: Terminated: 15
+com.apple.xpc.launchd|1970-01-01 00:10:34.976479 (user/501/com.apple.SpringBoard [70]) <Notice>: service state: SIGTERMed
+com.apple.xpc.launchd|1970-01-01 00:10:34.976531 (user/501/com.apple.SpringBoard [70]) <Notice>: scheduling cleanup in 3 sec after sending Terminated: 15
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+com.apple.xpc.launchd|1970-01-01 00:10:37.988966 (user/501/com.apple.SpringBoard [70]) <Warning>: Service did not exit 3 seconds after SIGTERM. Sending SIGKILL.
+com.apple.xpc.launchd|1970-01-01 00:10:37.990283 (user/501/com.apple.SpringBoard [70]) <Notice>: signaled service for SIGTERM timeout: Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:10:37.990447 (user/501/com.apple.SpringBoard [70]) <Notice>: service state: SIGKILLed
+System Policy: bash(73) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_4d16156bf84f49dba745532ee93dd155

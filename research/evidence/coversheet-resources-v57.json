@@ -1,0 +1,102 @@
+{
+  "build": "24A437",
+  "extension_layout": "Original System framework and XPCServices directories restored; no symlink. Ownership remains unresolved. Seed copy retained but unused.",
+  "resources": [
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Localizable.loctable",
+      "bytes": 899,
+      "sha256": "e1d02c896d95876c972ea3de2e671ca51d534246c47d8973477f6a785365d79e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/CoverSheetPlurals.loctable",
+      "bytes": 23934,
+      "sha256": "4df40024c5c27bc0dc892e598036ab23d2bec1c34d112a7df439aa081f9e1c0f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/dashBoardPasscodeBackground.materialrecipe",
+      "bytes": 604,
+      "sha256": "93f16530ee006b0294b8ec43065428c041127ee3df6d4efa3e0b984f78c033f5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Info.plist",
+      "bytes": 718,
+      "sha256": "a04d5d5e7a09a9caae0d9f058d50bcdf91d5a5d74fbea53176cd271b2191e1b1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/SpringBoard.loctable",
+      "bytes": 882,
+      "sha256": "b88bec6be0a83a479c0506f305c60c03c198d0b6fc368cb8aa66ba51b7eab847"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/CoverSheet.loctable",
+      "bytes": 230697,
+      "sha256": "33fb984a69986189ad191312f3ed2c8d31eaca4c418cd323d6a654461193f7b5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Assets.car",
+      "bytes": 102920,
+      "sha256": "9719d14cb42ad8f98ec394d5c01e21547e48be984eda2bf38bcdcb720c1ad19e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/wallet-inset-zeus.ca/index.xml",
+      "bytes": 1388,
+      "sha256": "16602a985fde4a4b238f5454f1a281bb9572ff1974a0bc52f4e22c81c95de5a5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/wallet-inset-zeus.ca/main.caml",
+      "bytes": 20575,
+      "sha256": "c70927894a39049ca60b6017f300a56a5d58fba49c5f544d26ab4eafca100fc5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Explore-Posters-Tutorial-Dark.ca/index.xml",
+      "bytes": 1540,
+      "sha256": "378eb5f63ff17c8f8a1e054c336bce5e2a48a4d9e10953f862c58d9df71fb319"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Explore-Posters-Tutorial-Dark.ca/assetManifest.caml",
+      "bytes": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Explore-Posters-Tutorial-Dark.ca/main.caml",
+      "bytes": 7576,
+      "sha256": "79cd93a9cf26f8320954bc39a883aec2a7e91e0f4c2c7e858938db8036530922"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Explore-Posters-Tutorial-Dark.ca/assets/bg-phone-dark_v2 2.png",
+      "bytes": 15500,
+      "sha256": "431923d43213d2cc97453c5a394b7a41dbb4ad2dbf152b125078829fc22fc6cb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Explore-Posters-Tutorial-Dark.ca/assets/screens-dm 1.png",
+      "bytes": 39346,
+      "sha256": "9fb6c4819256b27004ed29e6a89382811e64d35364a389e4241779603b925d68"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheet.framework/Explore-Posters-Tutorial-Dark.ca/assets/trio-displays 1.png",
+      "bytes": 2080756,
+      "sha256": "4a2c06beba76cff65a49f3e8988b918818220161c9fbdf92af099f262c07942c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheetKit.framework/Localizable.loctable",
+      "bytes": 935,
+      "sha256": "527524861e3d470e907cd8572184c2c9f063858132c9019368840260316fb431"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheetKit.framework/Info.plist",
+      "bytes": 724,
+      "sha256": "8afb332cd3b709f17c26ce3cd681b4d80a449cc6efd5ffce5bc326bc1d4eafdd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoverSheetKit.framework/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    }
+  ],
+  "runtime_validation": "pending"
+}

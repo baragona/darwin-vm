@@ -1,0 +1,529 @@
+{
+  "build": "24A437",
+  "framework_is_directory": true,
+  "xpc_services_symlink": "System/Library/Frameworks/ExtensionFoundation.framework/XPCServices",
+  "target": "/private/var/System/Library/Frameworks/ExtensionFoundation.framework/XPCServices",
+  "added_resources": [
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/coverSheetStatusBarFeatherBlur.materialrecipe",
+      "size": 592,
+      "sha256": "2208fcf028e272b1ca18ed0e070ecbcefd8eaaa8851820e155df6f6ec2d14b55"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/librarySearchBlurGradient@3x.png",
+      "size": 774,
+      "sha256": "8c07deeb3e9d8940086cd1b77890e15578c1c81e647d475451386d0d6cd09bcc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/sb_blur_notch@1x.png",
+      "size": 351,
+      "sha256": "5e243504922db9918e3f820820aa626e0d00550cd87979f20b8600eb4d6a17d0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/addSheetFeatherBlur.materialrecipe",
+      "size": 591,
+      "sha256": "3e6336542296acf5873911363e32d201becfe19a1f7ac93c7c656b548a8bdb7f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/coverSheetStatusBarFeatherBlur-noNotch.materialrecipe",
+      "size": 594,
+      "sha256": "1570851454225defc5d9f3ea52bcf3de2d0c999079861071d3bb2688880446ad"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/librarySearchBlurGradient@2x.png",
+      "size": 695,
+      "sha256": "19836cdc73bd281d9e9ee5ad16a81d0bb46fe1d6a7f173e3bec1105d7ffff4fc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/sb_blur_nonotch@2x.png",
+      "size": 323,
+      "sha256": "34fb5260f8ee7b1d44ea583d4d4bf9d968115aee44960f83133c12825cbb4f37"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/DeviceBlock.loctable",
+      "size": 9243,
+      "sha256": "aa7bcd79f957a783839b54db7ec654b4457dcbcd4b822c8edb97f5b0f58968df"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/controlCenterFeatherBlur.materialrecipe",
+      "size": 631,
+      "sha256": "b931f29d9be23bcdcdd7e959fcf669872b4e3132cacecc7d08e92101fc532c21"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/blurgradient@1x.png",
+      "size": 3463,
+      "sha256": "8a0e3110c4698340798a3ed27fce063a9309875649aa1bebefa4af36cfb60965"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/overlayFeatherBlur.materialrecipe",
+      "size": 591,
+      "sha256": "ab2c85b7ff0204a40e2fb17559c4839e655d2e0daf340313366414c5f538687b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/librarySearchFeatherBlur.materialrecipe",
+      "size": 604,
+      "sha256": "02ada4ab22eaa3a748b624756032f15a17ffbc79e250d9752cdc0ad10b1885f0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/blurgradient@2x.png",
+      "size": 3628,
+      "sha256": "0b2e93f80f6fc7b53a5b7a8cbdc593fb0d01d5932a595edb88d4e43054c463a9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/Info.plist",
+      "size": 770,
+      "sha256": "db1f51e0d566fc2a20871db336ee943f26c1aee2f23fcc7c16c0a12033f6b792"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/sb_blur_nonotch@1x.png",
+      "size": 206,
+      "sha256": "6ad2ee301fb63be3c40440884afb467fd42ad97e908eee2da287fa534272f37b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/blurgradient@3x.png",
+      "size": 3791,
+      "sha256": "d9a99cee4ecbe9845b687022e0fe34cd0a06f5d4f642093727a212c8f31e3fec"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/sb_blur_notch@3x.png",
+      "size": 862,
+      "sha256": "15d04b9bc3d8fed6d4a7ec3946ef0a6e24198b90a1c9083478ebc18d4a7996ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/sb_blur_notch@2x.png",
+      "size": 609,
+      "sha256": "6d026414f1ce46ada809986d2990e4b71697724166775364a56cdc3af8c52524"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/WallpaperLuminanceMap.png",
+      "size": 141,
+      "sha256": "3ff50e7ffaed0f59c7a58abdb8b003c737e175d98e171b4e4aab805098104f6b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoardFoundation.framework/_CodeSignature/CodeResources",
+      "size": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/Localizable.loctable",
+      "size": 44660,
+      "sha256": "0bdc67e8b2ae23288b16464a2cb2be79bb31f651f77f1d8f08bcf1ab09854263"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/editingButtonLight.materialrecipe",
+      "size": 756,
+      "sha256": "3e871358784f6eb583cdcbb58787ab39009e6544a9e9f2eea364b427e255ef1b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/homeScreenLegibility.materialrecipe",
+      "size": 688,
+      "sha256": "459f534c4aeee790a00b6fd54e0af8b73ffe0121a075bf57b80320f9e698fd35"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/Info.plist",
+      "size": 867,
+      "sha256": "c42e4f42cff67c7b4eff184667b945d2ece328bd8309841eff8bab02f76dfa3e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/editingButtonDark.materialrecipe",
+      "size": 757,
+      "sha256": "415ca25e20f4d8c56c749ff2d54b21f8b9e0e9d89617124b0c8a0d194f8f21df"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/Assets.car",
+      "size": 47896,
+      "sha256": "d251fa4f6c2ac1a85d02e663a09dc00c12694d0c04fcd6664186cf2ecd6fd1e6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/WallpaperLuminanceMap.png",
+      "size": 141,
+      "sha256": "3ff50e7ffaed0f59c7a58abdb8b003c737e175d98e171b4e4aab805098104f6b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-3.ca/index.xml",
+      "size": 1494,
+      "sha256": "dd291bb1bef2f7de75f37f55deeae66559833f68f4d321ef7e6e128837b96ec5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-3.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-3.ca/main.caml",
+      "size": 1557,
+      "sha256": "d00fac93265061786bea6668a8c77d4b75ad2af252b9ca0bc303222de5eb202d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-2.ca/index.xml",
+      "size": 1386,
+      "sha256": "b66379b7f8c1d393a91d5c4851512c49e0af29869dbbd488956df0d4764e7f53"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-2.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-2.ca/main.caml",
+      "size": 1221,
+      "sha256": "435d5e6828664955653e54c2ea4cf558c3354228ef1691959317171cee39505e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/_CodeSignature/CodeResources",
+      "size": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-1.ca/index.xml",
+      "size": 1386,
+      "sha256": "b66379b7f8c1d393a91d5c4851512c49e0af29869dbbd488956df0d4764e7f53"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-1.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-1.ca/main.caml",
+      "size": 1238,
+      "sha256": "330f39ff65af3726fcd9c1038b465e80070727e20d71be8d7bc971380a4a1d37"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-0.ca/index.xml",
+      "size": 1386,
+      "sha256": "b66379b7f8c1d393a91d5c4851512c49e0af29869dbbd488956df0d4764e7f53"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-0.ca/main.caml",
+      "size": 6603,
+      "sha256": "728891235fe4fc2e1e96dd8816e4f1426340ba32e26a4ee484dc5d33e122d645"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-1.ca/assets/DarkAppIcon.png",
+      "size": 469978,
+      "sha256": "e16e892f755e1322b2e615879fe7feb5fc6fdf9e422afb87a42f4473e5f7fa23"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-2.ca/assets/AppIcon.png",
+      "size": 459095,
+      "sha256": "dee05e55c5d9b58a71fded93bc40d4edf69b7b3763246127237437f930c75bee"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/PosterUIFoundation.framework/choice-3.ca/assets/TintableAppIcon.png",
+      "size": 55104,
+      "sha256": "a909eee42de201a6ef8be543c300aee0acae2bdd9b7f28273ca7878e5c2099d2"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentThickLightShadowed.descendantrecipe",
+      "size": 228,
+      "sha256": "52bf58c607a86c2328374dd643a44d299ff62976ab87ddee247931e8243d3445"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/knowledgePlattersDark.materialrecipe",
+      "size": 600,
+      "sha256": "cd049656e7ae00fdf5d5ef5a76159ab02d1698262ba6c1b7103433c1ecfe27f9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/moduleFill.visualstyleset",
+      "size": 1404,
+      "sha256": "9e2d467cbe65c073739b27fa0afdd18fd6b3c800afb118dae09cdd43f621616e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/modulesBackground.materialrecipe",
+      "size": 343,
+      "sha256": "0df75fb8a3483414ba3423cff08a949039b2558bf07501f20ceba36aed659d56"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platters.materialrecipe",
+      "size": 399,
+      "sha256": "8dd4c16be89bb218ecfc7205e44a5055d629b814d01a76b7e544c9da3ecdb7f9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/modules.materialrecipe",
+      "size": 514,
+      "sha256": "e32bab68bc4c9e52cf39b4855a6f1372ed14396d81bdf40e3b5b5865a07c89b0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentGlass.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/knowledgeBackground.materialrecipe",
+      "size": 388,
+      "sha256": "56bbb53cca267ff4b5983cb0669dcb0d73187695d248d93aca7bc8fd53d2fd2e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentThinDark.materialrecipe",
+      "size": 422,
+      "sha256": "e37cb8ffe9dbab466538306409f34fe4445395afb76549ddc0fc7d83ed41d555"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentUltraThinLight.materialrecipe",
+      "size": 438,
+      "sha256": "cea29df6ff9beac390931c26288549e7f4c8f2a8f5c5a75698ac72ea25d94fa9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentGlassDarker.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/knowledgeBackgroundDark.materialrecipe",
+      "size": 305,
+      "sha256": "ce21f0344d467afdf8eac0951e38d7c09114ced12baaa45198a191452f0c8511"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/toolbarButtonBackground.materialrecipe",
+      "size": 298,
+      "sha256": "7e222727cc07d5cdcf4a517a158977b7101fc0fb2b80d99a688a06d4e56ba172"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentThickLight.materialrecipe",
+      "size": 427,
+      "sha256": "a2b8a58eead5bf151147ff02d3507b157d87f0aa83e121a21a28b1fe25622465"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platterFillDark.visualstyleset",
+      "size": 878,
+      "sha256": "b861fa5dbbc500550f9f997426e7df9434ae42d51badb95e73a86cbd0d791d47"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/knowledgePlattersSheer.materialrecipe",
+      "size": 399,
+      "sha256": "8dd4c16be89bb218ecfc7205e44a5055d629b814d01a76b7e544c9da3ecdb7f9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformStrokeThinDark.descendantstyleset",
+      "size": 912,
+      "sha256": "146fecf3e3eb5b23c1fac7f01355b36bc2c007a266880f2290d50f0d953d5af9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/plattersDark.materialrecipe",
+      "size": 416,
+      "sha256": "5937e3ee96817dc5b686eb31fcd294777e3473c9603bb7ee2ac7d4b0adc2b180"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/dockLight.materialrecipe",
+      "size": 347,
+      "sha256": "d6bb50783f8418fa1ae9f5134bade75fcf1921812091613bc86f61565db8494a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentGlassLighter.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/highContrastStyle.visualstyleset",
+      "size": 357,
+      "sha256": "db0e92f6eb349a1e4c7db8bd3271045cf9766a9eb74a06129749ae8e4d1e491b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformDisabled.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/knowledgePlattersSheerDark.materialrecipe",
+      "size": 416,
+      "sha256": "5937e3ee96817dc5b686eb31fcd294777e3473c9603bb7ee2ac7d4b0adc2b180"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/knowledgePlatters.materialrecipe",
+      "size": 602,
+      "sha256": "861328591284ac110e30617a260483cdd16a238c43b4167f53379ef8b1592226"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/carPlayPlattersDark.materialrecipe",
+      "size": 216,
+      "sha256": "9771539b41934d5c35083604523b1a5a06ec474ee6ed7c153b1d16aa0950fd85"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeLightReduceTransparency.materialrecipe",
+      "size": 426,
+      "sha256": "53e53623217c46c6417c8f440f1d24fca2da0a35297fed707c580a00909f6c92"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformColorsLight.visualstyleset",
+      "size": 1702,
+      "sha256": "cf1a7840fc85432242cb85570716445081e4273a4d8415dcba4daeefb2f2ab9c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeDarkReduceTransparency.materialrecipe",
+      "size": 398,
+      "sha256": "23cc59a1abbffb3579ad81926cde5ec86496818e32df4e4bf5326663fa103ab9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/modulesSheer.descendantrecipe",
+      "size": 219,
+      "sha256": "4ba97b4d76ad785d5bbdb530464418e0af46fb60b330b2e881a1c76f2d3402d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/luminanceColorMap.png",
+      "size": 535,
+      "sha256": "0526a3142403b76bbfa5387c2a02a69e19eed69005a132903d3156efe835ba47"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platterClientStyle.visualstyleset",
+      "size": 624,
+      "sha256": "faa2ccab95d081e8ac660f1fc8856ff94ba6bee711ff991f058cd92d9675496f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeDark.materialrecipe",
+      "size": 438,
+      "sha256": "c28ad23acd2eb5d391fdb1df32f5c66bd9c79ce3ebb3b1040e1bb8a2e0cdfd0f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentDark.materialrecipe",
+      "size": 418,
+      "sha256": "08161256c7d085bf769937159a094d4d75c019243086412fd9f50ff260f5a597"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformFillLight.visualstyleset",
+      "size": 1358,
+      "sha256": "4a4e70a354303dad95b82e87fca034892394260c7177ac3a0318331712fd1fff"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentUltraThinDark.materialrecipe",
+      "size": 429,
+      "sha256": "5afe009e80bd59c6936669aeceb67968b1e7133b18499111dfd4be5fcc829e64"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/modulesBackgroundSheer.descendantrecipe",
+      "size": 433,
+      "sha256": "69fc191b2c8f92b8aff9dbc3eb2297e67a459bd205b21e72cec389602de18378"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/moduleStroke.visualstyleset",
+      "size": 1069,
+      "sha256": "61e6abcd2a848cc7c42107b5b5416fd24e6bfe6835f1e22dbc583960064b1d9e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeLight.materialrecipe",
+      "size": 440,
+      "sha256": "8b73c39bbb57747f8c98e7200ce87891a0940f544c4df19b5e5f65ea15a71f0d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeFillLight.descendantstyleset",
+      "size": 679,
+      "sha256": "73ca2dbfe975e2c645764f50220fa39887ec45f2cebab6e8a8489f53b5af512c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformStrokeThinLight.descendantstyleset",
+      "size": 915,
+      "sha256": "cd95f7707fed69143298ba13f0e2490542e72e97912bafe04962c94ac107c1f9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentThinLight.materialrecipe",
+      "size": 431,
+      "sha256": "f2f1a08924cfd618db84cb4c8e5673efee615bace0f9b03ed967f6837e83f13d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/Info.plist",
+      "size": 727,
+      "sha256": "a9ae82fce88b5a42f4df5d6ed37238c7acc80f36bb178ea9faf635a686f81395"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/dockDark.materialrecipe",
+      "size": 298,
+      "sha256": "1b5f4d60b732a7ad2f5429c910390edbdd2d892ea14388ed7c1f2ea0dda3593b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/carPlayPlatters.materialrecipe",
+      "size": 216,
+      "sha256": "e6f506c27a8ff061ce01ba47d1732451ae33d5d7294be145a8d9fb64e7d8536e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformColorsDark.descendantstyleset",
+      "size": 1286,
+      "sha256": "415a7ad6821cf55fc15b5a7cff6ab007b9c5c090b6ee942cc8739504cb255187"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeDarkReduceTransparencyLayer1.descendantrecipe",
+      "size": 196,
+      "sha256": "15012c23f9afe6ec4f5c93dfa51a5114fe9c47cf151ba1676a36954a5662b32e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformStrokeDark.visualstyleset",
+      "size": 1192,
+      "sha256": "1beeebd6b3c44396ca522469adb2369f11bbc52988483bd28da235e92d60f30b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformFillDark.visualstyleset",
+      "size": 1387,
+      "sha256": "3a35dab6189736dbbaf8150e74a6f9570e6836a77d886dc7231312ae531ef1fc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platterFillLight.visualstyleset",
+      "size": 880,
+      "sha256": "3e447548e719450871363099479a8dff31cdf3a8d3c5da888e29c3312ff4773c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentLight.materialrecipe",
+      "size": 427,
+      "sha256": "a015deae76b10659e688de6aa468f0655086cad094e0d256cdde71cd22031bd7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformSelected.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformChromeFillDark.descendantstyleset",
+      "size": 678,
+      "sha256": "d58e332d4151f2bdcb8d083314b43cfe3a7fbf43e34adf49e55c8e8c12281b98"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/previewBackground.materialrecipe",
+      "size": 241,
+      "sha256": "e472e2fee0a35705b1f21e36be2f34bc463cb37b36679c02cfa5116774a81738"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/tintablePlatters.materialrecipe",
+      "size": 272,
+      "sha256": "b511c39c2f4da5ed7b3837e7f42f451ad2658b028a67364b7419059024d43533"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformStrokeLight.visualstyleset",
+      "size": 1163,
+      "sha256": "640c85a2d89ae7854c9c84e5e6d3ca8d6d86f1609e2f915f944d5b0e397b3412"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platterStrokeDark.visualstyleset",
+      "size": 1188,
+      "sha256": "b9de7faf915677afe655080485ec58284c9aa02ad8d503245f3961a5f6882fcf"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentThickDark.materialrecipe",
+      "size": 418,
+      "sha256": "809667d738383954c1737ab8ec77a4b59d9eb75bba22d860a3e17eb8c9930ed2"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformContentGlassUltraDarker.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/ambientCompact.materialrecipe",
+      "size": 397,
+      "sha256": "7b900526d429c446d53a19fb0ee8c7f1ac3fb11109475037eefcafb62ab502f9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platterStrokeLight.visualstyleset",
+      "size": 1192,
+      "sha256": "132a8fbd4544c112ce091c2a91aed90f14a10d0827450e11dec89c6b4094952a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/platformPinched.materialrecipe",
+      "size": 1849,
+      "sha256": "589fc5c5795c149a78a8339a93738e13a88d6919f124d9b790f920e9dd897858"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/CoreMaterial.framework/_CodeSignature/CodeResources",
+      "size": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    }
+  ],
+  "runtime_validation": "pending"
+}

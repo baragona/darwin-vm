@@ -1,0 +1,791 @@
+{
+  "build": "24A437",
+  "framework_symlink": "System/Library/Frameworks/ExtensionFoundation.framework",
+  "symlink_target": "/private/var/System/Library/Frameworks/ExtensionFoundation.framework",
+  "seed_directory": "var-seed/System/Library/Frameworks/ExtensionFoundation.framework",
+  "ownership_mechanism": "Existing init-writable-var.sh copies seed then chowns /private/var recursively to 0:0 before launching services",
+  "added_resources": [
+    {
+      "path": "System/Library/Fonts/Core/Helvetica.ttc",
+      "size": 1165212,
+      "sha256": "a3fff3a60646d19ba48cd53dca44b0fbc8adf59826e70ab6bd024202e6e31a85"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFUI.ttf",
+      "size": 7872452,
+      "sha256": "c90833e656f07657d970145962608d3f96d8ac69287ca536daab17f38d614e00"
+    },
+    {
+      "path": "System/Library/Fonts/Core/LastResort.otf",
+      "size": 2416,
+      "sha256": "c6fd31c2d68597249258d931c88b28060b545599d4817559245db33ebea82bcb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/elasticHUDBackgroundSheer.descendantrecipe",
+      "size": 235,
+      "sha256": "a1174c97234c5db7d069f36290629a02d5bd9eec684473690e1152e195ceb64e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/homeScreenBackdrop-application.materialrecipe",
+      "size": 141,
+      "sha256": "925d9c473856ae7db4e1b50fe14ce740b38e43c6d269c731718e5cf1780e62cd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/system-aperture-backing-mask-D73.png",
+      "size": 692,
+      "sha256": "bb871e2e11615a7ae03bdbdba069d29de8646d51316a226c9cf0e1461c01df42"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/homeScreenBackdrop-chamois.materialrecipe",
+      "size": 141,
+      "sha256": "3c49a89c988759af83de76868e84a1a3487291aba0b21a677d2c14dc1bae8d34"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/CoverSheetCommon.loctable",
+      "size": 10236,
+      "sha256": "d766cb25b752c599abe4bef8de5422ef8c9236e8d5bf1ce268ee4d92a7400318"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/logoutProgressOverlay.materialrecipe",
+      "size": 1036,
+      "sha256": "0bbce9ac6eebcb5591d36b98d80e82d30ad3504d3c03aa224ba1d5e7f6387b35"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/shelfBackground.materialrecipe",
+      "size": 568,
+      "sha256": "0f477dc9617e657fbf8494f3b8f0b291535ad9b83dc496075953c0feb5ced485"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/starkNotificationLight.materialrecipe",
+      "size": 216,
+      "sha256": "e6f506c27a8ff061ce01ba47d1732451ae33d5d7294be145a8d9fb64e7d8536e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/CoverSheetCommon-V64.loctable",
+      "size": 3577,
+      "sha256": "23a128930672927ccd0f8cd783c1a1e10f97dd460cdbbf20124d77b2718a14ba"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/spotlightBlurBackground.materialrecipe",
+      "size": 473,
+      "sha256": "4568611c3dd7ee875009098dc77fc2aedea04c3aa6b91ac07f0b36c928ddf84d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/BannersAuthorizedBundleIDs.plist",
+      "size": 1096,
+      "sha256": "7a2f731300f0f2c243ea63c57fc708bc7e641aec1383b5c67079132d2ca06ac3"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/cmdTabLight.materialrecipe",
+      "size": 340,
+      "sha256": "afb81e6834249c9987fa2edde4ca7265aed87e5c18d6ff652f58e3cda50edd7b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Info.plist",
+      "size": 731,
+      "sha256": "a0ff42c31d415aff435edb1ae875827c9e204f3d052bcc2271fcc8e5e8646355"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/elasticHUDBackground.descendantrecipe",
+      "size": 203,
+      "sha256": "fb9f6fe37d6b97ed78f728845d57b3a71132c0d32f6161ee5fdb9aafb54d2379"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/homeScreenBackdrop-switcher.materialrecipe",
+      "size": 141,
+      "sha256": "a99032a412b68ad4c20ab2b4940a05a2b3ab8b77e8b1dac578e6b3b0cde24594"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/spotlightLumSatBackground.materialrecipe",
+      "size": 631,
+      "sha256": "7ef0d7a5b0efa6f94f71ef6994e2b3acc6fa20981df49e8157a08cff6da4873d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ambientContentOverlay.materialrecipe",
+      "size": 885,
+      "sha256": "0147cc60c5610a2c34107e40e028f62dd97094bc8f53712c1128cc340262374f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/elasticHUDModuleSheer.descendantrecipe",
+      "size": 173,
+      "sha256": "fa8a38afc81765beb948698b0ae72aeedf3a1dff55c0fae50be4dab46331ae08"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Assets.car",
+      "size": 22296,
+      "sha256": "42313909e22e1df1822e6409a342d271a6517b954194150e419b913fdc95a2f7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/cmdTabDark.materialrecipe",
+      "size": 281,
+      "sha256": "d35b13787cb3cd7dce9fa47d5a0e10f8afb6956f1bea285d0bd18ae5c5449028"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/iPadUserGuideURLs.plist",
+      "size": 1671,
+      "sha256": "e81d094573c97874f1725de1d60430cab566092798727442f771fc5eca0b8dc9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/starkNotificationDark.materialrecipe",
+      "size": 216,
+      "sha256": "9771539b41934d5c35083604523b1a5a06ec474ee6ed7c153b1d16aa0950fd85"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/systemApertureBackgroundVariableBlur-D73.materialrecipe",
+      "size": 223,
+      "sha256": "f9bab1961e9657a0e489250e958ab8c947c665ce572ab62dc130fd8bffb4edd5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/de.lproj/CursiveHello.plist",
+      "size": 7161,
+      "sha256": "de244f9c82df52eb84ddc3e08b2bacd3e88892b5caa0744dd80457e424a9daef"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-Expanded-D83.ca/index.xml",
+      "size": 1358,
+      "sha256": "57b4b2f39b367dd0358cb3c7b0b8702fdf7d30884cd8069e110d1db46dcbc0a1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-Expanded-D83.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-Expanded-D83.ca/main.caml",
+      "size": 23917,
+      "sha256": "46f5d1e39a38e5be2848db4431fd379f0ecd69fa0157e6bdc80e81a2f492e8df"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ur.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/he.lproj/CursiveHello.plist",
+      "size": 2876,
+      "sha256": "ae8441b5db924b76b6fb521d82aa033eb197a76b941aaba0a30cc0bd1c5f43a4"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ar.lproj/CursiveHello.plist",
+      "size": 3071,
+      "sha256": "d05f3047a0c0d9624982de6f3a1371e9e1215284b1055e85baabb553b2f4a85d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/el.lproj/CursiveHello.plist",
+      "size": 6853,
+      "sha256": "bcc44ce1d59ddd2785b9b414be90619747704674b0c210683e706594fcec82f6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ja.lproj/CursiveHello.plist",
+      "size": 7109,
+      "sha256": "ec391e27f94e754bfa525b51745588478a57b76ab25c3b116cd8ee8a7bce8359"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/en_IN.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/mr.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Mute.ca/index.xml",
+      "size": 1525,
+      "sha256": "0c6055952db2a793eed5facc240e5433949de06b06c294fe3502cc5f7137b4a4"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Mute.ca/main.caml",
+      "size": 23861,
+      "sha256": "2ac95605f2338da2d9f2795ce48914a3978f0ed1302b77561b2c8c3d8faec1dc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/en.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/AudioRecording-D73.ca/index.xml",
+      "size": 1386,
+      "sha256": "04fda97131e38c7cc3c6f52ddac31abd52d1340785e7162c54fed69ced252e5f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/AudioRecording-D73.ca/main.caml",
+      "size": 3908,
+      "sha256": "794c0802883d8b46f771f5573e802d6e4ba1e0d24ed707ef1665a6e813d587f5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/uk.lproj/CursiveHello.plist",
+      "size": 7811,
+      "sha256": "7060190d0049f98b57b329ed8265c2b4d2bc275a20a87ab7ec58659d585a72bb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/es_419.lproj/CursiveHello.plist",
+      "size": 5841,
+      "sha256": "d843389086a739d97f04324d6402972745986d8e3c946c54e16858ecd7047232"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/CameraControlTilt.ca/index.xml",
+      "size": 1358,
+      "sha256": "d4ba651cdeeb3a3dfaabbc041f5fb648f1b68971c0414b39278b598b7eaedc86"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/CameraControlTilt.ca/main.caml",
+      "size": 13130,
+      "sha256": "176fcd2aed0d2703666599ea66fba73c7a88b1b8ddd6ccacb09d24fee64aeb45"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/VideoCall-D73.ca/index.xml",
+      "size": 1386,
+      "sha256": "541b0bf72847134434fc9ade65cd3cd84856082b22c581463b2ba318a1b55034"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/VideoCall-D73.ca/main.caml",
+      "size": 3551,
+      "sha256": "cb764263bd24f6be04dac7910fdf758ec0d030e41f07ab5af965b99de5b36478"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/gu.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Navigation-D73.ca/index.xml",
+      "size": 1386,
+      "sha256": "04fda97131e38c7cc3c6f52ddac31abd52d1340785e7162c54fed69ced252e5f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Navigation-D73.ca/main.caml",
+      "size": 3279,
+      "sha256": "f93ab94571cebf8d710d4062d2826e3be5fd599427553c5345de018e55dec43b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/kn.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/pt_PT.lproj/CursiveHello.plist",
+      "size": 4248,
+      "sha256": "918cf9eab1d783ca175dbf3038c3cfac1d1f31fec3f8ffed29f8d1e30bef41d7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/pa.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Battery-D73.ca/index.xml",
+      "size": 1462,
+      "sha256": "38bceba41e5abbdd1c8e474a61550dcdf3d63cd446a24360aa6bfc3ed383cc06"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Battery-D73.ca/main.caml",
+      "size": 15374,
+      "sha256": "87639288ac62d3fa7aa17c0dba8f31244de350c202c90a00eded8e959b4f3fe6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/es.lproj/CursiveHello.plist",
+      "size": 5841,
+      "sha256": "d843389086a739d97f04324d6402972745986d8e3c946c54e16858ecd7047232"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/sl.lproj/CursiveHello.plist",
+      "size": 13250,
+      "sha256": "c36259b051faf72c9db45fb812b70dd77833115c249a149456b685f560d24f30"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/lpm-asset-v1.ca/index.xml",
+      "size": 1428,
+      "sha256": "26143d13c5a2e148ca1f4f7f7b13804d5e3e8362daf63c362cb51881bd05bc1c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/lpm-asset-v1.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/lpm-asset-v1.ca/main.caml",
+      "size": 27981,
+      "sha256": "6bd27ce072d212349a852d0284d3e72fd6925133e7a96e66984c6ccd6ca54db3"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/or.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/da.lproj/CursiveHello.plist",
+      "size": 3856,
+      "sha256": "cbf288a143c790963c18906815795add2aae3e1347576552bfdd4b681e846409"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/it.lproj/CursiveHello.plist",
+      "size": 4878,
+      "sha256": "6c603841da533ec8072d721673c111bd8aaace59d69dbf4ba8325d15ca549786"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/bg.lproj/CursiveHello.plist",
+      "size": 9563,
+      "sha256": "b91a5eb472578833c0a6d7982bcc0e655e035c7febba04feb7a0d87723d0ebba"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/sk.lproj/CursiveHello.plist",
+      "size": 5684,
+      "sha256": "e57e81bef1a27da285c98f975b96a2d45e4ede6125919ddd7dc1863833eccb7b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/zh_CN.lproj/CursiveHello.plist",
+      "size": 4871,
+      "sha256": "8fcbcca5eaf5696adc303100057ba8a9314deb1a75deefb146247ed9cff0f308"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/kk.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Battery-Minimal-D73.ca/index.xml",
+      "size": 1500,
+      "sha256": "4fd6f6d655356a646f8d454e6ebb65412fe98c18c430808f728fa409fa61f005"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Battery-Minimal-D73.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Battery-Minimal-D73.ca/main.caml",
+      "size": 22932,
+      "sha256": "0e15bdc797a0ffe457f911516a6612195e105195b59c6de7602f0d2c9e3d009e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/pt_BR.lproj/CursiveHello.plist",
+      "size": 4248,
+      "sha256": "6b37a82cb64b113efc42d4d19c0470732d89a126d02ca250da83d4aaaf6063b5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ms.lproj/CursiveHello.plist",
+      "size": 5265,
+      "sha256": "04db03b96b26dec84adc2241a0dc21ea1cfb0184dab64c8289b1107ed34ba357"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/InCall-D73.ca/index.xml",
+      "size": 1386,
+      "sha256": "04fda97131e38c7cc3c6f52ddac31abd52d1340785e7162c54fed69ced252e5f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/InCall-D73.ca/main.caml",
+      "size": 3933,
+      "sha256": "b3a2a2b1da1f673900a11954f0a6aeb4d6a5548aecfdfe9d389e3721c626610a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/_CodeSignature/CodeResources",
+      "size": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/index.xml",
+      "size": 1424,
+      "sha256": "5a51cda2759af5b801d4dd2640a57a131f7c20bf10914e99f565e27059af6325"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/main.caml",
+      "size": 34844,
+      "sha256": "3cb0cf9cf21e74607ebf6035565e01bf01c9b352a41de256f0d7b474f2f6794c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ta.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ml.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/BrightnessHUD-Keyboard.ca/index.xml",
+      "size": 1205,
+      "sha256": "2873646674fc5c06f03a1bb0a85f341c2da83887d7722e9b8f0c25251427598f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/BrightnessHUD-Keyboard.ca/main.caml",
+      "size": 15172,
+      "sha256": "076507333a75db5f5cb61ae5961ad49c2c601eb88d49266f4fa2b50a3078c7ff"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/sv.lproj/CursiveHello.plist",
+      "size": 3856,
+      "sha256": "53a70ffd7b5c6b5b423feb8dd8a06cefc80a1651e225aeb94b4f31dab47d9e01"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/en_AU.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/te.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/cs.lproj/CursiveHello.plist",
+      "size": 5684,
+      "sha256": "64c5cfa20152c1c1e139d2e737f2e3cbb8cb14c9abadf6058e1e493c2a5a1056"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-D83.ca/index.xml",
+      "size": 1358,
+      "sha256": "d35b2227948a33f5eaf5a998c16ba77cc6d3470f63300e66986fd9e3ac64a7ec"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-D83.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-D83.ca/main.caml",
+      "size": 7888,
+      "sha256": "d84d64b93c02c417f741403e0ff1967993a50869ce024daa82e3b3a399bd0c8e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ko.lproj/CursiveHello.plist",
+      "size": 7859,
+      "sha256": "aee44e77a5b79ba110f83e864f6559565a6e42602f4e9bffa3ab45db40d679a1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Ringer-Leading-D83.ca/index.xml",
+      "size": 1270,
+      "sha256": "6369119dafcb88474a0a4be8b440f7c395173d3683327e896c0991cb14ddf9e1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Ringer-Leading-D83.ca/main.caml",
+      "size": 23082,
+      "sha256": "4b34ff1928c81c28a68e4b7c3ec298651864fcb741a1a5a698063bf43d8cc6c5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Ringer-Minimal-D73.ca/index.xml",
+      "size": 1314,
+      "sha256": "1131c16990de5036e88ba8e5804052f701eb1395edc31a37ebab63d255eb32e3"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Ringer-Minimal-D73.ca/main.caml",
+      "size": 29134,
+      "sha256": "3d9672ef455fb2e840496b3e660c0ded116c165b06569a557808cea57d19d04a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/BrightnessHUD-Display.ca/index.xml",
+      "size": 1268,
+      "sha256": "8cc45be3ee9539f0f30b017ef0c8b81f1b04d5e2e1577af7879bd0f5d71c28f8"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/BrightnessHUD-Display.ca/main.caml",
+      "size": 9680,
+      "sha256": "dc2b0b1ff896ad89cea140078b464dfb9900217f3dab7e0eaf4cec9571115aa9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/no.lproj/CursiveHello.plist",
+      "size": 3670,
+      "sha256": "f9c397e6182b6c59330b406f640957e5de7b8acab95a01d0e03f68c9a9c61850"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/hu.lproj/CursiveHello.plist",
+      "size": 6393,
+      "sha256": "9eaaa9bb579304cc4fdeb2b5e9b0dab081b754e5a244a0c1b5386c9831e7e1d1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Ringer-Leading-D73.ca/index.xml",
+      "size": 1298,
+      "sha256": "a70f16b002f1f75af82f90c07bcf3cc946b025881b41917426640833a08b3a18"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Ringer-Leading-D73.ca/main.caml",
+      "size": 23947,
+      "sha256": "a67aab99bf7323338f9f2adac5fcc07c1f8f776126cb396455d973f3be5c4753"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/tr.lproj/CursiveHello.plist",
+      "size": 9824,
+      "sha256": "f92efc7904dca21340ead9061be89b7f92c2201f16a4c187387b25b21856e4f7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/pl.lproj/CursiveHello.plist",
+      "size": 4036,
+      "sha256": "2af5bb10800f16b2aac136764bd5599f54438f7d841aa16220a5dfb3356a0b9f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/fr_CA.lproj/CursiveHello.plist",
+      "size": 8280,
+      "sha256": "b4d9255b1cc8f1b06981449c95b2776a084afa3451759d88a29d0c612063f862"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/vi.lproj/CursiveHello.plist",
+      "size": 8181,
+      "sha256": "7feeb7cc0290ca8e9590acb8150ea947c41a07871fb0cecd2e5c4df0dc6772ef"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/lt.lproj/CursiveHello.plist",
+      "size": 5884,
+      "sha256": "1daecaf87b01e8a65db24eb0efea0a33b8bdb462c242d6ee22c8942f09e250c6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ru.lproj/CursiveHello.plist",
+      "size": 7615,
+      "sha256": "0b5072c33c5c4edbc8fe3d4bdb82de45581a8d3d8b77d18a48d83cb428fa2566"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/en_PH.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/es_US.lproj/CursiveHello.plist",
+      "size": 5841,
+      "sha256": "d843389086a739d97f04324d6402972745986d8e3c946c54e16858ecd7047232"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/en_GB.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/fr.lproj/CursiveHello.plist",
+      "size": 8280,
+      "sha256": "b4d9255b1cc8f1b06981449c95b2776a084afa3451759d88a29d0c612063f862"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/fi.lproj/CursiveHello.plist",
+      "size": 3670,
+      "sha256": "01019d0ca2db314b4669ce96417afe91c7b328700ed581ab98253c892344e532"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/index.xml",
+      "size": 3952,
+      "sha256": "3dd19a6a7159886ed99a3fd9c9cd7f2696676703b755c41d728c1da791cdc1fa"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assetManifest.caml",
+      "size": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/main.caml",
+      "size": 92576,
+      "sha256": "24a799b78a0d5ea5d8ca01fad8875f45d771dc9e811ecdb3c45da4c0ee3641d7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/id.lproj/CursiveHello.plist",
+      "size": 6143,
+      "sha256": "b55b88886fd00d117e8fe3a0fe9af68f07a47dd9da04e1523ad6a90e84577358"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/nl.lproj/CursiveHello.plist",
+      "size": 7161,
+      "sha256": "a783a4aaa710f5db8b9b0fa6a6726615e1fcfc9a3149cbc465f2cb6a29a98489"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/th.lproj/CursiveHello.plist",
+      "size": 6344,
+      "sha256": "a6bd25ce61d24ce0f82caef44d966b8bdc1451bb9657b10a1cf435c43c30b845"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/bn.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/File-stack-chevron-open-indicator.ca/index.xml",
+      "size": 1352,
+      "sha256": "f4cb10e99fa37aa59af7f889c21446392383e39052be199b34dbd9c2e292a445"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/File-stack-chevron-open-indicator.ca/main.caml",
+      "size": 3939,
+      "sha256": "a246dec73d5fc97e322b08ac632d2065977a7b0a2259b68b45f20ac67d41f5b0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ro.lproj/CursiveHello.plist",
+      "size": 6139,
+      "sha256": "432de4e4d19ca4074a39569244f7828a0a5c0f0010964b19fca78d667f0a0240"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/en_CA.lproj/CursiveHello.plist",
+      "size": 6283,
+      "sha256": "e1fa4802b8bc2543aa0ee73296cb3907a6c2d9e7367f7b6391cf28dcedfbe7ed"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/zh_HK.lproj/CursiveHello.plist",
+      "size": 4871,
+      "sha256": "8fcbcca5eaf5696adc303100057ba8a9314deb1a75deefb146247ed9cff0f308"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Tethering-D73.ca/index.xml",
+      "size": 1386,
+      "sha256": "541b0bf72847134434fc9ade65cd3cd84856082b22c581463b2ba318a1b55034"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Tethering-D73.ca/main.caml",
+      "size": 4454,
+      "sha256": "5a280170d3f2c92cd236213598be3e2df02d7bf5a399c804082f3a63ec038499"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/AirPlay-D73.ca/index.xml",
+      "size": 1386,
+      "sha256": "541b0bf72847134434fc9ade65cd3cd84856082b22c581463b2ba318a1b55034"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/AirPlay-D73.ca/main.caml",
+      "size": 3119,
+      "sha256": "4a8cabdee76346730629ad6f813e37790a4a6bd7bdea8f47d37e079b9ebd2b2f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/hr.lproj/CursiveHello.plist",
+      "size": 10695,
+      "sha256": "dd6ad279205230328ee00960c7d70e1d64074237beee1ce1e6591113759ca322"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/hi.lproj/CursiveHello.plist",
+      "size": 5206,
+      "sha256": "9cf58cda291020e023aac066f8fa04227cbfc8ad39bd0cff7d6296536c100e90"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/ca.lproj/CursiveHello.plist",
+      "size": 5841,
+      "sha256": "01018e0ffa09e3d67b7999ab12320490e01c69ef011ba8722114318a14885f47"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/zh_TW.lproj/CursiveHello.plist",
+      "size": 7999,
+      "sha256": "a367aa4cc48e441528d1e021e0b094c7d72adca22937818185f9e0a7628b6b44"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/tapered 2 SAT GBoost Yboost 1.png",
+      "size": 77966,
+      "sha256": "cd0d183cb12bd1c68db688de4e8e8fb04a93708ea4f659a7d1ba1c342ca9fff6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/keep-out-shadow-6.png",
+      "size": 85975,
+      "sha256": "14d09fbc9c3177996af914b7ae914a437b2bbf7e683cec788cad4cd4277e72aa"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/shadow by itself-v3b.png",
+      "size": 260641,
+      "sha256": "f7c7e72ae3316dff4315324cf954c9f05eff8590598e136199fbda3d08f5f552"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/spot removal 1.png",
+      "size": 130495,
+      "sha256": "47b809ce145c11f695db3d3732c1df73784553b48e05b82e58fb22cfb52a18c8"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/clarity4b.png",
+      "size": 45077,
+      "sha256": "ee55c15f8d3bfc677b6d82f097d99c287988257e89ab79961c1b59ef31d1164a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/sunthin2.png",
+      "size": 828,
+      "sha256": "fbf243f4df2e6bc5d5ebc3effe8096667d185c72e512327217e99fa6f345b1ae"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/precise narrow cone [v11y].png",
+      "size": 40974,
+      "sha256": "725a7e1680ac3ccfb0a6dbed4e143c9ce646e134ddc68b15adebbd6bd3c6d308"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/glow diffuse 1.png",
+      "size": 104634,
+      "sha256": "1cd41b5bb048e7ed846ce9c68f50072678247f26498bd8ce6e5597cd0662f15b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/newrain-5e.png",
+      "size": 51751,
+      "sha256": "c3424be19602ae094560a1175716041781fcae8ed05d4e27984008378a7ae26f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/newrainR-5e.png",
+      "size": 49743,
+      "sha256": "8ff3a563eeeb02d3fb8992df856fef9074b2872737de6386b35b12efb5efd30a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/middle glow 2.png",
+      "size": 7544,
+      "sha256": "e21a68a27d2d034a2f700fc16c9ad6d84ef61e0422a61110e8b9902f9be3a993"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/orange glow 1.png",
+      "size": 13992,
+      "sha256": "dfd7b34032d15255f1d038975d77717548d8eb2e6612b3bd56f62edf9235882c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/unimask1.png",
+      "size": 272,
+      "sha256": "aaee1a6bd9305ad4cee13eadfffa68ff23c9d6233e2bd5f20408fdddb18e7f6e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/sensor hiding gradient 1 2.png",
+      "size": 47803,
+      "sha256": "6e0f7187545a29d192fed42e7fd3590fbe2dbb69399c5756971c7e91e7a89f00"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Dynamic.ca/assets/fl1.png",
+      "size": 23479,
+      "sha256": "f93a59ec53290cfe1b404a5d4b3f426e7aa162784ac8dfee038fab17606b6f1c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-D83.ca/assets/torch-baked-110px.png",
+      "size": 9837,
+      "sha256": "0c29e46d06ada1acd65cde5caf0c4691828f60bccb5fe374c2fcf35450d20901"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/assets/blurredcircle.png",
+      "size": 6889,
+      "sha256": "9e5a048680b1cbefb19b798a1ca5509235705bc88ccb14f594cc1aedddef33d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/assets/face-rounder.png",
+      "size": 3045,
+      "sha256": "e462b47df4db91a0bd16740b4ff98c7b5a8939bdd9391893b1be899d615f2cfe"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/assets/blurredcircle-4.png",
+      "size": 6889,
+      "sha256": "9e5a048680b1cbefb19b798a1ca5509235705bc88ccb14f594cc1aedddef33d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/assets/blurredcircle-1.png",
+      "size": 6889,
+      "sha256": "9e5a048680b1cbefb19b798a1ca5509235705bc88ccb14f594cc1aedddef33d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/FaceID-Trailing.ca/assets/blurredcircle-3.png",
+      "size": 6889,
+      "sha256": "9e5a048680b1cbefb19b798a1ca5509235705bc88ccb14f594cc1aedddef33d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Battery-Minimal-D73.ca/assets/lightning.png",
+      "size": 423,
+      "sha256": "7d194704cd318f24098452dd3bdb96c7fb64f86bd5af0808690ed0ceba96ec5d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/lpm-asset-v1.ca/assets/Root_Layer.js",
+      "size": 10560,
+      "sha256": "e3151b330ac0f2224443f81add52763dfeec21acbb4dbafbdda0b22fc05cb959"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SpringBoard.framework/Flashlight-Leading-Expanded-D83.ca/assets/torch-baked-110px.png",
+      "size": 9837,
+      "sha256": "0c29e46d06ada1acd65cde5caf0c4691828f60bccb5fe374c2fcf35450d20901"
+    }
+  ],
+  "resource_bytes_match_firmware": true,
+  "runtime_validation": "pending v55"
+}

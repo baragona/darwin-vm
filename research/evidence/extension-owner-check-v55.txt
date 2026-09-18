@@ -1,0 +1,22 @@
+/bin/ls -ld /System/Library/Frameworks/ExtensionFoundation.framewocom.apple.xpc.launchd|1970-01-01 00:00:53.908699 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-probe[24], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:53.973930 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[26], error = 3: No such process
+<em/Library/Frameworks/ExtensionFoundation.framework                        com.apple.xpc.launchd|1970-01-01 00:00:54.171900 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[26], error = 3: No such process
+ /private/vacom.apple.xpc.launchd|1970-01-01 00:00:54.536092 (user/501) <Warning>: failed lookup: name = com.apple.FSEvents, flags = 0x9, requestor = cfprefsd[30], error = 3: No such process
+r/Sys_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+temcom.apple.xpc.launchd|1970-01-01 00:00:54.948836 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[26], error = 3: No such process
+/Libr<nsionFoundation.framework /private/var/System/Libra                         ry/Frameworks/ExtensionFo</private/var/System/Library/Frameworks/ExtensionFou                         ndation.framework/XPCServ<y/Frameworks/ExtensionFoundation.framework/XPCServi                         ces/extensionkitservice.x<dation.framework/XPCServices/extensionkitservice.xp                         c; /bin/launch-probe subm<es/extensionkitservice.xpc; /bin/launch-probe submi                         t /launchjobs/com.apple.m<; /bin/launch-probe submit /launchjobs/com.apple.mo                         bile.usermanagerd.probe.p< /launchjobs/com.apple.mobile.usermanagerd.probe.pl                         ist; /bin/launch-probe li<ile.usermanagerd.probe.plist; /bin/launch-probe lis                         t; echo SERIAL_DONE_f51e5<st; /bin/launch-probe list; echo SERIAL_DONE_f51e54                         f2964749f0a70bfea2cb0ecd3<; echo SERIAL_DONE_f51e54f2964749f0a70bfea2cb0ecd3b                         
+System Policy: bash(37) allow process-exec* /bin/ls
+lrwxr-xr-x 1 _unknown _unknown  68 Sep 18  2026 /System/Library/Frameworks/ExtensionFoundation.framework -> /private/var/System/Library/Frameworks/ExtensionFoundation.framework
+drwxr-xr-x 3 root     wheel    264 Sep 10  2026 /private/var/System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc
+System Policy: bash(38) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(40) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=4
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=39 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_f51e54f2964749f0a70bfea2cb0ecd3b

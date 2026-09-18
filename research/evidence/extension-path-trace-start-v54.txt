@@ -1,0 +1,6 @@
+/bin/launch-probe submit /launchjobs/com.apple.SpringBoard.probe.pl< submit /launchjobs/com.apple.SpringBoard.probe.pli                         st; echo SERIAL_DONE_53bf<ple.SpringBoard.probe.plist; echo SERIAL_DONE_53bf5                         7e2470b4e2da74f0207974faa<t; echo SERIAL_DONE_53bf57e2470b4e2da74f0207974faa9                         6
+System Policy: bash(69) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+SERIAL_DONE_53bf57e2470b4e2da74f0207974faa96

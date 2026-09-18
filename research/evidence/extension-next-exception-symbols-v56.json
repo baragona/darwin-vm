@@ -1,0 +1,44 @@
+[
+  {
+    "pc": "0x1924fbe40",
+    "unslid": "0x185193e40",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x185193e40: +[UIColorEffect colorEffectLuminanceMap:blendingAmount:] + 864\n",
+    "stderr": ""
+  },
+  {
+    "pc": "0x1c0f70660",
+    "unslid": "0x1b3c08660",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/CoverSheetKit.framework/CoverSheetKit (__TEXT.__text)\n\n0x1b3c08660: -[CSProminentButtonControl _backgroundEffectsWithBrightness:] + 196\n",
+    "stderr": ""
+  },
+  {
+    "pc": "0x1c0f6f740",
+    "unslid": "0x1b3c07740",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/CoverSheetKit.framework/CoverSheetKit (__TEXT.__text)\n\n0x1b3c07740: -[CSProminentButtonControl _configureBackgroundView] + 532\n",
+    "stderr": ""
+  },
+  {
+    "pc": "0x1c0f6f30c",
+    "unslid": "0x1b3c0730c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/CoverSheetKit.framework/CoverSheetKit (__TEXT.__text)\n\n0x1b3c0730c: -[CSProminentButtonControl initWithFrame:luminanceMap:] + 524\n",
+    "stderr": ""
+  },
+  {
+    "pc": "0x231b6bee8",
+    "unslid": "0x224803ee8",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/CoverSheet.framework/CoverSheet (__TEXT.__text)\n\n0x224803ee8: -[CSQuickActionsButton initWithAction:luminanceMap:] + 88\n",
+    "stderr": ""
+  },
+  {
+    "pc": "0x231b6fac4",
+    "unslid": "0x224807ac4",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/CoverSheet.framework/CoverSheet (__TEXT.__text)\n\n0x224807ac4: -[CSQuickActionsView _createButtonForAction:] + 72\n",
+    "stderr": ""
+  },
+  {
+    "pc": "0x231b7018c",
+    "unslid": "0x22480818c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/CoverSheet.framework/CoverSheet (__TEXT.__text)\n\n0x22480818c: ___39-[CSQuickActionsView setButtonActions:]_block_invoke + 128\n",
+    "stderr": ""
+  }
+]

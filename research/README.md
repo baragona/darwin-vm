@@ -1884,3 +1884,15 @@ the requesting process domain with error 147 (“did not ship in the requestor's
 bundle”). SpringBoard still encounters the discovery-protocol cast abort.
 [Evidence, image manifests, and current state](evidence/extension-service-v54.md).
 The next investigation is guest launch-domain/path eligibility; no usable UI yet.
+
+
+### Extension ownership and lock-screen resource failure (v54–v56)
+
+The extension service's misleading launchd error 147 was traced to UID 99
+on its copied bundle. A one-shot root-ownership result allowed the service to
+launch and SpringBoard to advance. Moving the service to root-owned writable
+storage introduced separate symlink/path checks, so that experiment was
+reverted. The next exception is localized to CoverSheet quick-action button
+luminance images; matching missing resources are prepared for a future boot.
+[Detailed checks, failed attempts, manifests, and stopped-guest state](evidence/extension-ownership-v55.md).
+Interactive graphics remains unachieved.

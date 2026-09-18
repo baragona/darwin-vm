@@ -1,0 +1,32 @@
+/bin/display-probe; /bin/launch-probe submit /launchjobs/com.apple.<e; /bin/launch-probe submit /launchjobs/com.apple.r                         unningboardd.plist; /bin/<t /launchjobs/com.apple.runningboardd.plist; /bin/l                         aunch-probe submit /launc<nningboardd.plist; /bin/launch-probe submit /launch                         jobs/com.apple.SpringBoar<unch-probe submit /launchjobs/com.apple.SpringBoard                         .probe.plist; echo SERIAL<obs/com.apple.SpringBoard.probe.plist; echo SERIAL_                         DONE_fa311ca38fb9407daa8a<probe.plist; echo SERIAL_DONE_fa311ca38fb9407daa8aa                         621d5797ec4
+System Policy: bash(55) allow process-exec* /bin/display-probe
+DISPLAY_PROBE_BEGIN
+SAMPLER_CREATE_RESULT=0
+CADISPLAY_QUERY_BEGIN
+CADISPLAY_COUNT=6
+CADISPLAY_ENTRY=0 ID=1 NAME=LCD EXTERNAL=0 SUPPORTED=1
+CADISPLAY_ENTRY=0 CURRENT_MODE=<CADisplayMode 416 x 496 internal_panel (fixed)>
+CADISPLAY_ENTRY=1 ID=2 NAME=Wireless EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=1 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=2 ID=3 NAME=Wireless-1 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=2 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=3 ID=4 NAME=Wireless-2 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=3 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=4 ID=5 NAME=Wireless-3 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=4 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=5 ID=6 NAME=Wireless-4 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=5 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_MAIN_PRESENT=1
+CADISPLAY_MAIN_NAME=LCD
+DISPLAY_PROBE_END
+System Policy: bash(56) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(58) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+com.apple.xpc.launchd|1970-01-01 00:03:30.882986 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:03:30.880456 (user/501/com.apple.runningboardd) <Notice>: internal event: WILL_SPAWN, code = 0
+SERIAL_DONE_fa311ca38fb9407daa8aa621d5797ec4

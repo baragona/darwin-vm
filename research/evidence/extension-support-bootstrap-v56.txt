@@ -1,0 +1,33 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.usermanagerd.< submit /launchjobs/com.apple.mobile.usermanagerd.p                         robe.plist; /bin/launch-p<ple.mobile.usermanagerd.probe.plist; /bin/launch-pr                         obe lis3761
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(39) allow process-exec* /bin/launch-probe
+usage: launch-probe [list | submit PLIST | lookup SERVICE | start LABEL | stop LABEL | remove LABEL]
+bash-5.3# com.apple.xpc.launchd|1970-01-01 00:00:47.873950 (com.apple.mobile.usermanagerd) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|1970-01-01 00:00:47.874479 (user/501/com.apple.mobile.usermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:47.874526 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:00:47.874561 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:00:47.876130 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:47.876169 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:47.876251 (user/501/com.apple.mobile.usermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:00:47.898591 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: xpcproxy spawned with pid 38
+com.apple.xpc.launchd|1970-01-01 00:00:47.898773 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:47.898823 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:47.899872 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:48.104572 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:48.104749 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: xpcproxy(38) allow process-exec* /usr/libexec/usermanagerd
+com.apple.xpc.launchd|1970-01-01 00:00:48.158006 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:48.158177 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:48.158301 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: Successfully spawned usermanagerd[38] because speculative
+com.apple.xpc.launchd|1970-01-01 00:00:48.215361 (pid/38 [usermanagerd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:00:48.215537 (pid/38 [usermanagerd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:00:48.261372 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = usermanagerd[38], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:48.424781 (user/501) <Warning>: failed activation: name = com.apple.mobile.usermanagerd.xpc, flags = 0x0, requestor = usermanagerd[38], error = 37: Operation already in progress
+com.apple.xpc.launchd|1970-01-01 00:00:55.539434 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-probe[24], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:55.605455 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[26], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:55.797044 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[26], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:56.307497 (user/501) <Warning>: failed lookup: name = com.apple.FSEvents, flags = 0x9, requestor = cfprefsd[30], error = 3: No such process
+_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
