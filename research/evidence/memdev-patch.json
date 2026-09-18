@@ -1,0 +1,30 @@
+{
+  "source_sha256": "81280162c11eec579d4cfb377a96a5f9cdf4396eed2a7f0213e5072e1e5e0e0f",
+  "patched_sha256": "dc220ea38e28fac5495a4147dea69888ca5971727fad9076c30d237232d145bb",
+  "changes": [
+    {
+      "offset": "0x3d7ed84",
+      "before": "0931090b",
+      "after": "0931098b",
+      "description": "DKIOCGETBLOCKCOUNT: add x9, x8, x9, lsl #12"
+    },
+    {
+      "offset": "0x3d7ed88",
+      "before": "29050051",
+      "after": "290500d1",
+      "description": "DKIOCGETBLOCKCOUNT: sub x9, x9, #1"
+    },
+    {
+      "offset": "0x3d7ed8c",
+      "before": "2809c81a",
+      "after": "2809c89a",
+      "description": "DKIOCGETBLOCKCOUNT: udiv x8, x9, x8"
+    },
+    {
+      "offset": "0x3d7f004",
+      "before": "294d1453",
+      "after": "29cd74d3",
+      "description": "mdevstrategy: lsl x9, x9, #12"
+    }
+  ]
+}

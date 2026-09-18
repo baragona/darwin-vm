@@ -100,7 +100,7 @@ The exact kernel collection has 319 kext entries, including `com.apple.AGXG18P`
 `IOSurface`, and Apple HID/multitouch drivers. Their presence in the collection
 does not mean they attach to the deliberately stripped device tree.
 
-The full filesystem image from the same IPSW is being extracted locally to
+The full filesystem image from the same IPSW was extracted locally to
 inspect SpringBoard, backboardd, and their launch/service dependencies:
 
 ```sh
@@ -109,10 +109,95 @@ ipsw extract --remote \
   --dmg fs --output ipsw_db/iphone-17-full --flat --json
 ```
 
-Next: inspect that filesystem, map the minimum userspace dependencies, and
-decide whether a basic display-service shim or more faithful display-controller
-emulation gives the most useful next boot experiment. The interactive text
-console is infrastructure for that work, not completion of the graphical goal.
+The system filesystem does not contain the dyld shared cache. That is in the
+separate `Cryptex1,SystemOS` image, `043-69319-704.dmg.aea`, selected by the
+same build manifest (`ipsw extract --dmg sys`). Its main cache and subcaches
+must accompany the UI executables. The probe copies the decrypted cryptex to
+`/System/Cryptexes/OS` and creates the conventional cache-directory symlink.
+Neither SpringBoard nor backboardd has reached a working UI.
+
+### Larger userspace probe
+
+A disposable 8 GiB APFS image was created from the original restore ramdisk
+using `hdiutil create -size 8g -fs 'Case-sensitive APFS' -layout NONE
+-volname a19-ui-probe -srcfolder /tmp/a19-restore -srcowners on -anyowners
+-format UDRW ...`. This preserves the existing root-owned launch configuration.
+The protected `private/etc/master.passwd` required a separate copy with source
+ownership disabled. The system cryptex, backboardd, SpringBoard.app, and ioreg
+were then copied into this image. This is a diagnostic ramdisk, not a normal
+iOS system/data-volume installation.
+
+The first boot exposed a size truncation: APFS saw only the extra 3 MiB
+framebuffer padding, rather than the 8 GiB image plus padding. XNU's memdev
+block-count and block-strategy code shifted a 32-bit page count before
+widening it. `patch-memdev-block-size.py` changes four instructions in the exact
+24A437/T8150 kernel collection to perform those operations with 64-bit values.
+The script checks the entire input SHA-256 and each original instruction,
+writes a new file, and refuses to overwrite an existing destination. It does
+**not** fix raw character I/O or core-dump range reporting. This is an
+experimental block-device workaround, not a general memdev patch.
+
+With that kernel, APFS reported 16,783,360 512-byte device blocks, mounted the
+8 GiB volume, and reached a verified root Bash shell. Patch hashes and offsets
+are recorded in [memdev-patch.json](evidence/memdev-patch.json).
+
+The guest needs 16 GiB configured in both QEMU and the device tree.
+`set-guest-memory.py` modifies only the existing `dram-size` property. A full
+round trip through dt_fixup is unsafe here: its string heuristic adds a NUL
+to the already-patched all-`A` random-seed, changing 256 bytes to 257 and
+causing an early SPTM panic.
+
+The probe trust cache merges the baseline hashes with those from the system
+and cryptex trust caches (4,372 unique SHA-256 CDHashes). The current generator
+emits version 1 and discards version 2 constraint metadata; this is a research
+limitation. Firmware and Apple's binaries remain local and untracked.
+
+In the first full probe, dyld could not map the shared cache. ioreg and
+backboardd exited 134, reporting missing libraries that should come from that
+cache. Starting SpringBoard produced repeated TXM errors (`selector: 38 | 42`)
+and the experiment was stopped. Cache ownership and mapping must be resolved
+before interpreting these failures as graphics-driver requirements.
+
+The writable-remount experiment failed: mount_apfs returned "Operation not
+permitted" (77), and chown failed because the guest root stayed read-only.
+A subsequent guest stat reported the cache owner as `99:99`, not root.
+The read/write host mount with ownership disabled also refused chown to root.
+See [probe excerpts](evidence/ui-probe-excerpts.txt).
+
+`cache-diagnostics.c` enables `vm.shared_region_trace_level=4`, verified from
+its previous value of 1. No extra shared-region diagnostics appeared on UART;
+reading `kern.msgbuf` returned only a few bytes, not a usable log. It can be
+built without the iPhone SDK by declaring the few libSystem functions used:
+
+```sh
+xcrun clang -target arm64-apple-ios27.0 -isysroot /tmp/a19-restore \
+  -nostdlib research/cache-diagnostics.c \
+  /tmp/a19-restore/usr/lib/libSystem.B.dylib -o /tmp/cache-diagnostics
+codesign -s - /tmp/cache-diagnostics
+```
+
+Copy the executable into the probe's `/bin`, add its CDHash to `all_hashes`,
+and regenerate the guest trust cache before booting. Only firmware/tool hashes
+are included; no Apple binaries are committed.
+
+`ui-probe.sh` runs this diagnostic, reports ownership, and tries ioreg/backboardd;
+SpringBoard is omitted until those prerequisites work. `run-serial-probe.py` waits for the Bash prompt,
+sends the probe with paced UART input, and records a transcript. A timeout
+leaves the VM alive for inspection; it is not evidence that the VM stopped.
+
+[Device inventory](evidence/display-device-inventory.json) compares the original
+and patched matching properties: DCP, EXDisplayPipe and related devices lose
+driver matching, and the GPU node is removed. The kernel collection contains
+relevant drivers, but they cannot be assumed to attach. Next work is to get
+the shared cache usable, then investigate actual service/driver failures.
+
+A separate diagnostic kernel (`patch-cache-owner-check.py`) changes only the
+conditional branch rejecting a nonzero `va_uid` to NOP, on top of the verified
+memdev patch. It is pinned to that exact input hash. This deliberately weakens
+the experimental guest's shared-cache admission and must be replaced by proper
+image ownership for a maintained implementation. It tests whether the known
+metadata mismatch explains the loading failure; it does not disable the other
+mapping checks. [Patch record](evidence/cache-owner-patch.json).
 
 ## Sources
 
@@ -122,3 +207,48 @@ console is infrastructure for that work, not completion of the graphical goal.
 
 These public sources informed the experiments; the actual behavior above was
 verified on the requested iOS 27 guest. Local logs and firmware stay untracked.
+
+
+### Shared cache mapped; backboardd reaches service initialization
+
+The controlled owner-check experiment succeeded: launchd's dyld printed
+`dyld cache mapped system-wide: customer, auth GOTs: unmapped`. No
+"syscall to map cache into shared region failed" messages appeared in that
+boot, ioreg exited 0, and backboardd advanced into service initialization.
+The IOAccelerator query returned no devices, so exit 0 does not establish a
+working GPU. The guest still reported owner `99:99`; the single branch patch,
+not a metadata correction, enabled this result.
+
+Backboardd then requested missing notification, preference, RunningBoard,
+MobileGestalt, and other services. Its shell launch entered a user/501
+bootstrap context despite uid 0, and the sandbox denied registration of
+`com.apple.iohideventsystem`. It also spawned ACCHWComponentAuthService through
+XPC. This is evidence of executing UI-service code, not of a working compositor.
+The next controlled test should use launchd with the real MachServices
+registration and appropriate service dependencies. The source backboardd plist
+also declares a `_Conclave`; the restore launchd reports that it skips
+`init-exclavekit`, so that path remains an explicit unknown.
+
+Reproduce the latest probe after preparing the local image/trust cache:
+
+```sh
+FIRMWARE_DIR=firmware/iphone-17-ui-probe \
+RAMDISK=firmware/iphone-17-ui-probe/ui-root.dmg \
+BOOTKC=firmware/iphone-17-ui-probe/bootkc-cache-owner-probe MEMORY=16G \
+QMP_SOCKET=/tmp/a19-ui-qmp.sock \
+SERIAL='unix:/tmp/a19-ui-serial.sock,server=on,wait=on' \
+BOOT_ARGS='rd=md0 serial=3 -v -noprogress wdt=-1 wlan-olyhal-abort' \
+./research/run-boot-display.sh
+
+# Second terminal; transcript path must not already exist:
+python3 research/run-serial-probe.py /tmp/a19-ui-serial.sock \
+  logs/ui-probe-client.log --timeout 240
+```
+
+`wait=on` ensures that early UART boot output is collected. A long-lived service
+may outlast the collector deadline; query QMP status and inspect the transcript
+before deciding whether to stop the experiment.
+
+The v7 probe was stopped through QMP after collecting these service failures.
+Its timeout wrapper had not returned, so no backboardd exit status or complete
+UI_PROBE_END marker is claimed for this run.

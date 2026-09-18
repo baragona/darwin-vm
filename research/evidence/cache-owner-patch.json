@@ -1,0 +1,8 @@
+{
+  "source_sha256": "dc220ea38e28fac5495a4147dea69888ca5971727fad9076c30d237232d145bb",
+  "patched_sha256": "77fc882042df1c309a6f47ebb893bcf73dd4af19e3f0a5198f195f71bf0a727d",
+  "offset": "0x41a8760",
+  "before": "c8400035",
+  "after": "1f2003d5",
+  "description": "Replace cbnz w8 (va_uid), failure with nop"
+}

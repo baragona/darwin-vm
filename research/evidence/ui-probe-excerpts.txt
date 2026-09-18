@@ -1,0 +1,75 @@
+## ui-probe-v3-client.log
+dev_init:299: md0 device_handle block size 512 block count 16783360 features 0 internal
+handle_mount:893: md0s1 vol-uuid: 5F73DF5C-17BF-4A0D-8ABB-284639C2C1E4 block size: 4096 block count: 2097152 (unencrypted; flags: 0x1; features: 8.0.2)
+handle_mount:906: md0s1 setting dev block size to 4096 from 512
+dyld[1]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[3]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[4]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+UI_PROBE_BEGIN
+dyld[5]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+Darwin Kernel Version 27.0.0: Thu Aug 13 21:41:35 PDT 2026; root:xnu-13432.2.10~2/RELEASE_ARM64_T8150
+dyld[6]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+uid=0(root) gid=0(wheel) groups=0(wheel)
+dyld[7]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[7]: Library not loaded: /usr/lib/libncurses.5.4.dylib
+IOREG_GPU_EXIT=134
+dyld[8]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[9]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[9]: Library not loaded: /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
+BACKBOARDD_EXIT=134
+dyld[10]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+TXM [Error]: selector: 38 | 42
+## ui-probe-v4-client.log
+dev_init:299: md0 device_handle block size 512 block count 16783360 features 0 internal
+handle_mount:893: md0s1 vol-uuid: 5F73DF5C-17BF-4A0D-8ABB-284639C2C1E4 block size: 4096 block count: 2097152 (unencrypted; flags: 0x1; features: 8.0.2)
+handle_mount:906: md0s1 setting dev block size to 4096 from 512
+dyld[1]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[3]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[4]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+UI_PROBE_BEGIN
+dyld[5]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+Darwin Kernel Version 27.0.0: Thu Aug 13 21:41:35 PDT 2026; root:xnu-13432.2.10~2/RELEASE_ARM64_T8150
+dyld[6]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+uid=0(root) gid=0(wheel) groups=0(wheel)
+dyld[7]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[8]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+mount_apfs: volume could not be mounted: Operation not permitted
+mount: / failed with 77
+REMOUNT_EXIT=77
+dyld[9]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+CHOWN_EXIT=1
+dyld[10]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[10]: Library not loaded: /usr/lib/libncurses.5.4.dylib
+IOREG_GPU_EXIT=134
+dyld[11]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[12]: dyld cache '(null)' not loaded: syscall to map cache into shared region failed
+dyld[12]: Library not loaded: /System/Library/PrivateFrameworks/StudyLog.framework/StudyLog
+BACKBOARDD_EXIT=134
+UI_PROBE_END
+
+## ui-probe-v7-client.log
+dyld[1]: dyld cache mapped system-wide: customer, auth GOTs: unmapped
+UI_PROBE_BEGIN
+Darwin Kernel Version 27.0.0: Thu Aug 13 21:41:35 PDT 2026; root:xnu-13432.2.10~2/RELEASE_ARM64_T8150
+uid=0(root) gid=0(wheel) groups=0(wheel)
+99:99 /System/Cryptexes/OS/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64e
+IOREG_GPU_EXIT=0
+com.apple.xpc.launchd|1970-01-01 00:00:16.525617 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:16.548246 (user/501) <Warning>: failed lookup: name = com.apple.system.notification_center, flags = 0x9, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:16.578830 (user/501) <Warning>: failed lookup: name = com.apple.oscard, flags = 0x8, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:17.415970 (user/501) <Warning>: failed lookup: name = com.apple.runningboard, flags = 0x8, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:17.689766 (user/501) <Warning>: failed lookup: name = com.apple.cfprefsd.daemon.system, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:17.707820 (user/501) <Warning>: failed lookup: name = com.apple.cfprefsd.daemon, requestor = backboardd[11], error = 3: No such process
+Sandbox: backboardd(11) deny(1) mach-register com.apple.iohideventsystem
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 12]: /System/Library/PrivateFrameworks/CoreAccessories.com.apple.xpc.launchd|1970-01-01 00:00:17.980402 (user/501) <Warning>: failed lookup: name = com.apple.iohideventsystem, flags = 0x9, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.100532 (user/501) <Warning>: failed activation: name = com.apple.iohideventsystem, flags = 0x1, requestor = backboardd[11], error = 1: Operation not permitted
+com.apple.xpc.launchd|1970-01-01 00:00:18.139658 (user/501) <Warning>: failed lookup: name = com.apple.iohideventsystem, flags = 0x41, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.147288 (user/501) <Warning>: failed lookup: name = com.apple.iohideventsystem, flags = 0x9, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.194656 (pid/11/com.apple.ACCHWComponentAuthService [12]) <Notice>: Successfully spawned ACCHWComponentAuthService[12] because ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:00:18.323961 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.590067 (user/501) <Warning>: failed lookup: name = com.apple.backboard.hid.services, flags = 0x1, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.603436 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.644150 (user/501) <Warning>: failed lookup: name = com.apple.backboard.hid.services, flags = 0x1, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.654657 (user/501) <Warning>: failed lookup: name = com.apple.frontboard.systemappservices, flags = 0x200, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:18.983290 (user/501) <Warning>: failed lookup: name = com.apple.analyticsd, requestor = backboardd[11], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:19.028442 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = backboardd[11], error = 3: No such process

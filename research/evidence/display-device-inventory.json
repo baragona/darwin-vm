@@ -1,0 +1,188 @@
+[
+  {
+    "path": "/device-tree/arm-io/aop/iop-aop-nub/dcp-control",
+    "original_compatible": [],
+    "patched_compatible": [],
+    "state": "retained"
+  },
+  {
+    "path": "/device-tree/arm-io/i2c3/display-eeprom",
+    "original_compatible": [
+      "eeprom,i2c"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/i2c3/display-eeprom/display-eeprom-data",
+    "original_compatible": [
+      "diagnostic-data,format1"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/i2c3/display-eeprom/display-eeprom-generic-data",
+    "original_compatible": [
+      "display-generic-data,rw"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/i2c3/mogul-display",
+    "original_compatible": [
+      "mogul,a1222"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/display-crossbar0",
+    "original_compatible": [
+      "display-crossbar,t8112"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcp",
+    "original_compatible": [
+      "iop,ascwrap-v6"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcp/iop-dcp-nub",
+    "original_compatible": [
+      "iop-nub,rtbuddy-v2"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcp0-expert",
+    "original_compatible": [
+      "dcp-expert-v1"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dart-dcp",
+    "original_compatible": [
+      "dart,t8110"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dart-dcp/mapper-dcp",
+    "original_compatible": [
+      "iommu-mapper"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dart-dcp/mapper-dcp-exclave",
+    "original_compatible": [
+      "iommu-mapper"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcp-sac-controller",
+    "original_compatible": [],
+    "patched_compatible": [],
+    "state": "retained"
+  },
+  {
+    "path": "/device-tree/arm-io/dcp-exclave-mailbox",
+    "original_compatible": [
+      "iop,secure-rtbuddy-proxy"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcp-exclave-ioreporting",
+    "original_compatible": [
+      "iop,secure-rtbuddy-ioreporting"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/exdisplaypipe",
+    "original_compatible": [
+      "exdisplaypipe,t8150"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcpext0-expert",
+    "original_compatible": [
+      "dcp-expert-v1"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcpext0",
+    "original_compatible": [
+      "iop,ascwrap-v6"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dcpext0/iop-dcpext0-nub",
+    "original_compatible": [
+      "iop-nub,rtbuddy-v2"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dart-dcpext0",
+    "original_compatible": [
+      "dart,t8110"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dart-dcpext0/mapper-dcpext0",
+    "original_compatible": [
+      "iommu-mapper"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/dart-dcpext0/mapper-dcpext0-exclave",
+    "original_compatible": [
+      "iommu-mapper"
+    ],
+    "patched_compatible": [],
+    "state": "matching removed"
+  },
+  {
+    "path": "/device-tree/arm-io/sgx",
+    "original_compatible": [
+      "gpu,t8150"
+    ],
+    "patched_compatible": null,
+    "state": "node removed"
+  },
+  {
+    "path": "/device-tree/arm-io/exdisplaypipe-s-proxy",
+    "original_compatible": [],
+    "patched_compatible": [],
+    "state": "retained"
+  }
+]
