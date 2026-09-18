@@ -19,6 +19,9 @@ typedef void *Obj;
 typedef Obj (*ObjectMessage)(Obj, void *);
 typedef unsigned long (*CountMessage)(Obj, void *);
 typedef const char *(*StringMessage)(Obj, void *);
+typedef Obj (*IndexMessage)(Obj, void *, unsigned long);
+typedef unsigned int (*IDMessage)(Obj, void *);
+typedef signed char (*BoolMessage)(Obj, void *);
 int main(void) {
     printf("DISPLAY_PROBE_BEGIN\n"); fflush(0);
     void *handle = dlopen("/System/Library/Frameworks/QuartzCore.framework/QuartzCore", 1);
@@ -37,6 +40,23 @@ int main(void) {
     Obj displays = ((ObjectMessage)message)(cls, selector("displays"));
     unsigned long count = ((CountMessage)message)(displays, selector("count"));
     printf("CADISPLAY_COUNT=%lu\n", count); fflush(0);
+    /* These selectors are present in the matching 24A437 CADisplay image.
+     * Enumeration alone does not establish that an output is usable. */
+    for (unsigned long i = 0; i < count && i < 32; ++i) {
+        Obj display = ((IndexMessage)message)(displays, selector("objectAtIndex:"), i);
+        Obj name = ((ObjectMessage)message)(display, selector("name"));
+        const char *text = ((StringMessage)message)(name, selector("UTF8String"));
+        printf("CADISPLAY_ENTRY=%lu ID=%u NAME=%s EXTERNAL=%d SUPPORTED=%d\n", i,
+            ((IDMessage)message)(display, selector("displayId")), text ? text : "(nil)",
+            ((BoolMessage)message)(display, selector("isExternal")),
+            ((BoolMessage)message)(display, selector("isSupported")));
+        Obj mode = ((ObjectMessage)message)(display, selector("currentMode"));
+        Obj description = ((ObjectMessage)message)(mode, selector("description"));
+        const char *mode_text = ((StringMessage)message)(description, selector("UTF8String"));
+        printf("CADISPLAY_ENTRY=%lu CURRENT_MODE=%s\n", i, mode_text ? mode_text : "(nil)");
+        fflush(stdout);
+    }
+    if (count > 32) printf("CADISPLAY_ENUMERATION_TRUNCATED=1\n");
     Obj main_display = ((ObjectMessage)message)(cls, selector("mainDisplay"));
     printf("CADISPLAY_MAIN_PRESENT=%d\n", main_display != 0); fflush(0);
     if (main_display) {

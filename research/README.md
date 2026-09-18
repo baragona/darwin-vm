@@ -17,8 +17,9 @@ and a full installed system are not working yet.
   The earlier `/mnt1` symlink and container-helper entitlement experiment are
   superseded; the original container helper is restored in v30.
 - Matching ICU data gets container migration past date-formatter initialization.
-- Backboardd now reaches QuartzCore display detection and render-server startup;
-  successful display enumeration and rendered UI remain unverified.
+- Backboardd reaches its main run loop and QuartzCore render-server threads.
+- A fresh CADisplay query completes: five wireless displays, all with 0 × 0
+  modes, and no main display. A usable output and rendered UI remain absent.
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -869,3 +870,52 @@ This passes the previous approximately 38-second abort window. No SIGABRT,
 SIGSEGV, or sandbox denial appeared in the captured v30 log at checkpoint.
 The CADisplay query still has no completed display count, so further service
 and display-driver investigation is required. QMP confirms the guest running.
+
+## Display enumeration succeeds, but only wireless placeholders (v30–v31)
+
+A later v30 query completes with `CADISPLAY_COUNT=5`,
+`CADISPLAY_MAIN_PRESENT=0`, and exit status 0. [Query evidence](evidence/display-query-v30.txt).
+The earlier query issued during startup did not provide a usable result; a
+fresh query after startup is necessary when reproducing this observation.
+
+With temporary Developer Mode enabled, live thread inspection found backboardd
+PID 26 still alive, its main thread in CFRunLoop, and QuartzCore render-server
+and IOMFBServer threads running. [Raw sample](evidence/backboard-idle-sample-v30.txt)
+and [symbolication](evidence/backboard-idle-threads-v30.json). These sampled
+wait states alone do not prove rendering. LLDB detached before v30 stopped.
+
+`display-probe.c` now reports each display's ID, name, external/support flags,
+and current mode, using selectors verified in the exact 24A437 cache. It limits
+enumeration to 32 objects and reports truncation. The rebuilt diagnostic uses
+no entitlements; [build hash and trust entry](evidence/display-probe-v31-build.json).
+It compiled with `-Wall -Wextra -Werror` and ran successfully in v31.
+
+The [v31 inventory](evidence/display-inventory-v31.txt) is:
+
+| IDs | Names | External | Supported flag | Current mode |
+| --- | --- | --- | --- | --- |
+| 1–5 | Wireless, Wireless-1 through Wireless-4 | 1 | 1 | 0 × 0, undefined range |
+
+No main display is present. The supported flag does not make these zero-sized
+wireless objects usable outputs. This is successful server/client enumeration,
+not five connected monitors or graphical boot.
+
+### Next virtual-display experiment
+
+The exact cache contains `-[CAWindowServerVirtualDisplay initWithOptions:]` at
+`0x1847678e0`. Inspection of its argument keys identifies
+`kCAVirtualDisplayWidth`, `kCAVirtualDisplayHeight`, and
+`kCAVirtualDisplayUpdateRate`. Width and height are required according to its
+embedded diagnostic string. The constructor also has pixel-format and physical
+size options. A bounded standalone virtual-display construction probe is a
+concrete next step; it has not been implemented or run. Neither framebuffer
+allocation, CPU rendering, attachment to backboardd, nor use as the main
+display is established by these symbols. The earlier boot-option path remains
+gated by the internal-build check; no QuartzCore code or feature flags were
+modified.
+
+V31 is running at QMP `/tmp/a19-ui-v31-qmp.sock` and UART
+`/tmp/a19-ui-v31-serial.sock`. No debugger or Developer Mode override was used
+in v31. The original sandboxed container helper and native `/private/var`
+mount from v30 remain in use. SpringBoard, usable display modes, rendering,
+and interactive input are still unfinished.
