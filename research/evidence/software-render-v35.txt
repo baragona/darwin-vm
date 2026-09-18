@@ -1,0 +1,29 @@
+/bin/software-render-probe; echo SOFTWARE_EXIT=$?; echo SERIAL_DONE
+<der-probe; echo SOFTWARE_EXIT=$?; echo SERIAL_DONE_                         690749f5ce4b45699f192a6c1
+<XIT=$?; echo SERIAL_DONE_690749f5ce4b45699f192a6c16                         e6fcd5
+
+System Policy: bash(37) allow process-exec* /bin/software-render-probe
+SW_PROBE_BEGIN
+
+SW_CREATE_BEGIN
+
+SW_RENDERER_PRESENT=1
+
+SW_DESTINATION_RESULT=1
+
+SW_UPDATE_PRESENT=1
+
+SW_RENDER_EMPTY_BEGIN
+
+SW_RENDER_EMPTY_RETURNED
+
+SW_FINISH_RETURNED
+
+SW_CHANGED_BYTES=0 GUARD_CHANGED_BYTES=0
+
+SW_PROBE_END
+
+SOFTWARE_EXIT=0
+
+SERIAL_DONE_690749f5ce4b45699f192a6c16e6fcd5
+

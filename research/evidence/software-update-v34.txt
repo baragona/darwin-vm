@@ -1,0 +1,70 @@
+/bin/virtual-display-probe --software-update; eccom.apple.xpc.launchd|1970-01-01 00:00:55.546203 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-probe[24], error = 3: No such process
+
+
+com.apple.xpc.launchd|1970-01-01 00:00:55.625071 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[26], error = 3: No such process
+
+ho VIRTcom.apple.xpc.launchd|1970-01-01 00:00:55.837859 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[26], error = 3: No such process
+
+UAL_EXIT=$?
+<lay-probe --software-update; echo VIRTUAL_EXIT=$?;                         ech_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+com.apple.xpc.launchd|1970-01-01 00:00:56.269345 (user/501) <Warning>: failed lookup: name = com.apple.FSEvents, flags = 0x9, requestor = cfprefsd[30], error = 3: No such process
+
+o SERcom.apple.xpc.launchd|1970-01-01 00:00:56.703351 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[26], error = 3: No such process
+
+IAL_DONE_b1a7465f
+<e; echo VIRTUAL_EXIT=$?; echo SERIAL_DONE_b1a7465ff                         413417eaa84312b7ad268bf
+
+System Policy: bash(37) allow process-exec* /bin/virtual-display-probe
+VIRTUAL_PROBE_BEGIN
+
+SAMPLER_CREATE_RESULT=0
+
+VIRTUAL_ALLOC_BEGIN
+
+VIRTUAL_ALLOC_PRESENT=1
+
+VIRTUAL_INIT_BEGIN
+
+VIRTUAL_INIT_PRESENT=1
+
+VIRTUAL_NAME=Virtual-0
+
+VIRTUAL_ID=1
+
+VIRTUAL_BOUNDS=0,0,1024,768
+
+VIRTUAL_METHOD=renderForTime: TYPE=v24@0:8d16
+
+VIRTUAL_METHOD=acquireFrozenSurface TYPE=^{__IOSurface=}16@0:8
+
+VIRTUAL_METHOD=beginExternalUpdate:usingSoftwareRenderer: TYPE=v28@0:8^v16B24
+
+VIRTUAL_METHOD=finishExternalUpdate:withFlags:debugInfo: TYPE=B36@0:8^v16I24Q28
+
+
+SOFTWARE_UPDATE_BEGIN_TYPE=v28@0:8^v16B24 FINISH_TYPE=B36@0:8^v16I24Q28
+
+SOFTWARE_UPDATE_ALLOC_BEGIN
+
+com.apple.xpc.launchd|1970-01-01 00:00:59.006899 <Notice>: Last log repeated 1 times
+
+com.apple.xpc.launchd|1970-01-01 00:00:58.806603 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = virtual-display[37], error = 3: No such process
+
+SOFTWARE_UPDATE_PRESENT=1
+
+SOFTWARE_EXTERNAL_BEGIN
+
+SOFTWARE_EXTERNAL_BEGIN_RETURNED
+
+SOFTWARE_EXTERNAL_FINISH_RESULT=0
+
+SOFTWARE_UPDATE_FREED
+
+SOFTWARE_FROZEN_SURFACE_PRESENT=0
+
+VIRTUAL_PROBE_END
+
+VIRTUAL_EXIT=0
+
+SERIAL_DONE_b1a7465ff413417eaa84312b7ad268bf
+

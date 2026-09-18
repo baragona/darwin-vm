@@ -991,3 +991,80 @@ A [post-experiment query](evidence/virtual-display-isolation-v33.txt) still repo
 the original five zero-sized Wireless displays, no main display, and
 backboardd PID 26 with `LAST_EXIT=0`. The standalone virtual object was not
 installed as the system display.
+
+## External software update and direct CPU backend (v34)
+
+The [v34 probe](evidence/software-update-v34.txt) created an opaque render
+update, added a 1024x768 dirty rectangle, and called the virtual display's
+external-update selectors with `usingSoftwareRenderer:YES`. Begin returned;
+finish returned false; `acquireFrozenSurface` remained null. The diagnostic
+exited 0 (successful observation, not successful rendering).
+The update ABI is corroborated by
+[WebKit's QuartzCoreSPI.h](https://github.com/WebKit/WebKit/blob/283c780414b7c24e4a911c823af665f53a15e8f7/Source/WebCore/PAL/pal/spi/cocoa/QuartzCoreSPI.h)
+and the exact firmware's constructor. No layer context was submitted.
+
+Further static inspection explains why the boolean alone is not enough:
+`beginExternalUpdate:usingSoftwareRenderer:` dispatches the flag through server
+vtable slot 0x60. VirtualServer's slot resolves to `0x18462a324`, a bare return.
+Its regular renderer instead calls Metal context creation. This is a property
+of this implementation, not a claim that all virtual displays require a GPU.
+
+A separate software backend is available in this binary:
+
+- `CARenderOGLNew` (`0x1846a5b88`) forwards a callback table to
+  `CARenderOGLNew_` (`0x1846a5ab8`).
+- `kCARenderSoftwareCallbacks` (`0x1e9002ca8`) begins with constructor
+  `0x1846a667c`, which ignores the incoming arguments, allocates 0x52b0 bytes,
+  runs the base Context constructor, and installs SWContext's vtable.
+- `CARenderSoftwareSetDestination` (`0x1846a6654`) dispatches to slot 0x4d0.
+  SWContext's entry at `0x1e9004670` is `0x1846c91d4`, whose symbol demangles to
+  `CA::OGL::SWContext::set_destination(void*, long, unsigned long, void*, long,
+  int, int, int, int)`. It stores buffer pointers, strides, bits per pixel,
+  and origin/size; it returns 1.
+- `CARenderOGLRender` (`0x1846a5fd8`) accepts renderer and update pointers;
+  `CARenderOGLFinish` is available separately.
+
+These are unslid addresses specific to 24A437. The new
+[software-render-probe.c](software-render-probe.c) uses exported entry points
+and a 64x64 buffer with sentinel bytes around it. It is an empty-update smoke
+test; actual layer composition and integration into backboardd remain required.
+
+### Direct software renderer result (v35)
+
+[Runtime evidence](evidence/software-render-v35.txt) confirms exported symbols
+resolve and the direct CPU backend can be constructed in this guest:
+
+```text
+SW_RENDERER_PRESENT=1
+SW_DESTINATION_RESULT=1
+SW_UPDATE_PRESENT=1
+SW_RENDER_EMPTY_RETURNED
+SW_FINISH_RETURNED
+SW_CHANGED_BYTES=0 GUARD_CHANGED_BYTES=0
+SOFTWARE_EXIT=0
+```
+
+The destination contains 16,384 sentinel bytes, with 4,096 guard bytes on each
+side. No destination or guard bytes changed. This proves successful execution
+of the empty-update path, **not** that anything was drawn. It does not test
+textures, fonts, compositing correctness, or performance. A local `CAContext`
+with a colored `CALayer`, committed and passed through `CARenderUpdateAddContext`,
+is the next concrete test. That exported function exists at `0x18469ee8c`;
+WebKit's header supplies its opaque context/update contract.
+
+Build command:
+
+```sh
+xcrun clang -Wall -Wextra -Werror -Wno-incompatible-sysroot \
+  -target arm64-apple-ios27.0 -nostdlib research/software-render-probe.c \
+  /tmp/a19-restore/usr/lib/libSystem.B.dylib -o /tmp/a19-software-render-probe-v35
+codesign -s - /tmp/a19-software-render-probe-v35
+# Stage in stopped guest, add CDHash to ramdisk.tc, then boot.
+/bin/software-render-probe
+```
+
+[Build identity](evidence/software-render-probe-build.json) records the signed
+binary hash. No entitlement or Developer Mode override was needed. V34 was
+intentionally stopped for installation; current v35 uses QMP
+`/tmp/a19-ui-v35-qmp.sock` and UART `/tmp/a19-ui-v35-serial.sock`.
+A usable main display, actual UI pixels, and interactive input remain unfinished.
