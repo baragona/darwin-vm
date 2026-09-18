@@ -1931,3 +1931,15 @@ secure-indicator lookup fallback; the sampled main-thread callback waits on
 missing telephony services. Original SILManager resources are restored for
 the next boot, which must test without that fallback.
 [Runtime results and next experiment](evidence/langid-runtime-v60.md).
+
+
+### Secure indicators require ExclaveOS resource paths (v61–v62)
+
+Restoring ordinary SILManager.framework files did not fix Camera lookup.
+The actual manifest initializer selects a directory under the ExclaveOS
+cryptex. Matching ExclaveOS firmware supplies both expected asset directories,
+including V57-specific constraints; these are now restored for a fresh test.
+The original noncellular CommCenter daemon is also staged for a separate
+manual experiment on the observed telephony wait.
+[Runtime path trace, image manifests, and next checks](evidence/indicator-runtime-v61.md).
+Usable display output and input remain unverified.

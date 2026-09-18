@@ -1,0 +1,17 @@
+/bin/ls -l /System/Library/Frameworks/CoreTelephony.framework/Suppo<m/Library/Frameworks/CoreTelephony.framework/Suppor                         t/CommCenter; /bin/launch<elephony.framework/Support/CommCenter; /bin/launch-                         probe list; echo SERIAL_D</CommCenter; /bin/launch-probe list; echo SERIAL_DO                         NE_8660d8863f1a4c06b600fa<robe list; echo SERIAL_DONE_8660d8863f1a4c06b600fae                         805a675fd
+System Policy: bash(62) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter': No such file or directory
+System Policy: bash(63) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=10
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=60 LAST_EXIT=0
+JOB com.apple.runningboardd PID=58 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=48 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=52 LAST_EXIT=15
+JOB com.apple.lsd PID=46 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=44 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_8660d8863f1a4c06b600fae805a675fd

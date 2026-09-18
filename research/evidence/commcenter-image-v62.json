@@ -1,0 +1,2746 @@
+{
+  "build": "24A437",
+  "files": [
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Info.plist",
+      "bytes": 987,
+      "sha256": "6739226fdeca44bb9f119169caab50d9fe235b9de5ad678a9dec66d36cda0c5c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CTFollowUpExtension.appex/CTFollowUpExtension",
+      "bytes": 74336,
+      "sha256": "de5c3ddfe2e6d03ac691f6368e1f81558701edfd9c71796ee8a7af95c80ab57f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CTFollowUpExtension.appex/Info.plist",
+      "bytes": 919,
+      "sha256": "21bb2691f4c10902aa48db7d220e9c386475f8e8a893989a2d4567c6b46d75a7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CTFollowUpExtension.appex/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CoreTelephonyDiagnosticExtension.appex/CoreTelephonyDiagnosticExtension",
+      "bytes": 70608,
+      "sha256": "4fc1fdcee528bc9057fbb08d652833918feaa8ea157cd58b08b5b66873a84a89"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CoreTelephonyDiagnosticExtension.appex/Info.plist",
+      "bytes": 1448,
+      "sha256": "bf7e5deefe7b0e21d30cca1b32a5e6acc7561f327154690632d0d7034bd07316"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CoreTelephonyDiagnosticExtension.appex/InfoPlist.loctable",
+      "bytes": 27282,
+      "sha256": "5ed461583e3b63429e440b482ab8e34e4f66eef04e6c62e41ada1a3a8b60c8f4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/PlugIns/CoreTelephonyDiagnosticExtension.appex/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/Info.plist",
+      "bytes": 843,
+      "sha256": "e50bda798972dd7c2ecfee189a7a28d2ea47a1169fab2544991f5c71d25593d9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/XPCServices/CTParserService.xpc/CTParserService",
+      "bytes": 208416,
+      "sha256": "790fa15cd414efc0c56089be8b457a6cd86f6b6c19752f037e4268eb8a5ae51c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/XPCServices/CTParserService.xpc/Info.plist",
+      "bytes": 933,
+      "sha256": "77f0e0a713efc5158b17debd31524791b0d44650e965c506435e6869d6475cd8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/XPCServices/CTParserService.xpc/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/_CodeSignature/CodeResources",
+      "bytes": 2764,
+      "sha256": "c14ddd195a2ff702078610102df0b25100f89c498ef3bdcd3151482c8ec66e09"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter",
+      "bytes": 40199776,
+      "sha256": "aa96ad9197abf1bbb53e053803ea01eb4c724941dcaaafe2f0f6f49a63fe628c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterMobileHelper",
+      "bytes": 856960,
+      "sha256": "289b76b1c0ec4251d8ce797b9ca5eb209bec1b2f2686cae6ba727dab06f52dbf"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterRootHelper",
+      "bytes": 80768,
+      "sha256": "d500068e4fe348347aecfbbed76e1e2571b77ef30def4fb8e5a41a44dde52117"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/CompressionConfig.plist",
+      "bytes": 1120,
+      "sha256": "dfea0a6e837a46f8de5c20744d52fb8cca1a5595d30ca08dae38df2072fbc64d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/SE13Overrides.plist",
+      "bytes": 77,
+      "sha256": "1e0593cfc4495c156fc506f6022626748ad98054c2d692c5b9eeb06be27a2c64"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/TextToBinaryMap.plist",
+      "bytes": 62,
+      "sha256": "ac28fc76b43344c5d226421005c538ad56cbb1a2e5ea083660e95664bbdbcc9d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/default_factors_800.pb",
+      "bytes": 164,
+      "sha256": "eb3bfb644b1c6b628c6c588b7cdf29c9461c06127422788c5210e7d36d66a48d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/default_factors_801.pb",
+      "bytes": 149,
+      "sha256": "eba03b1dd97625db3da9e18ed01871996bbffa9ddccc5a654464a675db2fcb3d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/default_factors_802.pb",
+      "bytes": 69,
+      "sha256": "26fa27052cc90e50135bce06296045de0d34f30121275203a5d91d34af662f57"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/default_factors_803.pb",
+      "bytes": 68,
+      "sha256": "5fc9fee9b64a7125a8051b0f7c1bb1948dd7c45b4e2d76e9777adbe082f1795d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/default_factors_861.pb",
+      "bytes": 138,
+      "sha256": "804753d02bed6f5d185aeeb70f945ad6882cac8188e1e7bf3ebdbedc300d7c4f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/default_tech.plist",
+      "bytes": 1492,
+      "sha256": "4d7f674b96a1373b204fff212cc86b375211f975e285f5334be1903bd9a94cc7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/lasdcdma.db",
+      "bytes": 2058240,
+      "sha256": "25b98b5783ce1b7c2ceef167d472f33b806c83b74b905b13b1a558003196c5ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/lasdgsm.db",
+      "bytes": 882688,
+      "sha256": "f1a578240dacbbf34ec13b9ccc9312b6b13156d129c3f32513d7a7784c03bd6f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/lasdlte.db",
+      "bytes": 154624,
+      "sha256": "30e4a364d05d2fc8222e710a07c21a0c2a6755f90907ded89f14bcff473ccb62"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/lasdnr.db",
+      "bytes": 9216,
+      "sha256": "08eb3bdae2322461c48c4d7198f74c3d869cbaab2c6a10186dc41204cc146030"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/lasdscdma.db",
+      "bytes": 835584,
+      "sha256": "3a1700337cf102e4e68a0a1cec976afbfdd09f5bca2ed75a568086bd7b2c2e80"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/lasdumts.db",
+      "bytes": 4203520,
+      "sha256": "24737ea261b2b1e67b8f1ae675baaf7a23989f9912dde6d6199cb91197d0aa21"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/Support/tech_config.plist",
+      "bytes": 802,
+      "sha256": "71b76c8c3fddc9091c17ee27587ffe1d1e07a5267b7302dd9cb0a9c0a256174e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/Bifrost~iphone.strings",
+      "bytes": 7568,
+      "sha256": "0cfae42f28038062a4c56edb88f84cde99e88a04efb8f20997e44ebbe5463469"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1132,
+      "sha256": "9167291e423cee2d4dffeb95b0029a4f918cf82ce5ca74078d5b78c10c9b8598"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/CBMessage~applewatch.strings",
+      "bytes": 17874,
+      "sha256": "ecc69e465e8aa01b5cd1bf9698f0ed1cace4e9f3968dd7195373efb1814b4c54"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/CBMessage~iphone.strings",
+      "bytes": 37939,
+      "sha256": "a764d0150a06292dd5fa8f55a44fc6decf205946b249be870eda83018e34a303"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/Cellular~iphone.strings",
+      "bytes": 1560,
+      "sha256": "2ba50610d62d79155becbed6ed77fdd1a4f73bf8f3ef3bd48f3797081719d717"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/DataUsage~applewatch.strings",
+      "bytes": 1161,
+      "sha256": "747dd052d32ec35536960b7cb569d66cdcc90cd1f0d3a153b073ea9919b3db09"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/DataUsage~iphone.strings",
+      "bytes": 1850,
+      "sha256": "da0a620d0f49794789ca59d92b1b93f1f48cc5f761fac3c3d69e9fd9285b3145"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/InfoPlist~applewatch.strings",
+      "bytes": 183,
+      "sha256": "93276ea647dcd0f1b9a8a6c451d347bbaa2320718a6351c1547f1794cdb79bca"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ar.lproj/InfoPlist~iphone.strings",
+      "bytes": 183,
+      "sha256": "93276ea647dcd0f1b9a8a6c451d347bbaa2320718a6351c1547f1794cdb79bca"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/Bifrost~iphone.strings",
+      "bytes": 8124,
+      "sha256": "fa284341528ddc7ff33289de18578a2a9a94dfe7e2a87408ecb05a098438add9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1344,
+      "sha256": "f9601f46e4ea719bb25dfb1411d0578030ce9a765f87116d53312a1c238b21da"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/CBMessage~applewatch.strings",
+      "bytes": 21191,
+      "sha256": "7883b4f865cbfc9b34562c3bd3db703738f2d1bafaf13928799980a8a321b9fb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/CBMessage~iphone.strings",
+      "bytes": 45346,
+      "sha256": "a60e9a59c654a9d0af3327fd6b4c80683b94d2ad8016d895214c4dc33cae06d6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/Cellular~iphone.strings",
+      "bytes": 2042,
+      "sha256": "8fb0b4292e08f5edb9a7e2670b609a2d13e1978f5c592b1727cc7237a39f551d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/DataUsage~applewatch.strings",
+      "bytes": 1281,
+      "sha256": "aa38d57e933256ab8d142f78f937024a8b46492df2de0a7130ae623edab0f217"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/DataUsage~iphone.strings",
+      "bytes": 1994,
+      "sha256": "ea2db3e78fe35896c5efbd2fa70488b6f56e376a23e3d5cca5cf1d89e73bb452"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/InfoPlist~applewatch.strings",
+      "bytes": 197,
+      "sha256": "910de86eea05be7bda73fb4bfbbf28b5f8b8366da4c511fdc4628ba5b8b2aec8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bg.lproj/InfoPlist~iphone.strings",
+      "bytes": 197,
+      "sha256": "910de86eea05be7bda73fb4bfbbf28b5f8b8366da4c511fdc4628ba5b8b2aec8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/Bifrost~iphone.strings",
+      "bytes": 8418,
+      "sha256": "a90e1d959ecb3dfe879f3837603bce265afc7e55b623a13467b15735b5e69646"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1541,
+      "sha256": "1e446d6b66c63f10f64f690166b990e3663074ea79c27028060df2928dbec4a7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/CBMessage~applewatch.strings",
+      "bytes": 20594,
+      "sha256": "97a7066132c30864b49545b7544ad4fe51533c5727904897bb14d70dd74c748b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/CBMessage~iphone.strings",
+      "bytes": 43024,
+      "sha256": "b9cbcd4f47a9a80b973cefb171801193128e7ef455321f61b56a612e8534eacd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/Cellular~iphone.strings",
+      "bytes": 1902,
+      "sha256": "dabdfed6f008d4f66071379f5da6536757a46b55f7bfbacf767f863831ac6683"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/DataUsage~applewatch.strings",
+      "bytes": 1289,
+      "sha256": "7b3c5e10eb11ebe1bda89b2ad4554fdcefc2bc0234291d29763c6b8b18be3aed"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/DataUsage~iphone.strings",
+      "bytes": 2092,
+      "sha256": "c522e320f58b907ab96f22cf20c3326993e17f2cd1bea6f05b598b6ce7172543"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/InfoPlist~applewatch.strings",
+      "bytes": 193,
+      "sha256": "d08ee6c0442f16d11bc07b3ef95edb269e0c868892672eb2d86e2ec18c4b2379"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/bn.lproj/InfoPlist~iphone.strings",
+      "bytes": 193,
+      "sha256": "d08ee6c0442f16d11bc07b3ef95edb269e0c868892672eb2d86e2ec18c4b2379"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/Bifrost~iphone.strings",
+      "bytes": 8745,
+      "sha256": "56d838c2f5106bf1ceef375030366789bf2d6f3de1ddad5f8a6f3f529919253b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1157,
+      "sha256": "fa98c1629ca445937e41c47fce69dbc200cae87fcfd27786aee3c1258e94069f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/CBMessage~applewatch.strings",
+      "bytes": 20179,
+      "sha256": "e1567e84a2717a173bd35cc69aec116dbed15a1a3414ee05b5db1c75cb5b619a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/CBMessage~iphone.strings",
+      "bytes": 42706,
+      "sha256": "336b38b75ef251fd8a415d509a0cf96a91956a029ced4289943a69e7df248f9f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/Cellular~iphone.strings",
+      "bytes": 1836,
+      "sha256": "cf29923ad599c390c3ce47c3ccbc9b07844ae25a2d23b1a9d6424106a8b4ec10"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/DataUsage~applewatch.strings",
+      "bytes": 1418,
+      "sha256": "5b18ce0edb05e9226d79042b87701f5e32be6ae113671a4ea52864e61c5f2c86"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/DataUsage~iphone.strings",
+      "bytes": 2181,
+      "sha256": "ab00354a85d74864075be0c1686fb4d851779f14035f503eeb1937de5548f5ae"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/InfoPlist~applewatch.strings",
+      "bytes": 189,
+      "sha256": "a778110859ddc8e4ad34df95e9ceb0bae5a898855f38d43ac9d9e3dee041aa0e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ca.lproj/InfoPlist~iphone.strings",
+      "bytes": 189,
+      "sha256": "a778110859ddc8e4ad34df95e9ceb0bae5a898855f38d43ac9d9e3dee041aa0e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/com.apple.EmergencyAlerts.plist",
+      "bytes": 77,
+      "sha256": "a17395918dad5c08ca0e8d4b5932623ddc45591f2ffff6dd214a9f681dd35bdb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/Bifrost~iphone.strings",
+      "bytes": 8290,
+      "sha256": "a1fac634124fc0ee852a66bca72a944c05403ce6bc6825526231c78bbd432f1e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1126,
+      "sha256": "9e7169a46361b7823751e46226b09985a013bf5baad154c6f3ab94b2a7857713"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/CBMessage~applewatch.strings",
+      "bytes": 19179,
+      "sha256": "81b0a8fc517a45ac20690aa89e75a218e8bf18b7dc9f4ed2e235454da38bbfc0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/CBMessage~iphone.strings",
+      "bytes": 41173,
+      "sha256": "bd5fb0c836225fb5082a7f9af231c27b6fb69e883c1237ff9fba6dd2878606b6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/Cellular~iphone.strings",
+      "bytes": 1864,
+      "sha256": "f70d3e0f23c234272e06c80cdcaef47a435ef1adc9e0be0166edf18281a32743"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/DataUsage~applewatch.strings",
+      "bytes": 1285,
+      "sha256": "d537cda327033a5a390ea0c7c12e699c49f765f6655b0e34b306aece849c1350"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/DataUsage~iphone.strings",
+      "bytes": 1995,
+      "sha256": "18c556d815f0402c018e766e75772d2ce63a4416f4a8bbe79d2e45d0a5d1b69e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/InfoPlist~applewatch.strings",
+      "bytes": 182,
+      "sha256": "2a2984e4aa0096fcb7c55b6a3c1bbc60e02ca37f70fcdc2ee3416c334168acfb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/cs.lproj/InfoPlist~iphone.strings",
+      "bytes": 182,
+      "sha256": "2a2984e4aa0096fcb7c55b6a3c1bbc60e02ca37f70fcdc2ee3416c334168acfb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/Bifrost~iphone.strings",
+      "bytes": 7174,
+      "sha256": "b2748d0050c622fd1cc12f4e049bf157c680eed0542329125914dca2b3e17647"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1258,
+      "sha256": "516cac12fbfc6837016303cf1c25f2d72784d70ca9ef599bccfc29b55b3119af"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/CBMessage~applewatch.strings",
+      "bytes": 19504,
+      "sha256": "2cc413d1586dbdd7ff0beef526626b5106a906925f8828a6ac1661301b2200bd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/CBMessage~iphone.strings",
+      "bytes": 40268,
+      "sha256": "73569a0956a78bf89b105a1374af36da7a1c703d41e19445e5c1fa98d53bb8ca"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/Cellular~iphone.strings",
+      "bytes": 1885,
+      "sha256": "4edb5da95724586840a05f1c52bac14e117a676d9b963d16ff8305620f606fb9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/DataUsage~applewatch.strings",
+      "bytes": 1146,
+      "sha256": "5d5a02f117711b715df2ddd2fe686775e3e76c146a868419c25884272725483b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/DataUsage~iphone.strings",
+      "bytes": 1782,
+      "sha256": "2b53308924573b052fcaa3626315e296dfbb9734056d64f5ee4cbb9bf18f9aa0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/InfoPlist~applewatch.strings",
+      "bytes": 186,
+      "sha256": "dad0ee6259d4c4c44cd936291b12b905ba102d19bec315e9be1773901040218a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/da.lproj/InfoPlist~iphone.strings",
+      "bytes": 186,
+      "sha256": "dad0ee6259d4c4c44cd936291b12b905ba102d19bec315e9be1773901040218a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/Bifrost~iphone.strings",
+      "bytes": 7915,
+      "sha256": "91e2ffe7bcf18b8940103e35ffa09b806109184ed5d919e6a866f06e0313f939"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1231,
+      "sha256": "e2d7b5bfc14594ecc286e1253e33b494605fe1b2bafbea2ccb2fd110b5578675"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/CBMessage~applewatch.strings",
+      "bytes": 18849,
+      "sha256": "2b00e7a3590f323c938bbad210aafc8da03a6a3c64930b1c065e1bfbc37dc355"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/CBMessage~iphone.strings",
+      "bytes": 39529,
+      "sha256": "41a70f5e46b79a7d19923d589a683b7113207f96aa247c9f7e0d615ef0d38159"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/Cellular~iphone.strings",
+      "bytes": 2036,
+      "sha256": "3099b3ec4c79b6598bac6b6bc06dfe316816079ca4a175348c8210088ec235df"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/DataUsage~applewatch.strings",
+      "bytes": 1005,
+      "sha256": "5c7e96e9947c1b282d492fcadbef95d2ac3ee47b10d1a308c09f3d1e5820fb9a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/DataUsage~iphone.strings",
+      "bytes": 1709,
+      "sha256": "9a6fc8bb1bd46e1041a6667a2c1b6f52f4501acfe881ebdd8b32a4787178ea23"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/InfoPlist~applewatch.strings",
+      "bytes": 160,
+      "sha256": "e99bdba79dcb8e66ff3671249fa8f13cd1d59245e3f595b4b8ef3923d814dc6e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/de.lproj/InfoPlist~iphone.strings",
+      "bytes": 153,
+      "sha256": "a6ef39dac5f94331574726449b8b157c8ca893ee1e940a3956420d205ef7b244"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/Bifrost~iphone.strings",
+      "bytes": 8886,
+      "sha256": "dbb8513011152ff0ba42822f93a6d8239a1a8b798ba9e3f37a1e276e91361b23"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1268,
+      "sha256": "4187ff70fadc4823254ecc88c1c670f0205d4ac9aef7bef909af655df4f90e8f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/CBMessage~applewatch.strings",
+      "bytes": 23611,
+      "sha256": "94ac1fa2b12941c6b9776adba4368a5f6ef1e64586428fccca88aa9c3d901ec8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/CBMessage~iphone.strings",
+      "bytes": 50370,
+      "sha256": "ee7e5f6c0d22e78297945b051fca25dbda20869ca1586b29c6a79dd0310a8cc0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/Cellular~iphone.strings",
+      "bytes": 2114,
+      "sha256": "ab970b1b3d6f4c6aa95d500c575c3cbb6725832105c4b83f33e0ce2823b659e9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/DataUsage~applewatch.strings",
+      "bytes": 1507,
+      "sha256": "ffa4a606f4be0376f27660bf9050d4201e31e29fc165b3ce83e6b48ffcf7cec0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/DataUsage~iphone.strings",
+      "bytes": 2373,
+      "sha256": "5ca40779142e743cf18f1fb25092f78428ae926e0e3c61bedeb0e84931973e4d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/InfoPlist~applewatch.strings",
+      "bytes": 201,
+      "sha256": "74a7b68446809a0cc7779298b8c15978f8378d50f1d6ba955de0ebdf1a1cced7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/el.lproj/InfoPlist~iphone.strings",
+      "bytes": 185,
+      "sha256": "8e535b026b0ab5a75c30181e72e9a8e3e21048bd79b05cdbadeed4449c6496dc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/Bifrost~iphone.strings",
+      "bytes": 5478,
+      "sha256": "27c603347a3a8c23b321d0c6dbd468194a64e16e6c7de40d503653f21208bcb9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 713,
+      "sha256": "9994fcdbd1954f404949f35369617e78cd50c0438b03e57ccb229e6ac3819cbb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage~applewatch.strings",
+      "bytes": 13833,
+      "sha256": "a80770c81b0b058089b3e5534e29af6d147051eac755e2c8d71d7391cc606d04"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/CBMessage~iphone.strings",
+      "bytes": 28894,
+      "sha256": "6bd9e4f463efb737ae601e18c8b2beea9748d52cbb73c3132b6357c870ea9513"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/Cellular~iphone.strings",
+      "bytes": 1125,
+      "sha256": "d2755ce19bccafae57cc288cff1ccb4a47a0a0afb953ae02a23d67fbbb676b9f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/DataUsage~applewatch.strings",
+      "bytes": 833,
+      "sha256": "8ec4da6869cd5a28bea1c26e1f77ccb5bbfc38e43915d34be99d03fe3153697e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/DataUsage~iphone.strings",
+      "bytes": 1245,
+      "sha256": "e7584fc8665e2e3efc5d88fe35009d81224cbb23231f96ca575ba03d93487fed"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/InfoPlist~applewatch.strings",
+      "bytes": 159,
+      "sha256": "8a8d8cbc3159a97d880dd9f9946ad03ae54a99ce59a51f0fff5b853442e3da7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en.lproj/InfoPlist~iphone.strings",
+      "bytes": 159,
+      "sha256": "8a8d8cbc3159a97d880dd9f9946ad03ae54a99ce59a51f0fff5b853442e3da7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/Bifrost~iphone.strings",
+      "bytes": 5485,
+      "sha256": "4249abb40edbedaed31ac51d94513fe3a856b95956d5b46c8caec8271a902bce"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 713,
+      "sha256": "9994fcdbd1954f404949f35369617e78cd50c0438b03e57ccb229e6ac3819cbb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/CBMessage~applewatch.strings",
+      "bytes": 13845,
+      "sha256": "71c2b3680b63a4256a2b62faae946eb10b68df9fc364420dd947ec43a213d18d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/CBMessage~iphone.strings",
+      "bytes": 28963,
+      "sha256": "ca4d2c9719275f607da2f2d14553ff67506b567ebf0e69b938d01cc7e83178c4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/Cellular~iphone.strings",
+      "bytes": 1130,
+      "sha256": "553b177b97cf270868690782ae88ea37973d81cb01092eb1b1d930c588cb5594"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/DataUsage~applewatch.strings",
+      "bytes": 817,
+      "sha256": "6faac9eb94fc3b8f63759546a0a91a07fa4bc1da1acb0de0c6b20657b1fb187e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/DataUsage~iphone.strings",
+      "bytes": 1235,
+      "sha256": "88531b37c285fb5b16a0c07416ed8a3641a58ff234446953a4e45f1f4a21d89a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/InfoPlist~applewatch.strings",
+      "bytes": 161,
+      "sha256": "3d5bc755cc3a838796686c6ae9edb562301060ea37b46e056dad8ee0ce35b3ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_AU.lproj/InfoPlist~iphone.strings",
+      "bytes": 161,
+      "sha256": "3d5bc755cc3a838796686c6ae9edb562301060ea37b46e056dad8ee0ce35b3ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/Bifrost~iphone.strings",
+      "bytes": 5478,
+      "sha256": "27c603347a3a8c23b321d0c6dbd468194a64e16e6c7de40d503653f21208bcb9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 713,
+      "sha256": "9994fcdbd1954f404949f35369617e78cd50c0438b03e57ccb229e6ac3819cbb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/CBMessage~applewatch.strings",
+      "bytes": 13833,
+      "sha256": "3b013a32aab2829d13a007286d44be58134b0b710acf264d6f9c245e743a2e1d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/CBMessage~iphone.strings",
+      "bytes": 28899,
+      "sha256": "8ccb7d3df3edb541417de1334d2811201406fa987405a2d8ffe517413b4ea7f8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/Cellular~iphone.strings",
+      "bytes": 1125,
+      "sha256": "d2755ce19bccafae57cc288cff1ccb4a47a0a0afb953ae02a23d67fbbb676b9f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/DataUsage~applewatch.strings",
+      "bytes": 833,
+      "sha256": "8ec4da6869cd5a28bea1c26e1f77ccb5bbfc38e43915d34be99d03fe3153697e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/DataUsage~iphone.strings",
+      "bytes": 1245,
+      "sha256": "e7584fc8665e2e3efc5d88fe35009d81224cbb23231f96ca575ba03d93487fed"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/InfoPlist~applewatch.strings",
+      "bytes": 159,
+      "sha256": "8a8d8cbc3159a97d880dd9f9946ad03ae54a99ce59a51f0fff5b853442e3da7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_CA.lproj/InfoPlist~iphone.strings",
+      "bytes": 159,
+      "sha256": "8a8d8cbc3159a97d880dd9f9946ad03ae54a99ce59a51f0fff5b853442e3da7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/Bifrost~iphone.strings",
+      "bytes": 5484,
+      "sha256": "0e8868c6684d7ffe2d72a1d2f6c1c643f40221852d3881fd2c3461e59597ef2d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 713,
+      "sha256": "9994fcdbd1954f404949f35369617e78cd50c0438b03e57ccb229e6ac3819cbb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/CBMessage~applewatch.strings",
+      "bytes": 13906,
+      "sha256": "7cc135481ac321a10f1c13cb827a30b7f3476d9d12437668744f3f194390e244"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/CBMessage~iphone.strings",
+      "bytes": 29064,
+      "sha256": "0c842083b85d65270de827c23cd9d8d9ee861db10bffcde4ccfe26b514ef6e40"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/Cellular~iphone.strings",
+      "bytes": 1138,
+      "sha256": "2c3d6d82a18903b0f13c303419ca42273fbf3b23d5d7a5bed3d8cf24d267649f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/DataUsage~applewatch.strings",
+      "bytes": 829,
+      "sha256": "38f0bf0dab5c62194af3bde345c430e798588863f291dcac6d9cd95fd6a4ce12"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/DataUsage~iphone.strings",
+      "bytes": 1250,
+      "sha256": "b8412a9b36e6edc1c61a8f467d4e171747e60a5e4bb3b3d11a741b1cf7928234"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/InfoPlist~applewatch.strings",
+      "bytes": 161,
+      "sha256": "3d5bc755cc3a838796686c6ae9edb562301060ea37b46e056dad8ee0ce35b3ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_GB.lproj/InfoPlist~iphone.strings",
+      "bytes": 161,
+      "sha256": "3d5bc755cc3a838796686c6ae9edb562301060ea37b46e056dad8ee0ce35b3ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 713,
+      "sha256": "9994fcdbd1954f404949f35369617e78cd50c0438b03e57ccb229e6ac3819cbb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/CBMessage~applewatch.strings",
+      "bytes": 13833,
+      "sha256": "a80770c81b0b058089b3e5534e29af6d147051eac755e2c8d71d7391cc606d04"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/CBMessage~iphone.strings",
+      "bytes": 28894,
+      "sha256": "6bd9e4f463efb737ae601e18c8b2beea9748d52cbb73c3132b6357c870ea9513"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/Cellular~iphone.strings",
+      "bytes": 1125,
+      "sha256": "d2755ce19bccafae57cc288cff1ccb4a47a0a0afb953ae02a23d67fbbb676b9f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/DataUsage~applewatch.strings",
+      "bytes": 833,
+      "sha256": "8ec4da6869cd5a28bea1c26e1f77ccb5bbfc38e43915d34be99d03fe3153697e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/DataUsage~iphone.strings",
+      "bytes": 1245,
+      "sha256": "e7584fc8665e2e3efc5d88fe35009d81224cbb23231f96ca575ba03d93487fed"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/InfoPlist~applewatch.strings",
+      "bytes": 159,
+      "sha256": "8a8d8cbc3159a97d880dd9f9946ad03ae54a99ce59a51f0fff5b853442e3da7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_IN.lproj/InfoPlist~iphone.strings",
+      "bytes": 159,
+      "sha256": "8a8d8cbc3159a97d880dd9f9946ad03ae54a99ce59a51f0fff5b853442e3da7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/Bifrost~iphone.strings",
+      "bytes": 5481,
+      "sha256": "4f287bcc00e1dde3f4ca11e34786375ae871879c154e31ea107462a09610e96e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 713,
+      "sha256": "9994fcdbd1954f404949f35369617e78cd50c0438b03e57ccb229e6ac3819cbb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/CBMessage~applewatch.strings",
+      "bytes": 13919,
+      "sha256": "91313ffafb9942c08307261a14e5650b1bd42a2db497896eb5ef1bd68303be83"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/CBMessage~iphone.strings",
+      "bytes": 29090,
+      "sha256": "950a6e20fa15710436be3bcac0a10e5ff36b813a3e652796f5aedf3c3a0831ad"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/Cellular~iphone.strings",
+      "bytes": 1138,
+      "sha256": "ed70b07938cb095a2bf64841c7373bcf592fb25c557e15e7f13848debede80ee"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/DataUsage~applewatch.strings",
+      "bytes": 835,
+      "sha256": "7715d4058280410d5df4e313fe4284f9399c95833cf29f0822898631685cd3c1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/DataUsage~iphone.strings",
+      "bytes": 1256,
+      "sha256": "78c7930f0b8ee395ad94e1a66d757da29120742959541da7326554a7e790162c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/InfoPlist~applewatch.strings",
+      "bytes": 161,
+      "sha256": "3d5bc755cc3a838796686c6ae9edb562301060ea37b46e056dad8ee0ce35b3ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/en_PH.lproj/InfoPlist~iphone.strings",
+      "bytes": 161,
+      "sha256": "3d5bc755cc3a838796686c6ae9edb562301060ea37b46e056dad8ee0ce35b3ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/Bifrost~iphone.strings",
+      "bytes": 8661,
+      "sha256": "4b22ea481c026458b3d6940ff3872f5ecbe0d7bc2f2911cfdbb7bed6663c8637"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1058,
+      "sha256": "f5551827c6f978230d9abee19864ea32b773c598293541ee6b06af50170bbfa4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/CBMessage~applewatch.strings",
+      "bytes": 20028,
+      "sha256": "d3c1775d626265c2264cb9567c3f8bd9bd7dc311bb9f7ba92bab2cbd132e1003"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/CBMessage~iphone.strings",
+      "bytes": 42563,
+      "sha256": "02f25bf794aaedcbce5e5081e9dce05be92742374560a6f520110b3ad2f8b7ed"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/Cellular~iphone.strings",
+      "bytes": 1797,
+      "sha256": "cb2be059429d72ac7a9dc3690cd52b629f93710cd7e1baf9b87ca4886d19d0f0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/DataUsage~applewatch.strings",
+      "bytes": 1302,
+      "sha256": "f1507225f89dab97b00af98447238767d45e2baba48ea1da9ee153c4548b14f3"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/DataUsage~iphone.strings",
+      "bytes": 2065,
+      "sha256": "fba47c9d8c694c62c9d900b511a6d8bb0658caab25310e083149167681634fc8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/InfoPlist~applewatch.strings",
+      "bytes": 193,
+      "sha256": "682bf481676be698c980a31ad28b8309f9f70e055cb9b8741f7cb7e10611c56a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es.lproj/InfoPlist~iphone.strings",
+      "bytes": 193,
+      "sha256": "682bf481676be698c980a31ad28b8309f9f70e055cb9b8741f7cb7e10611c56a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/Bifrost~iphone.strings",
+      "bytes": 7980,
+      "sha256": "b0b15760961fd75475316a6033cba3e8f81580486d4745fb92f006c086296637"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1080,
+      "sha256": "31212d39606d437254bcc93a686c9189211e2d0ff748fc942b4be50fcb2a6a2d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/CBMessage~applewatch.strings",
+      "bytes": 19181,
+      "sha256": "85e773879d5c3672ec20d750018a07a26cf56adf07b4b46a145d59d16942b234"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/CBMessage~iphone.strings",
+      "bytes": 40711,
+      "sha256": "7514261c65790c52bdb0f4f477fa4972aa322bd1ea9dcd5ec0bc246f1503d1d4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/Cellular~iphone.strings",
+      "bytes": 1829,
+      "sha256": "9caefe14303b99ec1bc71e7bbd49ac6ad103c9ef1963e3f5b6ec8052d0e905db"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/DataUsage~applewatch.strings",
+      "bytes": 1258,
+      "sha256": "dae3c5235815c5f1081149c47368bcbee867e8e3d4085eb58ad1a062487f4d87"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/DataUsage~iphone.strings",
+      "bytes": 1950,
+      "sha256": "54586e3fc964899f3a3d9399cd0ae028a9528741a5b55257f6edacb0ebca67ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/InfoPlist~applewatch.strings",
+      "bytes": 197,
+      "sha256": "359114acb97a090b0d2d91b5f68c81c52bef0f9540d4c3b25b6d810fc20d71d0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_419.lproj/InfoPlist~iphone.strings",
+      "bytes": 197,
+      "sha256": "359114acb97a090b0d2d91b5f68c81c52bef0f9540d4c3b25b6d810fc20d71d0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/Bifrost~iphone.strings",
+      "bytes": 8013,
+      "sha256": "7d21a4bb35ac3dcf8eb3ad9ad40767d95338bf19619201b6b3db24dd675caff4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1080,
+      "sha256": "31212d39606d437254bcc93a686c9189211e2d0ff748fc942b4be50fcb2a6a2d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/CBMessage~applewatch.strings",
+      "bytes": 19181,
+      "sha256": "85e773879d5c3672ec20d750018a07a26cf56adf07b4b46a145d59d16942b234"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/CBMessage~iphone.strings",
+      "bytes": 40711,
+      "sha256": "7514261c65790c52bdb0f4f477fa4972aa322bd1ea9dcd5ec0bc246f1503d1d4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/Cellular~iphone.strings",
+      "bytes": 1829,
+      "sha256": "9caefe14303b99ec1bc71e7bbd49ac6ad103c9ef1963e3f5b6ec8052d0e905db"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/DataUsage~applewatch.strings",
+      "bytes": 1258,
+      "sha256": "dae3c5235815c5f1081149c47368bcbee867e8e3d4085eb58ad1a062487f4d87"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/DataUsage~iphone.strings",
+      "bytes": 1950,
+      "sha256": "54586e3fc964899f3a3d9399cd0ae028a9528741a5b55257f6edacb0ebca67ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/InfoPlist~applewatch.strings",
+      "bytes": 197,
+      "sha256": "359114acb97a090b0d2d91b5f68c81c52bef0f9540d4c3b25b6d810fc20d71d0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/es_US.lproj/InfoPlist~iphone.strings",
+      "bytes": 197,
+      "sha256": "359114acb97a090b0d2d91b5f68c81c52bef0f9540d4c3b25b6d810fc20d71d0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/Bifrost~iphone.strings",
+      "bytes": 7709,
+      "sha256": "e755524d3821ada9fbcbb0eab1f7ef5a44f8011a44a831451169943efb274d66"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1072,
+      "sha256": "5636ee219442a6011f4e6d91bad7811b2cafa3879711dc53887c0a17b31cb74e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/CBMessage~applewatch.strings",
+      "bytes": 18798,
+      "sha256": "aa6b6a28f05890b0fdfb59f2823c5e7908ca8a54ec21759b2af985950f0525fa"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/CBMessage~iphone.strings",
+      "bytes": 39240,
+      "sha256": "b4fb84510fe28975ca6bb9741817fb3e68804a5f57322c5a47df3b23ddfbfd23"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/Cellular~iphone.strings",
+      "bytes": 1862,
+      "sha256": "019a5f90408bf0e3cd8968db187d7463bcc4647a52337ba8ca562c6ca475a334"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/DataUsage~applewatch.strings",
+      "bytes": 1138,
+      "sha256": "225017519ed2a6f1ab0d6c36262ecb9b1937ba8d7cbd208ee6d3530bb9791274"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/DataUsage~iphone.strings",
+      "bytes": 1600,
+      "sha256": "65fa6324f4e7899b88d7635dc909594133c0dda9d77bb4a3a59873a0374ddd7b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/InfoPlist~applewatch.strings",
+      "bytes": 159,
+      "sha256": "8a9fc9d484443c42e5faf08b3c7c6e3b7dd4a69e5b1204b2421359a4e9fa9e0f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fi.lproj/InfoPlist~iphone.strings",
+      "bytes": 159,
+      "sha256": "8a9fc9d484443c42e5faf08b3c7c6e3b7dd4a69e5b1204b2421359a4e9fa9e0f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/Bifrost~iphone.strings",
+      "bytes": 8290,
+      "sha256": "329f4809bcf7c1b607eef3f5700ac8f66a372d546e44ad8876a7a838c7d1993f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1308,
+      "sha256": "af0de2d71866f8d792cbd5a4dcd2f6bf429193d035e018844a51d1164018e8f4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/CBMessage~applewatch.strings",
+      "bytes": 21403,
+      "sha256": "cbdb531a9f0502883c2edee624acda8cd5dbb15410f64e2284e4d630e9d2e727"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/CBMessage~iphone.strings",
+      "bytes": 45896,
+      "sha256": "4f87d4923f9fdc2c270ecc1bbf7d33e35697cbde6a24cb63e4ef20eca3a3e485"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/Cellular~iphone.strings",
+      "bytes": 2101,
+      "sha256": "a225d4dd5fb27b754ac5f1c18ae47c3c202ca5eabab77601673e9dac6267bcf6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/DataUsage~applewatch.strings",
+      "bytes": 1387,
+      "sha256": "3c05f4292e11aac2db8c0e445417431f8bca96a5a8490f6802f630dfea2e786b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/DataUsage~iphone.strings",
+      "bytes": 2186,
+      "sha256": "29b0dce05048cc586577ec7edcded65ecafa7933ecacaa03daca0c302ad7b004"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/InfoPlist~applewatch.strings",
+      "bytes": 205,
+      "sha256": "5b29d7cd5692053a802277aca0b578055d7c83014be2dd8c42affe0c2d891f6b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr.lproj/InfoPlist~iphone.strings",
+      "bytes": 205,
+      "sha256": "5b29d7cd5692053a802277aca0b578055d7c83014be2dd8c42affe0c2d891f6b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/Bifrost~iphone.strings",
+      "bytes": 8559,
+      "sha256": "d09410755f58517a1dd2e6372b14f54cf2c87037edf381487517f304dc2dbd0b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1256,
+      "sha256": "1cb3febe8b0ee8f3be2bf405f1ea8ef261ee34c8581f5fe8d4f5fc97365c9395"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/CBMessage~applewatch.strings",
+      "bytes": 21536,
+      "sha256": "52cea14b99667f023f8fe72fe9da849fe4821dbe0195111285967669c23554c6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/CBMessage~iphone.strings",
+      "bytes": 45260,
+      "sha256": "2a57100a728e4501b6272ec60f0ceb3abb33b1b6441e74691265eb9e2f77eaa7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/Cellular~iphone.strings",
+      "bytes": 2069,
+      "sha256": "da25d4a22256df43f5c5e14e2622fc459691416e895d85713e3d18b63f0ee185"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/DataUsage~applewatch.strings",
+      "bytes": 1382,
+      "sha256": "f10db9315d44b24ba8b8271ec8b3f96ffdbf41177f3522063a0b214e16ebfefe"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/DataUsage~iphone.strings",
+      "bytes": 2181,
+      "sha256": "3c2edb4dc9063cf07641b09b7d5fe33aa7f250838693c5ba0ae9a26079fe055b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/InfoPlist~applewatch.strings",
+      "bytes": 213,
+      "sha256": "36736e22971d37d104e2f1d122740baf5a96537b995477b0f0c4c9bb7d24183d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/fr_CA.lproj/InfoPlist~iphone.strings",
+      "bytes": 199,
+      "sha256": "6687e8fb56d29ee2e05765cade056f7de4da9b5aad2f7e0e71ae5aa9f6b6d99e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/Bifrost~iphone.strings",
+      "bytes": 7896,
+      "sha256": "5ee421c5cdaf0251b5bbfeea074a8cf126a71550f451bf4277801a94cc462394"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1116,
+      "sha256": "a7a346588748ba972df8d52fbb470c32ac4e442bda9a59be74a25c0da9dd75a5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/CBMessage~applewatch.strings",
+      "bytes": 19366,
+      "sha256": "2462722181c9915ea5a35d65010982ab6a5630c27c1808dd5dc643cf5df97867"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/CBMessage~iphone.strings",
+      "bytes": 41044,
+      "sha256": "52aba959be642b034e5a03d13af25f109019ef8c1abbc56d6863da4fa2b258d4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/Cellular~iphone.strings",
+      "bytes": 1906,
+      "sha256": "2e582726fb526488fef107b9c5817ce2c3024fe8bcf298a0dbdbf9e0c9b0842d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/DataUsage~applewatch.strings",
+      "bytes": 1217,
+      "sha256": "46f654aa5203fb83fad57d892b44bdb5e8302d97eabadb261da210e7878f93c9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/DataUsage~iphone.strings",
+      "bytes": 1968,
+      "sha256": "fba9d0c5512c6c42ddb7f8de4048b1a317650aa8ae6dc4f6612b490df8e701f7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/InfoPlist~applewatch.strings",
+      "bytes": 179,
+      "sha256": "99ff7e34087c2c7e57afe7bfe97594bcc5debc71ab8c9818518378792c6d24e3"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/gu.lproj/InfoPlist~iphone.strings",
+      "bytes": 179,
+      "sha256": "99ff7e34087c2c7e57afe7bfe97594bcc5debc71ab8c9818518378792c6d24e3"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/Bifrost~iphone.strings",
+      "bytes": 7320,
+      "sha256": "546c9542438c84d70878620b7ca7e31a5973038f024cb783e2d76b1c746e6bb3"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1102,
+      "sha256": "246ba473204e923aa350e98eb032092ab3ebc59e4bafbbf4110cb83312663150"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/CBMessage~applewatch.strings",
+      "bytes": 18021,
+      "sha256": "f41f90a07c3a5d668280e2e7562c33b8d9aabc1cdb9a8be1374bc089d73edba4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/CBMessage~iphone.strings",
+      "bytes": 37843,
+      "sha256": "2e6ff4318f582f7e28208167d4a4ff650020e734f137010b3df8e1f0c21eea65"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/Cellular~iphone.strings",
+      "bytes": 1618,
+      "sha256": "887868f8a32a25477c3f7b8af8bce18fd8c48b9fac1bb11f483ffd782e36ddf1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/DataUsage~applewatch.strings",
+      "bytes": 1285,
+      "sha256": "0562d34e1e250e661a825078bc1e3f2fc5ba4740ae616a9b93f70dc49e7a9e2b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/DataUsage~iphone.strings",
+      "bytes": 1892,
+      "sha256": "f71f55f29bdef300d590c9b66fa40d4af6cb9c31c1b5f5c3a542bd06cee67822"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/InfoPlist~applewatch.strings",
+      "bytes": 179,
+      "sha256": "1e5dc1ae04c5210616733cc86be7c62201c8998bf37f4a1aa7de96ff9f886fbe"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/he.lproj/InfoPlist~iphone.strings",
+      "bytes": 179,
+      "sha256": "1e5dc1ae04c5210616733cc86be7c62201c8998bf37f4a1aa7de96ff9f886fbe"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/Bifrost~iphone.strings",
+      "bytes": 8248,
+      "sha256": "c2211ccc2e966966f3f14f84e7e82b429861d6f36a5061a53dbb2b5c4b2ce8b0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1194,
+      "sha256": "01a014baf54110620fd1d51768737848424671bda58db26c6f03e493a6dbd1f9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/CBMessage~applewatch.strings",
+      "bytes": 19685,
+      "sha256": "ae2cf2007764efaa7401c18c52652ddc62dfe6da6e6bd5c0de83d341240681ce"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/CBMessage~iphone.strings",
+      "bytes": 41741,
+      "sha256": "88049fa975b6b3f5910a735f99cc6ccdd2ecc781b1ee951d962c2e43c4cdb0f6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/Cellular~iphone.strings",
+      "bytes": 1920,
+      "sha256": "7f989eb0588669aadb6829c300e4f9048ef5327ce1eaa3450d3163e24e369955"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/DataUsage~applewatch.strings",
+      "bytes": 1317,
+      "sha256": "69402bf519627a0a42627fc6815114796aa9d849bcf54cdfec76eb2b07a44320"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/DataUsage~iphone.strings",
+      "bytes": 2072,
+      "sha256": "77fad4a9c737f7e21c924cd894cbd637be0571356bf077a911cc40e29c78d218"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/InfoPlist~applewatch.strings",
+      "bytes": 192,
+      "sha256": "ad0f2a54dbe5dd0771612898ddad1cf57b181e9ab59e55f50ec987eca887fee2"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hi.lproj/InfoPlist~iphone.strings",
+      "bytes": 179,
+      "sha256": "7d2b3a6ce2bc665596ae6c91272d7504c6b41d9f71d886fadbeea3749a0efb3d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/Bifrost~iphone.strings",
+      "bytes": 7428,
+      "sha256": "a53256ab8cb2a181e87dfe68dffed59f4f73c8bc95f5238280b1150bcaec642b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1168,
+      "sha256": "b4c00a59ba0b3788f5c6ee9c42948cd9338f71bb7ec73761c781514a0a2ffab9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/CBMessage~applewatch.strings",
+      "bytes": 18277,
+      "sha256": "a896a547066bc24c246cff14b7358a82830bac9055d549b1a0cde1e24cf5c1aa"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/CBMessage~iphone.strings",
+      "bytes": 39668,
+      "sha256": "bdeaffd544162e9d98d297cd35c3c565b8cefd616b7350a570243153e16106cc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/Cellular~iphone.strings",
+      "bytes": 1859,
+      "sha256": "582688ddaa0db6a1691519ce9d267309c49a2f9f0eb17913955fcc0fa100b54b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/DataUsage~applewatch.strings",
+      "bytes": 995,
+      "sha256": "7886db27529746182f294a4ffe20f1495599575a102d73f401dfebbcbff45278"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/DataUsage~iphone.strings",
+      "bytes": 1672,
+      "sha256": "a08d34a9f7d7edce8af258017e30be623494807c825da88f4527d63ce22dcf18"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/InfoPlist~applewatch.strings",
+      "bytes": 168,
+      "sha256": "7a5d4935785a526b8043af5054ec55d98c17098d80fade2a3dff963624dfaf44"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hr.lproj/InfoPlist~iphone.strings",
+      "bytes": 168,
+      "sha256": "7a5d4935785a526b8043af5054ec55d98c17098d80fade2a3dff963624dfaf44"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/Bifrost~iphone.strings",
+      "bytes": 9410,
+      "sha256": "c2024cdb448f1f9e3c78ae1bef0308e0bca1eb3734b11f4c1e4bb90e9825c256"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1276,
+      "sha256": "84ab638a04780b45ff396db6e07b05176519980916373d168466c974e0bd2c84"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/CBMessage~applewatch.strings",
+      "bytes": 21842,
+      "sha256": "24ccb2f8902e7eb965b2c9aa9a80befad2425575839fe71e8831adaa8093150a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/CBMessage~iphone.strings",
+      "bytes": 45351,
+      "sha256": "6b28bff9ff2bf31a5f87ad970b2b815adb15a790be3c01d5eb57ca3367d3a29a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/Cellular~iphone.strings",
+      "bytes": 1980,
+      "sha256": "8e31d75873ad875d31e3cdca22104530249474e5b05850accdcd721720760f83"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/DataUsage~applewatch.strings",
+      "bytes": 1457,
+      "sha256": "650527718043690dc6df1c530d9772ebbdf71443fc4fec1718750188e6be036a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/DataUsage~iphone.strings",
+      "bytes": 2310,
+      "sha256": "bd7b68399dca43389762f5b8213cbed53203a3d29c78cf0b92d3835d179765c9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/InfoPlist~applewatch.strings",
+      "bytes": 184,
+      "sha256": "692682d7c2af2bf1f77e03b80fba934d4217ea74d796e14cf063f751953b88a7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/hu.lproj/InfoPlist~iphone.strings",
+      "bytes": 184,
+      "sha256": "692682d7c2af2bf1f77e03b80fba934d4217ea74d796e14cf063f751953b88a7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/Bifrost~iphone.strings",
+      "bytes": 5448,
+      "sha256": "33b01c113bda19d5a3e5843549246a7979b8c3ae08f462370257328499e8a2ff"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 668,
+      "sha256": "ec271ca744cfd804827abcea58a88ce5a490b435d3e4a379486ca0a8836788c8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/CBMessage~applewatch.strings",
+      "bytes": 13377,
+      "sha256": "2c22f0dc557f03c0b1cdfc5cf2d633fbea2072fc62521950b8d471abbc3d1e50"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/CBMessage~iphone.strings",
+      "bytes": 28323,
+      "sha256": "8065e1424bc43321e790c8f693794d8ea20871c4104e82fc1be4c4cc2ce56321"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/Cellular~iphone.strings",
+      "bytes": 1174,
+      "sha256": "773977a9b3b3300533155ef32f91fee5f4da0026726e82cd29947b9f9b93eca7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/DataUsage~applewatch.strings",
+      "bytes": 847,
+      "sha256": "e7f3f10e288626d1acec0812997e15f2f849d102fb4c99aeb22fdefd5a7088d2"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/DataUsage~iphone.strings",
+      "bytes": 1372,
+      "sha256": "72b12c6dfffa85b33bfa7283ad66cee9fcee478f2320ab9105fc2d4203ecacf1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/InfoPlist~applewatch.strings",
+      "bytes": 163,
+      "sha256": "f645296e6611524fbc1df8d00dddf5a454491f96a777c381c0585fa1fb19833a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/id.lproj/InfoPlist~iphone.strings",
+      "bytes": 163,
+      "sha256": "f645296e6611524fbc1df8d00dddf5a454491f96a777c381c0585fa1fb19833a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/Bifrost~iphone.strings",
+      "bytes": 7873,
+      "sha256": "ebdb14d477c36ba5ee86273efcabcc92a09d015986d6934ccb25340ea0640e09"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 959,
+      "sha256": "87cc575f1ca326818145b2598f0cecc48e4daf53935874ccf4e7a309fc5680ff"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/CBMessage~applewatch.strings",
+      "bytes": 18530,
+      "sha256": "08f24e710ad858d7687da142df0e5f329b8578e98bf41fc58bba575e4a3acdc5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/CBMessage~iphone.strings",
+      "bytes": 39454,
+      "sha256": "87fb1843bb9b832b96643c8504dae2fe82e03a93df22e0811e93058e48a62555"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/Cellular~iphone.strings",
+      "bytes": 1861,
+      "sha256": "73b5d30bf3e2931b20327b5c9dd8b1949c201a060635ab57bfd78ca3cbd652bb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/DataUsage~applewatch.strings",
+      "bytes": 1284,
+      "sha256": "834dc79b2e82d3726f8c51a023813298e0378275d361eaae184db0606d80f88f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/DataUsage~iphone.strings",
+      "bytes": 1888,
+      "sha256": "fb3fa12741f82399513690606dd7a4c025b9130085a0b39e9fde77366f6714bc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/InfoPlist~applewatch.strings",
+      "bytes": 165,
+      "sha256": "175129276927d432d63091005ce291ef5e5f3496d346a8246ee1933d7a335e77"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/it.lproj/InfoPlist~iphone.strings",
+      "bytes": 165,
+      "sha256": "175129276927d432d63091005ce291ef5e5f3496d346a8246ee1933d7a335e77"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/Bifrost~iphone.strings",
+      "bytes": 5368,
+      "sha256": "dcf4c29fd41dd873cf246f690973f842ca90ce4fbdb85ac8cb56cfc3c54df927"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 760,
+      "sha256": "cb308ea9b36548a95ca912909ffea33b00475d82d71ca13f6a09d8f10f94abee"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/CBMessage~applewatch.strings",
+      "bytes": 13468,
+      "sha256": "54e1f511a29958afce4894683d90a5359a80a3093defad4360d1bdf5ecb28f6f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/CBMessage~iphone.strings",
+      "bytes": 27658,
+      "sha256": "a20d02f7023b444e5c16c05906e383cef88fd32c849148ca14c41c1002775a9e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/Cellular~iphone.strings",
+      "bytes": 1114,
+      "sha256": "4c0a8194ebe12a3818f1ec1547d9d9cd5b7f8e66f0d4409ce77d3f95af3ad623"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/DataUsage~applewatch.strings",
+      "bytes": 890,
+      "sha256": "d67496d152511938876f758bdd0a5bd5f6c38024a2aacd2b2c5f2099100324ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/DataUsage~iphone.strings",
+      "bytes": 1381,
+      "sha256": "81b181bc6c943f39b6f7cf7da945143a80bd837fd03afe6a7544b00df441c94d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/InfoPlist~applewatch.strings",
+      "bytes": 155,
+      "sha256": "1213f74dfc0f4906db32a5d7fdb9db0d564b65b0bc1faa278ee47fc6809d20b4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ja.lproj/InfoPlist~iphone.strings",
+      "bytes": 155,
+      "sha256": "1213f74dfc0f4906db32a5d7fdb9db0d564b65b0bc1faa278ee47fc6809d20b4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/Bifrost~iphone.strings",
+      "bytes": 8664,
+      "sha256": "425830f7bc819eaf468db1ab29b4d46e1fc5710e97e08c33877aff1a4d5253c7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1292,
+      "sha256": "f27109da86f56527588951462b9486c4155f8ca1ac58b6cb64db022ea9e9c34f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/CBMessage~applewatch.strings",
+      "bytes": 22172,
+      "sha256": "e2cb4297aa0aa59814a3b17279d004f4d2a2aa82394493abf75caf0ceb8229dc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/CBMessage~iphone.strings",
+      "bytes": 46170,
+      "sha256": "9bc30e4fd4a2ac15bdac2a6871d08b96cebd3e7bd6c81362d7834352fa348c29"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/Cellular~iphone.strings",
+      "bytes": 2050,
+      "sha256": "40272a43911ab11cff0bf217fd1bacb8eab9ef9d1fee187178603f5bac6e75d1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/DataUsage~applewatch.strings",
+      "bytes": 1408,
+      "sha256": "5f50219738155073c3835938f55e1aa0a33ec08d1c19d4f7f54bbae18ef3b4e7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/DataUsage~iphone.strings",
+      "bytes": 2168,
+      "sha256": "9ec4f5c4d3301e7fb1793e8a8dd14c0adf026b6dc7d4030d7f91fad4e1eeb3a2"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/InfoPlist~applewatch.strings",
+      "bytes": 183,
+      "sha256": "934279be8ce9fe0d19f05c66771654c9b295da51b18fa68bce8a8695bc7973e0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kk.lproj/InfoPlist~iphone.strings",
+      "bytes": 183,
+      "sha256": "934279be8ce9fe0d19f05c66771654c9b295da51b18fa68bce8a8695bc7973e0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/Bifrost~iphone.strings",
+      "bytes": 8325,
+      "sha256": "44d0fb46c268ff76b0feb73a3c46ee1b558f40a56fb7efffec1374f3c3c3950e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1276,
+      "sha256": "152c92e8af79cd3909ea367081047ed7585e45700265fbdd213e4913a79ee29c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/CBMessage~applewatch.strings",
+      "bytes": 22217,
+      "sha256": "34de37d48b80d6e3577ce42d6af11d8325f318c034b62525b40bcf7fd7a145b7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/CBMessage~iphone.strings",
+      "bytes": 46055,
+      "sha256": "09f99683dd8013a56423c6250b1a98f08af2aa2acce368788414957be21f1b8c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/Cellular~iphone.strings",
+      "bytes": 2078,
+      "sha256": "eaa4065bd70252a8af2ac539fb3529fedb056dc0aa30fef03bac7e1ccecc1501"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/DataUsage~applewatch.strings",
+      "bytes": 1260,
+      "sha256": "ba4a10367045e367084f838171e768ae50e9f5705a7d8267c3e3cc71127d5983"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/DataUsage~iphone.strings",
+      "bytes": 2065,
+      "sha256": "541017ac00666397adf2a55a63add66592811f1ae818f0578ecf24766396fad4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/InfoPlist~applewatch.strings",
+      "bytes": 189,
+      "sha256": "f003ae2e4d6c1281a068847ca23db5deca3fe48d97dbd0036ab9ffcc42bfc5c5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/kn.lproj/InfoPlist~iphone.strings",
+      "bytes": 189,
+      "sha256": "f003ae2e4d6c1281a068847ca23db5deca3fe48d97dbd0036ab9ffcc42bfc5c5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/Bifrost~iphone.strings",
+      "bytes": 5660,
+      "sha256": "e3455ef9199a6ddb02b9529bfa4d8f163ecf7171fa2c4bb4d9c07de901237343"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 671,
+      "sha256": "8f23a99b9e434c7e8bb8bf26cb14da31f51f9436ed270ffa38d50748a79f9221"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/CBMessage~applewatch.strings",
+      "bytes": 13610,
+      "sha256": "a78f2e33d86cd9be983680fa40712047f32c4a6d57691f246e93bec8e419bc2f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/CBMessage~iphone.strings",
+      "bytes": 28563,
+      "sha256": "ea7cde59b9b05e3f1b4cbd9014de432b94c638efd9867a9d1602925722bde69c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/Cellular~iphone.strings",
+      "bytes": 1130,
+      "sha256": "86c3f4bcf01eb02dbc67efc5140a0b9e375132dae34a72028807f673f2dca2c1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/DataUsage~applewatch.strings",
+      "bytes": 899,
+      "sha256": "8ae2d7ecd8473d52c9fb5181f7b201aac547ea06723367df816e3ab6b24d77c1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/DataUsage~iphone.strings",
+      "bytes": 1370,
+      "sha256": "039ee6557f5341f3246c87c6277a811c0ae7060c2320d3e0dcef553d5adc61ff"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/InfoPlist~applewatch.strings",
+      "bytes": 159,
+      "sha256": "a176b3ca371eeabbb0fbad4a956d057f6be714e3b42cb0541c80e3296c260c52"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ko.lproj/InfoPlist~iphone.strings",
+      "bytes": 159,
+      "sha256": "a176b3ca371eeabbb0fbad4a956d057f6be714e3b42cb0541c80e3296c260c52"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/Bifrost~iphone.strings",
+      "bytes": 8331,
+      "sha256": "8237082925eccd357862a9cb6c03d4ef7199b2f510343bbc28290b1109bf7d58"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1250,
+      "sha256": "28a3021247a7d68b77b6a25588a75e4cbd0fbef9142f410bdd6d87e7c53c200c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/CBMessage~applewatch.strings",
+      "bytes": 21024,
+      "sha256": "2045fb27477626b575ee222629071a37f67f8a157ad4433074196604a0c1fd5a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/CBMessage~iphone.strings",
+      "bytes": 42888,
+      "sha256": "c0fd4914cd61922fff11ae4ed97908eaa799c47b7ceaddd358effae2f8b95bba"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/Cellular~iphone.strings",
+      "bytes": 1810,
+      "sha256": "7cd21c2f25e3b8d32c8ffbbeca4b81f2e2002187bee103b878896fa4c0d6398b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/DataUsage~applewatch.strings",
+      "bytes": 1312,
+      "sha256": "e4dd72ecc87bb2bd5b35715e2fc8272a953ea6a9d0d006b1bdd33b007e82d0a0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/DataUsage~iphone.strings",
+      "bytes": 1998,
+      "sha256": "890bb2b63a014d76044bdc753f66768fc31680e9bf8683279888b288e21d451e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/InfoPlist~applewatch.strings",
+      "bytes": 204,
+      "sha256": "f58f3aa9647bf7c4869f4a7c4be6a9906e7b50d2597fd7c8ef5da3ac47e12790"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/lt.lproj/InfoPlist~iphone.strings",
+      "bytes": 204,
+      "sha256": "f58f3aa9647bf7c4869f4a7c4be6a9906e7b50d2597fd7c8ef5da3ac47e12790"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/Bifrost~iphone.strings",
+      "bytes": 8298,
+      "sha256": "55d7776b1159c590fab82350f3506c2e55e2724114587d328bdd31cc8e6cb59e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1264,
+      "sha256": "bf58c3209775d30667f86e4b661de7ae53d7dff40e26ff887df29c691012c8fe"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/CBMessage~applewatch.strings",
+      "bytes": 21689,
+      "sha256": "b062f40bf8fa4d244fef7e53a73164086c526bb259a69a48d3010757e9b1082c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/CBMessage~iphone.strings",
+      "bytes": 45679,
+      "sha256": "42352242285f46901faed62107c79b9e26072bc56a570510f90738b7d569bf0f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/Cellular~iphone.strings",
+      "bytes": 2008,
+      "sha256": "5b5fc770642fe31b7efb37b15402bc828b54c874f8c6e6cece2371864db0f8e1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/DataUsage~applewatch.strings",
+      "bytes": 1301,
+      "sha256": "77997d31049b5dd8046e0d1bd73a53e0a84576e8efa1eae12a4e59f4100cfbd3"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/DataUsage~iphone.strings",
+      "bytes": 2094,
+      "sha256": "39151b2862fdebae29af06b8d56f316bf7d011879ade9dbacbaafeef50b97f24"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/InfoPlist~applewatch.strings",
+      "bytes": 191,
+      "sha256": "63f83f56bcc57122b81fd21728ebf123d46676a030b7229679763f38c6a782b9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ml.lproj/InfoPlist~iphone.strings",
+      "bytes": 191,
+      "sha256": "63f83f56bcc57122b81fd21728ebf123d46676a030b7229679763f38c6a782b9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/Bifrost~iphone.strings",
+      "bytes": 8332,
+      "sha256": "b5993e54dfd0c9cea24facf52f68644a1e3939d599624af37fe69552cb7641ab"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1076,
+      "sha256": "30dfbefa3376795fec78942b460d3d530fc849d4cad0ac7e6e61861202fd4400"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/CBMessage~applewatch.strings",
+      "bytes": 20193,
+      "sha256": "81d377a58d7a9307401e94b0f96faee297553c607f131847823a78356e01b914"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/CBMessage~iphone.strings",
+      "bytes": 41639,
+      "sha256": "c69572c0b00190950cc914a614e2bbf55b8c1365d43428a644fc91163cd64319"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/Cellular~iphone.strings",
+      "bytes": 1862,
+      "sha256": "e96a4a01d139ad6543ff944d228382c049c26372476f7d1d84f0eb5e23b236f5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/DataUsage~applewatch.strings",
+      "bytes": 1239,
+      "sha256": "fa1a3670d690004411624859144632c48180df367b86efd01f80d6b7b0b962bc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/DataUsage~iphone.strings",
+      "bytes": 1994,
+      "sha256": "0f8a196c0216cc5cc816f66f299d79f37882cd47d58a76c0e3f4d946782d8e4e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/InfoPlist~applewatch.strings",
+      "bytes": 179,
+      "sha256": "65dcf94ec01ffc37943a603061de8f120801b14cb7a35acd0bbe603cb4409f69"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/mr.lproj/InfoPlist~iphone.strings",
+      "bytes": 179,
+      "sha256": "65dcf94ec01ffc37943a603061de8f120801b14cb7a35acd0bbe603cb4409f69"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/Bifrost~iphone.strings",
+      "bytes": 5667,
+      "sha256": "76df9f5d49131893d19f06dc7004252a4b93c8f8627391e029704e89fb47866f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 677,
+      "sha256": "440e642f51de5965788c9dc9e4041c5ad86c75695694a455876f4f3afa16f297"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/CBMessage~applewatch.strings",
+      "bytes": 14136,
+      "sha256": "b142e52c4bebc161bac3e41320143db6fac2bb40a7461dde67518ebe2708ba05"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/CBMessage~iphone.strings",
+      "bytes": 29798,
+      "sha256": "58ddad3ad85f945288eaef017851f2f0c068eb0f544a6a22f17120a5863439e9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/Cellular~iphone.strings",
+      "bytes": 1188,
+      "sha256": "533438220ca7899ac729ab3cec07c00b4518c8025b6edc463100c429bdcafd89"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/DataUsage~applewatch.strings",
+      "bytes": 1140,
+      "sha256": "a15f5ea7b6b430ab5f9c7806668e198e5c6d61ed95f8fdf549d1587455cba68b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/DataUsage~iphone.strings",
+      "bytes": 1467,
+      "sha256": "916d456b795d2dc8887263670d49ffcc9380ef1ffcfe962e4d757095fbf60fab"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/InfoPlist~applewatch.strings",
+      "bytes": 162,
+      "sha256": "132666d12cca0314b46b1daafc68023861dd7897b2e903871d7feae149aaa33c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ms.lproj/InfoPlist~iphone.strings",
+      "bytes": 162,
+      "sha256": "132666d12cca0314b46b1daafc68023861dd7897b2e903871d7feae149aaa33c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/Bifrost~iphone.strings",
+      "bytes": 6626,
+      "sha256": "c054df8b1585ec9b6b8a0a66f2e2b1d81d5dce6b933c1c4b4c4a1617474c9be6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1384,
+      "sha256": "92de05d09c91bcabbdfd08cef0f218256fcc3a426c3e2421cca9b88dd589d13f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/CBMessage~applewatch.strings",
+      "bytes": 16795,
+      "sha256": "dc2f86471e42ff9bf79b8ecaac71ed4480b8e2c4920bb182942f192b91235efd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/CBMessage~iphone.strings",
+      "bytes": 34649,
+      "sha256": "2c2f7580158b914dc9989982dc0617edbefef24b08235e6c4c8b71fd50b5b884"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/Cellular~iphone.strings",
+      "bytes": 1241,
+      "sha256": "ff9c79d83450c9b478a846fee66f8281ed288ab7ee539b725c384543e02988fd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/DataUsage~applewatch.strings",
+      "bytes": 1072,
+      "sha256": "1a039ce5bd473ec6196d2418333c313127c3d378e85452094441fc3a0c24fb39"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/DataUsage~iphone.strings",
+      "bytes": 1303,
+      "sha256": "7a1d292d44d3b68530e2e0c6717305e6fe54c75c3ae48c049e6cce2384465195"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/InfoPlist~applewatch.strings",
+      "bytes": 164,
+      "sha256": "68c4addf429d33472143f588c0e32b946c2d53caa69ee9f7eda9b85aea343226"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/nl.lproj/InfoPlist~iphone.strings",
+      "bytes": 164,
+      "sha256": "68c4addf429d33472143f588c0e32b946c2d53caa69ee9f7eda9b85aea343226"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/Bifrost~iphone.strings",
+      "bytes": 7236,
+      "sha256": "85b469a63f8ac797aab5316483cb5412dfb7b3568b88f9b8140bd5d86cae09c4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1106,
+      "sha256": "8ed5cd7ff811142af8f71a30e5026b7497b3c7c555968f8ec8a891322d43e3a5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/CBMessage~applewatch.strings",
+      "bytes": 18462,
+      "sha256": "61433c7d41d6934d3d3a8b445c1aab8809f8c208a1b847fa8a0548ec9fce1f34"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/CBMessage~iphone.strings",
+      "bytes": 38003,
+      "sha256": "40c302ed350be5f179080f89cd059b87ee26392b5a51371e8a0df38a329e3b1b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/Cellular~iphone.strings",
+      "bytes": 1850,
+      "sha256": "65ccdca3a89d3985d8c2c1c5213d0ca6d059d4453feb94ccfaa4ee31c3e7903e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/DataUsage~applewatch.strings",
+      "bytes": 1144,
+      "sha256": "cb36b9414eb06660b303242bf107278151d9738c94708ab9d1d8b1c01d738385"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/DataUsage~iphone.strings",
+      "bytes": 1630,
+      "sha256": "42d6279672c95a7bf794e6034272b25e05350fd7b0b9463246bdb3b23aab3d10"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/InfoPlist~applewatch.strings",
+      "bytes": 176,
+      "sha256": "3d28d99043899ddf710416c24220de673c7c5ad9ec71aecfd19be119e55483a4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/no.lproj/InfoPlist~iphone.strings",
+      "bytes": 176,
+      "sha256": "3d28d99043899ddf710416c24220de673c7c5ad9ec71aecfd19be119e55483a4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/Bifrost~iphone.strings",
+      "bytes": 8678,
+      "sha256": "9affebada251c231d6810484f116d8357b69256ea1198cba6be8ed060f4b9c2b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1150,
+      "sha256": "446fffe912b2acc8a91958367577c5d938495117b28b69c193adf402ade2cc47"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/CBMessage~applewatch.strings",
+      "bytes": 21516,
+      "sha256": "5c8f74ecd40497b4d21a3c47f3a24d64d638e9195950fec1d4ddf31ef6710272"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/CBMessage~iphone.strings",
+      "bytes": 45087,
+      "sha256": "385951e4d858d3b0c6e87f08bd7ecfe554c8ea247ac4380422f21d5eab63925b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/Cellular~iphone.strings",
+      "bytes": 1990,
+      "sha256": "a1235cd9a7ca8634b20b45c2b6722d3c5de9908fbe8390e0875a15a50e8cbe21"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/DataUsage~applewatch.strings",
+      "bytes": 1271,
+      "sha256": "2f310ff92de45138718d1779fe0294411717dbd990bf3a200e5b8dcb86ab8672"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/DataUsage~iphone.strings",
+      "bytes": 2098,
+      "sha256": "c06bc4403f452b53c64706894aa0239f726d296ec5af75ce02a32b33b415f4d6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/InfoPlist~applewatch.strings",
+      "bytes": 195,
+      "sha256": "7c78a25fd610244ba49b322eec0a73e69192e1f1d26913efab442e9d9b356909"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/or.lproj/InfoPlist~iphone.strings",
+      "bytes": 195,
+      "sha256": "7c78a25fd610244ba49b322eec0a73e69192e1f1d26913efab442e9d9b356909"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/Bifrost~iphone.strings",
+      "bytes": 8282,
+      "sha256": "507c898b6d262ac7ce084676de5477d54b65ecdace53d377bfef36307917865e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1156,
+      "sha256": "e6843ca1866f773fd93b2aac618100d7b5a648c28160fea49d49c066c13bdce6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/CBMessage~applewatch.strings",
+      "bytes": 20780,
+      "sha256": "5c7d6647e6d4c26a17b36a470dbb73640a30492b8f651b39d7bacc5658b5ca4f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/CBMessage~iphone.strings",
+      "bytes": 43168,
+      "sha256": "504ae80839d5f7a0e1f7e40042d7b9707592928f2ce659672d937dbda758ed16"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/Cellular~iphone.strings",
+      "bytes": 1890,
+      "sha256": "9f48905ce2e8b4fdd961bc1d3a303320d1b76eea218af8121f016d56cb7d1fb1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/DataUsage~applewatch.strings",
+      "bytes": 1191,
+      "sha256": "bd435031329ab0c116ea8f976498b7f4a2392d4cca34d31d68ae10c6175e0667"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/DataUsage~iphone.strings",
+      "bytes": 1948,
+      "sha256": "74a77034adcd7ad9c687c0bff29637dc6ea8298c2dd38a6a332f0f1d0a5f55b8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/InfoPlist~applewatch.strings",
+      "bytes": 175,
+      "sha256": "bebfd6dbf75377f86d827858d0aa67eaee088a7976fcac4b1f395ac0c69c8f9b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pa.lproj/InfoPlist~iphone.strings",
+      "bytes": 175,
+      "sha256": "bebfd6dbf75377f86d827858d0aa67eaee088a7976fcac4b1f395ac0c69c8f9b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/Bifrost~iphone.strings",
+      "bytes": 8472,
+      "sha256": "a40e8cdf3229f791a0fc4dac57e63bf0cecc67fce22b9df7ca93a288ac332f23"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1254,
+      "sha256": "db3e296447be307e06c96ad99c49831e44c36856fa0474ab9bd009e5b3c3d0de"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/CBMessage~applewatch.strings",
+      "bytes": 20435,
+      "sha256": "7bb0b38b9c0a9a8606050d139f59713c8ca75ee8d7011c7b9580f5d271ca5295"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/CBMessage~iphone.strings",
+      "bytes": 42725,
+      "sha256": "983dbc16abde37ffd54ce12211f86adc06c28012121ad30efd70ccdcfacaf9bd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/Cellular~iphone.strings",
+      "bytes": 1934,
+      "sha256": "c0eb08274d770de412f6b79776bf234a0fe53807894115cebe77f904371d95cf"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/DataUsage~applewatch.strings",
+      "bytes": 1424,
+      "sha256": "e4443d45c34f68bd3220aef7a559b49c39b2d85443047279b427fc203b0ab6e6"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/DataUsage~iphone.strings",
+      "bytes": 2227,
+      "sha256": "dfe9bb6a1e96305a8c8d0f2c8ed2553e0ed9133bb12f9ea53085c94927f73320"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/InfoPlist~applewatch.strings",
+      "bytes": 188,
+      "sha256": "8c8e9f4f05907f60e1739c03d1e2c13f97220eddda59e40c26ffa2a1d3c83d4c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pl.lproj/InfoPlist~iphone.strings",
+      "bytes": 188,
+      "sha256": "8c8e9f4f05907f60e1739c03d1e2c13f97220eddda59e40c26ffa2a1d3c83d4c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/Bifrost~iphone.strings",
+      "bytes": 8308,
+      "sha256": "7b56298cd23f6f9794d4d088706c5f5357193c5b306f3cbaa2ef7fc8fe5488e7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1063,
+      "sha256": "8e9951b71e6b7218ab6c164f2850d2442fafd70e1fe64511c3e4ecbb718b32e5"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/CBMessage~applewatch.strings",
+      "bytes": 19467,
+      "sha256": "0ad50e0ee47f188605f2e3344e8fa5959c9acd0483e1c39c444a562094114cdd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/CBMessage~iphone.strings",
+      "bytes": 41417,
+      "sha256": "6414a40a96dc4bce0f8e36987915211a2f06c73c569d57e0dce6c42533cb42d0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/Cellular~iphone.strings",
+      "bytes": 1831,
+      "sha256": "153b2de104621b8b8ae01ea15c63f3117c02ce57325fd64169a45436e1e2ed2a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/DataUsage~applewatch.strings",
+      "bytes": 1167,
+      "sha256": "4cef61f704a4b0be99ac1f0d3b9e45eddf73aef97d6d68699fa7c52d64be1f50"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/DataUsage~iphone.strings",
+      "bytes": 1849,
+      "sha256": "226fce1c6153be303e936973e0c6bf47fd38bc676c598b8f2586c09fe88d4de0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/InfoPlist~applewatch.strings",
+      "bytes": 164,
+      "sha256": "dd0fb18c28bcd1f6a978c3ceb9ac075b30e3808423c8a78e587effe74f137940"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt.lproj/InfoPlist~iphone.strings",
+      "bytes": 164,
+      "sha256": "dd0fb18c28bcd1f6a978c3ceb9ac075b30e3808423c8a78e587effe74f137940"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/Bifrost~iphone.strings",
+      "bytes": 8167,
+      "sha256": "52779d6140930ae8f5f9f395e49b83c7196a8d630bfb2311246fdf12999d6a41"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1063,
+      "sha256": "dc7846bc91149d9455e121ca916be7ed22014f84c1572dc04f1d55b4c3ef088c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/CBMessage~applewatch.strings",
+      "bytes": 20972,
+      "sha256": "614e8f165d0d5594de8078451712a58ffe0cd3e23084de29032debf9d84b95e1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/CBMessage~iphone.strings",
+      "bytes": 43753,
+      "sha256": "e637883b83228da917fdbe07db81cb6d348e4182a436682b994da4aaf1b8968f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/Cellular~iphone.strings",
+      "bytes": 1875,
+      "sha256": "8204e333b5517fd8a25f06a0a128aa7c51b9e150c596509fb7702f5cb3ddf503"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/DataUsage~applewatch.strings",
+      "bytes": 1271,
+      "sha256": "f78cf3604820cea2544cec9236e55e5a86e19db021f6b6f1ee481dcd3a895b59"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/DataUsage~iphone.strings",
+      "bytes": 1993,
+      "sha256": "9800e4deb5e24d8cf49ffd081a88192bd3dfad02103fa1a2391b78aff6697216"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/InfoPlist~applewatch.strings",
+      "bytes": 191,
+      "sha256": "98d41ade66fefa2c19966261bf574b024425f3f111e5451e816072a3870afd94"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/pt_PT.lproj/InfoPlist~iphone.strings",
+      "bytes": 191,
+      "sha256": "98d41ade66fefa2c19966261bf574b024425f3f111e5451e816072a3870afd94"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/Bifrost~iphone.strings",
+      "bytes": 8489,
+      "sha256": "4e847dec6329722b765832f32447f5ff8c303101392968ad85c77047015a1a83"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1248,
+      "sha256": "85e366bd0e1b545fea06b74df97f2ae2fe95a07a4934c3a50a8403bdd45edcbe"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/CBMessage~applewatch.strings",
+      "bytes": 20753,
+      "sha256": "a3fb767ad13631702165367b53fce54500a430562a21bf899d27101febcf3bb9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/CBMessage~iphone.strings",
+      "bytes": 44543,
+      "sha256": "2f1d70e3bb5bddd3b0d4e5899802dd086a49c534ff54d0b18350fa7968751e8d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/Cellular~iphone.strings",
+      "bytes": 2053,
+      "sha256": "cb97ae22d3bc5087c249e226f288503714b25f91ca3163c3f853e522b798e40e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/DataUsage~applewatch.strings",
+      "bytes": 1341,
+      "sha256": "c51fbc663453584d0e5d5ec87bbe847bc1c6a0b33234bac988c2601029d16558"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/DataUsage~iphone.strings",
+      "bytes": 2103,
+      "sha256": "4a1fd9c65be95bfef930fe202682a1951fdcb1dc2968ca801abc72fc59a677a7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/InfoPlist~applewatch.strings",
+      "bytes": 186,
+      "sha256": "c6ff19a8b2a04a4285c056304f0b590329ef659e13423f0aed907594f4defc5b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ro.lproj/InfoPlist~iphone.strings",
+      "bytes": 186,
+      "sha256": "c6ff19a8b2a04a4285c056304f0b590329ef659e13423f0aed907594f4defc5b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/Bifrost~iphone.strings",
+      "bytes": 8732,
+      "sha256": "a70553def6c98c40785d1fb977df58f48299e1486051e91fd2f0fd420d90445f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1262,
+      "sha256": "d1681897282c8fd497aaf46ca62988f7f1e388ce2356aba70207b13d1753e93e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/CBMessage~applewatch.strings",
+      "bytes": 20746,
+      "sha256": "f72f4c6dde34ad51896b9ba1774949f0e6e99973bfd1f1bc18a21cef5fb8dc46"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/CBMessage~iphone.strings",
+      "bytes": 43582,
+      "sha256": "4a29f9724cf3a4d7ef1231440d7957e627491aa24a4f293d86bc2395cc305158"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/Cellular~iphone.strings",
+      "bytes": 2002,
+      "sha256": "f3f2440845a3ff72e842cf6658fe3a54863556b0b2ca691039f5a4ae5df7f458"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/DataUsage~applewatch.strings",
+      "bytes": 1374,
+      "sha256": "50a68030c1901e995e00afa5c8633146574a157b75be6d9fd0d1edbe52b4c16d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/DataUsage~iphone.strings",
+      "bytes": 2219,
+      "sha256": "023ad5d268a569a4e08bf1f020eb7f5c3b7644bb9b48f2fd8fdc6009493f2a74"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/InfoPlist~applewatch.strings",
+      "bytes": 185,
+      "sha256": "a00a97990b14118034880acdaedda8bd52f188171292eac42f52169a685558af"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ru.lproj/InfoPlist~iphone.strings",
+      "bytes": 185,
+      "sha256": "a00a97990b14118034880acdaedda8bd52f188171292eac42f52169a685558af"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/Bifrost~iphone.strings",
+      "bytes": 8021,
+      "sha256": "7fbd1437ac671c37b3d25662451bbe3c979d82b6f5438eb33752011b2f6caa45"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1084,
+      "sha256": "833b04c16a47c7ec747ec47005c614ffa66f57006d30ec700f9a911b11834563"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/CBMessage~applewatch.strings",
+      "bytes": 20317,
+      "sha256": "7518beee254c0d2665d569c73f3a0ef0b3c1ebfb32d055938ea9668df09dc107"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/CBMessage~iphone.strings",
+      "bytes": 42433,
+      "sha256": "758f8aff3742e3820c8618ba815f1ec0cef0861d33270c442e161cef6d1f9f05"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/Cellular~iphone.strings",
+      "bytes": 1926,
+      "sha256": "63e39db693803f76a4835a892f900fc21f5ead099c8397ac66ae0ae22252df6e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/DataUsage~applewatch.strings",
+      "bytes": 1254,
+      "sha256": "ccd688c79bad120b669bb21dd332f39de3bea6cd989055fa91788dfbe1fdf837"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/DataUsage~iphone.strings",
+      "bytes": 1965,
+      "sha256": "cfba6c84c9bd7d93192044796076a3de1819718e9fd27b12c3eb7ddf6c44f901"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/InfoPlist~applewatch.strings",
+      "bytes": 185,
+      "sha256": "504c6843ef17d0d2d58c512541ffe747095cc724cf5c5084168720d2055dc911"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sk.lproj/InfoPlist~iphone.strings",
+      "bytes": 203,
+      "sha256": "f4c9e01fe59408dda46c147ff49f293a8122027934a1c80a33fd2dd73560ab78"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/Bifrost~iphone.strings",
+      "bytes": 7865,
+      "sha256": "22645185b5d5868c31154a4823d0dc8757a056480e5b001617a6817babda8d96"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1447,
+      "sha256": "1c8c2d2c1531a7de4be9a3061d75ae478a072a124fa340f633f11ff3568fabfd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/CBMessage~applewatch.strings",
+      "bytes": 19754,
+      "sha256": "0da0d135f4d1abb04a27ad01d9961061a8a02931d4757b0bc17bddbd57166384"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/CBMessage~iphone.strings",
+      "bytes": 42939,
+      "sha256": "20146ff1f2162a5e32bfe4b3dc34c683c425543f9f8fe87861a676b4586c2140"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/Cellular~iphone.strings",
+      "bytes": 1926,
+      "sha256": "252a996500119ff3010e81ff5f52b5526a72d7b8f5602690ae82b65d9c36d47c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/DataUsage~applewatch.strings",
+      "bytes": 1299,
+      "sha256": "367c7b0adace9c8aff02f1e9295b4c8111d27c50fa13d23c0ee6abb3ae40a22c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/DataUsage~iphone.strings",
+      "bytes": 2064,
+      "sha256": "d067fc2452d8336aa45a0ac4ff8e45ca4392129d6924a8517bfbc17db7235aae"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/InfoPlist~applewatch.strings",
+      "bytes": 202,
+      "sha256": "697dcbc4b7686051456ed251422374dd2a9297653d972d8ad245257f1bf27c7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sl.lproj/InfoPlist~iphone.strings",
+      "bytes": 202,
+      "sha256": "697dcbc4b7686051456ed251422374dd2a9297653d972d8ad245257f1bf27c7e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/Bifrost~iphone.strings",
+      "bytes": 7825,
+      "sha256": "4eefbd14fb292d63755f9752b327ac8656d17f7e3c0e0712a38c92e8f9f03e51"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1304,
+      "sha256": "ff5a56e89656b48441b81bc8ab00a1e17fbbc287842d37248606d6aae50b156d"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/CBMessage~applewatch.strings",
+      "bytes": 19434,
+      "sha256": "5c3d89146bdae9a2bb11325976d3906e0c61a320ac9cc7c31b970feb71d1c7f4"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/CBMessage~iphone.strings",
+      "bytes": 40137,
+      "sha256": "e42fabcf21beedacdcfcff02c13121ac033e45fa6f6a9f73caac8738816bbacd"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/Cellular~iphone.strings",
+      "bytes": 1886,
+      "sha256": "f8eb8cf7e33a301c57bf24258ffc0a235577fc20e139a0af95e0ca2ce70dfc97"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/DataUsage~applewatch.strings",
+      "bytes": 1205,
+      "sha256": "3ef8f90b72ad07275bec0cdb8145ba0ff9ae6e7492ebff51f067a0600b9ccc88"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/DataUsage~iphone.strings",
+      "bytes": 1788,
+      "sha256": "5b470a31ed7d7f07df5a467a1f535ef734763192589390d16f19d5605d10ba93"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/InfoPlist~applewatch.strings",
+      "bytes": 172,
+      "sha256": "44a0a626eeb2b869df78a40f76e66d369d68f9bc37845d551dbfe18a7ce6275c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/sv.lproj/InfoPlist~iphone.strings",
+      "bytes": 172,
+      "sha256": "44a0a626eeb2b869df78a40f76e66d369d68f9bc37845d551dbfe18a7ce6275c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/Bifrost~iphone.strings",
+      "bytes": 8716,
+      "sha256": "eeb3a127e1699c60421e5dd6cb9aec35cabb43276ca43e31cc72bd7d5b028192"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1310,
+      "sha256": "198a0b314b9834dbedf9ff889922b25ed30beed26a8c1f573297875d9352332f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/CBMessage~applewatch.strings",
+      "bytes": 22122,
+      "sha256": "98b1aeb26f282a2de8ff04106141b92ef330334354ed8fed12604df2e817873c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/CBMessage~iphone.strings",
+      "bytes": 45608,
+      "sha256": "47593dded0c469a0a691b9ccdd1894764d4c9291fac4851946062e1495a18b94"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/Cellular~iphone.strings",
+      "bytes": 2140,
+      "sha256": "e6d08bb8e928412da1b2829945043e560cae4097e2b33de8068d31ed21d8588b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/DataUsage~applewatch.strings",
+      "bytes": 1329,
+      "sha256": "db9d4bc76e6c2af10cfb6c75cf6e02c670c97cc80dce7c65ba5feed9f0c0cd44"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/DataUsage~iphone.strings",
+      "bytes": 2142,
+      "sha256": "104752c1094b2a1885aabbc934badcd02b54d434f06fad1c025610551f8e754f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/InfoPlist~applewatch.strings",
+      "bytes": 187,
+      "sha256": "236ef77647f26dca7092f985a179d69114e4788364b2e0f6867851db3647a4b9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ta.lproj/InfoPlist~iphone.strings",
+      "bytes": 187,
+      "sha256": "236ef77647f26dca7092f985a179d69114e4788364b2e0f6867851db3647a4b9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/Bifrost~iphone.strings",
+      "bytes": 8476,
+      "sha256": "92e80550b58d0cb443077797c73abf534714ebe5bd0af6376ae5f484f715e714"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1180,
+      "sha256": "bdf6759afd4c7a4e2eff8d88a97855c4768e8cc5cb756c458ac26793a0d7dd9c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/CBMessage~applewatch.strings",
+      "bytes": 21434,
+      "sha256": "21aed0f92afbbf7c46ffe1aa50f240a6898f753c42f4ca1a7e90a5fee2a7c233"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/CBMessage~iphone.strings",
+      "bytes": 44161,
+      "sha256": "5163f2504e706bd5864ad0f7c84c1f6830ca2e0b5f2e85d10de420f8dbc8604a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/Cellular~iphone.strings",
+      "bytes": 1964,
+      "sha256": "14177fc2dff3c1bf55193ad7247bde230815c0674abb27f76c4e6f1cb62da8e1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/DataUsage~applewatch.strings",
+      "bytes": 1305,
+      "sha256": "134939a0c864c042616757f7cf9762519063f96e149a4d2170b816a7ea15d4d9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/DataUsage~iphone.strings",
+      "bytes": 2136,
+      "sha256": "915b15f826bde72492490be8f030de50948c6301eafd64659cfa9bd8c646877b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/InfoPlist~applewatch.strings",
+      "bytes": 187,
+      "sha256": "c5997c5064fbe832bcbb2b0d64b5524446c5788428b85600b189b579a1444172"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/te.lproj/InfoPlist~iphone.strings",
+      "bytes": 187,
+      "sha256": "c5997c5064fbe832bcbb2b0d64b5524446c5788428b85600b189b579a1444172"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/Bifrost~iphone.strings",
+      "bytes": 7722,
+      "sha256": "732170accd851daf8412a79d493ae1df689e2f38c469e1b5164717e4feccd02c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 865,
+      "sha256": "17a3a277d2dff6060823146a81f0f88d3c03e014598d3aa6b74353e516356860"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/CBMessage~applewatch.strings",
+      "bytes": 19108,
+      "sha256": "062aeb5ad7f077645e75a7ce607992efa6bb6b953674285528609807d808cbb8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/CBMessage~iphone.strings",
+      "bytes": 40651,
+      "sha256": "4460ed2b6b337928b3ec1bdebbd2d0cf0dcbb4eb24247db0238748ae60b59334"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/Cellular~iphone.strings",
+      "bytes": 1814,
+      "sha256": "1310b578b55b8af8ad6faf76c55b32eeeb211728200997a5d645269a6c26c6ac"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/DataUsage~applewatch.strings",
+      "bytes": 1275,
+      "sha256": "6f5e283e53956358c74c97cbdd6bc8d7d871319931036fd51e0f306ca2fb6fce"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/DataUsage~iphone.strings",
+      "bytes": 1960,
+      "sha256": "da534772af918c206d905067e6d457dc8a27feea8d9943675d898b5a6a21e426"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/InfoPlist~applewatch.strings",
+      "bytes": 201,
+      "sha256": "49bab51f73152bb9f4824a59ddc57bc92b1c2a71ed2cba1e7c92d8883fd71b65"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/th.lproj/InfoPlist~iphone.strings",
+      "bytes": 201,
+      "sha256": "49bab51f73152bb9f4824a59ddc57bc92b1c2a71ed2cba1e7c92d8883fd71b65"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/Bifrost~iphone.strings",
+      "bytes": 7530,
+      "sha256": "0dc1ff82d3c900a956506c555bc9f1026b0a731e9a656e2c9007a82281bbeadc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1098,
+      "sha256": "ca0c666e5aaef7da98ac21a1e50ebee24b14ec8c27e63789f8e16d6561b85e90"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/CBMessage~applewatch.strings",
+      "bytes": 19006,
+      "sha256": "8dafa8671a527274ff8d63ec26390ec8594a577366d77f6e014c32b926b12ef9"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/CBMessage~iphone.strings",
+      "bytes": 41113,
+      "sha256": "e8526fb0c06283281447f641536df54af2679065d10e9e81c5254ecd05953b12"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/Cellular~iphone.strings",
+      "bytes": 1786,
+      "sha256": "ef7810ab686927fd4a0062a855a9cd0526ad6a8713db044aaaa1ce1dbb1e0e19"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/DataUsage~applewatch.strings",
+      "bytes": 1231,
+      "sha256": "d7fc4756ab37580ffc830002693d74768bb56bcc06a5dca85ef12864ed309dc7"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/DataUsage~iphone.strings",
+      "bytes": 1916,
+      "sha256": "8b61270d842fec3dfe41e4af7a5bfe0453c13f33e094af5bae0cabec55448273"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/InfoPlist~applewatch.strings",
+      "bytes": 176,
+      "sha256": "0e26823c507fb28b159efbb2d5e3ac6f89123c12725ec5d60509e4ca48e65f9b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/tr.lproj/InfoPlist~iphone.strings",
+      "bytes": 176,
+      "sha256": "0e26823c507fb28b159efbb2d5e3ac6f89123c12725ec5d60509e4ca48e65f9b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/Bifrost~iphone.strings",
+      "bytes": 8309,
+      "sha256": "baaa6667303028167093ed3e53a17b2ce5eaac040e053441ec79cbfb5a956518"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1274,
+      "sha256": "3a6353e7245ee25d469be95a59ca2c8660a293189c5414e4c99273b64af1541f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/CBMessage~applewatch.strings",
+      "bytes": 20472,
+      "sha256": "085b1f0ce6527c883f6c2c58e91421bd6ae70cc4979c7a9d7a09987b542fbb74"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/CBMessage~iphone.strings",
+      "bytes": 43686,
+      "sha256": "233650eb2b4da01c73436a1c88d9531881314d2c79bf570dadce06b9a9749e47"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/Cellular~iphone.strings",
+      "bytes": 1874,
+      "sha256": "78237a40f052f55ab4b920766c47bad63886241e10fa1da9558788b2d1c86d97"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/DataUsage~applewatch.strings",
+      "bytes": 1256,
+      "sha256": "8f8eb8d29d9e50836d0acb880cfd06cb1aecd32507a8305bbc3e6292f2821826"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/DataUsage~iphone.strings",
+      "bytes": 2013,
+      "sha256": "6c9b3ef67c1bcb6f60db795fa9e356dde4667391d307f95406795ffdfa6f9b22"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/InfoPlist~applewatch.strings",
+      "bytes": 183,
+      "sha256": "d55d1d2026ca38814cbd8af7cc5307629fde5a8ce7f40efed9a854a85f868251"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/uk.lproj/InfoPlist~iphone.strings",
+      "bytes": 183,
+      "sha256": "d55d1d2026ca38814cbd8af7cc5307629fde5a8ce7f40efed9a854a85f868251"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/Bifrost~iphone.strings",
+      "bytes": 8044,
+      "sha256": "c384ae4735653be51fbd92cb1094705ace6d703e7432909b790cc6ec80c64c73"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 1192,
+      "sha256": "3aececf3e5c8779abfdc73e27813e58a0965d68bc813e3e4afdc6edd10db87b0"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/CBMessage~applewatch.strings",
+      "bytes": 20934,
+      "sha256": "e198d6ee52d5d0b91a0ad82fba581de147150c9f5ca2116941991245a76ff916"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/CBMessage~iphone.strings",
+      "bytes": 42826,
+      "sha256": "c69d04fc1fedfe3e23b645330629929ca602874fb9c250c552a2230468c98f21"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/Cellular~iphone.strings",
+      "bytes": 2016,
+      "sha256": "3d077da49081e6dd4057b710671991b367902d9a84e309df1207e599835faff2"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/DataUsage~applewatch.strings",
+      "bytes": 1269,
+      "sha256": "2e5dbb6225bd82659d9ac2c78d587c9bcf311bf01dd352171ddddd740f138e2e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/DataUsage~iphone.strings",
+      "bytes": 2062,
+      "sha256": "ba8f3d230b098434077b54718a254295f3e7c29cb2e7589533a8ffa73bde1061"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/InfoPlist~applewatch.strings",
+      "bytes": 185,
+      "sha256": "b9a69c6152cea65992d471a240ba9ce7e8d90c127e3f6d4ee4f34af35a56b5dc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/ur.lproj/InfoPlist~iphone.strings",
+      "bytes": 185,
+      "sha256": "b9a69c6152cea65992d471a240ba9ce7e8d90c127e3f6d4ee4f34af35a56b5dc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/Bifrost~iphone.strings",
+      "bytes": 7702,
+      "sha256": "753dd316d3e533832ed733a4e31433fe2351edd97370871d43d2662770495c3c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 977,
+      "sha256": "e94485ed44e4eb594060c2d0ac1150b4de080f1232fc3da5bb970d5cc24cf321"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/CBMessage~applewatch.strings",
+      "bytes": 19205,
+      "sha256": "dd744de9065db19368bfdb485f86e29460511ba1f16f3cb72b0103815fb3474c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/CBMessage~iphone.strings",
+      "bytes": 41250,
+      "sha256": "b23a7490cb90153ea53b5017d4bcf5994fc9d720bd6cc72008d186922287ff50"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/Cellular~iphone.strings",
+      "bytes": 1786,
+      "sha256": "78f3de1eef75fc1464da39cb45dfb75cf9d0cd8b99fafe40a1afcaff6f14ae32"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/DataUsage~applewatch.strings",
+      "bytes": 1208,
+      "sha256": "d28165703e91feb1d33b883eee95f0fb3d9cc8eab050cad4f72b11565ddbe7df"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/DataUsage~iphone.strings",
+      "bytes": 1872,
+      "sha256": "d03ff251b4ccf756f6da0caf4a9854bfca25828bad18191a9e0c6e4cd045416f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/InfoPlist~applewatch.strings",
+      "bytes": 197,
+      "sha256": "fce55c5eb5d7a1f97cee3903d02573959d71587f5fdb472bb2e3433f87f6c83c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/vi.lproj/InfoPlist~iphone.strings",
+      "bytes": 197,
+      "sha256": "da25e36e2b92597e32f5f3220af51e512fbc63f53901a2ac2d357c09c428a0bc"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/Bifrost~iphone.strings",
+      "bytes": 4416,
+      "sha256": "a81076a965cd18df2c48bb84034e60d468da2406af0fac7a54d1d7ea5bfdd35a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 541,
+      "sha256": "cf44f9f4f4b70843cbe9d5d8258843f04c374dcd388301a32e84387a4fdafa76"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/CBMessage~applewatch.strings",
+      "bytes": 10519,
+      "sha256": "08a104217961f89b3a5e4eac97fad3a41e498ea6928e4fe82006c4595691a832"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/CBMessage~iphone.strings",
+      "bytes": 22423,
+      "sha256": "d87a14fc946cdbbb28d1c2c84c1df85dd03dd2db5d5d2cfc14175318ee6f82b2"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/Cellular~iphone.strings",
+      "bytes": 862,
+      "sha256": "cff3f98674d8ff689a7acf5b993745cdff404ae52fdfbab5af4ce927b459d608"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/DataUsage~applewatch.strings",
+      "bytes": 743,
+      "sha256": "850e19cc84e54611ad845a7619c503888f2278cafa108523acc9a7f2d8b6265a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/DataUsage~iphone.strings",
+      "bytes": 1070,
+      "sha256": "324b1625debf721adc3adf487700bf974f32a342dd94648d7770475b15fcb695"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/InfoPlist~applewatch.strings",
+      "bytes": 149,
+      "sha256": "318410c05ad357f22544b77cf4e77841a3080367f700f6084bea967050fc9784"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_CN.lproj/InfoPlist~iphone.strings",
+      "bytes": 149,
+      "sha256": "318410c05ad357f22544b77cf4e77841a3080367f700f6084bea967050fc9784"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/Bifrost~iphone.strings",
+      "bytes": 4480,
+      "sha256": "6b2adbc48848dda6eb48995d9a2847feaa2237ba61b73f9fc06e913358531cfa"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 563,
+      "sha256": "2e10212f335d1f9bd5ba668f0d52232ec0149e101f9d600ae5102614cf39fbfb"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/CBMessage~applewatch.strings",
+      "bytes": 11008,
+      "sha256": "86d968fdd4c086b08366333bab6983f8eda86e271e0377c2b3800372b655a48a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/CBMessage~iphone.strings",
+      "bytes": 23298,
+      "sha256": "1fd06b27777a2a4c104e62ba5f82cceeac0f81d009f5c41e742ea7dfb3a12554"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/Cellular~iphone.strings",
+      "bytes": 900,
+      "sha256": "2d8a6fbfdd52ab743f494887c220bc3d91e6d1e28faba810e5d253b54eb84f1e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/DataUsage~applewatch.strings",
+      "bytes": 737,
+      "sha256": "fb8d3f039874ec86e7f81b8d12a3b90a3ff0f3a586a61d0436f200b829fdd719"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/DataUsage~iphone.strings",
+      "bytes": 1088,
+      "sha256": "60e676ee0227b69c9d7ede671acdd6b38be22fa3f337ce39670dd6c914cbd74a"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/InfoPlist~applewatch.strings",
+      "bytes": 149,
+      "sha256": "f890a00555df4aac423fe096c712fe799d61d63036722f02665178d24210e18f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_HK.lproj/InfoPlist~iphone.strings",
+      "bytes": 149,
+      "sha256": "f890a00555df4aac423fe096c712fe799d61d63036722f02665178d24210e18f"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/Bifrost~iphone.strings",
+      "bytes": 4555,
+      "sha256": "14adf1ee207f7fc9e521ac703becf4b7138a81b05c6253c92e3de1181e707b3e"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/CBMessage-V63~iphone.strings",
+      "bytes": 616,
+      "sha256": "6c11ca8fd3ef1bb308eacd6b8a4f0b1c153327af53954d9cf4672bd4b16f0a7c"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/CBMessage~applewatch.strings",
+      "bytes": 10797,
+      "sha256": "d3ca077d940caba6a3bb705c24bd66398ccd01c2f91036b1830d2a6d009739ff"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/CBMessage~iphone.strings",
+      "bytes": 23002,
+      "sha256": "c23bc3741561cdfe04ee03c72e045645adfc16c13d92049733747b350220359b"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/Cellular~iphone.strings",
+      "bytes": 890,
+      "sha256": "bdd7b0ba90303580720010f33dc037c2fbdee0c9132ed42a30eb3755fbe83b44"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/DataUsage~applewatch.strings",
+      "bytes": 731,
+      "sha256": "04d636306bd84f570143286aa3771efa311751510e7af7810694db1d52c1e912"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/DataUsage~iphone.strings",
+      "bytes": 1064,
+      "sha256": "414d450cd746b4c94df12e636b1279b29bae8be123a3ca5e5a114da26d6af1e8"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/InfoPlist~applewatch.strings",
+      "bytes": 149,
+      "sha256": "7113c0d22e997a0bbcfbbf237d2e5edd75b0d2575a28bb5aaba7f08fd90e2bc1"
+    },
+    {
+      "path": "System/Library/Frameworks/CoreTelephony.framework/zh_TW.lproj/InfoPlist~iphone.strings",
+      "bytes": 149,
+      "sha256": "7113c0d22e997a0bbcfbbf237d2e5edd75b0d2575a28bb5aaba7f08fd90e2bc1"
+    }
+  ],
+  "total_bytes": 53730763,
+  "job_source": "System/Library/LaunchDaemons/com.apple.CommCenter-noncellular.plist",
+  "job_changes": [
+    "remove device-tree exclusion for explicit diagnostic launch",
+    "KeepAlive=false",
+    "capture stdout and stderr under /var/tmp"
+  ],
+  "cdhash": "c1155de4b084caf8f5c42bea58256da761bc2c28",
+  "already_in_trust_cache": true,
+  "trust_cache_entries": 4401,
+  "runtime_validation": "pending explicit launch; not included in automatic startup"
+}

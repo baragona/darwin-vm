@@ -46,5 +46,5 @@
     }
   ],
   "total_bytes": 19426752,
-  "runtime_validation": "pending V61; V60 register fallback was diagnostic only"
+  "runtime_validation": "V61: normal SILManager lookup still returns -1 for Camera; manifest loader selects missing ExclaveOS cryptex path. Ordinary framework resource restoration was insufficient; see indicator-runtime-v61.md."
 }

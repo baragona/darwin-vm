@@ -1,0 +1,111 @@
+{
+  "build": "24A437",
+  "component": "Ap,ExclaveOS",
+  "archive": "043-69885-754.dmg.aea",
+  "files": [
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic.bin",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic.bin",
+      "bytes": 2713776,
+      "sha256": "f17349890dff3cc5ba6bfbead9ebfc7a7f99ef1d37bc8738097dbf46e059f882"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic.plist",
+      "bytes": 236538,
+      "sha256": "3a95a80738c5fafc06825a11adf3404f9f3710a58509bbd85f4ae0c49bf1c8b6"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints-V54.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints-V54.plist",
+      "bytes": 520,
+      "sha256": "9c5074bad21b50215246a54146d44ceeb69790883c37dd1215dca17d625dc253"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints-V68.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints-V68.plist",
+      "bytes": 638,
+      "sha256": "bea842036c007e533439c8cf056fd49177a53e8842e5d829ea13b80d044d01e5"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints.plist",
+      "bytes": 570,
+      "sha256": "d820efbe9a6936c9b800d66eff9bec8bd8a93a79d9a9fe1c18d112529ad64c5c"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_D23~iphone.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_D23~iphone.plist",
+      "bytes": 562,
+      "sha256": "dc99c18fc8f46940adecc549f6cc24f58aedd046fcd4579313446ea0ce3e5e55"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_J817_J818_J820_J821~ipad.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_J817_J818_J820_J821~ipad.plist",
+      "bytes": 603,
+      "sha256": "b4ba85dcf6a46028f839907a741d88af49fd22228e04b948b437cc1350d44c5c"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_V53_V57~iphone.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_V53_V57~iphone.plist",
+      "bytes": 483,
+      "sha256": "2c8513d5465a625bb7a7334c41e12a947276cfb21da371e60c467f581e572d3f"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_V63~iphone.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_V63~iphone.plist",
+      "bytes": 469,
+      "sha256": "0cdd4c1f5a051483b20d52580b5af82b5ca4b0f2baf2fbf1917bbda246cf9ad9"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_V64_V64s~iphone.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_V64_V64s~iphone.plist",
+      "bytes": 483,
+      "sha256": "aa50b6e7957e46e5d08c49d550c8544fb37a105a63568866d24509bef3ce07a7"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_d9x_d4y~iphone.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_d9x_d4y~iphone.plist",
+      "bytes": 403,
+      "sha256": "9a1ff552cb672da7036d56a8acdc8c90a4b79cb45eb4334255de128667c3c23d"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_j7x~ipad.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_constraints_j7x~ipad.plist",
+      "bytes": 577,
+      "sha256": "4c259dfa22f72d1249a4b3f7fb25d5ebe0a5dab4d31a3f9b2e14cd8dab7abe47"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cam_mic.bin",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cam_mic.bin",
+      "bytes": 2713776,
+      "sha256": "f17349890dff3cc5ba6bfbead9ebfc7a7f99ef1d37bc8738097dbf46e059f882"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cam_mic.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cam_mic.plist",
+      "bytes": 236538,
+      "sha256": "3a95a80738c5fafc06825a11adf3404f9f3710a58509bbd85f4ae0c49bf1c8b6"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cam_mic_constraints.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cam_mic_constraints.plist",
+      "bytes": 612,
+      "sha256": "33706438d1b60ea389b8af676d65decd7741c7c7abba87f54739c8afa1f03f78"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cursor.bin",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cursor.bin",
+      "bytes": 16416000,
+      "sha256": "1ba05db10ec708e8ddab419b4b7ccc16aeecce4895dc4a7035547f2869f5e76e"
+    },
+    {
+      "source": "System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cursor.plist",
+      "guest_path": "private/preboot/Cryptexes/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/SILManagerComponent.framework/secureindicatorassets/cursor.plist",
+      "bytes": 121720,
+      "sha256": "86d812d15ecde9fb5e5f751d1b2b5366be7a3379dfc30be349b5d14e7b1e4205"
+    }
+  ],
+  "total_bytes": 22444268,
+  "runtime_validation": "pending V62; V61 verified actual missing cryptex path"
+}
