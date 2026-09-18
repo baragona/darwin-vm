@@ -699,3 +699,46 @@ V22 is stopped. V23 is running at QMP `/tmp/a19-ui-v23-qmp.sock`, UART
 `/tmp/a19-ui-v23-serial.sock`, and GDB `127.0.0.1:63423`. All hardware breakpoints
 were removed. Developer Mode has not been overridden in v23. Graphical startup
 remains incomplete.
+
+
+### Writable tmpfs verified at restore mount points (v24)
+
+The location, not additional entitlements, is the useful distinction. The
+original restore mount_tmpfs succeeds at `/mnt2`; actual file creation and
+readback succeed there. A diagnostic signed copy also succeeds at `/mnt1`, but
+still fails at `/private/var/tmp`. The root APFS remains read-only.
+
+Experiments, in order:
+
+1. Copy the original restore tmpfs helper to `/bin/mount-tmpfs-probe`, sign with
+   `mount-probe-entitlements.plist` (no-sandbox and disk-device-access), and add
+   its CDHash to the merged v1 trust cache. [Build record](evidence/mount-probe-build.json).
+2. That copy is still denied file-mount at `/private/var/tmp`.
+   [Denied attempt](evidence/v24-mount-test.txt).
+3. The same copy mounts 256 MiB tmpfs at the pre-existing `/mnt1`.
+   [Mount-point comparison](evidence/v24-mountpoint-test.txt).
+4. The **original unmodified** `/sbin/mount_tmpfs -s 67108864 /mnt2` succeeds.
+   Writing and reading test files on both mounts succeeds.
+   [Write/readback proof](evidence/v24-writable-proof.txt).
+
+No guest kernel policy patch or Developer Mode override was needed. The
+entitlement experiment is retained as evidence but is unnecessary for future
+mounts at the tested restore locations. The diagnostic binary remains in this
+disposable image; the original helper and baseline image were preserved.
+
+`serial-command.py` captures a short command on an already idle guest shell,
+using paced UART writes and a unique full-line completion marker. It was used
+for all three v24 experiments. It must have exclusive UART access; a timeout
+leaves the guest running and does not imply the command stopped. The marker
+proves shell completion only: inspect the command's reported result separately.
+
+This enables the next experiment: stage a disposable `/var` mapping to a tmpfs
+at an allowed restore mount point, seed required directories with guest-side
+ownership, and initialize it before graphical service requests. **That mapping
+has not yet been implemented.** Tmpfs is volatile and does not solve persistent
+data storage or missing SEP/data-protection behavior.
+
+V23 is stopped. V24 is running with QMP `/tmp/a19-ui-v24-qmp.sock` and UART
+`/tmp/a19-ui-v24-serial.sock`; `/mnt1` and `/mnt2` are currently mounted writable.
+No GDB server or Developer Mode override has been enabled in v24. `/var` is
+still read-only and graphical startup remains incomplete.

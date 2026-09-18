@@ -1,0 +1,15 @@
+/bin/echo writable > /mnt1/probe; /bin/cat /mnt1/probe; /sbin/mount<e > /mnt1/probe; /bin/cat /mnt1/probe; /sbin/mount_                         tmpfs -s 67108864 /mnt2; </mnt1/probe; /sbin/mount_tmpfs -s 67108864 /mnt2; e                         cho ORIGINAL_MOUNT_RESULT<mpfs -s 67108864 /mnt2; echo ORIGINAL_MOUNT_RESULT=                         $?; /bin/echo original > <ho ORIGINAL_MOUNT_RESULT=$?; /bin/echo original > /                         mnt2/probe; /bin/cat /mnt<?; /bin/echo original > /mnt2/probe; /bin/cat /mnt2                         /probe; /sbin/mount; echo<nt2/probe; /bin/cat /mnt2/probe; /sbin/mount; echo                          SERIAL_DONE_a41669292c374<probe; /sbin/mount; echo SERIAL_DONE_a41669292c3742                         3f9f6609f4e96c4efa
+System Policy: bash(35) allow process-exec* /bin/echo
+System Policy: bash(36) allow process-exec* /bin/cat
+writable
+System Policy: bash(37) allow process-exec* /System/Library/Filesystems/tmpfs.fs/mount_tmpfs
+ORIGINAL_MOUNT_RESULT=0
+System Policy: bash(38) allow process-exec* /bin/echo
+System Policy: bash(39) allow process-exec* /bin/cat
+original
+System Policy: bash(40) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+tmpfs on /mnt1 (tmpfs, local, nosuid)
+tmpfs on /mnt2 (tmpfs, local, nosuid)
+SERIAL_DONE_a41669292c37423f9f6609f4e96c4efa

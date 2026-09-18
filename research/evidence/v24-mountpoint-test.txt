@@ -1,0 +1,11 @@
+/bin/ls -d /mnt* /private/var/tmp; /bin/mount-tmpfs-probe -s 268435</private/var/tmp; /bin/mount-tmpfs-probe -s 2684354                         56 /mnt1; echo MOUNT_RESU<nt-tmpfs-probe -s 268435456 /mnt1; echo MOUNT_RESUL                         T=$?; /sbin/mount; echo S<6 /mnt1; echo MOUNT_RESULT=$?; /sbin/mount; echo SE                         RIAL_DONE_996b4e419b054d8<=$?; /sbin/mount; echo SERIAL_DONE_996b4e419b054d89                         b2594716354f5e8c
+System Policy: bash(32) allow process-exec* /bin/ls
+/mnt1	/mnt11	/mnt2  /mnt4  /mnt6  /mnt8  /private/var/tmp
+/mnt10	/mnt12	/mnt3  /mnt5  /mnt7  /mnt9
+System Policy: bash(33) allow process-exec* /bin/mount-tmpfs-probe
+MOUNT_RESULT=0
+System Policy: bash(34) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+tmpfs on /mnt1 (tmpfs, local, nosuid)
+SERIAL_DONE_996b4e419b054d89b2594716354f5e8c

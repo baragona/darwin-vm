@@ -1,0 +1,12 @@
+/bin/mount-tmpfs-probe -s 268435456 /private/var/tmp; echo MOUNT_RE<probe -s 268435456 /private/var/tmp; echo MOUNT_RES                         ULT=$?; /bin/touch /priva<e/var/tmp; echo MOUNT_RESULT=$?; /bin/touch /privat                         e/var/tmp/write-test; ech<LT=$?; /bin/touch /private/var/tmp/write-test; echo                          WRITE_RESULT=$?; /sbin/m</var/tmp/write-test; echo WRITE_RESULT=$?; /sbin/mo                         unt; echo SERIAL_DONE_301<WRITE_RESULT=$?; /sbin/mount; echo SERIAL_DONE_3010                         64deefde4192a49fa13e738fa<nt; echo SERIAL_DONE_301064deefde4192a49fa13e738faf                         6b
+System Policy: bash(29) allow process-exec* /bin/mount-tmpfs-probe
+System Policy: mount-tmpfs-probe(29) deny(1) file-mount /private/var/tmp
+mount-tmpfs-probe: Unsuccessful mount: Operation not permitted
+MOUNT_RESULT=1
+System Policy: bash(30) allow process-exec* /bin/touch
+touch: cannot touch '/private/var/tmp/write-test': Read-only file system
+WRITE_RESULT=1
+System Policy: bash(31) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+SERIAL_DONE_301064deefde4192a49fa13e738faf6b
