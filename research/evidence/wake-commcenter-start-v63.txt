@@ -1,0 +1,12 @@
+/bin/mkdir -p /var/wireless; /bin/chown 25:25 /var/wireless; /bin/l<r/wireless; /bin/chown 25:25 /var/wireless; /bin/la                         unch-probe submit /launch<25 /var/wireless; /bin/launch-probe submit /launchj                         obs/com.apple.CommCenter.<nch-probe submit /launchjobs/com.apple.CommCenter.p                         robe.plist; /bin/launch-p<bs/com.apple.CommCenter.probe.plist; /bin/launch-pr                         obe start com.apple.CommC<obe.plist; /bin/launch-probe start com.apple.CommCe                         nter; echo SERIAL_DONE_9f<be start com.apple.CommCenter; echo SERIAL_DONE_9fd                         1ee980323415ba1a502daefb7<ter; echo SERIAL_DONE_9fd1ee980323415ba1a502daefb7f                         cca
+System Policy: bash(60) allow process-exec* /bin/mkdir
+System Policy: bash(61) allow process-exec* /bin/chown
+System Policy: bash(62) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(63) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: xpcproxy(64) allow process-exec* /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter
+SERIAL_DONE_9fd1ee980323415ba1a502daefb7fcca

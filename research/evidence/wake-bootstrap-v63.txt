@@ -1,0 +1,45 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.usermanagerd.< submit /launchjobs/com.apple.mobile.usermanagerd.p                         robe.plist; sleep 2; /bin<ple.mobile.usermanagerd.probe.plist; sleep 2; /bin/                         thread-probe 38; echo SER<obe.plist; sleep 2; /bin/thread-probe 38; echo SERI                         AL_DONE_a686714361a347e08<hread-probe 38; echo SERIAL_DONE_a686714361a347e081                         d7564cbbe4027f
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(39) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:00:49.504163 (com.apple.mobile.usermanagerd) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|1970-01-01 00:00:49.504898 (user/501/com.apple.mobile.usermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.505021 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:00:49.505058 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:00:49.506075 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:49.506283 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:49.506436 (user/501/com.apple.mobile.usermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:00:49.525167 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: xpcproxy spawned with pid 38
+com.apple.xpc.launchd|1970-01-01 00:00:49.525435 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.525488 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:49.526451 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.689534 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:49.689888 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: xpcproxy(38) allow process-exec* /usr/libexec/usermanagerd
+com.apple.xpc.launchd|1970-01-01 00:00:49.741003 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:49.741620 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:49.741764 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: Successfully spawned usermanagerd[38] because speculative
+com.apple.xpc.launchd|1970-01-01 00:00:49.797975 (pid/38 [usermanagerd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:00:49.798255 (pid/38 [usermanagerd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:00:49.843447 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = usermanagerd[38], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:00:50.001793 (user/501) <Warning>: failed activation: name = com.apple.mobile.usermanagerd.xpc, flags = 0x0, requestor = usermanagerd[38], error = 37: Operation already in progress
+System Policy: bash(40) allow process-exec* /bin/thread-probe
+TASK PID=38 RESULT=0
+DYLD_SLIDE=0x110d0000 CACHE_BASE=0x1910d0000
+THREADS_RESULT=0 COUNT=2
+THREAD 0 PC=0x248fc7cd4 LR=0x248fcb308 FP=0x16f122620
+ FRAME 0 RETURN=0x248fcb228
+ FRAME 1 RETURN=0x248fcb074
+ FRAME 2 RETURN=0x19170646c
+ FRAME 3 RETURN=0x191705438
+ FRAME 4 RETURN=0x1917067f4
+ FRAME 5 RETURN=0x1917a8da8
+ FRAME 6 RETURN=0x100ce5980
+ FRAME 7 RETURN=0x1915575b8
+ FRAME 8 RETURN=0x0
+THREAD 1 PC=0x248fc7a80 LR=0x19160b284 FP=0x16f1aab50
+ FRAME 0 RETURN=0x19160a910
+RESUME_RESULT=0
+SERIAL_DONE_a686714361a347e081d7564cbbe4027f

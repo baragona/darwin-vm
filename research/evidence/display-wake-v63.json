@@ -1,0 +1,11 @@
+{
+  "width": 416,
+  "height": 496,
+  "format": "BGRA",
+  "bytes": 825344,
+  "sha256": "30b440742b2d519d6334e0a331a3e38c0918927d97ca1af679af71406f47fd02",
+  "colored_pixels": 6118,
+  "opaque_pixels": 206336,
+  "orientation": "raw row order; no transform",
+  "source": "wake-authorized-diagnostic-v63.txt; full raw serial transfer retained locally in /tmp/a19-v63-display-base64.txt"
+}

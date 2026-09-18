@@ -1,0 +1,16 @@
+/bin/launch-probe submit /launchjobs/com.apple.runningboardd.plist;< submit /launchjobs/com.apple.runningboardd.plist;                          /bin/launch-probe submit <ple.runningboardd.plist; /bin/launch-probe submit /                         launchjobs/com.apple.Spri<bin/launch-probe submit /launchjobs/com.apple.Sprin                         gBoard.probe.plist; echo <aunchjobs/com.apple.SpringBoard.probe.plist; echo S                         ERIAL_DONE_99287940e3bcom.apple.xpc.launchd|1970-01-01 00:02:28.656101 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = backboardd[51], error = 3: No such process
+94b<ard.probe.plist; echo SERIAL_DONE_99287940e3b94b1bb                         com.apple.xpc.launchd|1970-01-01 00:02:28.756836 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[51], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:28.800875 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[51], error = 3: No such process
+c971cccom.apple.xpc.launchd|1970-01-01 00:02:29.156522 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[51], error = 3: No such process
+391663_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+f6com.apple.xpc.launchd|1970-01-01 00:02:29.590785 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[51], error = 3: No such process
+9
+System Policy: bash(55) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(57) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_99287940e3b94b1bbc971cc391663f69

@@ -1955,5 +1955,24 @@ before and after telephony startup still contain only black RGB pixels.
 
 The capture probe now reports LCD state. Explicit `/bin/display-capture-probe --wake` requests the build's display state 1 (on), services its run loop, and
 captures afterward; it does not inject touch input or prove a successful wake.
-This extension is installed for V63 but not yet runtime tested.
+V63 confirmed that power control requires an additional entitlement; see below.
 [Build identities](evidence/display-state-probe-v63.json).
+
+
+### Display capture permissions and first nonblack LCD capture (v63)
+
+Earlier V60/V62 captures were restricted to the probe's own process because
+it lacked `com.apple.QuartzCore.global-capture`; their black pixels were not
+evidence of SpringBoard display content. A separate
+`com.apple.QuartzCore.display-state` check prevented obtaining power controls.
+With those checks satisfied for a single debugger-observed request, the LCD
+reported off → on, and the global capture contained 6118 nonblack pixels.
+[Exact checks, limitations, and UART evidence](evidence/wake-runtime-v63.md).
+The [dedicated capture entitlements](display-capture-entitlements.plist) are
+prepared for a future signed build; the installed binary still requires the
+scoped diagnostic overrides. Touch input remains unverified.
+
+The [retrieved LCD image](evidence/display-wake-v63.png) shows SEARCHING,
+a battery icon, and a home indicator, with missing-glyph boxes in the main
+text. Host byte counts match the guest; this is actual captured system UI,
+not a mockup. It is not yet a usable interactive home screen.

@@ -1,0 +1,262 @@
+com.apple.xpc.launchd|1970-01-01 00:02:42.511793 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/UIUtilities.framework/UIUtilities, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.511960 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/RealityCoreRenderer.framework/RealityCoreRenderer, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.511996 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/RealityCoreTextureProcessing.framework/RealityCoreTextureProcessing, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512028 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/ShaderGraph.framework/ShaderGraph, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512059 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/ARKitCore.framework/ARKitCore, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512089 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/CoreAICompiler.framework/CoreAICompiler, error = 2: No s"AppleSEPKeyStore":pid:58,sel:35:8589: unexpected session uid: -1 requested by: SpringBoard (58)
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+uch file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512118 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/CoreAICommon.framework/CoreAICommon, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512147 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/ARKitFoundation.framework/ARKitFoundation, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512177 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/CoreAIRuntime.framework/CoreAIRuntime, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512206 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/RealityCoreDeformation.framework/RealityCoreDeformation, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512232 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/ARKitUI.framework/ARKitUI, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.512260 (pid/58 [SpringBoard]) <Error>: Failed to bootstrap path: path = /System/Library/SubFrameworks/RealityFoundationCloth.framework/RealityFoundationCloth, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:02:42.910909 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.endpoint.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:43.022849 (user/501/com.apple.UIKit.SecureControlService) <Notice>: created the implicit endpoint upfront
+com.apple.xpc.launchd|1970-01-01 00:02:43.023118 (user/501/com.apple.UIKit.SecureControlService) <Notice>: draining messages from com.apple.UIKit.SecureControlService
+com.apple.xpc.launchd|1970-01-01 00:02:43.024400 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.062026 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.067986 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.074559 (pid/58 [SpringBoard]) <Warning>: failed lookup: name = com.apple.PerfPowerTelemetryClientRegistrationService, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.220685 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.285791 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.291816 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.310658 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.320740 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.332166 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:43.470199 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:44.860256 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:44.175424 (user/501) <Warning>: failed lookup: name = com.apple.locationd.registration, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:44.368227 (user/501) <Warning>: failed lookup: name = com.apple.posterboardservices.services, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:44.401446 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:44.407063 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:44.411677 (user/501) <Warning>: failed lookup: name = com.apple.managedconfiguration.profiled.public, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:44.979919 (user/501) <Warning>: failed lookup: name = com.apple.posterboardservices.services, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:45.151305 (user/501) <Warning>: failed lookup: name = com.apple.sessionservices, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:45.970837 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:02:45.817820 (pid/58 [SpringBoard]) <Notice>: Service stub initialized for com.apple.extensionkitservice
+com.apple.xpc.launchd|1970-01-01 00:02:45.818505 (pid/58/com.apple.extensionkitservice) <Notice>: initialized endpoint after lookup
+com.apple.xpc.launchd|1970-01-01 00:02:45.952223 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:45.958633 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:45.963417 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:45.979164 (user/501) <Warning>: failed lookup: name = com.apple.assistant.domain.system.service, flags = 0x200, requestor = SpringBoard[58], "AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+error = 3: No such process
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+"AppleSEPKeyStore":pid:58,sel:35:8589: unexpected session uid: -1 requested by: SpringBoard (58)
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:46.038175 (user/501) <Warning>: failed lookup: name = com.apple.carkit.dnd.service, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.073529 (user/501) <Warning>: failed lookup: name = com.apple.carkit.service, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.150375 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.endpoint.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.156239 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.174575 (user/501) <Warning>: failed lookup: name = com.apple.CarPlayApp.non-launching-service, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.569538 (pid/58/com.apple.extensionkitservice) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:46.569725 (pid/58/com.apple.extensionkitservice) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:46.569767 (pid/58/com.apple.extensionkitservice) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:46.570080 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.570118 (pid/58 [SpringBoard]) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.570162 (pid/58/com.apple.extensionkitservice) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:02:46.589009 (pid/58/com.apple.extensionkitservice [59]) <Notice>: xpcproxy spawned with pid 59
+com.apple.xpc.launchd|1970-01-01 00:02:46.589164 (pid/58/com.apple.extensionkitservice [59]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:46.589214 (pid/58/com.apple.extensionkitservice [59]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:46.589956 (user/501) <Warning>: failed lookup: name = com.apple.timed.xpc, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:46.606379 (pid/58/com.apple.extensionkitservice [59]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:46.606918 (user/501) <Warning>: failed lookup: name = com.apple.searchd.background, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.649705 (user/501) <Warning>: failed lookup: name = com.apple.searchd, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.748750 (user/501) <Warning>: failed lookup: name = com.apple.mediaremoted.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.802920 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:46.875471 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.094305 (user/501) <Warning>: failed activation: name = com.apple.private.alloy.bulletinboard-idswake, flags = 0x0, requestor = SpringBoard[58], error = 1: Operation not permitted
+com.apple.xpc.launchd|1970-01-01 00:02:47.127954 (user/501) <Warning>: failed lookup: name = com.apple.managedconfiguration.profiled.public, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.311314 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.317358 (user/501) <Warning>: failed lookup: name = com.apple.MobileTimer.alarmserver, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.371682 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.397643 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.coretelephony.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.434994 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.440671 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.449646 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.coretelephony.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.517969 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.605503 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:47.574490 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.coretelephony.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.579378 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.791349 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:02:47.635999 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.817288 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.826188 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.853559 (user/501) <Warning>: failed lookup: name = com.apple.pluginkit.pkd, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.897555 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.035636 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.136310 (user/501) <Warning>: failed lookup: name = com.apple.assistant.settings, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.156140 (user/501) <Warning>: failed lookup: name = com.apple.wirelessproxd, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+System Policy: xpcproxy(59) allow process-exec* /System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc/extensionkitservice
+com.apple.xpc.launchd|1970-01-01 00:02:48.592403 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.599285 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.605901 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:49.033948 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:48.758303 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.coretelephony.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.861960 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.868111 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.873485 (user/501) <Warning>: failed lookup: name = com.apple.telephonyutilities.callservicesdaemon.callcapabilities, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.879140 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 59]: /System/Library/Frameworks/ExtensionFoundation.fracom.apple.xpc.launchd|1970-01-01 00:02:48.884350 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.892216 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.892264 (pid/58 [SpringBoard]) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.912365 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.928969 (user/501) <Warning>: failed lookup: name = com.apple.locationd.registration, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.934248 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.946173 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:49.401891 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:49.078763 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:49.084185 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:50.744070 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 00:02:50.362977 (user/501) <Warning>: failed lookup: name = com.apple.wifi.manager, flags = 0x1, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:50.435789 (pid/58/com.apple.extensionkitservice [59]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:50.435845 (pid/58/com.apple.extensionkitservice [59]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:50.435952 (pid/58/com.apple.extensionkitservice [59]) <Notice>: Successfully spawned extensionkitservice[59] because ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:02:50.531273 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.125778 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:50.798969 (user/501) <Warning>: failed lookup: name = com.apple.SystemConfiguration.configd, flags = 0x41, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:50.852149 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:50.857767 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:50.922511 (user/501) <Warning>: failed lookup: name = com.apple.posterboardservices.services, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:51.651113 (user/501) <Warning>: failed lookup: name = com.apple.identityservicesd.embedded.auth, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.686949 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:51.693384 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.698631 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.740234 (user/501) <Warning>: failed lookup: name = com.apple.duetactivityscheduler, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.890088 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.896347 (user/501) <Warning>: failed lookup: name = com.apple.routined.registration, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.901400 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.981002 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:51.986830 (user/501) <Warning>: failed lookup: name = com.apple.locationd.registration, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:35:8589: unexpected session uid: -1 requested by: SpringBoard (58)
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:52.053441 (user/501) <Warning>: failed lookup: name = com.apple.carkit.service, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.058473 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.endpoint.xpc, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.121952 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routingcontext.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.131168 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.149710 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.157258 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.313621 (pid/59 [extensionkitser]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:52.313853 (pid/59 [extensionkitser]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:52.315038 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.337106 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.345085 (user/501) <Warning>: failed lookup: name = com.apple.spotlight.SearchAgent, requestor = SpringBoard[58], error = 3: No such process
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:58,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:58,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:58,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:58,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:02:52.427650 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.463927 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.518522 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.523870 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.612403 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.653447 (user/501) <Warning>: failed lookup: name = com.apple.pearld, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.741543 (pid/58 [SpringBoard]) <Warning>: failed lookup: name = com.apple.PerfPowerTelemetryClientRegistrationService, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.747462 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.814486 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = extensionkitser[59], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.819982 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.132359 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:02:52.984259 (user/501) <Warning>: failed lookup: name = com.apple.assistant.settings, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:52.990214 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.133527 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:02:53.084430 (user/501) <Warning>: failed lookup: name = com.apple.locationd.registration, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.121743 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.387163 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:02:53.214919 (user/501) <Warning>: failed lookup: name = com.apple.assistant.settings, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.220367 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.230221 (user/501) <Warning>: failed activation: name = com.apple.usernotificationsserver.DefaultDataProviderFactory, flags = 0x0, requestor = SpringBoard[58], error = 1: Operation not permitted
+com.apple.xpc.launchd|1970-01-01 00:02:53.231087 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.systemcontroller.xpc, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.273594 (pid/58/com.apple.extensionkitservice [59]) <Notice>: job state = running
+com.apple.xpc.launchd|1970-01-01 00:02:53.381533 (user/501) <Warning>: failed lookup: name = com.apple.carkit.app.service, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.427241 (pid/59 [extensionkitser]) <Notice>: uncorking domain
+com.apple.xpc.launchd|1970-01-01 00:02:53.523438 (user/501) <Warning>: failed lookup: name = com.apple.carkit.service, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.564249 (user/501) <Warning>: failed lookup: name = com.apple.linkd.registry, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.598251 (user/501) <Warning>: failed lookup: name = com.apple.duetactivityscheduler, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:53.631878 (user/501) <Warning>: failed lookup: name = com.apple.coreduetd.context, flags = 0x8, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:54.308358 (user/501) <Warning>: failed lookup: name = com.apple.usernotificationsvendor.listener, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:54.516614 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[58], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:54.545289 (user/501) <Warning>: failed lookup: name = com.apple.accountsd.accountmanager, requestor = SpringBoard[58], error = 3: No such process

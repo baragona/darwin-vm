@@ -1,0 +1,19 @@
+/bin/display-capture-probe --wake; echo WAKE_DIAGNOSTIC_EXIT=$?; ec<ure-probe --wake; echo WAKE_DIAGNOSTIC_EXIT=$?; ech                         o SERIAL_DONE_e2f3cf83915<E_DIAGNOSTIC_EXIT=$?; echo SERIAL_DONE_e2f3cf839153                         412ab5ff4cb1b9b2571f
+System Policy: bash(70) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=0 NAME=off
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:11:38.672259 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:11:38.560455 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[70], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:11:39.804177 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=206336 COLORED_PIXELS=6118 OPAQUE_PIXELS=206336
+DISPLAY_CAPTURE_OUTPUT_BYTES=825344 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+WAKE_DIAGNOSTIC_EXIT=0
+SERIAL_DONE_e2f3cf839153412ab5ff4cb1b9b2571f

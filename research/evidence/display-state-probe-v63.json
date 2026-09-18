@@ -17,5 +17,9 @@
     "2": "flipbook",
     "3": "suppressed"
   },
-  "runtime_validation": "pending V63"
+  "runtime_validation": {
+    "baseline": "stateControl nil; wake unavailable",
+    "scoped_debugger_diagnostic": "display-state checks granted for PID 70 and capture PID filter zeroed; off -> on; 6118 nonblack pixels",
+    "signed_entitlement_validation": "not performed"
+  }
 }

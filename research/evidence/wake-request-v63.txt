@@ -1,0 +1,19 @@
+/bin/display-capture-probe --wake; echo WAKE_EXIT=$?com.apple.xpc.launchd|1970-01-01 00:04:40.396061 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:04:40.655956 (user/501) <Warning>: failed lookup: name = com.apple.nehelper, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+; echo SERI< --wake; echo WAKE_EXIT=$?; echo SERIAL_DONE_dc4f76                     Sandbox: CommCenter(64) allow mach-lookup com.apple.mobile.usermanagerd.xpc
+d0b60548f9b2180"AppleSEPKeyStore":pid:45,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:7:3384: no sks endpoint to send to
+<; echo SERIAL_DONE_dc4f76d0b60548f9b2180648246f9ba7               
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:04:43.251730 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = installd[47], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:04:43.972339 (user/501) <Warning>: failed lookup: name = com.apple.iconservices, requestor = SpringBoard[58], error = 3: No such process
+System Policy: bash(67) allow process-exec* /bin/display-capture-probe
+com.apple.xpc.launchd|1970-01-01 00:04:46.522156 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = CommCenter[64], error = 3: No such process
+DISPLAY_CAPTURE_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:04:50.223020 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = CommCenter[64], error = 3: No such process
+DISPLAY_CAPTURE_NAME=LCD WIDTH=416 HEIGHT=496
+DISPLAY_CAPTURE_STATE_CONTROL=0
+DISPLAY_CAPTURE_WAKE_UNAVAILABLE
+WAKE_EXIT=1
+SERIAL_DONE_dc4f76d0b60548f9b2180648246f9ba7
