@@ -1,0 +1,29 @@
+/bin/software-render-probe --image /Applications/Preferences.app/Se<der-probe --image /Applications/Preferences.app/Set                         tings60x60@2x.png; echo I<tions/Preferences.app/Settings60x60@2x.png; echo IM                         AGE_EXIT=$?; echo SERIAL_<ings60x60@2x.png; echo IMAGE_EXIT=$?; echo SERIAL_D                         ONE_2acaa1077af44d32aa915<GE_EXIT=$?; echo SERIAL_DONE_2acaa1077af44d32aa915e                         f2ba7783bb
+System Policy: bash(37) allow process-exec* /bin/software-render-probe
+SW_PROBE_BEGIN
+SW_CREATE_BEGIN
+SW_RENDERER_PRESENT=1
+SW_DESTINATION_RESULT=1
+SW_LOCAL_CONTEXT_BEGIN
+SW_LOCAL_CONTEXT_PRESENT=1
+com.apple.xpc.launchd|1970-01-01 00:00:52.428213 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = software-render[37], error = 3: No such process
+SW_IMAGE_SOURCE_PRESENT=1
+SW_IMAGE_DECODED=1
+SW_IMAGE_WIDTH=120 HEIGHT=120
+SW_LAYER_COMMIT_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:00:53.282185 (user/501) <Warning>: failed lookup: name = com.apple.analyticsd, requestor = software-render[37], error = 3: No such process
+SW_LAYER_COMMIT_RETURNED
+SW_RENDER_CONTEXT_PRESENT=1
+SW_FRAME=0
+SW_UPDATE_PRESENT=1
+SW_ADD_CONTEXT_BEGIN
+SW_ADD_CONTEXT_RETURNED
+SW_RENDER_LAYER_BEGIN
+SW_RENDER_LAYER_RETURNED
+SW_FINISH_RETURNED
+SW_CHANGED_BYTES=16332 GUARD_CHANGED_BYTES=0
+SW_FIRST_PIXEL=a09c9cff CENTER=bcb9b9ff
+SW_OUTPUT_BYTES=16384 CLOSE_RESULT=0
+SW_PROBE_END
+IMAGE_EXIT=0
+SERIAL_DONE_2acaa1077af44d32aa915ef2ba7783bb

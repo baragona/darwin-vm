@@ -11,10 +11,11 @@
 #include <unistd.h>
 typedef struct { double x,y,w,h; } Rect;
 int main(int argc, char **argv) {
+    int image_mode=argc==3 && !strcmp(argv[1],"--image");
     int bitmap_mode=argc==2 && !strcmp(argv[1],"--bitmap");
     int scene_mode=argc==2 && !strcmp(argv[1],"--scene");
-    int layer_mode=bitmap_mode || scene_mode || (argc==2 && !strcmp(argv[1],"--layer"));
-    if(argc>1 && !layer_mode) { puts("usage: software-render-probe [--layer | --scene | --bitmap]"); return 2; }
+    int layer_mode=image_mode || bitmap_mode || scene_mode || (argc==2 && !strcmp(argv[1],"--layer"));
+    if(argc>1 && !layer_mode) { puts("usage: software-render-probe [--layer | --scene | --bitmap | --image PATH]"); return 2; }
     setbuf(stdout,NULL); alarm(20);
     puts("SW_PROBE_BEGIN");
     void *h=dlopen("/System/Library/Frameworks/QuartzCore.framework/QuartzCore",RTLD_NOW);
@@ -90,6 +91,24 @@ int main(int argc, char **argv) {
             void *image=provider?image_create(64,64,8,32,256,space_create(),0x4001,provider,NULL,0,0):NULL;
             printf("SW_BITMAP_IMAGE_PRESENT=%d\n",image!=NULL);
             if(!image) return 1;
+            ((void(*)(void*,void*,void*))msg)(layer,sel("setContents:"),image);
+        }
+        if(image_mode) {
+            void *imageio=dlopen("/System/Library/Frameworks/ImageIO.framework/ImageIO",RTLD_NOW);
+            void *(*url_create)(void*,const unsigned char*,long,_Bool)=
+                (void*(*)(void*,const unsigned char*,long,_Bool))dlsym(RTLD_DEFAULT,"CFURLCreateFromFileSystemRepresentation");
+            void *(*source_create)(void*,void*)=imageio?(void*(*)(void*,void*))dlsym(imageio,"CGImageSourceCreateWithURL"):NULL;
+            void *(*decode)(void*,size_t,void*)=imageio?(void*(*)(void*,size_t,void*))dlsym(imageio,"CGImageSourceCreateImageAtIndex"):NULL;
+            size_t (*width)(void*)=(size_t(*)(void*))dlsym(RTLD_DEFAULT,"CGImageGetWidth");
+            size_t (*height)(void*)=(size_t(*)(void*))dlsym(RTLD_DEFAULT,"CGImageGetHeight");
+            if(!url_create||!source_create||!decode||!width||!height) { puts("SW_IMAGE_SYMBOLS_MISSING"); return 1; }
+            void *url=url_create(NULL,(const unsigned char*)argv[2],(long)strlen(argv[2]),0);
+            void *source=url?source_create(url,NULL):NULL;
+            printf("SW_IMAGE_SOURCE_PRESENT=%d\n",source!=NULL);
+            void *image=source?decode(source,0,NULL):NULL;
+            printf("SW_IMAGE_DECODED=%d\n",image!=NULL);
+            if(!image) return 1;
+            printf("SW_IMAGE_WIDTH=%zu HEIGHT=%zu\n",width(image),height(image));
             ((void(*)(void*,void*,void*))msg)(layer,sel("setContents:"),image);
         }
         if(scene_mode) {
@@ -168,7 +187,7 @@ int main(int argc, char **argv) {
             counts[0],counts[1],counts[2],counts[3],other,bitmap_ok);
     }
     if(layer_mode && changed && !guard_changed) {
-        const char *path=bitmap_mode?"/private/var/tmp/software-bitmap.raw":scene_mode?(frame?"/private/var/tmp/software-scene-1.raw":"/private/var/tmp/software-scene-0.raw"):"/private/var/tmp/software-layer.raw";
+        const char *path=image_mode?"/private/var/tmp/software-image.raw":bitmap_mode?"/private/var/tmp/software-bitmap.raw":scene_mode?(frame?"/private/var/tmp/software-scene-1.raw":"/private/var/tmp/software-scene-0.raw"):"/private/var/tmp/software-layer.raw";
         FILE *output=fopen(path,"wb");
         if(!output) { perror("output"); return 1; }
         size_t written=fwrite(pixels,1,SIZE,output);

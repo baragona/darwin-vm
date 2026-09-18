@@ -1,0 +1,11 @@
+{
+  "image": "service-root-image-v76.dmg",
+  "trustcache": "image-v76.tc",
+  "trustcache_entries": 4416,
+  "guest_path": "/bin/software-render-probe",
+  "cdhash": "46ce5a95f8988a577612125fe688ec7e9a8d7406",
+  "sha256": "8cfbd95adf316c6157a8fc8429f91a373a3ebd35f871b20fdb7445eb647308fe",
+  "icon_sha256": "37aee99c34b04a870c18f43edcc79f6fffc5a1c59d503ec5448b26296ac9ac03",
+  "boot_tested": true,
+  "settings_icon_decode_and_local_render_verified": true
+}
