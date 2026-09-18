@@ -1,0 +1,16 @@
+/bin/ls -l /usr/share/langid/langid.inv; /bin/launch-probe list; ec<hare/langid/langid.inv; /bin/launch-probe list; ech                         o SERIAL_DONE_bdca9d029dd<in/launch-probe list; echo SERIAL_DONE_bdca9d029ddc                         4293b6d3c3b1aaa4288b
+System Policy: bash(70) allow process-exec* /bin/ls
+ls: cannot access '/usr/share/langid/langid.inv': No such file or directory
+System Policy: bash(71) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=9
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.runningboardd PID=56 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=51 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_bdca9d029ddc4293b6d3c3b1aaa4288b

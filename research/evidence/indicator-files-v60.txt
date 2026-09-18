@@ -1,0 +1,41 @@
+/bin/ls -l /System/Library/PrivateFrameworks/SILManager.framework/c<m/Library/PrivateFrameworks/SILManager.framework/ca                         m_mic.plist; /bin/cat /va<s/SILManager.framework/cam_mic.plist; /bin/cat /var                         /tmp/springboard.stderr; <_mic.plist; /bin/cat /var/tmp/springboard.stderr; e                         cho SERIAL_DONE_08380b123<tmp/springboard.stderr; echo SERIAL_DONE_08380b123f                         35407d93a523502ba12ddc
+System Policy: bash(64) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/PrivateFrameworks/SILManager.framework/cam_mic.plist': No such file or directory
+System Policy: bash(65) allow process-exec* /bin/cat
+1970-01-01 00:03:29.-288 SpringBoard[58:616] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:03:32.-479 SpringBoard[58:616] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+1970-01-01 00:03:39.-66 SpringBoard[58:650] Error: Daemon connection invalidated
+1970-01-01 00:04:49.-891 SpringBoard[58:616] #configurationUpdateManager longPressBehavior: 0 previousValue: 0
+1970-01-01 00:04:59.-228 SpringBoard[58:616] Unbalanced calls to begin/end appearance transitions for <SBCoverSheetPrimarySlidingViewController: 0x700007d112e4700>.
+*** Terminating app due to uncaught exception 'CASecureIndicatorLayerInvalidName', reason: 'Invalid indicator name Camera'
+*** First throw call stack:
+(0x1899f7190 0x189774380 0x189a722dc 0x18d8d309c 0x18d82a164 0x18d76ddbc 0x18d76deb8 0x18d76deb8 0x18d76deb8 0x18d76deb8 0x18d76deb8 0x18d76b508 0x18d7687c0 0x18d769018 0x18dd5fc30 0x1899e09f4 0x189999d40 0x189999374 0x18999a7f4 0x23405cf24 0x18dc781cc 0x22dff93b0 0x1897eb5b8)
+libc++abi: terminating due to uncaught exception of type NSException
+1970-01-01 00:05:15.-606 SpringBoard[61:749] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:05:17.-630 SpringBoard[61:749] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+1970-01-01 00:05:20.-873 SpringBoard[61:799] Error: Daemon connection invalidated
+SERIAL_DONE_08380b123f35407d93a523502ba12ddc

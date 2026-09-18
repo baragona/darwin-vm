@@ -1,0 +1,56 @@
+[
+  {
+    "pc": "0x18d8d309c",
+    "unslid": "0x18456f09c",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x18456f09c: -[CASecureIndicatorLayer _copyRenderLayer:layerFlags:commitFlags:] + 328\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18d82a164",
+    "unslid": "0x1844c6164",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x1844c6164: ____ZN2CA7Context18commit_transactionEPNS_11TransactionEdPd_block_invoke + 172\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18d76ddbc",
+    "unslid": "0x184409dbc",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x184409dbc: __ZN2CA5Layer16commit_if_neededEPNS_11TransactionEU13block_pointerFvPS0_jjE + 200\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18d76deb8",
+    "unslid": "0x184409eb8",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x184409eb8: __ZN2CA5Layer16commit_if_neededEPNS_11TransactionEU13block_pointerFvPS0_jjE + 452\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18d76b508",
+    "unslid": "0x184407508",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x184407508: __ZN2CA7Context18commit_transactionEPNS_11TransactionEdPd + 9080\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18d7687c0",
+    "unslid": "0x1844047c0",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x1844047c0: __ZN2CA11Transaction6commitEv + 428\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18d769018",
+    "unslid": "0x184405018",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)\n\n0x184405018: __ZN2CA11Transaction5flushEv + 84\n",
+    "error": ""
+  },
+  {
+    "pc": "0x18dd5fc30",
+    "unslid": "0x1849fbc30",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x1849fbc30: ___34-[UIApplication _firstCommitBlock]_block_invoke_2 + 32\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1899e09f4",
+    "unslid": "0x18067c9f4",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x18067c9f4: ___CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 28\n",
+    "error": ""
+  }
+]

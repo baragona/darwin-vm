@@ -1909,3 +1909,25 @@ The remaining UIKitCore resources are prepared but have not been boot-tested.
 [Exact asset trace](evidence/coversheet-runtime-v57.md),
 [runtime validation, next exception, and stopped-guest state](evidence/artwork-runtime-v58.md).
 Usable graphics and input remain outstanding.
+
+
+### UIKit collation succeeds; language database restored (v59–v60)
+
+Completing UIKitCore's resources lets collation construction return a real
+object. The next C assertion was traced to stat of /usr/share/langid/langid.inv
+returning -1. Matching firmware supplies that missing database, now restored.
+[Runtime path trace and image preparation](evidence/uikit-runtime-v59.md).
+
+The experimental [display capture probe](display-capture-probe.c) captures the
+416x496 diagnostic LCD through CARenderServerRenderDisplay. Run
+`/bin/display-capture-probe` after the main LCD exists. It reports the API
+result and pixel counts, then writes `/private/var/tmp/display-capture.bgra`
+as tightly packed BGRA rows. A 30-second alarm bounds only this probe process.
+Inspect the image before claiming UI content; success or changed bytes alone
+is insufficient. [Signed build and resource identities](evidence/langid-capture-image-v60.json).
+Runtime API/file operations succeeded, but the later capture contains only
+black RGB values. SpringBoard now reaches its event loop with a temporary
+secure-indicator lookup fallback; the sampled main-thread callback waits on
+missing telephony services. Original SILManager resources are restored for
+the next boot, which must test without that fallback.
+[Runtime results and next experiment](evidence/langid-runtime-v60.md).

@@ -1,0 +1,50 @@
+{
+  "build": "24A437",
+  "source": "Matching original system firmware; no binary patch or resigning",
+  "files": [
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/Info.plist",
+      "bytes": 876,
+      "sha256": "df806339660ab8c0aa987fe0953dc635be4978581a4cd485895153380b1f19e0",
+      "previously_present": false
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a",
+      "previously_present": false
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/cam_mic.bin",
+      "bytes": 2713776,
+      "sha256": "f17349890dff3cc5ba6bfbead9ebfc7a7f99ef1d37bc8738097dbf46e059f882",
+      "previously_present": false
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/cam_mic.plist",
+      "bytes": 276586,
+      "sha256": "84195e75043fef773a732616f33744cf2ad14eddfafb282836315c4a0157268e",
+      "previously_present": false
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/cam_mic_constraints.plist",
+      "bytes": 620,
+      "sha256": "9d1f1243eb0f78cf831f652c45661708db633dbc71bb36379926c5466bcec0d0",
+      "previously_present": false
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/cursor.bin",
+      "bytes": 16416000,
+      "sha256": "1ba05db10ec708e8ddab419b4b7ccc16aeecce4895dc4a7035547f2869f5e76e",
+      "previously_present": false
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/SILManager.framework/cursor.plist",
+      "bytes": 16427,
+      "sha256": "790ed6756949104fb2b483ff5f7f627034f356bf8eab7d2590774849504ba265",
+      "previously_present": false
+    }
+  ],
+  "total_bytes": 19426752,
+  "runtime_validation": "pending V61; V60 register fallback was diagnostic only"
+}

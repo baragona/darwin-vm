@@ -1,0 +1,37 @@
+/bin/display-probe; /bin/lacom.apple.xpc.launchd|1970-01-01 00:03:06.690676 (user/501) <Warning>: failed lookup: name = com.apple.mobilegestalt.xpc, requestor = backboardd[51], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:06.791086 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[51], error = 3: No such process
+unchcom.apple.xpc.launchd|1970-01-01 00:03:06.838351 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[51], error = 3: No such process
+-probe com.apple.xpc.launchd|1970-01-01 00:03:07.185412 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[51], error = 3: No such process
+submit_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+ /com.apple.xpc.launchd|1970-01-01 00:03:07.649063 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[51], error = 3: No such process
+launchjobs/com.apple.<e; /bin/launch-probe submit /launchjobs/com.apple.r                         unningboardd.plist; /bin/<t /launchjobs/com.apple.runningboardd.plist; /bin/l                         aunch-probe submit /launc<nningboardd.plist; /bin/launch-probe submit /launch                         jobs/com.apple.SpringBoar<unch-probe submit /launchjobs/com.apple.SpringBoard                         .probe.plist; echo SERIAL<obs/com.apple.SpringBoard.probe.plist; echo SERIAL_                         DONE_8b80fef53d2946558c92<probe.plist; echo SERIAL_DONE_8b80fef53d2946558c92e                         16c333974f6
+System Policy: bash(54) allow process-exec* /bin/display-probe
+DISPLAY_PROBE_BEGIN
+SAMPLER_CREATE_RESULT=0
+CADISPLAY_QUERY_BEGIN
+CADISPLAY_COUNT=6
+CADISPLAY_ENTRY=0 ID=1 NAME=LCD EXTERNAL=0 SUPPORTED=1
+CADISPLAY_ENTRY=0 CURRENT_MODE=<CADisplayMode 416 x 496 internal_panel (fixed)>
+CADISPLAY_ENTRY=1 ID=2 NAME=Wireless EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=1 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=2 ID=3 NAME=Wireless-1 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=2 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=3 ID=4 NAME=Wireless-2 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=3 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=4 ID=5 NAME=Wireless-3 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=4 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=5 ID=6 NAME=Wireless-4 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=5 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_MAIN_PRESENT=1
+CADISPLAY_MAIN_NAME=LCD
+DISPLAY_PROBE_END
+System Policy: bash(55) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(57) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+com.apple.xpc.launchd|1970-01-01 00:03:15.764615 <Notice>: Last log repeated 1 times
+SERIAL_DONE_8b80fef53d2946558c92e16c333974f6

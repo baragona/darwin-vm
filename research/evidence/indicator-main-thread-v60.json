@@ -1,0 +1,158 @@
+[
+  {
+    "runtime": "0x24125bcd4",
+    "unslid": "0x237ef7cd4",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237ef7cd4: _mach_msg2_trap + 8",
+    "error": ""
+  },
+  {
+    "runtime": "0x24125f308",
+    "unslid": "0x237efb308",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237efb308: _mach_msg2_internal + 76",
+    "error": ""
+  },
+  {
+    "runtime": "0x24125f228",
+    "unslid": "0x237efb228",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237efb228: _mach_msg_overwrite + 424",
+    "error": ""
+  },
+  {
+    "runtime": "0x24125f074",
+    "unslid": "0x237efb074",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libsystem_kernel.dylib (__TEXT.__text)\n\n0x237efb074: _mach_msg + 24",
+    "error": ""
+  },
+  {
+    "runtime": "0x1b7e6f89c",
+    "unslid": "0x1aeb0b89c",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libdispatch.dylib (__TEXT.__text)\n\n0x1aeb0b89c: __dispatch_mach_send_and_wait_for_reply + 496",
+    "error": ""
+  },
+  {
+    "runtime": "0x1b7e6fce8",
+    "unslid": "0x1aeb0bce8",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libdispatch.dylib (__TEXT.__text)\n\n0x1aeb0bce8: _dispatch_mach_send_with_result_and_wait_for_reply + 60",
+    "error": ""
+  },
+  {
+    "runtime": "0x189916ae0",
+    "unslid": "0x1805b2ae0",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libxpc.dylib (__TEXT.__text)\n\n0x1805b2ae0: _xpc_connection_send_message_with_reply_sync + 300",
+    "error": ""
+  },
+  {
+    "runtime": "0x1a7820f48",
+    "unslid": "0x19e4bcf48",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony (__TEXT.__text)\n\n0x19e4bcf48: __ZL32_SendXpcMessageWithReplyAndRetryP20__CTServerConnectionN3xpc4dictEm + 144",
+    "error": ""
+  },
+  {
+    "runtime": "0x1a7820dc4",
+    "unslid": "0x19e4bcdc4",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony (__TEXT.__text)\n\n0x19e4bcdc4: __Z16SendXpcMessageIfbP20__CTServerConnectionRKN3xpc4dictERS2_20CTFeatureRequirement + 284",
+    "error": ""
+  },
+  {
+    "runtime": "0x1a793af6c",
+    "unslid": "0x19e5d6f6c",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony (__TEXT.__text)\n\n0x19e5d6f6c: __CTServerConnectionGetEmergencyCallBackMode + 184",
+    "error": ""
+  },
+  {
+    "runtime": "0x22de98f30",
+    "unslid": "0x224b34f30",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224b34f30: -[SBTelephonyManager isInEmergencyCallbackMode] + 48",
+    "error": ""
+  },
+  {
+    "runtime": "0x22df36fc8",
+    "unslid": "0x224bd2fc8",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224bd2fc8: -[SBIdleTimerDescriptorFactory updateIdleTimerSettingsForTelephony:] + 84",
+    "error": ""
+  },
+  {
+    "runtime": "0x22de7d490",
+    "unslid": "0x224b19490",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224b19490: -[SBIdleTimerDescriptorFactory idleTimerDescriptorForBehavior:] + 716",
+    "error": ""
+  },
+  {
+    "runtime": "0x22de95c5c",
+    "unslid": "0x224b31c5c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224b31c5c: -[SBIdleTimerGlobalCoordinator _updateIdleTimerForReason:] + 300",
+    "error": ""
+  },
+  {
+    "runtime": "0x22de9adac",
+    "unslid": "0x224b36dac",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224b36dac: -[SBIdleTimerGlobalCoordinator resetIdleTimerForReason:] + 72",
+    "error": ""
+  },
+  {
+    "runtime": "0x22df60f3c",
+    "unslid": "0x224bfcf3c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224bfcf3c: -[SBTelephonyManager updateSpringBoard] + 312",
+    "error": ""
+  },
+  {
+    "runtime": "0x22e05e974",
+    "unslid": "0x224cfa974",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224cfa974: -[SBTelephonyManager updateCalls] + 584",
+    "error": ""
+  },
+  {
+    "runtime": "0x22e05f11c",
+    "unslid": "0x224cfb11c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224cfb11c: -[SBTelephonyManager handleCallControlFailure:] + 48",
+    "error": ""
+  },
+  {
+    "runtime": "0x22e05e358",
+    "unslid": "0x224cfa358",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x224cfa358: -[SBTelephonyManager _handleTelephonyDaemonRestart] + 204",
+    "error": ""
+  },
+  {
+    "runtime": "0x189fb27b0",
+    "unslid": "0x180c4e7b0",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/Foundation.framework/Foundation (__TEXT.__text)\n\n0x180c4e7b0: ___NSFireDelayedPerform + 376",
+    "error": ""
+  },
+  {
+    "runtime": "0x1899dfa90",
+    "unslid": "0x18067ba90",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x18067ba90: ___CFRUNLOOP_IS_CALLING_OUT_TO_A_TIMER_CALLBACK_FUNCTION__ + 32",
+    "error": ""
+  },
+  {
+    "runtime": "0x1899df340",
+    "unslid": "0x18067b340",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x18067b340: ___CFRunLoopDoTimer + 624",
+    "error": ""
+  },
+  {
+    "runtime": "0x1899df01c",
+    "unslid": "0x18067b01c",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x18067b01c: ___CFRunLoopDoTimers + 284",
+    "error": ""
+  },
+  {
+    "runtime": "0x189999968",
+    "unslid": "0x180635968",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x180635968: ___CFRunLoopRun + 1924",
+    "error": ""
+  },
+  {
+    "runtime": "0x18999a7f4",
+    "unslid": "0x1806367f4",
+    "symbol": "IMAGE\n-----\n > /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (__TEXT.__text)\n\n0x1806367f4: __CFRunLoopRunSpecificWithOptions + 344",
+    "error": ""
+  },
+  {
+    "runtime": "0x23405cf24",
+    "unslid": "0x22acf8f24",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices (__TEXT.__text)\n\n0x22acf8f24: _GSEventRunModal + 120",
+    "error": ""
+  }
+]

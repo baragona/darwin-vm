@@ -423,5 +423,5 @@
       "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
     }
   ],
-  "runtime_validation": "pending"
+  "runtime_validation": "V59: collationWithDictionary returned non-null; startup advanced to missing /usr/share/langid/langid.inv; see uikit-runtime-v59.md"
 }

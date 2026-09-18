@@ -1,0 +1,26 @@
+{
+  "build": "24A437",
+  "language_database": {
+    "path": "usr/share/langid/langid.inv",
+    "bytes": 9152288,
+    "sha256": "04b2c04c1117c7e561b2402a1a72d3ad46e2234b2c82d8cdab16ef0e8b23f432"
+  },
+  "capture_probe": {
+    "path": "bin/display-capture-probe",
+    "cdhash": "e9a3aeab720b1771a30f1fa2b37003c40136cd24",
+    "sha256": "ca4dfcdcb57b0c2f43018425db8b4e7745fd5ab01464dc33c0844032973c0ba4",
+    "entitlements": "com.apple.security.iokit-user-client-class: IOSurfaceRootUserClient",
+    "trust_cache_entries_before": 4400,
+    "trust_cache_entries_after": 4401,
+    "source": "research/display-capture-probe.c"
+  },
+  "runtime_validation": {
+    "langid_stat_return": 0,
+    "baseline_changed_pixels": 0,
+    "after_indicator_fallback_changed_pixels": 206336,
+    "after_indicator_fallback_nonzero_rgb_pixels": 0,
+    "after_indicator_fallback_opaque_pixels": 0,
+    "usable_ui": false,
+    "details": "langid-runtime-v60.md"
+  }
+}
