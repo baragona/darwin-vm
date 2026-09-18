@@ -1,0 +1,129 @@
+diff --git a/hw/arm/darwin.c b/hw/arm/darwin.c
+index 51d240b..5836efe 100644
+--- a/hw/arm/darwin.c
++++ b/hw/arm/darwin.c
+@@ -21,6 +21,8 @@
+ #include "hw/arm/apple_amcc.h"
+ #include "xnu/patch.h"
+ #include "xnu/macho.h"
++#include "ui/console.h"
++#include "qemu/error-report.h"
+ 
+ // See device tree specification section 2.3.8: ranges
+ #define IO_RANGE_BASE_OFFSET     1
+@@ -42,6 +44,33 @@ struct DarwinState {
+     MachineState parent_obj;
+     ARMCPU *cpu;
+     struct xnu_boot_info bootinfo;
++    QemuConsole *boot_console;
++};
++
++static bool darwin_get_boot_display(Object *obj, Error **errp)
++{
++    return DARWIN_MACHINE(obj)->bootinfo.boot_display;
++}
++
++static void darwin_set_boot_display(Object *obj, bool value, Error **errp)
++{
++    DARWIN_MACHINE(obj)->bootinfo.boot_display = value;
++}
++
++static bool darwin_display_update(void *opaque)
++{
++    DarwinState *s = opaque;
++    DisplaySurface *surface = qemu_console_surface(s->boot_console);
++
++    address_space_read(&address_space_memory, s->bootinfo.framebuffer_base,
++                       MEMTXATTRS_UNSPECIFIED, surface_data(surface),
++                       DARWIN_FB_SIZE);
++    qemu_console_update_full(s->boot_console);
++    return true;
++}
++
++static const GraphicHwOps darwin_display_ops = {
++    .gfx_update = darwin_display_update,
+ };
+ 
+ MACHINE_CLASS_ARG(bootkc);
+@@ -257,6 +286,15 @@ static void darwin_init(MachineState *ms) {
+ 
+     s->cpu = ARM_CPU(cpuobj);
+     arm_load_xnu(s->cpu, ms, info);
++    if (info->boot_display) {
++        if (!info->framebuffer_base) {
++            error_report("boot-display currently requires an SPTM kernel");
++            exit(1);
++        }
++        s->boot_console = qemu_graphic_console_create(NULL, 0,
++                                                      &darwin_display_ops, s);
++        qemu_console_resize(s->boot_console, DARWIN_FB_WIDTH, DARWIN_FB_HEIGHT);
++    }
+     if (info->has_mte) setup_mte(cpuobj, MACHINE(s), info);
+ 
+     struct dtree_node *amcc_node = adt_find_node(dt_root, "chosen/lock-regs/amcc");
+@@ -306,6 +344,9 @@ static void darwin_machine_init(MachineClass *mc) {
+ static void darwin_machine_class_init(ObjectClass *oc, const void *data) {
+     MachineClass *mc = MACHINE_CLASS(oc);
+ 
++    object_class_property_add_bool(oc, "boot-display", darwin_get_boot_display,
++                                   darwin_set_boot_display);
++
+     object_class_property_add_str(oc, "bootkc", bootkc_darwin_class_get, bootkc_darwin_class_set);
+     object_class_property_add_str(oc, "args", args_darwin_class_get, args_darwin_class_set);
+     object_class_property_add_str(oc, "dtree", dtree_darwin_class_get, dtree_darwin_class_set);
+diff --git a/hw/arm/xnuboot_sptm.c b/hw/arm/xnuboot_sptm.c
+index b96d421..62fd60f 100644
+--- a/hw/arm/xnuboot_sptm.c
++++ b/hw/arm/xnuboot_sptm.c
+@@ -380,6 +380,27 @@ static void arm_load_xnu_sptm(ARMCPU *cpu, MachineState *ms, struct xnu_boot_inf
+     } else {
+         args.memSize = info->dram_size;
+     }
++    if (info->boot_display) {
++        info->framebuffer_base = blob_head;
++        blob_head += ROUND_NEXT_PAGE(DARWIN_FB_SIZE);
++        if (blob_head > info->dram_base + args.memSize) {
++            fprintf(stderr, "boot framebuffer exceeds usable guest RAM\n");
++            exit(1);
++        }
++        /* Prototype: keep the extra pages covered by an SPTM-known range. */
++        set_adt_mmap(map, "RAMDisk", rd_base_phys, blob_head - rd_base_phys);
++        args.Video = (Boot_Video) {
++            .v_baseAddr = info->framebuffer_base,
++            .v_display = 0,
++            .v_rowBytes = DARWIN_FB_STRIDE,
++            .v_width = DARWIN_FB_WIDTH,
++            .v_height = DARWIN_FB_HEIGHT,
++            .v_depth = 32,
++        };
++        fprintf(stderr, "darwin boot framebuffer: 0x%llx, %dx%d, stride %d\n",
++                (unsigned long long)info->framebuffer_base,
++                DARWIN_FB_WIDTH, DARWIN_FB_HEIGHT, DARWIN_FB_STRIDE);
++    }
+     args.topOfKernelData = blob_head;
+     args.deviceTreeP = dtree_base_phys - args.physBase + args.virtBase;
+     args.deviceTreeLength = info->dtree_f.len;
+diff --git a/include/xnu/boot/xnuboot.h b/include/xnu/boot/xnuboot.h
+index 2c4c01e..437cdf0 100644
+--- a/include/xnu/boot/xnuboot.h
++++ b/include/xnu/boot/xnuboot.h
+@@ -45,11 +45,19 @@ struct xnu_boot_info {
+ 
+     uint64_t dram_base, dram_size;
+     bool has_mte;
++    bool boot_display;
++    hwaddr framebuffer_base;
+ 
+     // Feedback from the kernel loader back to the darwin machine to boot during reset
+     hwaddr  init_pc, init_x0;
+ };
+ 
++/* Experimental boot console; not an Apple GPU device. */
++#define DARWIN_FB_WIDTH 1024
++#define DARWIN_FB_HEIGHT 768
++#define DARWIN_FB_STRIDE (DARWIN_FB_WIDTH * 4)
++#define DARWIN_FB_SIZE (DARWIN_FB_STRIDE * DARWIN_FB_HEIGHT)
++
+ #define MACHINE_CLASS_ARG(a) \
+ static char *a##_darwin_class_get(Object *obj, Error **errp) { \
+     DarwinState *s = DARWIN_MACHINE(obj); \
