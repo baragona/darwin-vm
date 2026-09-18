@@ -1,0 +1,80 @@
+[
+  {
+    "pc": "0x195913844",
+    "unslid": "0x185c97844",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x185c97844: -[UILocalizedIndexedCollation initWithDictionary:] + 560\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1959135ec",
+    "unslid": "0x185c975ec",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x185c975ec: +[UILocalizedIndexedCollation collationWithDictionary:] + 44\n",
+    "error": ""
+  },
+  {
+    "pc": "0x195913b2c",
+    "unslid": "0x185c97b2c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x185c97b2c: +[UILocalizedIndexedCollation currentCollation] + 124\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1d4e30d94",
+    "unslid": "0x1c51b4d94",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome (__TEXT.__text)\n\n0x1c51b4d94: ___58+[SBHLocalizedIndexedCollationStrategy myCurrentCollation]_block_invoke + 24\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1be785fb4",
+    "unslid": "0x1aeb09fb4",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libdispatch.dylib (__TEXT.__text)\n\n0x1aeb09fb4: __dispatch_client_callout + 16\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1be76eb60",
+    "unslid": "0x1aeaf2b60",
+    "symbol": "IMAGE\n-----\n > /usr/lib/system/libdispatch.dylib (__TEXT.__text)\n\n0x1aeaf2b60: __dispatch_once_callout + 32\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1d4e30d78",
+    "unslid": "0x1c51b4d78",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome (__TEXT.__text)\n\n0x1c51b4d78: +[SBHLocalizedIndexedCollationStrategy myCurrentCollation] + 68\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1d4e30de0",
+    "unslid": "0x1c51b4de0",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome (__TEXT.__text)\n\n0x1c51b4de0: +[SBHLocalizedIndexedCollationStrategy prewarm] + 36\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1d4d6607c",
+    "unslid": "0x1c50ea07c",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome (__TEXT.__text)\n\n0x1c50ea07c: -[SBHIconLibraryTableViewController init] + 76\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1d4df4428",
+    "unslid": "0x1c5178428",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome (__TEXT.__text)\n\n0x1c5178428: -[SBHLibraryViewController _setupIconTableViewController:] + 508\n",
+    "error": ""
+  },
+  {
+    "pc": "0x1d4deedf0",
+    "unslid": "0x1c5172df0",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoardHome.framework/SpringBoardHome (__TEXT.__text)\n\n0x1c5172df0: -[SBHLibraryViewController setIconImageCache:] + 212\n",
+    "error": ""
+  },
+  {
+    "pc": "0x235046010",
+    "unslid": "0x2253ca010",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x2253ca010: -[SBHomeScreenController _setUpLibraryViewControllerForWindowScene:] + 416\n",
+    "error": ""
+  },
+  {
+    "pc": "0x23503ff14",
+    "unslid": "0x2253c3f14",
+    "symbol": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/SpringBoard.framework/SpringBoard (__TEXT.__text)\n\n0x2253c3f14: -[SBHomeScreenController _setupOverlayLibraryViewController] + 140\n",
+    "error": ""
+  }
+]

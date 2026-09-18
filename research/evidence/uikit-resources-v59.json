@@ -1,0 +1,427 @@
+{
+  "build": "24A437",
+  "previously_verified_files": 52,
+  "new_files": [
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/key_press_delete.caf",
+      "bytes": 5420,
+      "sha256": "f3f0064af5fecbf0ad81c42f469a2b6dac97c71ed2ee2273b5cee2df2fa1453f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Localizable.loctable",
+      "bytes": 1358819,
+      "sha256": "65f3dfbcd2a3ac2b3840fe673733c085fdc3eb8231030d6ccd083212b05756ca"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Single_0ms_S10-D52-D53-D54.ahap",
+      "bytes": 486,
+      "sha256": "cefde30b6bee0fd5db327c95cba7fe16f6e27497cf85967a9b5042c1872c986d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Keyboard-default.plist",
+      "bytes": 3202,
+      "sha256": "5e486b3f2cb2ae87705b1eb9be4ad91469187b3bbea980a1d3fcd59d08629d68"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/200312_ch_FPO-D52-D53-D54.wav",
+      "bytes": 233836,
+      "sha256": "ae0c0023f5564e37e82b723e5c8b7b6de2250924292c5328d80872d4e55b5fbd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/UIDocumentPickerDefaultTags.plist",
+      "bytes": 292,
+      "sha256": "35312592342fd29c93b822c9d8fc8325d3c28c0c2cc64684b1f527032f395b07"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/key_press_modifier.caf",
+      "bytes": 5808,
+      "sha256": "2b02c5272d46aaf3692b22345de072433d11ce30553c57563018b41437fd7139"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/connect_power-D52-D53-D54.wav",
+      "bytes": 159360,
+      "sha256": "f65b8941ac549bd727ffbe17f4f61a6464323255bd39de787c0cdb200cd05a24"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/autocorrect_bubble_stretchable@2x.png",
+      "bytes": 853,
+      "sha256": "6fc33e2955ad9b59e55ea17ea0f0fdba66d02d03e4d7a9a3eb79e6a72dad93f9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/SFProRoundedStatusBar.ttf",
+      "bytes": 88412,
+      "sha256": "b0e9e6a8c225fd2f0a76297c0308abe7fed43574495f55eb732994d638be8091"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/key_press_click.caf",
+      "bytes": 4490,
+      "sha256": "6acf08272efa46d9bc6ab58e7d00bc58c7055ceeb0f3d41dc60ea9be74de18bd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Single_0ms_S10_charge_500ms-D52-D53-D54.ahap",
+      "bytes": 2277,
+      "sha256": "f6c715c276aae563c31bcfc7c18ed0163ddffa6b4fcdce9ccf0786b19be8720a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/MagSafe_Wallet_Detach.ahap",
+      "bytes": 2137,
+      "sha256": "b99d895d99a64e6a6c1fc509c37d15b39ba466a64f542b7f26f7d80eac68d76a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/de.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 470,
+      "sha256": "f082038627da702943d12447ce3725eb91e33b6e3d841cc13606aceb28ab6c89"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ur.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1096,
+      "sha256": "ede38a40dffd13efde155f1752e8b861c1b82b00a5aa0fda990716a53f93226b"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/he.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 624,
+      "sha256": "7901c46dd7b9e61722fbbc8bafdcfed685fc69d46f416528350c3f385a952b04"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ar.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 672,
+      "sha256": "d11ab1a9fc184c2e1075da5c3c8534f6a78593c5642b3a0e8a8de556790e1ec5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/el.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 760,
+      "sha256": "44b49b320bc2e18e5d4e2631c7abea8fc899353aa09bc883eecebcf16cc20981"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ja.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 528,
+      "sha256": "f6e9d9ca76da4d9b3917762cbc6d10b647baa8b8c4a9f1568846d6341f27e0fc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/mr.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1186,
+      "sha256": "ede08ba38a93ceaf048d21bf97b3833e06e3a7fc7d7ce5024c00041b18e03a30"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/en.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 635,
+      "sha256": "3392e04ff6232a913b170062f11b6a19a303e300e45dcca826742d5cf753a221"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/uk.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 704,
+      "sha256": "73ac2cfbab6a5be24a99ec18f02d73dba9e3714194b677d95dee18ac1c08bfa1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/BoundingPathData",
+      "bytes": 34912,
+      "sha256": "8cdc7b3f4a4ff17566eb2fe6bfa62305518a5ae09de485166ff0d76e26ed575e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/Info.plist",
+      "bytes": 734,
+      "sha256": "f27bba7a3d949882c3aec13e5ccd46b7ae9cfcaf716ccaec3e795e38b465bc1e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/Assets.car",
+      "bytes": 138360,
+      "sha256": "5726fb585b2a530f8c0229453ac295e2b47614397223ee780cf0c443f9ebcb2e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/es_419.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 461,
+      "sha256": "5358ff8db3b8217415f488de6646680f5324be69faa2ac53349116e149f5427d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/gu.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1258,
+      "sha256": "b96a7f02bac93ba3e4f4c6319acbdc33b20f51ce4316ac391308f48239ce04ff"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/kn.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1318,
+      "sha256": "de87f99651c1ddb0ad09d68407dfbcc10fee954019ca7a8015a3950f6b45b34c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/pt_PT.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "c9f2998e32da68ff7c6ca06fc7f3d0b74e5a76caa2061695fc6b45939e8de1fb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/pa.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1060,
+      "sha256": "f7eaacf7333563290f8df26f782a397ddfed2bd00afb674d203b55c42bbffe5e"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/es.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 461,
+      "sha256": "5358ff8db3b8217415f488de6646680f5324be69faa2ac53349116e149f5427d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/sl.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 487,
+      "sha256": "68ae9c75677ea04cbafe067b54fbd4cefa075c059e5d1580a8728ac5f35036cf"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/or.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1270,
+      "sha256": "a9107409524cd9573a27fcdfba371408f4e30185d3bbe621a7d5e8e8690d0f46"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/da.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 487,
+      "sha256": "834b5a141c94188467e763be7bed52aea848f1029e9797ac83aa390f81c99db0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/it.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "946b52384780148f6a9b67fcb6136a1a5973dff66b171e11f04351c8fb52d719"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/bg.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 708,
+      "sha256": "292ab20f4f560aac4e9a6230b0688b80dabace050654dc427132edcbcb2d381a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/sk.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "0ffdb4f2b1b5c763ffb6a48142ac66789986e347f16f1de50ab464bafd3e62a6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/zh_CN.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 503,
+      "sha256": "1438373ddac8f0436c7c68fd13f8ccc80b6a5b1830df030950ea1c50298cda39"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/kk.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 776,
+      "sha256": "4fe8fad0accfae925654bd071332919e3d82503fb14b24d44e225504730be767"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ms.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "7334af3d57b80d1a15638da88332d60c694c78266b4ade9e1fb41377fc004989"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/_CodeSignature/CodeResources",
+      "bytes": 2769,
+      "sha256": "2f59388d4068657bbb6a018476257836411260e51cd6b3e98d14aa75d4a48ccf"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ta.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1114,
+      "sha256": "324622558968ea75a35c8ac859d99933c1a65987fe32494d2605e4599b3524a2"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ml.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1330,
+      "sha256": "adf796fa1690b5b4a9119f06d9cf5cb7dfa4532d5431630ac6990e7d275de9e1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/sv.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 487,
+      "sha256": "20d3d80d0429a4d7b3b2e7888ee9ae3d2d3383a0b929c6c93996a6169e5fce84"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/en_AU.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "a56421c83d679f4e576c783731e5a812091f9812f82ac1dc23d6c28171e51f77"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/te.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1330,
+      "sha256": "55f9b65a4f73f130a0a28abbdaf6b53c13cad2e29b42cf096253d0769b4d1e94"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/cs.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 513,
+      "sha256": "342d02e5b770256d35d96f5771b0b11c4a9cea90e666d764d31b9686b325b5cb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ko.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 560,
+      "sha256": "159a973f59ac5436c457d2abfe96bde1171a9d815e12af70d346b3f5993a90b9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/TextEffectsCatalog",
+      "bytes": 34912,
+      "sha256": "eb6fda6d8bf2e91389f2dca8b619f705990c776cebfefe9cf4bf5f94284a0b61"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/TextEffects.car",
+      "bytes": 24328,
+      "sha256": "ab95a0cdd96ba099ed7ab0a566ab584a7aa49e2aebb0846904a6d873ed58591c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/TextEffectsCatalog-Prefix.pch",
+      "bytes": 35,
+      "sha256": "ee89fe61f929c32e15cb46f37b75a82bead6c1dd68fa97c1684c41d96e3ddf38"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/Info.plist",
+      "bytes": 738,
+      "sha256": "c65faf65bde3a81b3118d6332f3a1546bf1987ae2953f52491802615f7a06060"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/TextEffectsCatalog-Info.plist",
+      "bytes": 69,
+      "sha256": "dc73c8b56474da31e09047c7710a729a9a5828507fd080750137e94bf8f2f5cd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/no.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 487,
+      "sha256": "fdbe636a6e53484a7cc7689273330ff4dbe3b77184a15856488b6f1bebb6d865"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/hu.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 640,
+      "sha256": "73981186b4ac8b5194c4a47981ada312b8aff5f6b769a224804bd94c2c9f36df"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/tr.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 513,
+      "sha256": "1fce5910525f83c4427e55ee9e53cf1ebac113bb0b47cc16be4404ba7772e6a7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/pl.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 416,
+      "sha256": "42fdec00e7e1b615e20d7733e42db94ff05374ec39589dcf9d4247483755be0d"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/fr_CA.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "ee1eca4d8916c848dd1aa561f62586e3e9592223ca108901f48efa76e2bf6367"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/vi.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 539,
+      "sha256": "167350e3d7fd770a4ff2882d0f780010903854a37a48206363d5103c0e278095"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/lt.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 491,
+      "sha256": "2453518f171b493c156c46bf53dec74dcf24c07440b702f239393da0bf2a0d9a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ru.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 688,
+      "sha256": "144a8fffa9a2028dcdf23d8fb57d95462e4f5dc25d6685a5b3b2ceccbf86be79"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/en_GB.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "a56421c83d679f4e576c783731e5a812091f9812f82ac1dc23d6c28171e51f77"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/fr.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "ee1eca4d8916c848dd1aa561f62586e3e9592223ca108901f48efa76e2bf6367"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/fi.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 487,
+      "sha256": "48320d4ff2323bf16998281b2a3d8bedd09bccc93487ded133b4d141be017f01"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/id.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "1152699e9277005dee170a48341ae324a014c3d8139430cf9dc2ef90e39add02"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/nl.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "a03b652b058bd5d602ac421c75ec774e964839f714c0bb14e930e7868653c633"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/th.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 839,
+      "sha256": "f92fc4be8a0d9530d607232ad91d3be6cc1d4c561fe1355b890505ee21b3a7ee"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/pt.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "c9f2998e32da68ff7c6ca06fc7f3d0b74e5a76caa2061695fc6b45939e8de1fb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/bn.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1239,
+      "sha256": "99f7f4fbbf319286d77d00237b0a06acd905e474b56e519d287b1cb281147cf7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ro.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "29effcc81da74e50f578d35a979f7f69e11622833be58bb8a4690cfe084ce42a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/zh_HK.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1044,
+      "sha256": "bddbe253ee8e4bfd2f2f7478ce3d60cf60cbc75b6b4ac70e926ceee105c5947a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/Info.plist",
+      "bytes": 761,
+      "sha256": "14e59408430e305c0ca597e871d8e2fe26d89404034236c9b15e06b969222a31"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/Assets.car",
+      "bytes": 209176,
+      "sha256": "bcdfc1a0fa57d7a8358abf60ab51f7749f2561afe4652af18ee239d1fab1cb5c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/CarPlayArtwork",
+      "bytes": 34896,
+      "sha256": "23005aaea19e95d2090767d166f95f9447d4f5a0b6716be2053b59548af34dbf"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/hr.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 512,
+      "sha256": "72701c403a90b187be6345d47d19aac558bb937e8dad3168c28b71eea626d1fd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/hi.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1390,
+      "sha256": "9a66f85a463eb05c97107ef4bf5414d0f03227f4dbbbe331b26b789ad76b8502"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/ca.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 448,
+      "sha256": "6e52158750f32bba4e67ce3511bc55063b3d206fa9b5672682f2d82f529eebf5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/zh_TW.lproj/UITableViewLocalizedSectionIndex.plist",
+      "bytes": 1044,
+      "sha256": "bddbe253ee8e4bfd2f2f7478ce3d60cf60cbc75b6b4ac70e926ceee105c5947a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/CarPlayArtwork.bundle/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/XPCServices/SecureControlService.xpc/SecureControlService",
+      "bytes": 73584,
+      "sha256": "68d38e95008a2f299ca42ac7906df362f8d4299b3a9ecf1bc5d32787c355aa89"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/XPCServices/SecureControlService.xpc/Info.plist",
+      "bytes": 687,
+      "sha256": "058ceb0a256e9caaba96c58d957c08165c9315da0bd631270ab52730978915d7"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/XPCServices/SecureControlService.xpc/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/TextEffectsCatalog.bundle/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    }
+  ],
+  "runtime_validation": "pending"
+}

@@ -1,0 +1,15 @@
+/bin/chown -R 33:33 /var/installd; /bin/launch-probe submit /launch<33 /var/installd; /bin/launch-probe submit /launchj                         obs/com.apple.containerma<nch-probe submit /launchjobs/com.apple.containerman                         agerd.probe.plist; /bin/l<bs/com.apple.containermanagerd.probe.plist; /bin/la                         unch-probe submit /launch<gerd.probe.plist; /bin/launch-probe submit /launchj                         obs/com.apple.lsd.probe.p<nch-probe submit /launchjobs/com.apple.lsd.probe.pl                         ist; /bin/launch-probe su<bs/com.apple.lsd.probe.plist; /bin/launch-probe sub                         mit /launchjobs/com.apple<st; /bin/launch-probe submit /launchjobs/com.apple.                         mobile.installd.probe.pli<it /launchjobs/com.apple.mobile.installd.probe.plis                         t; echo SERIAL_DONE_679ea<obile.installd.probe.plist; echo SERIAL_DONE_679ea3                         cfb2ed4d8d90c85c87518bd53<; echo SERIAL_DONE_679ea3cfb2ed4d8d90c85c87518bd538                         
+System Policy: bash(41) allow process-exec* /bin/chown
+System Policy: bash(42) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(44) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(46) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_679ea3cfb2ed4d8d90c85c87518bd538

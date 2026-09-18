@@ -1896,3 +1896,16 @@ reverted. The next exception is localized to CoverSheet quick-action button
 luminance images; matching missing resources are prepared for a future boot.
 [Detailed checks, failed attempts, manifests, and stopped-guest state](evidence/extension-ownership-v55.md).
 Interactive graphics remains unachieved.
+
+
+### UIKit artwork fixes the lock-screen luminance assertion (v57–v58)
+
+The failing quick-action control requests UICoverSheetButtonLuminanceMap,
+which returned nil. The matching asset lives in UIKitCore's missing
+Artwork.bundle, not CoverSheet's catalog. Restoring the original artwork
+changes the loader result to non-null and lets SpringBoard advance into
+App Library initialization. It then fails on missing UIKit collation data.
+The remaining UIKitCore resources are prepared but have not been boot-tested.
+[Exact asset trace](evidence/coversheet-runtime-v57.md),
+[runtime validation, next exception, and stopped-guest state](evidence/artwork-runtime-v58.md).
+Usable graphics and input remain outstanding.

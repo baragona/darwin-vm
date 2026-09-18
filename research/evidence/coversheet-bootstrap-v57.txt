@@ -1,0 +1,13 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.usermanagerd.< submit /launchjobs/com.apple.mobile.usermanagerd.p                         robe.plist; /bin/launch-p<ple.mobile.usermanagerd.probe.plist; /bin/launch-pr                         obe list; echo SERIAL_DON<obe.plist; /bin/launch-probe list; echo SERIAL_DONE                         _19b3e1fa8ccb497d9a460730<be list; echo SERIAL_DONE_19b3e1fa8ccb497d9a4607300                         683b2f3
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(39) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=4
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_19b3e1fa8ccb497d9a4607300683b2f3

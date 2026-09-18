@@ -1,0 +1,289 @@
+{
+  "build": "24A437",
+  "requested_asset": "UICoverSheetButtonLuminanceMap",
+  "asset_metadata": [
+    {
+      "AssetType": "Image",
+      "BitsPerComponent": 8,
+      "ColorModel": "Monochrome",
+      "Colorspace": "gray gamma 22",
+      "Compression": "deepmap2",
+      "Encoding": "Gray",
+      "Idiom": "universal",
+      "Name": "UICoverSheetButtonLuminanceMap",
+      "NameIdentifier": 62089,
+      "Opaque": true,
+      "PixelHeight": 1,
+      "PixelWidth": 256,
+      "RenditionName": "Button Map 03.png",
+      "Scale": 1,
+      "SHA1Digest": "0BCD470DC9ED8B8F3A1E36C314540F585DF8EA3ABBF29A68EC257180CB37AB54",
+      "SizeOnDisk": 334,
+      "State": "Normal",
+      "Template Mode": "automatic"
+    }
+  ],
+  "files": [
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Artwork",
+      "bytes": 34896,
+      "sha256": "25ef3711b961e14242f65d2393f1288dc2edf7e84c940706b2fef1fc45776d85"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/UIKeyboardContinuousPathIntroductionDark.mov",
+      "bytes": 450560,
+      "sha256": "0f394cc9a7ffb7fef42b7ee4b6325367228d65862c8115043aa60fa3f298e8ea"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Artwork-Info.plist",
+      "bytes": 69,
+      "sha256": "dc73c8b56474da31e09047c7710a729a9a5828507fd080750137e94bf8f2f5cd"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/UIKeyboardContinuousPathIntroductionLight.mov",
+      "bytes": 282378,
+      "sha256": "7f1ac40099d45bff8f81e8f25e4804741e52796d2bfbe3a286e30a667b677cc1"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Info.plist",
+      "bytes": 714,
+      "sha256": "44e6b04b1ea8b961d70a62b1b3e044b3d6863d88d16e42aa1a2e22824b312285"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Artwork-Prefix.pch",
+      "bytes": 35,
+      "sha256": "ee89fe61f929c32e15cb46f37b75a82bead6c1dd68fa97c1684c41d96e3ddf38"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/Assets.car",
+      "bytes": 3308040,
+      "sha256": "385b85d5aeccf77f6b0a02fddea35890a8731aeb8d4988d99f79110cc3908588"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoPhoneDark.ca/index.xml",
+      "bytes": 1505,
+      "sha256": "004bc100bc38c5c8bf9a98d67f78eafa1066775104ad4167ee7e32b7c1494d94"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoPhoneDark.ca/main.caml",
+      "bytes": 25808,
+      "sha256": "1d265425253ff1e3674bfe59eed27c6a7d1e0cf510f266c37b87bf6a024d92bc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCP.ca/index.xml",
+      "bytes": 1327,
+      "sha256": "e20e95ea97dd0168500cf7996c55b07df892949247ce7652f1f8d8643658a231"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCP.ca/main.caml",
+      "bytes": 33703,
+      "sha256": "8bf3f5f7293bb108fa2ea0b60f9cdb774df40d7074d3169b7d1944c81265b91f"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndo.ca/index.xml",
+      "bytes": 1254,
+      "sha256": "c7ebbf5416e20bba80fcd3d87e8d4db140f07e68a3789e81aa11ce1aa9d0985c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndo.ca/main.caml",
+      "bytes": 14146,
+      "sha256": "afce19f4387c9bba7df97b6a76863cf65d455f56b363c133774cc95957342aa8"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoPhone.ca/index.xml",
+      "bytes": 1505,
+      "sha256": "207a444e386c31f7c70a351f3d734c63d4ff46a2ba01d4de757779e157f5ea44"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoPhone.ca/main.caml",
+      "bytes": 25752,
+      "sha256": "b188171f7801ce034dd576d8d2df0257d28bf29ab6b91af2944b031c311a8b9c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PEVSuggestionsGlyph.ca/index.xml",
+      "bytes": 3138,
+      "sha256": "a0af0a0e9e885ef423d13fa2f62defa1d4c3d41e1b7813b05a90c63e54f29387"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PEVSuggestionsGlyph.ca/assetManifest.caml",
+      "bytes": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PEVSuggestionsGlyph.ca/main.caml",
+      "bytes": 18861,
+      "sha256": "a494452b2d7f3aedecf62fe237db8106df8095264a7c977f0029529afd70ed70"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/StagedDictationAnimationAnnotated.ca/index.xml",
+      "bytes": 1425,
+      "sha256": "9d163dc41399d315814f353b7352aa120c1ced75e2f2b242fe94a7ae76c0968c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/StagedDictationAnimationAnnotated.ca/assetManifest.caml",
+      "bytes": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/StagedDictationAnimationAnnotated.ca/main.caml",
+      "bytes": 15761,
+      "sha256": "c47d8c8307abd9bc353d1b593126c316f950224e9d3f206d9470fb1522b53ae9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCPDark.ca/index.xml",
+      "bytes": 1327,
+      "sha256": "e20e95ea97dd0168500cf7996c55b07df892949247ce7652f1f8d8643658a231"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCPDark.ca/main.caml",
+      "bytes": 33727,
+      "sha256": "3ab3dee68dcdd90879426c038fbfeb27b5006d30852145889565fcd144e0cba5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/index.xml",
+      "bytes": 1327,
+      "sha256": "93c5cf49196b9736c8fac6be731ef34863aebf64f17da0c80e93b6360abc82d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/main.caml",
+      "bytes": 36409,
+      "sha256": "a1807c9481c074fb42f09707eb722f3103ec993792e49cdfdcf2d03bec733cbc"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedoDark.ca/index.xml",
+      "bytes": 1327,
+      "sha256": "93c5cf49196b9736c8fac6be731ef34863aebf64f17da0c80e93b6360abc82d9"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedoDark.ca/main.caml",
+      "bytes": 36444,
+      "sha256": "80af3fc054732258f0ef1b04322b5be2697ca9fba811f25317aa64520ec867c4"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoDark.ca/index.xml",
+      "bytes": 1254,
+      "sha256": "c7ebbf5416e20bba80fcd3d87e8d4db140f07e68a3789e81aa11ce1aa9d0985c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoDark.ca/main.caml",
+      "bytes": 14216,
+      "sha256": "ad879c9adbbe7e07cc19aae433fbcbf7d5f860f644bd34aeca3efbc88edfc164"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoDark.ca/assets/Selected button Dark Undo.png",
+      "bytes": 1960,
+      "sha256": "72fd4cb75ef75c65fa77619fa683177aa09f77f5210b926456a5ef9cd0bdb3a0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndoDark.ca/assets/MenuFrameBarDark.png",
+      "bytes": 7631,
+      "sha256": "4df74f2d68c0e1647ea60bae0c1c31c47ca545217bd4cf46b3fb983c7c8344a6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedoDark.ca/assets/Selected button Redo Dark.png",
+      "bytes": 1966,
+      "sha256": "efb8de63ce4f4a7449a5b8d91e3864012a01a8d936a48aa266533bb5a20e9aae"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedoDark.ca/assets/Selected button Dark Undo.png",
+      "bytes": 1960,
+      "sha256": "72fd4cb75ef75c65fa77619fa683177aa09f77f5210b926456a5ef9cd0bdb3a0"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedoDark.ca/assets/MenuFrameBarDark.png",
+      "bytes": 7631,
+      "sha256": "4df74f2d68c0e1647ea60bae0c1c31c47ca545217bd4cf46b3fb983c7c8344a6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedoDark.ca/assets/Blue-4.png",
+      "bytes": 1310,
+      "sha256": "05373c678327decdcf95e7bda8ad707257f8b02838cd40dc92a5f4c4dfa9c891"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/assets/Blue.png",
+      "bytes": 1081,
+      "sha256": "df9f5c504b812ea6cc13f35c8b9ddee33c2aa1f3074053c3a5b8d420dc961be2"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/assets/MenuFrameBarLight 2.png",
+      "bytes": 7391,
+      "sha256": "d26a11af4dd2657a6e3115241c0a88c1538c003bf6f06938e6112e459406ccf5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/assets/Blue-1.png",
+      "bytes": 1081,
+      "sha256": "df9f5c504b812ea6cc13f35c8b9ddee33c2aa1f3074053c3a5b8d420dc961be2"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/assets/Selected button redo.png",
+      "bytes": 1951,
+      "sha256": "7eb6598e5545aa84e5180c88f28719e464826a13d44f88d9bf4bc1116cf4df93"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/SwipeUndoRedo.ca/assets/Selected button.png",
+      "bytes": 1938,
+      "sha256": "402e4027847728a47328bda385c6333e355dd10465238d91664663eba816d8cb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCPDark.ca/assets/PasteDarkSelect-1.png",
+      "bytes": 2239,
+      "sha256": "4ef3a442e3d3a87bd17e1b2cd23b8884dd239f4efd8e29bfd2bb3095436c870c"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCPDark.ca/assets/MenuFrameBarDark.png",
+      "bytes": 7631,
+      "sha256": "4df74f2d68c0e1647ea60bae0c1c31c47ca545217bd4cf46b3fb983c7c8344a6"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCPDark.ca/assets/CopyDarkSelect.png",
+      "bytes": 2241,
+      "sha256": "d44ebaed0578219ff16b132c67cd815f5beefb692622e042348474520d5af401"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCPDark.ca/assets/Blue-3.png",
+      "bytes": 1310,
+      "sha256": "05373c678327decdcf95e7bda8ad707257f8b02838cd40dc92a5f4c4dfa9c891"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndo.ca/assets/MenuFrameBarLight 2.png",
+      "bytes": 7181,
+      "sha256": "4e1e5bd22c4de92ba068828b2ad46c8a5ae006e596304d13ccab470ca6ce3c66"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/DoubleTapUndo.ca/assets/Selected button.png",
+      "bytes": 1938,
+      "sha256": "402e4027847728a47328bda385c6333e355dd10465238d91664663eba816d8cb"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCP.ca/assets/MenuFrameBarLight 2.png",
+      "bytes": 7391,
+      "sha256": "d26a11af4dd2657a6e3115241c0a88c1538c003bf6f06938e6112e459406ccf5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCP.ca/assets/PasteLightSelect-1.png",
+      "bytes": 2225,
+      "sha256": "c47c52b72e4e49ee72df109206fff38115977157024a4fdbb3c4b97220f40d13"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCP.ca/assets/Blue-2.png",
+      "bytes": 1081,
+      "sha256": "df9f5c504b812ea6cc13f35c8b9ddee33c2aa1f3074053c3a5b8d420dc961be2"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Artwork.bundle/PinchCP.ca/assets/CopyLightSelect.png",
+      "bytes": 2225,
+      "sha256": "6559e6656cdcbf96555bcab6b93574dd7a63afb74ded4a9baf2a042dab17c3b5"
+    },
+    {
+      "path": "System/Library/PrivateFrameworks/UIKitCore.framework/Info.plist",
+      "bytes": 2045,
+      "sha256": "eba073c8e19986f6b157bfcaff7786efb411aeb510a6b28694921ad455be9760"
+    }
+  ],
+  "runtime_validation": "V58: UICoverSheetButtonLuminanceMap request changed from nil to non-null, and SpringBoard advanced past the luminance assertion to a collation exception; see artwork-runtime-v58.md"
+}
