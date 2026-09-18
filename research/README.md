@@ -1525,3 +1525,37 @@ Under the active crash-loop logging, RemoveJob completed with errno 0 and an
 intact completion marker using this version; the earlier send-then-read
 helper had truncated markers and observation timeouts. Python compilation
 and diff checks also pass. This does not establish reliable large-file upload.
+
+
+## Bounded application-registration probe (v47)
+
+The matching CoreServices cache has
+`-[LSApplicationWorkspace registerApplication:]` at `0x186f85c70`. Disassembly
+shows it forwards its URL argument to `_LSRegisterURL(url, false)` and returns
+whether the OSStatus is zero. This gives a runtime selector path without
+calling a hardcoded private function address.
+
+[ls-registration-probe.c](ls-registration-probe.c) drops root credentials to
+mobile, loads CoreServices, checks selectors, and queries
+`LSApplicationProxy applicationProxyForIdentifier:` for com.apple.springboard.
+It prints proxy description, isInstalled and bundleURL where supported. Only
+`--register-springboard` invokes registration, with the existing
+/System/Library/CoreServices/SpringBoard.app URL. Query again in a separate
+process to check actual resulting state; method success alone is insufficient.
+The process has a 30-second alarm and no added entitlements.
+
+Build with the matching restore libSystem (same flags as the other C probes),
+ad-hoc sign, copy into the stopped guest image and merge the CDHash into the
+version-1 trust cache. [Probe identity](evidence/ls-registration-probe-v47.json)
+records the exact build and additive trust-cache entry count. No existing
+entries were removed. Registration has not yet been claimed successful.
+
+
+V47 boots successfully and both diagnostic service submissions return errno 0.
+The first guest query has not executed: automatic approval review timed out
+on the elevated UART command and on its one permitted retry. A normal-sandbox
+attempt then failed to connect to the guest socket with EPERM. This is a
+host-tool execution limitation, not evidence about LaunchServices or the
+registration API. No application registration was attempted. The guest remains
+booted with container/lsd jobs submitted; virtual LCD and RunningBoard have not
+yet been reapplied on this boot. Retest the query before drawing conclusions.
