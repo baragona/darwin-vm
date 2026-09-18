@@ -13,10 +13,12 @@ and a full installed system are not working yet.
 - `IOSurfaceRoot` is registered, but no GPU attachment or rendered UI is verified.
 - LLDB works through QEMU; a temporary TXM state override enables guest task inspection.
 - The AppleKeyStore endpoint-order patch gets backboardd past its initial wait.
-- With writable var, a scoped helper path exception, and matching ICU resources,
-  the container helper completes migration and creates a system container.
-- Container sandbox-extension issuance under `/mnt1` is the current startup
-  blocker; backboardd still aborts and no display enumeration completes.
+- Native tmpfs mounting at `/private/var` works with the original mount helper.
+  The earlier `/mnt1` symlink and container-helper entitlement experiment are
+  superseded; the original container helper is restored in v30.
+- Matching ICU data gets container migration past date-formatter initialization.
+- Backboardd now reaches QuartzCore display detection and render-server startup;
+  successful display enumeration and rendered UI remain unverified.
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -832,3 +834,38 @@ The fresh v28 guest is running, with no debugger attached or Developer Mode
 override. QMP: `/tmp/a19-ui-v28-qmp.sock`; UART: `/tmp/a19-ui-v28-serial.sock`.
 Only resource hashes, decoded diagnostic output, and notes are committed;
 Apple's ICU files remain local firmware assets.
+
+## Native var mount and BackBoard configuration (v29–v30)
+
+The original tmpfs helper **can mount directly at `/private/var`**. Earlier
+denials were for `/private/var/tmp`; they did not establish a denial at the
+parent mount point. Making `/private/var` a real directory and mounting there
+avoids the resolved `/mnt1` sandbox-path mismatch. `init-writable-var.sh` now
+uses this layout and drops to an interactive shell if mounting fails.
+
+The v29 run produced no container-extension denial and reached a different
+exception: `NSInternalInconsistencyException` for the missing
+`/System/Library/BackBoard/EventProcessorConfiguration.plist`. Before abort,
+thread samples showed `CAWindowServer _detectDisplays`, render-server startup,
+and IOMobileFramebuffer display-list population. [Evidence and reproduction](evidence/native-var-v29.md).
+This establishes execution progress, not a detected display or rendered frame.
+
+V30 restores `containermanagerd_system` byte-for-byte from 24A437 and adds the
+matching 1202-byte BackBoard configuration. [Input hashes](evidence/native-var-v30-inputs.json).
+The previous scoped `/mnt1/` entitlement is no longer present in the installed
+helper. Historical diagnostic CDHashes remain in the merged trust cache; no
+new trust entry was needed. The attempted no-sandbox experiment was rejected
+by automatic approval review and never executed; the native-path alternative
+required no sandbox bypass.
+
+V29 was stopped after its debugger detached and all breakpoints were removed.
+V30 uses QMP `/tmp/a19-ui-v30-qmp.sock` and UART
+`/tmp/a19-ui-v30-serial.sock`. Developer Mode has not been overridden in v30.
+
+The follow-up probe waited 45 guest seconds after the initial UI probe, then
+reported backboardd PID 26 with `LAST_EXIT=0`, helper PID 31 alive, and tmpfs
+still mounted at `/private/var`. [Survival and mount evidence](evidence/native-var-v30-survival.txt).
+This passes the previous approximately 38-second abort window. No SIGABRT,
+SIGSEGV, or sandbox denial appeared in the captured v30 log at checkpoint.
+The CADisplay query still has no completed display count, so further service
+and display-driver investigation is required. QMP confirms the guest running.

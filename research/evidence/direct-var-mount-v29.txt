@@ -1,0 +1,15 @@
+writable-var
+
+System Policy: bash(13) allow process-exec* /bin/touch
+
+
+WRITABLE_VAR_READY
+
+System Policy: bash(14) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+
+devfs on /dev (devfs, local, nosuid, nobrowse)
+
+tmpfs on /private/var (tmpfs, local, nosuid)
+
+System Policy: bash(3) allow process-exec* /bin/bash

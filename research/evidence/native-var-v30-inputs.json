@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/usr/libexec/containermanagerd_system",
+    "size": 53712,
+    "sha256": "c96c3277837f179dcff77022dc2a9d3f8c3c34e49a7dcd8c5f74cbc10002be08"
+  },
+  {
+    "path": "/System/Library/BackBoard/EventProcessorConfiguration.plist",
+    "size": 1202,
+    "sha256": "b6ad5a0db39efb8ffc8b9380d188427ee14e0b085117c2af5bff26eb12ec4106"
+  }
+]

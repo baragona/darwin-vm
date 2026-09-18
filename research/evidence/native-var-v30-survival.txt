@@ -1,0 +1,29 @@
+System Policy: bash(38) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+
+LAUNCH_JOB_COUNT=3
+
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+
+HELPER_ALIVE=0
+
+System Policy: bash(39) allow process-exec* /bin/ls
+total 48
+
+drwxr-xr-x 3 root wheel  88 Jan  1 00:00 .
+
+drwxr-xr-x 3 root wheel  88 Jan  1 00:00 ..
+
+drwxr-xr-x 5 root wheel 352 Jan  1 00:00 3CD6B51B-E375-4F50-9ABC-6D36FC269B72
+
+System Policy: bash(40) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+
+devfs on /dev (devfs, local, nosuid, nobrowse)
+
+tmpfs on /private/var (tmpfs, local, nosuid)
+
