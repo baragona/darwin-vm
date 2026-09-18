@@ -1,0 +1,13 @@
+{
+  "build": "24A437",
+  "path": "/usr/libexec/containermanagerd",
+  "size": 54400,
+  "sha256": "3bf55411c2793a1ea249cbe242b519c550cb760b7364937321a4eac121be550e",
+  "executable_modified": false,
+  "job_changes": [
+    "UserName=mobile",
+    "KeepAlive=false",
+    "_PanicOnCrash removed",
+    "stdout/stderr under /private/var/tmp"
+  ]
+}

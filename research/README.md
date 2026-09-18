@@ -35,6 +35,8 @@ and a full installed system are not working yet.
 - RunningBoard and matching CoreEmoji resources move SpringBoard into
   applicationDidFinishLaunching; it now fails on missing _systemAppInfo
   (v44). LaunchServices components are staged for the next test.
+- The original per-user container agent gets LaunchServices into its server
+  run loop (v46). SpringBoard still lacks its installed application record.
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1485,3 +1487,41 @@ this failure. This identifies per-user container initialization as the next
 LaunchServices dependency; the existing system container helper is separate.
 The debugger was detached and all breakpoints removed. V45 remains running;
 virtual LCD and RunningBoard have not yet been applied in this boot.
+
+
+## Per-user container agent preparation (v46)
+
+V45 confirmed that only `/usr/libexec/containermanagerd_system` was installed;
+`com.apple.containermanagerd` was absent. V46 adds the byte-identical 24A437
+`/usr/libexec/containermanagerd` and a [diagnostic agent job](container-agent-probe.plist).
+Original agent/fixed-user/proxy-bundle/proxy-system/kernel-upcall arguments and
+MachServices are preserved. The diagnostic job explicitly selects mobile,
+disables KeepAlive, removes _PanicOnCrash, and captures stdout/stderr in /var/tmp.
+[File identity](evidence/container-agent-v46.json) records the untouched binary.
+The existing system helper, writable /private/var and ICU resources remain.
+
+
+The container-agent test succeeds: launchd lists containermanagerd PID 38 and
+lsd PID 40, both with LAST_EXIT=0. A temporary Developer Mode byte override
+allowed `thread-probe` to sample both tasks successfully. [Thread samples](
+evidence/container-lsd-threads-v46.txt) and [symbolication](
+evidence/container-lsd-threads-v46-symbols.json) show both in CFRunLoopRun;
+lsd specifically reaches `runServerMainRunLoop` under LSServerMain. Developer
+Mode was restored to zero and verified in the debugger immediately afterward.
+No daemon executable, entitlement, or sandbox profile was patched.
+
+The virtual LCD was reapplied with v46 cache slide `0xbbc0000` and selected by
+CADisplay. RunningBoard was then started. SpringBoard still throws
+`Got nil for _systemAppInfo.` even with lsd alive. Service availability alone
+therefore does not supply the application record. Next investigate database
+contents and application registration. The exact cache has a private
+`_LSRegisterURL` routine at `0x186f01030`; its semantics and suitability for
+this task have not yet been verified or exercised.
+
+SpringBoard's crash-loop job was removed; the guest and its supporting
+services remain running. The UART command helper now drains output while
+sending each paced byte, rather than waiting for the complete input line.
+Under the active crash-loop logging, RemoveJob completed with errno 0 and an
+intact completion marker using this version; the earlier send-then-read
+helper had truncated markers and observation timeouts. Python compilation
+and diff checks also pass. This does not establish reliable large-file upload.

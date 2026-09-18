@@ -1,0 +1,9 @@
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=57 LAST_EXIT=6
+JOB com.apple.runningboardd PID=50 LAST_EXIT=0
+JOB com.apple.backboardd PID=47 LAST_EXIT=15
+JOB com.apple.lsd PID=40 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Got nil for _systemAppInfo.'
+(0x18c253190 0x18bfd0380 0x18cac4940 0x230a2f880 0x2308cd8dc 0x19053ab8c 0x1904b6ef4 0x19049d8e0 0x1904eef00 0x1904eee6c 0x19049ab64 0x1904d41cc 0x2308553b0 0x18c0475b8)

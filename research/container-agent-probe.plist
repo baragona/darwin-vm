@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.containermanagerd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.containermanagerd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/containermanagerd</string>
+		<string>--runmode=agent</string>
+		<string>--user-container-mode=fixed</string>
+		<string>--bundle-container-mode=proxy</string>
+		<string>--system-container-mode=proxy</string>
+		<string>--kernel-upcall=yes</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/private/var/tmp/containermanagerd.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/private/var/tmp/containermanagerd.stdout</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>
