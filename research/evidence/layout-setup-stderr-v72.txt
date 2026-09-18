@@ -1,0 +1,58 @@
+/bin/cat /private/var/tmp/springboard.stderr; /bin/launch-probe lis</var/tmp/springboard.stderr; /bin/launch-probe list                         ; echo SERIAL_DONE_7c2e8d<r; /bin/launch-probe list; echo SERIAL_DONE_7c2e8d6                         486b54998960f0a0af0227db5
+System Policy: bash(152) allow process-exec* /bin/cat
+1970-01-01 00:03:26.-09 SpringBoard[67:636] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:03:29.-106 SpringBoard[67:636] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+1970-01-01 00:03:34.-53 SpringBoard[67:688] Error: Daemon connection invalidated
+1970-01-01 00:05:17.-904 SpringBoard[67:636] #configurationUpdateManager longPressBehavior: 0 previousValue: 0
+1970-01-01 00:05:28.-656 SpringBoard[67:636] Unbalanced calls to begin/end appearance transitions for <SBCoverSheetPrimarySlidingViewController: 0x90000792cf2c700>.
+1970-01-01 00:23:07.-860 SpringBoard[127:1333] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:23:09.-866 SpringBoard[127:1333] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+1970-01-01 00:23:14.-952 SpringBoard[127:1334] Error: Daemon connection invalidated
+1970-01-01 00:23:51.-889 SpringBoard[127:1333] #configurationUpdateManager longPressBehavior: 0 previousValue: 0
+1970-01-01 00:23:59.-224 SpringBoard[127:1333] Unbalanced calls to begin/end appearance transitions for <SBCoverSheetPrimarySlidingViewController: 0x600007c844d4000>.
+*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'The appLayouts array MUST contain the app layout we're transitioning to.'
+*** First throw call stack:
+(0x1834cf190 0x18324c380 0x183d40940 0x22794e984 0x227db3e48 0x227f805d8 0x227f80030 0x1926eb474 0x1926eb504 0x19272d318 0x19272b7ec 0x19272bb2c 0x2281ec0e8 0x1b192bccc 0x1b1945fb4 0x1b193b374 0x1b193b044 0x1834807a0 0x18347188c 0x1834727f4 0x22db34f24 0x1877501cc 0x227ad13b0 0x1832c35b8)
+libc++abi: terminating due to uncaught exception of type NSException
+System Policy: bash(153) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=14
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=-1 LAST_EXIT=6
+JOB com.apple.CommCenter PID=72 LAST_EXIT=0
+JOB com.apple.runningboardd PID=65 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=60 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=52 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=121 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=63 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_7c2e8d6486b54998960f0a0af0227db5

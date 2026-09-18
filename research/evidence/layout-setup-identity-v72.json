@@ -1,0 +1,25 @@
+{
+  "cache_slide": "0x2e3c000",
+  "springboard_pid": 127,
+  "assertion_handler_fp": "0x16b7b8d80",
+  "assertion_handler_sp": "0x16b7b8d20",
+  "saved_caller_x23_address": "0x16b7b8d58",
+  "saved_caller_x23": "0x0900007c84f66b50",
+  "layout_class": "SBAppLayout",
+  "layout_all_items": "0x0900007c8574d5f0",
+  "display_item": "0x0900007c7bc111c0",
+  "bundle_identifier": "com.apple.purplebuddy",
+  "transition_caller_fp": "0x16b7b9420",
+  "transition_caller_sp": "0x16b7b8d90",
+  "coordinator_slot": "0x16b7b8e18",
+  "coordinator": "0x0700007c8462de00",
+  "app_layouts": "0x0300007c7ada5ad0",
+  "array_class": "__NSArrayM",
+  "array_count_address": "0x7c7ada5af4",
+  "array_count": 0,
+  "springboard_after_continue": {
+    "pid": -1,
+    "last_exit": 6
+  },
+  "guest_running": true
+}
