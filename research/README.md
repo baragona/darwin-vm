@@ -1416,3 +1416,32 @@ where it asserts `invalid pid for <inert:[anon<SpringBoard>:-1]*>`.
 Investigate RunningBoard and launch-domain registration next. The display
 changes are process-local and must be repeated after restarting backboardd;
 a maintained boot configuration and graphical presentation remain future work.
+
+
+## RunningBoard advances startup to a missing CoreEmoji bundle (v42–v44)
+
+RunningBoard starts from the staged matching job and its Mach service resolves.
+With RunningBoard and the virtual LCD active, SpringBoard changes from the
+inert-process-handle trap to SIGABRT. In v42, subsequent spawning hit an
+unsupported SPTM opcode and a terminal nested panic; [observations and
+limits](evidence/runningboard-start-v42.md) preserve that separate emulator
+lead. No speculative opcode patch was applied.
+
+A fresh v43 reproduced the selected virtual LCD, started RunningBoard, and
+captured SpringBoard's actual stderr assertion:
+
+```text
+Assertion failed: (frameworkBundle && "CoreEmoji framework bundle could not be found."), function createFrameworkBundle_block_invoke, file CEMUtilityFunctions.cpp, line 276.
+```
+
+The missing on-disk CoreEmoji.framework bundle was then copied from the
+matching 24A437 system image into the stopped disposable service-root image.
+All 942 copied files were hash-compared to their source; [identity summary](
+evidence/coreemoji-resource-manifest-v44.json) records the result. The shared
+cache already provides framework code; this addition supplies its on-disk
+bundle resources. Firmware contents are not committed. Retest after adding
+the bundle remains pending at this checkpoint.
+
+RemoveJob during an in-flight SpringBoard respawn returned errno 36 but launchd
+subsequently terminated and removed the job. Always verify final job state;
+the reply alone does not fully describe asynchronous cleanup.

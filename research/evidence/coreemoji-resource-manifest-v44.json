@@ -1,0 +1,14 @@
+{
+  "build": "24A437",
+  "bundle": "/System/Library/PrivateFrameworks/CoreEmoji.framework",
+  "file_count": 942,
+  "total_logical_bytes": 270985440,
+  "all_copied_file_hashes_matched_source": true,
+  "sorted_manifest_sha256": "697e0ebefc29b02ff042efe97e106a2cc1a8ea52841c924e643e5be76d2b917f",
+  "info_plist": {
+    "path": "Info.plist",
+    "size": 873,
+    "sha256": "2eafb3353e895b85747398c6e9086b3f70ff904bcf2954904136ffedf688b22f"
+  },
+  "retargeted_or_patched_executable": false
+}
