@@ -1,0 +1,24 @@
+{
+  "cache_slide": "0x1f604000",
+  "springboard_pid": 126,
+  "exception": "NSInternalInconsistencyException",
+  "reason": "The appLayouts array MUST contain the app layout we're transitioning to.",
+  "throw_runtime": "0x19fa14328",
+  "frames": [
+    {
+      "unslid": "0x224b12984",
+      "symbol": "-[SBMainSwitcherControllerCoordinator layoutStateTransitionCoordinator:transitionDidEndWithTransitionContext:] + 2056"
+    },
+    {
+      "unslid": "0x224f77e48",
+      "symbol": "-[SBLayoutStateTransitionCoordinator endTransitionWithError:] + 256"
+    },
+    {
+      "unslid": "0x2251445d8",
+      "symbol": "-[SBSceneLayoutWorkspaceTransaction _completeTransition] + 440"
+    }
+  ],
+  "continued_to_abort": true,
+  "keyboard_exception_recurred": false,
+  "inspection_byte_restored_after_kernel_breakpoint": true
+}

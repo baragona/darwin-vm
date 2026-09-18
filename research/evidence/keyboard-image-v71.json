@@ -31,7 +31,21 @@
       "manifest_sha256": "8b6b26cd529f3be4e0f8bd353b3ae05fe5307a403140b99e8e966cc5a2b198b3"
     }
   ],
-  "runtime_validation": "pending",
+  "runtime_validation": {
+    "booted": true,
+    "springboard_pid": 61,
+    "objc_exception_breakpoint_hits_after_touch": 0,
+    "virtual_swipe_dispatch_successes": 14,
+    "virtual_swipe_monitor_callbacks": 14,
+    "capture_state": "on",
+    "capture_bgra_sha256": "18d3e4243754358002b629c52fda64305e8c1c9628146a1b66bd7f528c9cf0f8",
+    "capture_description": "uniform dark gray; no usable UI",
+    "next_stall": "Two main-thread samples wait for synchronous MobileGestalt reply in UIScreen _ensureComputedMainScreenDPI during UIKeyboardDockView layoutSubviews",
+    "mobilegestalt_helper_pid": 94,
+    "mobilegestalt_service_lookup_result": 0,
+    "fresh_springboard_pid": 126,
+    "later_failure": "NSInternalInconsistencyException: appLayouts array must contain transition target; proceeded to abort"
+  },
   "mach_o_files": [
     {
       "path": "System/Library/TextInput/kbd",

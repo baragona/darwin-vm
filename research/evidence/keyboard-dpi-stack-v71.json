@@ -1,0 +1,67 @@
+{
+  "cache_slide": "0x1f604000",
+  "pid": 61,
+  "samples": 2,
+  "frames": [
+    {
+      "runtime_address": "0x1ce10f89c",
+      "unslid_address": "0x1aeb0b89c",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/system/libdispatch.dylib (__TEXT.__text)\n\n0x1aeb0b89c: __dispatch_mach_send_and_wait_for_reply + 496"
+    },
+    {
+      "runtime_address": "0x19fbb6ae0",
+      "unslid_address": "0x1805b2ae0",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/system/libxpc.dylib (__TEXT.__text)\n\n0x1805b2ae0: _xpc_connection_send_message_with_reply_sync + 300"
+    },
+    {
+      "runtime_address": "0x1a0119dc4",
+      "unslid_address": "0x180b15dc4",
+      "symbolication": "IMAGE\n-----\n > /System/Library/Frameworks/Foundation.framework/Foundation (__TEXT.__text)\n\n0x180b15dc4: ___NSXPCCONNECTION_IS_WAITING_FOR_A_SYNCHRONOUS_REPLY__ + 16"
+    },
+    {
+      "runtime_address": "0x1fb9a1100",
+      "unslid_address": "0x1dc39d100",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/libMobileGestaltExtensions.dylib (__TEXT.__text)\n\n0x1dc39d100: func_1dc39d028 + 216"
+    },
+    {
+      "runtime_address": "0x1cefeca64",
+      "unslid_address": "0x1af9e8a64",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/libMobileGestalt.dylib (__TEXT.__text)\n\n0x1af9e8a64: func_1af9e8848 + 540"
+    },
+    {
+      "runtime_address": "0x1ceff07a4",
+      "unslid_address": "0x1af9ec7a4",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/libMobileGestalt.dylib (__TEXT.__text)\n\n0x1af9ec7a4: func_1af9ec6fc + 168"
+    },
+    {
+      "runtime_address": "0x1cefee4a0",
+      "unslid_address": "0x1af9ea4a0",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/libMobileGestalt.dylib (__TEXT.__text)\n\n0x1af9ea4a0: func_1af9ea490 + 16"
+    },
+    {
+      "runtime_address": "0x1cefec9dc",
+      "unslid_address": "0x1af9e89dc",
+      "symbolication": "IMAGE\n-----\n > /usr/lib/libMobileGestalt.dylib (__TEXT.__text)\n\n0x1af9e89dc: func_1af9e8848 + 404"
+    },
+    {
+      "runtime_address": "0x1a3f7b4d0",
+      "unslid_address": "0x1849774d0",
+      "symbolication": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x1849774d0: -[UIScreen _ensureComputedMainScreenDPI] + 64"
+    },
+    {
+      "runtime_address": "0x1a4537a88",
+      "unslid_address": "0x184f33a88",
+      "symbolication": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x184f33a88: -[UIScreen _nativePointsPerMillimeter] + 24"
+    },
+    {
+      "runtime_address": "0x1a4417ab8",
+      "unslid_address": "0x184e13ab8",
+      "symbolication": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x184e13ab8: +[UIKeyboardDockView _itemFramesForBoundingSize:] + 216"
+    },
+    {
+      "runtime_address": "0x1a4417e04",
+      "unslid_address": "0x184e13e04",
+      "symbolication": "IMAGE\n-----\n > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)\n\n0x184e13e04: -[UIKeyboardDockView layoutSubviews] + 248"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+/bin/launch-probe remove com.apple.SpringBoard; /bin/launch-probe l< remove com.apple.SpringBoard; /bin/launch-probe li                         st; /bin/launch-probe loo<ard; /bin/launch-probe list; /bin/launch-probe look                         up com.apple.mobilegestal<t; /bin/launch-probe lookup com.apple.mobilegestalt                         .xpc; echo SERIAL_DONE_80<p com.apple.mobilegestalt.xpc; echo SERIAL_DONE_80a                         8d6667ea04bf8b0a793867719<xpc; echo SERIAL_DONE_80a8d6667ea04bf8b0a7938677199                         338
+System Policy: bash(135) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(136) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=12
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.CommCenter PID=66 LAST_EXIT=0
+JOB com.apple.runningboardd PID=59 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=94 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=47 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=51 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=57 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+com.apple.xpc.launchd|1970-01-01 00:17:56.476846 <Notice>: Last log repeated 7 times
+com.apple.xpc.launchd|1970-01-01 00:17:56.437090 (user/501/com.apple.SpringBoard) <Notice>: legacy-remove service: caller = launch-probe[135]<-bash[3], value = 0x0
+com.apple.xpc.launchd|1970-01-01 00:17:56.437492 (user/501) <Notice>: removing service: com.apple.SpSystem Policy: bash(137) allow process-exec* /bin/launch-probe
+ringBoard
+LOOKUP com.apple.mobilegestalt.xpc RESULT=0 PORT=7427
+SERIAL_DONE_80a8d6667ea04bf8b0a7938677199338
