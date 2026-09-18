@@ -22,13 +22,24 @@ command = args.command.encode() + b'; echo ' + marker + b'\n'
 with socket.socket(socket.AF_UNIX) as connection, Path(args.transcript).open('xb') as log:
     connection.settimeout(10)
     connection.connect(args.socket)
-    for byte in command:
-        connection.sendall(bytes([byte]))
-        time.sleep(0.04)
-    deadline = time.monotonic() + args.timeout
+    # Drain output while typing: QEMU's UART can back-pressure under daemon
+    # logging, and sending the whole line first can lose input bytes.
+    offset = 0
+    next_byte = time.monotonic()
+    deadline = next_byte + len(command) * 0.04 + args.timeout
     recent = b''
     while time.monotonic() < deadline:
-        if not select.select([connection], [], [], 1)[0]:
+        now = time.monotonic()
+        if offset < len(command) and now >= next_byte:
+            connection.sendall(command[offset:offset + 1])
+            offset += 1
+            next_byte = time.monotonic() + 0.04
+            if offset == len(command):
+                deadline = time.monotonic() + args.timeout
+        wait = min(1, max(0, deadline - time.monotonic()))
+        if offset < len(command):
+            wait = min(wait, max(0, next_byte - time.monotonic()))
+        if not select.select([connection], [], [], wait)[0]:
             continue
         data = connection.recv(65536)
         if not data:
