@@ -4,6 +4,16 @@ Goal: a usable graphical A19/iOS 27 guest. This experiment establishes a boot
 framebuffer and UART input path; SpringBoard, touch/HID, accelerated graphics,
 and a full installed system are not working yet.
 
+## Current checkpoint
+
+- The full iOS shared cache maps using the documented diagnostic owner-check patch.
+- Backboardd starts under launchd with its original mobile identity and MachServices.
+- Notifyd and both preference daemons start through normal boot registration.
+- HID, render, notification and preference Mach-port lookups succeed.
+- `IOSurfaceRoot` is registered, but no GPU attachment or rendered UI is verified.
+- The QuartzCore display-list probe reaches its API call and has not returned
+  during observation. SpringBoard and graphical interaction remain unfinished.
+
 ## Verified milestone (2026-09-17)
 
 iPhone18,3, iOS 27.0 build 24A437, kernel
@@ -188,8 +198,8 @@ leaves the VM alive for inspection; it is not evidence that the VM stopped.
 [Device inventory](evidence/display-device-inventory.json) compares the original
 and patched matching properties: DCP, EXDisplayPipe and related devices lose
 driver matching, and the GPU node is removed. The kernel collection contains
-relevant drivers, but they cannot be assumed to attach. Next work is to get
-the shared cache usable, then investigate actual service/driver failures.
+relevant drivers, but they cannot be assumed to attach. The cache-mapping experiment and subsequent service investigation are recorded
+below.
 
 A separate diagnostic kernel (`patch-cache-owner-check.py`) changes only the
 conditional branch rejecting a nonzero `va_uid` to NOP, on top of the verified
@@ -252,3 +262,112 @@ before deciding whether to stop the experiment.
 The v7 probe was stopped through QMP after collecting these service failures.
 Its timeout wrapper had not returned, so no backboardd exit status or complete
 UI_PROBE_END marker is claimed for this run.
+
+
+## Managed backboardd and dependency probes
+
+The `service-root.dmg` experiment is an APFS clone of `ui-root.dmg`. It uses the
+original 24A437 backboardd launch plist with `KeepAlive=false` and `_PanicOnCrash`
+removed so failures remain inspectable. `UserName=mobile`, `_Conclave`, and the
+original MachServices are preserved. See the
+[exact diagnostic plist](evidence/backboard-service-plist.json).
+
+Redirecting mobile backboardd's stdout/stderr to `/dev/console` caused xpcproxy
+to fail with permission denied and exit 78 (v8). Removing those probe-only
+redirections allowed launchd to report the service running (v9). No HID
+mach-register sandbox denial was observed in that run. This establishes a
+better launch context, not a working display or a verified Conclave.
+
+The independent Bash job was restored for v10. Its launchd inspection probe
+returned two jobs, including backboardd; an IORegistry query found a registered
+`IOSurfaceRoot` / `IOCoreSurfaceRoot`. No IOHIDSystem was returned by that query.
+A registered IOSurface driver is not evidence of successfully creating or
+rendering a surface.
+
+### Guest service control
+
+`launch-probe.c` is a small substitute for the unavailable launchctl executable.
+It supports `list`, `submit PLIST`, and `lookup MACH_SERVICE` using the legacy
+launch API and bootstrap lookup. It operates in the caller's bootstrap domain;
+it does not implement domain switching or launchctl policy preprocessing.
+A successful lookup establishes a reachable service port, not responsiveness
+or successful initialization of the service behind it.
+
+Build against the matching restore libraries and sign it:
+
+```sh
+xcrun clang -Wall -Wextra -Werror -target arm64-apple-ios27.0 \
+  -isysroot /tmp/a19-restore -nostdlib research/launch-probe.c \
+  /tmp/a19-restore/usr/lib/libSystem.B.dylib \
+  /tmp/a19-restore/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation \
+  -o /tmp/launch-probe
+codesign -s - /tmp/launch-probe
+```
+
+As with cache-diagnostics, copy it into guest `/bin` and include the current
+CDHash in the guest trust cache. The matching notifyd, cfprefsd,
+MobileGestaltHelper, logd and runningboardd binaries and their source plists
+were staged in the service image; only services explicitly installed or
+submitted are enabled. The original staged plists live under guest `/launchjobs`.
+
+V11 confirmed the `SubmitJob` calls returned errno 0, and the user preference
+job appeared in GetJobs. However, notifyd also logged
+`Non-system service tried to claim event stream com.apple.notifyd.matching`.
+Thus submission success is not sufficient validation. The next image installs
+notifyd and both cfprefsd jobs in the normal boot LaunchDaemons directory.
+`service-probe.sh` checks their Mach ports and the backboard HID/render ports,
+then lists jobs. The original direct-execution `ui-probe.sh` remains separate.
+
+### Root-owned plist preparation without changing host privileges
+
+The diagnostic image's original Bash plist was confirmed as uid/gid 0:0 on a
+host mount with ownership enabled. An in-place write on the ownership-disabled
+mount preserves that inode's ownership. It was rewritten with the backboardd
+configuration and renamed to `com.apple.backboardd.plist`.
+
+For additional jobs, disposable root-owned command inodes were renamed into
+the LaunchDaemons directory, overwritten in place with the desired plist, and
+chmodded to 0644. The donors were `/bin/yes` for Bash, `/bin/factor` for notifyd,
+`/bin/base32` for system cfprefsd, and `/bin/shuf` for user cfprefsd. Those commands
+are consequently absent in this disposable image. This is a preparation
+workaround, not a proposed installation format; the baseline and original
+probe images retain their tools. A maintained full-system image should be
+prepared with proper ownership directly.
+
+### Virtual-display lead
+
+The exact QuartzCore cache has `CAWindowServerVirtualDisplay` and a
+`ca_virtual_main_display` boot option. Disassembly of
+`___CADeviceUseVirtualMainDisplay_block_invoke` at 0x1847400bc shows the option
+is read only when `CADeviceHasInternalBuild` is true; otherwise the result is
+false. This is a potential research path, not a verified software-rendering
+configuration. Symbol aliases reported by the bulk ipsw disassembler can be
+misleading, so individual call targets require verification before relying on
+them. No QuartzCore code or shared-cache signatures were modified.
+
+
+V12 verified the boot-managed configuration: launchd reported notifyd,
+system cfprefsd and user cfprefsd running. Backboardd remained listed with a
+PID, and lookups of `com.apple.iohideventsystem`, `com.apple.CARenderServer`,
+`com.apple.system.notification_center`, `com.apple.cfprefsd.daemon.system`, and
+`com.apple.cfprefsd.daemon` all returned success and a Mach port. The probe
+completed its `UI_PROBE_END` marker. See
+[managed-service excerpts](evidence/managed-services-excerpts.txt).
+
+The next diagnostic, `display-probe.c`, loads guest QuartzCore and invokes
+`+[CADisplay displays]` and `+[CADisplay mainDisplay]` through the Objective-C
+runtime. These selectors were verified in the exact cache's symbol listing.
+It reports checkpoints before potentially blocking calls. Build it like
+cache-diagnostics against restore libSystem, sign it and add its CDHash to the
+trust cache. This queries the actual display stack; it does not create a
+synthetic display or render host-generated graphics.
+
+
+V13 reached `DISPLAY_PROBE_BEGIN` and `CADISPLAY_QUERY_BEGIN`, proving the
+QuartzCore load and runtime lookup succeeded. The `+[CADisplay displays]` call
+had not returned on subsequent observations, while QMP reported the VM running
+and SEP timeout messages continued. This does not establish a permanent hang
+or its cause; it establishes that the display API did not complete within the
+observed interval. The live experiment is left available for inspection at
+`/tmp/a19-ui-v13-qmp.sock` and `/tmp/a19-ui-v13-serial.sock` unless explicitly
+stopped later. Raw local transcripts are in `logs/ui-probe-v13-*.log`.

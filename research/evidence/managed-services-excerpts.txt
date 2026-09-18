@@ -1,0 +1,62 @@
+## ui-probe-v8-client.log
+com.apple.xpc.launchd|1970-01-01 00:00:13.796615 (user/501/com.apple.backboardd [3]) <Error>: Service could not initialize: Unable to open stdout path (/dev/console), error 0xd - Permission denied
+com.apple.xpc.launchd|1970-01-01 00:00:13.820537 (user/501/com.apple.backboardd [3]) <Notice>: xpcproxy exited due to exit(78)
+## ui-probe-v9-client.log
+com.apple.xpc.launchd|1970-01-01 00:00:14.896166 (user/501/com.apple.backboardd [3]) <Notice>: service state: running
+## ui-probe-v10-client.log
+com.apple.xpc.launchd|1970-01-01 00:00:13.896928 (user/501/com.apple.backboardd [4]) <Notice>: service state: running
+UI_PROBE_BEGIN
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=2
+LAUNCH_PROBE_EXIT=0
++-o IOCoreSurfaceRoot  <class IOSurfaceRoot, id 0x1000003c6, registered, matche$
+UI_PROBE_END
+## ui-probe-v11-client.log
+com.apple.xpc.launchd|1970-01-01 00:00:13.930536 (user/501/com.apple.backboardd [4]) <Notice>: service state: running
+UI_PROBE_BEGIN
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=2
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=4 LAST_EXIT=0
+SUBMIT com.apple.notifyd
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SUBMIT_EXIT=0
+SUBMIT com.apple.cfprefsd.xpc.daemon.system
+com.apple.xpc.launchd|1970-01-01 00:00:18.596208 (system/com.apple.notifyd) <Error>: Non-system service tried to claim event stream com.apple.notifyd.matching
+SUBMIT com.apple.cfprefsd.xpc.daemon
+LAUNCH_JOB_COUNT=3
+JOB com.apple.cfprefsd.xpc.daemon PID=-1 LAST_EXIT=0
+UI_PROBE_END
+## ui-probe-v12-client.log
+com.apple.xpc.launchd|1970-01-01 00:00:13.965517 (user/501/com.apple.backboardd [4]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:14.777753 (system/com.apple.notifyd [5]) <Notice>: service state: running
+UI_PROBE_BEGIN
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 10]: /usr/sbin/cfprefsd, launch type 1, failure proc [vcom.apple.xpc.launchd|1970-01-01 00:00:16.602987 (system/com.apple.cfprefsd.xpc.daemon.system [8]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:16.983176 (user/501/com.apple.cfprefsd.xpc.daemon [10]) <Notice>: service state: running
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=3
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=4 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=10 LAST_EXIT=0
+LOOKUP com.apple.iohideventsystem RESULT=0 PORT=7171
+LOOKUP com.apple.CARenderServer RESULT=0 PORT=6915
+LOOKUP com.apple.system.notification_center RESULT=0 PORT=2819
+LOOKUP com.apple.cfprefsd.daemon.system RESULT=0 PORT=7171
+LOOKUP com.apple.cfprefsd.daemon RESULT=0 PORT=3587
+UI_PROBE_END
+
+## ui-probe-v13-client.log (observation checkpoint)
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=4 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=9 LAST_EXIT=0
+LOOKUP com.apple.iohideventsystem RESULT=0 PORT=7683
+LOOKUP com.apple.CARenderServer RESULT=0 PORT=7171
+LOOKUP com.apple.system.notification_center RESULT=0 PORT=2819
+LOOKUP com.apple.cfprefsd.daemon.system RESULT=0 PORT=7171
+LOOKUP com.apple.cfprefsd.daemon RESULT=0 PORT=7171
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=4 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=9 LAST_EXIT=0
+DISPLAY_PROBE_BEGIN
+CADISPLAY_QUERY_BEGIN

@@ -1,0 +1,49 @@
+{
+  "EnableTransactions": false,
+  "HighPriorityIO": true,
+  "KeepAlive": false,
+  "Label": "com.apple.backboardd",
+  "MachServices": {
+    "PurpleSystemEventPort": {
+      "ResetAtClose": true
+    },
+    "PurpleWorkspacePort": {
+      "ResetAtClose": true
+    },
+    "com.apple.AttentionAwareness": true,
+    "com.apple.CARenderServer": {
+      "ResetAtClose": true
+    },
+    "com.apple.accessibility.AXBackBoardServer": true,
+    "com.apple.accessibility.gax.backboard": true,
+    "com.apple.backboard.TouchDeliveryPolicyServer": true,
+    "com.apple.backboard.altsysapp": true,
+    "com.apple.backboard.display.services": {
+      "ResetAtClose": true
+    },
+    "com.apple.backboard.hid-services.xpc": true,
+    "com.apple.backboard.hid.services": {
+      "ResetAtClose": true
+    },
+    "com.apple.backboard.oswatchdog": true,
+    "com.apple.backboard.system-app-server": true,
+    "com.apple.backboard.watchdog": true,
+    "com.apple.backboardd.virtualframebuffer": true,
+    "com.apple.backlightd": true,
+    "com.apple.hid.PencilHaptics": true,
+    "com.apple.iohideventsystem": {
+      "ResetAtClose": true
+    },
+    "com.apple.iphone.axserver-systemwide": true,
+    "com.apple.libEDR.Notification": true,
+    "com.apple.lightsourcesupport.lightstate": true
+  },
+  "POSIXSpawnType": "Interactive",
+  "ProgramArguments": [
+    "/usr/libexec/backboardd"
+  ],
+  "PublishesEvents": "com.apple.iohideventsystem.matching",
+  "RunAtLoad": true,
+  "UserName": "mobile",
+  "_Conclave": "com.apple.backboardd.conclave"
+}
