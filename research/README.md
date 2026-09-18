@@ -25,7 +25,8 @@ and a full installed system are not working yet.
 - Alpha blending, layer movement/color changes, and repaint of the old position
   pass complete pixel comparisons across two frames (v37).
 - IOSurface allocation/mapping works with a scoped driver-client entitlement;
-  remote-context commit/flush returns, but server rendering currently times out (v39).
+  remote-context commit/flush and server rendering succeed after the initial timeout
+  (v39), including with Developer Mode restored to off.
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1264,3 +1265,40 @@ A [post-timeout check](evidence/remote-layer-post-v39.txt) found backboardd PID 
 with LAST_EXIT=0. CADisplay returned its five original zero-sized Wireless
 displays, no main display, and exit 0. The render timeout did not block this
 display-query path.
+
+
+## Remote server rendering succeeds on retry (v39)
+
+The planned live thread sample produced a different outcome: the render
+request completed before the sampler could attach to the client. The
+[successful request](evidence/remote-render-success-v39.txt) returned true,
+locked the IOSurface, and compared every active pixel against opaque red:
+
+```text
+REMOTE_SERVER_RENDER_RESULT=1
+REMOTE_READ_LOCK_RESULT=0
+REMOTE_CHANGED_BYTES=16384 RED_PIXELS=4096
+REMOTE_READ_UNLOCK_RESULT=0
+RENDER_EXIT=0
+```
+
+The client exited before `task_for_pid`, explaining that sampler's RESULT=5.
+Backboardd's sample succeeded and all sampled threads were resumed. These are
+post-request thread candidates, not a trace of the original timeout.
+
+Developer Mode had temporarily been enabled for thread inspection. To test
+that confounder, LLDB restored the original guest state byte to zero, read it
+back, and [detached](evidence/remote-render-debugger-detach-v39.txt). A second
+[successful request](evidence/remote-render-devmode-off-v39.txt) first verified
+`security.mac.amfi.developer_mode_status=0`, then again returned true and
+counted 4,096 exact red pixels. Thus the override does not need to remain
+active for this path. This does not prove why the first request timed out,
+nor rule out one-time initialization or effects of prior guest execution.
+
+Unlike the earlier local CPU tests, this probe uses a remote CAContext and
+CARenderServerRenderLayer, whose inspected wrapper marshals a Mach request.
+Actual IOSurface pixels now confirm the remote path can render this client's
+solid-color layer without a registered GPU. No SpringBoard content or usable
+main display is established by this result. Developer Mode is currently off;
+no debugger is attached. QEMU's loopback GDB endpoint remains available for
+further diagnostics at `127.0.0.1:63439`.

@@ -1,0 +1,21 @@
+(lldb) target create --arch arm64 firmware/iphone-17-ui-probe/bootkc-aks-endpoint-order
+Current executable set to '/private/tmp/darwinvm-a19/firmware/iphone-17-ui-probe/bootkc-aks-endpoint-order' (arm64e).
+(lldb) gdb-remote 127.0.0.1:63439
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Load Address: 0xfffffe002700c000
+Kernel slid 0x20000000 in memory.
+Loaded kernel file /private/tmp/darwinvm-a19/firmware/iphone-17-ui-probe/bootkc-aks-endpoint-order
+Process 1 stopped
+* thread #1, stop reason = signal SIGTRAP
+    frame #0: 0xfffffe002abfb31c bootkc-aks-endpoint-order`___lldb_unnamed_symbol_fffffe000abfb200 + 284
+bootkc-aks-endpoint-order`___lldb_unnamed_symbol_fffffe000abfb200:
+->  0xfffffe002abfb31c <+284>: ldr    x10, [x20, #0x1b8]
+    0xfffffe002abfb320 <+288>: ldr    x10, [x10, #0x58]
+    0xfffffe002abfb324 <+292>: cmp    x10, x8
+    0xfffffe002abfb328 <+296>: b.ne   0xfffffe002abfb314        ; <+276>
+Target 0: (bootkc-aks-endpoint-order) stopped.
+(lldb) memory write --size 1 0xfffffe0017088db4 0
+(lldb) memory read --format x --size 1 --count 1 0xfffffe0017088db4
+0xfffffe0017088db4: 0x00
+(lldb) process detach
+Process 1 detached
