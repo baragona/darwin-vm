@@ -1577,3 +1577,57 @@ needs tracing; the code alone does not establish a missing service or an
 entitlement denial. Both temporary hardware breakpoints were deleted and
 the debugger detached. The guest remains running with no application record
 created, and no SpringBoard/RunningBoard job started in this boot.
+
+
+### Missing install information and v48 rebuild probe
+
+V47 hardware breakpoints establish the exact failing path. At
+`0x186e24094 + 0x3278000`, `_LSBundleFindWithNode` returns -9499.
+Execution then reaches `0x186e241a8 + slide`, with x20=0,
+x25=0x08000000 and x26=-9499, skipping the registration branch.
+Its cold logging path refers to: "no install info, bundle at %@ will not be
+registered" (0x186fde504). This is stronger evidence than an unexplained
+OSStatus: the URL-only API lacks installation metadata for this bundle.
+
+Do not switch blindly to `registerApplicationDictionary:`. In 24A437 its
+implementation forwards to `registerApplicationDictionary:withObserverNotification:`,
+which unconditionally returns false. Its diagnostic explicitly says this
+interface can no longer register applications.
+
+V48 adds `--rebuild-system` to the existing mobile-identity probe. It calls
+`_LSPrivateRebuildApplicationDatabasesForSystemApps:internal:user:uid:` with
+true/false/false/501, checks selector availability, and prints the returned
+boolean. A 60-second alarm bounds the caller; a timeout does not establish
+that server-side rebuilding stopped. Fresh-process installed-state queries
+remain mandatory. Default query and URL registration modes are unchanged.
+
+The image also contains the original matching installd binary and a
+[diagnostic job](installd-probe.plist) preserving its `_installd` user/group,
+arguments and Mach service, with RunAtLoad enabled, KeepAlive and pressured
+exit disabled, and stdout/stderr captured in /var/tmp. Both account entries
+exist in the guest. [Hashes and trust-cache counts](evidence/rebuild-probe-v48.json)
+record the additions; no new probe entitlements. Runtime results follow.
+
+V48 boots (cache slide 0x14e24000) and all three service submissions return
+errno 0. Installd then exits repeatedly with OS_REASON_LIBSYSTEM:
+"Failed to get installd daemon container", MIInstallerErrorDomain code 4,
+underlying NSCocoaErrorDomain code 4099. Missing usermanagerd and
+keybagd.UserManager lookups precede the failure, including repeated requests
+from containermanagerd. A /var sandbox denial is also present; causality
+between these messages has not yet been established.
+
+The installed v48 rebuild probe first queries LSApplicationProxy and stalls
+there, before LS_REBUILD_BEGIN. Source now skips that preliminary query for
+rebuild mode, so a blocked query cannot prevent requesting a rebuild; this
+adjustment compiles but is not yet installed in v48. The original firmware
+usermanagerd job advertises BOTH missing UserManager Mach services and is the
+next concrete dependency to investigate. No rebuild success is claimed.
+
+The v48 probe exits via its 60-second SIGALRM while still in LS_QUERY_BEGIN;
+LS_REBUILD_BEGIN never appears. This is a verified caller termination, not
+an observer timeout or a completed rebuild.
+
+The installd job was removed (errno 0 and launchd legacy-remove confirmed).
+A [fresh query](evidence/ls-query-after-remove-v48.txt) then completes normally
+and still reports SpringBoard INVALID/isInstalled=0/bundleURL=nil. V48 remains
+running with container/lsd services; no debugger is attached.

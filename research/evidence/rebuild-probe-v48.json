@@ -1,0 +1,24 @@
+{
+  "build": "24A437",
+  "files": [
+    {
+      "path": "bin/ls-registration-probe",
+      "size": 68752,
+      "sha256": "6db4bca6aebd7dfb4525e12ff899218b4d6934aa7e5165ba50c115ce339c6ec6"
+    },
+    {
+      "path": "usr/libexec/installd",
+      "size": 928064,
+      "sha256": "5c80de3423681dec4c8c16dce4d8dd86d26039e8d29639b8b2cd1f53d187aac1"
+    },
+    {
+      "path": "launchjobs/com.apple.mobile.installd.probe.plist",
+      "size": 888,
+      "sha256": "02ad8e27cccb94b41f8d52abaa7c32e4dde8458bd33ef78f0a7cfbfe9b1560b5"
+    }
+  ],
+  "cdhash": "b98ce6101878ddb3b85b929c7b1d3f93a24b9fe3",
+  "trustcache_entries_before": 4396,
+  "trustcache_entries_after": 4397,
+  "entitlements": []
+}

@@ -23,9 +23,10 @@ static void print_object(const char *key,Obj o) {
     printf("%s=%s\n",key,s?s:"(nil)");
 }
 int main(int argc,char **argv) {
+    int rebuild=argc==2&&!strcmp(argv[1],"--rebuild-system");
     int registration=argc==2&&!strcmp(argv[1],"--register-springboard");
-    if(argc>1&&!registration) { puts("usage: ls-registration-probe [--register-springboard]");return 2; }
-    setbuf(stdout,NULL);alarm(30);
+    if(argc>1&&!registration&&!rebuild) { puts("usage: ls-registration-probe [--register-springboard|--rebuild-system]");return 2; }
+    setbuf(stdout,NULL);alarm(rebuild?60:30);
     if(geteuid()==0 && (setgroups(0,NULL)||setgid(501)||setuid(501))) { perror("become mobile");return 1; }
     if(geteuid()!=501) { puts("MOBILE_IDENTITY_REQUIRED");return 1; }
     setenv("HOME","/var/mobile",1);setenv("CFFIXED_USER_HOME","/var/mobile",1);
@@ -38,11 +39,22 @@ int main(int argc,char **argv) {
     Obj identifier=string("com.apple.springboard");
     Obj proxy_class=class_named("LSApplicationProxy");
     if(!responds(proxy_class,"applicationProxyForIdentifier:")) { puts("PROXY_SELECTOR_MISSING");return 1; }
-    puts("LS_QUERY_BEGIN");
-    Obj proxy=arg(proxy_class,"applicationProxyForIdentifier:",identifier);
-    print_object("LS_PROXY",proxy);
-    if(responds(proxy,"isInstalled")) printf("LS_IS_INSTALLED=%d\n",((signed char(*)(Obj,void*))message)(proxy,selector("isInstalled")));
-    if(responds(proxy,"bundleURL")) print_object("LS_BUNDLE_URL",get(proxy,"bundleURL"));
+    if(!rebuild) {
+        puts("LS_QUERY_BEGIN");
+        Obj proxy=arg(proxy_class,"applicationProxyForIdentifier:",identifier);
+        print_object("LS_PROXY",proxy);
+        if(responds(proxy,"isInstalled")) printf("LS_IS_INSTALLED=%d\n",((signed char(*)(Obj,void*))message)(proxy,selector("isInstalled")));
+        if(responds(proxy,"bundleURL")) print_object("LS_BUNDLE_URL",get(proxy,"bundleURL"));
+    }
+    if(rebuild) {
+        Obj workspace=get(class_named("LSApplicationWorkspace"),"defaultWorkspace");
+        const char *method="_LSPrivateRebuildApplicationDatabasesForSystemApps:internal:user:uid:";
+        if(!responds(workspace,method)) { puts("REBUILD_SELECTOR_MISSING");return 1; }
+        puts("LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501");
+        int ok=((signed char(*)(Obj,void*,signed char,signed char,signed char,unsigned int))message)(workspace,selector(method),1,0,0,501);
+        printf("LS_REBUILD_RESULT=%d\n",ok);
+        if(!ok) return 1;
+    }
     if(registration) {
         Obj workspace_class=class_named("LSApplicationWorkspace");
         if(!responds(workspace_class,"defaultWorkspace")) return 1;
