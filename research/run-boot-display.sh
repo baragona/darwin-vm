@@ -9,12 +9,13 @@ cd "$(dirname "$0")/.."
 : "${BOOTKC:=$FIRMWARE_DIR/bootkc}"
 : "${DTREE:=$FIRMWARE_DIR/dtree}"
 : "${MEMORY:=8G}"
+: "${TRUSTCACHE:=$FIRMWARE_DIR/ramdisk.tc}"
 : "${SPTM:=$FIRMWARE_DIR/sptm}"
 : "${BOOT_ARGS:=rd=md0 serial=2 -v -noprogress wdt=-1 wlan-olyhal-abort}"
 exec ./qemu-sptm/build/qemu-system-aarch64 \
   -M darwin,boot-display=on -m "$MEMORY" \
   -bootkc "$BOOTKC" -dtree "$DTREE" \
-  -tc "$FIRMWARE_DIR/ramdisk.tc" -ramdisk "$RAMDISK" \
+  -tc "$TRUSTCACHE" -ramdisk "$RAMDISK" \
   -sptm "$SPTM" -txm "$FIRMWARE_DIR/txm" \
   -args "$BOOT_ARGS" -display "$DISPLAY_BACKEND" -serial "$SERIAL" -monitor none \
   -qmp "unix:$QMP_SOCKET,server=on,wait=off" "$@"
