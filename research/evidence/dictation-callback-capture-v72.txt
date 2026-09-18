@@ -1,0 +1,4 @@
+64
+bash: 64: command not found
+bash-5.3# com.apple.xpc.launchd|1970-01-01 00:29:42.056284 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:29:41.987600 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[127], error = 3: No such process

@@ -1,0 +1,19 @@
+{
+  "cache_slide": "0x2e3c000",
+  "springboard_pid": 127,
+  "reason": "The appLayouts array MUST contain the app layout we're transitioning to.",
+  "throw_runtime": "0x18324c328",
+  "caller_runtime": [
+    "0x22794e984",
+    "0x227db3e48",
+    "0x227f805d8"
+  ],
+  "caller_unslid": [
+    "0x224b12984",
+    "0x224f77e48",
+    "0x2251445d8"
+  ],
+  "notification_overrides_removed": true,
+  "guest_left_paused_at_exception": true,
+  "second_capture_valid": false
+}
