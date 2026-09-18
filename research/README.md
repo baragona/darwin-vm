@@ -1855,3 +1855,17 @@ alive and reaches lock-screen credential initialization. Its main thread is
 sampled inside ACMContextCreateWithFlags/IOKit transport while serial logs
 repeat missing Secure Enclave endpoint waits. No interactive UI is claimed.
 [Reproduction details, evidence, and current debugger state](evidence/persona-registration-success-v52.md).
+
+
+### Credential error path and backlight filter (v52)
+
+A guest debugger experiment returns a failure from the single credential
+creation call; SpringBoard tolerates the resulting nil credential set and
+advances to BacklightServices. Its next assertion is “No state machines
+created - no display interfaces available.” Runtime tracing confirms that
+BacklightServices excludes the virtual LCD (display ID 1, displayType 3)
+because its filter accepts only displayType 0. Admitting only that LCD for
+one filter evaluation advances startup again, to a Swift cast abort involving
+_NSXPCDistantObject and ExtensionFoundation._EXDiscoveryServiceProtocol.
+[Exact addresses, limits, and evidence](evidence/credential-backlight-v52.md).
+These are ephemeral diagnostics; interactive graphics remains unverified.

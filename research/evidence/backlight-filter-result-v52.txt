@@ -1,0 +1,28 @@
+/bin/cat /var/tmACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+p/sACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+pringboard.stderr; /bin/launch-probACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+e remove com.</springboard.stderr; /bin/launch-probe remove com.a                         pple.SpringBoard; echo SE<launch-probe remove com.apple.SpringBoard; echo SER                         IAL_DONE_41bae8c088984fad<ple.SpringBoard; echo SERIAL_DONE_41bae8c088984fad8                         ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+bc3dACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+4bfc75420e1
+1 duplicate report for System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+System Policy: bash(401) allow process-exec* /bin/cat
+1970-01-01 00:22:49.-881 SpringBoard[399:1612] Using your own bundle identifier as an NSUserDefaults suite name does not make sense and will not work. Break on _NSUserDefaults_Log_Nonsensical_Suites to find this
+1970-01-01 00:22:51.-475 SpringBoard[399:1612] matchingDict: {
+    IOParentMatch =     {
+        IOPropertyMatch =         {
+            BuiltIn = 1;
+            PortType = 2;
+        };
+        IOProviderClass = IOPort;
+    };
+    IOPropertyMatch =     {
+        TransportType = 5;
+    };
+    IOProviderClass = IOPortTransportState;
+}
+Could not cast value of type '_NSXPCDistantObject' (0x7c1f17ea20) to 'ExtensionFoundation._EXDiscoveryServiceProtocol' (0x7c1f17ea38).
+System Policy: bash(402) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=36
+SERIAL_DONE_41bae8c088984fad8bc3d4bfc75420e1

@@ -1,0 +1,11 @@
+/biACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+n/launch-probACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+e submit /launchjobs/com.apple.SpriACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+ngBoard.probe.pl< submit /launchjobs/com.apple.SpringBoard.probe.pli                         st; echo SERIAL_DONE_3a49<ple.SpringBoard.probe.plist; echo SERIAL_DONE_3a49c                         4e3ccc64099b6ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+33f4eb5a0c5c<t; echo SERIAL_DONE_3a49c4e3ccc64099b633f4eb5a0c5ca                         ACMTRM: waitForSEPEndpoint: timed out waiting for AppleSEPManager (timeoutMs=5000).
+e
+System Policy: bash(398) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+SERIAL_DONE_3a49c4e3ccc64099b633f4eb5a0c5cae
