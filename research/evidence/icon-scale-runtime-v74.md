@@ -78,3 +78,24 @@ untested. The inspection flag was restored and read back0 after sampling.
 Next trace the LaunchServices store request and the caller that requests quarter
 scale; separately test bitmap-backed layers if artwork delivery succeeds but
 pixels remain absent. No working Settings launch or usable GUI is claimed.
+
+## Follow-up: fresh LaunchServices store request completes
+
+A fresh `/bin/ls-open-probe --query com.apple.Preferences` completed with
+`LS_IS_INSTALLED=1`, `file:///Applications/Preferences.app/`, `LS_PROBE_END`
+and the UART completion marker. See `iconservice-ls-query-v74.txt`.
+Read-only, auto-continuing debugger observers recorded one entry at
+`0x18f90a5b0` (unslid `0x186df65b0`,
+`-[_LSDReadClient getServerStoreNonBlockingWithCompletionHandler:]`):
+self `0x75a0c69680`, completion block `0x75a101a940`.
+The wrapper at `0x18f90acd4` (unslid `0x186df6cd4`) then received
+x1=`0x75a10dca80`, x2=`0x102a76b80`, x3=0. Its disassembly forwards these
+as the first two payloads and final payload to the original completion,
+inserting zero values between them. Payload object types were not inspected.
+
+This establishes a completed store request and successful Settings query for
+this fresh mobile-user client. It does not establish that the earlier
+IconServices request completed, or that its service identity receives the same
+result. Do not describe LaunchServices as globally stuck based on the earlier
+thread sample. No guest values were modified by these two observers; both were
+removed and the guest resumed after the query.
