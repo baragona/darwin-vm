@@ -1728,3 +1728,28 @@ MIUserManagement wastes several minutes and finds nothing.
 Installd RemoveJob returns errno 0. V50 remains running, with the supporting
 UserManager/container/lsd jobs and no debugger attached. No virtual LCD,
 RunningBoard or SpringBoard job has been applied in this boot.
+
+
+### Installer failure is an empty persona list (v50)
+
+[Direct error inspection](evidence/installd-empty-personas-v50.md) resolves
+the misleading ENOENT: the MIInstallerErrorDomain code-4 error says
+"UserManager returned an empty persona list", from
+-[MIUserManagement _onQueue_refreshPersonaInformationWithError:].
+The empty manifest starts UserManager but is insufficient to initialize
+its consumers. The next required state is actual default personas, not an
+arbitrary container directory. The temporary breakpoint was removed and
+debugger detached; installer RemoveJob returned errno 0.
+
+The stock executable supports --init (entry dispatch at 0x1000099ac calls
+0x10005d438). A [live test](evidence/usermanager-init-v50.txt) reaches early
+boot setup, sees EAPFS in the device tree, then APFSContainerGetBootDevice
+fails with 49154. UserManager explicitly triggers a userspace panic:
+FAILED TO FIND DISKNODE. This is separate from the prior SPTM instruction
+panic. The log reaches nested-panic-limit/reset-or-spin. Do not repeat --init
+unchanged on this RAM-disk layout or claim it created personas.
+
+Potential next directions are provisioning a valid default-persona manifest
+from the matching implementation, or supplying the APFS boot-volume state
+required by stock initialization. The original daemon's manifest constructors
+and parsing methods are visible through ipsw macho info --objc --verbose.

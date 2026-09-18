@@ -1,0 +1,171 @@
+/usr/libexec/usermanagerd --init; echo UMD_INIT_STATUS=$?; echo SER<managerd --init; echo UMD_INIT_STATUS=$?; echo SERI                         AL_DONE_2fba5c06e0d44bdba<INIT_STATUS=$?; echo SERIAL_DONE_2fba5c06e0d44bdbaf                         743abf8f9b212f
+System Policy: bash(56) allow process-exec* /usr/libexec/usermanagerd
+****** IN UMD_INIT ****
+****** IN UMD_INIT ****
+****** STARTING EARLYBOOT SETUP ****
+UMD_INIT: STARTING EARLYBOOT SETUP
+UMD_INIT: Found EAPFS property in IODT
+UMD_INIT: Enhanced APFS Mode Set
+UMD_INIT: APFSContainerGetBootDevice failed with 49154, bailing..
+UMD_INIT: FAILED TO FIND DISKNODE
+panic(cpu 0 caller 0xfffffe002b436420): userspace panic: FAILED TO FIND DISKNODE
+Nested panic detected - entry count: 2 panic_caller: 0xfffffe002b4351f8
+Kernel text exec slide: 0x0000000023b40000
+Kernel text exec base: 0xfffffe002ab44000
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Panicked thread: 0xf7fffe240a2388e0, backtrace: 0xfffffe4df002ab30, tid: 647
+		  lr: 0xfffffe002ab8b680  fp: 0xfffffe4df002abb0
+		  lr: 0xfffffe002ab8afbc  fp: 0xfffffe4df002ad70
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffe4df002ad90
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffe4df002af10
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffe4df002afc0
+		  lr: 0xfffffe002ad51c34  fp: 0xfffffe4df002b090
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002b0a0
+		  lr: 0xfffffe002ad5b32c  fp: 0xfffffe4df002b550
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffe4df002b5d0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffe4df002b640
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffe4df002b710
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002b720
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffe4df002bac0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffe4df002bc80
+		  lr: 0xfffffe002b424bf0  fp: 0xfffffe4df002bce0
+		  lr: 0xfffffe002b436420  fp: 0xfffffe4df002bd30
+		  lr: 0xfffffe002b103e08  fp: 0xfffffe4df002bda0
+		  lr: 0xfffffe002b135018  fp: 0xfffffe4df002bde0
+		  lr: 0xfffffe002b26279c  fp: 0xfffffe4df002be40
+		  lr: 0xfffffe002ad51cc8  fp: 0xfffffe4df002bf10
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002bf20
+		  lr: 0x000000024a0bacc4  fp: 0x0000000000000000
+Nested panic string:
+Kernel data abort. at pc 0xfffffe002ad5b32c, lr 0xfffffe002ab8bc28 (saved state: 0xfffffe4df002b0b0)
+	  x0:  0xfffffe002704677f x1:  0x0000000000000001  x2:  0x0000000000002000  x3:  0x0000000000000000
+	  x4:  0x0000000000000010 x5:  0x0000000000000001  x6:  0x0000000000000001  x7:  0xfffffe002b436420
+	  x8:  0x0000000000000000 x9:  0xb9a84c24680a00f9  x10: 0xfffffe0027def9d0  x11: 0x0000000000000000
+	  x12: 0x0000000000000073 x13: 0x0000000000000000  x14: 0x00000000ffffffff  x15: 0x0000000000000000
+	  x16: 0xfffffe002b3eed58 x17: 0x0000000000000a98  x18: 0x0000000000000000  x19: 0x0000000000000000
+	  x20: 0x0000000000000000 x21: 0xfffffe002b73b000  x22: 0x0000000000002000  x23: 0x0000000000000000
+	  x24: 0xfffffe002704677f x25: 0xfffffe002b718000  x26: 0x0000000000000001  x27: 0xfffffe002b7b3000
+	  x28: 0xfffffe002b73b000 fp:  0xfffffe4df002b550  lr:  0xfffffe002ab8bc28  sp:  0xfffffe4df002b400
+	  pc:  0xfffffe002ad5b32c cpsr: 0x604033c8         esr: 0x0000000096000006  far: 0x000000000000000c
+
+<end nested panic string>
+panic(cpu 0 caller 0xfffffe002b436420): userspace panic: FAILED TO FIND DISKNODE
+Nested panic detected - entry count: 3 panic_caller: 0xfffffe002b4351f8
+Kernel text exec slide: 0x0000000023b40000
+Kernel text exec base: 0xfffffe002ab44000
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Panicked thread: 0xf7fffe240a2388e0, backtrace: 0xfffffe4df0029c20, tid: 647
+		  lr: 0xfffffe002ab8b680  fp: 0xfffffe4df0029ca0
+		  lr: 0xfffffe002ab8afbc  fp: 0xfffffe4df0029e60
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffe4df0029e80
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffe4df002a000
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffe4df002a0b0
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffe4df002a180
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002a190
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffe4df002a640
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffe4df002a6c0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffe4df002a730
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffe4df002a800
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002a810
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffe4df002abb0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffe4df002ad70
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffe4df002ad90
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffe4df002af10
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffe4df002afc0
+		  lr: 0xfffffe002ad51c34  fp: 0xfffffe4df002b090
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002b0a0
+		  lr: 0xfffffe002ad5b32c  fp: 0xfffffe4df002b550
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffe4df002b5d0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffe4df002b640
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffe4df002b710
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002b720
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffe4df002bac0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffe4df002bc80
+		  lr: 0xfffffe002b424bf0  fp: 0xfffffe4df002bce0
+		  lr: 0xfffffe002b436420  fp: 0xfffffe4df002bd30
+		  lr: 0xfffffe002b103e08  fp: 0xfffffe4df002bda0
+		  lr: 0xfffffe002b135018  fp: 0xfffffe4df002bde0
+		  lr: 0xfffffe002b26279c  fp: 0xfffffe4df002be40
+		  lr: 0xfffffe002ad51cc8  fp: 0xfffffe4df002bf10
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002bf20
+		  lr: 0x000000024a0bacc4  fp: 0x0000000000000000
+Nested panic string:
+Kernel data abort. at pc 0xfffffe002ad5b344, lr 0xfffffe002ab8bc28 (saved state: 0xfffffe4df002a1a0)
+	  x0:  0xfffffe002704677f x1:  0x0000000000000001  x2:  0x0000000000000000  x3:  0x0000000000000000
+	  x4:  0x0000000000000010 x5:  0x0000000000000001  x6:  0x0000000000000001  x7:  0xfffffe002b4351f8
+	  x8:  0x0000000000000000 x9:  0xb9a84c24680a00f9  x10: 0xfffffe0027def9d0  x11: 0x0000000000000000
+	  x12: 0x0000000000000073 x13: 0x0000000000000000  x14: 0x00000000ffffffff  x15: 0x0000000000000000
+	  x16: 0xfffffe002b3eed58 x17: 0x0000000000000a98  x18: 0x0000000000000000  x19: 0xfffffe002b7b3148
+	  x20: 0x0000000000000000 x21: 0xfffffe002b73b000  x22: 0x0000000000000000  x23: 0x0000000000000000
+	  x24: 0xfffffe002704677f x25: 0xfffffe002b718000  x26: 0x0000000000000000  x27: 0xfffffe002b7b3000
+	  x28: 0xfffffe002b73b000 fp:  0xfffffe4df002a640  lr:  0xfffffe002ab8bc28  sp:  0xfffffe4df002a4f0
+	  pc:  0xfffffe002ad5b344 cpsr: 0x604033c8         esr: 0x0000000096000046  far: 0x00000000000000b1
+
+<end nested panic string>
+panic(cpu 0 caller 0xfffffe002b436420): userspace panic: FAILED TO FIND DISKNODE
+Nested panic detected - entry count: 4 panic_caller: 0xfffffe002b4351f8
+Kernel text exec slide: 0x0000000023b40000
+Kernel text exec base: 0xfffffe002ab44000
+Kernel UUID: A5A62616-FA9C-337E-9C97-41BB2D427C63
+Panicked thread: 0xf7fffe240a2388e0, backtrace: 0xfffffe4df0028d10, tid: 647
+		  lr: 0xfffffe002ab8b680  fp: 0xfffffe4df0028d90
+		  lr: 0xfffffe002ab8afbc  fp: 0xfffffe4df0028f50
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffe4df0028f70
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffe4df00290f0
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffe4df00291a0
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffe4df0029270
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df0029280
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffe4df0029730
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffe4df00297b0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffe4df0029820
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffe4df00298f0
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df0029900
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffe4df0029ca0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffe4df0029e60
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffe4df0029e80
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffe4df002a000
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffe4df002a0b0
+		  lr: 0xfffffe002ad51ed8  fp: 0xfffffe4df002a180
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002a190
+		  lr: 0xfffffe002ad5b344  fp: 0xfffffe4df002a640
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffe4df002a6c0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffe4df002a730
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffe4df002a800
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002a810
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffe4df002abb0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffe4df002ad70
+		  lr: 0xfffffe002b424ab0  fp: 0xfffffe4df002ad90
+		  lr: 0xfffffe002b4351f8  fp: 0xfffffe4df002af10
+		  lr: 0xfffffe002ad53de4  fp: 0xfffffe4df002afc0
+		  lr: 0xfffffe002ad51c34  fp: 0xfffffe4df002b090
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002b0a0
+		  lr: 0xfffffe002ad5b32c  fp: 0xfffffe4df002b550
+		  lr: 0xfffffe002ab8bc28  fp: 0xfffffe4df002b5d0
+		  lr: 0xfffffe002ad53f3c  fp: 0xfffffe4df002b640
+		  lr: 0xfffffe002ad51bec  fp: 0xfffffe4df002b710
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002b720
+		  lr: 0xfffffe002ab8bd6c  fp: 0xfffffe4df002bac0
+		  lr: 0xfffffe002ab8b158  fp: 0xfffffe4df002bc80
+		  lr: 0xfffffe002b424bf0  fp: 0xfffffe4df002bce0
+		  lr: 0xfffffe002b436420  fp: 0xfffffe4df002bd30
+		  lr: 0xfffffe002b103e08  fp: 0xfffffe4df002bda0
+		  lr: 0xfffffe002b135018  fp: 0xfffffe4df002bde0
+		  lr: 0xfffffe002b26279c  fp: 0xfffffe4df002be40
+		  lr: 0xfffffe002ad51cc8  fp: 0xfffffe4df002bf10
+		  lr: 0xfffffe002ab475bc  fp: 0xfffffe4df002bf20
+		  lr: 0x000000024a0bacc4  fp: 0x0000000000000000
+Nested panic string:
+Kernel data abort. at pc 0xfffffe002ad5b344, lr 0xfffffe002ab8bc28 (saved state: 0xfffffe4df0029290)
+	  x0:  0xfffffe002704677f x1:  0x0000000000000001  x2:  0x0000000000000000  x3:  0x0000000000000000
+	  x4:  0x0000000000000010 x5:  0x0000000000000001  x6:  0x0000000000000001  x7:  0xfffffe002b4351f8
+	  x8:  0x0000000000000000 x9:  0xb9a84c24680a00f9  x10: 0xfffffe0027def9d0  x11: 0x0000000000000000
+	  x12: 0x0000000000000073 x13: 0x0000000000000000  x14: 0x00000000ffffffff  x15: 0x0000000000000000
+	  x16: 0xfffffe002b3eed58 x17: 0x0000000000000a98  x18: 0x0000000000000000  x19: 0xfffffe002b7b3148
+	  x20: 0x0000000000000000 x21: 0xfffffe002b73b000  x22: 0x0000000000000000  x23: 0x0000000000000000
+	  x24: 0xfffffe002704677f x25: 0xfffffe002b718000  x26: 0x0000000000000000  x27: 0xfffffe002b7b3000
+	  x28: 0xfffffe002b73b000 fp:  0xfffffe4df0029730  lr:  0xfffffe002ab8bc28  sp:  0xfffffe4df00295e0
+	  pc:  0xfffffe002ad5b344 cpsr: 0x604033c8         esr: 0x0000000096000046  far: 0x00000000000000b1
+
+<end nested panic string>
+panic(cpu 0 caller 0xfffffe002b436420): userspace panic: FAILED TO FIND DISKNODE
+Nested panic count exceeds limit 5, machine will reset or spin
