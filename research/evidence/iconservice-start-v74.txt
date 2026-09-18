@@ -1,0 +1,45 @@
+/bin/launch-probe submit /var/tmp/iconservices-probe-v74.plist; /bi< submit /var/tmp/iconservices-probe-v74.plist; /bin                         /launch-probe start com.a<ces-probe-v74.plist; /bin/launch-probe start com.ap                         ple.iconservices.iconserv<launch-probe start com.apple.iconservices.iconservi                         cesagent; /bin/launch-pro<le.iconservices.iconservicesagent; /bin/launch-prob                         e lookup com.apple.iconse<esagent; /bin/launch-probe lookup com.apple.iconser                         vices; /bin/launch-probe < lookup com.apple.iconservices; /bin/launch-probe s                         ubmit /launchjobs/com.app<ices; /bin/launch-probe submit /launchjobs/com.appl                         e.mobile.usermanagerd.pro<bmit /launchjobs/com.apple.mobile.usermanagerd.prob                         e.plist; /bin/launch-prob<.mobile.usermanagerd.probe.plist; /bin/launch-probe                          list; /bin/cat /var/tmp/<.plist; /bin/launch-probe list; /bin/cat /var/tmp/i                         conservices.stderr; echo <list; /bin/cat /var/tmp/iconservices.stderr; echo S                         ERIAL_DONE_4f877a6a6b7945<onservices.stderr; echo SERIAL_DONE_4f877a6a6b79459                         badc45115d034bcbc
+System Policy: bash(49) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(50) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(52) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:06:28.325294 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:28.229895 (user/501/com.apple.iconservices.iconservicesagent) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:28.231222 (user/501/com.apple.iconservices.iconservicesagent) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:06:28.231270 (user/501/com.apple.iconservices.iconservicesagent) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:06:28.233257 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.233314 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.233369 (user/501/com.apple.iconservices.iconservicesagent) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:06:28.261555 (user/501/com.apple.iconservices.iconservicesagent [51]) <Notice>: xpcproxy spawned with pid 51
+com.apple.xpc.launchd|1970-01-01 00:06:28.261737 (user/501/com.apple.iconservices.iconservicesagent [51]) <Notice>: internal event: SPAWNED, code = 0
+LOOKUP com.apple.iconservices RESULT=0 PORT=3587
+com.apple.xpc.launchd|1970-01-01 00:06:28.261810 (user/501/com.apple.iconservices.iconservicesagent [51]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:06:28.262662 (user/501/com.apple.iconservices.iconservicesagent [51]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+System Policy: bash(53) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(55) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=5
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.iconservices.iconservicesagent PID=51 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=54 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+com.apple.xpc.launchd|1970-01-01 00:06:28.594699 (com.apple.mobile.usermanagerd) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|1970-01-01 00:06:28.595495 (user/501/com.apple.mobile.usermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+System Policy: bash(56) allow process-exec* /bin/cat
+cat: /var/tmp/iconservices.stderr: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:06:28.595542 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:06:28.595577 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:06:28.596335 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.596364 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:28.596409 (user/501/com.apple.mobile.usermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:06:28.615488 (user/501/com.apple.mobile.usermanagerd [54]) <Notice>: xpcproxy spawned with pid 54
+com.apple.xpc.launchd|1970-01-01 00:06:28.615660 (user/501/com.apple.mobile.usermanagerd [54]) <Notice>: internal event: SPAWNED, code = 0
+SERIAL_DONE_4f877a6a6b79459badc45115d034bcbc

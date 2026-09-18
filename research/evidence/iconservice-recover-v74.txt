@@ -1,0 +1,5 @@
+^C
+bash-5.3# /bin/stty echo; echo GUEST_READY; echo SERIAL_DONE_c475df10e016483c<cho GUEST_READY; echo SERIAL_DONE_c475df10e016483cb                         4fea379b86eacec
+System Policy: bash(69) allow process-exec* /bin/stty
+GUEST_READY
+SERIAL_DONE_c475df10e016483cb4fea379b86eacec

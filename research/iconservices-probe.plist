@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.iconservices.iconservicesagent</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.iconservices</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/var/tmp/iconservicesagent-v74</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>StandardErrorPath</key>
+	<string>/var/tmp/iconservices.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/var/tmp/iconservices.stdout</string>
+	<key>UserName</key>
+	<string>_iconservices</string>
+</dict>
+</plist>

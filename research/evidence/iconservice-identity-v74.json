@@ -1,0 +1,8 @@
+{
+  "firmware": "24A437",
+  "bytes": 134448,
+  "sha256": "feee33f9b690f0febf3453896eab44153da4a289b3489926077f4f8358d36da4",
+  "cdhash": "a4e37ebb3916f8a1fac633e112e512bc93f73076",
+  "already_in_geometry_v74_trustcache": true,
+  "guest_destination": "/var/tmp/iconservicesagent-v74"
+}

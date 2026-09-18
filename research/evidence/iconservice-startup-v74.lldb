@@ -1,0 +1,34 @@
+# Historical snapshot ONLY: 24A437, V74, UserManager PID 54.
+# Addresses and breakpoint numbers must be re-derived after every boot.
+# Restore the inspection byte separately at a verified kernel stop.
+# Sourced while stopped at the first persona list helper call.
+register write x0 0x7de9018280
+breakpoint command add -o 'register write x0 0x7de9018280' 1
+breakpoint modify --auto-continue true 1
+breakpoint set -H -a 0x1003db70c
+breakpoint command add -o 'register write x1 0x7de9018280' 2
+breakpoint modify --auto-continue true 2
+breakpoint set -H -a 0x18d254138
+breakpoint command add -o 'memory write -s 1 0x1ecaef9d8 1' 3
+breakpoint modify --auto-continue true 3
+breakpoint set -H -a 0x18d2714b8
+breakpoint command add -o 'register write x8 0x1f1b27900' 4
+breakpoint modify --auto-continue true 4
+breakpoint set -H -a 0x1c417a120
+breakpoint command add 5
+register write w0 0xffffffff
+register write pc 0x1c417a124
+DONE
+breakpoint modify --auto-continue true 5
+breakpoint set -H -a 0x22e3665f0 -c '*(unsigned int*)((*(unsigned long long*)(($x24 & 0x00ffffffffffffff)+8)&0x00ffffffffffffff)+0x68)==1'
+breakpoint command add -o 'register write x0 0' 6
+breakpoint modify --auto-continue true 6
+breakpoint set -H -a 0x22da252ac
+breakpoint command add -o 'register write x2 0' 7
+breakpoint modify -G true 7
+breakpoint set -H -a 0x1c413ffd8
+breakpoint command add -s python -o "frame.FindRegister('x0').SetValueFromCString('1'); frame.SetPC(frame.FindRegister('lr').GetValueAsUnsigned()); return False" 8
+breakpoint set -H -a 0x22dfa13ac
+breakpoint command add -o 'register write x2 0' 9
+breakpoint modify -G true 9
+continue
