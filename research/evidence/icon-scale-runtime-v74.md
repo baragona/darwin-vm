@@ -99,3 +99,10 @@ IconServices request completed, or that its service identity receives the same
 result. Do not describe LaunchServices as globally stuck based on the earlier
 thread sample. No guest values were modified by these two observers; both were
 removed and the guest resumed after the query.
+
+## Later update: artwork becomes visible
+
+A later live capture now shows the Settings gear in both icon presentations.
+See [iconservice-settled-v74.md](iconservice-settled-v74.md) for thread resampling,
+pixel comparison, and limits on attributing the delayed improvement. The initial
+unchanged capture above remains valid historical evidence, not the current screen.

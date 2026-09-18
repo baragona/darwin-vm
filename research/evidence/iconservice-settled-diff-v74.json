@@ -1,0 +1,15 @@
+{
+  "changed_pixels": 6663,
+  "changed_bounds_xyxy": [
+    40,
+    36,
+    416,
+    142
+  ],
+  "changed_pixels_per_region": {
+    "small_icon": 744,
+    "right_card": 5919
+  },
+  "old": "iconservice-visible-v74.png",
+  "new": "iconservice-settled-v74.png"
+}
