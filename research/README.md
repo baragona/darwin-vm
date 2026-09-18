@@ -495,3 +495,32 @@ LLDB and left running for further inspection. Its QMP socket is
 `/tmp/a19-ui-v17-qmp.sock`, UART socket `/tmp/a19-ui-v17-serial.sock`, and GDB
 endpoint `127.0.0.1:63417` (loopback only). The next investigation is the
 AppleKeyStore user-client open, now accessible to the guest task inspector.
+
+
+### Direct AKS endpoint experiment (v18)
+
+Disassembly identified a separate `aks-endpoint` boot argument. Setting it to
+zero sets the driver field at offset `0x1f0`; the helper that checks SEP boot
+readiness tests that field before its `sep-booted` / `sepfw-load-at-boot` paths.
+[Relevant instructions](evidence/aks-endpoint-disassembly.txt) are from the exact
+24A437 AppleSEPKeyStore image. This establishes a diagnostic control, not a
+working replacement for SEP.
+
+V18 kept the v17 configuration and added `aks-endpoint=0`. It booted to the
+shell, but the display query still blocked. After the same verified temporary
+Developer Mode override, `task_for_pid(4)` succeeded and backboardd was sampled.
+All 24 main-thread saved return addresses match v16 after subtracting their
+respective shared-cache slides (`0x8a74000` versus `0x1441c000`). It still waits
+in the AppleKeyStore `IOServiceOpen` path during Biome initialization.
+[Guest evidence](evidence/aks-endpoint-v18-sample.txt).
+
+Correction to interpreting the earlier experiment: the `_sep_enabled = 1`
+message uses a literal 1 in this build's logging call (`mov w10, #1` at
+`0xfffffe00095bf3a4`). That message alone cannot tell whether these configuration
+changes took effect. Neither tested change has unblocked the observed client.
+
+V17 is stopped. The current v18 guest is running with QMP
+`/tmp/a19-ui-v18-qmp.sock`, UART `/tmp/a19-ui-v18-serial.sock`, and loopback GDB
+`127.0.0.1:63418`. Developer Mode was temporarily set to 1 and read back in the
+guest. The next direction is to trace the kernel-side user-client open rather
+than infer driver readiness from the startup log.
