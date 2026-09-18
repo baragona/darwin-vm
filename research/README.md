@@ -598,3 +598,42 @@ V19 is stopped. Current v20 sockets are `/tmp/a19-ui-v20-qmp.sock` and
 `/tmp/a19-ui-v20-serial.sock`, with GDB at `127.0.0.1:63420`. Temporary Developer
 Mode was enabled after boot. The next direction is capturing backboardd's
 abort stack, now that it can progress beyond key-store initialization.
+
+
+### Backboardd's next abort: missing system-container path (v20/v21)
+
+Hardware breakpoints on the exact shared-cache `_abort` and
+`_objc_exception_throw` captured an `NSInvalidArgumentException` with reason
+`*** -[NSURL initFileURLWithPath:]: nil string parameter`. The call chain includes
+`-[BSSystemContainerForCurrentProcessPathProvider libraryPath]` and `cachesPath`.
+This identifies a missing system-container path, not a graphics-driver crash.
+[Exception observations](evidence/backboard-abort-v20.md) and
+[symbolication](evidence/backboard-abort-v20-symbols.json) retain the evidence.
+Cache addresses require the v20 slide `0x1a030000`; they are not universal.
+
+To test the missing service, v20 was stopped and `service-root.dmg` mounted
+with `hdiutil attach ... -mountpoint /tmp/a19-service-root -owners off -nobrowse`.
+The original 24A437 `/usr/libexec/containermanagerd_system` was copied from the
+mounted system image. Its unmodified
+`System/Library/LaunchDaemons/com.apple.containermanagerd.system.plist` was
+written into the root-owned `/bin/b2sum` donor inode, renamed into
+LaunchDaemons, and chmodded 0644. As with the earlier donor workaround,
+`b2sum` is consequently absent only in this disposable image. The existing
+merged system trust cache already covers the original signed helper. The image
+was detached before booting with the same AKS-patched kernel and arguments.
+
+V21 proves that launchd starts the helper in the system domain on demand.
+It exits with status 0 after about 0.25–0.74 seconds and does not resolve the
+failure: backboardd still exits with SIGABRT and CADisplay reports no count.
+A logged activation of `com.apple.containermanagerd` fails with Operation not
+permitted. Neither that log nor the exit code alone establishes why the helper
+quits. The normal container directories are absent from this restore image;
+its storage/layout requirements remain to be investigated rather than assumed
+fixed by installing a binary. [V21 log excerpts](evidence/container-service-v21.txt).
+
+V20 is stopped and all its debugger breakpoints were removed. Current v21 is
+running with QMP `/tmp/a19-ui-v21-qmp.sock` and UART
+`/tmp/a19-ui-v21-serial.sock`. No GDB server or temporary Developer Mode override
+has yet been enabled for v21. Its shared-cache slide is `0x4e8c000`. The next
+step is tracing ContainerManagerCommon's helper startup/exit and preparing the
+required writable container environment. Graphical startup remains unverified.

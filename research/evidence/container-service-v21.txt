@@ -1,0 +1,45 @@
+System Policy: xpcproxy(12) allow process-exec* /usr/libexec/containermanagerd_system
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 12]: /usr/libexec/containermanagerd_system, launch typecom.apple.xpc.launchd|1970-01-01 00:00:16.976854 (system/com.apple.cfprefsd.xpc.daemon.system [8]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:19.913486 (system/com.apple.containermanagerd.system) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:19.913542 (system/com.apple.containermanagerd.system) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:00:19.913578 (system/com.apple.containermanagerd.system) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:00:19.914121 (system/com.apple.containermanagerd.system) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:00:19.974085 (system/com.apple.containermanagerd.system [12]) <Notice>: xpcproxy spawned with pid 12
+com.apple.xpc.launchd|1970-01-01 00:00:19.974265 (system/com.apple.containermanagerd.system [12]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:19.974315 (system/com.apple.containermanagerd.system [12]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:19.974892 (system/com.apple.containermanagerd.system [12]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:20.038600 (system/com.apple.containermanagerd.system [12]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:20.038657 (system/com.apple.containermanagerd.system [12]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:20.038771 (system/com.apple.containermanagerd.system [12]) <Notice>: Successfully spawned containermanagerd_system[12] because ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:00:20.486988 (system) <Warning>: failed activation: name = com.apple.containermanagerd, flags = 0x0, requestor = containermanage[12], error = 1: Operation not permitted
+com.apple.xpc.launchd|1970-01-01 00:00:20.721156 (user/501/com.apple.backboardd [4]) <Notice>: exited due to SIGABRT | sent by backboardd[4], ran for 6854ms
+com.apple.xpc.launchd|1970-01-01 00:00:20.730358 (system/com.apple.containermanagerd.system [12]) <Notice>: exited due to exit(0), ran for 742ms
+com.apple.xpc.launchd|1970-01-01 00:00:20.730414 (system/com.apple.containermanagerd.system [12]) <Notice>: process exited in a dirty state
+com.apple.xpc.launchd|1970-01-01 00:00:20.730482 (system/com.apple.containermanagerd.system [12]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:00:20.730546 (system/com.apple.containermanagerd.system [12]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:20.730572 (system) <Notice>: service inactive: com.apple.containermanagerd.system
+com.apple.xpc.launchd|1970-01-01 00:00:20.730709 (system/com.apple.containermanagerd.system [12]) <Notice>: service state: not running
+CADISPLAY_QUERY_BEGIN
+com.apple.xpc.launchd|1970-01-01 00:00:25.797196 (system/com.apple.containermanagerd.system) <Notice>: Service only ran for 5 seconds. Pushing respawn out by 5 seconds.
+com.apple.xpc.launchd|1970-01-01 00:00:25.806788 (system/com.apple.containermanagerd.system) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:25.806846 (system/com.apple.containermanagerd.system) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:00:25.806882 (system/com.apple.containermanagerd.system) <Notice>: service spawn deferred by 5 seconds due to throttle
+System Policy: xpcproxy(23) allow process-exec* /usr/libexec/containermanagerd_system
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 23]: /usr/libexec/containermanagerd_system, launch type"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+com.apple.xpc.launchd|1970-01-01 00:00:30.799070 (system/com.apple.containermanagerd.system) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:00:30.799664 (system/com.apple.containermanagerd.system) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:00:30.818057 (system/com.apple.containermanagerd.system [23]) <Notice>: xpcproxy spawned with pid 23
+com.apple.xpc.launchd|1970-01-01 00:00:30.818231 (system/com.apple.containermanagerd.system [23]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:30.818284 (system/com.apple.containermanagerd.system [23]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:30.818331 (system/com.apple.containermanagerd.system [23]) <Notice>: deferred event: domain spawn response: 0
+com.apple.xpc.launchd|1970-01-01 00:00:30.818429 (system/com.apple.containermanagerd.system [23]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:30.901445 (system/com.apple.containermanagerd.system [23]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:30.901505 (system/com.apple.containermanagerd.system [23]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:30.901616 (system/com.apple.containermanagerd.system [23]) <Notice>: Successfully spawned containermanagerd_system[23] because ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:00:31.098510 (system/com.apple.containermanagerd.system [23]) <Notice>: exited due to exit(0), ran for 254ms
+com.apple.xpc.launchd|1970-01-01 00:00:31.098567 (system/com.apple.containermanagerd.system [23]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:00:31.098617 (system/com.apple.containermanagerd.system [23]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:31.098641 (system) <Notice>: service inactive: com.apple.containermanagerd.system
+com.apple.xpc.launchd|1970-01-01 00:00:31.098772 (system/com.apple.containermanagerd.system [23]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:00:31.119811 (user/501/com.apple.backboardd [21]) <Notice>: exited due to SIGABRT | sent by backboardd[21], ran for 7014ms
+UI_PROBE_END
