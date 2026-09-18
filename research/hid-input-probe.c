@@ -7,8 +7,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include "virtual-touch-service.h"
 
-static const uint64_t sender_id = UINT64_C(0xa190000000006500);
+static uint64_t sender_id = UINT64_C(0xa190000000006500);
 static uint64_t (*get_sender)(void *);
 static unsigned (*get_type)(void *);
 static long (*get_integer)(void *, unsigned);
@@ -44,11 +45,13 @@ static void event_callback(void *target, void *refcon, void *sender, void *event
 }
 
 int main(int argc, char **argv) {
+    int dispatch_failed = 0;
     int home = argc == 2 && !strcmp(argv[1], "--home");
-    int swipe = argc == 2 && !strcmp(argv[1], "--swipe");
-    if (argc > 1 && !home && !swipe) { puts("usage: hid-input-probe [--home | --swipe]"); return 2; }
+    int virtual_swipe = argc == 2 && !strcmp(argv[1], "--virtual-swipe");
+    int swipe = virtual_swipe || (argc == 2 && !strcmp(argv[1], "--swipe"));
+    if (argc > 1 && !home && !swipe) { puts("usage: hid-input-probe [--home | --swipe | --virtual-swipe]"); return 2; }
     setbuf(stdout, NULL);
-    alarm(25);
+    alarm(virtual_swipe ? 45 : 25);
     puts("HID_PROBE_BEGIN");
     void *io = dlopen("/System/Library/Frameworks/IOKit.framework/IOKit", RTLD_NOW);
     void *cf = dlopen("/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation", RTLD_NOW);
@@ -134,6 +137,10 @@ int main(int argc, char **argv) {
         (void)CFRunLoopRunInMode(*mode, 2.0, 0);
     }
     if (swipe) {
+        if (virtual_swipe) {
+            sender_id = virtual_touch_start();
+            if (!sender_id) { puts("HID_VIRTUAL_REGISTRATION_FAILED"); return 1; }
+        }
         enum { MOVES = 12, FRAMES = MOVES + 2 };
         void *hands[FRAMES] = {0}, *fingers[FRAMES] = {0};
         /* Preallocate the entire sequence, including release, before sending
@@ -152,6 +159,7 @@ int main(int argc, char **argv) {
                     if (fingers[j]) CFRelease(fingers[j]);
                 }
                 puts("HID_SWIPE_ALLOCATION_FAILED");
+                if (virtual_swipe) virtual_touch_stop();
                 return 1;
             }
             /* HID.framework's exact-build setter uses field 0xb0019. */
@@ -167,7 +175,13 @@ int main(int argc, char **argv) {
             IOHIDEventSetTimeStamp(fingers[i], now);
             printf("HID_SWIPE_FRAME=%u TOUCH=%ld Y=%.3f\n", i,
                    get_integer(fingers[i], 0xb0009), get_float(fingers[i], 0xb0001));
-            IOHIDEventSystemClientDispatchEvent(client, hands[i]);
+            if (virtual_swipe) {
+                int sent = virtual_touch_dispatch(hands[i]);
+                printf("HID_VIRTUAL_DISPATCH_FRAME=%u RESULT=%d\n", i, sent);
+                if (!sent) dispatch_failed = 1;
+            } else {
+                IOHIDEventSystemClientDispatchEvent(client, hands[i]);
+            }
             /* Keep gesture duration independent of early run-loop returns. */
             usleep(40000);
             (void)CFRunLoopRunInMode(*mode, 0.001, 0);
@@ -179,8 +193,9 @@ int main(int argc, char **argv) {
         }
     }
     printf("HID_MATCHING_CALLBACKS=%u\n", observed);
+    if (virtual_swipe) virtual_touch_stop();
     IOHIDEventSystemClientUnscheduleWithRunLoop(client, loop, *mode);
     CFRelease(client);
     puts("HID_PROBE_END");
-    return 0;
+    return dispatch_failed;
 }

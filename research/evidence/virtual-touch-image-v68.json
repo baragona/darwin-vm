@@ -1,0 +1,14 @@
+{
+  "build": "24A437",
+  "sha256": "ed863eb000fc5d02512dd1765a80997fae387757835fe10e7c434c7ed2d7a1b4",
+  "cdhash": "a1498b2228885820dd2845a23d7c89423b2fde7a",
+  "sources": {
+    "research/hid-input-probe.c": "307f10d314ee16accce0f36aaaa674f82af7c26d938756818e93a18a3b8d91c9",
+    "research/virtual-touch-service.c": "d1c5f81603285966c652d9c66b70f209d0da7f790468852ea630ddde56c4658c",
+    "research/virtual-touch-service.h": "25200cf691429d75a44dcc7fe95f0905ea3e1821367acb53e8d42d27b160f932"
+  },
+  "trust_cache_entries_before": 4407,
+  "trust_cache_entries_after": 4408,
+  "previous_entries_preserved": true,
+  "runtime_validation": "V68: notification 10, 14 successful dispatches and matching monitor callbacks, exit 0, no debugger attached"
+}

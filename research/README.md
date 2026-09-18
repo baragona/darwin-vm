@@ -2058,3 +2058,24 @@ The next step is a registered virtual touchscreen with an assigned service
 ID. Monitor delivery alone is insufficient to claim working touch input.
 The source also corrects registry-ID decoding from a borrowed CFNumber;
 that enumeration-only fix is compiled but awaits the next guest build.
+
+
+### Registered virtual touchscreen resolves in BackBoard (v67–v68)
+
+`hid-input-probe --virtual-swipe` registers a HIDVirtualEventService with
+a touchscreen usage pair, waits for enumeration, and uses its assigned ID
+for the 14-frame swipe. V67 required skipping an overly strict probe check:
+this firmware exposes the service class but no runtime delegate protocol
+metadata. With that local workaround, all 14 events resolved to a non-NULL
+BackBoard touchscreen service, clearing V66's missing-service failure.
+The source now treats protocol metadata as optional and logs its presence.
+[Registration and routing evidence](evidence/virtual-touch-runtime-v67.md).
+
+These tests precede SpringBoard startup. Advancing the welcome screen and
+interactive host input remain unverified. Build the HID probe with both
+`hid-input-probe.c` and `virtual-touch-service.c`; the existing monitor and
+dispatch entitlements are unchanged.
+
+V68 verifies the corrected binary without any attached debugger: service
+enumeration succeeded, every virtual dispatch returned success, and all
+14 matching monitor callbacks arrived. [Clean-run checks](evidence/virtual-touch-validation-v68.json).

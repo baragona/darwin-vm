@@ -1,0 +1,14 @@
+{
+  "build": "24A437",
+  "sha256": "6a4c76927b5b1120bc989d08e1a48c99535f7fe2f9c4a113e730d99ce18e3bf8",
+  "cdhash": "8424f84b563827c296a002d2f9994783d7ba922c",
+  "sources": {
+    "research/hid-input-probe.c": "307f10d314ee16accce0f36aaaa674f82af7c26d938756818e93a18a3b8d91c9",
+    "research/virtual-touch-service.c": "b476d20031091d1c8dd3e619bc44a473cdbe036c5cae6917946a1af05be840b8",
+    "research/virtual-touch-service.h": "25200cf691429d75a44dcc7fe95f0905ea3e1821367acb53e8d42d27b160f932"
+  },
+  "trust_cache_entries_before": 4406,
+  "trust_cache_entries_after": 4407,
+  "previous_entries_preserved": true,
+  "runtime_validation": "V67: initial protocol check failure; probe-local debugger workaround allowed enumeration and non-NULL BackBoard service resolution for all 14 events"
+}
