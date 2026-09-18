@@ -1,0 +1,6 @@
+{
+  "cdhash": "ec54909a780ce1865568b8b4015ef92fb2d51e21",
+  "binary_sha256": "3ea174b4b1e6423d6014b2a04d5f6245aa128d0c9d7ef30c5d983c984b1185c8",
+  "trustcache_entries": 4384,
+  "change": "Preserve original entitlements; add absolute-path read-write exception /mnt1/"
+}

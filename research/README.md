@@ -779,3 +779,16 @@ V24 is stopped. V25 is running at `/tmp/a19-ui-v25-qmp.sock`, UART
 All hardware breakpoints were removed and LLDB detached; no Developer Mode
 override was applied. /var remains backed by volatile tmpfs, while backboardd
 still aborts and no graphical display has been established.
+
+## Container path exception and migration crash (v26)
+
+Preserving the helper's original entitlements and adding an absolute-path
+read-write exception for `/mnt1/` fixes its observed directory-creation
+denial. LLDB confirmed success with a nil error, and the expected directories
+were created. The helper now progresses into build-upgrade migration and
+crashes with SIGSEGV. Breakpoint tracing narrows the failure to the final
+portion of that migration method; see the [evidence and next breakpoints](evidence/container-migration-v26.md).
+
+This remains a diagnostic helper build, not a completed container or graphics
+implementation. The v26 guest is running with all breakpoints removed and
+LLDB detached; Developer Mode was not overridden.
