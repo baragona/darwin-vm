@@ -1,0 +1,73 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobilegestalt.probe.< submit /launchjobs/com.apple.mobilegestalt.probe.p                         list; /bin/launch-probe s<ple.mobilegestalt.probe.plist; /bin/launch-probe st                         art com.apple.mobilegesta<ist; /bin/launch-probe start com.apple.mobilegestal                         t.xpc; /bin/launch-probe <rt com.apple.mobilegestalt.xpc; /bin/launch-probe s                         ubmit /launchjobs/com.app<.xpc; /bin/launch-probe submit /launchjobs/com.appl                         e.biometrickitd.probe.pli<bmit /launchjobs/com.apple.biometrickitd.probe.plis                         t; /bin/launch-probe star<.biometrickitd.probe.plist; /bin/launch-probe start                          com.apple.biometrickitd.<; /bin/launch-probe start com.apple.biometrickitd.p                         earl; /bin/launch-probe s<com.apple.biometrickitd.pearl; /bin/launch-probe su                         bmit /launchjobs/com.appl<arl; /bin/launch-probe submit /launchjobs/com.apple                         .purplebuddy.budd.plist; <mit /launchjobs/com.apple.purplebuddy.budd.plist; /                         bin/launch-probe submit /<purplebuddy.budd.plist; /bin/launch-probe submit /l                         aunchjobs/com.apple.runni<in/launch-probe submit /launchjobs/com.apple.runnin                         gboardd.plist; /bin/displ<unchjobs/com.apple.runningboardd.plist; /bin/displa                         y-probe; echo SERIAL_DONE<boardd.plist; /bin/display-probe; echo SERIAL_DONE_                         588eaaa9fe734008a5ce21230<-probe; echo SERIAL_DONE_588eaaa9fe734008a5ce21230f                         65d503
+System Policy: bash(78) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(79) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(81) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:12:20.432077 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:12:20.427942 (user/501/com.apple.mobilegestalt.xpc) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.428571 (user/501/com.apple.mobilegestalt.xpc) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:12:20.428618 (user/501/com.apple.mobilegestalt.xpc) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:12:20.429668 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+System Policy: bash(82) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:12:20.429710 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:12:20.429766 (user/501/com.apple.mobilegestalt.xpc) <Notice>: launching: non-ipc demand
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:12:20.451257 (user/501/com.apple.mobilegestalt.xpc [80]) <Notice>: xpcproxy spawned with pid 80
+com.apple.xpc.launchd|1970-01-01 00:12:20.451457 (user/501/com.apple.mobilegestalt.xpc [80]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.451516 (user/501/com.apple.mobilegestalt.xpc [80]) <Notice>: service state: xpcproxy
+System Policy: xpcproxy(83) allow process-exec* /usr/libexec/biometrickitd
+com.apple.xpc.launchd|1970-01-01 00:12:20.452280 (user/501/com.apple.mobilegestalt.xpc [80]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.729673 (user/501/com.apple.biometrickitd.pearl) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.729857 (user/501/com.apple.biometrickitd.pearl) <Notice>: service state: spawn scheduled
+System Policy: bash(84) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:12:20.729894 (user/501/com.apple.biometrickitd.pearl) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:12:20.730623 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:12:20.730669 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:12:20.730720 (user/501/com.apple.biometrickitd.pearl) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:12:20.749921 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: xpcproxy spawned with pid 83
+com.apple.xpc.launchd|1970-01-01 00:12:20.750090 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.750141 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:12:20.750857 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.808318 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:12:20.808367 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:12:20.895318 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: service state: running
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:12:20.895507 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:12:20.895624 (user/501/com.apple.biometrickitd.pearl [83]) <Notice>: Successfully spawned biometrickitd[83] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:12:20.977786 (pid/83 [biometrickitd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:12:20.977933 (pid/83 [biometrickitd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:12:21.106055 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = biometrickitd[83], error = 3: No such process
+System Policy: bash(85) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(87) allow process-exec* /bin/display-probe
+DISPLAY_PROBE_BEGIN
+SAMPLER_CREATE_RESULT=0
+CADISPLAY_QUERY_BEGIN
+CADISPLAY_COUNT=6
+CADISPLAY_ENTRY=0 ID=1 NAME=LCD EXTERNAL=0 SUPPORTED=1
+CADISPLAY_ENTRY=0 CURRENT_MODE=<CADisplayMode 416 x 496 internal_panel (fixed)>
+CADISPLAY_ENTRY=1 ID=2 NAME=Wireless EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=1 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=2 ID=3 NAME=Wireless-1 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=2 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=3 ID=4 NAME=Wireless-2 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=3 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=4 ID=5 NAME=Wireless-3 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=4 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=5 ID=6 NAME=Wireless-4 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=5 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_MAIN_PRESENT=1
+CADISPLAY_MAIN_NAME=LCD
+DISPLAY_PROBE_END
+SERIAL_DONE_588eaaa9fe734008a5ce21230f65d503

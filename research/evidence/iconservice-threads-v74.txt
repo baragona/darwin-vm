@@ -1,0 +1,268 @@
+/bin/threadcom.apple.xpc.launchd|1970-01-01 00:15:28.179117 <Notice>: Last log repeated 18 times
+-probe 89; /bicom.apple.xpc.launchd|1970-01-01 00:15:28.028060 (user/501) <Warning>: failed lookup: name = com.apple.biome.access.user, flags = 0x8, requestor = SpringBoard[89], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:15:28.116964 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[89], error = 3: No such process
+n/thread-probe 51; /bin/launch-pro"AppleSEPKeyStore":pid:89,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:89,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:89,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:89,:13996: operation failed (sel: 17 ret: e00002d8)
+be lis"AppleSEPKeyStore":pid:89,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:89,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:89,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:89,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:89,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:89,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:89,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:89,:13996: operation failed (sel: 17 ret: e00002d8)
+< 89; /bin/thread-probe 51; /bin/launch-probe list;                        ech"AppleSEPKeyStore":pid:89,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:89,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:89,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:89,:13996: operation failed (sel: 17 ret: e00002d8)
+o SERIAL_DONE_fbca31e6<bin/launch-probe list; echo SERIAL_DONE_fbca31e6289                         340eca9fff9e00c4a5ff1
+System Policy: bash(106) allow process-exec* /bin/thread-probe
+com.apple.xpc.launchd|1970-01-01 00:15:36.111688 <Notice>: Last log repeated 57 times
+com.apple.xpc.launchd|1970-01-01 00:15:35.991932 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[89], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:15:36.207601 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[89], error = 3: No such process
+TASK PID=89 RESULT=0
+DYLD_SLIDE=0x8b14000 CACHE_BASE=0x188b14000
+THREADS_RESULT=0 COUNT=18
+THREAD 0 PC=0x240a0bcd4 LR=0x240a0f308 FP=0x16f6a1e40
+ FRAME 0 RETURN=0x240a0f228
+ FRAME 1 RETURN=0x240a0f074
+ FRAME 2 RETURN=0x18914a46c
+ FRAME 3 RETURN=0x189149828
+ FRAME 4 RETURN=0x18914a7f4
+ FRAME 5 RETURN=0x23380cf24
+ FRAME 6 RETURN=0x18d4281cc
+ FRAME 7 RETURN=0x22d7a93b0
+ FRAME 8 RETURN=0x188f9b5b8
+ FRAME 9 RETURN=0x0
+THREAD 1 PC=0x24cd16bd4 LR=0x24cd0a6a8 FP=0x101884ba0
+ FRAME 0 RETURN=0x24cd16804
+ FRAME 1 RETURN=0x1b761dfcc
+ FRAME 2 RETURN=0x1b7618fb4
+ FRAME 3 RETURN=0x1b761dfb4
+ FRAME 4 RETURN=0x1b760a4e8
+ FRAME 5 RETURN=0x1b76186f8
+ FRAME 6 RETURN=0x1b7618818
+ FRAME 7 RETURN=0x24cd178dc
+ FRAME 8 RETURN=0x24cd1799c
+ FRAME 9 RETURN=0x18c7f7a78
+ FRAME 10 RETURN=0x18c7f74d0
+ FRAME 11 RETURN=0x18c7f70a0
+ FRAME 12 RETURN=0x18c7f7d6c
+ FRAME 13 RETURN=0x18c7f1d6c
+ FRAME 14 RETURN=0x18c778080
+ FRAME 15 RETURN=0x18c7df668
+ FRAME 16 RETURN=0x18c7df75c
+ FRAME 17 RETURN=0x2a16f8b74
+ FRAME 18 RETURN=0x2a16f87e4
+ FRAME 19 RETURN=0x2a16ff284
+ FRAME 20 RETURN=0x18d5627c8
+ FRAME 21 RETURN=0x18daa44b4
+ FRAME 22 RETURN=0x18d9b4fa0
+ FRAME 23 RETURN=0x2a16f7738
+THREAD 2 PC=0x240a115f8 LR=0x18904fda0 FP=0x101a86820
+ FRAME 0 RETURN=0x2ab57792c
+ FRAME 1 RETURN=0x2b5e78d24
+ FRAME 2 RETURN=0x1b7603ccc
+ FRAME 3 RETURN=0x1b761dfb4
+ FRAME 4 RETURN=0x1b760c87c
+ FRAME 5 RETURN=0x1b760d470
+ FRAME 6 RETURN=0x1b7617c8c
+ FRAME 7 RETURN=0x1b76176b0
+ FRAME 8 RETURN=0x18904f238
+ FRAME 9 RETURN=0x18904e910
+THREAD 3 PC=0x240a0bcd4 LR=0x240a0f308 FP=0x102f858e0
+ FRAME 0 RETURN=0x240a0f228
+ FRAME 1 RETURN=0x240a0f074
+ FRAME 2 RETURN=0x18914a46c
+ FRAME 3 RETURN=0x189149438
+ FRAME 4 RETURN=0x18914a7f4
+ FRAME 5 RETURN=0x1891ecda8
+ FRAME 6 RETURN=0x1b0f3a854
+ FRAME 7 RETURN=0x189052038
+ FRAME 8 RETURN=0x18904e91c
+THREAD 4 PC=0x240a0bcd4 LR=0x240a0f308 FP=0x103085d40
+ FRAME 0 RETURN=0x240a0f228
+ FRAME 1 RETURN=0x240a0f074
+ FRAME 2 RETURN=0x18914a46c
+ FRAME 3 RETURN=0x189149438
+ FRAME 4 RETURN=0x18914a7f4
+ FRAME 5 RETURN=0x1891ecda8
+ FRAME 6 RETURN=0x1c9e4fcc8
+ FRAME 7 RETURN=0x189810edc
+ FRAME 8 RETURN=0x189052038
+ FRAME 9 RETURN=0x18904e91c
+THREAD 5 PC=0x24cd18118 LR=0x24cd0a6a8 FP=0x104085680
+ FRAME 0 RETURN=0x24cd1799c
+ FRAME 1 RETURN=0x18c7f7898
+ FRAME 2 RETURN=0x18c7f74d0
+ FRAME 3 RETURN=0x18c7f70a0
+ FRAME 4 RETURN=0x18c7f7d6c
+ FRAME 5 RETURN=0x18c7f1d6c
+ FRAME 6 RETURN=0x18c778080
+ FRAME 7 RETURN=0x18c7df668
+ FRAME 8 RETURN=0x18c7df75c
+ FRAME 9 RETURN=0x2a16f8b74
+ FRAME 10 RETURN=0x2a16f87e4
+ FRAME 11 RETURN=0x2a16ff284
+ FRAME 12 RETURN=0x18d5627c8
+ FRAME 13 RETURN=0x18daa44b4
+ FRAME 14 RETURN=0x18d9b4fa0
+ FRAME 15 RETURN=0x2a16f7738
+ FRAME 16 RETURN=0x2a16ff104
+ FRAME 17 RETURN=0x2a16f6530
+ FRAME 18 RETURN=0x2a16fef78
+ FRAME 19 RETURN=0x2a16ff284
+ FRAME 20 RETURN=0x18d5627c8
+ FRAME 21 RETURN=0x18daa44b4
+ FRAME 22 RETURN=0x18d9b4fa0
+ FRAME 23 RETURN=0x2a16f7738
+THREAD 6 PC=0x240a0bc68 LR=0x1b76058f8 FP=0x103c86f40
+ FRAME 0 RETURN=0x1b7605ef4
+ FRAME 1 RETURN=0x1b76166ac
+ FRAME 2 RETURN=0x189052038
+ FRAME 3 RETURN=0x18904e91c
+THREAD 7 PC=0x240a0bcd4 LR=0x240a0f308 FP=0x103281f10
+ FRAME 0 RETURN=0x240a0f228
+ FRAME 1 RETURN=0x240a0f074
+ FRAME 2 RETURN=0x1b761f89c
+ FRAME 3 RETURN=0x1b761fce8
+ FRAME 4 RETURN=0x1890c6ae0
+ FRAME 5 RETURN=0x189629dc4
+ FRAME 6 RETURN=0x18960e9c0
+ FRAME 7 RETURN=0x18966d378
+ FRAME 8 RETURN=0x1896976b4
+ FRAME 9 RETURN=0x261926230
+ FRAME 10 RETURN=0x1973ae214
+ FRAME 11 RETURN=0x261926088
+ FRAME 12 RETURN=0x261925dec
+ FRAME 13 RETURN=0x1b7603ccc
+ FRAME 14 RETURN=0x1b761dfb4
+ FRAME 15 RETURN=0x1b7616960
+ FRAME 16 RETURN=0x1b76170e4
+ FRAME 17 RETURN=0x18904f1fc
+ FRAME 18 RETURN=0x18904e910
+THREAD 8 PC=0x189115304 LR=0x189115304 FP=0x101784da0
+ FRAME 0 RETURN=0x189128e20
+ FRAME 1 RETURN=0x1891e2094
+ FRAME 2 RETURN=0x1891e2350
+ FRAME 3 RETURN=0x1891f7e28
+ FRAME 4 RETURN=0x1891fcaf4
+ FRAME 5 RETURN=0x189197ae0
+ FRAME 6 RETURN=0x1891ef1ac
+ FRAME 7 RETURN=0x1891fc458
+ FRAME 8 RETURN=0x189784554
+ FRAME 9 RETURN=0x1ca34b6e0
+ FRAME 10 RETURN=0x1ca34b68c
+ FRAME 11 RETURN=0x1ca34b36c
+ FRAME 12 RETURN=0x1ca345a4c
+ FRAME 13 RETURN=0x1ca34c5ec
+ FRAME 14 RETURN=0x1ca340ff0
+ FRAME 15 RETURN=0x1ca346fb0
+ FRAME 16 RETURN=0x1cda96ed4
+ FRAME 17 RETURN=0x1cda99ef8
+ FRAME 18 RETURN=0x1cda98f3c
+ FRAME 19 RETURN=0x1cda9a3e0
+ FRAME 20 RETURN=0x1cda9aa08
+ FRAME 21 RETURN=0x1cda99dc8
+ FRAME 22 RETURN=0x1cdab00ec
+ FRAME 23 RETURN=0x1b7613cd0
+THREAD 9 PC=0x188f72d58 LR=0x189116d5c FP=0x101584b30
+ FRAME 0 RETURN=0x18912d7c0
+ FRAME 1 RETURN=0x18912d9c8
+ FRAME 2 RETURN=0x1891b7c10
+ FRAME 3 RETURN=0x1891b7924
+ FRAME 4 RETURN=0x18965f510
+ FRAME 5 RETURN=0x1895f5308
+ FRAME 6 RETURN=0x1973abd54
+ FRAME 7 RETURN=0x1973ab7c0
+ FRAME 8 RETURN=0x1973b86dc
+ FRAME 9 RETURN=0x1973a9788
+ FRAME 10 RETURN=0x1973ab6a8
+ FRAME 11 RETURN=0x1973acf68
+ FRAME 12 RETURN=0x2382acc64
+ FRAME 13 RETURN=0x18962d588
+ FRAME 14 RETURN=0x189629ac4
+ FRAME 15 RETURN=0x1890dd8d8
+ FRAME 16 RETURN=0x1890c85cc
+ FRAME 17 RETURN=0x1b761dfe4
+ FRAME 18 RETURN=0x1b762238c
+ FRAME 19 RETURN=0x1b760c710
+ FRAME 20 RETURN=0x1b760d470
+ FRAME 21 RETURN=0x1b7617c8c
+ FRAME 22 RETURN=0x1b76176b0
+ FRAME 23 RETURN=0x18904f238
+THREAD 10 PC=0x18904e908 LR=0x0 FP=0x0
+THREAD 11 PC=0x240a0bc50 LR=0x1b760586c FP=0x102786c50
+ FRAME 0 RETURN=0x1b7605f50
+ FRAME 1 RETURN=0x1a7c7c958
+ FRAME 2 RETURN=0x1a7c69ee4
+ FRAME 3 RETURN=0x1a7c51c14
+ FRAME 4 RETURN=0x189810edc
+ FRAME 5 RETURN=0x189052038
+ FRAME 6 RETURN=0x18904e91c
+THREAD 12 PC=0x18904e908 LR=0x0 FP=0x0
+THREAD 13 PC=0x18904e908 LR=0x0 FP=0x0
+THREAD 14 PC=0x18904e908 LR=0x0 FP=0x0
+THREAD 15 PC=0x0 LR=0x0 FP=0x0
+THREAD 16 PC=0x0 LR=0x0 FP=0x0
+THREAD 17 PC=0x0 LR=0x0 FP=0x0
+RESUME_RESULT=0
+System Policy: bash(107) allow process-exec* /bin/thread-probe
+TASK PID=51 RESULT=0
+DYLD_SLIDE=0x8b14000 CACHE_BASE=0x188b14000
+THREADS_RESULT=0 COUNT=3
+THREAD 0 PC=0x240a101e4 LR=0x1b7617f74 FP=0x16dceafa0
+ FRAME 0 RETURN=0x1b7617f44
+ FRAME 1 RETURN=0x0
+THREAD 1 PC=0x240a0ba80 LR=0x18904f284 FP=0x16dd76720
+ FRAME 0 RETURN=0x18904e910
+THREAD 2 PC=0x240a0bcd4 LR=0x240a0f308 FP=0x16dc5cc60
+ FRAME 0 RETURN=0x1b762338c
+ FRAME 1 RETURN=0x1b762381c
+ FRAME 2 RETURN=0x1b7622d54
+ FRAME 3 RETURN=0x1b761f4e0
+ FRAME 4 RETURN=0x1b761f7b4
+ FRAME 5 RETURN=0x1b761fce8
+ FRAME 6 RETURN=0x1890c6ae0
+ FRAME 7 RETURN=0x189629dc4
+ FRAME 8 RETURN=0x18960e9c0
+ FRAME 9 RETURN=0x18966d378
+ FRAME 10 RETURN=0x1896976b4
+ FRAME 11 RETURN=0x18f90b4c4
+ FRAME 12 RETURN=0x18f8e1e54
+ FRAME 13 RETURN=0x18f8e2720
+ FRAME 14 RETURN=0x18f8e187c
+ FRAME 15 RETURN=0x18f8ea37c
+ FRAME 16 RETURN=0x1ca359aa8
+ FRAME 17 RETURN=0x1ca3428ac
+ FRAME 18 RETURN=0x102229d5c
+ FRAME 19 RETURN=0x10222a434
+ FRAME 20 RETURN=0x1b763bde8
+ FRAME 21 RETURN=0x1b7608e94
+ FRAME 22 RETURN=0x1b761dfb4
+ FRAME 23 RETURN=0x1b7614130
+RESUME_RESULT=0
+com.apple.xpc.launchd|1970-01-01 00:15:44.924034 <Notice>: Flushed 20 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:15:46.314029 <Notice>: Last log repeated 75 times
+com.apple.xpc.launchd|1970-01-01 00:15:45.588238 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[89], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:15:46.097142 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[89], error = 3: No such process
+System Policy: bash(108) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=14
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.iconservices.iconservicesagent PID=51 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=89 LAST_EXIT=0
+JOB com.apple.runningboardd PID=86 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=80 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=67 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=73 LAST_EXIT=15
+JOB com.apple.lsd PID=65 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=83 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=63 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=99 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=54 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_fbca31e6289340eca9fff9e00c4a5ff1
