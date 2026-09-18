@@ -24,6 +24,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('transcript', type=Path)
     parser.add_argument('output_prefix', type=Path)
+    parser.add_argument('--zlib', action='store_true',
+                        help='decode the lossless display-pack-probe output')
     args = parser.parse_args()
     lines = args.transcript.read_text().splitlines()
     begin = lines.index('DISPLAY_DATA_BEGIN')
@@ -32,6 +34,11 @@ def main():
                       if re.fullmatch(r'[A-Za-z0-9+/]+={0,2}', line))
     data = base64.b64decode(encoded, validate=True)
     width, height = 416, 496
+    if args.zlib:
+        unpacker = zlib.decompressobj()
+        data = unpacker.decompress(data, width * height * 4 + 1)
+        if not unpacker.eof or unpacker.unused_data or unpacker.unconsumed_tail:
+            raise ValueError('Incomplete, oversized, or trailing zlib data')
     if len(data) != width * height * 4:
         raise ValueError(f'Expected {width * height * 4} bytes, got {len(data)}')
     report = dict(width=width, height=height, format='BGRA', bytes=len(data),
