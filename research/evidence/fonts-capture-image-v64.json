@@ -1,0 +1,1345 @@
+{
+  "build": "24A437",
+  "font_files": 265,
+  "font_bytes": 397411642,
+  "fonts": [
+    {
+      "path": "System/Library/Fonts/Core/SFUIMono.ttf",
+      "bytes": 218820,
+      "sha256": "1023d2b480ff2ec3cbe7546534431c09a5519d4dac2fbbc4c3a402cb2497e0b0"
+    },
+    {
+      "path": "System/Library/Fonts/Core/PhonepadTwo.ttf",
+      "bytes": 13940,
+      "sha256": "5ec4080c446867fed555b426b1f9da5a7c14e344f7db2bd3b4ac1f0a9d1f1c2b"
+    },
+    {
+      "path": "System/Library/Fonts/Core/MalayalamSangamMN.ttc",
+      "bytes": 179992,
+      "sha256": "9706aa1674a04440f014e5116dfac0704d05b14c69ac765049075bad7cc4411e"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NewYorkItalic.ttf",
+      "bytes": 597572,
+      "sha256": "50e4d2aefa6646bda9c213b915dc130d51e11d21dd8ceef67d5d23e2254431e2"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NotoSansKannada.ttc",
+      "bytes": 358604,
+      "sha256": "c050d80fe78d6ba22a830ca20a1a559b49f68ca6f1bf81d713bc70ec2969b1a1"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFArabic.ttf",
+      "bytes": 719968,
+      "sha256": "12b5b582315dbddf432e467f677b28a87597f474322bfba7d62bc1468a79ce72"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFArmenian.ttf",
+      "bytes": 86792,
+      "sha256": "0be96891f71de37d0bf3d0504c613ad852d0c04d9638dc7ba90f86a670d73904"
+    },
+    {
+      "path": "System/Library/Fonts/Core/TimesNewRomanItalic.ttf",
+      "bytes": 660268,
+      "sha256": "7bb99c3a67697fbce15ab66d806d9a2151432ce1dab2eaba4156e1251da486c0"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Futura.ttc",
+      "bytes": 465140,
+      "sha256": "c27c8cd547b6f4556a45867235136f3544f7183a709688aff9869cfd78c24da6"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NotoSerifMyanmar.ttc",
+      "bytes": 421412,
+      "sha256": "54c9b0f9a6bc696143f98b93d817d6984f3d4878d88684976cd10eef0fd876d7"
+    },
+    {
+      "path": "System/Library/Fonts/Core/HelveticaNeue.ttc",
+      "bytes": 2207552,
+      "sha256": "482f81e268658663dc7ef2df6e765e06d098f1443423d13cdf4fc9aa3a951acc"
+    },
+    {
+      "path": "System/Library/Fonts/Core/KhmerSangamMN.ttf",
+      "bytes": 140296,
+      "sha256": "1251c224653c4120e4722e394bfa8557b03fc06213256af210b9d0218ee32e60"
+    },
+    {
+      "path": "System/Library/Fonts/Core/ThonburiUI.ttc",
+      "bytes": 77008,
+      "sha256": "666d9ad3617e92c659c95d95e74f740115f1b4c3c1ad1493bacf127dd278a478"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFUISymbols-Regular.otf",
+      "bytes": 3412,
+      "sha256": "c92ed9355e2b99fca6aa3807649f7a08b04c60faabe69f90b8dbf07cb2fb88c9"
+    },
+    {
+      "path": "System/Library/Fonts/Core/MuktaMahee.ttc",
+      "bytes": 374000,
+      "sha256": "b091057840c44f225078d1c848d59a177ece20fa751e8eccfcc54b97718a69c7"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Avenir.ttc",
+      "bytes": 717240,
+      "sha256": "b16c330f76feda87aaa4bcaabd5819615fde23dfd8df87773f3177937fa43c7f"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NotoSansOriya.ttc",
+      "bytes": 315292,
+      "sha256": "b26490963ef7c04a8ac84c8522d2f9031b9ce27514f0d118d6bbd13b14774166"
+    },
+    {
+      "path": "System/Library/Fonts/Core/TimesNewRoman.ttf",
+      "bytes": 824920,
+      "sha256": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3"
+    },
+    {
+      "path": "System/Library/Fonts/Core/CourierNewBoldItalic.ttf",
+      "bytes": 506640,
+      "sha256": "60e4c514200985d3f8405af039ffb89cd24b45fef5005b019825a4937b96135d"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Thonburi.ttc",
+      "bytes": 1503124,
+      "sha256": "e49ae98313bafc06a65c6d063b788d73f2894b824aea3121b131098fb4311cde"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Fallback.ttf",
+      "bytes": 15232,
+      "sha256": "371af55bad8070e173fd480d3b413639dcf16ea2a00a7469e3cd612cc13c414f"
+    },
+    {
+      "path": "System/Library/Fonts/Core/MyanmarSangamMN.ttc",
+      "bytes": 188768,
+      "sha256": "f4bb24811e3511ff916eb0a5b7417872be7ea6704bce14f9d6e3b26af1b67004"
+    },
+    {
+      "path": "System/Library/Fonts/Core/ZapfDingbats.ttf",
+      "bytes": 38384,
+      "sha256": "b5fff8241cdc084eacba3741116fee2f3cb0d513ec7fb9a838901f589eaef676"
+    },
+    {
+      "path": "System/Library/Fonts/Core/ADTNumeric.ttc",
+      "bytes": 3402832,
+      "sha256": "e8fec7d634a1b2497a61a70cf9c215d8adeabcc2fc72b46d1220f78da0f8ac06"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFArabicRounded.ttf",
+      "bytes": 783568,
+      "sha256": "2bbda7767d5b053335be80ee78bd6f81f3dcbb0a7144f01107f2596e79ca43c2"
+    },
+    {
+      "path": "System/Library/Fonts/Core/HelveticaNeueInterface.ttc",
+      "bytes": 14556,
+      "sha256": "e6a3051b5814ed91899ff484ed41e106653e6ad8ab09661b14ab4b675860a4b5"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFHebrewRounded.ttf",
+      "bytes": 55100,
+      "sha256": "e94c0202d94163e6bbcb927b076a585a73d9de0078a8e8e0994417e24375acbe"
+    },
+    {
+      "path": "System/Library/Fonts/Core/KohinoorGujarati.ttc",
+      "bytes": 313228,
+      "sha256": "0b96bf03af37da93519522edcfeaad6483216cd53f7aad919e498c4da64768fb"
+    },
+    {
+      "path": "System/Library/Fonts/Core/TimesNewRomanBoldItalic.ttf",
+      "bytes": 620008,
+      "sha256": "906157e8294fdf168d83002eaabde01c2d30fc3f44977be89e33fa22f262002a"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Helvetica.ttc",
+      "bytes": 1165212,
+      "sha256": "a3fff3a60646d19ba48cd53dca44b0fbc8adf59826e70ab6bd024202e6e31a85"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Symbol.ttf",
+      "bytes": 27228,
+      "sha256": "366aa667efe52bc4c77749468245ab2b06b47644b48bd0794706260a544a4e90"
+    },
+    {
+      "path": "System/Library/Fonts/Core/AppleSDGothicNeo.ttc",
+      "bytes": 43118616,
+      "sha256": "5ae686defc66e5237a5fc5e54bdb69605282cc850dbcfc02c9a8e653258a3692"
+    },
+    {
+      "path": "System/Library/Fonts/Core/HiraginoKakuGothic.ttc",
+      "bytes": 41124384,
+      "sha256": "13604258549d45e789255f6d0dc72569265a235135442e62ed0290c873103c32"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFGeorgian.ttf",
+      "bytes": 94468,
+      "sha256": "82e01b8585b45b13c37e6cd6d6da36245920aaf09eb459d69888360859baeefe"
+    },
+    {
+      "path": "System/Library/Fonts/Core/TimesNewRomanBold.ttf",
+      "bytes": 832472,
+      "sha256": "50f5b1f27b7d34621090e437e8b1dd4510a22d2823fc876b3286bed327b64bbb"
+    },
+    {
+      "path": "System/Library/Fonts/Core/DINAlternate-bold.ttf",
+      "bytes": 73160,
+      "sha256": "ac2b7924b7c8b6458d13a71947b449e34f2b900ba0295722f8fe76df2ab1e623"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFCompact.ttf",
+      "bytes": 1896040,
+      "sha256": "044376cb245cb5cdd5c027c22e2854acfe648a2c8e885ecc4a12fdd84df88fee"
+    },
+    {
+      "path": "System/Library/Fonts/Core/AppleSymbols.ttf",
+      "bytes": 895440,
+      "sha256": "87799cb668ba3738db915715aa4ef30ec10972067e600efae04063cf1efc409b"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFArmenianRounded.ttf",
+      "bytes": 62640,
+      "sha256": "8ffc57e8d7c999f628de49e4a41d2590b7e3df0c99a0f0814c911ac95b61949a"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NotoSansArmenian.ttc",
+      "bytes": 52264,
+      "sha256": "f00c892e9c072c26546ddcbffefe76cfcf53f890b177e742165753276da98b61"
+    },
+    {
+      "path": "System/Library/Fonts/Core/KohinoorBangla.ttc",
+      "bytes": 417076,
+      "sha256": "d51645ee6164440f5b8aee0e52d85e3f4a7f99c2cc11b03e28a3a92b3727d2ce"
+    },
+    {
+      "path": "System/Library/Fonts/Core/CourierNewItalic.ttf",
+      "bytes": 589900,
+      "sha256": "b5c6d453f16fb1693652671fa2e11d8c8ad1cd0046c3f38ae2608d165838ecf1"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Courier.ttc",
+      "bytes": 731624,
+      "sha256": "2e3aa3b237eba36bc8cb93adfb97611e46264a0b9a3e203b37db63e5e2ad11db"
+    },
+    {
+      "path": "System/Library/Fonts/Core/ArialHB.ttc",
+      "bytes": 116056,
+      "sha256": "e2f195c3a006d0d1f07214fe50b1477d8284e3c3c2c194705e5deb6f6e85d95e"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFUI.ttf",
+      "bytes": 7872452,
+      "sha256": "c90833e656f07657d970145962608d3f96d8ac69287ca536daab17f38d614e00"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFIndia.ttc",
+      "bytes": 2269684,
+      "sha256": "d9aef9fb79aaf5aa0c96df2593c1f461b24ab8c74695baded690a69949d15ce9"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Galvji.ttc",
+      "bytes": 202328,
+      "sha256": "0cfbaf28494e081a06c1162013b5c40b7cd817ff0177af6306d78d2b27108e52"
+    },
+    {
+      "path": "System/Library/Fonts/Core/TamilSangamMN.ttc",
+      "bytes": 349356,
+      "sha256": "3dcda2e44f35b5c3a1462efcefbec7a1b5882b6cf72bf3b7233f40182f17ef79"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFCompactRounded.ttf",
+      "bytes": 1080280,
+      "sha256": "2db181772dd231c68de536d7f1616d77a093cf932fc28582c6636623b2c61559"
+    },
+    {
+      "path": "System/Library/Fonts/Core/CourierNewBold.ttf",
+      "bytes": 691796,
+      "sha256": "500df4e46b554ae7d646e8727952fd8c7e60e94423481f6b82325cfddba2ee6a"
+    },
+    {
+      "path": "System/Library/Fonts/Core/EuphemiaCAS.ttc",
+      "bytes": 276780,
+      "sha256": "589fc704395266a86a1cfb6962984b6ff08942b792c8d24b5e058f1bb764fdf7"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFCompactItalic.ttf",
+      "bytes": 1012892,
+      "sha256": "489239f84611e546b7a09987bf46142ff8099337ae7d3affa2fb59bfadb1cff7"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFUIItalic.ttf",
+      "bytes": 1057152,
+      "sha256": "27fe07ff57b7a0cab5fac4f1ad963367cf71dbd6eefe725436d61d24524c1199"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NotoNastaliq.ttc",
+      "bytes": 913636,
+      "sha256": "d8ffcc1817b00c85852e70cb7a3657f3aa5d9bbb89fe4f23578b387738734238"
+    },
+    {
+      "path": "System/Library/Fonts/Core/HelveticaNeueExtras.ttc",
+      "bytes": 195292,
+      "sha256": "71eef095743961bca0d657120ab3c3bee4f0ecb5e211dfd9d788539d5186dd0e"
+    },
+    {
+      "path": "System/Library/Fonts/Core/TimesLTMM",
+      "bytes": 208494,
+      "sha256": "47797574c0c2564dba73d17ef243761382ace5dd5db2f322b6fe9e8da016a245"
+    },
+    {
+      "path": "System/Library/Fonts/Core/AvenirNext.ttc",
+      "bytes": 2464696,
+      "sha256": "cbe03ab64dc041bd10eabcc304109eaa5974eb5d7c6d5fe2206f57792de161b1"
+    },
+    {
+      "path": "System/Library/Fonts/Core/DecoTypeNastaleeqUrdu.ttc",
+      "bytes": 32825448,
+      "sha256": "c97cbfc423fc5de7767d8b4bba3d4c00f930cfc95c87e2064b4cdff0112ff47f"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFCamera.ttf",
+      "bytes": 117636,
+      "sha256": "2f09c510f0c17e8c36cdc1b3f6a2129f2de8ee93c8868d476aad4943f85f169a"
+    },
+    {
+      "path": "System/Library/Fonts/Core/HelveLTMM",
+      "bytes": 181804,
+      "sha256": "b4ce36ff1bd935951bbc9b9afaa871e99884cd022249a358de0871e596c21f08"
+    },
+    {
+      "path": "System/Library/Fonts/Core/CourierNew.ttf",
+      "bytes": 684624,
+      "sha256": "c886ca3172d8ce9189976992d145ec090500a4ff516ecb9d4df56b1a78336247"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NotoSansMyanmar.ttc",
+      "bytes": 640984,
+      "sha256": "50b5f0f5658654b6dade4a6263bea02df6da04f76bf5e252725c7a51660c705e"
+    },
+    {
+      "path": "System/Library/Fonts/Core/CJKSymbolsFallback.ttc",
+      "bytes": 768520,
+      "sha256": "289d207d6a8404c6ed7c8a8e88b30cbef6b748bcc2cc34c43ec574493c5b55e3"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SinhalaSangamMN.ttc",
+      "bytes": 752820,
+      "sha256": "bc965b2ce1a028601036d268e3379a3c0943f60cda39043905c666d0707a76bf"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFUIMonoItalic.ttf",
+      "bytes": 195884,
+      "sha256": "f01d3a5b0947516091b66c76ee31ab9bf5a8732ae057db36578ec7287b10bd45"
+    },
+    {
+      "path": "System/Library/Fonts/Core/NewYork.ttf",
+      "bytes": 721580,
+      "sha256": "2f2a5b0e743cd2d954dd407a7281dc0e974d93144c0cdbbc82fee43c32caa926"
+    },
+    {
+      "path": "System/Library/Fonts/Core/LaoSangamMN.ttf",
+      "bytes": 55612,
+      "sha256": "9dd076e9bf495f1919a213f65f147da7caba54882ecdf8db4d972dae1d27fcd3"
+    },
+    {
+      "path": "System/Library/Fonts/Core/KefaIII.ttf",
+      "bytes": 523268,
+      "sha256": "97c6cafd1d03684496eb426563deda584ba487220d15195d0ced96fe99d3b66f"
+    },
+    {
+      "path": "System/Library/Fonts/Core/DINCondensed-bold.ttf",
+      "bytes": 207744,
+      "sha256": "932b288911011a1910a42940ed1525f4a0e7a140177d5d27ee6aae4ed8bb1233"
+    },
+    {
+      "path": "System/Library/Fonts/Core/KohinoorTelugu.ttc",
+      "bytes": 396700,
+      "sha256": "96c1abb65114c9390a2a67c441c5a8ef2b7ad8b835218206684b6216481b85b5"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFGeorgianRounded.ttf",
+      "bytes": 61664,
+      "sha256": "aeddbaf1ed81ffe2d2fbef48bb51775a33a09e37a87295305d9cf80e091403e1"
+    },
+    {
+      "path": "System/Library/Fonts/Core/GeezaPro.ttc",
+      "bytes": 967408,
+      "sha256": "42e4302bb33db1869a17f1af1e7e9bd6d1b594c0292c683b51d4db0ea5d1206a"
+    },
+    {
+      "path": "System/Library/Fonts/Core/SFHebrew.ttf",
+      "bytes": 62376,
+      "sha256": "2e69b72734e849f93ca52c560ccf4bd7d70633bd36c7cdb5f8f59cb3b4d91462"
+    },
+    {
+      "path": "System/Library/Fonts/Core/LastResort.otf",
+      "bytes": 2416,
+      "sha256": "c6fd31c2d68597249258d931c88b28060b545599d4817559245db33ebea82bcb"
+    },
+    {
+      "path": "System/Library/Fonts/Core/Kailasa.ttc",
+      "bytes": 1170568,
+      "sha256": "82117708dc723729581ead21ef1557ea8b33a8ef6e17c844422fa749d4293152"
+    },
+    {
+      "path": "System/Library/Fonts/CoreAddition/STIXGeneral.otf",
+      "bytes": 369156,
+      "sha256": "5add3f3f2bd7fd897d2fa5ccbe468607c52111dc44cdfaaf2d851a574f5357a7"
+    },
+    {
+      "path": "System/Library/Fonts/CoreAddition/STIXGeneralItalic.otf",
+      "bytes": 141844,
+      "sha256": "7f6bf9cab728febe4ce111bbfbcd16253806dcab0bbe1940ede2782cfc319a72"
+    },
+    {
+      "path": "System/Library/Fonts/CoreAddition/STIXGeneralBol.otf",
+      "bytes": 186612,
+      "sha256": "7e4dfb4979e9bb79a0bdedc56f055eab615fb9a3dff8788a52992ae65e8f572d"
+    },
+    {
+      "path": "System/Library/Fonts/CoreAddition/STIXGeneralBolIta.otf",
+      "bytes": 143764,
+      "sha256": "4585fcdd3aa1a6f3451c03d4f587134b9fc8a0835380ffec25f3105908ddf31a"
+    },
+    {
+      "path": "System/Library/Fonts/CoreAddition/AppleColorEmoji-160px.ttc",
+      "bytes": 139281528,
+      "sha256": "c7ec8cc546e25814453fe5047181ad65b40d6c737143d421b043082aaa8dd1f0"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/AvenirNextCondensed.ttc",
+      "bytes": 1759936,
+      "sha256": "c1cca16b2d6b6aad37df887ab6f5c0769738f4b705441304a5d4bdc10e513d36"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Bodoni-Ornaments.ttf",
+      "bytes": 53300,
+      "sha256": "5ba2438126e37afd6d9f2e6e2d6a3a846e08aca0d23e414cbe6167db5b1a4244"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/SuperClarendon.ttc",
+      "bytes": 1385480,
+      "sha256": "26ac1a7b2772b53afc59cd9a2a5276af203d55420ae37b8332c897cb000592b5"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Didot.ttc",
+      "bytes": 345884,
+      "sha256": "86180c38818ade0c8aa6e9442e9c17c10c198a3dd435672f2a3d3ed96e720aba"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/DB_LCD_Temp-Black.ttf",
+      "bytes": 5548,
+      "sha256": "628cd4182c6196e465bea8dde3ff53f2b3a8f20a0c55dc847638db3c9c39831b"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Optima.ttc",
+      "bytes": 221432,
+      "sha256": "4a6216f197f34957c3d8b989302d60816cd51a55d6d338102e6cc593a58fff28"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/HoeflerText.ttc",
+      "bytes": 1630096,
+      "sha256": "5060530623e8d6e7fa4f163a37a36ab479871678a04b74941980737b0f12545a"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Marion.ttc",
+      "bytes": 385336,
+      "sha256": "7a6ac010c8460a87af7957e4de7ab621ec50ab9072a4c52b96dd622a7e201b3c"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Noteworthy.ttc",
+      "bytes": 277208,
+      "sha256": "965c0c6884105eb1b01347acfa15ba83b6b4221ff347e2df60e3dfaa39fcb1f3"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/HiraginoMincho.ttc",
+      "bytes": 19342180,
+      "sha256": "83f56373ff09f94983c00b1e44b01dc36680b5e462502709d9ee05d34f669508"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/ChalkboardSE.ttc",
+      "bytes": 332292,
+      "sha256": "771a292e0c2d76419d9a31771c92d882ba77acb2a4fb9d3c6650753565c6e589"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Bodoni72-Book-SmallCaps.ttf",
+      "bytes": 46620,
+      "sha256": "f2a12f6f2c11c971a5dacf74504e5bd0f2fc23efd6a72b97eb719df31749aae7"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Farah.ttc",
+      "bytes": 87608,
+      "sha256": "76f8a4504aa6845934da33b61134ad1ad8b4da7ec7fc40a966144fd95f18d3f6"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/LockClock.ttf",
+      "bytes": 34352,
+      "sha256": "8081595e50f0604f7b878a2c23d3fd6f2db99c9fdf8049b978ef485da2a08868"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Athelas.ttc",
+      "bytes": 1175180,
+      "sha256": "46f46e9471c78692c49c975438dd122638e8e294a3c05154c2ac4b90feea212f"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Bodoni72.ttc",
+      "bytes": 266544,
+      "sha256": "d47f8ec33d30fc2b8d4ed71ee7d51b51277330f73e7ed272c2a82488d3d25a35"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/DevanagariSangamMN.ttc",
+      "bytes": 1021020,
+      "sha256": "56c66a13ed676f86db3ac6bc6c3c0215d78f0b4b8b4dc49e4245b3cc8c87bdc9"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Chalkduster.ttf",
+      "bytes": 483152,
+      "sha256": "0e9ed740bfbfcfef1a7f4333cd041771a9a5b67fbe85515e4d241b7213cf6a8d"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/PartyLET.ttf",
+      "bytes": 159724,
+      "sha256": "446412ad3835b874055b4d4b215c8f1216f851c221dc2115feda75fc30bc8d17"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Damascus.ttc",
+      "bytes": 2214536,
+      "sha256": "a80a06e130cdb5cca02192037bcea77986e06763613eaa42cd523b6aad0c0748"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Bodoni72-OldStyle.ttc",
+      "bytes": 137524,
+      "sha256": "2b180b45b1597a61d5c3c66d632a752e74b7a71ae6ad293408b862e70d7e7265"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/GillSans.ttc",
+      "bytes": 639312,
+      "sha256": "c4f7bdd1ab92c4f01e17d90c1c329a81561bda187d9bd8e60160d3821309678a"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Palatino.ttc",
+      "bytes": 1024796,
+      "sha256": "080150de955d767832b446fd126edecf7beabdf4278af61e9424ce988333fa3b"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/MarkerFeltWide.ttf",
+      "bytes": 194396,
+      "sha256": "f8fa2fef2585c1bef2c3ea6cd716a6106ea2af4f71e755e0b23805fa42a1d534"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Cochin.ttc",
+      "bytes": 504992,
+      "sha256": "cc53498db81632b4c46e092ffdf315ffdafd8448bd8e19cb7ad3f245c5776ef8"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Carlito.ttc",
+      "bytes": 2729936,
+      "sha256": "9d76c4ed8c0b5f522455e4dcc5b191d4178642f12c1a12150b26731780fc15ad"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/SnellRoundhand.ttc",
+      "bytes": 1511524,
+      "sha256": "0a9609542912b93ff01dd0ce9d07fbdc1e092226c1168f0caf8980bd3f4d8063"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/MarkerFeltThin.ttf",
+      "bytes": 186140,
+      "sha256": "78554a37cfdfddbb10558fd6e804ca792ab50a703540705cbb0872732e0d4c4a"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/BradleyHand-Bold.ttf",
+      "bytes": 427024,
+      "sha256": "02701c82fc9e6e144d1f97733ca83f19e5e915afa88599e6cd25eaf72a205754"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Zapfino.ttf",
+      "bytes": 399180,
+      "sha256": "152963ee2bc0628d70888022e975d44e6f8806f662e10f21d14b9acb448b355c"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/AlNile.ttc",
+      "bytes": 124128,
+      "sha256": "b227b90e147e80e5429d8f6319cac83435e23c9b73ca09184d033199868adcd3"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/AppleGothic.otf",
+      "bytes": 2242228,
+      "sha256": "4a485d1d8871a15745681c4bd51596955d42ecd72c6ca829d3d6f6cd1cabc12c"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Mishafi.ttf",
+      "bytes": 1292356,
+      "sha256": "aa570e13ba2c8cd7ef13ac21854f1de87b2f2f631f84a7b4b93fbe77b7702a58"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Charter.ttc",
+      "bytes": 1033912,
+      "sha256": "9dada0031737d45b29ca678236cbcaff280e6d7eda50db9f7eec16226bdc0033"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Seravek.ttc",
+      "bytes": 3655132,
+      "sha256": "d5b95967ed2fb3bdd360867e2aebca565f7ec7501da19bbeb1bdc911eb28c940"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/Papyrus.ttc",
+      "bytes": 1102236,
+      "sha256": "1857c06adaa18fcbec55328c417ac572a3801b7ff55cb27765ae39ed7b9b445c"
+    },
+    {
+      "path": "System/Library/Fonts/AppFonts/AcademyEngraved.ttf",
+      "bytes": 105016,
+      "sha256": "a32e7b807a097f0e5135b9ceea01d94ef2f5acbf226ab2a35ee65e8853ab9d84"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansBatak-Regular.ttf",
+      "bytes": 22084,
+      "sha256": "a32831ffc38301991b631bb0fb1aa9dc5dd96f4047c84635bb031dd682d3c594"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansGlagolitic-Regular.ttf",
+      "bytes": 23264,
+      "sha256": "fce75abc3b73e537d92e0bef60dc93d65a5cf9ae4d5b8bbb77222b30dc8125c4"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansHanifiRohingya-Regular.ttf",
+      "bytes": 19400,
+      "sha256": "2c3b37dbaf80f240b432a5805160add5a4307a9d3adb4a632a1ce52a3e53f894"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTirhuta-Regular.ttf",
+      "bytes": 69944,
+      "sha256": "a4fed705f990f3cc11403d41a673941def5e65f211dcc7871b13d27bf089ed22"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTagbanwa-Regular.ttf",
+      "bytes": 6648,
+      "sha256": "7dedb32bfc8dc5ef05a222bc05ad4fc8f72e0e3fca2a9eb9841591102c040c48"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansWarangCiti-Regular.ttf",
+      "bytes": 25304,
+      "sha256": "e9f7e9f0c581c467f6f0f942c8dfb494c87a1373cc1aea0d6ed93727804bad47"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansKhojki-Regular.ttf",
+      "bytes": 42632,
+      "sha256": "d743510e9c5a045f14890e694e98b623beb36294a9a10420e6d4ef3723f8dcfc"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansCuneiform-Regular.ttf",
+      "bytes": 820316,
+      "sha256": "bae49e30a541479cdc8040d6ed2aefe2e75570b3ac303ebece0f25d90fe25e1d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansYi-Regular.ttf",
+      "bytes": 134064,
+      "sha256": "1744f6ebb56f63c9c2276362bf3fcad69d15afcdd199018238ff39558eadf06e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTaiLe-Regular.ttf",
+      "bytes": 12072,
+      "sha256": "396016aacf92e480f369ba41ed9958bcceb002eaf057da65647ae9250d02b491"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansBuginese-Regular.ttf",
+      "bytes": 7236,
+      "sha256": "1ade06c5d328f0978d173c18a061ec3b157ba7ced3f4449ad73e16add4f24eef"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansCham-Regular.ttf",
+      "bytes": 30208,
+      "sha256": "a02e3a71a31f6e38f504976ebbca80add502006a04d3ad62833ffc4e59142b4d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMiao-Regular.ttf",
+      "bytes": 36236,
+      "sha256": "e66141c65237edecb22a32e4051516e33ea32548d5aa83a5c70edde9ff5f6be6"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMongolian-Regular.ttf",
+      "bytes": 253932,
+      "sha256": "df8e76675870a47f7dd97ea7e224fcf870713f43ebe6fe4ae6c260d0ee838a0d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLinearA-Regular.ttf",
+      "bytes": 58140,
+      "sha256": "a133c2e91206a17e5354f5ea16656a6d8ecb46dcf29a1d17dba62653eee8c51e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldHungarian-Regular.ttf",
+      "bytes": 54020,
+      "sha256": "9a926369d7e44450c9c4e211f38829f880ecce16f6325e699eb29ce3851bfc7b"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansKaithi-Regular.ttf",
+      "bytes": 62716,
+      "sha256": "75b74f45f121e9fc7cf4a3b5fb765101d51d74a8b321f755b938c9f6f2bdc58e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansCypriot-Regular.ttf",
+      "bytes": 8332,
+      "sha256": "3e2f2c2a051547937876ca00f43544450489e16e24501d0362c621dae9923b8b"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSiddham-Regular.otf",
+      "bytes": 94408,
+      "sha256": "6062ee98c26cb38b34d43ef71bf95aa962024e725a9138d861661f8a237bae41"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansPauCinHau-Regular.ttf",
+      "bytes": 9816,
+      "sha256": "e0850630f6affd48b4d077b55ed7160e80616bf8ff69c62c6d873245cfffac2b"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSamaritan-Regular.ttf",
+      "bytes": 11164,
+      "sha256": "4740b58fe07816db1fc838a3004b62dd978b6ac20dbb43a792bef7f28debe0c5"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansNewTaiLue-Regular.ttf",
+      "bytes": 17000,
+      "sha256": "f622c16e1e452905bbe8d94347b9bcec071a49cdc187e1a74e4dffc6d526dbeb"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLisu-Regular.ttf",
+      "bytes": 6516,
+      "sha256": "f78f3387e505fa6fbbe19fa1c6d20f2d96c141b17dacab33b9dfd45a5289ecd1"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMasaramGondi-Regular.otf",
+      "bytes": 23052,
+      "sha256": "ea4a6ecb03bf46fd3b8ceb79c8aef5cadcd23d4bc0fd2da9aedea87ab0501bd1"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMultani-Regular.ttf",
+      "bytes": 9856,
+      "sha256": "fce81e8f9a463f40793136cc446653085a46aa82e635d9520e31a70ee6f629f3"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTakri-Regular.ttf",
+      "bytes": 16652,
+      "sha256": "a541ceccf0b2f3c733f362373e3cc2ad4b7b834160a889b4ad44bf0d2ddbbab9"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMandaic-Regular.ttf",
+      "bytes": 18908,
+      "sha256": "4d17d30a0c47a4b2dc87a61f4751e9e54740d4fb3631a991e1c0369ee38c4f73"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMendeKikakui-Regular.ttf",
+      "bytes": 35360,
+      "sha256": "04ee7b18ca85d6d7e5d093e2c9c5494994a7d8ce1bddfeee8712490e4a8f08ed"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansNKo-Regular.ttf",
+      "bytes": 24608,
+      "sha256": "72107ca6885331147fb0ca4d7a71f96e6b3e989a75d66ef979a96966b28f8526"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansModi-Regular.ttf",
+      "bytes": 42688,
+      "sha256": "be1dbe9c189e98ac2df4dc497148b81585865457c8c8f53f1698cc3fac6e0a27"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansPahawhHmong-Regular.ttf",
+      "bytes": 18272,
+      "sha256": "6033e882e304ab204b55bbf75032c87f7cce516e59a26df7633264bfa077c545"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldPersian-Regular.ttf",
+      "bytes": 13180,
+      "sha256": "fd46d52e32b296b6f2db73ed02c423d4384f3ae5c2f7e1de4f2df3ff4dbf0eb1"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansCoptic-Regular.ttf",
+      "bytes": 28084,
+      "sha256": "28b6686a032e98205dfec91dcfe196eb4169ad758696b7c2932968b7cd5b6f66"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOlChiki-Regular.ttf",
+      "bytes": 8860,
+      "sha256": "42020ef6e4bb0ebde8ecea0c85877fac817a49b69670d5ab755ac6cc16a351f1"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansAvestan-Regular.ttf",
+      "bytes": 12888,
+      "sha256": "2a7dc1aba3bc403fa830c90d5755583ae6bdec8284ad6b5309001f16e00a4bbc"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLinearB-Regular.ttf",
+      "bytes": 64828,
+      "sha256": "23275e2c7aacf0740c08e184525aa50d8312f9d3235be582549114e2ae2c506e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansHanunoo-Regular.ttf",
+      "bytes": 7896,
+      "sha256": "3f54af33b23863e6cbccdbadc206d3e1c8f3d04ac7154442b8635df5468d9cc4"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansPsalterPahlavi-Regular.ttf",
+      "bytes": 21676,
+      "sha256": "08553bb6205276d6e96ecee2c31b626f3f3e5774dbfb83011fdd1095ec3d68cd"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansGothic-Regular.ttf",
+      "bytes": 6152,
+      "sha256": "8638a2c56f231dddb5c4a5be06cd62855718913275f5bc0af5113a87f227f3b5"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansBuhid-Regular.ttf",
+      "bytes": 5612,
+      "sha256": "ce3f9e3c785f84fa29246e690e7ccccfe8daf07eb727f1feddec5fa10465a256"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansInscriptionalPahlavi-Regular.ttf",
+      "bytes": 6032,
+      "sha256": "e571797e882fd8a93874f6a75810dd8016120f8112d6ffb469c5d45e56c2da5a"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansKhudawadi-Regular.ttf",
+      "bytes": 19032,
+      "sha256": "37406ba2413ad4753fba389822a203e55359e32eb028ac15be587b2541d11090"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSerifBalinese-Regular.ttf",
+      "bytes": 51264,
+      "sha256": "009f6471b5d2f95172cf3e186d497386f1d2499d69daa6b188e04ced3def8aa1"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansCaucasianAlbanian-Regular.ttf",
+      "bytes": 26828,
+      "sha256": "6c83cbe4540aed2e976169674e0dcdcee9d6aa7d4dc286fb2559cf4a4e46d418"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansManichaean-Regular.ttf",
+      "bytes": 31448,
+      "sha256": "f30038aeca2c7d0f44c085df4c7ecb598e04732b70daab8219ae29be6861011d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansWancho-Regular.ttf",
+      "bytes": 17992,
+      "sha256": "7a736f363686f9e88a38a1cc0ba8d68f6cba3da4149f320d91a1a42b2896d2e3"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/STIXTwoText-Italic.ttf",
+      "bytes": 454368,
+      "sha256": "88c0e2e316eaff56eddc9e51e4850317e2a1e490bbf758b2dec4793aedba9c74"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansBassaVah-Regular.ttf",
+      "bytes": 7740,
+      "sha256": "b2cb12dafa67d0a4aca432aa598b2e947361a3738d79cf9652c25b599e985f7d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSaurashtra-Regular.ttf",
+      "bytes": 19792,
+      "sha256": "892db68ca8f826b6af8d13c8a4249e1fd74598c8dba73a478d6c3ad0efb23cb3"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTifinagh-Regular.otf",
+      "bytes": 24956,
+      "sha256": "8396ced3cf679a82b5ac2f18639b8a5676b8cd25cfaa833adea8dacbd5a97052"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/STIXTwoText.ttf",
+      "bytes": 418956,
+      "sha256": "7962b8b7811e6a896c9a91a0bccbb5241047770eb24d4997c5cb5fe21d5c0df2"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansEgyptianHieroglyphs-Regular.ttf",
+      "bytes": 585444,
+      "sha256": "93889bf8a5563f87f70269fc546ca51cbbda6c617c6f3b417792bfe65d6b1165"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansPhagsPa-Regular.ttf",
+      "bytes": 34176,
+      "sha256": "dc6975773e7c2707d36cd1018ec1c93a396a19d68ae484360b551ec5157dac2d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/STIXTwoMath.otf",
+      "bytes": 838652,
+      "sha256": "3a5f3f26f40d5698b3c62dd085d48d6663696a3f80825aab8b553d5097518e8c"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansVai-Regular.ttf",
+      "bytes": 57764,
+      "sha256": "8730386f446879e610c2aa0cc1b98c56031594fbe94c07f26e515cf7c07a32b2"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLycian-Regular.ttf",
+      "bytes": 4556,
+      "sha256": "1a06d8d62b5d7e616c1caed04e2351f7d03d7e691f9a0ee9f4b5bf529014149d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSundanese-Regular.ttf",
+      "bytes": 11512,
+      "sha256": "44116238e4f55dedf5a0232f6d6eadbeedd8896b8bee6a63fe949e4c2ec1cf29"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansRejang-Regular.ttf",
+      "bytes": 7620,
+      "sha256": "d4692c20ee33dadb2d1187dd2a6022e087dec011ccef869ab6553ff5771fb6fe"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansNewa-Regular.ttf",
+      "bytes": 149024,
+      "sha256": "6eb7557d0b7b40f22556c1d90afe011e628df457191830355577da6157ea443e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSylotiNagri-Regular.ttf",
+      "bytes": 16576,
+      "sha256": "e45262b5d2a31db47cc177ddd1c466e241a8ccd5bbff6ba6166e1bd97d9c0635"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMarchen-Regular.ttf",
+      "bytes": 125956,
+      "sha256": "6b55b9e8bc50d2f71e211821840c02d29675419608ed981cb1907e50c3fc1e2c"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansGunjalaGondi-Regular.otf",
+      "bytes": 32372,
+      "sha256": "896b11b131c7edd23ae97765c16f0c9abb78a9aa322338bacd296ea81357899c"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansChakma-Regular.ttf",
+      "bytes": 41592,
+      "sha256": "69a99548a7a1f36ec3ba6fe93f88749b66cf091087eba7a0d1934d27784dba91"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSerifNyiakengPuachueHmong-Regular.ttf",
+      "bytes": 14888,
+      "sha256": "4727ad21c1c9e520ab244399c93014062856009c25fc4154066d9e5e3626b579"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLydian-Regular.ttf",
+      "bytes": 4592,
+      "sha256": "1ccad3ff44c94446a65e5c15be2714acf12487d4e11a3dd39481f62667f43173"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSyriac-Regular.ttf",
+      "bytes": 115268,
+      "sha256": "d75500075158475aa8d9c5d586196945a0d92d1c27c5d66ecfb0c4f4af35ffe8"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansDuployan-Regular.ttf",
+      "bytes": 18724,
+      "sha256": "081cfdc3be05bf0280aebf360723d0606ae4b571fa3f1fde12058cc63f3eb24c"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansUgaritic-Regular.ttf",
+      "bytes": 7656,
+      "sha256": "4cab9c4e616e162fef49211db26dcd2d4452a6bf945770330d8571c4e7e6841e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSerifAhom-Regular.ttf",
+      "bytes": 19512,
+      "sha256": "635cd17bfcbd37457c98f0f9e70c7a0aa520f7f202a2b267b09f18fe5e80223d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOsmanya-Regular.ttf",
+      "bytes": 8604,
+      "sha256": "42b8ef4101c6cb45c85ea98c69d75be5838b6f86622bf8449e07312f9fa5db62"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansHatran-Regular.ttf",
+      "bytes": 5020,
+      "sha256": "3b72a1ced0b9a018dbe77408f3fa505f65dad5682ba81f9a560af1f3d1b2dec7"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMeeteiMayek-Regular.ttf",
+      "bytes": 16044,
+      "sha256": "cb3bf6030dfeaa765fc0b97469a98444ae6eff937162c1221b3cb368f7c6388a"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansBamum-Regular.ttf",
+      "bytes": 148664,
+      "sha256": "ac11fedc2a73d0a9bfc3fc72ecd2e3e833107a1156797f3677945e320fd499d7"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansPalmyrene-Regular.ttf",
+      "bytes": 15684,
+      "sha256": "0303c0e1a6653b05035a74255423e812529f89b8ef3d006513ce48b1756a2365"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLimbu-Regular.ttf",
+      "bytes": 12912,
+      "sha256": "2c225a605c5a8aae3c05cf4e8aa710eedf3fa20d59578b1facb127e08ee47191"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansLepcha-Regular.ttf",
+      "bytes": 24500,
+      "sha256": "6019ed0497ddf6d07bd9310976e591898f46ea3f4a45782b6e3e901ab3a53bdc"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansJavanese-Regular.otf",
+      "bytes": 86944,
+      "sha256": "18254c5855aa9ec145cbcbf3c2db69daf52f323e3ac2b049d137b6ec85c50a28"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldItalic-Regular.ttf",
+      "bytes": 7524,
+      "sha256": "411ef5004b1978f51878394bec0971811e28f81cd4184ac2282dcb6996b27c87"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansBhaiksuki-Regular.ttf",
+      "bytes": 220044,
+      "sha256": "ab4dd380c621508d510b80309fd2ecde63818fc4dee9140e36e70d118db18beb"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansImperialAramaic-Regular.ttf",
+      "bytes": 6500,
+      "sha256": "1d8dec133932014d3baceae6ece503aa52ecce3b17c64b2dff6ccd691d81c478"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSerifYezidi-Regular.otf",
+      "bytes": 8664,
+      "sha256": "f8a3c04d1a0a872e2a522d07f1280369c30c680c40099eaf4471ee7c389ebde9"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTagalog-Regular.ttf",
+      "bytes": 7012,
+      "sha256": "69087a0b8ad9a405b065aefefe0c298d9aa7f61b0de345566baf282c9e8282e0"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldSouthArabian-Regular.ttf",
+      "bytes": 5232,
+      "sha256": "5d0b9191b80d23fbc22b4ea48d50e6cd53ffb6cbeea86644127ebe836ab96bb3"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSoraSompeng-Regular.ttf",
+      "bytes": 8108,
+      "sha256": "84db8313949e266e43740eab6a93c69f6deaf090aa9fa01739a0ad99b63f6cbd"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansAdlam-Regular.ttf",
+      "bytes": 61236,
+      "sha256": "4ca58c4f467db4ca8df06ce40f7cc8b27ded41963984f8a4d441285335626dab"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOsage-Regular.ttf",
+      "bytes": 12512,
+      "sha256": "93b97cbfe440cdedc69014b775faab9b44f9cf4a3cf801851278486d15e9cfe3"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansElbasan-Regular.ttf",
+      "bytes": 11172,
+      "sha256": "15489bca9803de2a8777c1f478d41dd6de1f81703af34abfb1275afae4857478"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansCarian-Regular.ttf",
+      "bytes": 6688,
+      "sha256": "d1631100e9b431e672401397465f00300acf1002a10e35d08d4fd0e7a416abae"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMro-Regular.ttf",
+      "bytes": 6904,
+      "sha256": "611858696f30b442bf6405f4bad0a8dfc0810763441d804890a736aa6f902a2d"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldPermic-Regular.ttf",
+      "bytes": 9984,
+      "sha256": "8897b1d76fa4d872add20b23244ec351e80cb8df1e2a9434aabfc778a1a247e8"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansKharoshthi-Regular.ttf",
+      "bytes": 25388,
+      "sha256": "bfe057992a0f4e60b61a4cc977d10badb9036b635f184b28307192df1a1a4b76"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMahajani-Regular.ttf",
+      "bytes": 14144,
+      "sha256": "87b29271c0485e5ded2b65e15bea5ff205e4a2e12b61c0c9678cb41d45c790a9"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTaiTham-Regular.ttf",
+      "bytes": 51040,
+      "sha256": "8b58452015baffee6ba520dcd3396f79d23cdc39392a13f5e784e72ac29d0d22"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansInscriptionalParthian-Regular.ttf",
+      "bytes": 7792,
+      "sha256": "1a9c98df07720413e51fd29bec966a4e0c9edcc0fba8e45038ef4974b255c074"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSunuwar-Regular.otf",
+      "bytes": 12420,
+      "sha256": "d8edd2adda4e2ad3bf9f19bd3c50c599f0c9aaaf3d74a0c12841408ccc978a0e"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansSharada-Regular.ttf",
+      "bytes": 44108,
+      "sha256": "0ad26fc89ef2be580c1e6ae10450878f2fddbe2c3b3c9e6bb3dd11ff1c9cbeb2"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldNorthArabian-Regular.ttf",
+      "bytes": 7284,
+      "sha256": "6d4e0f32ab4bc7bee8954e21ee80c3e20dc50b7b0961668a9455e7a809e78cf0"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansOldTurkic-Regular.ttf",
+      "bytes": 8372,
+      "sha256": "02f35911c7249d2412f819b013a4705a5477fa44d0912e70212313ec7f7ae2a2"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansPhoenician-Regular.ttf",
+      "bytes": 6252,
+      "sha256": "47709d5c78988406ccada0d83d60a3dd58eb292e21bf0ef58d0212d20802d1b7"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansThaana-Regular.ttf",
+      "bytes": 18792,
+      "sha256": "d518c8161d9ae68470c9ef5080f9c9aae887dd93bf3c1529a9913ba059ae60e4"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansMeroitic-Regular.ttf",
+      "bytes": 33644,
+      "sha256": "b3158127a35076b87deac06b13a29df6c397fb2d2562f5d40f7e47a389b43be1"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansNagMundari-Regular.ttf",
+      "bytes": 17152,
+      "sha256": "94789e3ed944ce32f1757e23df8ae3bd4d4d3c46539e8f986b02a5f8fe5954fc"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansTaiViet-Regular.ttf",
+      "bytes": 18220,
+      "sha256": "4d3bd3ab7a8f0dd7276f8f8020a1f628098cd27f95a02966d4959af2cb50a8e3"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansKayahLi-Regular.ttf",
+      "bytes": 9464,
+      "sha256": "8e3a92a485f062923f221f043c292d7bb8b0715617aabc5e4c88591f865a2307"
+    },
+    {
+      "path": "System/Library/Fonts/UnicodeSupport/NotoSansNabataean-Regular.ttf",
+      "bytes": 8400,
+      "sha256": "f4c55f60942c3b21d7e449b96ac240e19a1e5510618ef310b20ea97a079c8d5a"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf",
+      "bytes": 129360,
+      "sha256": "c7df0daa11665420461614fc22682c687852b2e1cf5c6ff9188096f5d2a8d0b2"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/TheHandSerif-semibold.otf",
+      "bytes": 679680,
+      "sha256": "0c74f37d1242578dc084143fcb9238618b1ae5df75e125f4f2bc9325816e42bd"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/AmericanTypewriter.ttc",
+      "bytes": 1281300,
+      "sha256": "cd667c0ac4c33c0568376d851fd57954992337699f2d7e6ac4209e98204f5bc3"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/SchemeBold.otf",
+      "bytes": 168828,
+      "sha256": "79be8bb55af481f1994dc9956b10f03cc986331019edcb25ee8b6c07db4195f0"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/HiraginoMaruGothProN.ttc",
+      "bytes": 9711308,
+      "sha256": "9949bc165c11b85686e9d6c1cb754f24b64ced4835bf1fa28d291a5ba6a89de4"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Savoye.ttc",
+      "bytes": 101228,
+      "sha256": "d893e8ffd433b3ff74c529ce30fdbf4618cdaceecc873e95bc1648d8880b3c90"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/SignPainter-Semibold.otf",
+      "bytes": 228392,
+      "sha256": "fff962bc25947909d5d6328ee13d20f0c3eb8108d77d3a5e5beab9165be10766"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/KeycapsPad.ttc",
+      "bytes": 1896720,
+      "sha256": "e805e1723f5fee9b2150d24d9b5a6bb031fb89801f4ea1cdb4700915f3042421"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Baskerville.ttc",
+      "bytes": 1340512,
+      "sha256": "049ec225cd13060da91d0042f304174c71854db38c71e70f84760f4b0f063d8a"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Rockwell.ttc",
+      "bytes": 471440,
+      "sha256": "d96dfdd45d4b89eed3f376ab590b06eb2159292689ff5b0be9884b21121eca7c"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/PhoneKeyCaps.ttf",
+      "bytes": 876696,
+      "sha256": "bb66558498aedb21468486245184dfb61aa9311a1269fe42f18e28d32aedf94d"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/AsphaltMedium.otf",
+      "bytes": 349416,
+      "sha256": "74e661716df6c6bf05b5950f5dcbd30245fc49a9ffc29498831831cdbb42933f"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/TrebuchetMS.ttf",
+      "bytes": 138848,
+      "sha256": "ff1d49fde63aabd7f4fc7cd0a80ac7cdb1b9540058988fcbb64d7c23639a7386"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/BalegaRegular.otf",
+      "bytes": 32120,
+      "sha256": "2669d723ce4f889f02877d0544b69b29dd791ba7ff01b2b6ca3fbff8a61de5c1"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Copperplate.ttc",
+      "bytes": 625004,
+      "sha256": "b656be3048c0ce5c5cf41eada13f14fb23bd9fbe3f94bcd37178e391bb6f8ebc"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/IowanOldStyle.ttc",
+      "bytes": 1502440,
+      "sha256": "0eedb49c5fcf3e83896b3151e9b2b30cf3a21c6d957c7965f960d442a23d95b1"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/BebasNeue.otf",
+      "bytes": 34408,
+      "sha256": "317b8197181eb99cc1f8e1cf675d4af58258faada3b7f8b6bd39238171fa9ab8"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf",
+      "bytes": 144820,
+      "sha256": "15012b4dfe5470d0f8b75d98b38c461cf81b295485061e1382dc30030c00f2cd"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Keycaps.ttc",
+      "bytes": 3579984,
+      "sha256": "a844a13a44e7146ae13470681779ae3d2b2a6d736ed907e59f75baf712863b3f"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Druk.ttc",
+      "bytes": 2562232,
+      "sha256": "038cd5c0015f7a38a12c6f373c4967d8bed80b43d6651bb79d427317959fa136"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/SFUISoft.ttc",
+      "bytes": 159076,
+      "sha256": "4ae0c25bccad73938abb125a9a331210dfe0bd5f67edb3fa174a7db3428b684a"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/SFUIRounded.ttf",
+      "bytes": 1773464,
+      "sha256": "7dac5525eac78e4a4a544dc9c66d6a7935f59e1752ed6f23dc4ebfb83d09447c"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/JournalSansInline.otf",
+      "bytes": 416536,
+      "sha256": "8f9f78efbddad8e6846e4456d7aac6a48e680c859010518c6d5da3460dbeb2a7"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/DearJoe-small-semibold.ttf",
+      "bytes": 312856,
+      "sha256": "ca48a5716d2180bae7abdf5c80c582506fef27fb413793a10061fff24029aab1"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/FaktSlabStencilPro-medium.otf",
+      "bytes": 291948,
+      "sha256": "0eb023860bfdde0544a7a84dd38e8f7a7282f3c8d0e05c48ce9fc19dae409b5b"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/Menlo.ttc",
+      "bytes": 1328980,
+      "sha256": "5ca23c20dfa13c2da1f27df11ac3b07d070d067c7fe50a1009f034c5b58d79e3"
+    },
+    {
+      "path": "System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf",
+      "bytes": 137008,
+      "sha256": "7ea9e6c68ffd1ac74639277fece1b4258a2e51aa8d54d1cae4688b6f39953385"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/GeorgiaItalic.ttf",
+      "bytes": 400624,
+      "sha256": "7758840cacb7382db65aa038e9fd1194d077ba9b55fe748f9cfb196d2773ac4e"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/GeorgiaBold.ttf",
+      "bytes": 363800,
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/Verdana.ttf",
+      "bytes": 186188,
+      "sha256": "0da8c12f3e15d95585434d2cf294b3113a3e3fc84bf9ba9d64f2ef834ef4bd98"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/VerdanaBoldItalic.ttf",
+      "bytes": 173132,
+      "sha256": "252ef50efa09218d77d83311b531c14d7c0d45230e79389bd3db78448bc942f4"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/ArialBoldItalic.ttf",
+      "bytes": 558672,
+      "sha256": "374b0190a9844343110d8f8ed1818117a4591803d022bbb2bd189d63a681e731"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/Arial.ttf",
+      "bytes": 773236,
+      "sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/ArialItalic.ttf",
+      "bytes": 553284,
+      "sha256": "ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/GeorgiaBoldItalic.ttf",
+      "bytes": 385768,
+      "sha256": "a2036878f47d0da1765869a8747cfb0079b6125776675bad352468b59ca4493d"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/ArialBold.ttf",
+      "bytes": 750984,
+      "sha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/VerdanaBold.ttf",
+      "bytes": 153260,
+      "sha256": "480f66b66430bdfa6e9a2199e4bf8f79d915221e60d58e7a32b4ff50645de2e0"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/VerdanaItalic.ttf",
+      "bytes": 174612,
+      "sha256": "a1149e84da9e5c0a9b4cad68b62542b8503cb16ed8d1d7efd2640b36ce202b44"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/Impact.ttf",
+      "bytes": 138488,
+      "sha256": "57e95627fd36fe2740e5ee8a91ff1ae74fb216df9580bd23e30d6772814727be"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/ArialRoundedMTBold.ttf",
+      "bytes": 49296,
+      "sha256": "a74ea71c366f15c81f9ce00a757cefb938cda21c0d32e51037d9a038e5ebc14b"
+    },
+    {
+      "path": "System/Library/Fonts/WebFonts/Georgia.ttf",
+      "bytes": 379588,
+      "sha256": "4f54eb299fccea7f103edeb0d92437359bfd4441811d53222b82b335369f6218"
+    },
+    {
+      "path": "System/Library/Fonts/LanguageSupport/Kohinoor.ttc",
+      "bytes": 824564,
+      "sha256": "d2492d920643fdc6a502a78c8654b27aba56db1f10ccfeaf58669a6ad74199b8"
+    },
+    {
+      "path": "System/Library/Fonts/Watch/SukhumvitSet.ttc",
+      "bytes": 338496,
+      "sha256": "327280c8ab9f0aa65c7a641c63a6453626a70e4b9f04ab8041010fd2ac3838ed"
+    }
+  ],
+  "probe_sha256": "c9e5036be79d593f6ee1d852a088d020a15491aebeb092abbf34163af7804318",
+  "probe_cdhash": "ade5475439164611e2725bdbfebdebe88469dacb",
+  "entitlements": {
+    "com.apple.QuartzCore.global-capture": true,
+    "com.apple.QuartzCore.display-state": true,
+    "com.apple.security.iokit-user-client-class": [
+      "IOSurfaceRootUserClient"
+    ]
+  },
+  "trust_cache_entries_before": 4402,
+  "trust_cache_entries_after": 4403,
+  "previous_entries_preserved": true,
+  "runtime_validation": "stateControl available; follow-up state on; observed global filter zero without override; capture 206336 nonblack/opaque pixels; exit zero"
+}

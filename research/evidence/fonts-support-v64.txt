@@ -1,0 +1,18 @@
+/bin/chown -R 33:33 /var/installd; /bin/launch-probe submit /launch<33 /var/installd; /bin/launch-probe submit /launchj                         obs/com.apple.containerma<nch-probe submit /launchjobs/com.apple.containerman                         agerd.probe.plist; /bin/l<bs/com.apple.containermanagerd.probe.plist; /bin/la                         unch-probe submit /launch<gerd.probe.plist; /bin/launch-probe submit /launchj                         obs/com.apple.lsd.probe.p<nch-probe submit /launchjobs/com.apple.lsd.probe.pl                         ist; /bin/launch-probe su<bs/com.apple.lsd.probe.plist; /bin/launch-probe sub                         mit /launchjobs/com.apple<st; /bin/launch-probe submit /launchjobs/com.apple.                         installd.probe.plist; ech<it /launchjobs/com.apple.installd.probe.plist; echo                          SERIAL_DONE_a9967df0c729<nstalld.probe.plist; echo SERIAL_DONE_a9967df0c7294                         3e184514edd9e6f9363
+System Policy: bash(41) allow process-exec* /bin/chown
+System Policy: bash(42) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(44) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:01:29.387428 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:01:29.384995 (user/501/com.apple.containermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+System Policy: bash(46) allow process-exec* /bin/launch-probe
+open plist: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:01:29.385465 (user/501/com.apple.containermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:01:29.385501 (user/501/com.apple.containermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:01:29.386032 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+SERIAL_DONE_a9967df0c72943e184514edd9e6f9363

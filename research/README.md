@@ -1976,3 +1976,34 @@ The [retrieved LCD image](evidence/display-wake-v63.png) shows SEARCHING,
 a battery icon, and a home indicator, with missing-glyph boxes in the main
 text. Host byte counts match the guest; this is actual captured system UI,
 not a mockup. It is not yet a usable interactive home screen.
+
+
+### Signed display permissions and complete font tree (v64)
+
+The dedicated capture entitlements now work on a freshly signed/trusted
+probe: stateControl is available, and the render server returns a global
+PID filter of zero without modification. The first wake sample was too early;
+a follow-up reported the LCD on and captured nonblack pixels across the frame.
+The matching firmware's complete 265-file font collection is also installed.
+[Runtime comparison and file manifest](evidence/fonts-runtime-v64.md).
+
+To export a capture, run the following on an idle guest UART:
+
+```sh
+echo DISPLAY_DATA_BEGIN
+/bin/base64 /private/var/tmp/display-capture.bgra
+echo DISPLAY_DATA_END
+```
+
+Then decode the complete serial transcript on the host:
+
+```sh
+python3 research/decode-display-capture.py TRANSCRIPT OUTPUT_PREFIX
+```
+
+The decoder checks the exact byte count, preserves BGRA alpha in its PNG,
+and records a raw SHA-256 and pixel counts. Compare those counts with the
+probe's output before interpreting the image. Transfers can exceed a short
+collector timeout; that timeout does not stop the guest command. QEMU's
+configured serial logfile can preserve the complete transfer across collector
+reconnections. No touch-input success has been established yet.

@@ -1,0 +1,15 @@
+ls -l /System/Library/Fonts; ls -l /System/Library/Fonts/Core; ls -<rary/Fonts; ls -l /System/Library/Fonts/Core; ls -l                          /System/Library/Fonts/Co<Library/Fonts/Core; ls -l /System/Library/Fonts/Cor                         eUI; ls -l /System/Librar</System/Library/Fonts/CoreUI; ls -l /System/Library                         /Fonts/Cache; ps -A; echo<UI; ls -l /System/Library/Fonts/Cache; ps -A; echo                          SERIAL_DONE_c52eba1400b74<Fonts/Cache; ps -A; echo SERIAL_DONE_c52eba1400b741                         d996abdbcd806fd995
+System Policy: bash(72) allow process-exec* /bin/ls
+total 0
+drwxr-xr-x 5 _unknown _unknown 160 Sep 18  2026 Core
+System Policy: bash(73) allow process-exec* /bin/ls
+total 8832
+-rw-r--r-- 1 _unknown _unknown 1165212 Sep 10  2026 Helvetica.ttc
+-rw-r--r-- 1 _unknown _unknown    2416 Sep 10  2026 LastResort.otf
+-rw-r--r-- 1 _unknown _unknown 7872452 Sep 10  2026 SFUI.ttf
+System Policy: bash(74) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/Fonts/CoreUI': No such file or directory
+System Policy: bash(75) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/Fonts/Cache': No such file or directory
+bash: ps: command not found
+SERIAL_DONE_c52eba1400b741d996abdbcd806fd995

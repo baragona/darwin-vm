@@ -1,0 +1,21 @@
+/bin/launch-probe submit /launchjobs/com.apple.runningboardd.plist;< submit /launchjobs/com.apple.runningboardd.plist;                          /bin/launch-probe submit <ple.runningboardd.plist; /bin/launch-probe submit /                         launchjobs/com.apple.Spri<bin/launch-probe submit /launchjobs/com.apple.Sprin                         gBoard.probe.plist; echo <aunchjobs/com.apple.SpringBoard.probe.plist; echo S                         ERIAL_DONE_e787355f273c4d<Board.probe.plist; echo SERIAL_DONE_e787355f273c4de                         a8279555f0e804bdb
+System Policy: bash(56) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(58) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+com.apple.xpc.launchd|1970-01-01 00:02:49.682475 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:49.679637 (user/501/com.apple.runningboardd) <Notice>: internal event: WILL_SPAWN, code = 0
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:02:49.680082 (user/501/com.apple.runningboardd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:49.680118 (user/501/com.apple.runningboardd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:49.681097 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:49.681131 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:49.681172 (user/501/com.apple.runningboardd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:02:49.697826 (user/501/com.apple.runningboardd [57]) <Notice>: xpcproxy spawned with pid 57
+com.apple.xpc.launchd|1970-01-01 00:02:49.697970 (user/501/com.apple.runningboardd [57]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:49.698017 (user/501/com.apple.runningboardd [57]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:49.698999 (user/501/com.apple.runningboardd [57]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+SERIAL_DONE_e787355f273c4dea8279555f0e804bdb

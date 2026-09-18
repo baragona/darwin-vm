@@ -1,0 +1,55 @@
+command -v gzip; command -v bzip2; ls /bin; /bin/launch-probe list;<command -v bzip2; ls /bin; /bin/launch-probe list;                          echo SERIAL_DONE_fea336</bin/launch-probe list; echo SERIAL_DONE_fea3367a84                       41479e9143a197e929dcd4
+System Policy: bash(72) allow process-exec* /bin/ls
+'['			 launch-probe		   sha256sum
+ base64			 link			   sha384sum
+ basename		 ln			   sha512sum
+ basenc			 logname		   shred
+ bash			 ls			   sleep
+ cache-diagnostics	 ls-rebuild-probe	   software-render-probe
+ cat			 ls-registration-probe	   sort
+ chgrp			 md5sum			   split
+ chmod			 mkdir			   stat
+ chown			 mkfifo			   stdbuf
+ chroot			 mknod			   stty
+ cksum			 mktemp			   sum
+ comm			 mount-tmpfs-probe	   sync
+ cp			 mv			   tac
+ csplit			 nice			   tail
+ cut			 nl			   tee
+ date			 nohup			   test
+ dd			 nproc			   thread-probe
+ dir			 numfmt			   timeout
+ dircolors		 od			   touch
+ dirname		 paste			   tr
+ display-capture-probe	 pathchk		   true
+ display-probe		 pinky			   truncate
+ du			 pr			   tsort
+ echo			 printenv		   tty
+ env			 printf			   ui-probe
+ expand			 ptx			   uname
+ expr			 pwd			   unexpand
+ false			 readlink		   uniq
+ fmt			 realpath		   unlink
+ fold			 remote-layer-probe	   users
+ groups			 remote-layer-unentitled   vdir
+ head			 rm			   virtual-display-probe
+ hostid			 rmdir			   wc
+ id			 seq			   who
+ init-writable-var	 sh			   whoami
+ install		 sha1sum
+ join			 sha224sum
+System Policy: bash(73) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=11
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=59 LAST_EXIT=0
+JOB com.apple.CommCenter PID=65 LAST_EXIT=0
+JOB com.apple.runningboardd PID=57 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=48 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=52 LAST_EXIT=15
+JOB com.apple.lsd PID=45 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=43 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_fea3367a8441479e9143a197e929dcd4
