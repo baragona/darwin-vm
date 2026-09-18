@@ -1,0 +1,4 @@
+*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Got nil for _systemAppInfo.'
+*** First throw call stack:
+(0x18dd43190 0x18dac0380 0x18e5b4940 0x23251f880 0x2323bd8dc 0x19202ab8c 0x191fa6ef4 0x191f8d8e0 0x191fdef00 0x191fdee6c 0x191f8ab64 0x191fc41cc 0x2323453b0 0x18db375b8)
+libc++abi: terminating due to uncaught exception of type NSException

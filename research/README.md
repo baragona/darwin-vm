@@ -32,6 +32,9 @@ and a full installed system are not working yet.
   crash; its next verified assertion requires a non-null main display (v42).
 - With the virtual LCD selected, SpringBoard passes its missing-display
   assertion and next rejects an inert process handle with pid -1 (v42).
+- RunningBoard and matching CoreEmoji resources move SpringBoard into
+  applicationDidFinishLaunching; it now fails on missing _systemAppInfo
+  (v44). LaunchServices components are staged for the next test.
 - SpringBoard and graphical interaction remain unfinished.
 
 ## Verified milestone (2026-09-17)
@@ -1445,3 +1448,27 @@ the bundle remains pending at this checkpoint.
 RemoveJob during an in-flight SpringBoard respawn returned errno 36 but launchd
 subsequently terminated and removed the job. Always verify final job state;
 the reply alone does not fully describe asynchronous cleanup.
+
+
+## CoreEmoji retest reaches application launch (v44)
+
+The virtual LCD was reapplied with v44 shared-cache slide `0xd6b0000`, and
+fresh CADisplay inspection again selected LCD as main. RunningBoard started.
+SpringBoard no longer reports the CoreEmoji bundle assertion. It now throws
+`NSInternalInconsistencyException: Got nil for _systemAppInfo.`
+[Stderr excerpt](evidence/springboard-coreemoji-retest-v44.txt) and
+[symbolication](evidence/springboard-system-app-v44-symbols.json) show
+`-[SBApplicationController initWithTelephonyStateProvider:]`,
+`-[SpringBoard applicationDidFinishLaunching:]`, UIApplication's scene/launch
+callbacks, and UIApplicationMain. This establishes progress into application
+launch, not a functioning main loop or rendered home screen.
+
+The guest lacks `/usr/libexec/lsd`; its LaunchServices mapdb/xpc lookups fail.
+SpringBoard.app/Info.plist is present, so an absent application bundle plist
+alone does not explain the missing record. V45 stages the untouched matching
+lsd executable and `com.apple.launchservices.lsd.csdb` seed, with a
+[diagnostic job](lsd-probe.plist) preserving mobile identity and MachServices.
+RunAtLoad is enabled, KeepAlive disabled, and stdout/stderr redirected under
+/var/tmp. [File identity](evidence/lsd-files-v45.json) records exact copies.
+Service startup and database/application registration still need testing.
+The missing service is a lead, not yet a verified fix for _systemAppInfo.

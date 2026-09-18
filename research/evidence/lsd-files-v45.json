@@ -1,0 +1,21 @@
+{
+  "build": "24A437",
+  "files": [
+    {
+      "path": "/usr/libexec/lsd",
+      "size": 58496,
+      "sha256": "e45ad73cca0dfb51776d0805f0fb99350a93bca50139ffc1299851d38f3fbeb1"
+    },
+    {
+      "path": "/System/Library/CoreServices/com.apple.launchservices.lsd.csdb",
+      "size": 959996,
+      "sha256": "a87c1666ee3b4748f84ccce9e20fc74f67dfc7f48f462896d85353ddd87bdb58"
+    }
+  ],
+  "executable_modified": false,
+  "job_changes": [
+    "RunAtLoad=true",
+    "KeepAlive=false",
+    "stdout/stderr files"
+  ]
+}
