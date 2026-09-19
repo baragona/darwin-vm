@@ -1,0 +1,89 @@
+{
+  "image": "service-root-notebook-v79.dmg",
+  "runtime_verified": false,
+  "copies": [
+    {
+      "source": "/tmp/a19-notebook-v79/Notebook.app",
+      "destination": "Applications/Notebook.app",
+      "verified_files": 4
+    },
+    {
+      "source": "/tmp/a19-system/private/var/staged_system_apps/Calculator.app",
+      "destination": "Applications/Calculator.app",
+      "verified_files": 18
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/Frameworks/Accessibility.framework",
+      "destination": "System/Library/Frameworks/Accessibility.framework",
+      "verified_files": 3
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/Frameworks/AppIntents.framework",
+      "destination": "System/Library/Frameworks/AppIntents.framework",
+      "verified_files": 13
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/Frameworks/CoreGraphics.framework",
+      "destination": "System/Library/Frameworks/CoreGraphics.framework",
+      "verified_files": 5
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/Frameworks/DeveloperToolsSupport.framework",
+      "destination": "System/Library/Frameworks/DeveloperToolsSupport.framework",
+      "verified_files": 2
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/Frameworks/SwiftData.framework",
+      "destination": "System/Library/Frameworks/SwiftData.framework",
+      "verified_files": 4
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/Frameworks/TipKit.framework",
+      "destination": "System/Library/Frameworks/TipKit.framework",
+      "verified_files": 2
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/PrivateFrameworks/Calculate.framework",
+      "destination": "System/Library/PrivateFrameworks/Calculate.framework",
+      "verified_files": 10
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/PrivateFrameworks/CalculateUI.framework",
+      "destination": "System/Library/PrivateFrameworks/CalculateUI.framework",
+      "verified_files": 4
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/PrivateFrameworks/FrontBoardServices.framework",
+      "destination": "System/Library/PrivateFrameworks/FrontBoardServices.framework",
+      "verified_files": 2
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/PrivateFrameworks/NotesUIServices.framework",
+      "destination": "System/Library/PrivateFrameworks/NotesUIServices.framework",
+      "verified_files": 3
+    },
+    {
+      "source": "/tmp/a19-system/System/Library/PrivateFrameworks/PrivacyDisclosureCore.framework",
+      "destination": "System/Library/PrivateFrameworks/PrivacyDisclosureCore.framework",
+      "verified_files": 2
+    }
+  ],
+  "executables": [
+    {
+      "path": "bin/hid-input-probe",
+      "cdhash": "46b655c49fa1e8a6f39f334b42b03b538cef9a6e",
+      "sha256": "b3033460c79df377297af9b7f96804ca8d4ade624ce312aace8104c8068c86d0"
+    },
+    {
+      "path": "Applications/Calculator.app/Calculator",
+      "cdhash": "e8773cf182941ca9fdf55723ccea9db980ffba91",
+      "sha256": "55f695ca118ad2a46ebe3fdcd1ae6e89846e5a16239ac9b20992f58b012230a5"
+    },
+    {
+      "path": "Applications/Calculator.app/PlugIns/CalculatorWidget.appex/CalculatorWidget",
+      "cdhash": "7df0632225f4d0caf15cb7efc65c3d955a7ad807",
+      "sha256": "2476b601842d9134f7189d72513ce3a7faf77a9de09391c1769176b9efbcd708"
+    }
+  ],
+  "trustcache_entries": 4418
+}

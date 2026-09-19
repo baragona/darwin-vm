@@ -15,6 +15,11 @@ V78 now verifies native tap -> visible counter update -> Home-key navigation
 [evidence](evidence/home-navigation-v78.md). The app icon is missing from
 SpringBoard and durable saving is not yet implemented.
 
+The [Field Notes prototype](notebook-probe/README.md) now builds and is staged
+in a separate V79 image alongside Calculator and the configurable drag helper.
+Its editor, image, scrolling, drawing, and atomic local saving are implemented
+but not yet runtime-verified. The V78 guest remains the running baseline.
+
 ## Work remaining
 
 - Stabilize compositing across unlock, app launch, home, and reopen. V78 exposed
@@ -23,9 +28,9 @@ SpringBoard and durable saving is not yet implemented.
 - Replace one-shot capture and per-gesture helper startup with a persistent
   display/input transport suitable for mouse interaction. Measure latency;
   current UART diagnostic transfers are not a usable live frontend.
-- Build the offline app on the verified UIKit scene bootstrap. Use a text
-  editor, a scrollable image gallery, drawing input, and explicit local saving.
-  Verify a writable app-container path instead of the denied global Logs path.
+- Run Field Notes in the guest and verify its editor, image, scrolling,
+  drawing and explicit local saving. Verify the app Documents directory is
+  writable instead of using the denied global Logs path.
 - Connect host keyboard and pointer events through the guest input system.
   Verify text entry and drawing, then Home and reopening without clearing data.
 - Install/register the full Calculator bundle from this build's

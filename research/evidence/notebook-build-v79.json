@@ -1,0 +1,10 @@
+{
+  "bundle_id": "org.baragona.Notebook",
+  "cdhash": "75cf3c17604da0cf8e8a8ba2be6f189b1a9306b4",
+  "binary_sha256": "736d4b80afd3739ca5f399797b3fc4bd4b05e582b27e7d7319530c313db4188e",
+  "source_sha256": "da2af5780ef0b916048e687c85935719164fa367691b228fad4bc6a5cdb36a43",
+  "image_sha256": "469fd2377de9b463fc1a983a06a0301e6243a00952e9807e16c366a37aa345b1",
+  "runtime_verified": false,
+  "trustcache_entries_before": 4416,
+  "trustcache_entries_after": 4417
+}
