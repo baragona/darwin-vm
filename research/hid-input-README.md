@@ -44,3 +44,11 @@ still requires graphics and startup workarounds. Its fixed helper alarm was
 too short under load; testing used `(trap '' ALRM; /bin/hid-input-probe
 --virtual-tap 0.5 0.55)` with a separate observation deadline. It is not yet
 a persistent host mouse-input service.
+
+`--virtual-drag X0 Y0 X1 Y1` adds a straight drag with normalized endpoints,
+using the same 14-frame allocation, dispatch, and release sequence. Its source
+passes strict iOS compilation and host parser checks; it is not yet installed
+or verified in V78. The existing fixed upward swipe starts at Y=0.96, which
+left Touch Probe visible in the first Home-navigation test. That observation
+does not prove whether the starting position, duration, or another gesture
+condition caused the failed navigation.

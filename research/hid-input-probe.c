@@ -63,14 +63,16 @@ int main(int argc, char **argv) {
     int virtual_swipe = argc == 2 && !strcmp(argv[1], "--virtual-swipe");
     int swipe = virtual_swipe || (argc == 2 && !strcmp(argv[1], "--swipe"));
     int tap = argc == 4 && !strcmp(argv[1], "--virtual-tap");
-    double tap_x = 0, tap_y = 0;
-    if ((argc > 1 && !home && !swipe && !tap) ||
-        (tap && (!coordinate(argv[2], &tap_x) || !coordinate(argv[3], &tap_y)))) {
-        fputs("usage: hid-input-probe [--home | --swipe | --virtual-swipe | --virtual-tap X Y]\n"
+    int drag = argc == 6 && !strcmp(argv[1], "--virtual-drag");
+    double tap_x = 0, tap_y = 0, end_x = 0, end_y = 0;
+    if ((argc > 1 && !home && !swipe && !tap && !drag) ||
+        ((tap || drag) && (!coordinate(argv[2], &tap_x) || !coordinate(argv[3], &tap_y))) ||
+        (drag && (!coordinate(argv[4], &end_x) || !coordinate(argv[5], &end_y)))) {
+        fputs("usage: hid-input-probe [--home | --swipe | --virtual-swipe | --virtual-tap X Y | --virtual-drag X0 Y0 X1 Y1]\n"
               "X and Y must be finite normalized coordinates in [0,1].\n", stderr);
         return 2;
     }
-    int virtual_input = virtual_swipe || tap;
+    int virtual_input = virtual_swipe || tap || drag;
     setbuf(stdout, NULL);
     alarm(virtual_input ? 45 : 25);
     puts("HID_PROBE_BEGIN");
@@ -157,7 +159,7 @@ int main(int argc, char **argv) {
         }
         (void)CFRunLoopRunInMode(*mode, 2.0, 0);
     }
-    if (swipe || tap) {
+    if (swipe || tap || drag) {
         if (virtual_input) {
             sender_id = virtual_touch_start();
             if (!sender_id) { puts("HID_VIRTUAL_REGISTRATION_FAILED"); return 1; }
@@ -170,8 +172,9 @@ int main(int argc, char **argv) {
         for (unsigned i = 0; i < FRAMES; ++i) {
             unsigned touch = i != FRAMES - 1;
             unsigned mask = i == 0 || !touch ? 3 : 4;
-            double x = tap ? tap_x : 0.5;
-            double y = tap ? tap_y : 0.96 - 0.76 * (i > MOVES ? MOVES : i) / MOVES;
+            double fraction = (double)(i > MOVES ? MOVES : i) / MOVES;
+            double x = drag ? tap_x + (end_x - tap_x) * fraction : tap ? tap_x : 0.5;
+            double y = drag ? tap_y + (end_y - tap_y) * fraction : tap ? tap_y : 0.96 - 0.76 * fraction;
             hands[i] = IOHIDEventCreateDigitizerEvent(NULL, 0, 3, 0, 0, mask, 0,
                 x, y, 0, 0, 0, touch, touch, 0);
             fingers[i] = IOHIDEventCreateDigitizerFingerEvent(NULL, 0, 1, 1, mask,
@@ -196,8 +199,8 @@ int main(int argc, char **argv) {
             uint64_t now = mach_absolute_time();
             IOHIDEventSetTimeStamp(hands[i], now);
             IOHIDEventSetTimeStamp(fingers[i], now);
-            if (tap)
-                printf("HID_TAP_FRAME=%u TOUCH=%ld X=%.3f Y=%.3f\n", i,
+            if (tap || drag)
+                printf("HID_%s_FRAME=%u TOUCH=%ld X=%.3f Y=%.3f\n", drag ? "DRAG" : "TAP", i,
                        get_integer(fingers[i], 0xb0009), get_float(fingers[i], 0xb0000),
                        get_float(fingers[i], 0xb0001));
             else

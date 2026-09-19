@@ -1,0 +1,348 @@
+{
+  "scope": "Host argument parsing only; loader stub prevents host framework/HID access. No guest gesture validation.",
+  "cases": [
+    {
+      "arguments": [
+        "--virtual-drag",
+        "nan",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "inf",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "-0.1",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "1.1",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "x",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "nan",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "inf",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "-0.1",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "1.1",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "x",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "nan",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "inf",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "-0.1",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "1.1",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "x",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "",
+        "0.2"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        "nan"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        "inf"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        "-0.1"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        "1.1"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        "x"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        ""
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0.5",
+        "0.995",
+        "0.5",
+        "0.2"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-drag",
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5",
+        ".55"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-swipe"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--home"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    }
+  ]
+}

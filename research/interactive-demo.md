@@ -10,6 +10,11 @@ must launch and complete a calculation through input in the same guest.
 Screenshots, input-monitor callbacks, and successful app registration alone
 do not establish these outcomes.
 
+V78 now verifies native tap -> visible counter update -> Home-key navigation
+-> LaunchServices reopen with the counter retained. See
+[evidence](evidence/home-navigation-v78.md). The app icon is missing from
+SpringBoard and durable saving is not yet implemented.
+
 ## Work remaining
 
 - Stabilize compositing across unlock, app launch, home, and reopen. V78 exposed
