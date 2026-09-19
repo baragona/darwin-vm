@@ -12,6 +12,8 @@ Protocol (normalized coordinates, case-sensitive commands):
 - `U X Y`: release the active finger.
 - `T X Y`: short tap (protocol3), with both events allocated before pressing and
   a 40ms guest delay before release. Rejected while a finger is already down.
+- `S X0 Y0 X1 Y1`: straight swipe (protocol4). All14 touch events are allocated
+  before pressing, then dispatched40ms apart. Rejected while a finger is down.
 - `K USAGE DOWN`: keyboard page7 usage4..231, with DOWN0 or1.
 - `H`: consumer Menu/Home key down followed by release.
 - `R`: release all tracked touch and keyboard state.
@@ -20,7 +22,7 @@ Protocol (normalized coordinates, case-sensitive commands):
 - `P`: acknowledge a ping.
 - `Q`: release input and exit.
 
-The agent emits `LIVE_INPUT_READY 3` (the host also accepts versions1 and2), then `LIVE_INPUT_RESULT 0|1` for each
+The agent emits `LIVE_INPUT_READY 4` (the host also accepts versions1–3), then `LIVE_INPUT_RESULT 0|1` for each
 line. It rejects out-of-range coordinates, malformed or oversized commands,
 and invalid touch transitions. It pumps the run loop while waiting for input.
 EOF, SIGTERM, SIGINT, and five seconds without successful input commands (frame requests and pings do not count) trigger release attempts.
@@ -37,6 +39,13 @@ the original D/U path. This removes UART acknowledgement waits from a quick tap'
 press/release interval; it does not bound delays inside guest HID dispatch or
 fix capture latency. `node research/live-pointer-test.js` exercises the actual
 browser handlers for taps, drags, holds, cancellation, and legacy guests.
+
+With protocol4, the mouse wheel sends a guest-timed swipe. Vertical wheel motion
+scrolls; horizontal wheel motion or Shift+wheel changes Home pages. Gestures are
+throttled to one per650ms, and wheel input is ignored during a pointer drag.
+The guest preallocates the whole path, avoiding UART waits and allocation between
+touch events. The path is still real guest HID input; a dispatch acknowledgement
+does not prove the target view scrolled. V84 is staged for runtime testing.
 
 Runtime update: V81 verified browser keyboard input, saving, and drawing using
 protocol2. V82 restored CoreGlyphs and rendered Apple Calculator controls, then

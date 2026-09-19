@@ -23,7 +23,7 @@ int main(void){
  assert(command("D .1 .2"));assert(touching);assert(!command("D .1 .2"));
  fail=1;assert(!command("U .9 .8"));assert(touching&&last_x==.1);fail=0;
  assert(command("M .8 .9"));assert(command("U .8 .9"));assert(!touching);
- const char *bad[]={"D nan .5","D inf .5","D -1 .5","D 1.1 .5","D .1 .2 extra","K -4294967292 1","K 4294967300 1","K 99999999999999999999999999 1","K 4 2","K 4 01","K 3 1","K 232 1","K 4 1 junk","K +4 1",""};
+ const char *bad[]={"D nan .5","D inf .5","D -1 .5","D 1.1 .5","D .1 .2 extra","S .8 .5 .2","S .8 .5 .2 .5 extra","S .8 .5 nan .5","S .8 .5 2 .5","K -4294967292 1","K 4294967300 1","K 99999999999999999999999999 1","K 4 2","K 4 01","K 3 1","K 232 1","K 4 1 junk","K +4 1",""};
  for(unsigned i=0;i<sizeof(bad)/sizeof(bad[0]);i++){int before=sent;assert(!command((char*)bad[i]));assert(sent==before);}
  assert(command("K 4 1"));assert(keys[4]);assert(command("K 225 1"));assert(keys[225]);assert(command("D .2 .3"));assert(command("R"));assert(!touching&&!keys[4]&&!keys[225]);
  int before=sent,allocated=allocations;
@@ -34,5 +34,10 @@ int main(void){
  before=sent;assert(!command("T .4 .5"));assert(sent==before);
  fail_at=0;assert(command("R"));assert(!touching);
  fail=1;before=sent;assert(!command("T .2 .3"));assert(sent==before+1&&!touching);fail=0;
+ before=sent;minimum_allocations=allocations+14;
+ assert(command("S .8 .5 .2 .5"));assert(sent==before+14&&!touching&&fabs(last_x-.2)<1e-9);minimum_allocations=0;
+ fail_at=sent+3;assert(!command("S .8 .5 .2 .5"));assert(touching);
+ before=sent;assert(!command("S .8 .5 .2 .5"));assert(sent==before);
+ fail_at=0;assert(command("R"));assert(!touching);
  puts("PASS: invalid commands dispatch nothing; failed release retains state; reset releases touch and keys");
 }

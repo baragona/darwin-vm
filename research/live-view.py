@@ -98,7 +98,8 @@ class Frames:
                 self.reject()
         return None
 
-COMMAND = re.compile(r'(?:[DMUT] (?:0(?:\.\d+)?|1(?:\.0+)?) (?:0(?:\.\d+)?|1(?:\.0+)?)|K \d{1,3} [01]|[HRP])\Z')
+COORD = r'(?:0(?:\.\d+)?|1(?:\.0+)?)'
+COMMAND = re.compile(r'(?:[DMUT] '+COORD+' '+COORD+r'|S '+COORD+' '+COORD+' '+COORD+' '+COORD+r'|K \d{1,3} [01]|[HRP])\Z')
 class Bridge:
     def __init__(self, path, transcript, start, rate):
         self.socket=socket.socket(socket.AF_UNIX);self.socket.connect(path)
@@ -120,7 +121,7 @@ class Bridge:
                 self.log.write(data);self.log.flush();buf.extend(data)
                 while b'\n' in buf:
                     line,_,rest=buf.partition(b'\n');buf=bytearray(rest);line=bytes(line).replace(b'\r',b'')
-                    if line in (b'LIVE_INPUT_READY 1',b'LIVE_INPUT_READY 2',b'LIVE_INPUT_READY 3'):
+                    if line in (b'LIVE_INPUT_READY 1',b'LIVE_INPUT_READY 2',b'LIVE_INPUT_READY 3',b'LIVE_INPUT_READY 4'):
                         self.version=int(line.split()[1]);self.ready.set();self.status='Connected'
                     elif line.startswith(b'LIVE_INPUT_RESULT '):
                         self.status='Connected' if line==b'LIVE_INPUT_RESULT 1' else 'Guest rejected a command'
@@ -175,6 +176,7 @@ class Bridge:
             if not isinstance(cmd,str) or len(cmd)>80 or not COMMAND.fullmatch(cmd):raise ValueError('Invalid input command')
             if cmd.startswith('K ') and not 4<=int(cmd.split()[1])<=231:raise ValueError('Invalid key usage')
             if cmd.startswith('T ') and self.version<3:raise ValueError('Guest does not support short taps')
+            if cmd.startswith('S ') and self.version<4:raise ValueError('Guest does not support timed swipes')
         with self.lock:
             if len(self.queue)+len(commands)>128:
                 self.queue.clear();self.queue.append('R');raise ValueError('Input queue full; releasing input')
@@ -186,7 +188,7 @@ HTML='''<!doctype html><meta charset="utf-8"><title>iOS guest</title>
 <style>body{background:#17191d;color:#eee;font:15px system-ui;margin:16px}header{display:flex;gap:16px;align-items:center;margin-bottom:12px}button{padding:8px 16px}img{max-height:86vh;max-width:95vw;touch-action:none;user-select:none;background:#000}#status{color:#bbb}</style>
 <header><strong>iOS guest</strong><button id="home">Home</button><span id="status">Connecting…</span></header><img id="screen" draggable="false" tabindex="0" alt="Waiting for a guest frame">
 <script>
-const screen=document.querySelector('#screen'),status=document.querySelector('#status');let down=false,lastFrame=-1,outbox=[],sending=false,version=1,pending=null,tapTimer=null;
+const screen=document.querySelector('#screen'),status=document.querySelector('#status');let down=false,lastFrame=-1,outbox=[],sending=false,version=1,pending=null,tapTimer=null,lastWheel=-Infinity;
 function flushPress(){if(pending){send(['D '+pending.point]);pending=null}clearTimeout(tapTimer)}
 function cancelPointer(){clearTimeout(tapTimer);pending=null;down=false;send(['R'])}
 function send(cmds){
@@ -206,6 +208,16 @@ screen.onpointermove=e=>{if(down){if(pending&&Math.hypot(e.clientX-pending.x,e.c
 screen.onpointerup=e=>{if(down){down=false;clearTimeout(tapTimer);if(pending){if(Math.hypot(e.clientX-pending.x,e.clientY-pending.y)<3){send(['T '+point(e)]);pending=null}else{flushPress();send(['U '+point(e)])}}else send(['U '+point(e)])}};
 screen.onpointercancel=cancelPointer;screen.oncontextmenu=e=>e.preventDefault();
 screen.onlostpointercapture=()=>{if(down)cancelPointer()};
+screen.addEventListener('wheel',e=>{
+  if(version<4||down||(!e.deltaX&&!e.deltaY))return;
+  e.preventDefault();
+  const now=performance.now();if(now-lastWheel<650)return;lastWheel=now;
+  const horizontal=e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY);
+  const amount=horizontal?(Math.abs(e.deltaX)>Math.abs(e.deltaY)?e.deltaX:e.deltaY):e.deltaY;
+  if(!amount)return;
+  const a=amount>0?'0.8':'0.2',b=amount>0?'0.2':'0.8';
+  send([horizontal?'S '+a+' 0.5 '+b+' 0.5':'S 0.5 '+a+' 0.5 '+b]);
+},{passive:false});
 document.querySelector('#home').onclick=()=>{if(down)cancelPointer();send(['H'])};window.onblur=cancelPointer;
 const keys={Enter:40,Escape:41,Backspace:42,Tab:43,Space:44,Minus:45,Equal:46,BracketLeft:47,BracketRight:48,Backslash:49,Semicolon:51,Quote:52,Backquote:53,Comma:54,Period:55,Slash:56,CapsLock:57,Delete:76,ArrowRight:79,ArrowLeft:80,ArrowDown:81,ArrowUp:82,ControlLeft:224,ShiftLeft:225,AltLeft:226,MetaLeft:227,ControlRight:228,ShiftRight:229,AltRight:230,MetaRight:231};
 for(let i=0;i<26;i++)keys['Key'+String.fromCharCode(65+i)]=4+i;for(let i=1;i<=9;i++)keys['Digit'+i]=29+i;keys.Digit0=39;

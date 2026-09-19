@@ -1,0 +1,18 @@
+{
+  "protocol_version": 4,
+  "binary_sha256": "6b36a0027f375a99fbbb52b583a0566768b869f6a43d47edadab5e86e994e898",
+  "cdhash": "3238748b2dd088a76f18cbaec67fd54678b81804",
+  "strict_build": true,
+  "signature_verified": true,
+  "runtime_verified": false,
+  "source_sha256": {
+    "live-input-agent.c": "83d000e5a3eab2a8c87aa60abfeb6013a72ddc4626c4083dee2394bbde1d7528",
+    "live-display.c": "fb8ff39d93e9601bf45a8d88e7f468f39449acc7ddd3acb703311ff87deca5f1",
+    "virtual-touch-service.c": "5dbb5558470ce5111b5ab726a99be3246e57f78e9ee7f0a8a42cfa0d59f98bce",
+    "live-view.py": "fc9994abc874264031ed8148fe55b5320398d0b80ff1429568b778a778af7cf8"
+  },
+  "image": "service-root-wheel-v84.dmg",
+  "trustcache": "wheel-v84.tc",
+  "trustcache_entries": 4424,
+  "installed_binary_verified": true
+}

@@ -68,6 +68,26 @@ static int tap(double x,double y) {
     release(press_child);release(press);release(lift_child);release(lift);
     return ok;
 }
+static int swipe(double x0,double y0,double x1,double y1) {
+    if(touching)return 0;
+    enum { COUNT=14 };
+    void *events[COUNT]={0},*children[COUNT]={0};
+    int ok=1;
+    for(unsigned i=0;i<COUNT;i++) {
+        double fraction=(i<COUNT-1?i:COUNT-2)/(double)(COUNT-2);
+        events[i]=touch_event(x0+(x1-x0)*fraction,y0+(y1-y0)*fraction,
+                              i<COUNT-1,i>0&&i<COUNT-1,&children[i]);
+        if(!events[i]){ok=0;break;}
+    }
+    if(ok)for(unsigned i=0;i<COUNT;i++) {
+        if(!send_touch(events[i],children[i])){ok=0;break;}
+        double fraction=(i<COUNT-1?i:COUNT-2)/(double)(COUNT-2);
+        touching=i<COUNT-1;last_x=x0+(x1-x0)*fraction;last_y=y0+(y1-y0)*fraction;
+        if(i<COUNT-1)usleep(40000);
+    }
+    for(unsigned i=0;i<COUNT;i++)if(events[i]){release(children[i]);release(events[i]);}
+    return ok;
+}
 static int key(unsigned page,unsigned usage,int down) {
     void *e=keyboard(NULL,now(),page,usage,(unsigned char)down,0);
     if(!e)return 0;
@@ -82,7 +102,12 @@ static int clear_input(void) {
     return ok;
 }
 static int command(char *line) {
-    char op=0,extra=0;double x=0,y=0;char u[32],d[32];
+    char op=0,extra=0;double x=0,y=0,x1=0,y1=0;char u[32],d[32];
+    if(sscanf(line," S %lf %lf %lf %lf %c",&x,&y,&x1,&y1,&extra)==4) {
+        if(!isfinite(x)||!isfinite(y)||!isfinite(x1)||!isfinite(y1)||
+           x<0||x>1||y<0||y>1||x1<0||x1>1||y1<0||y1>1)return 0;
+        return swipe(x,y,x1,y1);
+    }
     if(sscanf(line," %c %lf %lf %c",&op,&x,&y,&extra)==3 && (op=='D'||op=='M'||op=='U'||op=='T')) {
         if(!isfinite(x)||!isfinite(y)||x<0||x>1||y<0||y>1)return 0;
         if(op=='T')return tap(x,y);
@@ -127,7 +152,7 @@ int main(int argc,char **argv) {
     struct sigaction action={0};action.sa_handler=stop_signal;
     sigemptyset(&action.sa_mask);sigaction(SIGTERM,&action,NULL);sigaction(SIGINT,&action,NULL);
     double activity=seconds();if(activity<0){virtual_touch_stop();release(client);return 1;}
-    puts("LIVE_INPUT_READY 3");
+    puts("LIVE_INPUT_READY 4");
     char line[128];size_t length=0;int overflow=0,result=0;
     while(!stopping) {
         fd_set readable;FD_ZERO(&readable);FD_SET(STDIN_FILENO,&readable);struct timeval wait={0,10000};
@@ -141,7 +166,7 @@ int main(int argc,char **argv) {
                 if(bytes[i]=='\n') {
                     line[length]=0;
                     int ok=!overflow&&command(line);
-                    if(ok&&strchr("DMUTKHR",line[0]))activity=seconds();
+                    if(ok&&strchr("DMUTSKHR",line[0]))activity=seconds();
                     printf("LIVE_INPUT_RESULT %d\n",ok);length=0;overflow=0;
                 } else if(bytes[i]!='\r') {
                     if(bytes[i]==0||length==sizeof(line)-1)overflow=1;

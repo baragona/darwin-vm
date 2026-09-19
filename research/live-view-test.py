@@ -120,6 +120,9 @@ class Protocol(unittest.TestCase):
         with self.assertRaises(ValueError):bridge.enqueue(['T 0.2 0.3'])
         bridge.version=3;bridge.enqueue(['T 0.2 0.3'])
         self.assertEqual(list(bridge.queue),['T 0.2 0.3']);bridge.queue.clear()
+        with self.assertRaises(ValueError):bridge.enqueue(['S 0.8 0.5 0.2 0.5'])
+        bridge.version=4;bridge.enqueue(['S 0.8 0.5 0.2 0.5'])
+        self.assertEqual(list(bridge.queue),['S 0.8 0.5 0.2 0.5']);bridge.queue.clear()
         bridge.enqueue(['D 0 0', 'M 0.1 0.1', 'M 0.2 0.2', 'U 0.2 0.2'])
         self.assertEqual(list(bridge.queue), ['D 0 0', 'M 0.1 0.1', 'M 0.2 0.2', 'U 0.2 0.2'])
         for invalid in [['K 3 1'], ['D nan 0'], ['Q'], ['F'], ['K 4 1', 'bad']]:
