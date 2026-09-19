@@ -1,0 +1,9 @@
+breakpoint set -H -a 0x187060138
+breakpoint command add -o 'memory write -s 1 0x1e68fb9d8 1' 68
+breakpoint modify --auto-continue true 68
+breakpoint set -H -a 0x18707d4b8
+breakpoint command add -o 'register write x8 0x1eb933900' 69
+breakpoint modify --auto-continue true 69
+breakpoint set -H -a 0x187087978 -c '$x22 == 416 && $x0 == 496'
+breakpoint command add -s python -o "frame.FindRegister('x22').SetValueFromCString('832'); frame.FindRegister('x0').SetValueFromCString('1808'); return False" 70
+continue

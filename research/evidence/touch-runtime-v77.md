@@ -1,5 +1,9 @@
 # First UIKit app scene in V77
 
+**Follow-up:** a later recovery run verified a real button callback and a fresh
+`Taps: 1` frame. See [the successful input experiment](touch-backboard-recovery-v77.md).
+The findings below preserve the earlier runs and their limitations.
+
 Touch Probe is registered and has produced a real 832x1808 display frame with
 `Taps: 0` and its button background. This is progress beyond a home-screen icon;
 input, the button title, lock-screen dismissal, and normal launch timing remain

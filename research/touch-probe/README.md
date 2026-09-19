@@ -35,19 +35,18 @@ Diagnostic messages go to stdout and, when writable, to
 `/var/mobile/Library/Logs/TouchProbe.log`. `SCENE_VISIBLE_REQUESTED` only records
 a UIKit request; it does not prove that the frame was presented.
 
-V77 passed build, signature, trust-cache and installed-file verification. A normal
-LaunchServices request reached UIKit scene activation after restoring lifecycle
-policies, provisioning missing kernel persona 1003, and temporarily extending the
-scene watchdog. A validated 832x1808 frame contains `Taps: 0` and the button
-background; the button title is missing and lock-screen controls remain overlaid.
-A stationary touch reached the guest input monitor, but the fresh frame stayed
-unchanged and no app tap callback was observed. Interaction and home/reopen are
-still unverified. See [runtime findings](../evidence/touch-runtime-v77.md) and
-[image identities](../evidence/touch-image-v77.json).
+V77 now has one verified button interaction: virtual touchscreen input reached
+the real UIKit callback, which logged `Taps: 1`, and a fresh 832x1808 display
+capture visibly shows `Taps: 1`. The preceding upward swipe reached UIKit and
+CoverSheet and was followed by a visible app without the lock-screen controls.
+See the [successful capture](../evidence/touch-first-success-v77.png) and
+[recovery and input findings](../evidence/touch-backboard-recovery-v77.md).
 
-
-A follow-up attention-sensing bypass let SpringBoard reach its event-queue drain
-and a fresh app reach scene activation. The fresh capture still showed the lock
-screen covering the app. An upward swipe completed at the input monitor, followed
-by a BackBoard abort/restart of undetermined cause. This does not yet establish
-button interaction; see the runtime findings for the diagnostic scope and evidence.
+This remains a diagnostic guest. Launch requires restored lifecycle policies,
+a provisioned kernel persona, and temporary bootstrap, attention-sensing, and
+scene-watchdog workarounds. The stationary touch currently uses a debugger
+coordinate conversion in the input constructor; app state and pixels are not
+modified. The button title is still missing, and home/reopen, normal launch
+timing, continuous display, and host pointer integration remain unverified.
+Earlier [runtime findings](../evidence/touch-runtime-v77.md) and
+[image identities](../evidence/touch-image-v77.json) preserve the failed runs.

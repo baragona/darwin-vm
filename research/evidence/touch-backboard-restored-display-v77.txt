@@ -1,0 +1,26 @@
+/bin/display-probe; echo DISPLAY_EXIT=$?; echo SERIAL_DONE_daac4ddd<e; echo DISPLAY_EXIT=$?; echo SERIAL_DONE_daac4dddc                         d524eaba4159d15b2ab11e7
+System Policy: bash(169) allow process-exec* /bin/display-probe
+DISPLAY_PROBE_BEGIN
+SAMPLER_CREATE_RESULT=0
+CADISPLAY_QUERY_BEGIN
+DISPLAY_SELF_SAMPLE_BEGIN
+DYLD_SLIDE=0x2920000 CACHE_BASE=0x182920000
+THREADS_RESULT=0 COUNT=2
+THREAD 0 PC=0x23a817cd4 LR=0x23a81b308 FP=0x16f497150
+ FRAME 0 RETURN=0x23a81b228
+ FRAME 1 RETURN=0x23a81b074
+ FRAME 2 RETURN=0x186d323d4
+ FRAME 3 RETURN=0x186e0a8a8
+ FRAME 4 RETURN=0x186d093b8
+ FRAME 5 RETURN=0x186e0b05c
+ FRAME 6 RETURN=0x10096c1cc
+ FRAME 7 RETURN=0x182da75b8
+ FRAME 8 RETURN=0x0
+THREAD 0 RESUME_RESULT=0
+DISPLAY_SELF_SAMPLE_END
+com.apple.xpc.launchd|1970-01-01 01:52:38.772434 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-probe[169], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:52:38.903324 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[167], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 01:52:38.977192 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[167], error = 3: No such process
+Abort trap: 6              /bin/display-probe
+DISPLAY_EXIT=134
+SERIAL_DONE_daac4dddcd524eaba4159d15b2ab11e7
