@@ -1,0 +1,499 @@
+if [ ! -e /vacom.apple.xpc.launchd|1970-01-01 00:48:40.894114 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+r/tmp/keyboard-daemon-v79.plis"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+t ];"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+ then /bincom.apple.xpc.launchd|1970-01-01 00:48:42.386732 <Notice>: Last log repeated 3 times
+/stty -echcom.apple.xpc.launchd|1970-01-01 00:48:42.004531 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+<keyboard-daemon-v79.plist ]; then /bin/stty -echo;                          com.apple.xpc.launchd|1970-01-01 00:48:43.109209 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:48:42.328877 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+echo "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+UPLOAD_"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+READY_182473<then /bin/stty -echo; echo UPLOAD_READY_1824734f0a2                        a4efebec93a122af3a3fe; <OAD_READY_1824734f0a2a4efebec93a122af3a3fe; else ec                       ho Ucom.apple.xpc.launchd|1970-01-01 00:48:46.426682 <Notice>: Last log repeated 5 times
+PLOADcom.apple.xpc.launchd|1970-01-01 00:48:46.152658 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+_EXISTS_com.apple.xpc.launchd|1970-01-01 00:48:46.515460 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+1824734"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+<c93a122af3a3fe; else echo UPLOAD_EXISTS_1824734f0a2                        "AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+a4efebec93a122af3a3f"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+e; fi
+com.apple.xpc.launchd|1970-01-01 00:48:48.965465 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:48:48.620088 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:48:49.214585 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+System Policy: bash(108) allow process-exec* /bin/stty
+com.apple.xpc.launchd|1970-01-01 00:48:51.842177 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:48:51.647366 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:48:52.385685 (user/501) <Warning>: failed lo"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+okup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+UPLOAD_READY_1824734f0a2a4efebec93a122af3a3fe
+bash-5.3# "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:48:55.057635 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:48:54.903386 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:48:55.833526 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:48:55.414197 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> > "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> > "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:01.264945 <Notice>: Last log repeated 8 times
+> com.apple.xpc.launchd|1970-01-01 00:49:00.849152 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:01.838734 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> > > com.apple.xpc.launchd|1970-01-01 00:49:03.616777 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:03.196387 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> com.apple.xpc.launchd|1970-01-01 00:49:03.856234 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:03.537546 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:05.214488 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:49:05.052680 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:06.016469 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:07.444461 <Notice>: Last log repeated 2 times
+> com.apple.xpc.launchd|1970-01-01 00:49:07.221470 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:07.698569 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:07.565140 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:08.082522 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:08.117752 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:08.586205 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:08.368607 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+> com.apple.xpc.launchd|1970-01-01 00:49:09.376589 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:09.171275 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:10.467383 <Notice>: Last log repeated 2 times
+> com.apple.xpc.launchd|1970-01-01 00:49:10.376269 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:11.261729 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:11.697371 <Notice>: Last log repeated 2 times
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:11.541396 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:12.162822 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:12.174270 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:12.328557 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:12.507947 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:12.573297 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:14.441121 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:14.213516 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:14.452414 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:16.267156 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:49:15.848718 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+> > com.apple.xpc.launchd|1970-01-01 00:49:16.563884 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:16.782565 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:16.614655 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:16.844566 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:17.927159 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:17.698720 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:18.262111 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:19.021464 <Notice>: Last log repeated 1 times
+> com.apple.xpc.launchd|1970-01-01 00:49:18.841121 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:19.507285 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:19.175321 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:20.621600 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:20.365894 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:20.878598 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:20.785003 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+> com.apple.xpc.launchd|1970-01-01 00:49:22.263872 <Notice>: Last log repeated 3 times
+> com.apple.xpc.launchd|1970-01-01 00:49:21.874711 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> com.apple.xpc.launchd|1970-01-01 00:49:22.882465 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+> com.apple.xpc.launchd|1970-01-01 00:49:22.913922 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:23.923053 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:24.311974 <Notice>: Last log repeated 1 times
+> com.apple.xpc.launchd|1970-01-01 00:49:23.996325 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:24.953649 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:26.936821 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:49:26.116614 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:27.031337 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+System Policy: bash(109) allow process-exec* /bin/base64
+com.apple.xpc.launchd|1970-01-01 00:49:28.789415 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:28.158267 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:30.137598 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:29.044082 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:30.373096 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:29.977700 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:30.220254 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+process
+com.apple.xpc.launchd|1970-01-01 00:49:30.374356 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:30.294739 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:31.275517 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+bash-5.3# "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:33.541110 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:49:33.421062 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+System Policy: bash(110) allow process-exec* /bin/sha256sum
+com.apple.xpc.launchd|1970-01-01 00:49:34.413210 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+process
+com.apple.xpc.launchd|1970-01-01 00:49:34.760383 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:34.544818 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:35.438092 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:36.940277 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:49:36.657323 (user/501) <Warning>: failed lo"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+okup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:37.549094 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+0015237cc1d43c761f55a45dcfe1c32a41a72ee8dd4efa2693710c2813febc15  /var/tmp/keyboard-daemon-v79.plist.upload-1824734f0a2a4efebec93a122af3a3fe
+com.apple.xpc.launchd|1970-01-01 00:49:38.765148 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:38.625041 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:38.827795 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:40.014372 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:49:39.803696 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:40.898028 <Notice>: Last log repeated 1 t"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+imes
+com.apple.xpc.launchd|1970-01-01 00:49:40.699874 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+System Policy: bash(111) allow process-exec* /bin/stty
+com.apple.xpc.launchd|1970-01-01 00:49:42.045201 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:41.821747 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:42.349223 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:44.201815 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:49:43.958464 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:44.862983 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+UPLOAD_HASHED_1824734f0a2a4efebec93a122af3a3fe
+if [ bash-5.3# if [ ! -e /var/tmp/keyboard-daemo"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+n-v79.pliscom.apple.xpc.launchd|1970-01-01 00:49:48.466756 <Notice>: Last log repeated 5 times
+t ]; thecom.apple.xpc.launchd|1970-01-01 00:49:48.079562 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+n /bin/chcom.apple.xpc.launchd|1970-01-01 00:49:49.198721 <Notice>: Last log repeated 2 times
+mod "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+com.apple.xpc.launchd|1970-01-01 00:49:48.976581 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+<p/keyboard-daemon-v79.plist ]; then /bin/chmod 644                       "AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+/var/tmp/keyb"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+oard-daemon<]; then /bin/chmod 644 /var/tmp/keyboard-daemon-v79                        .plist.upload-1824734com.apple.xpc.launchd|1970-01-01 00:49:51.337935 <Notice>: Last log repeated 4 times
+<r/tmp/keyboard-daemon-v79.plist.upload-1824734f0a2a                     4efebe"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+c93com.apple.xpc.launchd|1970-01-01 00:49:51.250250 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:52.040504 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:52.031223 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+a122com.apple.xpc.launchd|1970-01-01 00:49:52.037431 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+af3a3"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+fe &&<list.upload-1824734f0a2a4efebec93a122af3a3fe && /bi                       com.apple.xpc.launchd|1970-01-01 00:49:52.087410 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+n/com.apple.xpc.launchd|1970-01-01 00:49:52.185057 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:53.186936 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+mv -n /var/tmp/ke"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+<ebec93a122af3a3fe && /bin/mv -n /var/tmp/keyboard-d                   aemon-v79.plist."AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+upload-com.apple.xpc.launchd|1970-01-01 00:49:55.194500 <Notice>: Last log repeated 2 times
+<v -n /var/tmp/keyboard-daemon-v79.plist.upload-1824                       734fcom.apple.xpc.launchd|1970-01-01 00:49:55.015323 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:55.261240 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+0a2a4efebec93a1com.apple.xpc.launchd|1970-01-01 00:49:55.974725 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:49:55.744163 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:49:55.812241 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+22a"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+f3a<-v79.plist.upload-1824734f0a2a4efebec93a122af3a3fe                          /var/tmp/keyboard-daemon-<efebec93a122af3a3fe /var/tmp/keyboard-daemon-v79.pl                         ist "AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+&& [ "AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+! -com.apple.xpc.launchd|1970-01-01 00:49:58.661721 <Notice>: Last log repeated 4 times
+e /var/tcom.apple.xpc.launchd|1970-01-01 00:49:58.467058 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+mp/k</keyboard-daemon-v79.plist && [ ! -e /var/tmp/keybo                        ard-daem"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:49:59.461117 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+on-v79.plist.< && [ ! -e /var/tmp/keyboard-daemon-v79.plist.uploa                     d-1"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+82473com.apple.xpc.launchd|1970-01-01 00:50:00.085115 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+4f0a2acom.apple.xpc.launchd|1970-01-01 00:50:00.204164 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+4efebec9<rd-daemon-v79.plist.upload-1824734f0a2a4efebec93a12                      2af"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+3a3"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+fe ] &com.apple.xpc.launchd|1970-01-01 00:50:02.098883 <Notice>: Last log repeated 2 times
+& echo UPL<-1824734f0a2a4efebec93a122af3a3fe ] && echo UPLOAD_                      com.apple.xpc.launchd|1970-01-01 00:50:01.830125 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:02.565941 <Notice>: Last log repeated 1 times
+DONE_1824734f0com.apple.xpc.launchd|1970-01-01 00:50:02.267977 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+a2a4efebe"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+<af3a3fe ] && echo UPLOAD_DONE_1824734f0a2a4efebec93                       a122com.apple.xpc.launchd|1970-01-01 00:50:03.822008 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:50:03.696434 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+af3a3fe; fi
+com.apple.xpc.launchd|1970-01-01 00:50:04.654122 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+System Policy: bash(112) allow process-exec* /bin/chmod
+com.apple.xpc.launchd|1970-01-01 00:50:06.129798 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:50:05.893366 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:06.756940 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:50:08.289523 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:50:08.007961 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:09.049263 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:50:08.795590 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:09.342514 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:50:09.103167 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:09.375230 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:50:13.885708 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:50:13.605739 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:13.887269 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:50:13.783733 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:50:14.382533 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:50:14.109783 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+System Policy: bash(113) allow process-exec* /bin/mv
+com.apple.xpc.launchd|1970-01-01 00:50:15.056469 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:50:17.061333 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:50:16.531664 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:50:17.154245 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:50:19.604080 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:50:19.418601 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+"AppleSEPKeyStore":pid:75,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:75,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:75,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:75,:13996: operation failed (sel: 17 ret: e00002d8)
+UPLOAD_DONE_1824734f0a2a4efebec93a122af3a3fe

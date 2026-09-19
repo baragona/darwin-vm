@@ -34,7 +34,10 @@ def main():
     if not (0 < args.width <= 4096 and 0 < args.height <= 4096
             and args.width * args.height <= 4 * 1024 * 1024):
         parser.error('dimensions must be positive and fit a 16 MiB BGRA frame')
-    lines = args.transcript.read_text().splitlines()
+    # UART diagnostics can contain binary plist output before a frame.
+    # Replacement characters cannot enter the base64 alphabet; payload size,
+    # zlib completeness/checksum, and strict base64 validation still apply.
+    lines = args.transcript.read_text(errors='replace').splitlines()
     begin = lines.index('DISPLAY_DATA_BEGIN')
     end = lines.index('DISPLAY_DATA_END', begin + 1)
     encoded = ''.join(line for line in lines[begin + 1:end]

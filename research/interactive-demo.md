@@ -12,8 +12,8 @@ do not establish these outcomes.
 
 V78 now verifies native tap -> visible counter update -> Home-key navigation
 -> LaunchServices reopen with the counter retained. See
-[evidence](evidence/home-navigation-v78.md). The app icon is missing from
-SpringBoard and durable saving is not yet implemented.
+[evidence](evidence/home-navigation-v78.md). Later V79 inspection places the app on Home page2; first-page captures did
+not establish that its icon was missing. V79 also verifies saved drawing reload.
 
 The [Field Notes prototype](notebook-probe/README.md) runs in V79. Verified
 framebuffers show text, labeled buttons, a bundled image, and a canvas. Native
@@ -31,7 +31,9 @@ V78 has been closed; V79 is the only running Darwin guest.
   Forcing CALayerHost setRendersAsynchronously: false is under runtime test.
 - Replace one-shot capture and per-gesture helper startup with a persistent
   display/input transport suitable for mouse interaction. Measure latency;
-  current UART diagnostic transfers are not a usable live frontend.
+  current UART diagnostic transfers are not a usable live frontend. The
+  [persistent input endpoint](live-input-README.md) is built and staged in V80,
+  but has not yet run in the guest.
 - Verify Field Notes text editing and scrolling. Initial rendering, drawing,
   and saved-drawing restoration after process termination are verified.
 - Connect host keyboard and pointer events through the guest input system.

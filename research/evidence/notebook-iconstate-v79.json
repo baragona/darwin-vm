@@ -1,0 +1,33 @@
+{
+  "uniqueIdentifier": "0233B063-0510-4C3D-A86E-552662E6B5F4",
+  "iconLists": [
+    [
+      "com.apple.Preferences"
+    ],
+    [
+      {
+        "listUniqueIdentifiers": [
+          "E6DE7869-149D-4B6C-9ADB-8542C5AEA434"
+        ],
+        "iconLists": [
+          [
+            "com.apple.calculator"
+          ]
+        ],
+        "listType": "folder",
+        "displayName": "Utilities",
+        "defaultDisplayName": "Utilities",
+        "uniqueIdentifier": "23ACDB68-A651-4546-BD5A-605F5CCC9686"
+      },
+      "org.baragona.Notebook",
+      "org.baragona.TouchProbe"
+    ]
+  ],
+  "listUniqueIdentifiers": [
+    "398F08B7-4304-4460-A96C-960DA4170A94",
+    "3F9F8CCA-04F4-4A3B-9A3C-E89479B0CA85"
+  ],
+  "buttonBar": [],
+  "displayName": "Folder",
+  "defaultDisplayName": "Folder"
+}
