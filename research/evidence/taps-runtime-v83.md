@@ -164,3 +164,24 @@ The actual viewer Home button returned to SpringBoard. A corrupted transition
 frame was rejected, then full frame4 validated with Settings, Field Notes, and
 Calculator icons. Screenshot taps-notebook-return-home-v83.png. The real
 Field Notes icon was clicked again to verify reopening.
+
+After clicking Field Notes again, validated frame6 shows a black app surface.
+No Notebook exit is recorded. A read-only UUID-guarded MCDataFromFile entry
+observer captured five main-thread stacks: AFDictationConnection availability
+notification -> UIKit dictation availability -> AFDictationRestricted ->
+MCProfileConnection isDictationAllowed -> migration-state file read. This
+identifies repeated dictation checks, but does not prove their sole causality.
+The read-only observer was disabled. A reversible, current-Notebook-UUID-scoped
+breakpoint at AFDictationRestricted entry0x1adfba69c returns true to report
+dictation restricted in this guest. It has fired successfully; effect on app
+reopening remains unverified. It does not enable audio or emulate attestation.
+
+The same live browser now shows Field Notes reopened from its Home icon with
+the exact `hello from ios 27.` note, completed check-mark drawing, and Saved on
+this iPhone status. Screenshot taps-notebook-reopened-v83.png verifies the full
+Home-return/reopen round trip. The app was not killed, so this is foreground
+reopening rather than a new process loading the file. The dictation-restricted
+hook was active; a subsequent proposed availability-notification hook was never
+installed, because the existing experiment was followed by lifecycle progress
+and the recovered scene. This temporal sequence is not a controlled latency
+benchmark or proof that dictation checks were the only delay.

@@ -1,0 +1,78 @@
+0x1a4c9fee8 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration (__TEXT.__text)
+
+0x18fd7fee8: _MCHasMigrated + 136
+
+0x1a4ca03e4 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration (__TEXT.__text)
+
+0x18fd803e4: -[MCProfileConnection(Private) needsCheckIn] + 28
+
+0x1a4c9fc98 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration (__TEXT.__text)
+
+0x18fd7fc98: -[MCProfileConnection(Settings) effectiveBoolValueForSetting:outAsk:] + 48
+
+0x1a4ca6dd4 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration (__TEXT.__text)
+
+0x18fd86dd4: -[MCProfileConnection(Misc) isDictationAllowed] + 28
+
+0x1adfba6c4 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices (__TEXT.__text)
+
+0x19909a6c4: _AFDictationRestricted + 40
+
+0x199c344a0 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x184d144a0: +[UIDictationConnection dictationRestricted] + 200
+
+0x199c31a68 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x184d11a68: -[UIDictationController dictationEnabled] + 56
+
+0x199fade84 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x18508de84: +[UIDictationController checkTraitsSupportDictation:] + 48
+
+0x199d0a698 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x184dea698: -[UIKeyboardLayoutStar refreshForDictationAvailablityDidChange] + 32
+
+0x199f39438 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x185019438: -[UIDictationController postNotificationName:userInfo:] + 692
+
+0x199fe16a0 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1850c16a0: -[UIDictationController dictationConnnectionDidChangeAvailability:] + 112
+
+0x19a7323fc IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x1858123fc: -[UIDictationConnection dictationConnnectionDidChangeAvailability:] + 60
+
+0x1adfb87ec IMAGE
+-----
+ > /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices (__TEXT.__text)
+
+0x1990987ec: ___63-[AFDictationConnection _tellSpeechDelegateAvailabilityChanged]_block_invoke + 60
+
