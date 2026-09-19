@@ -1,0 +1,3 @@
+command script import /tmp/a19_keyboard_lock_v81.py
+script bp=lldb.debugger.GetSelectedTarget().BreakpointCreateByAddress(0x1875be2d4); bp.SetScriptCallbackFunction('a19_keyboard_lock_v81.unlocked'); print('Keyboard lock breakpoint',bp.GetID())
+continue
