@@ -1,0 +1,352 @@
+[
+  {
+    "host_time": 1168979.394723166,
+    "status": "Connected",
+    "frame": 20,
+    "age": 2.143490874907002,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168979.898898708,
+    "status": "Connected",
+    "frame": 20,
+    "age": 2.6476662498898804,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168980.40442375,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.4681191248819232,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168980.910239,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.9739037919789553,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168981.414670916,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.478329666890204,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168981.920322541,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.983980666846037,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168982.423727,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.4161254591308534,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168982.929426333,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.9218074169475585,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168983.435162041,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.35962454113177955,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168983.940836083,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.8653098330833018,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168984.446609875,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.3710707500576973,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168984.951416666,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.875844000140205,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168985.457134125,
+    "status": "Connected",
+    "frame": 20,
+    "age": 2.3815952911973,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168985.960548375,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.0634824160952121,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168986.466236666,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.5691924581769854,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168986.971831625,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.0748009581584483,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168987.477534041,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.09499454195611179,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168987.982786416,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.6002992501016706,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168988.4885435,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.1060427920892835,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168988.994243458,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.6117577920667827,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168989.499997041,
+    "status": "Connected",
+    "frame": 20,
+    "age": 2.117522707907483,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168990.003906833,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.4879543341230601,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168990.509588708,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.993621125118807,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168991.012497458,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.11270083300769329,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168991.518200083,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.618404250126332,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168992.023819416,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.1240438329987228,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168992.52564275,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.6258587080519646,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168993.027622791,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.08018320915289223,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168993.533337791,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.5858993751462549,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168994.035248333,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.0878520840778947,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168994.540967416,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.5935414591804147,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168995.044514291,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.2228377079591155,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168995.54975375,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.7281035829801112,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168996.055396208,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.2337522921152413,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168996.561110625,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.4053387090098113,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168997.063311958,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.9075332919601351,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168997.566048916,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.4102740839589387,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168998.071672708,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.11709495796822011,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168998.577365208,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.6227626670151949,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168999.083206333,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.1285416670143604,
+    "rejected": 2
+  },
+  {
+    "host_time": 1168999.589035458,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.301858332939446,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169000.094735125,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.8075697079766542,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169000.600504208,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.3133407919667661,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169001.109757,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.8204533329699188,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169001.615471416,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.40244645811617374,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169002.118203583,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.9051472081337124,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169002.621496458,
+    "status": "Connected",
+    "frame": 20,
+    "age": 1.4084788330364972,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169003.125942958,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.07465895800851285,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169003.631681291,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.5803567080292851,
+    "rejected": 2
+  },
+  {
+    "host_time": 1169004.137372,
+    "status": "Connected",
+    "frame": 20,
+    "age": 0.13950375001877546,
+    "rejected": 2
+  }
+]

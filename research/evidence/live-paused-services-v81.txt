@@ -1,0 +1,29 @@
+/bin/launch-probe list; /bin/ls-open-probe --query org.baragona.Not< list; /bin/ls-open-probe --query org.baragona.Note                         book; echo SERIAL_DONE_b1<--query org.baragona.Notebook; echo SERIAL_DONE_b1c                         a1aa897dd467dbe240ac8f0ef<ook; echo SERIAL_DONE_b1ca1aa897dd467dbe240ac8f0ef3                         fef
+System Policy: bash(58) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=14
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=44 LAST_EXIT=0
+JOB com.apple.runningboardd PID=30 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=37 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=26 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=33 LAST_EXIT=0
+JOB com.apple.lsd PID=24 LAST_EXIT=0
+JOB com.apple.TextInput.kbd PID=42 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=40 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=22 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=-1 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=16 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=36 LAST_EXIT=0
+System Policy: bash(59) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_IDENTIFIER=org.baragona.Notebook
+com.apple.xpc.launchd|1970-01-01 08:03:11.937800 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-open-probe[59], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x100aefff0> org.baragona.Notebook file:///Applications/Notebook.app/ <org.baragona.Notebook <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///Applications/Notebook.app/
+LS_PROBE_END
+com.apple.xpc.launchd|1970-01-01 08:03:12.171107 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = ls-open-probe[59], error = 3: No such process
+SERIAL_DONE_b1ca1aa897dd467dbe240ac8f0ef3fef
