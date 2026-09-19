@@ -63,3 +63,22 @@ Visual inspection confirms a black diagonal stroke at the requested canvas
 coordinates and the Saved on this iPhone status. This verifies native button
 and drawing interaction in Field Notes and a successful app-reported write.
 A process-relaunch test remains necessary to prove restored saved content.
+
+## Home and fresh-process restoration
+
+Native Home completed with exit0. A fresh capture showed SpringBoard with only
+Settings; Field Notes and Calculator icons remain absent. The Home frame hash
+02997a1eb162d800731ed3aec430d98128ceee116900a19948ff3a225a588742 matches the
+previous Home screen. We then explicitly terminated Notebook56 with SIGTERM
+and reopened org.baragona.Notebook through LaunchServices, which returned1.
+Launchd independently recorded Notebook56 exiting and new Notebook75 spawning.
+The new process reached UIApplicationMain with LR0x1002e0828, giving the
+matching binary base0x1002dc000. Its read-only log observer recorded Loaded
+saved note and SCENE_VISIBLE_WITH_IMAGE.
+
+A new capture strictly decoded6,017,024 bytes with all pixels opaque, SHA256
+75ba53236571fa312dec713c4692c9efc4a31e524fd1c9bc32175470219e998a. Visual
+inspection confirms Loaded saved note, the initial note text, image, and the
+same diagonal stroke. This proves the saved drawing was restored after
+process termination; the initial text has not yet been changed through input.
+This is not a Home-icon launch or a power-cycle persistence test.

@@ -16,3 +16,8 @@
 {"event": "app_log", "message": "Unsaved drawing"}
 {"event": "app_log", "message": "Unsaved drawing"}
 {"event": "app_log", "message": "Saved on this iPhone"}
+{"event": "app_log", "message": "Saved on this iPhone"}
+{"event": "app_log", "message": "LAUNCHED"}
+{"event": "app_log", "message": "Loaded saved note"}
+{"event": "app_log", "message": "SCENE_VISIBLE_WITH_IMAGE"}
+{"event": "app_log", "message": "Saved on this iPhone"}

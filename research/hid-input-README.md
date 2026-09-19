@@ -47,8 +47,9 @@ a persistent host mouse-input service.
 
 `--virtual-drag X0 Y0 X1 Y1` adds a straight drag with normalized endpoints,
 using the same 14-frame allocation, dispatch, and release sequence. Its source
-passes strict iOS compilation and host parser checks; it is not yet installed
-or verified in V78. The existing fixed upward swipe starts at Y=0.96, which
+passes strict iOS compilation and host parser checks. V79 now verifies native
+button selection followed by a drag that draws a visible line in Field Notes;
+see [the runtime evidence](evidence/notebook-runtime-v79.md). The existing fixed upward swipe starts at Y=0.96, which
 left Touch Probe visible in the first Home-navigation test. That observation
 does not prove whether the starting position, duration, or another gesture
 condition caused the failed navigation.

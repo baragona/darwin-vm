@@ -15,12 +15,13 @@ V78 now verifies native tap -> visible counter update -> Home-key navigation
 [evidence](evidence/home-navigation-v78.md). The app icon is missing from
 SpringBoard and durable saving is not yet implemented.
 
-The [Field Notes prototype](notebook-probe/README.md) now builds and is staged
-in a separate V79 image alongside Calculator and the configurable drag helper.
-Its editor, image, scrolling, drawing, and atomic local saving are implemented
-but not yet runtime-verified. V79 has now booted and LaunchServices independently reports both bundles
-installed. Its LCD reports 832x1808. The V78 baseline is paused as a fallback;
-notebook rendering and Calculator interaction remain unverified.
+The [Field Notes prototype](notebook-probe/README.md) runs in V79. Verified
+framebuffers show text, labeled buttons, a bundled image, and a canvas. Native
+tap and drag input drew a visible stroke; the app reported a successful atomic
+file save. [Runtime evidence](evidence/notebook-runtime-v79.md) distinguishes
+these checks from the still-pending text entry and scrolling tests. A fresh
+process restored the saved drawing after Home and explicit termination. Calculator is installed and registered but not yet tested in use.
+The V78 baseline remains paused as a fallback.
 
 ## Work remaining
 
@@ -30,9 +31,8 @@ notebook rendering and Calculator interaction remain unverified.
 - Replace one-shot capture and per-gesture helper startup with a persistent
   display/input transport suitable for mouse interaction. Measure latency;
   current UART diagnostic transfers are not a usable live frontend.
-- Run Field Notes in the guest and verify its editor, image, scrolling,
-  drawing and explicit local saving. Verify the app Documents directory is
-  writable instead of using the denied global Logs path.
+- Verify Field Notes text editing and scrolling. Initial rendering, drawing,
+  and saved-drawing restoration after process termination are verified.
 - Connect host keyboard and pointer events through the guest input system.
   Verify text entry and drawing, then Home and reopening without clearing data.
 - Install/register the full Calculator bundle from this build's
