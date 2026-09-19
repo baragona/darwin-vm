@@ -1,0 +1,2 @@
+{"event": "start", "unix_time": 1789851818.7846882, "monotonic": 1177562.262400958}
+{"summary": {"Taking exception 2 [SVC] on CPU 0": 1702426, "Taking exception 30 [genter] on CPU 0": 948416, "Taking exception 4 [Data Abort] on CPU 0": 206792, "Taking exception 6 [FIQ] on CPU 0": 87540, "Taking exception 3 [Prefetch Abort] on CPU 0": 268}, "errors": [], "elapsed": 600.1084572498221, "unix_time": 1789852418.8963368}

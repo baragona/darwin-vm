@@ -1,0 +1,23 @@
+{"event": "notebook_main", "base": "0x102bcc000", "uuid": "a52507a3968b3b3d9c110aaefc5d2b07", "lr": "0x102bd0828"}
+{"event": "notebook_log", "message": "LAUNCHED", "host_monotonic": 3742.856438666}
+{"event": "notebook_log", "message": "SCENE_VISIBLE_WITH_IMAGE", "host_monotonic": 3751.604499583}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 3997.669953375}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 3999.683778208}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 3999.85918}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4000.052791125}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4001.4731575}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4001.784417041}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4005.55413275}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4008.055248458}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4009.004649458}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4011.029794708}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4013.158245833}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4015.21902}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4019.046302708}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4020.403632875}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4021.000802041}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4023.58925125}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4025.492412625}
+{"event": "notebook_log", "message": "Unsaved changes", "host_monotonic": 4026.691042083}
+{"event": "notebook_log", "message": "Draw on the canvas; tap Draw / Scroll to scroll", "host_monotonic": 4037.748525041}
+{"event": "notebook_log", "message": "Scroll mode", "host_monotonic": 4039.598615375}

@@ -1,0 +1,20 @@
+{
+  "defaultDisplayName": "Folder",
+  "displayName": "Folder",
+  "buttonBar": [],
+  "uniqueIdentifier": "09C91A02-CEC8-42E5-B920-5BCDB8E81ECF",
+  "iconLists": [
+    [
+      "com.apple.Preferences",
+      "org.baragona.Notebook",
+      "com.apple.calculator"
+    ],
+    [
+      "org.baragona.TouchProbe"
+    ]
+  ],
+  "listUniqueIdentifiers": [
+    "398F08B7-4304-4460-A96C-960DA4170A94",
+    "3F9F8CCA-04F4-4A3B-9A3C-E89479B0CA85"
+  ]
+}

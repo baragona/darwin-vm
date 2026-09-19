@@ -1,0 +1,58 @@
+
+LIVE_INPUT_RESULT 1
+
+LIVE_FRAME_SAME 13
+LIVE_INPUT_RESULT 1
+
+LIVE_FRAME_SAME 13
+LIVE_INPUT_RESULT 1
+
+LIVE_FRAME_SAME 13
+LIVE_INPUT_RESULT 1
+LIVE_INPUT_RESULT 1
+
+LIVE_FRAME_SAME 13
+LIVE_INPUT_RESULT 1
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+VTOUCH_SET_PROPERTY KEY=BatchInterval PRESENT=1
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+com.apple.xpc.launchd|1970-01-01 00:20:20.299378 <Notice>: Last log repeated 93 times
+com.apple.xpc.launchd|1970-01-01 00:20:20.235546 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[34], error = 3: No such process
+
+LIVE_FRAME_SAME 13
+LIVE_INPUT_RESULT 1
+com.apple.xpc.launchd|1970-01-01 00:20:20.416590 (user/501/com.apple.SpringBoard [49]) <Notice>: exited due to SIGTRAP | sent by exc handler[49], ran for 976944ms
+com.apple.xpc.launchd|1970-01-01 00:20:20.416857 (user/501/com.apple.SpringBoard [49]) <Notice>: service has crashed 1 times in a row (last was dirty)
+com.apple.xpc.launchd|1970-01-01 00:20:20.416952 (user/501/com.apple.SpringBoard [49]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:20:20.417092 (user/501/com.apple.SpringBoard [49]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:20:20.417169 (user/501/com.apple.SpringBoard [49]) <Notice>: job state = exited
+com.apple.xpc.launchd|1970-01-01 00:20:20.417782 (user/501) <Notice>: service inactive: com.apple.SpringBoard
+com.apple.xpc.launchd|1970-01-01 00:20:20.419400 (user/501/com.apple.SpringBoard [49]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:20:20.496200 (pid/49 [SpringBoard]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:20:20.496253 (pid/49 [SpringBoard]) <Notice>: removing active service: com.apple.extensionkitservice
+com.apple.xpc.launchd|1970-01-01 00:20:20.497465 (pid/49/com.apple.extensionkitservice [51]) <Notice>: signaled service: Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:20:20.497524 (pid/49/com.apple.extensionkitservice [51]) <Notice>: service state: SIGKILLed
+com.apple.xpc.launchd|1970-01-01 00:20:20.497584 (pid/49/com.apple.extensionkitservice [51]) <Notice>: scheduling cleanup in 9 sec after sending Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:20:20.564406 (pid/49/com.apple.extensionkitservice [51]) <Notice>: exited due to SIGKILL | sent by launchd[1] during teardown of process-scoped services after host exited, ran for 960421ms
+com.apple.xpc.launchd|1970-01-01 00:20:20.564501 (pid/49/com.apple.extensionkitservice [51]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:20:20.564557 (pid/49/com.apple.extensionkitservice [51]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:20:20.564600 (pid/49/com.apple.extensionkitservice [51]) <Notice>: job state = exited
+com.apple.xpc.launchd|1970-01-01 00:20:20.565164 (pid/49 [SpringBoard]) <Notice>: service inactive: com.apple.extensionkitservice
+com.apple.xpc.launchd|1970-01-01 00:20:20.565552 (pid/49/com.apple.extensionkitservice [51]) <Notice>: internal event: PETRIFIED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:20:20.565597 (pid/49/com.apple.extensionkitservice [51]) <Notice>: job state = removed

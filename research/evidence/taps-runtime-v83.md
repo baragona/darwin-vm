@@ -79,3 +79,65 @@ signature verification pass (taps-level6-build-v83.json); that new binary is not
 installed in the running image. V83 continues with its original signed binary
 and the UUID-guarded level6 hook. The source change needs staging in the next
 image to remove that experimental debugger override.
+
+On resuming work, QMP confirmed V83 running and the viewer reported fresh
+unchanged frames. A native swipe helper completed14 accepted events, but a new
+agent captured black. The authoritative launchd log shows SpringBoard49 had
+already exited with SIGTRAP before the native swipe began. Consequently that
+swipe cannot establish navigation behavior. A fresh frame timestamp alone does
+not prove the Home process is alive: the prior agent retained its last surface
+pixels. The guest itself did not panic. A bounded600-second CPU trap trace was
+enabled before restarting only the confirmed-exited SpringBoard service.
+
+SpringBoard restarted as PID63, rendered the lock screen, and an actual browser
+unlock returned to Home. Before a native page swipe, launch-probe independently
+reported SpringBoard63 live. The helper then delivered14 acknowledged HID frames
+and completed. The bounded600-second trace finished with no breakpoint or
+undefined-instruction exception; it disabled QEMU logging on exit. The earlier
+SpringBoard49 crash has not been reproduced within this trace window. The native
+swipe's visual result is now being inspected.
+
+Current V83 IconState.plist was exported and its SHA256 independently matched
+the guest: f08963aa99580f18bdac3ed78a109b9c9aefb2d0f393c08545e58d5d6bf32d5a.
+It confirms Notebook on page2 and Calculator in Utilities; the native swipe's
+fresh capture still showed Settings on page1. To expose direct app-icon targets,
+SpringBoard63 was terminated with SIGTERM and its original layout retained as
+IconState.before-demo-v83.plist. No DesiredIconState.plist existed in this boot.
+A new423-byte binary plist moves Settings, Notebook, and Calculator onto page1,
+leaving TouchProbe on page2. Upload and installed SHA256 both verify as
+212e11e2c2e41cd88ea6e3c1ed29395ed9f052e847947a0a4f052960c47457fd. An initial
+serial command was cancelled after an unintended debugger pause; independent
+hashes confirmed the original was untouched before the successful retry.
+SpringBoard restarted as PID91. The VM itself was not restarted.
+
+Notebook's new read-only UIApplicationMain observer validates exact binary UUID
+A52507A3-968B-3B3D-9C11-0AAEFC5D2B07 before installing its app-log observer.
+The first-page layout and Home-icon launch now need visual verification.
+
+A validated live frame now visibly shows Settings, Field Notes, and Calculator
+on page1 (taps-demo-home-v83.png). An actual browser mouse click at normalized
+(0.385,0.11) sends T to the Field Notes icon. App startup is being observed.
+
+The actual browser tap on the first-page Field Notes icon reached Notebook
+spawn. Persona1003 queried absent (errno3), allocated through kpersona as
+type2/UID501 (return0), and queried successfully (return0). The controlled
+syscall preserved the original launchd stack pointer and restored every saved
+register and scratch byte before disabling both experiment breakpoints.
+Launchd then recorded Notebook PID96, and the UUID-verified observer recorded
+UIApplicationMain at base0x102bcc000, LAUNCHED, and SCENE_VISIBLE_WITH_IMAGE.
+The last browser screenshot at this checkpoint still showed the black launch
+surface; app rendering and input remain to be visually verified.
+
+Validated full frame7 reached the actual browser and visibly shows Field Notes,
+its default text, Save and Draw/Scroll buttons, bundled UIImage, and canvas.
+This completes the first verified Home-icon mouse tap to rendered real UIKit app
+in V83. Screenshot: taps-notebook-visible-v83.png. Keyboard editing follows.
+
+Browser keyboard events sent Command-A and `hello from ios 27.` after clicking
+the editor. The app later recorded18 Unsaved changes callbacks and both submitted
+Draw/Scroll actions. There was substantial delay; neither acknowledgements nor
+these callbacks independently prove the exact final note text. The first raw Q
+did not close the agent; an attempted thread-sample command was rejected by the
+still-running agent, so no thread sample was obtained. A clean newline followed
+by Q produced LIVE_INPUT_CLOSED. The temporary kernel inspection byte was
+restored and read back0 at a kernel stop before restarting the viewer.
