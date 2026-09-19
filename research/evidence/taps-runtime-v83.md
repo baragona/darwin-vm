@@ -185,3 +185,10 @@ hook was active; a subsequent proposed availability-notification hook was never
 installed, because the existing experiment was followed by lifecycle progress
 and the recovered scene. This temporal sequence is not a controlled latency
 benchmark or proof that dictation checks were the only delay.
+
+After reopening, an actual browser click selected Scroll mode. A12-step mouse
+drag upward moved the UIImage and saved drawing upward, scrolled the note out
+of view, and exposed the vertical scroll indicator. Screenshot
+taps-notebook-scrolled-v83.png verifies real UIScrollView input and rendering.
+The Field Notes interaction sequence is now visually verified; Apple
+Calculator arithmetic remains incomplete.
