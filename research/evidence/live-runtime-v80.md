@@ -80,3 +80,11 @@ SpringBoard through the persistent endpoint; it is not yet proof of a completed
 unlock. The first test had collapsed all intermediate motion into one sample.
 The host now retains up to16 consecutive motion samples before coalescing excess
 updates, preserving normal gesture paths while still bounding backlogs.
+
+Frame69 subsequently settled on the real SpringBoard Home screen with Settings,
+status bar and dock. Visual inspection therefore confirms the preserved swipe
+unlocked the guest through the persistent input endpoint and the live display
+bridge returned the resulting Home frame. PNG SHA256 3cf4118ab8a6334268baf0ea4352910a17e0e0d2388d6a3a78889b8445558631.
+The input was submitted to the same local HTTP endpoint used by the browser,
+not by an automated browser pointer; physical browser mouse interaction remains
+to be exercised. Frame latency is still tens of seconds in protocol1.
