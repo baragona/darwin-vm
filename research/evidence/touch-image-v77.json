@@ -1,0 +1,763 @@
+{
+  "bundle_id": "org.baragona.TouchProbe",
+  "cdhash": "72592050332b367f7b1e9fb761754007dfb22937",
+  "binary_sha256": "f484314be0b0d78d24a22a6cc781e9fc3959f30feeb181872f9bf34f835b1997",
+  "source_sha256": "099eca4cf8b04896a21e3441c32430060dc3ad9737e6eb0ef6511603e18804f6",
+  "runtime_verified": false,
+  "trustcache_entries_before": 4414,
+  "trustcache_entries_after": 4415,
+  "files": [
+    {
+      "path": "/Applications/TouchProbe.app/TouchProbe",
+      "bytes": 68832,
+      "sha256": "f484314be0b0d78d24a22a6cc781e9fc3959f30feeb181872f9bf34f835b1997"
+    },
+    {
+      "path": "/Applications/TouchProbe.app/Info.plist",
+      "bytes": 1487,
+      "sha256": "766bfea5fa5abe6df0525939a64e6f14391218a4ca0d7656de51791af91ec31f"
+    },
+    {
+      "path": "/Applications/TouchProbe.app/_CodeSignature/CodeResources",
+      "bytes": 1798,
+      "sha256": "70a6a65b4c4421706f9db2b72d1faf9d677b1c83af37b3380c6214f218710b3b"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/domains.plist",
+      "bytes": 6399,
+      "sha256": "70421099ebd16426745f221c58b49d3d91d00d9d8d994e8946333f3cf02e44e1"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.tcc.plist",
+      "bytes": 746,
+      "sha256": "e06785202d1c949f75453a36bb48e8f4982c24fbe572ed048fda8dc629826636"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.photosretailexperience.plist",
+      "bytes": 1009,
+      "sha256": "827f25e74a462be5652a70cfa19c1d473bb8d1a4266486f9a4231094de0ad6f4"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.dasd.plist",
+      "bytes": 2471,
+      "sha256": "55f93b97fd33bcd428bc9f1d9516cda8e67824e392a70adef9898748178830d2"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.NFCUISceneService.plist",
+      "bytes": 861,
+      "sha256": "c5e00359176e6d2953b5c15ad87dabc2fe78e7d81aa7edaf7b6b174a328a3d07"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.internal.suiuntool.plist",
+      "bytes": 565,
+      "sha256": "fec47e755a48570b8346150c53f07d6c84a2054200c1b6f6454ea2dc44d4e3cd"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.C3PO.plist",
+      "bytes": 775,
+      "sha256": "b1ca925bcf82a039cfbd3393b8699257bd2b0c152a343b4c21548cbd43ffdb65"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sessionkitd.plist",
+      "bytes": 693,
+      "sha256": "35aa78eb9dfab1076445a7a09aeb285dfccf757be8d2cee82abf04aed9e66fac"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.taptoradar.plist",
+      "bytes": 717,
+      "sha256": "0c89219300a0786062782a45b267aa82a5b097ebf6a0a4b26ce58dcda9190dee"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.UIKit.KeyboardManagement.xpc.plist",
+      "bytes": 831,
+      "sha256": "69f653f4f2fdcbbd502b4ac130ab98b00caaba589256db7dc902b78082399824"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.swiftuitracingsupport.plist",
+      "bytes": 963,
+      "sha256": "27aa0238902d3735842a3d85674aa1d668ef4539012a1593b0c81e5e040bffd2"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sensorkit.plist",
+      "bytes": 538,
+      "sha256": "e2915e382df11eb86d25b759d5b86af1d6dc4372b82df494d1b0b149e7e933cb"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sociallayer.plist",
+      "bytes": 981,
+      "sha256": "004409bf4b9053944919967769afb9f65a6a88c4f44dcbb593b0f28a0a4404dd"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.CommCenter.plist",
+      "bytes": 1187,
+      "sha256": "c6a0ae18b095197d9bcfdb0edb48fbb32311f25b2beeb2c3e03365358a0a1f3b"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.purplerestore.plist",
+      "bytes": 744,
+      "sha256": "2e892f42d6fb184da412415b33d1aa8321f7c472211036a8d98780a2da74df72"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.extensionkit.plist",
+      "bytes": 1700,
+      "sha256": "21fe365d09cbec0e58997d6423f3454646f3b4b98bc56e926e19dab9cf4b22e8"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.capture.photokit.plist",
+      "bytes": 985,
+      "sha256": "6d47aea8461f678d6825cf9618de767117a6262b253a1733f1f39e265721ac14"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.JetEngine.plist",
+      "bytes": 816,
+      "sha256": "abdf319ca0c6c7a3126417b4e3adfa4e31538df71a78bdf69b0869f19bc5121a"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.foundationmodels.plist",
+      "bytes": 672,
+      "sha256": "54d5794a3036786c2725666dafadc770ac92d8f5265927626b67bc4da86fc61b"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.NearbyInteraction.plist",
+      "bytes": 879,
+      "sha256": "fcdb81078a414fe36e10df9c65e6c0f4a1800ad378ae5a8d307139b8221fd5c5"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.mobiletimerd.plist",
+      "bytes": 844,
+      "sha256": "094c808804e28cbbc70b9a5434919e497db427fa7d71685ecd53d5e2a702df64"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.webkit.plist",
+      "bytes": 1917,
+      "sha256": "4b704232e5c00cd02480c57a2464f205c5b611ef1622931fdc3b4ed856670b32"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.underlying.plist",
+      "bytes": 1193,
+      "sha256": "e5be0241d9d8312fcd5f0de5d6c4df0da9f34f8cc64d6929b0aebb492cb3dbd1"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.launchservicesd.plist",
+      "bytes": 42,
+      "sha256": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.speed.plist",
+      "bytes": 949,
+      "sha256": "e8c688d3485b17294a1d99d345a1c6496fb9cd031a613bb61a19ae4b71cf66ad"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.pagein-prefetching.plist",
+      "bytes": 454,
+      "sha256": "65d3c9b760a3f2d99ce0c87f13ebd255251432e733088009d2c5e9915090f086"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.appleevents.plist",
+      "bytes": 617,
+      "sha256": "3f2a1c2842312632b1926d74a9816076578caa739a7cdf23320005c109b86a7c"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sonic.backgroundtask.plist",
+      "bytes": 962,
+      "sha256": "3cc2d814445bbffa0a3e08d4b5e0bf2982df8b9e12d60c8b5c6ee91978da5bed"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.caraccessoryd.plist",
+      "bytes": 935,
+      "sha256": "6b6b289dc401b42b9837dd0107e95e463c34c6251d226f08f830c1bac7ad47cc"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.MediaPlayer.RemotePlayerService.plist",
+      "bytes": 781,
+      "sha256": "b234e7215ffb113e5d1dce86113ca1c73c5fced3dc18b2043ef862247d565e39"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.networkextension.plist",
+      "bytes": 616,
+      "sha256": "b65312229a5adef554fa4055a4b33c99130b175a39642c173f05a24cf1407a79"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.DataStudies.plist",
+      "bytes": 889,
+      "sha256": "33a44c4eb03fc6e6d6b1e02e043acab57e56a796ea9e60b7009996257dd7a568"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.stocks.plist",
+      "bytes": 811,
+      "sha256": "d38c892f86bf05f55e59e1f62d8cb67d95a434792500e885726f09fad99d870c"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.backlightservices.plist",
+      "bytes": 1100,
+      "sha256": "a26792b5213143510ed3850aff848d8e31e2c1b1428f81123ebc42c70fdff28d"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.AVAudioDeviceTestService.plist",
+      "bytes": 712,
+      "sha256": "f96618e87b165816faaa5e041f1a75e3c0514d525964a67913a63c43ba1380fa"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.pasteboard.plist",
+      "bytes": 797,
+      "sha256": "b5604e1eeab44bc604fa0dbe05c591945d167c3930dff7afdbbb27585ec25e01"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.audioAccessoryAssetManagement.plist",
+      "bytes": 696,
+      "sha256": "9eab6e56f70b9daf23f3a26fb741569a90bbf1a264d771d3d78306d359b1353e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.browserenginekit.plist",
+      "bytes": 1854,
+      "sha256": "c5e907921b929c99512a9518d3ce42fa72d9baca26fd975070b02e1f87b6b2e3"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.cfnetwork.plist",
+      "bytes": 719,
+      "sha256": "f4eb0b8217c6065fe89b590c9b6f02a146ab0db5ea9928d69057a357097d721f"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.coredata.filelocks.plist",
+      "bytes": 828,
+      "sha256": "fe56c9b66d35a582f837a79d0106bc8c29af9ad354da115aaadeca35fea47365"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.cryptotokenkit.plist",
+      "bytes": 665,
+      "sha256": "ba6e487c59781f4b67fe9c56a17c69e56d8529354699118f8e594651993707ad"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.mediaremote.plist",
+      "bytes": 1173,
+      "sha256": "d0900a45c8b3b1c5249176c4f5d86522ab7a0980e5c42e2e6b5620433c44f650"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.uikit.plist",
+      "bytes": 1339,
+      "sha256": "dc8f639e2aa4b52fae85ed258b83aa091f413b00b561311fe77a733e4033707d"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.PassbookUIService.plist",
+      "bytes": 1108,
+      "sha256": "1c5d6b6ed7b0a45b2a3d3c5c5e0dff931aa5da678b90f01d6d8c5580399a14d7"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.timber.plist",
+      "bytes": 1933,
+      "sha256": "a5d1da623c1489736276960b95121a3fb305382ce9ef941d70844c8728525f96"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.coreos.plist",
+      "bytes": 700,
+      "sha256": "8e3dffdf2aeabc6e8793f284ace05662154a99773bb4b0d7494d60662fc4e40a"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.visionproapp.plist",
+      "bytes": 896,
+      "sha256": "43d30a547f66f193ed603dce34d0084551d9785b64c228237a7eb6efecb00c9c"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.callservicesd.plist",
+      "bytes": 996,
+      "sha256": "4feaeced5c0f6bda0f4df736684220bc6b04a0dd1ffe06d7fa169e9ca783e7f4"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.HangHUD.plist",
+      "bytes": 817,
+      "sha256": "7544098029266780d31a8023417d173de2a7364600c1aad63fd04e302f4c72f0"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.AppStoreComponents.plist",
+      "bytes": 622,
+      "sha256": "5bf97ccc2f7cad6ab1a7af98021dc9b55a0f4578089517895a7798226e708d4a"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.email.plist",
+      "bytes": 684,
+      "sha256": "e0e7e5c46e3e24da09df58831d46fadf9968315b3e5110eb73468aa9b2406b66"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.freeform.USD-renderer-remote-UI.plist",
+      "bytes": 775,
+      "sha256": "14dc5ad054239bff91c469910a0112fabf403f44b4b765aa446117b4b18a7114"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.mscertificationassistant.watchkitapp.plist",
+      "bytes": 770,
+      "sha256": "f98f27a38a8407c97e0e427044e3fb5ab9d02639a42659810bfbf71461b80ce6"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.IOUIAngel.plist",
+      "bytes": 743,
+      "sha256": "eb12fc4a1eac08c3e74ed96597d29f77c2eaf97021600a1fbd4a88a8e680d96e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.pictureinpicture.plist",
+      "bytes": 1392,
+      "sha256": "73a0068d1b852d6ce4ff7bd9334134d3eb317ba499345290c6b55691171ae7f8"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.common.plist",
+      "bytes": 2312,
+      "sha256": "b0f1316a429a1c4d09608cc88da6070d11d7909937f84e94ee54508306738063"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.ArchiveService.plist",
+      "bytes": 662,
+      "sha256": "189b48ec5c08021d8c63b28e5b8b59c346d16ad70869f92c4f1687f9ed4d01e6"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.FileProvider.plist",
+      "bytes": 1021,
+      "sha256": "e7294ebb072a9b957cf2138b649fb9ecb7c2e2be7bc8db15bda82d3b52359bc0"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.photos.plist",
+      "bytes": 895,
+      "sha256": "4d947ac4c60e6608ddf04c8393ac399efff289ec3a939a74f1d621adc2f6ee6e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.ContinuityCaptureShieldUI.plist",
+      "bytes": 543,
+      "sha256": "8312cac0189ba9457a3020bd4a3495f69a05b7b88c46e967a5dd97aa8cf5ae0a"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.GroupSessionService.plist",
+      "bytes": 711,
+      "sha256": "fadbb0ac2efdb9d158f59a3eb7867e2ac121e599137bef99c779eee2e445e250"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.quicklook.plist",
+      "bytes": 808,
+      "sha256": "0bc0b262ff3ecd98d0e981496d90b764f59cf3f7a030a5bd655c56233155f142"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.DesktopServicesHelper.plist",
+      "bytes": 580,
+      "sha256": "1cbce388f7ef56d9babfdf75fe9a729e336b86a12a115d6bb20a44a1275a37db"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.RemoteCompositorServer.plist",
+      "bytes": 727,
+      "sha256": "4640ae4456d32414cbf5e593a7006ac5f4ffffa2e8c45f59d48c8555f1d9ab71"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.carplay.plist",
+      "bytes": 281,
+      "sha256": "c3accced800f3256b60ea5522608689e262cba8d4db7720d234c6f7ee7a73e78"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.systemvoiceassistant.plist",
+      "bytes": 1122,
+      "sha256": "7b9ef0b97d7bed4481a5edc462b448a7b1d0ec847ff2a04fb0ce67b0199693b7"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.StickerKit.StickerPickerService.prewarm.plist",
+      "bytes": 685,
+      "sha256": "9b8429fddcfb4f42cf1ce31fc823ccfc0c697886effff291b5e24c6d1b6ea2c2"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.MBuddy.plist",
+      "bytes": 759,
+      "sha256": "b22c7d326f1690cea42ed7c2bd99f156f83de85e7f35b2f10d3fc18d61ba7b19"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.findmy.findingui.plist",
+      "bytes": 673,
+      "sha256": "e1a75d1feb856513187f84e8d7e58235d978a0e777d6d280179731b3e4647fb6"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.posterkit.provider.plist",
+      "bytes": 2689,
+      "sha256": "0e801c9dfc375fbc0a2fb278a49fabe314bd735c58cde4228a200ab3acf59eae"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.smartnamesuggestions.plist",
+      "bytes": 765,
+      "sha256": "d408167afb521530da992dfc34d7acd9b75193f13780b238ae4c8269b58722ba"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.accessoryd.plist",
+      "bytes": 599,
+      "sha256": "28e2096407a4b495a8dc17eb7dbcf78a47395f214d74c9f065f10ec735e5ba02"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.TVRemote.plist",
+      "bytes": 842,
+      "sha256": "9eb9fb4538632e3b09f350e5e92b22cd1651f1a4bd231f5292d9834d4c3429a4"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.modelmanager.plist",
+      "bytes": 943,
+      "sha256": "228a699ceb50b0a0b08a806354a5c2038999ffd9ca5ce298880570e107e1151e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.BackgroundAssets.plist",
+      "bytes": 772,
+      "sha256": "fde470e0f6ce7ea173221ace846cd33ec44bc2e2558be9b1c422d64e9e94bc30"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.SafetyKit.plist",
+      "bytes": 1011,
+      "sha256": "ecda76de2d076dff7c4661d918faab310cfc3874697ea8bdae1e20cbcb0c5548"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.purplebuddy.plist",
+      "bytes": 1054,
+      "sha256": "3e988830dd35da46be9a76c30bc0ba617e2bcf64b4cf87afdd176e9eb501596f"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.location.testapps.plist",
+      "bytes": 881,
+      "sha256": "a0aa58e3296f18881b915b59ec5ac8345ee14027c4d9bebc0ce14827fa7616e9"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.seserviced.plist",
+      "bytes": 1217,
+      "sha256": "7b0fa68f5532893fab9598fc6c375b94a0eed9606ee6268ae41407c7b116ee36"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.siri.plist",
+      "bytes": 2549,
+      "sha256": "44c99e3e61a2d34d13ad25d87157a779f93f354e55757cb2d2be420d5bc76952"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.fuseboard.plist",
+      "bytes": 1351,
+      "sha256": "0981b36e6bf440a0cbd6d8c79ae0bd2c70bfcd0882d5ab96289cf8a252b619a3"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.PosterKit.plist",
+      "bytes": 1062,
+      "sha256": "322104f34b1087a1763a65f7ece667194083ab694251f99ad1f5ab25f6a5725c"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.locationd.plist",
+      "bytes": 1292,
+      "sha256": "d2ebf7503a7787db652f06c1c50a36799136219e7ca930a3c6bca4747195d0a4"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.AccessibilityUIServer.plist",
+      "bytes": 944,
+      "sha256": "bd6ad6fd465c59cb2e93684d1cf6d095e4bfb3a833e9cd1ac89115afa5c1dbf5"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.CaptiveNetworkSupport.plist",
+      "bytes": 967,
+      "sha256": "06b006f76e452a8e77f16d3dbb6b11445df23c82c43aba77d76b5d0a61c1c117"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.healthd.plist",
+      "bytes": 1122,
+      "sha256": "2ebe1410627eea00d3af4894e2c1338574b696fdc7d140dc341c86e1d2e6c9be"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.widgetRenderer.plist",
+      "bytes": 927,
+      "sha256": "4e9396fdfcb31682c01a911659e1c9536a5e300e98941172b1802597c5fff5f3"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sports.plist",
+      "bytes": 659,
+      "sha256": "31c595d289d5121d4c8d0c321ee4d90ffe7c56fe54b2e5f075390ab797ec2d4c"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.displayarchive.plist",
+      "bytes": 455,
+      "sha256": "974822f2a665d259ff0cf72f9469ab931ac15bc6b0143da54b59dd3fc0a9b445"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.podcasts.plist",
+      "bytes": 828,
+      "sha256": "47eeedad705dd7066a173b5f376960e0e3049b21cbce194bf5e0e02b8b288677"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.systemstatusd.plist",
+      "bytes": 698,
+      "sha256": "ff87aacb9dd4bb7a5c0b34b5960c3878db387aad7362e2a21522c6427c38d4d9"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.coremedia.plist",
+      "bytes": 809,
+      "sha256": "051e8a034b2cfc400c1044e82b935a875bf983a6b0a68ada2911a11251196ab2"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.DragUI.plist",
+      "bytes": 758,
+      "sha256": "994aac869dac6638be1d662ec8be4e926bfb39d24209f5e748b09371e8d596ad"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.GameKit.plist",
+      "bytes": 619,
+      "sha256": "d65db6833846133859dd307b2941619cb99772e6a6ec51284ad699018d0fa847"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sharing.airdrop.plist",
+      "bytes": 691,
+      "sha256": "0c7c26ce505ffaa22b25d36ad73345918785a80043c247f61e72eeff02a308c9"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.mediaexperience.plist",
+      "bytes": 1521,
+      "sha256": "310d487f2390d26103ffb90e464ad97579aa03e0dd2f90e4e3fc871f6ff46427"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.compass.plist",
+      "bytes": 663,
+      "sha256": "79bed2a52f9c0298e42fb4518e378de52f5020751062f70c411b6dee82a8b366"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.merchantd.plist",
+      "bytes": 725,
+      "sha256": "1f764f12f2faecadef8bb239dee7dd59881dd99bb209924e238fbdf50bef29fb"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.JetPerformanceTools.plist",
+      "bytes": 966,
+      "sha256": "8f4d279fa781af8548a755c8c65e4640a59ff3d2069df0e25086424940ad9a9b"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.playgrounds.plist",
+      "bytes": 405,
+      "sha256": "20d96e510faae6c3d9662ead2b61474ef6ceb65be1f147205eff7ab1e65448f8"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.gamepolicyd.plist",
+      "bytes": 333,
+      "sha256": "e82d149cd7e391ec9e5527ca99e9f4fba7b3926dbc57694b9f939ac2225fa04f"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.MobileSMS.plist",
+      "bytes": 795,
+      "sha256": "f35a3317c741a580ba99c4ac819976636e1329994d6ea84da4ec7dc3f360699e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.RemoteCamera.plist",
+      "bytes": 767,
+      "sha256": "70a4617f036b731a928f2637d3c2669490c392951cb546d81c983687a2b0a55e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.RealityControlCenter.plist",
+      "bytes": 767,
+      "sha256": "13273c43ab5b156904e62853933ac6219bc29956a2b32293e9e70e4ed639839e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.pencil.pairing.plist",
+      "bytes": 774,
+      "sha256": "76cdd8294964dffd586d8e6dbfe82876188bc5621e9b6f1bac03736e4ce1a550"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.ClarityBoard.plist",
+      "bytes": 1057,
+      "sha256": "508d465bdf82a053da1ab8a2dd3f305a608c784a1c2434bfed1352792affbabd"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.cameracapture.plist",
+      "bytes": 822,
+      "sha256": "ecb00c9885dac2c77fce8d8dadb4d83a5d31d0bc81d9393e2a1c798c92c60129"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.shortcuts.plist",
+      "bytes": 440,
+      "sha256": "7830d88d2a45f952e8dfe6ada3a14e0b7eb4a789fff35e021b36f392336da9f7"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.frontboard.plist",
+      "bytes": 8258,
+      "sha256": "92bcb8b495c53805b5faa81c2be50c6c2774fb0d71c402ab10fc0aec3f81c702"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.chronod.plist",
+      "bytes": 2485,
+      "sha256": "99990fecf02f6234a345a7715bda7014acc1be5996f5d50a011a304bc94fe6ad"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.mediaanalysisd-generation.plist",
+      "bytes": 880,
+      "sha256": "0910e413dec9aeb7ca6b752e457d6c57d7f00f960f66c465fa7d569273bbc134"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.MGAgent.plist",
+      "bytes": 655,
+      "sha256": "78f7ae3a01423d4c604ab8c0cd308a98f8053bdee8ccbb39c66cad814338868d"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.Accessibility.plist",
+      "bytes": 1141,
+      "sha256": "bef0d4548766e883f07006c0aec110c0d55f84e67818ccab7d8c8e634c5bc5c9"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.PerformanceTrace.plist",
+      "bytes": 793,
+      "sha256": "1080bac9ae4f559ae692cc3bc67c668dd7ac2141b5d67f059a1a745bf4282185"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.safetymonitor.plist",
+      "bytes": 712,
+      "sha256": "96ff124253255cebe14e03e4490f3664c59af64f96dad7226f8bc8f02aad9744"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.pluginkit.plist",
+      "bytes": 604,
+      "sha256": "20fe68dcdfe7df1d5e70b5c860780a8a024e5360520d014ae31af0e699e890e0"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.screentimeunlock.plist",
+      "bytes": 764,
+      "sha256": "5abeacc02362c986295e61b3a9c9c63d76f6597ce06be1ada91f5865341e3568"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.wallpaperkit.plist",
+      "bytes": 400,
+      "sha256": "c2ac2d9ab256bb10cfb7895fc344513d3b926a951d614628017d2b33dba5746b"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.VoiceOver.plist",
+      "bytes": 770,
+      "sha256": "0fd6cf934eb139faf9ac51cedeb46c8776469d6411cd270d8b47712971a1de44"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.xcodepreviews.plist",
+      "bytes": 782,
+      "sha256": "cd4eb0e2fb64f61e52273b2dcc77aa32b95a4ddced2441ef0cb8ad23f894b011"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.rapportd.plist",
+      "bytes": 993,
+      "sha256": "82e6b30a5f13a6509efb7a40de125c1c48d2c6fcbaf8c88623569f49d3be1aa6"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.dt.xctest.plist",
+      "bytes": 1060,
+      "sha256": "6ca3e80b0d6dae1f43e62edff9cb91ef65a95a625074666ed540b5451fac66eb"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.WiFiAware.plist",
+      "bytes": 939,
+      "sha256": "5b613aeb1ec24b555a512b842daa924b56a787b55021965d97a775adc9397eb1"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.Energy.plist",
+      "bytes": 972,
+      "sha256": "913628bbd5e68cb0d97509bea3f121678da005f464b382be865a767c5adda34f"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.Diagnostics.plist",
+      "bytes": 725,
+      "sha256": "3b2b4b73910aa39130281ad60619e91639f5f0a2849d606ec33a3557dee896ae"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.sharingviewservice.plist",
+      "bytes": 535,
+      "sha256": "c3e538c3716a2e2093ed890e153a31f3aa0835b08584d8b0a8784df2b3ca9295"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.TelephonyTransferService.plist",
+      "bytes": 874,
+      "sha256": "0ce4c243f1011b8031b48931d2c411eaaf36d829bacad631c4f9b791368d2273"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.SessionTrackerApp.plist",
+      "bytes": 1767,
+      "sha256": "da2b40d47a24c05e97e7df6c68c907fd29f101a99f8336b2cd72bae4de4783b7"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.iapd.plist",
+      "bytes": 739,
+      "sha256": "0f809b3a542a1615fa5a44fcae1c330b752260bcd40e108fb1c1e198b618b34e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.viewbridge.plist",
+      "bytes": 598,
+      "sha256": "0dcdfff482b67c4449fdb10e002e9716c779ccf7525ff439e9ddde17906bedcd"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.airplayreceiver.plist",
+      "bytes": 860,
+      "sha256": "5e5585652889e9173f9690722e1ff2c096cbfc7469d1b13d631c92b0a8c5e72b"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.posterboard.plist",
+      "bytes": 873,
+      "sha256": "363d302a77807caee80f5efb5398f8202f7fb1f10871aa48c5ab1cdc9a2f9ce5"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.watchconnectivity.plist",
+      "bytes": 672,
+      "sha256": "462ee9008008265d6d1032b3b24731c8817b801b28eb8fa91dd90610f19b52a4"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.music.plist",
+      "bytes": 519,
+      "sha256": "e7ceea1e11f00ee8109e866fe10c33004cf16ca1f2aff51ba2927bd829826015"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.DTServiceHub.plist",
+      "bytes": 242,
+      "sha256": "95e9f1c364e3c559486bea5b6d96053675b9aa744c7e2b6b0da97e3beb2f6594"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.coreservices.useractivityd.plist",
+      "bytes": 529,
+      "sha256": "fe7641f3ab10006ca1a8f4552d98601f70a650d2f1a540ac7897f8941759b67d"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.SurfBoard.plist",
+      "bytes": 1202,
+      "sha256": "eb583b5106298371de2d45c243ea29b548210ad17c0b3a62e049b44a5a211010"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.AppleMediaServices.plist",
+      "bytes": 762,
+      "sha256": "0958f8fe3fa46960ef2f6df7a5a3101f83534271598023d7df5f06eb0ae66025"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.testing.plist",
+      "bytes": 758,
+      "sha256": "0b0ec41cdda8be49b02ef7f4ccb10b3b72e6d43642a605cd02ebe2edc7b9d703"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.RealityNotifications.plist",
+      "bytes": 731,
+      "sha256": "36db509de52bbcd6db1f963f65ff47724be8fed3173caeb24f3fe8461f254e3e"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.privatemlclientinferenceprovider.plist",
+      "bytes": 728,
+      "sha256": "240c4a56325c7fd1732daa3c13411752bd15f4c08ea32594bd255695bee7e4a0"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.NLPLearner.plist",
+      "bytes": 858,
+      "sha256": "41962e47a1840f61ce8d292200a5cf4478b932d4bffb1ca5fe3214f6a8d13970"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.SOSBuddy.plist",
+      "bytes": 579,
+      "sha256": "51d3fe2592297a25e84d579d8058cef3ce50d2b6dfb7199d3231638a944b6fd8"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.spotlight.plist",
+      "bytes": 1073,
+      "sha256": "933dafb9d6cce13bfc1a975886aef55a5fb1afb35090944868c1cd70e658156f"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.maps.plist",
+      "bytes": 878,
+      "sha256": "9e8d7e93657c4b13f8ed1bd608fda38fd33bacbe48d4336b52fc3363660d89d3"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.replayd.plist",
+      "bytes": 673,
+      "sha256": "b51913a07e9f154796a1a75c74509b68788b4e6e682ec1adacfd395ef1664786"
+    },
+    {
+      "path": "/System/Library/LifecyclePolicy/DomainAttributes/com.apple.siri.pushtotalk.plist",
+      "bytes": 1025,
+      "sha256": "0327447efc7f3a3a333e0e10fc308bf8037ff89ace0f11c04d094101803c68d6"
+    }
+  ],
+  "image": "service-root-touch-v77.dmg",
+  "trustcache": "touch-v77.tc"
+}
