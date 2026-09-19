@@ -1,0 +1,32 @@
+times
+/bin/mkdicom.apple.xpc.launchd|1970-01-01 03:43:09.599033 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:25.341841 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 03:43:09.646430 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:27.314837 <Notice>: Last log repeated 19 times
+com.apple.xpc.launchd|1970-01-01 03:43:10.634083 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:27.315629 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 03:43:10.706363 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+r -p /System/Library/LifecyclePolicy/com.apple.xpc.launchd|1970-01-01 03:43:27.316372 <Notice>: Last log repeated 20 times
+com.apple.xpc.launchd|1970-01-01 03:43:11.661600 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+DomainAttributes;<tem/Library/LifecyclePolicy/DomainAttributes; echo                      MKDIR_EXIT=$?; echo SEcom.apple.xpc.launchd|1970-01-01 03:43:27.316999 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 03:43:11.722364 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+R</DomainAttributes; echo MKDIR_EXIT=$?; echo SERIAL_                       DONE_5f8a20589ecom.apple.xpc.launchd|1970-01-01 03:43:27.317698 <Notice>: Last log repeated 20 times
+b44995877<EXIT=$?; echo SERIAL_DONE_5f8a20589eb44995877db6906                        4cdfb69
+com.apple.xpc.launchd|1970-01-01 03:43:12.689110 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:27.318559 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 03:43:12.798317 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+System Policy: bash(182) allow process-exec* /bin/mkdir
+com.apple.xpc.launchd|1970-01-01 03:43:27.853211 <Notice>: Last log repeated 17 times
+com.apple.xpc.launchd|1970-01-01 03:43:13.719087 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:28.407581 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 03:43:13.824814 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:28.586822 <Notice>: Last log repeated 21 times
+com.apple.xpc.launchd|1970-01-01 03:43:14.754670 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:29.602583 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 03:43:14.862177 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:29.603712 <Notice>: Last log repeated 22 times
+com.apple.xpc.launchd|1970-01-01 03:43:15.792645 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:43:30.125237 <Notice>: Last log repeated 1 times
+mkdir: cannot create directory '/System/Library/LifecyclePolicy': Read-only file system
+MKDIR_EXIT=1
+SERIAL_DONE_5f8a20589eb44995877db69064cdfb69
