@@ -1,0 +1,52 @@
+memory write -s 1 0xfffffe0017088db4 0
+memory read -s 1 -c 1 -f x 0xfffffe0017088db4
+command script import /tmp/a19_bootstrap_v79.py
+breakpoint set -H -a 0x10244506c
+breakpoint command add -F a19_bootstrap_v79.persona 1
+breakpoint set -H -a 0x10244370c
+breakpoint command add -F a19_bootstrap_v79.persona 2
+breakpoint set -H -a 0x194d5c138
+breakpoint command add -o 'memory write -s 1 0x1f45f79d8 1' 3
+breakpoint modify --auto-continue true 3
+breakpoint set -H -a 0x194d794b8
+breakpoint command add -o 'register write x8 0x1f962f900' 4
+breakpoint modify --auto-continue true 4
+breakpoint set -H -a 0x1cbc82120
+breakpoint command add 5
+register write w0 0xffffffff
+register write pc 0x1cbc82124
+DONE
+breakpoint modify --auto-continue true 5
+breakpoint set -H -a 0x235e6e5f0 -c '*(unsigned int*)((*(unsigned long long*)(($x24 & 0x00ffffffffffffff)+8)&0x00ffffffffffffff)+0x68)==1'
+breakpoint command add -o 'register write x0 0' 6
+breakpoint modify --auto-continue true 6
+breakpoint set -H -a 0x23552d2ac
+breakpoint command add -o 'register write x2 0' 7
+breakpoint modify -G true 7
+breakpoint set -H -a 0x1cbc47fd8
+breakpoint command add -s python -o "frame.FindRegister('x0').SetValueFromCString('1'); frame.SetPC(frame.FindRegister('lr').GetValueAsUnsigned()); return False" 8
+breakpoint set -H -a 0x235aa93ac
+breakpoint command add -o 'register write x2 0' 9
+breakpoint modify -G true 9
+breakpoint set -H -a 0x194d83978 -c '$x22 == 416 && $x0 == 496'
+breakpoint command add -s python -o "frame.FindRegister('x22').SetValueFromCString('832'); frame.FindRegister('x0').SetValueFromCString('1808'); return False" 10
+breakpoint set -H -a 0x190a2c328
+command script import /tmp/a19_attention_v79.py
+command script import /tmp/a19_watchdog_v79.py
+breakpoint set -H -a 0x2351ed4dc
+breakpoint command add -F a19_attention_v79.skip 12
+breakpoint set -H -a 0x2351ebfe0
+breakpoint command add -F a19_attention_v79.skip 13
+breakpoint set -H -a 0x1c8356bdc
+breakpoint command add -F a19_attention_v79.unavailable 14
+breakpoint set -H -a 0x23510db10
+breakpoint command add -F a19_watchdog_v79.factor 15
+breakpoint set -H -a 0x194f3007c
+breakpoint command add -F a19_watchdog_v79.appmain 16
+command script import /tmp/a19_extension_stat.py
+breakpoint set -H -a 0x190bf6f90
+breakpoint command add -F a19_bootstrap_v79.launchd 17
+command script import /tmp/a19_sync_layers_v79.py
+breakpoint set -H -a 0x194b91bb8
+breakpoint command add -F a19_sync_layers_v79.synchronous 18
+continue

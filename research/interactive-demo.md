@@ -18,7 +18,9 @@ SpringBoard and durable saving is not yet implemented.
 The [Field Notes prototype](notebook-probe/README.md) now builds and is staged
 in a separate V79 image alongside Calculator and the configurable drag helper.
 Its editor, image, scrolling, drawing, and atomic local saving are implemented
-but not yet runtime-verified. The V78 guest remains the running baseline.
+but not yet runtime-verified. V79 has now booted and LaunchServices independently reports both bundles
+installed. Its LCD reports 832x1808. The V78 baseline is paused as a fallback;
+notebook rendering and Calculator interaction remain unverified.
 
 ## Work remaining
 

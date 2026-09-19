@@ -1,0 +1,23 @@
+/bin/thread-probe 18; /bin/hid-input-probe --virtual-drag nan 0 1 1< 18; /bin/hid-input-probe --virtual-drag nan 0 1 1;                          echo INVALID_DRAG_EXIT=$<--virtual-drag nan 0 1 1; echo INVALID_DRAG_EXIT=$?                         ; echo SERIAL_DONE_b45267<echo INVALID_DRAG_EXIT=$?; echo SERIAL_DONE_b45267c                         969fc4a368d1b6ecd63042132
+System Policy: bash(21) allow process-exec* /bin/thread-probe
+TASK PID=18 RESULT=0
+DYLD_SLIDE=0x1061c000 CACHE_BASE=0x19061c000
+THREADS_RESULT=0 COUNT=2
+THREAD 0 PC=0x248513cd4 LR=0x248517308 FP=0x16d9be620
+ FRAME 0 RETURN=0x248517228
+ FRAME 1 RETURN=0x248517074
+ FRAME 2 RETURN=0x190c5246c
+ FRAME 3 RETURN=0x190c51438
+ FRAME 4 RETURN=0x190c527f4
+ FRAME 5 RETURN=0x190cf4da8
+ FRAME 6 RETURN=0x102449980
+ FRAME 7 RETURN=0x190aa35b8
+ FRAME 8 RETURN=0x0
+THREAD 1 PC=0x248513a80 LR=0x190b57284 FP=0x16da46b50
+ FRAME 0 RETURN=0x190b56910
+RESUME_RESULT=0
+System Policy: bash(22) allow process-exec* /bin/hid-input-probe
+usage: hid-input-probe [--home | --swipe | --virtual-swipe | --virtual-tap X Y | --virtual-drag X0 Y0 X1 Y1]
+X and Y must be finite normalized coordinates in [0,1].
+INVALID_DRAG_EXIT=2
+SERIAL_DONE_b45267c969fc4a368d1b6ecd63042132

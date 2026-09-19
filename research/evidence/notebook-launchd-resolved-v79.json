@@ -1,0 +1,5 @@
+{
+  "launchd_base": "0x10242c000",
+  "stat_hook": "0x102455d0c",
+  "breakpoint": 19
+}
