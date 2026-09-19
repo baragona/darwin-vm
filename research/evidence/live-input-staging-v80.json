@@ -1,19 +1,21 @@
 {
-  "binary_sha256": "5b97860922fb19d1d47656bd54a28b98ee87f2d662f42bcac3d98b4b25bcc000",
-  "source_sha256": "75825b9f5803a49fc9db2bfb887370ff4de1224d22bd51a32e98bb23940d55a2",
+  "binary_sha256": "550d0fe49cbcfb65dfe146186e5a42cdb80a74ba1c3c067ccffe37981367657d",
+  "source_sha256": "1dc17b76055669104d930bb3042bf343d446b472292c782097a9ace59c0fc558",
   "runtime_verified": false,
   "strict_build": true,
   "signature_verified": true,
   "host_stub_tests": "invalid input, failed release state, reset key/touch release passed",
-  "cdhash": "7c06fc48ed574dfbe1e5956cf691eca9027c5c0c",
+  "cdhash": "34beefd5068baee1b47a934e65300df475cf4b23",
   "image": "service-root-live-input-v80.dmg",
   "trustcache": "live-input-v80.tc",
-  "trustcache_entries": 4420,
-  "installed_binary_sha256": "5b97860922fb19d1d47656bd54a28b98ee87f2d662f42bcac3d98b4b25bcc000",
+  "trustcache_entries": 4421,
+  "installed_binary_sha256": "550d0fe49cbcfb65dfe146186e5a42cdb80a74ba1c3c067ccffe37981367657d",
   "short_tap_helper": {
     "sha256": "a4eda1fd4460a903da8060a539fe612ca7740d191a257bbac5e501640544ccae",
     "source_sha256": "ee67991e2e76f3e8e7c2e2bb9d6e57b68a511e9697932f58f1c4d8749fe26f4d",
     "cdhash": "2cb6495454fe2dff96045aab4474d790f5e97dd9",
     "runtime_verified": false
-  }
+  },
+  "display_source_sha256": "24c0d7f81912daabb6ec80150e7201af4b41a6f8c57fe6c755116def4ff80a8f",
+  "entitlements_sha256": "6884589e0f8e48ec4407d0028d8e8afc448469e6c830aa824bf155a6f9d8d31b"
 }

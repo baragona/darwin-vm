@@ -11,6 +11,7 @@
 #include <sys/select.h>
 #include <unistd.h>
 #include "virtual-touch-service.h"
+#include "live-display.h"
 
 static void *(*hand)(void *,uint64_t,unsigned,unsigned,unsigned,unsigned,unsigned,double,double,double,double,double,unsigned,unsigned,unsigned);
 static void *(*finger)(void *,uint64_t,unsigned,unsigned,unsigned,double,double,double,double,double,unsigned,unsigned,unsigned);
@@ -73,6 +74,9 @@ static int command(char *line) {
         release(down);release(up);return 1;
     }
     if(!strcmp(line,"R"))return clear_input();
+    if(!strcmp(line,"P"))return 1;
+    if(!strcmp(line,"F"))return live_display_frame();
+    if(!strcmp(line,"Q")){stopping=1;return 1;}
     return 0;
 }
 int main(int argc,char **argv) {
@@ -100,7 +104,6 @@ int main(int argc,char **argv) {
         int ready=select(STDIN_FILENO+1,&readable,NULL,NULL,&wait);
         if(ready<0){if(errno==EINTR)continue;result=1;break;}
         if(ready) {
-            activity=seconds();
             char bytes[128];ssize_t n=read(STDIN_FILENO,bytes,sizeof(bytes));
             if(n==0)break;
             if(n<0){if(errno==EINTR)continue;result=1;break;}
@@ -108,6 +111,7 @@ int main(int argc,char **argv) {
                 if(bytes[i]=='\n') {
                     line[length]=0;
                     int ok=!overflow&&command(line);
+                    if(ok&&strchr("DMUKHR",line[0]))activity=seconds();
                     printf("LIVE_INPUT_RESULT %d\n",ok);length=0;overflow=0;
                 } else if(bytes[i]!='\r') {
                     if(bytes[i]==0||length==sizeof(line)-1)overflow=1;
@@ -120,5 +124,5 @@ int main(int argc,char **argv) {
         if(tick-activity>5){if(!clear_input())result=1;activity=tick;}
         (void)runloop(mode,0.001,0);
     }
-    if(!clear_input())result=1;virtual_touch_stop();release(client);puts("LIVE_INPUT_CLOSED");return result;
+    if(!clear_input())result=1;virtual_touch_stop();live_display_close();release(client);puts("LIVE_INPUT_CLOSED");return result;
 }
