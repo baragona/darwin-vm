@@ -1,0 +1,36 @@
+/bin/launch-probe submit /launchjobs/com.apple.mobile.usermanagerd.< submit /launchjobs/com.apple.mobile.usermanagerd.p                         robe.plist; /bin/sleep 2;<ple.mobile.usermanagerd.probe.plist; /bin/sleep 2;                          /bin/launch-probe list; e<obe.plist; /bin/sleep 2; /bin/launch-probe list; ec                         ho SERIAL_DONE_1442f6dcc5<bin/launch-probe list; echo SERIAL_DONE_1442f6dcc5b                         84a04a6f680e9741258aa
+System Policy: bash(37) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(39) allow process-exec* /bin/sleep
+com.apple.xpc.launchd|1970-01-01 00:02:47.910393 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:02:47.906926 (com.apple.mobile.usermanagerd) <Notice>: This key does not do anything: OnDemand
+com.apple.xpc.launchd|1970-01-01 00:02:47.907497 (user/501/com.apple.mobile.usermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:47.907562 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:02:47.907597 (user/501/com.apple.mobile.usermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:02:47.908638 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.908675 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:47.908720 (user/501/com.apple.mobile.usermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:02:47.931986 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: xpcproxy spawned with pid 38
+com.apple.xpc.launchd|1970-01-01 00:02:47.932180 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:47.932232 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:02:47.933266 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:48.118056 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.118211 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: xpcproxy(38) allow process-exec* /usr/libexec/usermanagerd
+com.apple.xpc.launchd|1970-01-01 00:02:48.172994 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:02:48.173213 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:02:48.173358 (user/501/com.apple.mobile.usermanagerd [38]) <Notice>: Successfully spawned usermanagerd[38] because speculative
+com.apple.xpc.launchd|1970-01-01 00:02:48.239142 (pid/38 [usermanagerd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:02:48.239339 (pid/38 [usermanagerd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:02:48.296540 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = usermanagerd[38], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:48.481912 (user/501) <Warning>: failed activation: name = com.apple.mobile.usermanagerd.xpc, flags = 0x0, requestor = usermanagerd[38], error = 37: Operation already in progress
+System Policy: bash(40) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=4
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.backboardd PID=26 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=38 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=30 LAST_EXIT=0
+SERIAL_DONE_1442f6dcc5b84a04a6f680e9741258aa

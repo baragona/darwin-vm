@@ -1,0 +1,15 @@
+{"event": "UIApplicationMain", "pc": "0x000000018723407c", "delegate": "0x00000074310448d0", "lr": "0x0000000104860568"}
+{"event": "watchdog_factor", "before": "1", "after": "4.6336410666108191E+18", "write_success": true}
+{"event": "UIApplicationMain", "base": "0x102b94000", "magic": "0xfeedfacf", "read_ok": true, "breakpoint_result": "Breakpoint 20: address = 0x0000000102b98584\n"}
+{"event": "watchdog_factor", "before": "1", "after": "4.6336410666108191E+18", "write_success": true}
+{"event": "app_log", "message": "DID_FINISH_LAUNCHING"}
+{"event": "app_log", "message": "SCENE_CONNECT_BEGIN"}
+{"event": "app_log", "message": "SCENE_VISIBLE_REQUESTED"}
+{"event": "app_log", "message": "SCENE_ACTIVE"}
+{"event": "UIApplicationMain", "base": "0x100688000", "magic": "0xfeedfacf", "read_ok": true, "breakpoint_result": "Breakpoint 21: address = 0x000000010068c584\n"}
+{"event": "watchdog_factor", "before": "1", "after": "60", "write_success": true}
+{"event": "watchdog_factor", "before": "1", "after": "60", "write_success": true}
+{"event": "app_log", "message": "DID_FINISH_LAUNCHING"}
+{"event": "app_log", "message": "SCENE_CONNECT_BEGIN"}
+{"event": "app_log", "message": "SCENE_VISIBLE_REQUESTED"}
+{"event": "app_log", "message": "SCENE_ACTIVE"}

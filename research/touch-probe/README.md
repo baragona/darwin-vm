@@ -35,9 +35,12 @@ Diagnostic messages go to stdout and, when writable, to
 `/var/mobile/Library/Logs/TouchProbe.log`. `SCENE_VISIBLE_REQUESTED` only records
 a UIKit request; it does not prove that the frame was presented.
 
-The V77 preparation passed build, signature, trust-cache and installed-file
-verification. Runtime scene presentation and interaction are not yet verified.
-The matching `/System/Library/LifecyclePolicy` files are restored in that image:
-V74's foreground launch failed before app execution because domain-attribute
-policy files were absent. Whether this restoration is sufficient remains to be
-measured. See `../evidence/touch-image-v77.json` for local artifact identities.
+V77 passed build, signature, trust-cache and installed-file verification. A normal
+LaunchServices request reached UIKit scene activation after restoring lifecycle
+policies, provisioning missing kernel persona 1003, and temporarily extending the
+scene watchdog. A validated 832x1808 frame contains `Taps: 0` and the button
+background; the button title is missing and lock-screen controls remain overlaid.
+A stationary touch reached the guest input monitor, but the fresh frame stayed
+unchanged and no app tap callback was observed. Interaction and home/reopen are
+still unverified. See [runtime findings](../evidence/touch-runtime-v77.md) and
+[image identities](../evidence/touch-image-v77.json).

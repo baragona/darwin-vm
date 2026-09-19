@@ -1,0 +1,32 @@
+/bin/chown -R 33:33 /var/installd; /bin/launch-probe submit /launch<33 /var/installd; /bin/launch-probe submit /launchj                         obs/com.apple.containerma<nch-probe submit /launchjobs/com.apple.containerman                         agerd.probe.plist; /bin/l<bs/com.apple.containermanagerd.probe.plist; /bin/la                         unch-probe submit /launch<gerd.probe.plist; /bin/launch-probe submit /launchj                         obs/com.apple.lsd.probe.p<nch-probe submit /launchjobs/com.apple.lsd.probe.pl                         ist; /bin/launch-probe su<bs/com.apple.lsd.probe.plist; /bin/launch-probe sub                         mit /launchjobs/com.apple<st; /bin/launch-probe submit /launchjobs/com.apple.                         mobile.installd.probe.pli<it /launchjobs/com.apple.mobile.installd.probe.plis                         t; echo SERIAL_DONE_7f9eb<obile.installd.probe.plist; echo SERIAL_DONE_7f9eb3                         4900b747798cfab5b2dff1f9c<; echo SERIAL_DONE_7f9eb34900b747798cfab5b2dff1f9c1                         
+System Policy: bash(42) allow process-exec* /bin/chown
+System Policy: bash(43) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:07:10.327960 (user/501/com.apple.containermanagerd) <Notice>: internal event: WILL_SPAWN, code = 0
+System Policy: bash(45) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:07:10.331521 (user/501/com.apple.containermanagerd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:07:10.331773 (user/501/com.apple.containermanagerd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:07:10.335313 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:07:10.335506 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:07:10.335783 (user/501/com.apple.containermanagerd) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:07:10.509807 (user/501/com.apple.containermanagerd [44]) <Notice>: xpcproxy spawned with pid 44
+com.apple.xpc.launchd|1970-01-01 00:07:10.510866 (user/501/com.apple.containermanagerd [44]) <Notice>: internal event: SPAWNED, code = 0
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:07:10.511186 (user/501/com.apple.containermanagerd [44]) <Notice>: service state: xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(47) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:07:10.523464 (user/501/com.apple.containermanagerd [44]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:07:11.655013 (user/501/com.apple.lsd) <Error>: Non-system service tried to claim event stream com.apple.launchservices.LSObserver
+com.apple.xpc.launchd|1970-01-01 00:07:11.656080 (user/501/com.apple.lsd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:07:11.656235 (user/501/com.apple.lsd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:07:11.656337 (user/501/com.apple.lsd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:07:11.661068 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:07:11.661184 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:07:11.661322 (user/501/com.apple.lsd) <Notice>: launching: speculative
+SERIAL_DONE_7f9eb34900b747798cfab5b2dff1f9c1

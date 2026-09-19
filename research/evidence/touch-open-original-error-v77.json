@@ -1,0 +1,174 @@
+{
+  "address": "0x7a6511cf00",
+  "class": "NSError",
+  "code": 3,
+  "domain": {
+    "address": "0x7a64d4b500",
+    "class": "__NSCFString",
+    "text": "FBSOpenApplicationServiceErrorDomain"
+  },
+  "userinfo": {
+    "address": "0x7a65053380",
+    "class": "__NSDictionaryI",
+    "count": 4,
+    "capacity": 7,
+    "entries": [
+      [
+        {
+          "address": "0x7a651e6070",
+          "class": "__NSCFString",
+          "text": "BSErrorCodeDescription"
+        },
+        {
+          "address": "0x7a64c19fc0",
+          "class": "__NSCFString",
+          "text": "ProcessExited"
+        }
+      ],
+      [
+        {
+          "address": "0x7a651e6430",
+          "class": "__NSCFString",
+          "text": "NSLocalizedFailure"
+        },
+        {
+          "address": "0x7a651e5ad0",
+          "class": "__NSCFString",
+          "text": "Process failed to launch."
+        }
+      ],
+      [
+        {
+          "address": "0x7a651e6940",
+          "class": "__NSCFString",
+          "text": "FBSOpenApplicationRequestID"
+        },
+        {
+          "address": "0xd40943f10cc02d",
+          "read_error": "unmapped 0xd40943f10cc02d"
+        }
+      ],
+      [
+        {
+          "address": "0x7a651e4db0",
+          "class": "__NSCFString",
+          "text": "NSUnderlyingError"
+        },
+        {
+          "address": "0x7a6511e640",
+          "class": "NSError",
+          "code": 64,
+          "domain": {
+            "address": "0x7a64c19a60",
+            "class": "__NSCFString",
+            "text": "FBProcessExit"
+          },
+          "userinfo": {
+            "address": "0x7a64c16f00",
+            "class": "__NSDictionaryI",
+            "count": 3,
+            "capacity": 3,
+            "entries": [
+              [
+                {
+                  "address": "0x7a651e6880",
+                  "class": "__NSCFString",
+                  "text": "NSUnderlyingError"
+                },
+                {
+                  "address": "0x7a6511d530",
+                  "class": "NSError",
+                  "code": 5,
+                  "domain": {
+                    "address": "0x7a651e52c0",
+                    "class": "__NSCFString",
+                    "text": "RBSRequestErrorDomain"
+                  },
+                  "userinfo": {
+                    "address": "0x7a64c17200",
+                    "class": "__NSDictionaryI",
+                    "count": 2,
+                    "capacity": 3,
+                    "entries": [
+                      [
+                        {
+                          "address": "0x7a651e6850",
+                          "class": "__NSCFString",
+                          "text": "NSLocalizedFailureReason"
+                        },
+                        {
+                          "address": "0x7a64c1b460",
+                          "class": "__NSCFString",
+                          "text": "Launch failed."
+                        }
+                      ],
+                      [
+                        {
+                          "address": "0x7a651e45a0",
+                          "class": "__NSCFString",
+                          "text": "NSUnderlyingError"
+                        },
+                        {
+                          "address": "0x7a6511f7e0",
+                          "class": "NSError",
+                          "code": 3,
+                          "domain": {
+                            "address": "0x7a651e4570",
+                            "class": "__NSCFString",
+                            "text": "NSPOSIXErrorDomain"
+                          },
+                          "userinfo": {
+                            "address": "0x7a64d89620",
+                            "class": "__NSSingleEntryDictionaryI",
+                            "entries": [
+                              [
+                                {
+                                  "address": "0x1eb66bdd0",
+                                  "class": "__NSCFConstantString",
+                                  "text": "NSLocalizedDescription"
+                                },
+                                {
+                                  "address": "0x7a651e5950",
+                                  "class": "__NSCFString",
+                                  "text": "Launchd job spawn failed"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ],
+              [
+                {
+                  "address": "0x7a651e5650",
+                  "class": "__NSCFString",
+                  "text": "NSLocalizedFailureReason"
+                },
+                {
+                  "address": "0x7a651e4ff0",
+                  "class": "__NSCFString",
+                  "text": "The process failed to launch."
+                }
+              ],
+              [
+                {
+                  "address": "0x7a651e41b0",
+                  "class": "__NSCFString",
+                  "text": "BSErrorCodeDescription"
+                },
+                {
+                  "address": "0x7a64c1be60",
+                  "class": "__NSCFString",
+                  "text": "launch-failed"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    ]
+  }
+}

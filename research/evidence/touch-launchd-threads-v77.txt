@@ -1,0 +1,24 @@
+/bin/thread-probe 1; /bin/display-probe; echo SERIAL_DONE_e6c784fa2< 1; /bin/display-probe; echo SERIAL_DONE_e6c784fa22                         914a0a858534412825b9c7
+System Policy: bash(62) allow process-exec* /bin/thread-probe
+Refusing PID <= 1
+System Policy: bash(63) allow process-exec* /bin/display-probe
+DISPLAY_PROBE_BEGIN
+SAMPLER_CREATE_RESULT=0
+CADISPLAY_QUERY_BEGIN
+CADISPLAY_COUNT=6
+CADISPLAY_ENTRY=0 ID=1 NAME=LCD EXTERNAL=0 SUPPORTED=1
+CADISPLAY_ENTRY=0 CURRENT_MODE=<CADisplayMode 832 x 1808 internal_panel (fixed)>
+CADISPLAY_ENTRY=1 ID=2 NAME=Wireless EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=1 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=2 ID=3 NAME=Wireless-1 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=2 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=3 ID=4 NAME=Wireless-2 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=3 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=4 ID=5 NAME=Wireless-3 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=4 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_ENTRY=5 ID=6 NAME=Wireless-4 EXTERNAL=1 SUPPORTED=1
+CADISPLAY_ENTRY=5 CURRENT_MODE=<CADisplayMode 0 x 0 fmt: range:undefined>
+CADISPLAY_MAIN_PRESENT=1
+CADISPLAY_MAIN_NAME=LCD
+DISPLAY_PROBE_END
+SERIAL_DONE_e6c784fa22914a0a858534412825b9c7

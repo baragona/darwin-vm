@@ -1,0 +1,96 @@
+2: SEP is not booted. AKS request is not processed
+com.apple.xpc.launchd|1970-01-01 00:40:47.306022 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:40:47.140796 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+/bin/kill "AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:40:48.070049 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+-TERM 85; com.apple.xpc.launchd|1970-01-01 00:40:48.412631 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+/bin/ls-com.apple.xpc.launchd|1970-01-01 00:40:48.759016 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:48.765361 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+open-probe -com.apple.xpc.launchd|1970-01-01 00:40:49.155412 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+-open org.baragona2 duplicate reports for Sandbox: TouchProbe(85) deny(1) file-write-create /private/var/mobile/Library/Logs/TouchProbe.log
+Sandbox: TouchProbe(85) deny(1) iokit-get-properties iokit-class:IOPlatformDevice property:supports-camera-button
+.Touch<5; /bin/ls-open-probe --open org.baragona.TouchProb                      e; ecom.apple.xpc.launchd|1970-01-01 00:40:50.903827 <Notice>: Last log repeated 2 times
+cho com.apple.xpc.launchd|1970-01-01 00:40:50.499346 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+OPENcom.apple.xpc.launchd|1970-01-01 00:40:51.353853 <Notice>: Last log repeated 1 times
+"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+_EXIT=$?; e<; echo SERIAL_DONE_6fad0c8d1ca84d90931418e736527ebf                       
+com.apple.xpc.launchd|1970-01-01 00:40:51.227603 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:55.686235 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:40:55.138293 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:57.492568 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:58.104094 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:40:57.821524 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:58.311396 <Notice>: Last log repeated 3 times
+bash: /bin/kill: No such file or directory
+Sandbox: TouchProbe(85) deny(1) file-write-create /private/var/mobile/Library/Logs/TouchProbe.log
+com.apple.xpc.launchd|1970-01-01 00:40:58.160089 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+1 duplicate report for Sandbox: TouchProbe(85) deny(1) file-write-create /private/var/mobile/Library/Logs/TouchProbe.log
+System Policy: bash(87) allow process-exec* /bin/ls-open-probe
+com.apple.xpc.launchd|1970-01-01 00:40:58.356835 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:58.567006 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:59.498508 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:40:58.896288 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:40:59.619628 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:41:00.829359 <Notice>: Last log repeated 2 times
+Sandbox: TouchProbe(85) deny(1) iokit-get-properties iokit-class:IOPlatformDevice property:supports-apple-pencil
+com.apple.xpc.launchd|1970-01-01 00:41:00.303852 (user/501) <Warning>: failed lookup: name = com.apple.uiintelligencesupport.agent, flags = 0x80, requestor = TouchProbe[85], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:00.526700 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:00.868754 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+com.apple.xpc.launchd|1970-01-01 00:41:04.175247 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:41:03.332539 (user/501) <Warning>: failed lo"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+okup: name = com.apple.analyticsd, requestor = TouchProbe[85], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:04.339191 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:05.032741 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:41:04.785067 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:05.392390 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:05.501009 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+LS_OPEN_BEGIN IDENTIFIER=org.baragona.TouchProbe
+com.apple.xpc.launchd|1970-01-01 00:41:06.433171 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:46,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:46,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:46,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:46,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:41:19.455408 <Notice>: Last log repeated 5 times
+com.apple.xpc.launchd|1970-01-01 00:41:19.139234 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:19.689848 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:19.819283 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:20.091232 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:20.188881 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+"AppleSEPKeyStore":pid:57,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:57,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:57,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:57,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:41:21.305287 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:41:21.137172 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+LS_OPEN_RESULT=1
+LS_PROBE_END
+com.apple.xpc.launchd|1970-01-01 00:41:22.464270 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:41:22.459952 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[68], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:41:25.566162 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[68], error = 3: No such process
+OPEN_EXIT=0
+SERIAL_DONE_6fad0c8d1ca84d90931418e736527ebf
