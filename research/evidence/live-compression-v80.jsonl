@@ -1,0 +1,12 @@
+{"event": "verified_agent", "base": "0x1002c0000"}
+{"event": "compress_start", "before": 1, "level": 6, "ok": true, "time": 964.64888275}
+{"event": "compress_end", "bytes": 28957, "duration": 24.155202291000023, "result": 0}
+{"event": "render_return", "time": 1026.58934475, "result": 1}
+{"event": "compress_start", "before": 1, "level": 6, "ok": true, "time": 1027.643999875}
+{"event": "compress_end", "bytes": 26182, "duration": 19.898961750000126, "result": 0}
+{"event": "render_return", "time": 1079.640287708, "result": 1}
+{"event": "compress_start", "before": 1, "level": 6, "ok": true, "time": 1080.173167166}
+{"event": "compress_end", "bytes": 27180, "duration": 10.833396917000073, "result": 0}
+{"event": "render_return", "time": 1136.194123625, "result": 1}
+{"event": "compress_start", "before": 1, "level": 6, "ok": true, "time": 1136.474860208}
+{"event": "compress_end", "bytes": 24382, "duration": 17.61704708299999, "result": 0}

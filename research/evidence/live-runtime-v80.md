@@ -56,3 +56,18 @@ Host recompression of the verified lock framebuffer produced 57,905 bytes at
 zlib level1, 31,074 at level6, and 28,681 at level9. This suggests testing
 stronger compression in the guest to reduce UART time without changing pixels;
 host timing does not predict emulated-guest compression cost.
+
+The frame after the acknowledged swipe still showed the lock screen; unlocking
+through the persistent endpoint is not established. A UUID-verified live-agent
+compression experiment changed only its compress2 level argument to6. Four
+measured calls took 24.16, 19.90, 10.83 and17.62 host seconds. Corresponding
+compressed lengths were 28,957, 26,182, 27,180 and24,382 bytes. The experiment
+and two timing observers were removed afterward, restoring the original level1
+behavior for subsequent calls. Full-screen compression is a material part of
+the latency, though this does not isolate rendering and serial output costs.
+
+A protocol2 agent now builds with exact changed-rectangle updates. Unchanged
+captures avoid compression; patches reference their exact previous frame, and
+the host requests a full frame after corruption or missing history. Unit tests
+verify exact pixels and reject patches against the wrong base. This is built
+for V81 but has not been staged or tested in the guest yet.

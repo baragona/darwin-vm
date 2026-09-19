@@ -1,5 +1,6 @@
 /* Persistent lossless capture of the real QuartzCore display. No synthetic UI. */
 #include "live-display.h"
+#include "frame-damage.h"
 #include <dlfcn.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -14,12 +15,13 @@ static unsigned long (*bound)(unsigned long),(*crc)(unsigned long,const unsigned
 static int (*compress_bytes)(unsigned char *,unsigned long *,const unsigned char *,unsigned long,int);
 static unsigned width,height;
 static size_t stride,length,capacity;
-static unsigned char *raw,*packed;
+static unsigned char *raw,*packed,*patch;
+static int baseline;
 static unsigned long sequence;
 void live_display_close(void) {
     if(surface&&release)release(surface);
     if(name&&release)release(name);
-    surface=name=NULL;free(raw);free(packed);raw=packed=NULL;
+    surface=name=NULL;free(raw);free(packed);free(patch);raw=packed=patch=NULL;baseline=0;
 }
 static int initialize(void) {
     void *qc=dlopen("/System/Library/Frameworks/QuartzCore.framework/QuartzCore",RTLD_NOW);
@@ -53,23 +55,35 @@ static int initialize(void) {
     surface=create(dict);if(!surface)goto fail;
     stride=get_stride(surface);size_t allocation=get_size(surface);
     if(stride<width*4||stride>16384||allocation<stride*height||allocation>16*1024*1024)goto fail;
-    raw=malloc(length);packed=malloc(capacity);if(!raw||!packed)goto fail;
+    raw=malloc(length);packed=malloc(capacity);patch=malloc(length);if(!raw||!packed||!patch)goto fail;
     return 1;
 fail:live_display_close();return 0;
 }
-int live_display_frame(void) {
+int live_display_frame(int force_full) {
     if(!surface&&!initialize())return 0;
     if(!render(0,name,surface,0,0)||lock_surface(surface,0,NULL))return 0;
     const unsigned char *pixels=base(surface);
     if(!pixels){unlock_surface(surface,0,NULL);return 0;}
-    for(unsigned y=0;y<height;y++)memcpy(raw+y*width*4,pixels+y*stride,width*4);
+    int full=force_full||!baseline;
+    FrameDamage damage=full?(FrameDamage){0,0,width,height}:frame_damage(raw,pixels,width,height,stride);
+    size_t patch_length=(size_t)damage.width*damage.height*4;
+    for(unsigned y=0;y<damage.height;y++) {
+        const unsigned char *row=pixels+(size_t)(damage.y+y)*stride+damage.x*4;
+        memcpy(patch+(size_t)y*damage.width*4,row,(size_t)damage.width*4);
+        memcpy(raw+(size_t)(damage.y+y)*width*4+damage.x*4,row,(size_t)damage.width*4);
+    }
+    baseline=0;
     if(unlock_surface(surface,0,NULL))return 0;
-    unsigned long bytes=capacity;if(compress_bytes(packed,&bytes,raw,length,1))return 0;
-    unsigned long id=++sequence;
-    printf("\nLIVE_FRAME_BEGIN %lu %u %u %zu %lu %08lx\n",id,width,height,length,bytes,crc(0,packed,(unsigned)bytes));
+    if(!patch_length) {
+        printf("\nLIVE_FRAME_SAME %lu\n",sequence);baseline=!ferror(stdout);return baseline;
+    }
+    unsigned long bytes=capacity;if(compress_bytes(packed,&bytes,patch,patch_length,1))return 0;
+    unsigned long previous=sequence,id=++sequence;
+    if(full)printf("\nLIVE_FRAME_BEGIN %lu %u %u %zu %lu %08lx\n",id,width,height,patch_length,bytes,crc(0,packed,(unsigned)bytes));
+    else printf("\nLIVE_PATCH_BEGIN %lu %lu %u %u %u %u %u %u %zu %lu %08lx\n",id,previous,width,height,damage.x,damage.y,damage.width,damage.height,patch_length,bytes,crc(0,packed,(unsigned)bytes));
     const char alphabet[]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-    for(unsigned long offset=0;offset<bytes;offset+=768) {
-        unsigned n=(unsigned)(bytes-offset);if(n>768)n=768;
+    for(unsigned long offset=0;offset<bytes;offset+=96) {
+        unsigned n=(unsigned)(bytes-offset);if(n>96)n=96;
         char line[1152];int prefix=snprintf(line,sizeof(line),"LIVE_FRAME_DATA %lu %lu ",id,offset);
         size_t out=(size_t)prefix;
         for(unsigned i=0;i<n;i+=3) {
@@ -81,5 +95,5 @@ int live_display_frame(void) {
         }
         line[out++]='\n';if(fwrite(line,1,out,stdout)!=out)return 0;
     }
-    printf("LIVE_FRAME_END %lu\n",id);return !ferror(stdout);
+    printf("LIVE_FRAME_END %lu\n",id);baseline=!ferror(stdout);return baseline;
 }

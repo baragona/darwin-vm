@@ -13,11 +13,12 @@ Protocol (normalized coordinates, case-sensitive commands):
 - `K USAGE DOWN`: keyboard page7 usage4..231, with DOWN0 or1.
 - `H`: consumer Menu/Home key down followed by release.
 - `R`: release all tracked touch and keyboard state.
-- `F`: capture and stream a lossless frame.
+- `F`: capture and stream a lossless frame or changed rectangle (protocol2).
+- `G`: force a full frame to recover missing or damaged history.
 - `P`: acknowledge a ping.
 - `Q`: release input and exit.
 
-The agent emits `LIVE_INPUT_READY 1`, then `LIVE_INPUT_RESULT 0|1` for each
+The agent emits `LIVE_INPUT_READY 2` (the host also accepts the original version1), then `LIVE_INPUT_RESULT 0|1` for each
 line. It rejects out-of-range coordinates, malformed or oversized commands,
 and invalid touch transitions. It pumps the run loop while waiting for input.
 EOF, SIGTERM, SIGINT, and five seconds without successful input commands (frame requests and pings do not count) trigger release attempts.
@@ -29,7 +30,7 @@ EOF over UART; the idle release is necessary for that transport.
 Build and sign like the diagnostic helper, substituting live-input-agent.c:
 
 ```sh
-xcrun clang -Wall -Wextra -Werror -Wno-incompatible-sysroot \
+xcrun clang -O2 -Wall -Wextra -Werror -Wno-incompatible-sysroot \
   -target arm64-apple-ios27.0 -nostdlib \
   research/live-input-agent.c research/live-display.c research/virtual-touch-service.c \
   /path/to/libSystem.B.dylib -o /tmp/live-input-agent
@@ -73,3 +74,23 @@ Host tests: `python3 research/live-view-test.py` checks pixel preservation,
 corruption/truncation rejection, recovery, and input queue ordering. These
 checks do not establish guest rendering or keyboard delivery. The combined
 agent and short-tap helper are staged in V80; runtime verification is pending.
+
+## Changed rectangles (protocol2, guest runtime pending)
+
+The first capture is a full `LIVE_FRAME_BEGIN` frame. Later captures compare
+actual BGRA pixels against the previous capture and send the smallest enclosing
+changed rectangle as `LIVE_PATCH_BEGIN seq parent canvasWidth canvasHeight x y
+width height rawBytes packedBytes crc32`. Data and end records retain the
+original format. Data chunks are now96 bytes to shorten exposure to interleaved
+console logs. Updates remain lossless at the original resolution.
+
+The receiver applies a patch only after verifying its base sequence, rectangle
+bounds, compressed CRC, exact decompressed length, and complete stream. It
+retains the last good image on failure and requests `G` for recovery. An unchanged
+capture emits `LIVE_FRAME_SAME seq`; the host refreshes its frame age only if it
+already holds that exact valid frame. No pixel values are guessed or repaired.
+
+`frame-damage-test.c` tests bounds and padded rows. The Python viewer tests also
+cover exact patch application, rejected stale bases, unchanged frames, truncated
+patches, and full-frame recovery. Protocol2 is built for V81; the running V80
+viewer still uses protocol1. Guest performance and input delivery remain open.

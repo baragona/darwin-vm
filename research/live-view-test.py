@@ -61,6 +61,33 @@ class Protocol(unittest.TestCase):
                     result = parser.line(line)
                 self.assertIsNotNone(result)
 
+    def test_patch_and_missing_base_recovery(self):
+        parser = v.Frames()
+        original = bytes([1,2,3,255,4,5,6,255])
+        for line in frame(original):parser.line(line)
+        replacement = bytes([9,8,7,255])
+        packed = zlib.compress(replacement)
+        patch = [f'LIVE_PATCH_BEGIN 2 1 2 1 1 0 1 1 4 {len(packed)} {zlib.crc32(packed):08x}'.encode(),
+                 b'LIVE_FRAME_DATA 2 0 '+base64.b64encode(packed), b'LIVE_FRAME_END 2']
+        for line in patch:result = parser.line(line)
+        self.assertEqual(result[0], 2)
+        self.assertEqual(parser.canvas, original[:4]+replacement)
+        self.assertFalse(parser.needs_keyframe)
+        self.assertEqual(parser.line(b'LIVE_FRAME_SAME 2'), result)
+        # A missing intermediate frame must never patch the wrong pixels.
+        before = parser.canvas
+        parser.line(patch[0].replace(b'2 1 ', b'4 3 ', 1))
+        self.assertTrue(parser.needs_keyframe)
+        self.assertEqual(parser.canvas, before)
+        self.assertIsNone(parser.line(b'LIVE_FRAME_SAME 4'))
+        for line in frame(original):result = parser.line(line)
+        self.assertFalse(parser.needs_keyframe)
+        self.assertEqual(parser.canvas, original)
+        # A truncated patch leaves the displayed canvas untouched.
+        parser.line(patch[0]);parser.line(patch[2])
+        self.assertEqual(parser.canvas, original)
+        self.assertTrue(parser.needs_keyframe)
+
     def test_queue_coalesces_movement_preserves_release(self):
         bridge = v.Bridge.__new__(v.Bridge)
         bridge.ready = threading.Event();bridge.ready.set()

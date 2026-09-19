@@ -3,7 +3,7 @@
 #undef main
 #include <assert.h>
 static int sent,fail;
-int live_display_frame(void){return 1;}
+int live_display_frame(int full){(void)full;return 1;}
 void live_display_close(void){}
 uint64_t virtual_touch_start(void){return 1;}
 int virtual_touch_dispatch(void *e){(void)e;sent++;return !fail;}

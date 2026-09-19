@@ -75,7 +75,8 @@ static int command(char *line) {
     }
     if(!strcmp(line,"R"))return clear_input();
     if(!strcmp(line,"P"))return 1;
-    if(!strcmp(line,"F"))return live_display_frame();
+    if(!strcmp(line,"F"))return live_display_frame(0);
+    if(!strcmp(line,"G"))return live_display_frame(1);
     if(!strcmp(line,"Q")){stopping=1;return 1;}
     return 0;
 }
@@ -97,7 +98,7 @@ int main(int argc,char **argv) {
     struct sigaction action={0};action.sa_handler=stop_signal;
     sigemptyset(&action.sa_mask);sigaction(SIGTERM,&action,NULL);sigaction(SIGINT,&action,NULL);
     double activity=seconds();if(activity<0){virtual_touch_stop();release(client);return 1;}
-    puts("LIVE_INPUT_READY 1");
+    puts("LIVE_INPUT_READY 2");
     char line[128];size_t length=0;int overflow=0,result=0;
     while(!stopping) {
         fd_set readable;FD_ZERO(&readable);FD_SET(STDIN_FILENO,&readable);struct timeval wait={0,10000};

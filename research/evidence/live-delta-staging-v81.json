@@ -1,0 +1,20 @@
+{
+  "binary_sha256": "3d9494178c9f2ad01b53f247549038bb940ba19742edbd416b233af25eecdae1",
+  "cdhash": "4234e765e495014ac71772a45c0bd3fbf99810d6",
+  "protocol_version": 2,
+  "strict_build": true,
+  "optimization": "-O2",
+  "signature_verified": true,
+  "runtime_verified": false,
+  "source_sha256": {
+    "live-input-agent.c": "ba8dfd7fd568767cd5f94e8914740bb5934f392e666fd2cda4623b9c5e968e9c",
+    "live-display.c": "ce4453423e0fdf92b794d8584dac8ed153accfc6697bc6a07b183650ad4193aa",
+    "frame-damage.h": "69a4016ea98d65cd3cf070e96fb6552f94d0275a828dc6942d15e933b3ef6a4f",
+    "virtual-touch-service.c": "5dbb5558470ce5111b5ab726a99be3246e57f78e9ee7f0a8a42cfa0d59f98bce"
+  },
+  "host_tests": "input state, damage bounds, frame integrity and patch recovery passed",
+  "image": "service-root-live-delta-v81.dmg",
+  "trustcache": "live-delta-v81.tc",
+  "trustcache_entries": 4422,
+  "installed_binary_sha256": "3d9494178c9f2ad01b53f247549038bb940ba19742edbd416b233af25eecdae1"
+}
