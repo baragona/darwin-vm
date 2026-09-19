@@ -1,0 +1,9 @@
+/bin/ls -ld /System/Library/PrivateFrameworks/Calculate.framework /<em/Library/PrivateFrameworks/Calculate.framework /S                         ystem/Library/PrivateF<ks/Calculate.framework /System/Library/PrivateFrame                      works/CalculateUI.framewo<stem/Library/PrivateFrameworks/CalculateUI.framewor                         k /System/Library/Privat<orks/CalculateUI.framework /System/Library/PrivateF                        rameworks/MathTypesetting< /System/Library/PrivateFrameworks/MathTypesetting.                         frameworkcom.apple.xpc.launchd|1970-01-01 01:31:51.524398 <Notice>: Last log repeated 100 times
+; eccom.apple.xpc.launchd|1970-01-01 01:31:51.410487 (user/501) <Warning>: failed lookup: name = com.apple.apsd, requestor = kbd[44], error = 3: No such process
+ho SERIALcom.apple.xpc.launchd|1970-01-01 01:31:52.148254 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[91], error = 3: No such process
+<ameworks/MathTypesetting.framework; echo SERIAL_DON                      E_738b588a7c6846ec92e3f<ework; echo SERIAL_DONE_738b588a7c6846ec92e3fbd3bde                       5f182
+System Policy: bash(111) allow process-exec* /bin/ls
+ls: cannot access '/System/Library/PrivateFrameworks/MathTypesetting.framework': No such file or directory
+drwxr-xr-x 68 _unknown _unknown 2176 Sep 10  2026 /System/Library/PrivateFrameworks/Calculate.framework
+drwxr-xr-x 61 _unknown _unknown 1952 Sep 10  2026 /System/Library/PrivateFrameworks/CalculateUI.framework
+SERIAL_DONE_738b588a7c6846ec92e3fbd3bde5f182

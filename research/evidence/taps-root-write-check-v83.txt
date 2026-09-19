@@ -1,0 +1,13 @@
+/bin/id; /bin/ls -ld /System/Library/PrivateFrameworks; /bin/ls /sb<-ld /System/Library/PrivateFrameworks; /bin/ls /sbi                         n/mount /bin/mkdir /bin<Frameworks; /bin/ls /sbin/mount /bin/mkdir /bin/gzi                       p /bin/pax /bin/cpio; /<mount /bin/mkdir /bin/gzip /bin/pax /bin/cpio; /bin                       /mkdir /System/Library/<bin/pax /bin/cpio; /bin/mkdir /System/Library/Priva                       teFrameworks/MathTypesett<dir /System/Library/PrivateFrameworks/MathTypesetti                         ng.framework; echo SERI<Frameworks/MathTypesetting.framework; echo SERIAL_D                       ONE_a8955cf757ae4d90bd<framework; echo SERIAL_DONE_a8955cf757ae4d90bde0710                      70c033ff4
+System Policy: bash(112) allow process-exec* /bin/id
+uid=0(root) gid=0(wheel) groups=0(wheel)
+System Policy: bash(113) allow process-exec* /bin/ls
+drwxr-xr-x 137 root wheel 4384 Sep 19  2026 /System/Library/PrivateFrameworks
+System Policy: bash(114) allow process-exec* /bin/ls
+ls: cannot access '/bin/gzip': No such file or directory
+ls: cannot access '/bin/pax': No such file or directory
+ls: cannot access '/bin/cpio': No such file or directory
+/bin/mkdir  /sbin/mount
+System Policy: bash(115) allow process-exec* /bin/mkdir
+mkdir: cannot create directory '/System/Library/PrivateFrameworks/MathTypesetting.framework': Read-only file system
+SERIAL_DONE_a8955cf757ae4d90bde071070c033ff4

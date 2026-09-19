@@ -1,0 +1,31 @@
+{
+  "image": "firmware/iphone-17-ui-probe/service-root-math-v85.dmg",
+  "base": "service-root-wheel-v84.dmg",
+  "runtime_verified": false,
+  "source": "/tmp/a19-system/System/Library/PrivateFrameworks/MathTypesetting.framework",
+  "destination": "System/Library/PrivateFrameworks/MathTypesetting.framework",
+  "files": [
+    {
+      "path": "EQKitDefaultEnvironment.plist",
+      "size": 79461,
+      "sha256": "384c8bb96ca40fe0ea05bda8563136a408c4139481e6a0e59b70e1c281309e49"
+    },
+    {
+      "path": "EQKitOperatorDictionary.plist",
+      "size": 345700,
+      "sha256": "f2f92a5808bbb03166e0915c424f408c1a2f22fe4400fa44ff46a6f76675516e"
+    },
+    {
+      "path": "Info.plist",
+      "size": 868,
+      "sha256": "2ca85006c84e5b737e7f88ee9a63d0f36b64a8ab0dc25c3565a4947fd27dd341"
+    },
+    {
+      "path": "_CodeSignature/CodeResources",
+      "size": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    }
+  ],
+  "trustcache_sha256": "26f23c1ca2fa0583ca9720d1973ec111483d2fe4eb20478a4485d288491e0d6a",
+  "trustcache_unchanged_from_v84": true
+}

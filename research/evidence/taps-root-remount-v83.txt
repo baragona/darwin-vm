@@ -1,0 +1,48 @@
+/sbin/mount -uw /; /bin/mkdir /System/Library/PrivateFrameworks/Ma<; /bin/mkdir /System/Library/PrivateFrameworks/Math                        Typesetting.framework;<PrivateFrameworks/MathTypesetting.framework; /bin/l                      s /bin; echo SERIAL_DONE<tting.framework; /bin/ls /bin; echo SERIAL_DONE_f84                        de22e187a4e7da5e0008a720c<bin; echo SERIAL_DONE_f84de22e187a4e7da5e0008a720cb                         3d2
+System Policy: bash(116) allow process-exec* /sbin/mount
+System Policy: mount(117) allow process-exec* /System/Library/Filesystems/apfs.fs/mount_apfs
+mount_apfs: volume could not be mounted: Operation not permitted
+mount: / failed with 77
+System Policy: bash(118) allow process-exec* /bin/mkdir
+mkdir: cannot create directory '/System/Library/PrivateFrameworks/MathTypesetting.framework': Read-only file system
+System Policy: bash(119) allow process-exec* /bin/ls
+'['			 join			   sha1sum
+ base64			 launch-probe		   sha224sum
+ basename		 link			   sha256sum
+ basenc			 live-input-agent	   sha384sum
+ bash			 ln			   sha512sum
+ cache-diagnostics	 logname		   shred
+ cat			 ls			   sleep
+ chgrp			 ls-open-probe		   software-render-probe
+ chmod			 ls-rebuild-probe	   sort
+ chown			 ls-registration-probe	   split
+ chroot			 md5sum			   stat
+ cksum			 mkdir			   stdbuf
+ comm			 mkfifo			   stty
+ cp			 mknod			   sum
+ csplit			 mktemp			   sync
+ cut			 mount-tmpfs-probe	   tac
+ date			 mv			   tail
+ dd			 nice			   tee
+ dir			 nl			   test
+ dircolors		 nohup			   thread-probe
+ dirname		 nproc			   timeout
+ display-capture-probe	 numfmt			   touch
+ display-pack-probe	 od			   tr
+ display-probe		 paste			   true
+ du			 pathchk		   truncate
+ echo			 pinky			   tsort
+ env			 pr			   tty
+ expand			 printenv		   ui-probe
+ expr			 printf			   uname
+ false			 ptx			   unexpand
+ fmt			 pwd			   uniq
+ fold			 readlink		   unlink
+ groups			 realpath		   users
+ head			 remote-layer-probe	   vdir
+ hid-input-probe	 remote-layer-unentitled   virtual-display-probe
+ hostid			 rm			   wc
+ id			 rmdir			   who
+ init-writable-var	 seq			   whoami
+ install		 sh
+SERIAL_DONE_f84de22e187a4e7da5e0008a720cb3d2

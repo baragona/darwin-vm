@@ -205,3 +205,27 @@ SwiftUI AttributeGraph transaction/layout, while a background worker waits on
 a CoreData RunningBoard assertion. This is startup/layout progress, not a
 verified functional Calculator. Inspection byte restored/read0 before viewer
 restart. No Calculator computation or assertion has been bypassed.
+
+The restored viewer validated a full frame of the real Apple Calculator keypad,
+with numerals, arithmetic operators, and toolbar glyphs. Screenshot
+taps-calculator-visible-v83.png. Button fills and the initial result area are
+visually incomplete. Actual browser mouse clicks now submit2,+,3,=; a visible
+result is required before claiming Calculator works.
+
+Calculator2 visibly highlighted after the mouse click, but no result appeared.
+A second PID104 thread sample succeeded/resumed all three threads; the main
+thread was in the normal CFRunLoop/UIApplicationMain event loop. Inspection
+byte restored/read0. Guest filesystem inspection confirms Calculate.framework
+and CalculateUI.framework exist, while MathTypesetting.framework is absent.
+The matching firmware contains its default environment and operator dictionaries,
+Info.plist, and resource signature. This is a concrete resource gap, not yet
+proof of the blank result's cause. Guest root remount -uw failed with77/Operation
+not permitted; the root remains read-only and no resource install occurred live.
+Guest id reports UID0, but sandbox rules still deny app-container enumeration,
+so the attempted saved-note file export did not succeed. V83 is retained intact.
+
+Staged service-root-math-v85.dmg clones the unbooted V84 image and restores all
+four matching MathTypesetting files, byte-compared with SHA256 manifest
+math-staging-v85.json. No executable or trust-cache change from V84 is required.
+The image was cleanly detached. It has NOT been booted: Calculator arithmetic
+and the resource fix remain unverified. V83's live viewer is restored.
