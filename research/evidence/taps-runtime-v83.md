@@ -141,3 +141,26 @@ did not close the agent; an attempted thread-sample command was rejected by the
 still-running agent, so no thread sample was obtained. A clean newline followed
 by Q produced LIVE_INPUT_CLOSED. The temporary kernel inspection byte was
 restored and read back0 at a kernel stop before restarting the viewer.
+
+The restarted viewer validated a fresh frame showing the exact browser-typed
+text `hello from ios 27.` and Scroll mode. Screenshot taps-notebook-typed-v83.png
+proves native UITextView editing beyond app callbacks. Drawing/save/reopen next.
+
+A browser mouse stroke reached the app and its first segment rendered. Save and
+the remaining stroke were delayed. A successful PID96 thread sample resumed all
+five threads (RESUME_RESULT=0); the sampled main thread was formatting an NSError
+for ManagedConfiguration MCDataFromFile, not shown waiting inside AudioSession.
+Symbols are recorded separately; this one sample does not establish the root
+cause. No audio-service change was made. Inspection byte restored/read0 again.
+The app subsequently logged additional drawing callbacks and two successful
+Saved on this iPhone events. The viewer has restarted to verify the final pixels.
+
+Fresh validated frame1 now visibly shows `hello from ios 27.`, the complete
+mouse-drawn check mark, and Saved on this iPhone. The note, bundled image,
+buttons, and actual guest-rendered drawing are preserved in
+taps-notebook-saved-drawing-v83.png. Home/reopen verification follows.
+
+The actual viewer Home button returned to SpringBoard. A corrupted transition
+frame was rejected, then full frame4 validated with Settings, Field Notes, and
+Calculator icons. Screenshot taps-notebook-return-home-v83.png. The real
+Field Notes icon was clicked again to verify reopening.

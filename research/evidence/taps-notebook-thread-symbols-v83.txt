@@ -1,0 +1,48 @@
+0x1953a3230 IMAGE
+-----
+ > /usr/lib/dyld (__TEXT.__text)
+
+0x180483230: __ZNK6mach_o8Platform5valueEv
+
+0x195b63110 IMAGE
+-----
+ > /System/Library/Frameworks/Foundation.framework/Foundation (__TEXT.__text)
+
+0x180c43110: -[NSError _cocoaErrorStringWithKind:variant:] + 80
+
+0x1a37b7d54 IMAGE
+-----
+ > /usr/lib/system/libsystem_trace.dylib (__TEXT.__text)
+
+0x18e897d54: __os_log_fmt_flatten_NSCF + 64
+
+0x1a37c46dc IMAGE
+-----
+ > /usr/lib/system/libsystem_trace.dylib (__TEXT.__text)
+
+0x18e8a46dc: _os_log_fmt_flatten + 1652
+
+0x1a4ca1ce8 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration (__TEXT.__text)
+
+0x18fd81ce8: +[NSData(ManagedConfiguration) MCDataFromFile:] + 180
+
+0x1c3a29fb4 IMAGE
+-----
+ > /usr/lib/system/libdispatch.dylib (__TEXT.__text)
+
+0x1aeb09fb4: __dispatch_client_callout + 16
+
+0x1c3a20130 IMAGE
+-----
+ > /usr/lib/system/libdispatch.dylib (__TEXT.__text)
+
+0x1aeb00130: __dispatch_lane_barrier_sync_invoke_and_complete + 56
+
+0x1c3a118f8 IMAGE
+-----
+ > /usr/lib/system/libdispatch.dylib (__TEXT.__text)
+
+0x1aeaf18f8: __dispatch_sema4_timedwait + 88
+
