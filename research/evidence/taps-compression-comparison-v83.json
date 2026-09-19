@@ -1,0 +1,44 @@
+[
+  {
+    "frame": 1,
+    "header": "LIVE_FRAME_BEGIN 1 832 1808 6017024 55375 35086695",
+    "full_canvas_level1_bytes": 55375,
+    "full_canvas_level6_bytes": 28388,
+    "canvas_bytes": 6017024
+  },
+  {
+    "frame": 2,
+    "header": "LIVE_PATCH_BEGIN 2 1 832 1808 267 205 458 1587 2907384 32384 83741f9e",
+    "full_canvas_level1_bytes": 56422,
+    "full_canvas_level6_bytes": 29327,
+    "canvas_bytes": 6017024
+  },
+  {
+    "frame": 3,
+    "header": "LIVE_PATCH_BEGIN 3 2 832 1808 108 205 617 1587 3916716 8007 57204b40",
+    "full_canvas_level1_bytes": 38188,
+    "full_canvas_level6_bytes": 13365,
+    "canvas_bytes": 6017024
+  },
+  {
+    "frame": 4,
+    "header": "LIVE_PATCH_BEGIN 4 3 832 1808 267 1184 298 101 120392 4571 73d43bd6",
+    "full_canvas_level1_bytes": 43539,
+    "full_canvas_level6_bytes": 18123,
+    "canvas_bytes": 6017024
+  },
+  {
+    "frame": 5,
+    "header": "LIVE_PATCH_BEGIN 5 4 832 1808 108 1070 616 216 532224 8663 557a07e6",
+    "full_canvas_level1_bytes": 46182,
+    "full_canvas_level6_bytes": 17563,
+    "canvas_bytes": 6017024
+  },
+  {
+    "frame": 6,
+    "header": "LIVE_PATCH_BEGIN 6 5 832 1808 24 132 784 1652 5180672 15934 da25fa31",
+    "full_canvas_level1_bytes": 45966,
+    "full_canvas_level6_bytes": 20247,
+    "canvas_bytes": 6017024
+  }
+]

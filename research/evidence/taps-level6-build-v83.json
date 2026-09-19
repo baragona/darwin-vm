@@ -1,0 +1,9 @@
+{
+  "binary_sha256": "1a07cff8832c660866d1671085a71c4f0e4fd48132aa2ebfb1226e0f93da09f4",
+  "cdhash": "cafa2ab369dbfa8954815af68a39fe8c32bdca9d",
+  "source_sha256": "fb8ff39d93e9601bf45a8d88e7f468f39449acc7ddd3acb703311ff87deca5f1",
+  "strict_build": true,
+  "signature_verified": true,
+  "installed_in_image": false,
+  "runtime_evidence": "Equivalent level argument exercised through exact-agent-UUID-guarded V83 hook"
+}

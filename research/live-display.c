@@ -77,7 +77,9 @@ int live_display_frame(int force_full) {
     if(!patch_length) {
         printf("\nLIVE_FRAME_SAME %lu\n",sequence);baseline=!ferror(stdout);return baseline;
     }
-    unsigned long bytes=capacity;if(compress_bytes(packed,&bytes,patch,patch_length,1))return 0;
+    /* UART transfer dominates capture latency; reduce bytes without changing
+       pixels. V83's UUID-guarded runtime trial exercised this level. */
+    unsigned long bytes=capacity;if(compress_bytes(packed,&bytes,patch,patch_length,6))return 0;
     unsigned long previous=sequence,id=++sequence;
     if(full)printf("\nLIVE_FRAME_BEGIN %lu %u %u %zu %lu %08lx\n",id,width,height,patch_length,bytes,crc(0,packed,(unsigned)bytes));
     else printf("\nLIVE_PATCH_BEGIN %lu %lu %u %u %u %u %u %u %zu %lu %08lx\n",id,previous,width,height,damage.x,damage.y,damage.width,damage.height,patch_length,bytes,crc(0,packed,(unsigned)bytes));

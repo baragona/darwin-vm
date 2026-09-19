@@ -51,3 +51,31 @@ the command; explicit shutdown or UART closure still terminates it. A regression
 test simulates two expired windows, a late ack, and a queued release, proving
 that the original command is sent once and the release follows. All five Python
 protocol tests and browser handler tests pass. Live verification is next.
+
+The fixed bridge accepted all14 browser unlock commands; the guest acknowledged
+them and subsequently rendered Home (taps-home-v83.png). Initial Home still
+shows Settings only, so pre-registering apps did not put Notebook on page1.
+The prior V79 IconState evidence places Notebook on page2, with Calculator in a
+Utilities folder. A six-move horizontal browser swipe again entered edit mode,
+so streamed gesture timing remains a separate problem from the dead writer.
+
+An exact-agent-UUID-guarded debugger experiment changes only compress2's level
+argument from1 to6. The agent UUID is D68A368D-F424-336F-8858-80A3CE81EE93 and
+its current base is0x1048c0000. No pixels or frame validation are changed. Six
+frames decoded with zero rejections at the initial observation; later console
+interleaving still caused two rejected transfers. Host recompression of identical
+validated canvases shows roughly2–3x fewer bytes at level6; this is not a
+controlled guest CPU-time benchmark. See taps-compression-comparison-v83.json.
+The running guest uses the guarded hook; its on-disk agent still requests level1.
+
+An actual browser click on Home's edit-mode checkmark generated the single
+command T0.82300,0.03200. The guest accepted it and the next validated frame
+removed the edit controls (taps-checkmark-result-v83.png). This verifies a real
+UIKit/SpringBoard response to the short-tap path, beyond protocol acceptance.
+Streamed swipes remain unreliable and are not claimed fixed.
+
+The source now defaults to compression level6. A new strict iOS cross-build and
+signature verification pass (taps-level6-build-v83.json); that new binary is not
+installed in the running image. V83 continues with its original signed binary
+and the UUID-guarded level6 hook. The source change needs staging in the next
+image to remove that experimental debugger override.
