@@ -1,0 +1,66 @@
+0x19d3c17d0 IMAGE
+-----
+ > /System/Library/Frameworks/SwiftUICore.framework/SwiftUICore (__TEXT.__text)
+
+0x1884a17d0: _$s14AttributeGraph0A0VyACyxGqd__c5ValueQyd__RszAA4RuleRd__lufcADSPyqd__GXEfU_ySv_So11AGAttributeatcyXEfU_ySv_AJtcfu_7SwiftUI13ViewTransformV_AK04RootI033_7D9EDEF832940A362646A6E979F296C8LLVTt1g5 + 60
+
+0x19f79f958 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/AttributeGraph.framework/AttributeGraph (__TEXT.__text)
+
+0x18a87f958: __ZN2AG5Graph11UpdateStack6updateEv + 568
+
+0x19d34ae28 IMAGE
+-----
+ > /System/Library/Frameworks/SwiftUICore.framework/SwiftUICore (__TEXT.__text)
+
+0x18842ae28: _$s7SwiftUI9GraphHostC14runTransactionyyF + 208
+
+0x19988c64c IMAGE
+-----
+ > /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore (__TEXT.__text)
+
+0x18496c64c: _$s5UIKit17UIHostingViewBaseC14layoutSubviewsyyF + 396
+
+0x19f7f7c68 IMAGE
+-----
+ > /System/Library/Frameworks/SwiftUI.framework/SwiftUI (__TEXT.__text)
+
+0x18a8d7c68: _$s7SwiftUI14_UIHostingViewC14layoutSubviewsyyFTm + 128
+
+0x1993165b4 IMAGE
+-----
+ > /System/Library/Frameworks/QuartzCore.framework/QuartzCore (__TEXT.__text)
+
+0x1843f65b4: -[CALayer layoutSublayers] + 496
+
+0x196c68828 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181d48828: __ZN5swift26_buildDemanglingForContextEPKNS_23TargetContextDescriptorINS_9InProcessEEEN7__swift9__runtime4llvm8ArrayRefIPNS_8Demangle9__runtime4NodeEEERNSA_9DemanglerE + 92
+
+0x19e6e8708 IMAGE
+-----
+ > /System/Library/Frameworks/CoreData.framework/CoreData (__TEXT.__text)
+
+0x1897c8708: -[_PFRunningBoardBackgroundLazyVoucher initWithTask:] + 244
+
+0x19e650318 IMAGE
+-----
+ > /System/Library/Frameworks/CoreData.framework/CoreData (__TEXT.__text)
+
+0x189730318: +[_PFRunningBoardBackgroundRuntimeVoucher _beginPowerAssertionNamed:forCoordinator:] + 116
+
+0x1a125b7d4 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices (__TEXT.__text)
+
+0x18c33b7d4: -[RBSXPCMessage sendToConnection:error:] + 328
+
+0x19e6e983c IMAGE
+-----
+ > /System/Library/Frameworks/CoreData.framework/CoreData (__TEXT.__text)
+
+0x1897c983c: ___90-[_PFRunningBoardBackgroundRuntimeProvider _performAssertionRequestWithCompletionHandler:]_block_invoke_2 + 236
+

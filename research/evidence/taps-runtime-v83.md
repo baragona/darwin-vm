@@ -192,3 +192,16 @@ of view, and exposed the vertical scroll indicator. Screenshot
 taps-notebook-scrolled-v83.png verifies real UIScrollView input and rendering.
 The Field Notes interaction sequence is now visually verified; Apple
 Calculator arithmetic remains incomplete.
+
+An actual browser click on the Calculator Home icon launched Calculator PID104.
+The read-only UIApplicationMain observer validated Apple Calculator UUID
+19A87853-DD17-33B3-99DB-5C8AB6F0EC48 at base0x100d48000. No new persona
+allocation was needed. Arithmetic remains unverified pending a rendered UI.
+
+V81 was confirmed paused, then closed through QMP after the V83 saved-note demo
+was verified; its launcher exited0. V83 remains running. Calculator PID104's
+thread sample succeeded and resumed all five threads. The main thread is in
+SwiftUI AttributeGraph transaction/layout, while a background worker waits on
+a CoreData RunningBoard assertion. This is startup/layout progress, not a
+verified functional Calculator. Inspection byte restored/read0 before viewer
+restart. No Calculator computation or assertion has been bypassed.
