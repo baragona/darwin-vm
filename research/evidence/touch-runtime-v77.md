@@ -179,3 +179,48 @@ touch-destination-summary-v77.json and touch-client-counts-v77.json. The observe
 records raw registers; only its explicit destination decode uses the verified
 BKTargetDestination field offsets. Earlier generic event/receiver labels are
 not reliable object descriptions for optimized direct calls.
+
+
+## SpringBoard receives UIKit events but its main thread is waiting
+
+Read-only BKHIDClientConnection PID inspection (verified getter offset 0x20)
+identifies PID 68, SpringBoard, for all 28 destination sends. This resolves the
+previously unknown task-port owner; these events are not targeting TouchProbe90.
+The shared IOKit queue callback runs for multiple clients, including one whose
+registered callback is _UIEventFetcherReceiveHIDEventCallback. A direct observer
+on that UIKit callback records 28 hits in a subsequent complete swipe.
+
+Another complete swipe observes 28 hits each at the fetcher's ingestion block,
+_UIHIDTransformer handleHIDEvent:, and UIEventFetcher addFilteredHIDEvent:.
+UIEventFetcher drainEvents: has zero hits. Thus the earlier statement that UIKit
+shows no receipt was too broad: its event fetcher receives the events, while
+UIApplication/window delivery and queue draining remain unobserved.
+
+Guest thread samples explain a likely reason for the undrained queue:
+SpringBoard's main thread is in a synchronous NSXPC reply wait, reached from
+SBBacklightIdleTimer _reconfigureAttentionClientAndReset: through
+AWAttentionAwarenessClient setConfiguration:shouldReset:error:. Two later
+samples retain the same stack. TouchProbe90's main thread instead shows its
+run loop beneath UIApplicationMain.
+
+BackBoard51 (the original launch plist hosts com.apple.AttentionAwareness) has
+77 threads. Its thread72 waits inside AWRemoteClient setClientConfig:shouldReset:reply:;
+thread75 is in another synchronous XPC reply wait, under BiometricKitXPCClient
+connect, initializeConnection, detectPresenceWithOptions:async:withReply:,
+BKFaceDetectOperation, AWPearlAttentionSampler, and AWScheduler armEvents.
+See touch-attention-stacks-v77.json for available symbol mappings; unmapped
+addresses are explicitly null rather than guessed.
+
+Because biometrickitd had been removed earlier, the existing guest job was
+resubmitted and started. Both launch replies returned errno0; the later job list
+confirms biometrickitd.pearl PID120. SpringBoard still has the same main-thread
+wait afterward, and the drain observer remains at zero. Restarting that daemon
+alone therefore did not resolve the wait in the observed interval. It is not
+established when the wait originally began or whether daemon removal caused it.
+A targeted next experiment is disabling the guest's attention-sensing path and
+restarting SpringBoard, preserving the input implementation.
+
+All thread probes returned RESUME_RESULT=0 and commands reached their terminal
+markers. The temporary guest task-inspection byte was restored and read back0;
+all new event observers were removed and the guest resumed. Unlike the earlier
+snapshot, biometrickitd is now running. No host security setting changed.

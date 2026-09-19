@@ -1,0 +1,9 @@
+/bin/launch-probe submit /launchjobs/com.apple.biometrickitd.probe.< submit /launchjobs/com.apple.biometrickitd.probe.p                         list; /bin/launch-probe s<ple.biometrickitd.probe.plist; /bin/launch-probe st                         art com.apple.biometricki<ist; /bin/launch-probe start com.apple.biometrickit                         d.pearl; echo SERIAL_DONE<rt com.apple.biometrickitd.pearl; echo SERIAL_DONE_                         89f58a7feadf4a96ab116e09c<.pearl; echo SERIAL_DONE_89f58a7feadf4a96ab116e09c3                         199f8c
+System Policy: bash(118) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(119) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_89f58a7feadf4a96ab116e09c3199f8c

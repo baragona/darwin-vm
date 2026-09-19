@@ -1,0 +1,318 @@
+{
+  "backboard_thread_75": [
+    {
+      "runtime": "0x23a817cd4",
+      "unslid": "0x237ef7cd4",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg2_trap",
+      "offset": "0x8"
+    },
+    {
+      "runtime": "0x23a81b308",
+      "unslid": "0x237efb308",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg2_internal",
+      "offset": "0x4c"
+    },
+    {
+      "runtime": "0x23a81b228",
+      "unslid": "0x237efb228",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg_overwrite",
+      "offset": "0x1a8"
+    },
+    {
+      "runtime": "0x23a81b074",
+      "unslid": "0x237efb074",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg",
+      "offset": "0x18"
+    },
+    {
+      "runtime": "0x1b142b89c",
+      "unslid": "0x1aeb0b89c",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1b142bce8",
+      "unslid": "0x1aeb0bce8",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x182ed2ae0",
+      "unslid": "0x1805b2ae0",
+      "nearest_symbol": "(external|__TEXT.__text)            _xpc_connection_send_message_with_reply_sync",
+      "offset": "0x12c"
+    },
+    {
+      "runtime": "0x183435dc4",
+      "unslid": "0x180b15dc4",
+      "nearest_symbol": "(__TEXT.__text)\t___NSXPCCONNECTION_IS_WAITING_FOR_A_SYNCHRONOUS_REPLY__\tFoundation",
+      "offset": "0x10"
+    },
+    {
+      "runtime": "0x18341a9c0",
+      "unslid": "0x180afa9c0",
+      "nearest_symbol": "(__TEXT.__text)\t-[NSXPCConnection _sendInvocation:orArguments:count:methodSignature:selector:withProxy:]\tFoundation",
+      "offset": "0x8c0"
+    },
+    {
+      "runtime": "0x182f6e99c",
+      "unslid": "0x18064e99c",
+      "nearest_symbol": "(private|__TEXT.__text)\t____forwarding___\tCoreFoundation",
+      "offset": "0x414"
+    },
+    {
+      "runtime": "0x182f6ebb0",
+      "unslid": "0x18064ebb0",
+      "nearest_symbol": "(external|__TEXT.__text)               __CF_forwarding_prep_0",
+      "offset": "0x60"
+    },
+    {
+      "runtime": "0x1d282c0f4",
+      "unslid": "0x1cff0c0f4",
+      "nearest_symbol": "(__TEXT.__text)\t-[BiometricKitXPCClient connect]\tBiometricKit",
+      "offset": "0x2e0"
+    },
+    {
+      "runtime": "0x1d282bd98",
+      "unslid": "0x1cff0bd98",
+      "nearest_symbol": "(__TEXT.__text)\t-[BiometricKitXPCClient initializeConnection]\tBiometricKit",
+      "offset": "0x58"
+    },
+    {
+      "runtime": "0x1d282cb00",
+      "unslid": "0x1cff0cb00",
+      "nearest_symbol": "(__TEXT.__text)\t-[BiometricKitXPCClient detectPresenceWithOptions:async:withReply:]\tBiometricKit",
+      "offset": "0x48"
+    },
+    {
+      "runtime": "0x1d282c958",
+      "unslid": "0x1cff0c958",
+      "nearest_symbol": "(__TEXT.__text)\t-[BKFaceDetectOperation startBioOperation:reply:]\tBiometricKit",
+      "offset": "0x294"
+    },
+    {
+      "runtime": "0x1d282c418",
+      "unslid": "0x1cff0c418",
+      "nearest_symbol": "(__TEXT.__text)\t-[BKOperation startOperation:reply:]\tBiometricKit",
+      "offset": "0x1a8"
+    },
+    {
+      "runtime": "0x1d282c240",
+      "unslid": "0x1cff0c240",
+      "nearest_symbol": "(__TEXT.__text)\t-[BKOperation startWithReply:]\tBiometricKit",
+      "offset": "0x7c"
+    },
+    {
+      "runtime": "0x1ba661c9c",
+      "unslid": "0x1b7d41c9c",
+      "nearest_symbol": "(__TEXT.__text)\t-[BiokitOperation startPresenceDetectOperation:]\tAttentionAwareness",
+      "offset": "0x7c"
+    },
+    {
+      "runtime": "0x1ba66109c",
+      "unslid": "0x1b7d4109c",
+      "nearest_symbol": "(__TEXT.__text)\t-[AWPearlAttentionSampler triggerFaceDetectWithDeadline:options:]\tAttentionAwareness",
+      "offset": "0x15c"
+    },
+    {
+      "runtime": "0x1ba65aaa0",
+      "unslid": "0x1b7d3aaa0",
+      "nearest_symbol": "(__TEXT.__text)\t-[AWAttentionSampler finishDeadlineComputationWithOptions:]\tAttentionAwareness",
+      "offset": "0x40"
+    },
+    {
+      "runtime": "0x1ba656584",
+      "unslid": "0x1b7d36584",
+      "nearest_symbol": "(__TEXT.__text)\t-[AWScheduler armEvents]\tAttentionAwareness",
+      "offset": "0x11c"
+    },
+    {
+      "runtime": "0x1ba65546c",
+      "unslid": "0x1b7d3546c",
+      "nearest_symbol": "(__TEXT.__text)\t___31-[AWScheduler initWithOptions:]_block_invoke\tAttentionAwareness",
+      "offset": "0x104"
+    },
+    {
+      "runtime": "0x1b1429fb4",
+      "unslid": "0x1aeb09fb4",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1b1414700",
+      "unslid": "0x1aeaf4700",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1b1427bb0",
+      "unslid": "0x1aeb07bb0",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1b1426a74",
+      "unslid": "0x1aeb06a74",
+      "nearest_symbol": null,
+      "offset": null
+    }
+  ],
+  "springboard_main": [
+    {
+      "runtime": "0x23a817cd4",
+      "unslid": "0x237ef7cd4",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg2_trap",
+      "offset": "0x8"
+    },
+    {
+      "runtime": "0x23a81b308",
+      "unslid": "0x237efb308",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg2_internal",
+      "offset": "0x4c"
+    },
+    {
+      "runtime": "0x23a81b228",
+      "unslid": "0x237efb228",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg_overwrite",
+      "offset": "0x1a8"
+    },
+    {
+      "runtime": "0x23a81b074",
+      "unslid": "0x237efb074",
+      "nearest_symbol": "(external|__TEXT.__text)         _mach_msg",
+      "offset": "0x18"
+    },
+    {
+      "runtime": "0x1b142b89c",
+      "unslid": "0x1aeb0b89c",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1b142bce8",
+      "unslid": "0x1aeb0bce8",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x182ed2ae0",
+      "unslid": "0x1805b2ae0",
+      "nearest_symbol": "(external|__TEXT.__text)            _xpc_connection_send_message_with_reply_sync",
+      "offset": "0x12c"
+    },
+    {
+      "runtime": "0x183435dc4",
+      "unslid": "0x180b15dc4",
+      "nearest_symbol": "(__TEXT.__text)\t___NSXPCCONNECTION_IS_WAITING_FOR_A_SYNCHRONOUS_REPLY__\tFoundation",
+      "offset": "0x10"
+    },
+    {
+      "runtime": "0x18341a9c0",
+      "unslid": "0x180afa9c0",
+      "nearest_symbol": "(__TEXT.__text)\t-[NSXPCConnection _sendInvocation:orArguments:count:methodSignature:selector:withProxy:]\tFoundation",
+      "offset": "0x8c0"
+    },
+    {
+      "runtime": "0x182f6e99c",
+      "unslid": "0x18064e99c",
+      "nearest_symbol": "(private|__TEXT.__text)\t____forwarding___\tCoreFoundation",
+      "offset": "0x414"
+    },
+    {
+      "runtime": "0x182f6ebb0",
+      "unslid": "0x18064ebb0",
+      "nearest_symbol": "(external|__TEXT.__text)               __CF_forwarding_prep_0",
+      "offset": "0x60"
+    },
+    {
+      "runtime": "0x1ba65f7bc",
+      "unslid": "0x1b7d3f7bc",
+      "nearest_symbol": "(__TEXT.__text)\t___65-[AWAttentionAwarenessClient setConfiguration:shouldReset:error:]_block_invoke_2\tAttentionAwareness",
+      "offset": "0xb8"
+    },
+    {
+      "runtime": "0x1ba651f30",
+      "unslid": "0x1b7d31f30",
+      "nearest_symbol": "(__TEXT.__text)\t-[AWAttentionAwarenessClient _invokeRequiringClient:error:block:]\tAttentionAwareness",
+      "offset": "0x1c8"
+    },
+    {
+      "runtime": "0x1ba651b80",
+      "unslid": "0x1b7d31b80",
+      "nearest_symbol": "(__TEXT.__text)\t___65-[AWAttentionAwarenessClient setConfiguration:shouldReset:error:]_block_invoke\tAttentionAwareness",
+      "offset": "0xc0"
+    },
+    {
+      "runtime": "0x1b1429fb4",
+      "unslid": "0x1aeb09fb4",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1b1420130",
+      "unslid": "0x1aeb00130",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x1ba65f5d8",
+      "unslid": "0x1b7d3f5d8",
+      "nearest_symbol": "(__TEXT.__text)\t-[AWAttentionAwarenessClient setConfiguration:shouldReset:error:]\tAttentionAwareness",
+      "offset": "0x130"
+    },
+    {
+      "runtime": "0x1ba65f45c",
+      "unslid": "0x1b7d3f45c",
+      "nearest_symbol": "(__TEXT.__text)\t-[AWAttentionAwarenessClient setConfiguration:shouldReset:]\tAttentionAwareness",
+      "offset": "0x20"
+    },
+    {
+      "runtime": "0x2896fcc14",
+      "unslid": "0x286ddcc14",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x2896fc5d8",
+      "unslid": "0x286ddc5d8",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x2896fc408",
+      "unslid": "0x286ddc408",
+      "nearest_symbol": null,
+      "offset": null
+    },
+    {
+      "runtime": "0x2274f179c",
+      "unslid": "0x224bd179c",
+      "nearest_symbol": "(__TEXT.__text)\t-[SBBacklightIdleTimer _reconfigureAttentionClientAndReset:]\tSpringBoard",
+      "offset": "0x2c0"
+    },
+    {
+      "runtime": "0x2274f1318",
+      "unslid": "0x224bd1318",
+      "nearest_symbol": "(__TEXT.__text)\t-[SBBacklightIdleTimer reset]\tSpringBoard",
+      "offset": "0x6c"
+    },
+    {
+      "runtime": "0x227456dc4",
+      "unslid": "0x224b36dc4",
+      "nearest_symbol": "(__TEXT.__text)\t-[SBIdleTimerGlobalCoordinator resetIdleTimerForReason:]\tSpringBoard",
+      "offset": "0x60"
+    },
+    {
+      "runtime": "0x22751cf3c",
+      "unslid": "0x224bfcf3c",
+      "nearest_symbol": "(__TEXT.__text)\t-[SBTelephonyManager updateSpringBoard]\tSpringBoard",
+      "offset": "0x138"
+    },
+    {
+      "runtime": "0x22761a974",
+      "unslid": "0x224cfa974",
+      "nearest_symbol": "(__TEXT.__text)\t-[SBTelephonyManager updateCalls]\tSpringBoard",
+      "offset": "0x248"
+    }
+  ]
+}
