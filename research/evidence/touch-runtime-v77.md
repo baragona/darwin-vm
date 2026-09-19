@@ -140,3 +140,42 @@ guest resumed. Counts and geometry are preserved in touch-route-counts-v77.json
 and touch-route-geometry-values-v77.jsonl. The generic register logger's receiver
 and event field labels are only meaningful at Objective-C entry points; at the
 geometry interior breakpoint they are raw x0/x2, not object interpretations.
+
+
+## Correction: alternate posting path reaches a live HID connection
+
+Further read-only tracing overturns the inference that zero hits on the earlier
+posting method imply no delivery attempt. V77 uses the poster block at unslid
+0x22ac997c0. Hit-testing, destination filtering, and adding a destination all run;
+the poster block processes two destinations per frame, 28 callbacks per swipe.
+Captured target IDs are 0x78b1e241 and 0x33839f03, with client task-port name and
+connection identifier 0x13e63. A Mach task-port name is not a process PID; its
+owner has not yet been identified.
+
+The delegate supports sendEvent:forTargetID:toClientConnectionIdentifier:.
+BKHIDEventHitTestDispatcher reaches its valid-connection send branch at
+0x22acd9e44, then BKSendHIDEventToClientWithTaskPort at 0x22abd4700. Its optional
+hook pointer is NULL, so that hook is not suppressing these events. A non-NULL
+client manager receives the sends. A later repeat observes:
+
+- 0x22abd1154: all 28 client lookups have non-NULL x19.
+- 0x22abd122c: all 28 retained HID connections have non-NULL x19.
+- 0x22abd123c: all 28 connection-dispatch results are zero (success branch).
+
+The dispatch stub resolves to IOKit's 0x18f07e75c. These results establish a
+successful connection-dispatch return, not receipt by UIKit or successful input.
+The next target is the receiving connection's owner and event handling.
+
+An intermediate observation found zero generation fields 0xb001b/0xb001c in
+the poster's pending-update path. That check occurs AFTER the delegate send;
+it must not be treated as proof that ordinary delivery was suppressed.
+
+All six probe commands completed their terminal marker, 14 frames including
+release, 14 monitor callbacks, and exit zero with the original helper alarm.
+No return values, destinations, event metadata, or geometry were overridden.
+Temporary routing breakpoints were removed and the guest resumed. Raw records
+and address hit counts are in touch-destination-registers-v77.jsonl,
+touch-destination-summary-v77.json and touch-client-counts-v77.json. The observer
+records raw registers; only its explicit destination decode uses the verified
+BKTargetDestination field offsets. Earlier generic event/receiver labels are
+not reliable object descriptions for optimized direct calls.

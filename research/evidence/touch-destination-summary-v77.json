@@ -1,0 +1,15 @@
+{
+  "hits_by_runtime_pc": {
+    "0x22d5b97c0": 28,
+    "0x22d5b9a18": 28,
+    "0x22d5b9a54": 28,
+    "0x22d5b99b0": 28,
+    "0x22d5f9e44": 28,
+    "0x22d4f4724": 28,
+    "0x22d4f4744": 28,
+    "0x22d4f1154": 28,
+    "0x22d4f122c": 28,
+    "0x22d4f123c": 28
+  },
+  "connection_dispatch_zero_results": 28
+}
