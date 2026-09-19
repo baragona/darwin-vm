@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>MallocNanoZone</key>
+		<string>0</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.TextInput.kbd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.DataDeliveryServices.AssetService</key>
+		<true/>
+		<key>com.apple.TextInput</key>
+		<true/>
+		<key>com.apple.TextInput.CacheDelete</key>
+		<true/>
+		<key>com.apple.TextInput.accessibility</key>
+		<true/>
+		<key>com.apple.TextInput.autofill-server</key>
+		<true/>
+		<key>com.apple.TextInput.emoji</key>
+		<true/>
+		<key>com.apple.TextInput.image-cache-server</key>
+		<true/>
+		<key>com.apple.TextInput.kbdTransfer</key>
+		<true/>
+		<key>com.apple.TextInput.lexicon-server</key>
+		<true/>
+		<key>com.apple.TextInput.preferences</key>
+		<true/>
+		<key>com.apple.TextInput.rdt</key>
+		<true/>
+		<key>com.apple.TextInput.shortcuts</key>
+		<true/>
+		<key>com.apple.TextInput.typologyAccess</key>
+		<true/>
+		<key>com.apple.TextInput.user-directory-trader-server</key>
+		<true/>
+		<key>com.apple.inputanalytics.testAppRelay</key>
+		<true/>
+		<key>com.apple.keyboardServices.textReplacementServer.aps</key>
+		<true/>
+		<key>com.apple.private.alloy.kbd.transfer-idswake</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/TextInput/kbd</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/var/tmp/kbd.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/var/tmp/kbd.stdout</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

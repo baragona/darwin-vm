@@ -1,0 +1,13 @@
+{
+  "binary_sha256": "5b97860922fb19d1d47656bd54a28b98ee87f2d662f42bcac3d98b4b25bcc000",
+  "source_sha256": "75825b9f5803a49fc9db2bfb887370ff4de1224d22bd51a32e98bb23940d55a2",
+  "runtime_verified": false,
+  "strict_build": true,
+  "signature_verified": true,
+  "host_stub_tests": "invalid input, failed release state, reset key/touch release passed",
+  "cdhash": "7c06fc48ed574dfbe1e5956cf691eca9027c5c0c",
+  "image": "service-root-live-input-v80.dmg",
+  "trustcache": "live-input-v80.tc",
+  "trustcache_entries": 4419,
+  "installed_binary_sha256": "5b97860922fb19d1d47656bd54a28b98ee87f2d662f42bcac3d98b4b25bcc000"
+}
