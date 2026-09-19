@@ -110,3 +110,33 @@ and helper-alarm diagnostic breakpoints were removed afterward; the guest was
 resumed with its existing bootstrap hooks. Kernel persona 1003 remains allocated
 until reboot, and biometrickitd remains stopped. This is a diagnostic session,
 not a persistent or unattended emulator bootstrap.
+
+
+## Narrowing the input delivery gap
+
+Three additional complete probe runs finished with 14 dispatches, 14 matching
+monitor callbacks, release, and exit 0, under the original 45-second alarm.
+The first was a stationary touch made with the same coordinate-only observer;
+the other two were unmodified swipes. No helper alarm extension was needed.
+
+Read-only UIKit breakpoints (unslid plus V77 slide 0x2920000):
+
+- UIApplication _enqueueHIDEvent: at 0x185adf6c8: 0 hits.
+- UIApplication sendEvent: at 0x184e3f6b8: 0 hits.
+- UIWindow sendEvent: at 0x184945140: 0 hits.
+
+The two swipe runs additionally observed BackBoard geometry after lookup at
+0x22ac97524: 56 hits total. The last run recorded all 28 geometry buffers,
+each exactly [832,1808,1,0,0,0,1,1]. This verifies the larger display's geometry
+lookup without changing geometry or input. The posting method previously
+observed in V69, at 0x22ac9c650, had 0 hits in these two V77 runs.
+
+The gap is therefore earlier than the observed UIKit delivery methods, with
+BackBoard destination selection/suppression the next investigation target.
+This does not prove all possible posting paths were covered or establish the
+specific suppression cause. In particular, an overlay consuming UIKit events
+has not been demonstrated. All five routing observers were removed and the
+guest resumed. Counts and geometry are preserved in touch-route-counts-v77.json
+and touch-route-geometry-values-v77.jsonl. The generic register logger's receiver
+and event field labels are only meaningful at Objective-C entry points; at the
+geometry interior breakpoint they are raw x0/x2, not object interpretations.
