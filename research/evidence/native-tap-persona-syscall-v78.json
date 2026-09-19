@@ -1,0 +1,35 @@
+[
+  {
+    "step": "before",
+    "return": 3,
+    "cpsr": "0x60000800",
+    "id": 1003,
+    "info_version": 2,
+    "info_id": 1003,
+    "info_type": 2,
+    "info_uid": 501,
+    "info_name": "darwinvm-501-0"
+  },
+  {
+    "step": "allocate",
+    "return": 0,
+    "cpsr": "0x40000800",
+    "id": 1003,
+    "info_version": 2,
+    "info_id": 1003,
+    "info_type": 2,
+    "info_uid": 501,
+    "info_name": "darwinvm-501-0"
+  },
+  {
+    "step": "verify",
+    "return": 0,
+    "cpsr": "0x40000800",
+    "id": 1003,
+    "info_version": 2,
+    "info_id": 1003,
+    "info_type": 2,
+    "info_uid": 501,
+    "info_name": "darwinvm-501-0"
+  }
+]

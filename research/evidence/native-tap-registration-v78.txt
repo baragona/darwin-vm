@@ -1,0 +1,89 @@
+/bin/launch-probe list; /bin/ls-open-probe --rebuild-system; /bin/l< list; /bin/ls-open-probe --rebuild-system; /bin/ls                         -open-probe --query org.b<--rebuild-system; /bin/ls-open-probe --query org.ba                         ragona.TouchProbe; echo S<open-probe --query org.baragona.TouchProbe; echo SE                         RIAL_DONE_7f323ff715bf4b8<agona.TouchProbe; echo SERIAL_DONE_7f323ff715bf4b82                         9044b3d82e0d1496
+System Policy: bash(39) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=10
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.runningboardd PID=31 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=37 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=27 LAST_EXIT=0
+JOB com.apple.backboardd PID=33 LAST_EXIT=0
+JOB com.apple.lsd PID=25 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=-1 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=23 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=16 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=36 LAST_EXIT=0
+System Policy: bash(40) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501
+com.apple.xpc.launchd|1970-01-01 00:04:53.836085 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-open-probe[40], error = 3: No such process
+attrlistbulk_iterator:19635: md0s1 Spent too much time (18446744073709)s in iterating, stop iterating
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+LS_REBUILD_RESULT=1
+LS_PROBE_END
+System Policy: bash(41) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_IDENTIFIER=org.baragona.TouchProbe
+com.apple.xpc.launchd|1970-01-01 00:05:03.700643 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-open-probe[41], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:05:03.860116 (user/501) <Warning>: failed lookup: name = com.apple.CoreServices.fshelper, requestor = lsd[25], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x100ceacd0> org.baragona.TouchProbe file:///Applications/TouchProbe.app/ <org.baragona.TouchProbe <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///Applications/TouchProbe.app/
+LS_PROBE_END
+com.apple.xpc.launchd|1970-01-01 00:05:04.007431 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = ls-open-probe[41], error = 3: No such process
+SERIAL_DONE_7f323ff715bf4b829044b3d82e0d1496

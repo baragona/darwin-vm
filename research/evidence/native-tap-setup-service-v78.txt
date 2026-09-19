@@ -1,0 +1,62 @@
+/bin/launchcom.apple.xpc.launchd|1970-01-01 00:07:24.898610 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+-probe submit /com.apple.xpc.launchd|1970-01-01 00:07:25.685551 (user/501) <Warning>: failed lookup: name = com.apple.SystemConfiguration.configd, flags = 0x41, requestor = SpringBoard[45], error = 3: No such process
+launchjobs/"AppleSEPKeyStore":pid:45,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 35 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:8:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:8:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:8:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 8 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 35 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:32:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:32:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:32:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 32 ret: e00002d8)
+com."AppleSEPKeyStore":pid:45,sel:35:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:35:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:35:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 35 ret: e00002d8)
+"AppleSEPKeyStore":pid:45,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:45,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:45,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:45,:13996: operation failed (sel: 17 ret: e00002d8)
+apcom.apple.xpc.launchd|1970-01-01 00:07:26.368685 (user/501) <Warning>: failed lookup: name = com.apple.iokit.powerdxpc, requestor = SpringBoard[45], error = 3: No such process
+ple.pcom.apple.xpc.launchd|1970-01-01 00:07:26.528786 (user/501) <Warning>: failed lookup: name = com.apple.chronoservices, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:07:26.534680 (user/501) <Warning>: failed lookup: name = com.apple.TextInput, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+<it /launchjobs/com.apple.purplebuddy.budd.plist; /b      com.apple.xpc.launchd|1970-01-01 00:07:27.732076 (user/501) <Warning>: failed lookup: name = com.apple.SystemConfiguration.NetworkInformation, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+in/launch<rplebuddy.budd.plist; /bin/launch-probe list; echo          SERIAL_DONE_e719390c96<st; echo SERIAL_DONE_e719390c968c4484a7040e7509a570                      12
+System Policy: bash(49) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:07:32.101699 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(50) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:07:34.761798 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:07:34.698385 (user/501) <Warning>: failed lookup: name = com.apple.SecureBackupDaemon.concurrent, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:07:35.092962 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+"AppleSEPKeyStore":pid:43,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:43,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:43,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:43,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:07:35.404252 (user/501) <Warning>: failed lookup: name = com.apple.iokit.powerdxpc, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:07:36.143772 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:07:36.007802 (user/501) <Warning>: failed lookup: name = com.apple.devicedatareset.DeviceDataResetObservationService.NonLaunching, flags = 0x88, requestor = SpringBoard[45], error = 3: No such process
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=13
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=45 LAST_EXIT=0
+JOB com.apple.runningboardd PID=31 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=37 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=27 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=33 LAST_EXIT=0
+JOB com.apple.lsd PID=25 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=43 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=23 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=-1 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=16 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=36 LAST_EXIT=0
+SERIAL_DONE_e719390c968c4484a7040e7509a57012

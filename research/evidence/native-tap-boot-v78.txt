@@ -1,0 +1,321 @@
+iBoot version: qemu-sptm
+Darwin Image4 Extension Version 7.0.0: Thu Aug 13 21:25:47 PDT 2026; root:AppleImage4-374~14049/AppleImage4/RELEASE_ARM64E
+AppleImage4: legacy nonce blob length insufficient: actual = 96, expected >= 368
+AppleImage4: magazine[pdmg]: failed to read nonce slot data: 2
+AppleImage4: magazine[cptx]: failed to read nonce slot data: 2
+AppleImage4: magazine[dvdi]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1bt]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1ab]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1gn]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1sm]: failed to read nonce slot data: 2
+AppleImage4: magazine[d1ma]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1ge]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1er]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1ai]: failed to read nonce slot data: 2
+AppleImage4: magazine[c1al]: failed to read nonce slot data: 2
+AppleImage4: root power domain not yet available: 19
+Image4: unable to setup /chosen/asmb node
+AMFI: UDID support enabled: 2
+AMFI: queried model name from device tree: iPhone18,3
+AMFI: disabling Swift Playgrounds JIT services on iPhone devices
+AMFI: Booted in a VM
+IOServicePH::kIOMessageSystemCapabilityChange: will 0xf->0xf
+IOServicePH::systemPowerChange to 0x30
+IOServicePH::kIOMessageSystemCapabilityChange: did 0xf->0xf
+ACMTRM: initU32FromBootArg: acm_fastsim = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/insecure_hpr = 0x0 <--- not found.
+ACMTRM: isFastSimTarget: isFastSim = NO.
+AppleCredentialManager: init: inited KE[1] (ready=NO AVP=NO SIM=NO SIMT=NO USESEP=YES) -> true.
+AppleCredentialManager: probe: probed KE[1] (ready=NO) -> true (score=0).
+Warning: arc4random not implemented
+Warning: arc4random not implemented
+Warning: arc4random not implemented
+AKSAnalytics built Aug 13 2026 21:38:22
+selected analytics domain FinanceAKSAnalytics startedAppleARMBootPerf: Error: profile handoff region not found (2)
+AppleARMBootPerf: Error: failed to publish profile data (2)
+AppleARMSFRManifest: Starting
+AppleARMSFRManifest: Error: Failed to find property sfr-manifest-hash
+AppleARMSFRManifest: Found HASH property
+AppleARMSFRManifest: Found 0 matching hash entries
+AppleARMSFRManifest: Error: Invalid input
+AppleARMSFRManifest: Error: Failed to find manifest entry region
+AppleARMSFRManifest: Error: Failed to locate manifest information
+AppleARMSFRManifest: Successfully published sfr-manifest
+[AppleLockdownMode - start] started
+Loaded debug arguments with mask 0x00000001, serial log: disabled
+[AppleLockdownMode - LDMShouldEnforceParity] restoreOS check failed
+[AppleLockdownMode - LDMCheckParity] skipping parity check
+[EXBrightKext] EXBrightKext::start
+AppleInterruptControllerV3::start: _aicRevision = 0 _aicBaseAddress = <ptr> _aicNumVectors = 0x00001000 Num Shared Timestamps = 16 
+AppleCredentialManager: start: starting KE[1] (ready=NO) -> true.
+AppleCredentialManager: initImpl: called, KE[1].
+ACMFirstResponderKernelService: init: called, .
+ACM: init: called, .
+ACMTRM-S: init: called, starting PersistentStore service.
+ACMTRM-A: init: called, starting TRM Analytics service.
+ACMTRM-C: init: called, starting AccessoryCache service.
+ACMTRM: init: called, starting TRM service [BUILT: Aug 13 2026, 21:32:40].
+ACMTRM: initU32FromBootArg: trm_default = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_enabled = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/trm-enabled = 0x1.
+ACMTRM: initU32FromBootArg: trm_unification = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_all_policy_modes = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_base_system = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: hidrm_default = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: hidrm_enabled = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/hidrm-enabled = 0x1.
+ACMTRM: initU32FromEDTProp: /options/stress-rack = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_change_policy_mode = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_profile = 0xffffffff <--- not found.
+ACMTRM: initU32FromEDTProp: /defaults/trm-profile = 0x3.
+ACMTRM: initU32FromBootArg: trm_analytics_period = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_acc_cache_size = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_acc_cache_expiration = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_relaxed_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_unlocked_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: usb_standard_mode_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_policy_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: usb_standard_mode_lock_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_grace_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: trm_keep_enabled_during_apple_setup = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: itrm_hyst_period_timeout = 0xffffffff <--- not found.
+ACMTRM: initU32FromBootArg: itrm_grace_period_timeout = 0xffffffff <--- not found.
+ACMTRM: _disableBy: [TRM ENABLED=YES] (mask=0, DISABLED BY: Def=N* Arg=N HW=N DT=N Env=N Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _disableBy: [TRM ENABLED=YES] (mask=0, DISABLED BY: Def=N Arg=N* HW=N DT=N Env=N Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _disableBy: [TRM ENABLED=YES] (mask=0, DISABLED BY: Def=N Arg=N HW=N DT=N* Env=N Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _loadDisabledByOSEnvironment: disabled by OSEnvironment: NO.
+ACMTRM: _disableBy: [TRM ENABLED=YES] (mask=0, DISABLED BY: Def=N Arg=N HW=N DT=N Env=N* Ext=N Dev=N SEP=N SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: initU32FromEDTProp: /chosen/sepfw-load-at-boot = 0x0.
+ACMTRM: isSEPAvailable: isSEPAvailable = NO.
+ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=100, DISABLED BY: Def=N Arg=N HW=N DT=N Env=N Ext=N Dev=N SEP=Y* SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=100, DISABLED BY: Def=N Arg=N HW=N DT=N Env=N Ext=N Dev=N SEP=Y SR=N* | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+ACMTRM: prop___set: TRM_PolicyTimeout = 259200.
+ACMTRM: prop___set: TRM_PolicyReason = Unrestricted(0).
+ACMTRM: prop___set: G/PolicyReason = Unrestricted(0).
+ACMTRM: prop___set: TRM_RelaxedPeriodTimeout = 259200.
+ACMTRM: prop___set: TRM_UnlockedPeriodTimeout = 86400.
+ACMTRM: prop___set: HIDRM_PolicyEnabled = No(0).
+ACMTRM: prop___set: I/PolicyReason = Unrestricted(0).
+ACMTRM: prop___set: TRMDomain_Generic = 1.
+ACMTRM: prop___set: TRMDomain_Inductive = 1.
+ACMTRM: _mapAndPublish: ---> TRM state changed (5/1/1) while LOCKED(1), TRM: 259200/U(0) 4294967295/-(255) M=255/4294967295/4294967295 ---(255)/---(255) L=255 BS=255 R=255 RP=259200/255 UP=86400/255, RAW: U(0) -(255).
+ACMTRM: _mapAndPublish: ---> HIDRM state changed (1) while LOCKED(1), enabled=0 E=255/255.
+ACMLockdownModeKernelService: init: called, .
+ACMLockdownModeKernelService: init: returning, result = true.
+AppleCredentialManager: initImpl: KE[1] INITED.
+AppleCredentialManager: initImpl: returning, KE[1] -> true.
+AppleCredentialManager: startImpl: called, KE[1].
+ACM: TRMAccCache_SetupEmpty: called, cacheSize=48 expiration=2592000.
+ACMTRM: start: security.mac.acm.root_pivot_occurred sysctl registered.
+ACMLockdownModeKernelService: start: called, .
+ACMLockdownModeKernelService: start: returning, result = true.
+AppleCredentialManager: startImpl: initializing power management.
+AppleCredentialManager: startImpl: will join SEPManager's PM tree in getSEPEndpoint().
+AppleCredentialManager: startImpl: registering notifications.
+AppleCredentialManager: startImpl: KE[1] STARTED.
+AppleCredentialManager: startImpl: returning, KE[1] -> true.
+AppleCredentialManager: start: started KE[1] (ready=YES) -> true.
+"AppleSEPKeyStore":pid:0,:373: starting (BUILT: Aug 13 2026 21:37:54) ("normal" variant 🌽 , 2383.2.1)
+"AppleSEPKeyStore":pid:0,:492: _sep_enabled = 1
+"AppleSEPKeyStore":pid:0,:553: ioPerfControl is enabled: 1, 1
+virtual bool CoreAnalyticsHub::start(IOService *)::150:CoreAnalyticsHub start
+virtual bool CoreAnalyticsHub::start(IOService *)::229:CoreAnalyticsHub start completed
+6820792us IOThunderboltFamily (build 21:26:06 Aug 13 2026)
+virtual bool AppleARMLightEmUp::start(IOService *): starting...
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+AMFI: disabling local signing due to restore environment
+AMFI: skipping PMGRAON latch due to AVP
+AMFI: Enabling developer mode since we are restoring....
+AMFI: finished: 0 1
+[uart] Started AppleSerialShim.
+com.apple.AppleFSCompressionTypeZlib kmod start
+apfs_module_start:3381: load: com.apple.filesystems.apfs, v3288.2.1, apfs-3288.2.1, 2026/08/13
+apfs_module_start:3434: Support for hidden keys is enabled
+TrustedClockingKEXT::init - Hello from the kernel!
+TrustedClockingKEXT::probe - Probing hardware...
+com.apple.AppleFSCompressionTypeZlib load succeeded
+Setting up notifier for CoreAnalyticsHub
+AppleARMBacklight::start: Using new Backlight Architecture 1
+AppleARMBacklight::start: _lMaxProduct=196608000
+AppleARMBacklight::start: _lMidProduct=10158080
+AppleARMBacklight::start: _lMinProduct=65536
+AppleARMBacklight::exportCalibration: _lMaxProduct=196608000, _lMidProduct=10158080, _lMinProduct=65536, _lMaxPanel=196608000, _lMidPanel=10158080, _lMinPanel=65536, _milliAmps2NitsScaleFactor=0
+AppleARMBacklight::start: no backlight enable function
+AppleARMBacklight::start: no backlight update function
+AppleARMBacklight::start: _minDACLevel=153 _maxDACLevel=2047
+TrustedClockingKEXT::start - Starting AoE Clocking driver...
+TrustedClockingKEXT::setupTransportAndPublisherForCallbacks - transport=<ptr> publisher=<ptr>
+TrustedClockingKEXT::start - AoE Clocking driver started successfully!
+apfs_sysctl_register:1328: done registering sysctls.
+L2TP domain init
+L2TP domain init complete
+Load request for com.apple.nke.pptp failed: -603946991
+BSD root: md0, major 3, minor 0
+apfs_vfsop_mountroot:3156: apfs: mountroot called!
+container_rootmount:2638: boot from ramdisk /dev/md0
+dev_init:296: md0 device accelerated crypto: 0 (compiled @ Aug 13 2026 21:26:23)
+dev_init:299: md0 device_handle block size 512 block count 18880512 features 0 internal 
+nx_mount:1157: md0 initializing cache w/hash_size 8192 and cache size 24576
+nx_mount:1482: md0 checkpoint search: largest xid 221, best xid 221 @ 55
+nx_mount:1509: md0 stable checkpoint indices: desc 54 data 158
+fs_lookup_root_snapshot_name:375: md0s1 failed to get root-snapshot-name from DT
+apfs_find_named_root_snapshot_xid:2153: md0s1 failed to retrieve default root snapshot xid: No such file or directory (2)
+apfs_find_named_root_snapshot_xid:2191: md0s1 The global payload bytes pointer is NULL
+apfs_vfsop_mount:2914: md0s1 failed to find named root snapshot: Need authenticator (81)
+apfs_log_op_with_proc:3279: md0s1 mounting volume a19-ui-probe, requested by: kernel_task (pid 0); parent: kernel_task (pid 0)
+apfs_vfsop_mount:3017: md0s1 fs iokit node was not found
+handle_mount:893: md0s1 vol-uuid: 5F73DF5C-17BF-4A0D-8ABB-284639C2C1E4 block size: 4096 block count: 2359296 (unencrypted; flags: 0x1; features: 8.0.2)
+handle_mount:906: md0s1 setting dev block size to 4096 from 512
+apfs_log_op_with_proc:3279: md0s1 mount-complete volume a19-ui-probe, requested by: kernel_task (pid 0); parent: kernel_task (pid 0)
+Darwin Ignition Sequence Version 1.0.0: Thu Aug 13 21:26:15 PDT 2026; root:libignition-64~19679/libignition_core/RELEASE_ARM64E
+libignition: 1: arguments           :
+libignition: 1:   ignition level    : 0x5
+libignition: 1:   force dylib root  : 0x0
+libignition: 1:   halt after stage  : n/a
+libignition: 1: configuration         :
+libignition: 1:   program             : launchd
+libignition: 1:   os environment      : n/a
+libignition: 1:   rd                  : md0
+libignition: 1:   arp0                : n/a
+libignition: 1:   rp                  : n/a
+libignition: 1:   pivot src           : n/a
+libignition: 1:   root ramdisk        : 0x0
+libignition: 1:   restore             : 0x1
+libignition: 1:   root device info    : 0x0
+libignition: 1:   can haz debugger    : 0x0
+libignition: 1:   rootfs mount flags  : 0x1480d001
+libignition: 1:   ecid                : 0x0
+libignition: 1:   hardware target     : v57ap
+libignition: 1:   initproc            : 0x1
+libignition: 1:   single user         : 0x0
+libignition: 1:   userspace reboot    : 0x0
+libignition: 1:   secure boot level   : 0x0
+libignition: 1:   os version          : n/a
+libignition: 1: parameters          :
+libignition: 1:   version           : 0x1
+libignition: 1:   argc              : 0x1
+libignition: 1:   log fd            : 0xffffffffffffffff
+libignition: 1:   platform          : 0x2
+libignition: 1: boot spec           :
+libignition: 1:   name              : ramdisk
+libignition: 1:   stage count       : 0x2
+libignition: 1:        hello: commence primary ignition
+libignition: 1:        hello: hello from launchd.1
+libignition: 1:      goodbye: ignition sequence complete
+dyld[1]: result from check_np(): -1, errno 12
+dyld[1]: dyld cache mapped system-wide: customer, auth GOTs: unmapped
+com.apple.xpc.launchd|1970-01-01 00:00:13.331665 <Notice>: hello, launchd UUID: CA54230D-4005-3131-8DC3-CCB7E7EF18E6
+com.apple.xpc.launchd|1970-01-01 00:00:13.444019 <Notice>: no mach port for persistent services: 2
+com.apple.xpc.launchd|1970-01-01 00:00:13.445904 <Notice>: Darwin Bootstrapper Version 7.0.0: Sat Aug  8 16:38:05 PDT 2026; root:libxpc_executables-3298.2.1~23/launchd/RELEASE_ARM64E
+com.apple.xpc.launchd|1970-01-01 00:00:13.446919 <Notice>: boot-args = rd=md0 serial=3 -v -noprogress wdt=-1 wlan-olyhal-abort -restore aks-endpoint=0
+com.apple.xpc.launchd|1970-01-01 00:00:13.447432 <Notice>: Restore environment starting.
+com.apple.xpc.launchd|1970-01-01 00:00:13.491668 (system) <Notice>: entering ondemand mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.495837 (system) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:00:13.518096 (exclaves-boot) <Notice>: Doing boot task
+com.apple.xpc.launchd|1970-01-01 00:00:13.523541 (fsck) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.524172 (mount-phase-1) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.524500 (data-protection) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.524805 (finish-obliteration) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.525112 (detect-installed-roots) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.525403 (select-boot-mode) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.525693 (commit-boot-mode) <Notice>: Doing boot task
+com.apple.xpc.launchd|1970-01-01 00:00:13.526024 <Notice>: boot-mode committed: (null)
+com.apple.xpc.launchd|1970-01-01 00:00:13.526349 (restore-datapartition) <Notice>: Doing boot task
+com.apple.xpc.launchd|1970-01-01 00:00:13.543536 (restore-datapartition) <Notice>: optional boot task not present
+com.apple.xpc.launchd|1970-01-01 00:00:13.547025 (mount-phase-2) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.548034 (init-with-data-volume) <Notice>: Doing boot task
+com.apple.xpc.launchd|1970-01-01 00:00:13.550973 (fixup-mobile-tmp) <Notice>: Doing boot task
+com.apple.xpc.launchd|1970-01-01 00:00:13.553462 (fixup-mobile-tmp) <Error>: could not set create /private/var/mobile/tmp: Read-only file system
+com.apple.xpc.launchd|1970-01-01 00:00:13.553870 (fixup-mobile-tmp) <Notice>: Finished boot task
+com.apple.xpc.launchd|1970-01-01 00:00:13.554534 (MSUEarlyBootTask) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.554959 (MobileAssetEarlyBootTask) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.555292 (fips) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.560194 (keybag) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.560981 (usermanagerd) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.561484 (dirs_cleaner) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.561800 (dirs_cleaner-usr) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.562396 <Notice>: launchd logging initialized. name: com.apple.xpc.launchd pid: 1
+com.apple.xpc.launchd|1970-01-01 00:00:13.583341 <Notice>: Flushed 31 logs [limit: 20]
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:13.587878 (xpcroleaccountd) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588067 (init_featureflags) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588122 (auearlyboot) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588148 (aidearlyboot) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588170 (tzinit) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588190 (finish-restore) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588210 (finish-demo-restore) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588447 (sysstatuscheck) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588468 (prng_seedctl) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588898 <Error>: Unable to open /System/Library/xpc/launchd.plist [2:No such file or directory]
+com.apple.xpc.launchd|1970-01-01 00:00:13.588941 (launchd_cache_loader) <Notice>: Skipping boot-task
+System Policy: xpcproxy(3) allow process-exec* /bin/bash
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 3]: /bin/bash, launch type 1, failure proc [vc: 1 pid: com.apple.xpc.launchd|1970-01-01 00:00:13.588958 (workload-properties-init) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588976 (init-exclavekit) <Notice>: Skipping boot-task
+com.apple.xpc.launchd|1970-01-01 00:00:13.588999 <Error>: No MRM cache found
+com.apple.xpc.launchd|1970-01-01 00:00:13.589927 (trial-factors-v1) <Notice>: reading known trial factors from 0 paths
+com.apple.xpc.launchd|1970-01-01 00:00:13.589962 (trial-factors-v1) <Notice>: reading active trial factors from /private/var/mobile/Library/Trial/NamespaceDescriptors/v2/activeLowLevelFactors.plist
+com.apple.xpc.launchd|1970-01-01 00:00:13.590611 (trial-factors-v1) <Warning>: failed to process path: /private/var/mobile/Library/Trial/NamespaceDescriptors/v2/activeLowLevelFactors.plist: No such file or directory: 2
+com.apple.xpc.launchd|1970-01-01 00:00:13.590723 (boot) <Notice>: Early boot complete. Continuing system boot.
+System Policy: bash(4) allow process-exec* /System/Library/Filesystems/tmpfs.fs/mount_tmpfs
+com.apple.xpc.launchd|1970-01-01 00:00:13.607902 (user/501) <Notice>: entering ondemand mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.608295 (user/501) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:00:13.608550 (system) <Notice>: entering bootstrap mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.608575 (user/501) <Notice>: entering bootstrap mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.638554 (com.jprx.bash) <Notice>: This service is defined to be constantly running and is inherently inefficient.
+com.apple.xpc.launchd|1970-01-01 00:00:13.651091 (user/501) <Notice>: pending spawn, domain in on-demand-only mode: com.jprx.bash
+com.apple.xpc.launchd|1970-01-01 00:00:13.656734 (user/501/com.apple.backboardd) <Warning>: (lint): Assuming EnablePressuredExit=false given EnableTransactions=false.
+com.apple.xpc.launchd|1970-01-01 00:00:13.657110 (com.apple.backboardd) <Error>: Unknown key for plist importer (key: HighPriorityIO type: bool)
+com.apple.xpc.launchd|1970-01-01 00:00:13.676687 (user/501) <Error>: Failed to bootstrap path: path = /System/Library/NanoLaunchDaemonsAltAccount, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.676738 (user/501) <Error>: Failed to bootstrap path: path = /System/Library/NanoLaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.676771 (user/501) <Error>: Failed to bootstrap path: path = /System/Library/LaunchAngels, error = 2: No such file or directory
+System Policy: bash(5) allow process-exec* /bin/cp
+com.apple.xpc.launchd|1970-01-01 00:00:13.676795 (user/501) <Error>: Failed to bootstrap path: path = /System/Library/DeveloperModeLaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.676820 (user/501) <Error>: Failed to bootstrap path: path = /AppleInternal/Library/LaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.676847 (user/501) <Error>: Failed to bootstrap path: path = /AppleInternal/Library/LaunchAngels, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.677095 (user/501) <Notice>: exiting bootstrap mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.677186 (user/501) <Notice>: exiting ondemand mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.677392 (user/501/com.jprx.bash) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:13.677603 (user/501/com.jprx.bash) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:00:13.677656 (user/501/com.jprx.bash) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:00:13.690505 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:13.690567 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:13.690707 (user/501/com.jprx.bash) <Notice>: launching: speculative
+com.apple.xpc.launchd|1970-01-01 00:00:14.625162 <Notice>: Flushed 40 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:00:13.740943 (user/501/com.jprx.bash [3]) <Notice>: xpcproxy spawned with pid 3
+com.apple.xpc.launchd|1970-01-01 00:00:13.741605 (user/501/com.jprx.bash [3]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:13.741742 (user/501/com.jprx.bash [3]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:00:13.744235 (user/501/com.jprx.bash [3]) <NSystem Policy: bash(6) allow process-exec* /bin/mkdir
+otice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:13.744581 (system) <Error>: Failed to bootstrap path: path = /System/Library/NanoLaunchDaemonsAltAccount, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.744619 (system) <Error>: Failed to bootstrap path: path = /System/Library/NanoLaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.744644 (system) <Error>: Failed to bootstrap path: path = /System/Library/LaunchAngels, error = 2: No such file or directory
+System Policy: bash(7) allow process-exec* /bin/chown
+com.apple.xpc.launchd|1970-01-01 00:00:13.744668 (system) <Error>: Failed to bootstrap path: path = /System/Library/DeveloperModeLaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.744690 (system) <Error>: Failed to bootstrap path: path = /AppleInternal/Library/LaunchDaemons, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.744727 (system) <Error>: Failed to bootstrap path: path = /AppleInternal/Library/LaunchAngels, error = 2: No such file or directory
+com.apple.xpc.launchd|1970-01-01 00:00:13.744777 (system) <Notice>: exiting bootstrap mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.744810 (system) <Notice>: exiting ondemand mode
+com.apple.xpc.launchd|1970-01-01 00:00:13.925679 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:13.925906 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:00:13.997189 (user/501/com.jprx.bash [3]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:00:13.997335 (user/501/com.jprx.bash [3]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:00:13.997426 (user/501/com.jprx.bash [3]) <Notice>: Successfully spawned bash[3] because speculative
+System Policy: bash(8) allow process-exec* /bin/chown
+com.apple.xpc.launchd|1970-01-01 00:00:14.201045 (pid/3 [bash]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:00:14.201302 (pid/3 [bash]) <Notice>: created
+System Policy: bash(9) allow process-exec* /bin/chmod
+System Policy: bash(10) allow process-exec* /bin/chmod
+System Policy: bash(11) allow process-exec* /bin/chmod
+System Policy: bash(12) allow process-exec* /bin/cat
+writable-var
+System Policy: bash(13) allow process-exec* /bin/touch
+
+WRITABLE_VAR_READY
+System Policy: bash(14) allow process-exec* /sbin/mount
+/dev/md0 on / (apfs, local, read-only, journaled, noatime)
+devfs on /dev (devfs, local, nosuid, nobrowse)
+tmpfs on /private/var (tmpfs, local, nosuid)
+System Policy: bash(3) allow process-exec* /bin/bash
+bash-5.3#

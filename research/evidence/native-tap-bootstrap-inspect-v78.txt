@@ -1,0 +1,23 @@
+/bin/thread-probe 16; /bin/hid-input-probe --virtual-tap nan 0.5; e< 16; /bin/hid-input-probe --virtual-tap nan 0.5; ec                         ho INVALID_TAP_EXIT=$?; e<--virtual-tap nan 0.5; echo INVALID_TAP_EXIT=$?; ec                         ho SERIAL_DONE_23908b84dc<o INVALID_TAP_EXIT=$?; echo SERIAL_DONE_23908b84dc2                         547d6b9f7b839133042c3
+System Policy: bash(19) allow process-exec* /bin/thread-probe
+TASK PID=16 RESULT=0
+DYLD_SLIDE=0x14c90000 CACHE_BASE=0x194c90000
+THREADS_RESULT=0 COUNT=2
+THREAD 0 PC=0x24cb87cd4 LR=0x24cb8b308 FP=0x16d8f2620
+ FRAME 0 RETURN=0x24cb8b228
+ FRAME 1 RETURN=0x24cb8b074
+ FRAME 2 RETURN=0x1952c646c
+ FRAME 3 RETURN=0x1952c5438
+ FRAME 4 RETURN=0x1952c67f4
+ FRAME 5 RETURN=0x195368da8
+ FRAME 6 RETURN=0x102515980
+ FRAME 7 RETURN=0x1951175b8
+ FRAME 8 RETURN=0x0
+THREAD 1 PC=0x24cb87a80 LR=0x1951cb284 FP=0x16d97ab50
+ FRAME 0 RETURN=0x1951ca910
+RESUME_RESULT=0
+System Policy: bash(20) allow process-exec* /bin/hid-input-probe
+usage: hid-input-probe [--home | --swipe | --virtual-swipe | --virtual-tap X Y]
+X and Y must be finite normalized coordinates in [0,1].
+INVALID_TAP_EXIT=2
+SERIAL_DONE_23908b84dc2547d6b9f7b839133042c3

@@ -1,0 +1,37 @@
+/bin/ls-open-probe --open org.baragona.TouchProbe; echo OPEN_EXIT=$<e --open org.baragona.TouchProbe; echo OPEN_EXIT=$?                         ; echo SERIAL_DONE_cbf7af<hProbe; echo OPEN_EXIT=$?; echo SERIAL_DONE_cbf7af4                         7cdb2453daf0d198084d754b5
+System Policy: bash(48) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_OPEN_BEGIN IDENTIFIER=org.baragona.TouchProbe
+com.apple.xpc.launchd|1970-01-01 00:06:29.234250 (user/501/com.apple.lsd [25]) <Notice>: job state = running
+com.apple.xpc.launchd|1970-01-01 00:06:32.814731 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:32.891008 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:32.918858 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:32.926693 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:32.933589 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:33.359602 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:33.365503 (user/501) <Warning>: failed lookup: name = com.apple.notifications.logging, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:33.654506 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service.non-launching, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:34.635502 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:34.249230 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:34.255671 (user/501) <Warning>: failed lookup: name = com.apple.MobileTimer.timerserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:34.629656 (user/501) <Warning>: failed lookup: name = com.apple.donotdisturb.service, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:34.740189 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:34.942525 (user/501) <Warning>: failed lookup: name = com.apple.PointerUI.pointeruid.service, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.112503 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:34.969274 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.061553 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.093952 (user/501) <Warning>: failed lookup: name = com.apple.PointerUI.pointeruid.service, flags = 0x200, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.161410 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routediscoverer.xpc, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.384161 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:06:35.323081 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.334349 (pid/45 [SpringBoard]) <Warning>: failed lookup: name = com.apple.audio.AudioConverterService, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.389709 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.665614 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:35.529834 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioComponentRegistrar, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.554216 (user/501) <Warning>: failed lookup: name = com.apple.coremedia.routediscoverer.xpc, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:35.667086 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:06:35.626900 (user/501) <Warning>: failed lookup: name = com.apple.audioanalyticsd, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:06:37.564018 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+LS_OPEN_RESULT=0
+OPEN_EXIT=1
+SERIAL_DONE_cbf7af47cdb2453daf0d198084d754b5

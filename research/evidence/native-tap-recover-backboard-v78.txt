@@ -1,0 +1,151 @@
+ = SpringBoard[45], error = 3: No such process
+/bin/lacom.apple.xpc.launchd|1970-01-01 00:21:51.522675 <Notice>: Last log repeated 2 times
+unch-probecom.apple.xpc.launchd|1970-01-01 00:21:51.337179 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:51.389849 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+ stocom.apple.xpc.launchd|1970-01-01 00:21:51.938497 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:21:51.768290 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:51.841050 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+p comcom.apple.xpc.launchd|1970-01-01 00:21:52.527979 <Notice>: Last log repeated 3 times
+.apple.backcom.apple.xpc.launchd|1970-01-01 00:21:52.374680 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+boarddcom.apple.xpc.launchd|1970-01-01 00:21:52.561446 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+; /bin/laucom.apple.xpc.launchd|1970-01-01 00:21:53.664122 <Notice>: Last log repeated 9 times
+nch-probe st< stop com.apple.backboardd; /bin/launch-probe start                        com.applecom.apple.xpc.launchd|1970-01-01 00:21:53.413566 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:54.002491 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:21:53.825942 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+.backboardd;com.apple.xpc.launchd|1970-01-01 00:21:55.113746 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 00:21:54.522449 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[60], error = 3: No such process
+ /b</bin/launch-probe start com.apple.backboardd; /bin/                         launch-probe licom.apple.xpc.launchd|1970-01-01 00:21:54.528036 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+st; echocom.apple.xpc.launchd|1970-01-01 00:21:54.841428 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:55.702135 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:21:55.529778 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+<.apple.backboardd; /bin/launch-probe list; echo SER                       IALcom.apple.xpc.launchd|1970-01-01 00:21:55.535722 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:55.703123 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:21:55.579142 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+_DONE_64ed8com.apple.xpc.launchd|1970-01-01 00:21:56.980386 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:21:56.808856 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+e9034944b57com.apple.xpc.launchd|1970-01-01 00:21:56.887076 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:56.922737 (user/501) <Warning>: failed lookup: name = com.apple.datamigrator, requestor = backboardd[60], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:56.928045 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:57.689480 <Notice>: Last log repeated 4 times
+<ch-probe list; echo SERIAL_DONE_64ed8e9034944b57ba7                         com.apple.xpc.launchd|1970-01-01 00:21:57.659818 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:57.723385 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+6413b857f04com.apple.xpc.launchd|1970-01-01 00:21:58.415529 <Notice>: Last log repeated 2 times
+54
+com.apple.xpc.launchd|1970-01-01 00:21:58.159754 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:59.099013 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:21:58.912527 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:59.734536 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:21:59.436925 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:59.572318 (user/501) <Warning>: failed loSystem Policy: bash(62) allow process-exec* /bin/launch-probe
+okup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:21:59.939157 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:21:59.740059 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:01.010755 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:22:00.953819 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:01.625195 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:01.709946 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:02.182332 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:22:01.837285 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:02.015670 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:03.021836 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 00:22:02.881581 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:03.023307 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:22:02.942971 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 00:22:03.104626 (user/501/com.apple.backboardd [60]) <Notice>: legacy-stop service: caller = launch-probe[62]<-bash[3], value = 0x0
+com.apple.xpc.launchd|1970-01-01 00:22:03.106069 (user/501/com.apple.backboardd [60]) <Notice>: signaled service: Terminated: 15
+com.apple.xpc.launchd|1970-01-01 00:22:03.106132 (user/501/com.apple.backboardd "AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+[60]) <Notice>: service state: SIGTERMed
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+System Policy: xpcproxy(64) allow process-exec* /usr/libexec/backboardd
+com.apple.xpc.launchd|1970-01-01 00:22:03.106185 (user/501/com.apple.backboardd [60]) <Notice>: scheduling cleanup in 3 sec after sending Terminated: 15
+com.apple.xpc.launchd|1970-01-01 00:22:03.107386 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:04.385127 <Notice>: Last log repeated 3 times
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 64]: /usr/libexec/backboardd, launch type 1, failure prSystem Policy: bash(63) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:22:03.693463 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:03.700220 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:04.386795 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:22:04.223474 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:04.554061 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:22:04.473408 (pid/60 [backboardd]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:22:04.473448 (pid/60 [backboardd]) <Notice>: removing active service: com.apple.ACCHWComponentAuthService
+com.apple.xpc.launchd|1970-01-01 00:22:04.473774 (pid/60/com.apple.ACCHWComponentAuthService [61]) <Notice>: signaled service: Killed: 9
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:22:04.473834 (pid/60/com.apple.ACCHWComponentAuthService [61]) <Notice>: service state: SIGKILLed
+com.apple.xpc.launchd|1970-01-01 00:22:04.473890 (pid/60/com.apple.ACCHWComponentAuthService [61]) <Notice>: scheduling cleanup in 9 sec after sending Killed: 9
+com.apple.xpc.launchd|1970-01-01 00:22:04.474853 (user/501/com.apple.backboardd [60]) <Notice>: exited due to SIGTERM | sent by launchd[1], ran for 56581ms
+com.apple.xpc.launchd|1970-01-01 00:22:04.474917 (user/501/com.apple.backboardd [60]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 00:22:04.474973 (user/501/com.apple.backboardd [60]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:22:04.475032 (user/501/com.apple.backboardd [60]) <Notice>: job state = exited
+com.apple.xpc.launchd|1970-01-01 00:22:04.475939 (user/501) <Notice>: service inactive: com.apple.backboardd
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: xpcproxy(65) allow process-exec* /System/Library/PrivateFrameworks/CoreAccessories.framework/XPCServices/ACCHWComponentAuthService.xpc/ACCHWComponentAuthService
+AMFI: Launch Constraint Violation (not enforcing), error info: c[6]p[2]m[3]e[255], (Process was launched as a system service unexpectedly but met System Service constraints) launching proc[vc: 1 pid: 65]: /System/Library/PrivateFrameworks/CoreAccessories.System Policy: bash(66) allow process-exec* /bin/launch-probe
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:64,sel:35:8589: unexpected session uid: -1 requested by: backboardd (64)
+"AppleSEPKeyStore":pid:64,:13996: operation failed (sel: 35 ret: e00002c2)
+"AppleSEPKeyStore":pid:64,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:64,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:64,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:64,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:64,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:64,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:64,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:64,:13996: operation failed (sel: 17 ret: e00002d8)
+"AppleSEPKeyStore":pid:64,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:64,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:64,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:64,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:64,sel:17:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:64,sel:17:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:64,sel:17:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:64,:13996: operation failed (sel: 17 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:22:04.476629 (user/501/com.apple.backboardd [60]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 00:22:04.477126 (user/501/com.apple.backboardd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:22:04.477197 (user/501/com.apple.backboardd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:22:04.477232 (user/501/com.apple.backboardd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:22:04.478123 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:22:04.478157 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:22:04.478199 (user/501/com.apple.backboardd) <Notice>: launching: ipc (mach)
+com.apple.xpc.launchd|1970-01-01 00:22:04.541597 (user/501/com.apple.backboardd [64]) <Notice>: xpcproxy spawned with pid 64
+com.apple.xpc.launchd|1970-01-01 00:22:04.541803 (user/501/com.apple.backboardd [64]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:22:04.541958 (user/501/com.apple.backboardd [64]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:22:04.543167 (user/501/com.apple.backboardd [64]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:22:05.099443 <Notice>: Flushed 23 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:22:04.590226 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=13
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=45 LAST_EXIT=0
+JOB com.apple.runningboardd PID=31 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=37 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=27 LAST_EXIT=0
+JOB com.apple.UIKit.SecureControlService PID=-1 LAST_EXIT=0
+JOB com.apple.backboardd PID=64 LAST_EXIT=15
+JOB com.apple.lsd PID=25 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=43 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=23 LAST_EXIT=0
+JOB com.apple.purplebuddy.budd PID=-1 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=16 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=36 LAST_EXIT=0
+com.apple.xpc.launchd|1970-01-01 00:22:04.590280 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:22:04.660043 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:22:05.468317 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:22:04.893460 (pid/61 [ACCHWComponentA]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 00:22:04.893729 (pid/61 [ACCHWComponentA]) <Notice>: cleaning up
+com.apple.xpc.launchd|1970-01-01 00:22:04.893951 (user/501/com.apple.backboardd [64]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:22:04.893998 (user/501/com.apple.backboardd [64]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:22:04.894042 (user/501/com.apple.backboardd [64]) <Notice>: job state = running
+SERIAL_DONE_64ed8e9034944b57ba76413b857f0454

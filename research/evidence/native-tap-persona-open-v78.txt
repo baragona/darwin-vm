@@ -1,0 +1,73 @@
+System Policy: launchd(1) allow process-exec* /Applications/TouchProbe.app/TouchProbe
+00d6d96
+bash: 00d6d96: command not found
+bash-5.3# com.apple.xpc.launchd|1970-01-01 00:08:09.433261 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:08:07.873087 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy]) <Notice>: service will attempt to elide xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:08:07.873422 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy]) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:08:07.873493 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy]) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:08:07.873532 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy]) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:08:07.875413 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy]) <Notice>: launching: launch job demand
+com.apple.xpc.launchd|1970-01-01 00:08:08.328331 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: service spawned with pid 51
+com.apple.xpc.launchd|1970-01-01 00:08:08.328516 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:08:08.328581 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: service state: spawned
+com.apple.xpc.launchd|1970-01-01 00:08:08.328807 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:08:08.328852 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:08:08.328923 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: job state = running
+com.apple.xpc.launchd|1970-01-01 00:08:08.329674 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: Successfully spawned TouchProbe[51] because launch job demand
+com.apple.xpc.launchd|1970-01-01 00:08:08.330430 (pid/51 [TouchProbe]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:08:08.330552 (pid/51 [TouchProbe]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:08:08.346102 (user/501/UIKitApplication:org.baragona.TouchProbe[bca3][rb-legacy] [51]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:08:09.015360 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = TouchProbe[51], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:09.297057 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:15.903716 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:08:10.687669 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:10.990103 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:11.405379 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:16.730633 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:08:16.365827 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:18.330946 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:23.594629 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:24.788536 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:26.881094 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:08:26.652765 (user/501) <Warning>: failed lookup: name = com.apple.unblock, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:26.659340 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:26.673436 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:26.886813 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:30.591545 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:08:29.932178 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:30.643284 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:30.793751 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:34.585937 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:35.010957 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:38.623141 (user/501) <Warning>: failed lookup: name = com.apple.unblock, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:38.662435 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:38.716185 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[31], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:38.939885 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:42.412721 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:08:41.857916 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:42.059278 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:46.387081 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:08:46.262270 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:46.349907 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:53.848605 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:08:53.509634 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:08:54.857638 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:02.937975 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:09:00.283388 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:01.031522 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:05.478285 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:09:05.199810 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+Sandbox: TouchProbe(51) deny(1) iokit-get-properties iokit-class:IOPlatformDevice property:supports-camera-button
+com.apple.xpc.launchd|1970-01-01 00:09:05.292528 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:10.854893 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:09:10.747433 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:10.877230 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:11.319744 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+Sandbox: TouchProbe(51) deny(1) iokit-get-properties iokit-class:IOPlatformDevice property:supports-apple-pencil
+com.apple.xpc.launchd|1970-01-01 00:09:11.733866 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:09:11.576182 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:12.575827 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:12.701559 (user/501) <Warning>: failed lookup: name = com.apple.uiintelligencesupport.agent, flags = 0x80, requestor = TouchProbe[51], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:13.883139 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:09:17.393104 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:09:17.246160 (user/501) <Warning>: failed lookup: name = com.apple.analyticsd, requestor = TouchProbe[51], error = 3: No such process

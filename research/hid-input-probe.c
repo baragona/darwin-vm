@@ -3,6 +3,9 @@
  * synthetic sender ID. Private ABI checked against 24A437 IOKit symbols.
  */
 #include <dlfcn.h>
+#include <errno.h>
+#include <math.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
@@ -44,14 +47,32 @@ static void event_callback(void *target, void *refcon, void *sender, void *event
            get_integer(event, 0x30002));
 }
 
+static int coordinate(const char *text, double *value) {
+    char *end;
+    errno = 0;
+    double parsed = strtod(text, &end);
+    if (end == text || *end || errno || !isfinite(parsed) || parsed < 0 || parsed > 1)
+        return 0;
+    *value = parsed;
+    return 1;
+}
+
 int main(int argc, char **argv) {
     int dispatch_failed = 0;
     int home = argc == 2 && !strcmp(argv[1], "--home");
     int virtual_swipe = argc == 2 && !strcmp(argv[1], "--virtual-swipe");
     int swipe = virtual_swipe || (argc == 2 && !strcmp(argv[1], "--swipe"));
-    if (argc > 1 && !home && !swipe) { puts("usage: hid-input-probe [--home | --swipe | --virtual-swipe]"); return 2; }
+    int tap = argc == 4 && !strcmp(argv[1], "--virtual-tap");
+    double tap_x = 0, tap_y = 0;
+    if ((argc > 1 && !home && !swipe && !tap) ||
+        (tap && (!coordinate(argv[2], &tap_x) || !coordinate(argv[3], &tap_y)))) {
+        fputs("usage: hid-input-probe [--home | --swipe | --virtual-swipe | --virtual-tap X Y]\n"
+              "X and Y must be finite normalized coordinates in [0,1].\n", stderr);
+        return 2;
+    }
+    int virtual_input = virtual_swipe || tap;
     setbuf(stdout, NULL);
-    alarm(virtual_swipe ? 45 : 25);
+    alarm(virtual_input ? 45 : 25);
     puts("HID_PROBE_BEGIN");
     void *io = dlopen("/System/Library/Frameworks/IOKit.framework/IOKit", RTLD_NOW);
     void *cf = dlopen("/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation", RTLD_NOW);
@@ -136,30 +157,32 @@ int main(int argc, char **argv) {
         }
         (void)CFRunLoopRunInMode(*mode, 2.0, 0);
     }
-    if (swipe) {
-        if (virtual_swipe) {
+    if (swipe || tap) {
+        if (virtual_input) {
             sender_id = virtual_touch_start();
             if (!sender_id) { puts("HID_VIRTUAL_REGISTRATION_FAILED"); return 1; }
         }
         enum { MOVES = 12, FRAMES = MOVES + 2 };
         void *hands[FRAMES] = {0}, *fingers[FRAMES] = {0};
-        /* Preallocate the entire sequence, including release, before sending
+        /* Tap keeps the verified swipe cadence with stationary coordinates.
+         * Preallocate the entire sequence, including release, before sending
          * any touch. No input is sent if a constructor fails. */
         for (unsigned i = 0; i < FRAMES; ++i) {
             unsigned touch = i != FRAMES - 1;
             unsigned mask = i == 0 || !touch ? 3 : 4;
-            double y = 0.96 - 0.76 * (i > MOVES ? MOVES : i) / MOVES;
+            double x = tap ? tap_x : 0.5;
+            double y = tap ? tap_y : 0.96 - 0.76 * (i > MOVES ? MOVES : i) / MOVES;
             hands[i] = IOHIDEventCreateDigitizerEvent(NULL, 0, 3, 0, 0, mask, 0,
-                0.5, y, 0, 0, 0, touch, touch, 0);
+                x, y, 0, 0, 0, touch, touch, 0);
             fingers[i] = IOHIDEventCreateDigitizerFingerEvent(NULL, 0, 1, 1, mask,
-                0.5, y, 0, touch ? 1.0 : 0.0, 0, touch, touch, 0);
+                x, y, 0, touch ? 1.0 : 0.0, 0, touch, touch, 0);
             if (!hands[i] || !fingers[i]) {
                 for (unsigned j = 0; j <= i; ++j) {
                     if (hands[j]) CFRelease(hands[j]);
                     if (fingers[j]) CFRelease(fingers[j]);
                 }
                 puts("HID_SWIPE_ALLOCATION_FAILED");
-                if (virtual_swipe) virtual_touch_stop();
+                if (virtual_input) virtual_touch_stop();
                 return 1;
             }
             /* HID.framework's exact-build setter uses field 0xb0019. */
@@ -173,9 +196,14 @@ int main(int argc, char **argv) {
             uint64_t now = mach_absolute_time();
             IOHIDEventSetTimeStamp(hands[i], now);
             IOHIDEventSetTimeStamp(fingers[i], now);
-            printf("HID_SWIPE_FRAME=%u TOUCH=%ld Y=%.3f\n", i,
-                   get_integer(fingers[i], 0xb0009), get_float(fingers[i], 0xb0001));
-            if (virtual_swipe) {
+            if (tap)
+                printf("HID_TAP_FRAME=%u TOUCH=%ld X=%.3f Y=%.3f\n", i,
+                       get_integer(fingers[i], 0xb0009), get_float(fingers[i], 0xb0000),
+                       get_float(fingers[i], 0xb0001));
+            else
+                printf("HID_SWIPE_FRAME=%u TOUCH=%ld Y=%.3f\n", i,
+                       get_integer(fingers[i], 0xb0009), get_float(fingers[i], 0xb0001));
+            if (virtual_input) {
                 int sent = virtual_touch_dispatch(hands[i]);
                 printf("HID_VIRTUAL_DISPATCH_FRAME=%u RESULT=%d\n", i, sent);
                 if (!sent) dispatch_failed = 1;
@@ -193,7 +221,7 @@ int main(int argc, char **argv) {
         }
     }
     printf("HID_MATCHING_CALLBACKS=%u\n", observed);
-    if (virtual_swipe) virtual_touch_stop();
+    if (virtual_input) virtual_touch_stop();
     IOHIDEventSystemClientUnscheduleWithRunLoop(client, loop, *mode);
     CFRelease(client);
     puts("HID_PROBE_END");

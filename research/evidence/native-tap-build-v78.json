@@ -1,0 +1,15 @@
+{
+  "image": "service-root-native-tap-v78.dmg",
+  "source_image": "service-root-touch-v77.dmg",
+  "trustcache": "native-tap-v78.tc",
+  "cdhash": "f48483c1d812c37fd3c85756ae64744b8b889c01",
+  "binary_sha256": "bc877bf5d2cad95f809e922fd856159f74a145000517165bb5cae45f91692a7c",
+  "trustcache_entries_before": 4415,
+  "trustcache_entries_after": 4416,
+  "guest_runtime_verified": false,
+  "installed_path": "/bin/hid-input-probe",
+  "installed_sha256": "bc877bf5d2cad95f809e922fd856159f74a145000517165bb5cae45f91692a7c",
+  "source_sha256": "69db5b9bf4fe545c6b19f7905839d9dec9a905348f1ba8a948556ae565e0a0ea",
+  "virtual_service_source_sha256": "5dbb5558470ce5111b5ab726a99be3246e57f78e9ee7f0a8a42cfa0d59f98bce",
+  "guest_invalid_coordinate_rejected": true
+}

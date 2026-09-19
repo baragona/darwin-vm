@@ -1,0 +1,49 @@
+memory write -s 1 0xfffffe0017088db4 0
+memory read -s 1 -c 1 -f x 0xfffffe0017088db4
+command script import /tmp/a19_bootstrap_v78.py
+breakpoint set -H -a 0x10251106c
+breakpoint command add -F a19_bootstrap_v78.persona 1
+breakpoint set -H -a 0x10250f70c
+breakpoint command add -F a19_bootstrap_v78.persona 2
+breakpoint set -H -a 0x1993d0138
+breakpoint command add -o 'memory write -s 1 0x1f8c6b9d8 1' 3
+breakpoint modify --auto-continue true 3
+breakpoint set -H -a 0x1993ed4b8
+breakpoint command add -o 'register write x8 0x1fdca3900' 4
+breakpoint modify --auto-continue true 4
+breakpoint set -H -a 0x1d02f6120
+breakpoint command add 5
+register write w0 0xffffffff
+register write pc 0x1d02f6124
+DONE
+breakpoint modify --auto-continue true 5
+breakpoint set -H -a 0x23a4e25f0 -c '*(unsigned int*)((*(unsigned long long*)(($x24 & 0x00ffffffffffffff)+8)&0x00ffffffffffffff)+0x68)==1'
+breakpoint command add -o 'register write x0 0' 6
+breakpoint modify --auto-continue true 6
+breakpoint set -H -a 0x239ba12ac
+breakpoint command add -o 'register write x2 0' 7
+breakpoint modify -G true 7
+breakpoint set -H -a 0x1d02bbfd8
+breakpoint command add -s python -o "frame.FindRegister('x0').SetValueFromCString('1'); frame.SetPC(frame.FindRegister('lr').GetValueAsUnsigned()); return False" 8
+breakpoint set -H -a 0x23a11d3ac
+breakpoint command add -o 'register write x2 0' 9
+breakpoint modify -G true 9
+breakpoint set -H -o true -a 0x1993f7978 -c '$x22 == 416 && $x0 == 496'
+breakpoint command add -s python -o "frame.FindRegister('x22').SetValueFromCString('832'); frame.FindRegister('x0').SetValueFromCString('1808'); return False" 10
+breakpoint set -H -a 0x1950a0328
+command script import /tmp/a19_attention_v78.py
+command script import /tmp/a19_watchdog_v78.py
+breakpoint set -H -a 0x2398614dc
+breakpoint command add -F a19_attention_v78.skip 12
+breakpoint set -H -a 0x23985ffe0
+breakpoint command add -F a19_attention_v78.skip 13
+breakpoint set -H -a 0x1cc9cabdc
+breakpoint command add -F a19_attention_v78.unavailable 14
+breakpoint set -H -a 0x239781b10
+breakpoint command add -F a19_watchdog_v78.factor 15
+breakpoint set -H -a 0x1995a407c
+breakpoint command add -F a19_watchdog_v78.appmain 16
+command script import /tmp/a19_extension_stat.py
+breakpoint set -H -a 0x19526af90
+breakpoint command add -F a19_bootstrap_v78.launchd 17
+continue

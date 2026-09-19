@@ -1,0 +1,153 @@
+{
+  "scope": "Host parser validation only; dlopen stub prevents all host HID/framework calls. Valid modes deliberately fail at that boundary. Guest event delivery is not tested.",
+  "cases": [
+    {
+      "arguments": [
+        "--virtual-tap"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5",
+        ".5",
+        "extra"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--unknown"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        "nan",
+        ".5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5",
+        "inf"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        "-0.1",
+        ".5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5",
+        "1.1"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        "1e999",
+        ".5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        "",
+        ".5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5junk",
+        ".5"
+      ],
+      "exit": 2,
+      "framework_boundary_reached": false
+    },
+    {
+      "arguments": [],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--home"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--swipe"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-swipe"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        "0",
+        "0"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        "1",
+        "1"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    },
+    {
+      "arguments": [
+        "--virtual-tap",
+        ".5",
+        ".55"
+      ],
+      "exit": 1,
+      "framework_boundary_reached": true
+    }
+  ]
+}
