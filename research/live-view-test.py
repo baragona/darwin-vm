@@ -21,6 +21,31 @@ def frame(raw, packed=None):
 
 
 class Protocol(unittest.TestCase):
+    def test_late_ack_keeps_writer_alive_without_resending(self):
+        bridge=v.Bridge.__new__(v.Bridge)
+        bridge.lock=threading.Lock();bridge.queue=collections.deque(['P'])
+        bridge.ready=threading.Event();bridge.ready.set()
+        bridge.stopped=False;bridge.status='Connected';bridge.version=3
+        bridge.parser=v.Frames();sent=[]
+        bridge.send=lambda text:sent.append(text)
+        class DelayedAck:
+            waits=0
+            def clear(self):pass
+            def wait(self,timeout):
+                self.waits+=1
+                if self.waits<=2:return False
+                if self.waits==3:
+                    self_status=bridge.status
+                    assert self_status=='Waiting for guest acknowledgement'
+                    assert not bridge.stopped and sent==['P\n']
+                    bridge.queue.append('R')
+                    return True
+                bridge.stopped=True
+                return True
+        bridge.ack=DelayedAck();bridge.writer()
+        self.assertEqual(sent,['P\n','R\n'])
+        self.assertEqual(bridge.ack.waits,4)
+
     def test_actual_pixels_survive_png_conversion(self):
         parser = v.Frames()
         raw = bytes([1, 2, 3, 255, 4, 5, 6, 255])

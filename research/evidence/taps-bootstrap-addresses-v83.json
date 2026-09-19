@@ -1,0 +1,5 @@
+{
+  "cache_slide": "0x14f20000",
+  "usermanager_base": "0x10498c000",
+  "source": "thread-probe 16, base+0x9980 frame"
+}

@@ -1,0 +1,58 @@
+memory write -s 1 0xfffffe0017088db4 0
+memory read -s 1 -c 1 -f x 0xfffffe0017088db4
+command script import /tmp/a19_bootstrap_v83.py
+breakpoint set -H -a 0x10499106c
+breakpoint command add -F a19_bootstrap_v83.persona 1
+breakpoint set -H -a 0x10498f70c
+breakpoint command add -F a19_bootstrap_v83.persona 2
+breakpoint set -H -a 0x199660138
+breakpoint command add -o 'memory write -s 1 0x1f8efb9d8 1' 3
+breakpoint modify --auto-continue true 3
+breakpoint set -H -a 0x19967d4b8
+breakpoint command add -o 'register write x8 0x1fdf33900' 4
+breakpoint modify --auto-continue true 4
+breakpoint set -H -a 0x1d0586120
+breakpoint command add 5
+register write w0 0xffffffff
+register write pc 0x1d0586124
+DONE
+breakpoint modify --auto-continue true 5
+breakpoint set -H -a 0x23a7725f0 -c '*(unsigned int*)((*(unsigned long long*)(($x24 & 0x00ffffffffffffff)+8)&0x00ffffffffffffff)+0x68)==1'
+breakpoint command add -o 'register write x0 0' 6
+breakpoint modify --auto-continue true 6
+breakpoint set -H -a 0x239e312ac
+breakpoint command add -o 'register write x2 0' 7
+breakpoint modify -G true 7
+breakpoint set -H -a 0x1d054bfd8
+breakpoint command add -s python -o "frame.FindRegister('x0').SetValueFromCString('1'); frame.SetPC(frame.FindRegister('lr').GetValueAsUnsigned()); return False" 8
+breakpoint set -H -a 0x23a3ad3ac
+breakpoint command add -o 'register write x2 0' 9
+breakpoint modify -G true 9
+breakpoint set -H -a 0x199687978 -c '$x22 == 416 && $x0 == 496'
+breakpoint command add -s python -o "frame.FindRegister('x22').SetValueFromCString('832'); frame.FindRegister('x0').SetValueFromCString('1808'); return False" 10
+breakpoint set -H -a 0x195330328
+command script import /tmp/a19_attention_v83.py
+command script import /tmp/a19_watchdog_v83.py
+breakpoint set -H -a 0x239af14dc
+breakpoint command add -F a19_attention_v83.skip 12
+breakpoint set -H -a 0x239aeffe0
+breakpoint command add -F a19_attention_v83.skip 13
+breakpoint set -H -a 0x1ccc5abdc
+breakpoint command add -F a19_attention_v83.unavailable 14
+breakpoint set -H -a 0x239a11b10
+breakpoint command add -F a19_watchdog_v83.factor 15
+breakpoint set -H -a 0x19983407c
+breakpoint command add -F a19_watchdog_v83.appmain 16
+command script import /tmp/a19_extension_stat_v83.py
+breakpoint set -H -a 0x1954faf90
+breakpoint command add -F a19_bootstrap_v83.launchd 17
+command script import /tmp/a19_sync_layers_v83.py
+breakpoint set -H -a 0x199495bb8
+breakpoint command add -F a19_sync_layers_v83.synchronous 18
+command script import /tmp/a19_keyboard_lock_v83.py
+script bp=lldb.debugger.GetSelectedTarget().BreakpointCreateByAddress(0x199e522d4); bp.SetScriptCallbackFunction('a19_keyboard_lock_v83.unlocked'); print('Extra bootstrap breakpoint',bp.GetID())
+command script import /tmp/a19_telephony_v83.py
+script bp=lldb.debugger.GetSelectedTarget().BreakpointCreateByAddress(0x239c1a5e0); bp.SetScriptCallbackFunction('a19_telephony_v83.skip'); print('Extra bootstrap breakpoint',bp.GetID())
+command script import /tmp/a19_sleep_retry_v83.py
+script bp=lldb.debugger.GetSelectedTarget().BreakpointCreateByAddress(0x2446dcdc4); bp.SetScriptCallbackFunction('a19_sleep_retry_v83.skip'); print('Extra bootstrap breakpoint',bp.GetID())
+continue

@@ -153,8 +153,15 @@ class Bridge:
             self.ack.clear()
             try:self.send(cmd+'\n')
             except OSError as e:self.status=str(e);self.stopped=True;return
-            if not self.ack.wait(120):
-                self.status='Guest acknowledgement timed out; input paused';self.stopped=True;return
+            if not self.wait_for_ack():return
+    def wait_for_ack(self):
+        # A capture can outlast the observation window on the emulated UART.
+        # Keep the one outstanding command; a late ack must resume this writer,
+        # not merely let the reader display "Connected" with no writer alive.
+        while not self.stopped:
+            if self.ack.wait(120):return not self.stopped
+            self.status='Waiting for guest acknowledgement'
+        return False
     def close(self):
         self.stopped=True;self.ack.set()
         try:self.socket.shutdown(socket.SHUT_RDWR)

@@ -25,3 +25,29 @@ exercise real handlers for quick clicks, drags, holds, cancellation, and older
 agents. C state tests and all four Python protocol tests pass. This is prepared
 for runtime validation, not yet evidence of Calculator arithmetic or reliable
 Home-icon reopening. No kernel timing assertions have been bypassed.
+
+V83 reached Bash after31.51host seconds. Kernel UUID and inspection pointer
+match the prior build; the inspection byte was read0, temporarily enabled for
+UserManager sampling, then restored and read back0 before UI services.
+UserManager16 uses base0x10498c000 and shared-cache slide0x14f20000. Launchd
+was independently resolved at0x104098000. Both Notebook and Calculator report
+LS_IS_INSTALLED=1 after LS_REBUILD_RESULT=1 before SpringBoard starts.
+SpringBoard49 reached UIApplicationMain. A stopping, read-only observer at
+0xfffffe002abf6e18 will preserve scheduler operands if the prior clock failure
+recurs; no scheduler code is bypassed. The protocol3 viewer is starting.
+
+The protocol3 agent announced LIVE_INPUT_READY3 and produced a validated lock
+screen (taps-lock-screen-v83.png). An actual browser unlock gesture was attempted
+but the bridge no longer sent input. The browser queue was empty and the UI
+reported Connected while QMP confirmed the guest still running. A read-only host
+stack sample found only the UART reader and HTTP threads; the writer had exited.
+Source inspection identifies the failure: ack.wait(120) permanently stopped the
+writer during a slow frame, then a late ack reset the displayed status to
+Connected. This is a host transport failure, not proof that iOS ignored input.
+
+The host now preserves its single outstanding command across acknowledgement
+observation windows. Late responses resume the same writer without retransmitting
+the command; explicit shutdown or UART closure still terminates it. A regression
+test simulates two expired windows, a late ack, and a queued release, proving
+that the original command is sent once and the release follows. All five Python
+protocol tests and browser handler tests pass. Live verification is next.

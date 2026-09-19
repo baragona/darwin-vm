@@ -1,0 +1,171 @@
+/bin/launch-probe start com.apple.mobilegestalt.xpc; /bin/launch-p< start com.apple.mobilegestalt.xpc; /bin/launch-pro                        be start com.appcom.apple.xpc.launchd|1970-01-01 00:02:58.221374 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[34], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:02:58.316242 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[34], error = 3: No such process
+le.biome<talt.xpc; /bin/launch-probe start com.apple.biometr                        ickitd.pearl; /bin/launch<e start com.apple.biometrickitd.pearl; /bin/launch-                         probe start com.apple.Tex<ckitd.pearl; /bin/launch-probe start com.apple.Text                         Input.kbd; /bin/ls-open-p<robe start com.apple.TextInput.kbd; /bin/ls-open-pr                         obe --rebuild-system; /bi<nput.kbd; /bin/ls-open-probe --rebuild-system; /bin                         /ls-open-probe --query or<be --rebuild-system; /bin/ls-open-probe --query org                         .baragona.Notebook; /bin/<ls-open-probe --query org.baragona.Notebook; /bin/l                         s-open-probe --query com.<baragona.Notebook; /bin/ls-open-probe --query com.a                         pple.calculator; echo SER<-open-probe --query com.apple.calculator; echo SERI                         AL_DONE_ed66088ad33442869<ple.calculator; echo SERIAL_DONE_ed66088ad334428697                         834ed3bc7eff14
+System Policy: bash(40) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(41) allow process-exec* /bin/launch-probe
+System Policy: launchd(1) allow process-exec* /usr/libexec/xpcproxy
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: xpcproxy(42) allow process-exec* /usr/libexec/biometrickitd
+System Policy: bash(43) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:03:09.954061 (user/501/com.apple.biometrickitd.pearl) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:09.954548 (user/501/com.apple.biometrickitd.pearl) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:03:09.954586 (user/501/com.apple.biometrickitd.pearl) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:03:09.954985 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:09.955017 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:09.955057 (user/501/com.apple.biometrickitd.pearl) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:03:09.971691 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: xpcproxy spawned with pid 42
+com.apple.xpc.launchd|1970-01-01 00:03:09.971964 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:09.972014 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: service state: xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:03:09.972774 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: launchd(1) allow process-exec* /System/Library/TextInput/kbd
+com.apple.xpc.launchd|1970-01-01 00:03:10.022028 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.022074 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.092812 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:03:10.092961 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:10.093073 (user/501/com.apple.biometrickitd.pearl [42]) <Notice>: Successfully spawned biometrickitd[42] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:03:10.138018 (pid/42 [biometrickitd]) <Notice>: uncorking exec source upfront
+System Policy: bash(45) allow process-exec* /bin/ls-open-probe
+com.apple.xpc.launchd|1970-01-01 00:03:10.138162 (pid/42 [biometrickitd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:03:10.269330 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = biometrickitd[42], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.345380 (user/501/com.apple.TextInput.kbd) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:10.345533 (user/501/com.apple.TextInput.kbd) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:03:10.345574 (user/501/com.apple.TextInput.kbd) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:03:10.346953 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.346989 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.347096 (user/501/com.apple.TextInput.kbd) <Notice>: launching: non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:03:10.347354 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.347378 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:03:10.595603 (user/501/com.apple.TextInput.kbd [44]) <Notice>: service spawned with pid 44
+com.apple.xpc.launchd|1970-01-01 00:03:10.595911 (user/501/com.apple.TextInput.kbd [44]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:10.595963 (user/501/com.apple.TextInput.kbd [44]) <Notice>: service state: spawned
+com.apple.xpc.launchd|1970-01-01 00:03:10.596110 (user/501/com.apple.TextInput.kbd [44]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:03:10.596153 (user/501/com.apple.TextInput.kbd [44]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:10.596246 (user/501/com.apple.TextInput.kbd [44]) <Notice>: Successfully spawned kbd[44] because non-ipc demand
+com.apple.xpc.launchd|1970-01-01 00:03:10.596338 (user/501/com.apple.TextInput.kbd [44]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 00:03:10.665869 (pid/44 [kbd]) <Notice>: uncorking exec source upfront
+com.apple.xpc.launchd|1970-01-01 00:03:10.665989 (pid/44 [kbd]) <Notice>: created
+com.apple.xpc.launchd|1970-01-01 00:03:10.789419 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = kbd[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:11.224567 (user/501) <Warning>: failed lookup: name = com.apple.mobileassetd.v2, requestor = kbd[44], error = 3: No such process
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:44,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:44,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:44,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:44,:13996: operation failed (sel: 7 ret: e00002d8)
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+com.apple.xpc.launchd|1970-01-01 00:03:11.819960 <Notice>: Last log repeated 2 times
+com.apple.xpc.launchd|1970-01-01 00:03:11.348599 (user/501) <Warning>: failed lookup: name = com.apple.springboard.backgroundappservices, flags = 0x1, requestor = kbd[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:11.375844 (user/501) <Warning>: failed lookup: name = com.apple.PointerUI.pointeruid.service, flags = 0x200, requestor = kbd[44], error = 3: No such process
+LS_REBUILD_BEGIN SYSTEM=1 INTERNAL=0 USER=0 UID=501
+com.apple.xpc.launchd|1970-01-01 00:03:11.961412 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-open-probe[45], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:12.661391 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = biometrickitd[42], error = 3: No such process
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+com.apple.xpc.launchd|1970-01-01 00:03:16.874822 (user/501) <Warning>: failed lookup: name = com.apple.apsd, requestor = kbd[44], error = 3: No such process
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+"AppleSEPKeyStore":pid:25,sel:7:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:25,sel:7:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:25,sel:7:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:25,:13996: operation failed (sel: 7 ret: e00002d8)
+LS_REBUILD_RESULT=1
+LS_PROBE_END
+System Policy: bash(46) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_QUERY_BEGIN
+LS_IDENTIFIER=org.baragona.Notebook
+com.apple.xpc.launchd|1970-01-01 00:03:22.317615 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 00:03:22.228331 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = ls-open-probe[46], error = 3: No such process
+LS_PROXY=<LSApplicationProxy: 0x1016caf00> org.baragona.Notebook file:///Applications/Notebook.app/ <org.baragona.Notebook <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///Applications/Notebook.app/
+LS_PROBE_END
+System Policy: bash(47) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+com.apple.xpc.launchd|1970-01-01 00:03:22.458979 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = ls-open-probe[46], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:03:22.690130 (user/501) <Warning>: failed lookup: name = com.apple.CoreServices.fshelper, requestor = lsd[25], error = 3: No such process
+LS_QUERY_BEGIN
+LS_IDENTIFIER=com.apple.calculator
+LS_PROXY=<LSApplicationProxy: 0x103982f00> com.apple.calculator file:///Applications/Calculator.app/ <com.apple.calculator <installed >:0>
+LS_IS_INSTALLED=1
+LS_BUNDLE_URL=file:///Applications/Calculator.app/
+LS_PROBE_END
+SERIAL_DONE_ed66088ad334428697834ed3bc7eff14

@@ -83,7 +83,10 @@ all match before pixels appear. Corrupt frames are discarded, not repaired.
 UART is shared by display and input: capture blocks guest input while the frame
 is written. The host avoids starting captures during active touches or held
 keys, coalesces pending moves, and bounds queues. This is an initial transport;
-frame rate and input latency still need measurement in the guest. Closing the
+a V83 observation measured roughly700 UART output bytes per host second. The
+writer keeps waiting across120-second acknowledgement observation windows; it
+does not resend an outstanding command or exit solely because that window ends.
+Closing the
 viewer disconnects UART; guest idle cleanup releases input after five seconds
 of guest execution, but the agent remains running. Do not use `--start` again
 until it has been stopped and the shell recovered.
