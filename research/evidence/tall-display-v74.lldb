@@ -1,0 +1,9 @@
+# Historical V74-only commands; addresses require re-derivation after reboot.
+# Applied with cache slide0x8b14000 before restarting guest UI services.
+# This snippet documents the one-shot dimension change, not complete startup.
+breakpoint set -H -o true -a 0x18d27b978 -c '$x22 == 416 && $x0 == 496'
+# Attach the following Python callback to the breakpoint number just returned:
+# print('DIMENSIONS_BEFORE',frame.FindRegister('x22').GetValue(),frame.FindRegister('x0').GetValue()); frame.FindRegister('x22').SetValueFromCString('832'); frame.FindRegister('x0').SetValueFromCString('1808'); return False
+# The address is -[CAWindowServerVirtualDisplay initWithOptions:] +0x98.
+# x22 holds width and x0 holds height, just before height is copied into x27.
+# No shared NSNumber constants or client-side reported bounds were patched.

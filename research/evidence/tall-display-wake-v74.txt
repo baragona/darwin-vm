@@ -1,0 +1,45 @@
+/bin/display-capture-probe --wake; /bin/sleep 5com.apple.xpc.launchd|1970-01-01 03:17:30.081840 <Notice>: Flushed 23 logs [limit: 20]
+; /bin/display-captu<e-probe --wake; /bin/sleep 5; /bin/display-capture-                         probe --wake; /bin/launc<; /bin/display-capture-probe --wake; /bin/launch-pr                        obe list; echo SERIAL_D<be --wake; /bin/launch-probe list; echo SERIAL_DONE                       _632009ae29b5442d97951e<be list; echo SERIAL_DONE_632009ae29b5442d97951e891                       b2f34ad
+System Policy: bash(157) allow process-exec* /bin/display-capture-probe
+DISPLAY_CAPTURE_BEGIN
+com.apple.xpc.launchd|1970-01-01 03:17:42.422971 <Notice>: Last log repeated 202 times
+com.apple.xpc.launchd|1970-01-01 03:17:42.005754 (user/501) <Warning>: failed lookup: name = com.apple.accountsd.accountmanager, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:17:42.011400 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+DISPLAY_CAPTURE_NAME=LCD WIDTH=832 HEIGHT=1808
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=0 NAME=off
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 03:17:45.860128 <Notice>: Last log repeated 29 times
+com.apple.xpc.launchd|1970-01-01 03:17:45.767261 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[157], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:17:45.773723 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+com.apple.xpc.launchd|1970-01-01 03:17:54.747212 <Notice>: Last log repeated 4 times
+com.apple.xpc.launchd|1970-01-01 03:17:54.471586 (user/501) <Warning>: failed lookup: name = com.apple.accountsd.accountmanager, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:17:54.635116 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+DISPLAY_CAPTURE_CHANGED_PIXELS=1504256 COLORED_PIXELS=29319 OPAQUE_PIXELS=1504256
+DISPLAY_CAPTURE_OUTPUT_BYTES=6017024 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(158) allow process-exec* /bin/sleep
+System Policy: bash(159) allow process-exec* /bin/display-capture-probe
+com.apple.xpc.launchd|1970-01-01 03:18:33.647284 <Notice>: Last log repeated 107 times
+com.apple.xpc.launchd|1970-01-01 03:18:33.641936 (user/501) <Warning>: failed lookup: name = com.apple.hangtelemetryd, requestor = SpringBoard[146], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:18:33.749173 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+DISPLAY_CAPTURE_BEGIN
+DISPLAY_CAPTURE_NAME=LCD WIDTH=832 HEIGHT=1808
+DISPLAY_CAPTURE_STATE_CONTROL=1
+DISPLAY_CAPTURE_STATE_BEFORE=1 NAME=on
+DISPLAY_CAPTURE_WAKE_REQUEST_BEGIN
+com.apple.xpc.launchd|1970-01-01 03:18:45.483088 <Notice>: Last log repeated 23 times
+com.apple.xpc.launchd|1970-01-01 03:18:45.254654 (user/501) <Warning>: failed lookup: name = com.apple.logd, flags = 0x9, requestor = display-capture[159], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 03:18:45.654993 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[146], error = 3: No such process
+DISPLAY_CAPTURE_STATE_AFTER=1 NAME=on
+DISPLAY_CAPTURE_SURFACE=1
+DISPLAY_CAPTURE_RENDER_BEGIN
+DISPLAY_CAPTURE_RENDER_RESULT=1
+DISPLAY_CAPTURE_CHANGED_PIXELS=1504256 COLORED_PIXELS=29276 OPAQUE_PIXELS=1504256
+DISPLAY_CAPTURE_OUTPUT_BYTES=6017024 CLOSE=0 UNLOCK=0
+DISPLAY_CAPTURE_END
+System Policy: bash(160) allow process-exec* /bin/launch-probe
