@@ -1,0 +1,43 @@
+/bin/launch-probe stop com.apple.SpringBoard; /bin/launch-probe sta< stop com.apple.SpringBoard; /bin/launch-probe star                         t com.apple.SpringBoard; <d; /bin/launch-probe start com.apple.SpringBoard; e                         cho SERIAL_DONE_ceabe67d5< com.apple.SpringBoard; echo SERIAL_DONE_ceabe67d5d                         ab4eb1bbabcom.apple.xpc.launchd|1970-01-01 00:29:40.831274 (user/501) <Warning>: failed lookup: name = com.apple.distributed_notifications@1v3, requestor = backboardd[80], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:40.883699 (user/501) <Warning>: failed lookup: name = com.apple.powerexperienced.powermitigationsmanager.service, flags = 0x8, requestor = backboardd[80], error = 3: No such process
+3693com.apple.xpc.launchd|1970-01-01 00:29:41.089734 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[80], error = 3: No such process
+3e33fa86
+com.apple.xpc.launchd|1970-01-01 00:29:41.946681 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[69], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:42.086009 (user/501) <Warning>: failed lookup: name = com.apple.appprotectiond.guard, requestor = SpringBoard[69], error = 3: No such process
+System Policy: bash(82) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:29:42.895622 (user/501) <Warning>: failed lookup: name = PurplePPTServer, flags = 0x1, requestor = SpringBoard[69], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:42.913831 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[69], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:43.722610 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:29:43.706423 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[69], error = 3: No such process
+_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(83) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:29:45.252742 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:29:45.080900 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = backboardd[80], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:45.088226 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[69], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:45.094166 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[69], error = 3: No such process
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+com.apple.xpc.launchd|1970-01-01 00:29:45.770353 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[69], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:45.842008 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[69], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:29:45.901729 (user/501/com.apple.SpringBoard [69]) <Notice>: legacy-stop service: caller = launch-probe[82]<-bash[3], value = 0x0
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+SERIAL_DONE_ceabe67d5dab4eb1bbab36933e33fa86

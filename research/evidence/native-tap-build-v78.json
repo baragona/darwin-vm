@@ -6,7 +6,7 @@
   "binary_sha256": "bc877bf5d2cad95f809e922fd856159f74a145000517165bb5cae45f91692a7c",
   "trustcache_entries_before": 4415,
   "trustcache_entries_after": 4416,
-  "guest_runtime_verified": false,
+  "guest_runtime_verified": true,
   "installed_path": "/bin/hid-input-probe",
   "installed_sha256": "bc877bf5d2cad95f809e922fd856159f74a145000517165bb5cae45f91692a7c",
   "source_sha256": "69db5b9bf4fe545c6b19f7905839d9dec9a905348f1ba8a948556ae565e0a0ea",

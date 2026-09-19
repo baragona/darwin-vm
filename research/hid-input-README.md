@@ -37,7 +37,10 @@ Install the signed helper as `/bin/hid-input-probe` in a separate guest-image
 clone and include its CDHash in that boot's trust cache. No firmware binaries
 are distributed here.
 
-V77 verified a UIKit button callback and a fresh `Taps: 1` frame using the old
-swipe helper with debugger-assisted coordinate conversion. Native tap runtime
-validation is tracked separately in the V78 evidence; the prior success must
-not be attributed to the new command before it is tested.
+V78 verified this native command end to end: 14 dispatches, release, a real
+UIKit callback logging `Taps: 1`, and a fresh frame showing that counter.
+See [runtime evidence](evidence/native-tap-runtime-v78.md). This diagnostic boot
+still requires graphics and startup workarounds. Its fixed helper alarm was
+too short under load; testing used `(trap '' ALRM; /bin/hid-input-probe
+--virtual-tap 0.5 0.55)` with a separate observation deadline. It is not yet
+a persistent host mouse-input service.

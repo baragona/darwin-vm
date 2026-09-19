@@ -1,0 +1,38 @@
+[
+  {
+    "return_address": "0x1990f42ac",
+    "callsite_unslid": "0x1844642a8",
+    "symbol": "__ZN2CA3OGL7Context12push_surfaceEPNS0_7SurfaceEbjj",
+    "offset": "0x228"
+  },
+  {
+    "return_address": "0x1991f52e0",
+    "callsite_unslid": "0x1845652dc",
+    "symbol": "__ZN2CA3OGL16AsynchronousNode14retain_surfaceERfj",
+    "offset": "0x450"
+  },
+  {
+    "return_address": "0x199121fd0",
+    "callsite_unslid": "0x184491fcc",
+    "symbol": "__ZN2CA3OGL11ImagingNode6renderEPNS1_13RenderClosureEj",
+    "offset": "0x22c"
+  },
+  {
+    "return_address": "0x19912181c",
+    "callsite_unslid": "0x184491818",
+    "symbol": "__ZN2CA3OGL13render_layersERNS0_8RendererEPNS0_5LayerE",
+    "offset": "0x1bc"
+  },
+  {
+    "return_address": "0x199122c1c",
+    "callsite_unslid": "0x184492c18",
+    "symbol": "__ZN2CA3OGL9LayerNode5applyEfPPNS0_7SurfaceEPf",
+    "offset": "0x568"
+  },
+  {
+    "return_address": "0x19912231c",
+    "callsite_unslid": "0x184492318",
+    "symbol": "__ZN2CA3OGL11ImagingNode6renderEPNS1_13RenderClosureEj",
+    "offset": "0x578"
+  }
+]

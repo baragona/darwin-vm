@@ -101,3 +101,68 @@ in the QuartzCore query path; its transcript preserves the sampled stack.
 It did not establish the recovered display mode. SpringBoard45 was then
 intentionally stopped and replaced by SpringBoard69. Native tap delivery and
 a post-recovery frame remain unverified; V77 is still the paused fallback.
+
+
+## Recovery follow-up
+
+A subsequent display query succeeded with LCD ID 1, mode 832x1808, and a
+main display. The LS open helper returned false/exit 1, but the asynchronous
+request subsequently spawned TouchProbe74 and its read-only observer reached
+SCENE_ACTIVE. This again shows why helper results alone are insufficient to
+infer the underlying app launch outcome.
+
+A read-only abort observer is armed at 0x19cc088b0 (the prior boot's observed
+abort entry relocated by the verified cache-slide difference). It records
+registers and a bounded frame-pointer walk, then stops for inspection.
+It does not bypass aborts.
+
+
+## Reproduced compositor assertion
+
+The recovered swipe delivered all 14 frames and release, with 14 monitor
+callbacks. The abort observer then captured the graphics failure before
+termination. The assertion string was:
+
+    Assertion failed: (found != slist->end ()), function push_surface, file ogl-context.cpp, line 1309.
+
+The frame walk reaches CA::OGL::Context::push_surface from
+CA::OGL::AsynchronousNode::retain_surface, then repeated ImagingNode::render,
+render_layers and LayerNode::apply frames. Return addresses were symbolized
+at return-address minus four, avoiding mislabeling an assert call at the end
+of push_surface as the following reset_statistics function.
+
+The disassembly searches the context's surface list and asserts when the
+surface cannot be found. We do not bypass this invariant. The next diagnostic
+sets CALayerHost's setRendersAsynchronously: argument to false at its verified
+entry (0x199205bb8), recording every requested value. Whether this avoids the
+asynchronous renderer and fixes the failure must be tested. Continuing the
+original abort allowed launchd to start BackBoard80; a SpringBoard restart
+recreates hosted layers under the experiment.
+
+The next SpringBoard instance (84) launched TouchProbe87, which reached
+SCENE_ACTIVE. The synchronous-layer hook recorded two true-to-false writes
+from caller 0x1996ea23c. The subsequent swipe completed with exit 0 and no
+new abort recorded at that point. A native --virtual-tap 0.5 0.55 test follows.
+This is evidence supporting further testing, not proof that the graphics
+assertion is permanently fixed.
+
+## Verified native button interaction
+
+The native tap completed 14 stationary frames at (0.5,0.55), all dispatches
+returned 1, and the monitor observed 14 callbacks including release. The
+helper exited 0. TouchProbe87's read-only observer logged Taps: 1. No debugger
+input-coordinate rewriting, app counter mutation, or callback substitution
+was used. The subshell ignored the diagnostic helper's alarm for this test.
+
+A new capture rendered all 1,504,256 pixels opaque. Its first serial export
+was corrupted by interleaved logging and rejected by the strict decoder.
+Re-exporting the saved compressed frame decoded all 6,017,024 bytes, SHA-256
+4daf4bfdd9be1ade377592840c3325393d51ba8c7729c329c36195686b0d9353.
+Visual inspection confirms Taps: 1 in the real app with the lock screen gone.
+The hash matches the independently captured V77 result for the same UI state.
+The diagnostic status banner and missing button title remain.
+
+No additional abort was recorded during this swipe, tap, and capture after
+the synchronous-hosted-layer hook was activated. This demonstrates one
+successful sequence under that workaround, not long-term stability or
+causal proof that it fixes every surface-list failure.
