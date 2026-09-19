@@ -1,0 +1,54 @@
+/bin/thread-probe 91; echo SERIAL_DONE_e5a3acom.apple.xpc.launchd|1970-01-01 00:32:38.946228 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:32:25.795762 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+e1f9dfb49cda3320a70com.apple.xpc.launchd|1970-01-01 00:32:26.685501 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+<; echo SERIAL_DONE_e5a3ae1f9dfb49cda3320a70e98083dd                     
+com.apple.xpc.launchd|1970-01-01 00:32:27.159454 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:27.928930 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+System Policy: bash(93) allow process-exec* /bin/thread-probe
+com.apple.xpc.launchd|1970-01-01 00:32:28.198819 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:29.099366 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:46.880665 <Notice>: Last log repeated 3 times
+com.apple.xpc.launchd|1970-01-01 00:32:32.117560 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:49.667799 <Notice>: Flushed 22 logs [limit: 20]
+com.apple.xpc.launchd|1970-01-01 00:32:50.776021 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:32:33.159412 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:53.636775 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:32:33.615981 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+TASK PID=91 RESULT=0
+DYLD_SLIDE=0x1061c000 CACHE_BASE=0x19061c000
+THREADS_RESULT=0 COUNT=3
+THREAD 0 PC=0x2485198a4 LR=0x248519890 FP=0x16b59a200
+ FRAME 0 RETURN=0x19eeb546c
+ FRAME 1 RETURN=0x19eeb532c
+ FRAME 2 RETURN=0x19eebc648
+ FRAME 3 RETURN=0x19eebc794
+ FRAME 4 RETURN=0x19eeb4d1c
+ FRAME 5 RETURN=0x19eeb7d78
+ FRAME 6 RETURN=0x1af15cdbc
+ FRAME 7 RETURN=0x10486935c
+ FRAME 8 RETURN=0x1bf125fb4
+ FRAME 9 RETURN=0x1bf10eb60
+ FRAME 10 RETURN=0x104864038
+ FRAME 11 RETURN=0x104863874
+ FRAME 12 RETURN=0x104863508
+ FRAME 13 RETURN=0x1bf125fb4
+ FRAME 14 RETURN=0x1bf10eb60
+ FRAME 15 RETURN=0x10486ae08
+ FRAME 16 RETURN=0x104869ac8
+ FRAME 17 RETURN=0x104869a64
+ FRAME 18 RETURN=0x198a5be48
+ FRAME 19 RETURN=0x198a35920
+ FRAME 20 RETURN=0x198a3ea5c
+ FRAME 21 RETURN=0x198a3edb4
+ FRAME 22 RETURN=0x198a3e09c
+ FRAME 23 RETURN=0x198a34d54
+THREAD 1 PC=0x248513a80 LR=0x190b57284 FP=0x16b9fab50
+ FRAME 0 RETURN=0x190b56910
+THREAD 2 PC=0x248513a80 LR=0x190b57284 FP=0x16b626b50
+ FRAME 0 RETURN=0x190b56910
+RESUME_RESULT=0
+com.apple.xpc.launchd|1970-01-01 00:32:34.360233 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:54.946518 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:32:36.058952 (user/501) <Warning>: failed lookup: name = com.apple.sleepd.sleepserver, requestor = SpringBoard[49], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 00:32:37.119189 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[49], error = 3: No such process
+SERIAL_DONE_e5a3ae1f9dfb49cda3320a70e98083dd

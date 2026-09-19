@@ -20,8 +20,9 @@ framebuffers show text, labeled buttons, a bundled image, and a canvas. Native
 tap and drag input drew a visible stroke; the app reported a successful atomic
 file save. [Runtime evidence](evidence/notebook-runtime-v79.md) distinguishes
 these checks from the still-pending text entry and scrolling tests. A fresh
-process restored the saved drawing after Home and explicit termination. Calculator is installed and registered but not yet tested in use.
-The V78 baseline remains paused as a fallback.
+process restored the saved drawing after Home and explicit termination. Calculator is installed and registered; its first launches trap before a usable
+UI appears. The [launch investigation](evidence/calculator-runtime-v79.md) is ongoing.
+V78 has been closed; V79 is the only running Darwin guest.
 
 ## Work remaining
 
