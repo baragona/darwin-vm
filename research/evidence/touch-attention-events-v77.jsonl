@@ -1,0 +1,23 @@
+{"count": 1, "method": "SBBacklightIdleTimer _reconfigureAttentionClientAndReset:", "lr": "0x22751d3a8", "write_success": true}
+{"count": 1, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"count": 2, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"count": 1, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x2273f2b98", "write_success": true}
+{"count": 2, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x226fe3d50", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x226fe3d50", "write_success": true}
+{"count": 3, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x226fe3d50", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x226fe3d50", "write_success": true}
+{"count": 4, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"count": 5, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x2273f2b98", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x2273f2b98", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x2273f2b98", "write_success": true}
+{"count": 6, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"count": 7, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x226fe3d50", "write_success": true}
+{"count": 8, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"count": 9, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"count": 10, "pc": "0x2274effe0", "method": "SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:", "lr": "0x2274eff44", "write_success": true}
+{"method": "AWAttentionAwarenessClient resumeWithError:", "pc": "0x1ba65abdc", "result": false, "lr": "0x2273f2b98", "write_success": true}

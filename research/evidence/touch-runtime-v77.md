@@ -224,3 +224,80 @@ All thread probes returned RESUME_RESULT=0 and commands reached their terminal
 markers. The temporary guest task-inspection byte was restored and read back0;
 all new event observers were removed and the guest resumed. Unlike the earlier
 snapshot, biometrickitd is now running. No host security setting changed.
+
+
+## Attention-sensing bypass experiments and restart prerequisites
+
+The first targeted bypass returned immediately at entry to
+SBBacklightIdleTimer _reconfigureAttentionClientAndReset: (unslid 0x224bd14dc).
+Restarting SpringBoard68 also terminated TouchProbe90 and its process-scoped
+extensionkitservice69. The fresh SpringBoard processes aborted in ExtensionFoundation
+before reaching the attention hook. Serial logs again report the extension bundle
+rejected with error147. The guest bundle directory cannot be chowned in place:
+chown returned1 and Read-only file system.
+
+Reapplying the existing exact-path launchd stat-UID workaround at base+0x29d0c
+(base0x104560000), with mode0755, UID99 and helper result1 checked, restored
+extensionkitservice139 for SpringBoard138. The four-byte UID write was at
+0x77b95ec6b0; the callback disabled itself. The earlier broad abort breakpoint
+was diagnostic only and removed after recording the stack.
+
+SpringBoard138 reached the first bypass, but a subsequent main-thread sample
+showed a different AttentionAwareness connection wait beneath
+SBIdleTimerGlobalCoordinator _setIdleTimerWithDescriptor:forReason:.
+A second void-method bypass at unslid0x224bcffe0 was installed before restarting
+as SpringBoard145, with the extension ownership workaround ready. This second
+bypass executed twice. However, the next main-thread sample found
+CSUserPresenceMonitor _resumeAttentionAwarenessClient -> resumeWithError: ->
+connect: -> synchronous XPC reply wait. The caller-by-caller approach therefore
+does not cover CoverSheet's independent attention client.
+
+A third diagnostic at AWAttentionAwarenessClient resumeWithError:
+(unslid0x1b7d3abdc) returns false without entering the unavailable service. It
+changes only x0 and the live PC at method entry; no input event or app callback
+is substituted. SpringBoard152 was restarted with these diagnostics installed.
+The first record in touch-attention-events-v77.jsonl predates adding PC/method
+selection to the logger; it belongs to the original reconfigure hook. Reloads
+reset the logger's count, so counts are not global totals.
+
+
+With all three attention diagnostics installed, SpringBoard152 reached the
+UIKit event-fetcher drain: 371 entries were recorded before removing that
+observer to avoid slowing the guest. This proves execution reached the drain
+method; it does not by itself prove that the app received any touch.
+The fresh Touch Probe process (Mach-O base 0x100710000) subsequently logged
+DID_FINISH_LAUNCHING, SCENE_CONNECT_BEGIN, SCENE_VISIBLE_REQUESTED, and
+SCENE_ACTIVE. The LaunchServices helper nevertheless reported LS_OPEN_RESULT=0
+and OPEN_EXIT=1; its result is not being treated as proof of app launch failure
+or success. The app's own lifecycle observations are recorded separately.
+
+These are temporary debugger experiments, not a persistent attention-service
+fix. The two void-method bypasses also skip their other idle-timer work; the
+shared resume hook returns false without populating an NSError output. No
+claim about the sufficiency of the shared hook alone has been established.
+The first display export immediately after restarting SpringBoard still
+contained the capture buffer's 0xa5 prefill, so it is not a rendered frame.
+
+
+The settled capture exported all 6,017,024 BGRA bytes with 1,504,256 opaque
+pixels (SHA-256 8417cfe08610ee69b6e92e1ff54d9dec4bbf2edffd8d5fbd548c34c24d03fdfc).
+Visual inspection shows the lock screen, including its clock and home indicator,
+covering the app. This is not a fresh visible Touch Probe scene and cannot be
+used as evidence that the app button is reachable. The next input diagnostic
+therefore uses the original upward swipe rather than the stationary button tap.
+
+
+The post-bypass upward swipe completed all 14 virtual dispatch calls with
+RESULT=1, observed 14 monitor callbacks including the release, and exited0.
+However, immediately afterward launchd recorded BackBoard51 self-terminating
+with SIGABRT and respawned it as BackBoard163. The transcript does not establish
+the abort's cause or whether it was caused by the swipe. No app tap callback
+was observed. The last validated image remains the pre-swipe lock screen;
+lock-screen dismissal and app interaction are still unverified. A subsequent
+SCENE_ACTIVE app message was recorded during recovery, without a fresh capture.
+
+The guest is running with the attention and finite scene-watchdog diagnostic
+hooks retained. The high-volume drain observer was removed. No host security
+setting was changed. Raw serial transcripts retain their original CR bytes;
+touch-attention-open-result-v77.txt is a CR-normalized excerpt of the serial
+log covering the pending open command through its completion marker.

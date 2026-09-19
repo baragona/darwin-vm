@@ -1,0 +1,32 @@
+kill -TERM 138; /bin/launch-probe start com.apple.SpringBoard; echo<bin/launch-probe start com.apple.SpringBoard; echo                          SERIAL_DONE_63e75b5341184<.apple.SpringBoard; echo SERIAL_DONE_63e75b53411844                         2ca406cc471f170d2e
+"AppleSEPKeyStore":pid:0,sel:1:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,sel:1:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,sel:1:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+"AppleSEPKeyStore":pid:0,:3172: SEP is not booted. AKS request is not processed
+"AppleSEPKeyStore":pid:0,:3249: sep_endpoint() failed to initialize
+"AppleSEPKeyStore":pid:0,:3384: no sks endpoint to send to
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+System Policy: bash(144) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 01:39:42.326128 (user/501/com.apple.SpringBoard [138]) <Notice>: exited due to SIGTERM | sent by bash[3], ran for 156720ms
+com.apple.xpc.launchd|1970-01-01 01:39:42.327528 (user/501/com.apple.SpringBoard [138]) <Notice>: service state: exited
+com.apple.xpc.launchd|1970-01-01 01:39:42.327589 (user/501/com.apple.SpringBoard [138]) <Notice>: internal event: EXITED, code = 0
+com.apple.xpc.launchd|1970-01-01 01:39:42.327635 (user/501/com.apple.SpringBoard [138]) <Notice>: job state = exited
+com.apple.xpc.launchd|1970-01-01 01:39:42.328302 (user/501) <Notice>: service inactive: com.apple.SpringBoard
+com.apple.xpc.launchd|1970-01-01 01:39:42.330150 (user/501/com.apple.SpringBoard [138]) <Notice>: service state: not running
+com.apple.xpc.launchd|1970-01-01 01:39:42.330731 (user/501/com.apple.SpringBoard) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 01:39:42.330836 (user/501/com.apple.SpringBoard) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 01:39:42.330872 (user/501/com.apple.SpringBoard) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 01:39:42.331809 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 01:39:42.331846 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 01:39:42.331892 (user/501/com.apple.SpringBoard) <Notice>: launching: ipc (mach)
+LAUNCH_REPLY_TYPE=9
+LAUNCH_REPLY_ERRNO=0
+com.apple.xpc.launchd|1970-01-01 01:39:42.332060 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 01:39:42.332088 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 01:39:42.336980 (pid/138 [SpringBoard]) <Notice>: shutting down
+com.apple.xpc.launchd|1970-01-01 01:39:42.337029 (pid/138 [SpringBoard]) <Notice>: removing active service: com.apple.extensionkitservice
+com.apple.xpc.launchd|1970-01-01 01:39:42.337503 (pid/138/com.apple.extensionkitservice [139]) <Notice>: signaled service: Killed: 9
+SERIAL_DONE_63e75b534118442ca406cc471f170d2e

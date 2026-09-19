@@ -1,0 +1,7 @@
+/bin/ls-open-probe --open org.baragona.TouchProbe; echo OPEN_EXIT=$<e --open org.baragona.TouchProbe; echo OPEN_EXIT=$?                         ; echo SERIAL_DONE_7e9eda<hProbe; echo OPEN_EXIT=$?; echo SERIAL_DONE_7e9edac                         fb8a24d7f8186dee22447c36a
+System Policy: bash(142) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_OPEN_BEGIN IDENTIFIER=org.baragona.TouchProbe
+LS_OPEN_RESULT=0
+OPEN_EXIT=1
+SERIAL_DONE_7e9edacfb8a24d7f8186dee22447c36a

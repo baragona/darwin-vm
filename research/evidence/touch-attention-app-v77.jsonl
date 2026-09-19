@@ -1,0 +1,7 @@
+{"event": "UIApplicationMain", "base": "0x100710000", "magic": "0xfeedfacf", "read_ok": true, "breakpoint_result": "Breakpoint 66: address = 0x0000000100714584\n"}
+{"event": "watchdog_factor", "before": "1", "after": "60", "write_success": true}
+{"event": "app_log", "message": "DID_FINISH_LAUNCHING"}
+{"event": "app_log", "message": "SCENE_CONNECT_BEGIN"}
+{"event": "app_log", "message": "SCENE_VISIBLE_REQUESTED"}
+{"event": "app_log", "message": "SCENE_ACTIVE"}
+{"event": "app_log", "message": "SCENE_ACTIVE"}

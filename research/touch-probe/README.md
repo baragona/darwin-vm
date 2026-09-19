@@ -44,3 +44,10 @@ A stationary touch reached the guest input monitor, but the fresh frame stayed
 unchanged and no app tap callback was observed. Interaction and home/reopen are
 still unverified. See [runtime findings](../evidence/touch-runtime-v77.md) and
 [image identities](../evidence/touch-image-v77.json).
+
+
+A follow-up attention-sensing bypass let SpringBoard reach its event-queue drain
+and a fresh app reach scene activation. The fresh capture still showed the lock
+screen covering the app. An upward swipe completed at the input monitor, followed
+by a BackBoard abort/restart of undetermined cause. This does not yet establish
+button interaction; see the runtime findings for the diagnostic scope and evidence.
