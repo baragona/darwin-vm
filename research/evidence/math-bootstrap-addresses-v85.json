@@ -1,0 +1,7 @@
+{
+  "cache_slide": "0x1cd0000",
+  "usermanager_base": "0x100334000",
+  "kernel_base": "0xfffffe002700c000",
+  "kernel_uuid": "A5A62616-FA9C-337E-9C97-41BB2D427C63",
+  "inspection_byte": "0xfffffe0017088db4"
+}

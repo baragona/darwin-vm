@@ -1,0 +1,48 @@
+/bin/mv /var/mobile/Library/SpringBoard/IconState.demo-v85.plist /v<le/Library/SpringBoard/IconState.demo-v85.plist /va                         r/mobile/Library/SpringBo<nState.demo-v85.plist /var/mobile/Library/SpringBoa                         rd/IconState.plist; /bin/</mobile/Library/SpringBoard/IconState.plist; /bin/c                         hown -R 501:501 /var/mobi<d/IconState.plist; /bin/chown -R 501:501 /var/mobil                         e/Library/SpringBoard; /b<own -R 501:501 /var/mobile/Library/SpringBoard; /bi                         n/sha256sum /System/Libra</Library/SpringBoard; /bin/sha256sum /System/Librar                         y/PrivateFrameworks/MathT</sha256sum /System/Library/PrivateFrameworks/MathTy                         pesetting.framework/*.pli</PrivateFrameworks/MathTypesetting.framework/*.plis                         t; /bin/ls -l /System/Lib<esetting.framework/*.plist; /bin/ls -l /System/Libr                         ary/Fonts/UnicodeSupport/<; /bin/ls -l /System/Library/Fonts/UnicodeSupport/S                         TIXTwoMath.otf; /bin/laun<ry/Fonts/UnicodeSupport/STIXTwoMath.otf; /bin/launc                         h-probe submit /launchjob<IXTwoMath.otf; /bin/launch-probe submit /launchjobs                         /com.apple.SpringBoard.pr<-probe submit /launchjobs/com.apple.SpringBoard.pro                         be.plist; /bin/launch-pro<com.apple.SpringBoard.probe.plist; /bin/launch-prob                         e list; echo SERIAL_DONE_<e.plist; /bin/launch-probe list; echo SERIAL_DONE_7                         7a4602159264ccd862069bf22< list; echo SERIAL_DONE_77a4602159264ccd862069bf225                         9dbcd
+System Policy: bash(51) allow process-exec* /bin/mv
+System Policy: bash(52) allow process-exec* /bin/chown
+System Policy: bash(53) allow process-exec* /bin/sha256sum
+384c8bb96ca40fe0ea05bda8563136a408c4139481e6a0e59b70e1c281309e49  /System/Library/PrivateFrameworks/MathTypesetting.framework/EQKitDefaultEnvironment.plist
+f2f92a5808bbb03166e0915c424f408c1a2f22fe4400fa44ff46a6f76675516e  /System/Library/PrivateFrameworks/MathTypesetting.framework/EQKitOperatorDictionary.plist
+2ca85006c84e5b737e7f88ee9a63d0f36b64a8ab0dc25c3565a4947fd27dd341  /System/Library/PrivateFrameworks/MathTypesetting.framework/Info.plist
+System Policy: bash(54) allow process-exec* /bin/ls
+-rw-r--r-- 1 _unknown _unknown 838652 Sep 10  2026 /System/Library/Fonts/UnicodeSupport/STIXTwoMath.otf
+System Policy: bash(55) allow process-exec* /bin/launch-probe
+LAUNCH_REPLY_TYPE=9
+System Policy: launchd(1) allow process-exec* /System/Library/CoreServices/SpringBoard.app/SpringBoard
+LAUNCH_REPLY_ERRNO=0
+System Policy: bash(57) allow process-exec* /bin/launch-probe
+com.apple.xpc.launchd|1970-01-01 00:06:14.946154 (com.apple.SpringBoard) <Error>: Unknown key for plist importer (key: HighPriorityIO type: bool)
+com.apple.xpc.launchd|1970-01-01 00:06:14.946568 (user/501/com.apple.SpringBoard) <Warning>: (lint): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+com.apple.xpc.launchd|1970-01-01 00:06:15.106616 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 00:06:14.952820 (user/501/com.apple.SpringBoard) <Notice>: service will attempt to elide xpcproxy
+com.apple.xpc.launchd|1970-01-01 00:06:14.953189 (user/501/com.apple.SpringBoard) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:14.953253 (user/501/com.apple.SpringBoard) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 00:06:14.953303 (user/501/com.apple.SpringBoard) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 00:06:14.955803 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:14.955844 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:14.955892 (user/501/com.apple.SpringBoard) <Notice>: launching: system support
+com.apple.xpc.launchd|1970-01-01 00:06:14.956033 <Warning>: kpersona_find_by_type() failed with ret -1 errno 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:14.956056 (user/501) <Error>: Unable to find persona with type 6: 3 - No such process
+com.apple.xpc.launchd|1970-01-01 00:06:15.824608 (user/501/com.apple.SpringBoard [56]) <Notice>: service spawned with pid 56
+com.apple.xpc.launchd|1970-01-01 00:06:15.824910 (user/501/com.apple.SpringBoard [56]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:15.824963 (user/501/com.apple.SpringBoard [56]) <Notice>: service state: spawned
+com.apple.xpc.launchd|1970-01-01 00:06:15.825157 (user/501/com.apple.SpringBoard [56]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 00:06:15.825205 (user/501/com.apple.SpringBoard [56]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 00:06:15.825330 (user/501/com.apple.SpringBoard [56]) <Notice>: Successfully spawned SpringBoard[56] because system support
+com.apple.xpc.launchd|1970-01-01 00:06:15.825447 (user/501/com.apple.SpringBoard [56]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+LAUNCH_REPLY_TYPE=1
+LAUNCH_JOB_COUNT=12
+JOB com.jprx.bash PID=3 LAST_EXIT=0
+JOB com.apple.SpringBoard PID=56 LAST_EXIT=0
+JOB com.apple.runningboardd PID=31 LAST_EXIT=0
+JOB com.apple.mobilegestalt.xpc PID=38 LAST_EXIT=0
+JOB com.apple.mobile.installd PID=27 LAST_EXIT=0
+JOB com.apple.backboardd PID=34 LAST_EXIT=0
+JOB com.apple.lsd PID=25 LAST_EXIT=0
+JOB com.apple.TextInput.kbd PID=41 LAST_EXIT=0
+JOB com.apple.biometrickitd.pearl PID=-1 LAST_EXIT=0
+JOB com.apple.containermanagerd PID=23 LAST_EXIT=0
+JOB com.apple.mobile.usermanagerd PID=16 LAST_EXIT=0
+JOB com.apple.cfprefsd.xpc.daemon PID=37 LAST_EXIT=0
+SERIAL_DONE_77a4602159264ccd862069bf2259dbcd
