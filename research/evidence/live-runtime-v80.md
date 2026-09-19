@@ -42,3 +42,17 @@ upstream-ready ownership fix.
 The next runtime checks are a visible Home frame, bounded input/frame latency,
 short icon tap, edited note and drawing persistence, and Calculator. None is
 claimed complete by the transport's acknowledgements.
+
+Frame52 subsequently passed all integrity checks and visual inspection shows
+the real iOS lock screen (clock, date, status bar, bottom Home indicator).
+PNG SHA256 a685b05de55d3fa25b1b528609a60d4e97293ee82263f77c5534b934473f74be.
+This verifies live-agent capture through the host HTTP endpoint. It does not
+yet establish browser mouse delivery or acceptable interactive latency.
+
+A native upward swipe submitted through the HTTP endpoint received three
+successful guest acknowledgements (down, coalesced move, up). The resulting
+frame must still be inspected; acceptance alone is not gesture delivery proof.
+Host recompression of the verified lock framebuffer produced 57,905 bytes at
+zlib level1, 31,074 at level6, and 28,681 at level9. This suggests testing
+stronger compression in the guest to reduce UART time without changing pixels;
+host timing does not predict emulated-guest compression cost.
