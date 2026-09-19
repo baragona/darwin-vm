@@ -49,3 +49,17 @@ Visual inspection confirms the Field Notes heading, Save and Draw/Scroll labels,
 initial note, embedded prior Home capture, and gray drawing canvas. The
 diagnostic rdar banner remains. This proves the app's initial visible scene,
 not editing, scrolling, saving or restored content.
+
+Native tap(0.6,0.13) switched the app into drawing mode, recorded by the
+read-only log observer. Native drag(0.2,0.78)->(0.8,0.9) delivered the app's
+touch handlers, which logged drawing changes and then Saved on this iPhone.
+Both gestures dispatched14 frames including release with14 monitor callbacks;
+the command exited0. The save message is emitted only when atomic plist
+writeToFile returns true. This does not yet prove reload/persistence.
+
+The post-drag framebuffer strictly decoded6,017,024 bytes with all pixels
+opaque, SHA2568347089c575d8d4e8dea5d8c9e0f47f36d29fc9fc12af6fc261cf6a8ca7eba11.
+Visual inspection confirms a black diagonal stroke at the requested canvas
+coordinates and the Saved on this iPhone status. This verifies native button
+and drawing interaction in Field Notes and a successful app-reported write.
+A process-relaunch test remains necessary to prove restored saved content.
