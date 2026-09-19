@@ -48,3 +48,12 @@ SHA256a653ca863683c3b1005b31bf0b3fad1b421221e5eaaa4e3d3e7cfdaa813dcdcc.
 Visual inspection confirms Utilities, Field Notes and Touch Probe on page2.
 The icons are gray placeholders, but the app labels and folder are present.
 This corrects the earlier inference that the apps lacked Home-screen icons.
+
+Tapping the real Field Notes Home icon at(0.385,0.11) did not open the app.
+The verified capture(SHA25632b98cd624f5b8c33ed4a511c20391f382b4d9d32060c8ee3caaa163c5af06bb)
+shows its enlarged icon and removal shortcut, consistent with a long press.
+The old tap sends14stationary frames separated by40ms, holding contact for
+roughly520ms before release. The next helper uses just down/up with one40ms
+interval; drag/swipe sequences retain14frames. It builds and verifies, and
+is staged in V80 with an extended4420-entry trust cache. V79 still has the
+old helper. Home-icon launch remains unverified until the short tap is tested.

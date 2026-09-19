@@ -53,3 +53,9 @@ see [the runtime evidence](evidence/notebook-runtime-v79.md). The existing fixed
 left Touch Probe visible in the first Home-navigation test. That observation
 does not prove whether the starting position, duration, or another gesture
 condition caused the failed navigation.
+
+V79 exposed a tap-duration bug: the old stationary14-frame tap opened a Home
+icon's long-press menu. The next helper uses two preallocated frames(down/up)
+with one40ms interval. Drags retain14frames. The changed helper passes strict
+iOS compilation/signature verification and is staged in V80; short-tap runtime
+behavior is not yet verified.

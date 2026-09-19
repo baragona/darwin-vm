@@ -166,11 +166,12 @@ int main(int argc, char **argv) {
         }
         enum { MOVES = 12, FRAMES = MOVES + 2 };
         void *hands[FRAMES] = {0}, *fingers[FRAMES] = {0};
-        /* Tap keeps the verified swipe cadence with stationary coordinates.
-         * Preallocate the entire sequence, including release, before sending
-         * any touch. No input is sent if a constructor fails. */
-        for (unsigned i = 0; i < FRAMES; ++i) {
-            unsigned touch = i != FRAMES - 1;
+        unsigned frames = tap ? 2 : FRAMES;
+        /* A stationary 14-frame sequence is a long press in SpringBoard.
+         * Taps use down/up separated by one 40ms interval. Preallocate the
+         * entire sequence, including release, before sending any touch. */
+        for (unsigned i = 0; i < frames; ++i) {
+            unsigned touch = i != frames - 1;
             unsigned mask = i == 0 || !touch ? 3 : 4;
             double fraction = (double)(i > MOVES ? MOVES : i) / MOVES;
             double x = drag ? tap_x + (end_x - tap_x) * fraction : tap ? tap_x : 0.5;
@@ -195,7 +196,7 @@ int main(int argc, char **argv) {
             IOHIDEventSetSenderID(fingers[i], sender_id);
             IOHIDEventAppendEvent(hands[i], fingers[i], 0);
         }
-        for (unsigned i = 0; i < FRAMES; ++i) {
+        for (unsigned i = 0; i < frames; ++i) {
             uint64_t now = mach_absolute_time();
             IOHIDEventSetTimeStamp(hands[i], now);
             IOHIDEventSetTimeStamp(fingers[i], now);
@@ -218,7 +219,7 @@ int main(int argc, char **argv) {
             (void)CFRunLoopRunInMode(*mode, 0.001, 0);
         }
         (void)CFRunLoopRunInMode(*mode, 2.0, 0);
-        for (unsigned i = 0; i < FRAMES; ++i) {
+        for (unsigned i = 0; i < frames; ++i) {
             CFRelease(hands[i]);
             CFRelease(fingers[i]);
         }

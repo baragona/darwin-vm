@@ -8,6 +8,12 @@
   "cdhash": "7c06fc48ed574dfbe1e5956cf691eca9027c5c0c",
   "image": "service-root-live-input-v80.dmg",
   "trustcache": "live-input-v80.tc",
-  "trustcache_entries": 4419,
-  "installed_binary_sha256": "5b97860922fb19d1d47656bd54a28b98ee87f2d662f42bcac3d98b4b25bcc000"
+  "trustcache_entries": 4420,
+  "installed_binary_sha256": "5b97860922fb19d1d47656bd54a28b98ee87f2d662f42bcac3d98b4b25bcc000",
+  "short_tap_helper": {
+    "sha256": "a4eda1fd4460a903da8060a539fe612ca7740d191a257bbac5e501640544ccae",
+    "source_sha256": "ee67991e2e76f3e8e7c2e2bb9d6e57b68a511e9697932f58f1c4d8749fe26f4d",
+    "cdhash": "2cb6495454fe2dff96045aab4474d790f5e97dd9",
+    "runtime_verified": false
+  }
 }
