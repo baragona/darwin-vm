@@ -1,0 +1,216 @@
+{
+  "build": "24A437",
+  "source": "matching firmware System/Library/PrivateFrameworks/SFSymbols.framework",
+  "image": "service-root-glyphs-v82.dmg",
+  "base_image": "service-root-live-delta-v81.dmg",
+  "trustcache": "unchanged from live-delta-v81.tc",
+  "files": [
+    {
+      "path": "CoreGlyphs.bundle/Assets.car",
+      "bytes": 108262936,
+      "sha256": "791ddc4c9155a8c85dc322e5e492fca89ad37142e661aac6972cdb471caa4687"
+    },
+    {
+      "path": "CoreGlyphs.bundle/Info.plist",
+      "bytes": 933,
+      "sha256": "6fb605430833b9379a002a14b88a60d039b777174be3ad7cbd33ed1c446c558d"
+    },
+    {
+      "path": "CoreGlyphs.bundle/_CodeSignature/CodeDirectory",
+      "bytes": 149,
+      "sha256": "b4b979e34dd56cfd92209157970f59c3ac37f719ade57b86c7baad61f9f3eddc"
+    },
+    {
+      "path": "CoreGlyphs.bundle/_CodeSignature/CodeRequirements",
+      "bytes": 12,
+      "sha256": "987920904eab650e75788c054aa0b0524e6a80bfc71aa32df8d237a61743f986"
+    },
+    {
+      "path": "CoreGlyphs.bundle/_CodeSignature/CodeRequirements-1",
+      "bytes": 197,
+      "sha256": "48f4740d64d6c3e3ac294dd34c585969649dcbef6ac8ca8dfb6726a1c6eebedb"
+    },
+    {
+      "path": "CoreGlyphs.bundle/_CodeSignature/CodeResources",
+      "bytes": 5042,
+      "sha256": "d4b07f4c9cb783952bd9b835b8967676abd00629e6eb8aefddc3c058839a75fb"
+    },
+    {
+      "path": "CoreGlyphs.bundle/_CodeSignature/CodeSignature",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CoreGlyphs.bundle/categories.plist",
+      "bytes": 1150,
+      "sha256": "20ea7740e4edea90d3f82fc97b0004b04eca5c8f2438623cc6d8d7074bdfcb92"
+    },
+    {
+      "path": "CoreGlyphs.bundle/legacy_flippable.plist",
+      "bytes": 2200,
+      "sha256": "617dde0c7b74e881efd3568106c389ab1fc089c6b8484d81703326fc7ed5a229"
+    },
+    {
+      "path": "CoreGlyphs.bundle/name_aliases.strings",
+      "bytes": 76143,
+      "sha256": "c50809c185eb8476439d90f2be15c43644fb1ead6f9bc2c8395dd41c030cf624"
+    },
+    {
+      "path": "CoreGlyphs.bundle/name_availability.plist",
+      "bytes": 319657,
+      "sha256": "67d30d40b0d0b4b72fbd94ee8e5b49332b087e7a5c905b5654dd8e0a30a42ef6"
+    },
+    {
+      "path": "CoreGlyphs.bundle/nofill_to_fill.strings",
+      "bytes": 174548,
+      "sha256": "4c7bebfd236fcf7a22b761e815757593d0e2f481580753edd21f2797cb45594f"
+    },
+    {
+      "path": "CoreGlyphs.bundle/semantic_to_descriptive_name.strings",
+      "bytes": 413,
+      "sha256": "585192e01e7ddd017c015411999024d3dc6f910b906e20d5a2876c820fd55683"
+    },
+    {
+      "path": "CoreGlyphs.bundle/symbol_categories.plist",
+      "bytes": 331406,
+      "sha256": "a814f9d1bba3e3d8f107183c58bb8697712f81984a9f51629d76615768569923"
+    },
+    {
+      "path": "CoreGlyphs.bundle/symbol_order.plist",
+      "bytes": 265681,
+      "sha256": "5e0df8538e46e62eb3d7a3e84e93b50a74d12c25ce2e04b34c107bd32976728b"
+    },
+    {
+      "path": "CoreGlyphs.bundle/symbol_restrictions.strings",
+      "bytes": 38226,
+      "sha256": "e45a246eb5b55240d6110a0c5087e19aeccdb58acac3ba7b12a84661fa2bd0f6"
+    },
+    {
+      "path": "CoreGlyphs.bundle/symbol_search.plist",
+      "bytes": 149618,
+      "sha256": "0500e7e8aa385244be10aa09c30050dd0cd4c09310d4c01d9f1d5a49b0da463c"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/Assets.car",
+      "bytes": 217112,
+      "sha256": "7ececeb5e83f77357370ade3fc6e28052921f718189407763569cd7ffa3796c2"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/Info.plist",
+      "bytes": 733,
+      "sha256": "343f712316384488ba33f812ac1dfd203ccd72ec014c3a6f5d880cbbfb3b9723"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/_CodeSignature/CodeDirectory",
+      "bytes": 157,
+      "sha256": "3db58335c9ef352c6796076be37285dd37c5b2b694dc054823559612bf73d22a"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/_CodeSignature/CodeRequirements",
+      "bytes": 12,
+      "sha256": "987920904eab650e75788c054aa0b0524e6a80bfc71aa32df8d237a61743f986"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/_CodeSignature/CodeRequirements-1",
+      "bytes": 205,
+      "sha256": "395672fcd4a11772cb5f85df26df893f574486a7e07fb546c806809f364ea117"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/_CodeSignature/CodeResources",
+      "bytes": 2010,
+      "sha256": "0e5c2dee2bebaadd2fbeb5ea0a5a776642f6dbb42d3b17db4cfff5060011005f"
+    },
+    {
+      "path": "CoreGlyphsPriority.bundle/_CodeSignature/CodeSignature",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/Assets.car",
+      "bytes": 18307448,
+      "sha256": "02140ee167499121b637ad953e1dca59e6f40aad467771e2398d0330a052eb18"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/CoreGlyphsPrivate",
+      "bytes": 35040,
+      "sha256": "7ef039e9ad484e50543161bd4df0e529510f4985ec797b85813fbf3f94582115"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/Info.plist",
+      "bytes": 949,
+      "sha256": "6650115ce9d6f4a888d0b3ee0c751f5187a1d1a8f02f2b43df1908dd7ccf430e"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/container_recipes.plist",
+      "bytes": 134244,
+      "sha256": "4f98a0c7a332f905757df662e2b2ac52d0394dbf1709e713f401ed07d62f8058"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/name_aliases.strings",
+      "bytes": 11170,
+      "sha256": "83b136359dccf5115627227ecb6dda836165e57b3b1cdba49b7e3fd69ac6fa48"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/name_availability.plist",
+      "bytes": 61579,
+      "sha256": "894381d955abe58aa3d5569737a6eac296be9a9041b269bfef6c50967b3ba800"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/nofill_to_fill.strings",
+      "bytes": 24131,
+      "sha256": "0a332621d1693133082755c0b7bba22d77acb01cc812e443f42631840f38562c"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/semantic_to_descriptive_name.strings",
+      "bytes": 89,
+      "sha256": "bee0bb8e9a82f8b0b7b948503b2ca0ab8e65aca43488ed79cd640b711bfa2200"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/symbol_categories.plist",
+      "bytes": 54051,
+      "sha256": "9ce7d61a81ea6b76551a28a80c4de05c017bb1e831af9fbc5e4a8084b5da6d5f"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/symbol_order.plist",
+      "bytes": 52062,
+      "sha256": "33c8507d36503b4a8e001e22303a5ffb309cd3a4c4d739242af52bf0fb06b59f"
+    },
+    {
+      "path": "CoreGlyphsPrivate.bundle/symbol_search.plist",
+      "bytes": 17811,
+      "sha256": "ad0dfda297257b5bcb2a081323c8ccebdd2388ec4f87eba8f98269b6467c3e76"
+    },
+    {
+      "path": "Info.plist",
+      "bytes": 720,
+      "sha256": "97cb0a892317ab08d05f99226d303ef6f8e8b26aaf08a36a471289723672260b"
+    },
+    {
+      "path": "Localizable.loctable",
+      "bytes": 1107718,
+      "sha256": "8ac11ae8cb6fdae125f32d5554546bfb39a1aeb1a7026943654f28c0adede746"
+    },
+    {
+      "path": "_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "metadata/index.plist",
+      "bytes": 120,
+      "sha256": "640d2db062cc6f38e5814225d6ba9fff83228fa86f339c3c3a5431d8a84e68e5"
+    },
+    {
+      "path": "metadata/metadata.store",
+      "bytes": 610759,
+      "sha256": "c8d4ae36e3626f7614bfe9e590e32c0116dcadba58cada509f0618fcaab2657b"
+    }
+  ],
+  "total_bytes": 130271365,
+  "runtime_verified": false
+}

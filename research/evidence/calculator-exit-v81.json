@@ -1,0 +1,5 @@
+{
+  "pid": 86,
+  "exit_line": "com.apple.xpc.launchd|1970-01-01 08:57:44.969111 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: exited due to SIGTRAP | sent by exc handler[86], ran for 88238ms",
+  "observed_unix_time": 1789845283.7305758
+}

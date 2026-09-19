@@ -1,0 +1,42 @@
+/bin/ls-open-probe --open com.apple.calculator; echo SERIAL_DONE_6ecom.apple.xpc.launchd|1970-01-01 08:55:39.741867 <Notice>: Last log repeated 9 times
+<.apple.calculator; echo SERIAL_DONE_6e3dbf4986ab434                         com.apple.xpc.launchd|1970-01-01 08:55:39.404681 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+abcedbc2ecom.apple.xpc.launchd|1970-01-01 08:55:40.048553 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+19d8481e
+System Policy: bash(85) allow process-exec* /bin/ls-open-probe
+com.apple.xpc.launchd|1970-01-01 08:55:51.674057 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 08:55:51.458380 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:55:51.481943 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_OPEN_BEGIN IDENTIFIER=com.apple.calculator
+com.apple.xpc.launchd|1970-01-01 08:56:03.971261 <Notice>: Last log repeated 11 times
+com.apple.xpc.launchd|1970-01-01 08:56:03.722920 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:04.007879 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:14.429966 <Notice>: Last log repeated 8 times
+com.apple.xpc.launchd|1970-01-01 08:56:12.532300 (user/501) <Warning>: failed lookup: name = com.apple.splashboard.launchimage, flags = 0x200, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:14.786869 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+System Policy: launchd(1) allow process-exec* /Applications/Calculator.app/Calculator
+com.apple.xpc.launchd|1970-01-01 08:56:14.978388 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy]) <Notice>: service will attempt to elide xpcproxy
+com.apple.xpc.launchd|1970-01-01 08:56:14.979517 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy]) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 08:56:14.979660 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy]) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 08:56:14.979695 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy]) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 08:56:14.980067 <Notice>: Coalition Cache Hit: app<com.apple.calculator(6498DC34-ABB1-568F-A5DA-B4A8E2134F23)> [37]
+com.apple.xpc.launchd|1970-01-01 08:56:14.980460 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy]) <Notice>: launching: launch job demand
+com.apple.xpc.launchd|1970-01-01 08:56:15.914992 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:16.185527 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:16.505351 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: service spawned with pid 86
+com.apple.xpc.launchd|1970-01-01 08:56:16.505766 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 08:56:16.505846 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: service state: spawned
+com.apple.xpc.launchd|1970-01-01 08:56:16.506075 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 08:56:16.506119 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 08:56:16.506161 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: job state = running
+com.apple.xpc.launchd|1970-01-01 08:56:16.506620 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: Successfully spawned Calculator[86] because launch job demand
+com.apple.xpc.launchd|1970-01-01 08:56:16.506796 (user/501/UIKitApplication:com.apple.calculator[d06a][rb-legacy] [86]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 08:56:16.974313 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:17.352740 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[30], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:18.098726 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+LS_OPEN_RESULT=1
+LS_PROBE_END
+com.apple.xpc.launchd|1970-01-01 08:56:18.784543 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[30], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:19.145956 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:56:19.401621 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[30], error = 3: No such process
+SERIAL_DONE_6e3dbf4986ab434abcedbc2e19d8481e

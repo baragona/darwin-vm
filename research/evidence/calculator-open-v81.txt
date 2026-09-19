@@ -1,0 +1,35 @@
+/bin/ls-open-probe --open com.apple.calculator; echo SERIAL_DONE_44<-open com.apple.calculator; echo SERIAL_DONE_444af4                         f8f96443a2ba982836da6a3cc<; echo SERIAL_DONE_444af4f8f96443a2ba982836da6a3cc6                         
+com.apple.xpc.launchd|1970-01-01 08:51:18.516008 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 08:51:18.286392 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:51:18.400492 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+System Policy: bash(80) allow process-exec* /bin/ls-open-probe
+LS_PROBE_BEGIN UID=501 GID=501 REGISTER=0
+LS_OPEN_BEGIN IDENTIFIER=com.apple.calculator
+com.apple.xpc.launchd|1970-01-01 08:51:28.783150 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 08:51:28.578705 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:51:28.739476 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:51:40.742821 <Notice>: Last log repeated 9 times
+com.apple.xpc.launchd|1970-01-01 08:51:38.410599 (user/501) <Warning>: failed lookup: name = com.apple.splashboard.launchimage, flags = 0x200, requestor = SpringBoard[44], error = 3: No such process
+System Policy: launchd(1) allow process-exec* /Applications/Calculator.app/Calculator
+com.apple.xpc.launchd|1970-01-01 08:51:41.077301 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:51:41.310325 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy]) <Notice>: service will attempt to elide xpcproxy
+com.apple.xpc.launchd|1970-01-01 08:51:41.311418 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy]) <Notice>: internal event: WILL_SPAWN, code = 0
+com.apple.xpc.launchd|1970-01-01 08:51:41.311673 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy]) <Notice>: service state: spawn scheduled
+com.apple.xpc.launchd|1970-01-01 08:51:41.311726 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy]) <Notice>: service state: spawning
+com.apple.xpc.launchd|1970-01-01 08:51:41.314490 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy]) <Notice>: launching: launch job demand
+com.apple.xpc.launchd|1970-01-01 08:51:42.175780 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:51:44.250205 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 08:51:44.013500 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: service spawned with pid 81
+com.apple.xpc.launchd|1970-01-01 08:51:44.014132 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: internal event: SPAWNED, code = 0
+com.apple.xpc.launchd|1970-01-01 08:51:44.131600 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: service state: spawned
+com.apple.xpc.launchd|1970-01-01 08:51:44.132616 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: service state: running
+com.apple.xpc.launchd|1970-01-01 08:51:44.132830 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: internal event: INIT, code = 0
+com.apple.xpc.launchd|1970-01-01 08:51:44.132889 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: job state = running
+com.apple.xpc.launchd|1970-01-01 08:51:44.275015 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: Successfully spawned Calculator[81] because launch job demand
+com.apple.xpc.launchd|1970-01-01 08:51:44.276085 (user/501/UIKitApplication:com.apple.calculator[dc88][rb-legacy] [81]) <Notice>: internal event: SOURCE_ATTACH, code = 0
+com.apple.xpc.launchd|1970-01-01 08:51:44.276996 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+com.apple.xpc.launchd|1970-01-01 08:51:45.989002 <Notice>: Last log repeated 1 times
+com.apple.xpc.launchd|1970-01-01 08:51:45.778629 (user/501) <Warning>: failed lookup: name = com.apple.PowerManagement.control, flags = 0x9, requestor = runningboardd[30], error = 3: No such process
+LS_OPEN_RESULT=0
+com.apple.xpc.launchd|1970-01-01 08:51:46.420009 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+SERIAL_DONE_444af4f8f96443a2ba982836da6a3cc6

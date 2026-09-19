@@ -1,0 +1,73 @@
+/bin/thread-probe 86; echo SERIAL_DONE_33f9363756d244a6a8648b99df8b<; echo SERIAL_DONE_33f9363756d244a6a8648b99df8b6a06                         
+com.apple.xpc.launchd|1970-01-01 08:57:22.969346 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 08:57:22.534191 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+System Policy: bash(87) allow process-exec* /bin/thread-probe
+com.apple.xpc.launchd|1970-01-01 08:57:22.995411 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+Sandbox: Calculator(86) deny(1) iokit-get-properties iokit-class:IOPlatformDevice property:supports-camera-button
+com.apple.xpc.launchd|1970-01-01 08:57:30.070943 <Notice>: Last log repeated 6 times
+com.apple.xpc.launchd|1970-01-01 08:57:29.917812 (user/501) <Warning>: failed lookup: name = com.apple.uiintelligencesupport.agent, flags = 0x80, requestor = Calculator[86], error = 3: No such process
+TASK PID=86 RESULT=0
+DYLD_SLIDE=0x268c000 CACHE_BASE=0x18268c000
+THREADS_RESULT=0 COUNT=5
+THREAD 0 PC=0x184376238 LR=0x184376238 FP=0x16b6ee2e0
+ FRAME 0 RETURN=0x184375fd8
+ FRAME 1 RETURN=0x18450b2ec
+ FRAME 2 RETURN=0x184375110
+ FRAME 3 RETURN=0x184505a98
+ FRAME 4 RETURN=0x184375110
+ FRAME 5 RETURN=0x184505a98
+ FRAME 6 RETURN=0x184375110
+ FRAME 7 RETURN=0x184505a98
+ FRAME 8 RETURN=0x184507fb8
+ FRAME 9 RETURN=0x184507fb8
+ FRAME 10 RETURN=0x18436ec30
+ FRAME 11 RETURN=0x184381534
+ FRAME 12 RETURN=0x104708b70
+ FRAME 13 RETURN=0x104717d54
+ FRAME 14 RETURN=0x18aad9ce4
+ FRAME 15 RETURN=0x18aace824
+ FRAME 16 RETURN=0x18aace86c
+ FRAME 17 RETURN=0x18aaae2d8
+ FRAME 18 RETURN=0x18aaa4d54
+ FRAME 19 RETURN=0x18aaa4694
+ FRAME 20 RETURN=0x18cf0b958
+ FRAME 21 RETURN=0x18cf0c94c
+ FRAME 22 RETURN=0x18cf0eb24
+ FRAME 23 RETURN=0x18cf04d6c
+THREAD 1 PC=0x182c9bb20 LR=0x8 FP=0x16b9b29f0
+ FRAME 0 RETURN=0x182d6f12c
+ FRAME 1 RETURN=0x182d6eee4
+ FRAME 2 RETURN=0x182d0fab4
+ FRAME 3 RETURN=0x182d671ac
+ FRAME 4 RETURN=0x182d74458
+com.apple.xpc.launchd|1970-01-01 08:57:30.487425 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+ FRAME 5 RETURN=0x1832fc554
+ FRAME 6 RETURN=0x183393aa8
+ FRAME 7 RETURN=0x1a107afd4
+ FRAME 8 RETURN=0x1a107b380
+ FRAME 9 RETURN=0x1a107a97c
+ FRAME 10 RETURN=0x1b117bccc
+ FRAME 11 RETURN=0x1b1195fb4
+ FRAME 12 RETURN=0x1b118e960
+ FRAME 13 RETURN=0x1b118f0e4
+ FRAME 14 RETURN=0x182bc71fc
+ FRAME 15 RETURN=0x182bc6910
+THREAD 2 PC=0x23a583ae8 LR=0x18ea05058 FP=0x16b782680
+ FRAME 0 RETURN=0x1a107d958
+ FRAME 1 RETURN=0x19253af90
+ FRAME 2 RETURN=0x19253bccc
+ FRAME 3 RETURN=0x19254f738
+ FRAME 4 RETURN=0x19253bac8
+ FRAME 5 RETURN=0x182c5b0c4
+ FRAME 6 RETURN=0x1b117bccc
+ FRAME 7 RETURN=0x1b1195fb4
+ FRAME 8 RETURN=0x1b118487c
+ FRAME 9 RETURN=0x1b1185470
+ FRAME 10 RETURN=0x1b118fc8c
+ FRAME 11 RETURN=0x1b118f6b0
+ FRAME 12 RETURN=0x182bc7238
+ FRAME 13 RETURN=0x182bc6910
+THREAD 3 PC=0x182bc6908 LR=0x0 FP=0x0
+THREAD 4 PC=0x182bc6908 LR=0x0 FP=0x0
+RESUME_RESULT=0
+SERIAL_DONE_33f9363756d244a6a8648b99df8b6a06

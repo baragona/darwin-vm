@@ -1,0 +1,50 @@
+0x184376238 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181cea238: __ZL24_gatherGenericParametersPKN5swift23TargetContextDescriptorINS_9InProcessEEEN7__swift9__runtime4llvm8ArrayRefINS_19MetadataPackOrValueEEEPKNS_14TargetMetadataIS1_EERNS7_15SmallVectorImplIjEERNSF_IPKvEERNS_8Demangle9__runtime9DemanglerE + 108
+0x184375fd8 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181ce9fd8: __ZNK12_GLOBAL__N_122DecodedMetadataBuilder22createBoundGenericTypeEPKN5swift23TargetContextDescriptorINS1_9InProcessEEEN7__swift9__runtime4llvm8ArrayRefINS1_19MetadataPackOrValueEEESB_ + 264
+0x18450b2ec IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181e7f2ec: __ZN5swift8Demangle9__runtime11TypeDecoderIN12_GLOBAL__N_122DecodedMetadataBuilderEE17decodeMangledTypeEPNS1_4NodeEjbb + 25228
+0x184375110 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181ce9110: __ZN5swift8Demangle9__runtime11TypeDecoderIN12_GLOBAL__N_122DecodedMetadataBuilderEE17decodeGenericArgsEPNS1_4NodeEjRN7__swift9__runtime4llvm15SmallVectorImplINS_19MetadataPackOrValueEEE + 292
+0x184505a98 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181e79a98: __ZN5swift8Demangle9__runtime11TypeDecoderIN12_GLOBAL__N_122DecodedMetadataBuilderEE17decodeMangledTypeEPNS1_4NodeEjbb + 2616
+0x184507fb8 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181e7bfb8: __ZN5swift8Demangle9__runtime11TypeDecoderIN12_GLOBAL__N_122DecodedMetadataBuilderEE17decodeMangledTypeEPNS1_4NodeEjbb + 12120
+0x18436ec30 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181ce2c30: _swift_getTypeByMangledName + 1724
+0x184381534 IMAGE
+-----
+ > /usr/lib/swift/libswiftCore.dylib (__TEXT.__text)
+
+0x181cf5534: _swift_getTypeByMangledNameInContext2 + 248
+0x18aad9ce4 IMAGE
+-----
+ > /System/Library/Frameworks/SwiftUICore.framework/SwiftUICore (__TEXT.__text)
+
+0x18844dce4: _$s7SwiftUI16ViewBodyAccessorV06updateD02of7changedyx_SbtFyyScMYcXEfU_ + 1708
+0x18cf0b958 IMAGE
+-----
+ > /System/Library/PrivateFrameworks/AttributeGraph.framework/AttributeGraph (__TEXT.__text)
+
+0x18a87f958: __ZN2AG5Graph11UpdateStack6updateEv + 568

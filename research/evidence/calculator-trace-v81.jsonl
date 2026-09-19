@@ -1,0 +1,1 @@
+{"summary": {"Taking exception 2 [SVC] on CPU 0": 687739, "Taking exception 30 [genter] on CPU 0": 389507, "Taking exception 6 [FIQ] on CPU 0": 20337, "Taking exception 4 [Data Abort] on CPU 0": 63167, "Taking exception 3 [Prefetch Abort] on CPU 0": 276}, "errors": [], "elapsed": 180.11042858310975}

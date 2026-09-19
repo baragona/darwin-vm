@@ -1,0 +1,3 @@
+{"event": "start", "unix_time": 1789845127.7005272, "monotonic": 1171254.106185291}
+{"elapsed": 151.3320503749419, "lines": ["Taking exception 7 [Breakpoint] on CPU 0", "...from EL0 to EL2", "...with ESR 0x3c/0xf2000001", "...with SPSR 0x40000000", "...with ELR 0x18ace32f0", "...with ASPSR 0x0", "...to EL2 PC 0xfffffe002ab44400 PSTATE 0x24033c9"]}
+{"summary": {"Taking exception 2 [SVC] on CPU 0": 663081, "Taking exception 30 [genter] on CPU 0": 342917, "Taking exception 6 [FIQ] on CPU 0": 22527, "Taking exception 4 [Data Abort] on CPU 0": 52074, "Taking exception 3 [Prefetch Abort] on CPU 0": 104, "Taking exception 7 [Breakpoint] on CPU 0": 1}, "errors": [], "elapsed": 156.20794154214673, "unix_time": 1789845283.9066398}

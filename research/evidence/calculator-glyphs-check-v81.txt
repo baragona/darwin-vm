@@ -1,0 +1,13 @@
+/bin/ls -ld /System/Library/PrivateFrameworks/SFSymbols.framework</Library/PrivateFrameworks/SFSymbols.framework /Sys                       tem/Library/PrivateFram<Symbols.framework /System/Library/PrivateFrameworks                       /SFSymbols.framework/Core<ary/PrivateFrameworks/SFSymbols.framework/CoreGlyph                         s.bundle /bin/<amework/CoreGlyphs.bundle /bin/dd /bin/tar; echo SE              RIAL_DONE_d677248f8a8340f</dd /bin/tar; echo SERIAL_DONE_d677248f8a8340f3b4df                         8361com.apple.xpc.launchd|1970-01-01 09:02:37.693453 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 09:02:37.321207 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+aef6d891
+com.apple.xpc.launchd|1970-01-01 09:02:38.267910 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+System Policy: bash(91) allow process-exec* /bin/ls
+com.apple.xpc.launchd|1970-01-01 09:02:48.688568 <Notice>: Last log repeated 10 times
+com.apple.xpc.launchd|1970-01-01 09:02:48.679084 (user/501) <Warning>: failed lookup: name = com.apple.audio.AudioSession, flags = 0x8, requestor = Notebook[62], error = 3: No such process
+ls: cannot access '/System/Library/PrivateFrameworks/SFSymbols.framework': No such file or directory
+ls: cannot access '/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphs.bundle': No such file or directory
+com.apple.xpc.launchd|1970-01-01 09:02:49.655262 (user/501) <Warning>: failed lookup: name = com.apple.commcenter.xpc, flags = 0x8, requestor = SpringBoard[44], error = 3: No such process
+ls: cannot access '/bin/tar': No such file or directory
+-rwxr-xr-x 1 root wheel 220096 Sep 18  2026 /bin/dd
+SERIAL_DONE_d677248f8a8340f3b4df8361aef6d891

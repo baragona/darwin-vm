@@ -1,0 +1,10 @@
+/bin/ls -la /var/mobile/Containers/Data/Application /var/mobile/D<obile/Containers/Data/Application /var/mobile/Docum                       ents; echo SERIAL_DONE_<ication /var/mobile/Documents; echo SERIAL_DONE_46a                       56fb903c84659a76a648eae63<nts; echo SERIAL_DONE_46a56fb903c84659a76a648eae63c                         519
+System Policy: bash(92) allow process-exec* /bin/ls
+System Policy: ls(92) deny(1) file-read-data /private/var/mobile/Containers/Data/Application
+ls: cannot open directory '/var/mobile/Containers/Data/Application': Operation not permitted
+/var/mobile/Documents:
+total 48
+drwxr-xr-x 3 mobile mobile  88 Jan  1 04:05 .
+drwxr-xr-x 5 mobile mobile 264 Jan  1 04:05 ..
+drwxr-xr-x 2 mobile mobile  88 Jan  1 04:05 com.apple.springboard.appLibrary
+SERIAL_DONE_46a56fb903c84659a76a648eae63c519
