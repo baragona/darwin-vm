@@ -40,3 +40,12 @@ thread sample; a user-context write had failed and was not counted as restored.
 
 V78 has now been closed after V79 demonstrated notebook restoration, leaving
 only V79 running among the Darwin guests.
+
+Follow-up: Calculator91 also exited with SIGTRAP after316.5 guest seconds.
+The full561-site app trap set was still armed at that recorded exit time;
+none was reported by LLDB. Narrowing happened afterward, so it cannot be
+credited with avoiding the failure. This directs further investigation
+toward framework/PAC trap paths or catching the Mach exception itself.
+The later framebuffer decoded successfully and exactly matches the known
+Home frame hash02997a1eb162d800731ed3aec430d98128ceee116900a19948ff3a225a588742.
+The app-specific trap observers have now been removed.
