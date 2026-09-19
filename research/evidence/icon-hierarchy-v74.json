@@ -1,0 +1,610 @@
+[
+  {
+    "view": "0x7d4b5f3000",
+    "class": "SBIconView",
+    "layer_ivar_offset": 176,
+    "layers": [
+      {
+        "layer": "0x7d4ada46c0",
+        "class": "CALayer",
+        "delegate": "0x7d4b5f3000",
+        "delegateClass": "SBIconView",
+        "bounds": [
+          0.0,
+          0.0,
+          56.0,
+          70.0
+        ],
+        "position": [
+          26.999999999999993,
+          29.999999999999993
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a7f35a0",
+        "class": "CALayer",
+        "delegate": "0x7d4a7f4a00",
+        "delegateClass": "SBIconListView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          312.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a7f0900",
+        "class": "CALayer",
+        "delegate": "0x7d4a7bb200",
+        "delegateClass": "SBIconScrollView",
+        "bounds": [
+          208.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a7f0960",
+        "class": "CALayer",
+        "delegate": "0x7d4a701dc0",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a7f08d0",
+        "class": "CALayer",
+        "delegate": "0x7d4b4a9e00",
+        "delegateClass": "SBRootFolderView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a7f2310",
+        "class": "CALayer",
+        "delegate": "0x7d4a7fddc0",
+        "delegateClass": "SBFolderContainerView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a661fb0",
+        "class": "CALayer",
+        "delegate": "0x7d4a702d80",
+        "delegateClass": "SBIconContentView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a663840",
+        "class": "_UIMultiLayer",
+        "delegate": "0x7d4a702d80",
+        "delegateClass": "SBIconContentView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a6633f0",
+        "class": "CALayer",
+        "delegate": "0x7d4a702f40",
+        "delegateClass": "SBHomeScreenView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4b4fb480",
+        "class": "UIWindowLayer",
+        "delegate": "0x7d4b514000",
+        "delegateClass": "SBHomeScreenWindow",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4b4fb580",
+        "class": "_UIWindowTransformLayer",
+        "delegate": "0x0",
+        "delegateClass": null,
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4b4fb540",
+        "class": "_UIWindowTransformLayer",
+        "delegate": "0x0",
+        "delegateClass": null,
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4b4fb500",
+        "class": "UIWindowLayer",
+        "delegate": "0x0",
+        "delegateClass": null,
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      }
+    ]
+  },
+  {
+    "view": "0x7d4b6a6a00",
+    "class": "SBHLibraryCategoryPodIconView",
+    "layer_ivar_offset": 176,
+    "layers": [
+      {
+        "layer": "0x7d49d07a80",
+        "class": "CALayer",
+        "delegate": "0x7d4b6a6a00",
+        "delegateClass": "SBHLibraryCategoryPodIconView",
+        "bounds": [
+          0.0,
+          0.0,
+          56.0,
+          56.0
+        ],
+        "position": [
+          36.599999999999994,
+          36.599999999999994
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4ac1a3d0",
+        "class": "CALayer",
+        "delegate": "0x7d49e1b700",
+        "delegateClass": "SBHLibraryCategoryPodIconListView",
+        "bounds": [
+          0.0,
+          0.0,
+          137.0,
+          137.0
+        ],
+        "position": [
+          68.5,
+          68.5
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4ac19530",
+        "class": "CALayer",
+        "delegate": "0x7d49efd340",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          137.33333333333334,
+          137.33333333333334
+        ],
+        "position": [
+          68.66666666666667,
+          68.66666666666667
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d49c20ae0",
+        "class": "CALayer",
+        "delegate": "0x7d49efda40",
+        "delegateClass": "SBHTouchPassThroughView",
+        "bounds": [
+          0.0,
+          0.0,
+          137.33333333333334,
+          137.33333333333334
+        ],
+        "position": [
+          68.66666666666667,
+          68.66666666666667
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4ac19680",
+        "class": "CALayer",
+        "delegate": "0x7d49efd500",
+        "delegateClass": "SBHTouchPassThroughView",
+        "bounds": [
+          0.0,
+          0.0,
+          137.33333333333334,
+          151.33333333333334
+        ],
+        "position": [
+          68.66666666666667,
+          75.66666666666667
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4ac1b360",
+        "class": "CALayer",
+        "delegate": "0x7d4b6a6400",
+        "delegateClass": "_SBHLibraryPodIconView",
+        "bounds": [
+          0.0,
+          0.0,
+          137.33333333333334,
+          151.33333333333334
+        ],
+        "position": [
+          85.33333333333334,
+          76.66666666666667
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d49c20120",
+        "class": "CALayer",
+        "delegate": "0x7d4a7f4f00",
+        "delegateClass": "_SBHLibraryPodIconListView",
+        "bounds": [
+          0.0,
+          0.0,
+          320.0,
+          165.5
+        ],
+        "position": [
+          104.0,
+          82.75
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a68ebe0",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b8a00",
+        "delegateClass": "isa=0x1efcdfec0",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a562130",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b41c0",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a5620a0",
+        "class": "CALayer",
+        "delegate": "0x7d4b1c7c00",
+        "delegateClass": "SBHLibraryPodFolderView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a68ebb0",
+        "class": "_UIMultiLayer",
+        "delegate": "0x7d4b1c7c00",
+        "delegateClass": "SBHLibraryPodFolderView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a68f810",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b5f80",
+        "delegateClass": "SBFolderContainerView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a68f8d0",
+        "class": "_UIMultiLayer",
+        "delegate": "0x7d4a7b5f80",
+        "delegateClass": "SBFolderContainerView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4000"
+      },
+      {
+        "layer": "0x7d4a68fae0",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b6680",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a68fab0",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b64c0",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a68f9c0",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b6140",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a68f960",
+        "class": "CALayer",
+        "delegate": "0x7d4a7b6300",
+        "delegateClass": "isa=0x1efd39b60",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a7f2340",
+        "class": "CALayer",
+        "delegate": "0x7d4b4f0a00",
+        "delegateClass": "_SBRootFolderLayoutWrapperView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          520.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a7f0900",
+        "class": "CALayer",
+        "delegate": "0x7d4a7bb200",
+        "delegateClass": "SBIconScrollView",
+        "bounds": [
+          208.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      },
+      {
+        "layer": "0x7d4a7f0960",
+        "class": "CALayer",
+        "delegate": "0x7d4a701dc0",
+        "delegateClass": "UIView",
+        "bounds": [
+          0.0,
+          0.0,
+          208.0,
+          248.0
+        ],
+        "position": [
+          104.0,
+          124.0
+        ],
+        "has_transform": false,
+        "flags": "0x4800"
+      }
+    ]
+  }
+]
