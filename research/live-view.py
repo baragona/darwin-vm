@@ -98,7 +98,7 @@ class Frames:
                 self.reject()
         return None
 
-COMMAND = re.compile(r'(?:[DMU] (?:0(?:\.\d+)?|1(?:\.0+)?) (?:0(?:\.\d+)?|1(?:\.0+)?)|K \d{1,3} [01]|[HRP])\Z')
+COMMAND = re.compile(r'(?:[DMUT] (?:0(?:\.\d+)?|1(?:\.0+)?) (?:0(?:\.\d+)?|1(?:\.0+)?)|K \d{1,3} [01]|[HRP])\Z')
 class Bridge:
     def __init__(self, path, transcript, start, rate):
         self.socket=socket.socket(socket.AF_UNIX);self.socket.connect(path)
@@ -120,7 +120,7 @@ class Bridge:
                 self.log.write(data);self.log.flush();buf.extend(data)
                 while b'\n' in buf:
                     line,_,rest=buf.partition(b'\n');buf=bytearray(rest);line=bytes(line).replace(b'\r',b'')
-                    if line in (b'LIVE_INPUT_READY 1',b'LIVE_INPUT_READY 2'):
+                    if line in (b'LIVE_INPUT_READY 1',b'LIVE_INPUT_READY 2',b'LIVE_INPUT_READY 3'):
                         self.version=int(line.split()[1]);self.ready.set();self.status='Connected'
                     elif line.startswith(b'LIVE_INPUT_RESULT '):
                         self.status='Connected' if line==b'LIVE_INPUT_RESULT 1' else 'Guest rejected a command'
@@ -167,6 +167,7 @@ class Bridge:
         for cmd in commands:
             if not isinstance(cmd,str) or len(cmd)>80 or not COMMAND.fullmatch(cmd):raise ValueError('Invalid input command')
             if cmd.startswith('K ') and not 4<=int(cmd.split()[1])<=231:raise ValueError('Invalid key usage')
+            if cmd.startswith('T ') and self.version<3:raise ValueError('Guest does not support short taps')
         with self.lock:
             if len(self.queue)+len(commands)>128:
                 self.queue.clear();self.queue.append('R');raise ValueError('Input queue full; releasing input')
@@ -178,27 +179,31 @@ HTML='''<!doctype html><meta charset="utf-8"><title>iOS guest</title>
 <style>body{background:#17191d;color:#eee;font:15px system-ui;margin:16px}header{display:flex;gap:16px;align-items:center;margin-bottom:12px}button{padding:8px 16px}img{max-height:86vh;max-width:95vw;touch-action:none;user-select:none;background:#000}#status{color:#bbb}</style>
 <header><strong>iOS guest</strong><button id="home">Home</button><span id="status">Connecting…</span></header><img id="screen" draggable="false" tabindex="0" alt="Waiting for a guest frame">
 <script>
-const screen=document.querySelector('#screen'),status=document.querySelector('#status');let down=false,lastFrame=-1,outbox=[],sending=false;
+const screen=document.querySelector('#screen'),status=document.querySelector('#status');let down=false,lastFrame=-1,outbox=[],sending=false,version=1,pending=null,tapTimer=null;
+function flushPress(){if(pending){send(['D '+pending.point]);pending=null}clearTimeout(tapTimer)}
+function cancelPointer(){clearTimeout(tapTimer);pending=null;down=false;send(['R'])}
 function send(cmds){
   for(const cmd of cmds){if(cmd.startsWith('M ')&&outbox.length>=16&&outbox.slice(-16).every(item=>item.startsWith('M ')))outbox[outbox.length-1]=cmd;else outbox.push(cmd)}
-  if(outbox.length>128){outbox=['R'];down=false;status.textContent='Input queue full; releasing input'}
+  if(outbox.length>128){outbox=['R'];down=false;pending=null;clearTimeout(tapTimer);status.textContent='Input queue full; releasing input'}
   drain();
 }
 async function drain(){
   if(sending)return;sending=true;
   try{while(outbox.length){let cmds=outbox.splice(0,32);let r=await fetch('/input',{method:'POST',headers:{'Content-Type':'application/json','X-VM-Token':'TOKEN'},body:JSON.stringify(cmds)});if(!r.ok)throw Error('Input unavailable')}}
-  catch(e){outbox=[];down=false;status.textContent=e.message}
+  catch(e){outbox=[];down=false;pending=null;clearTimeout(tapTimer);status.textContent=e.message}
   finally{sending=false}
 }
 function point(e){let r=screen.getBoundingClientRect();return [Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))].map(n=>n.toFixed(5)).join(' ')}
-screen.onpointerdown=e=>{if(e.button!==0)return;e.preventDefault();screen.focus();screen.setPointerCapture(e.pointerId);down=true;send(['D '+point(e)])};
-screen.onpointermove=e=>{if(down)send(['M '+point(e)])};screen.onpointerup=e=>{if(down){down=false;send(['U '+point(e)])}};
-screen.onpointercancel=()=>{down=false;send(['R'])};screen.oncontextmenu=e=>e.preventDefault();
-document.querySelector('#home').onclick=()=>send(['H']);window.onblur=()=>{down=false;send(['R'])};
+screen.onpointerdown=e=>{if(e.button!==0||down)return;e.preventDefault();screen.focus();screen.setPointerCapture(e.pointerId);down=true;if(version>=3){pending={point:point(e),x:e.clientX,y:e.clientY};tapTimer=setTimeout(flushPress,200)}else send(['D '+point(e)])};
+screen.onpointermove=e=>{if(down){if(pending&&Math.hypot(e.clientX-pending.x,e.clientY-pending.y)<3)return;flushPress();send(['M '+point(e)])}};
+screen.onpointerup=e=>{if(down){down=false;clearTimeout(tapTimer);if(pending){if(Math.hypot(e.clientX-pending.x,e.clientY-pending.y)<3){send(['T '+point(e)]);pending=null}else{flushPress();send(['U '+point(e)])}}else send(['U '+point(e)])}};
+screen.onpointercancel=cancelPointer;screen.oncontextmenu=e=>e.preventDefault();
+screen.onlostpointercapture=()=>{if(down)cancelPointer()};
+document.querySelector('#home').onclick=()=>{if(down)cancelPointer();send(['H'])};window.onblur=cancelPointer;
 const keys={Enter:40,Escape:41,Backspace:42,Tab:43,Space:44,Minus:45,Equal:46,BracketLeft:47,BracketRight:48,Backslash:49,Semicolon:51,Quote:52,Backquote:53,Comma:54,Period:55,Slash:56,CapsLock:57,Delete:76,ArrowRight:79,ArrowLeft:80,ArrowDown:81,ArrowUp:82,ControlLeft:224,ShiftLeft:225,AltLeft:226,MetaLeft:227,ControlRight:228,ShiftRight:229,AltRight:230,MetaRight:231};
 for(let i=0;i<26;i++)keys['Key'+String.fromCharCode(65+i)]=4+i;for(let i=1;i<=9;i++)keys['Digit'+i]=29+i;keys.Digit0=39;
 for(const type of ['keydown','keyup'])screen.addEventListener(type,e=>{if(keys[e.code]){e.preventDefault();if(!e.repeat)send(['K '+keys[e.code]+' '+(type==='keydown'?1:0)])}});
-async function poll(){try{let s=await(await fetch('/state')).json();status.textContent=s.status+' · '+(s.age===null?'no frame':s.age.toFixed(1)+'s since frame')+' · '+s.rejected+' rejected frames';if(s.frame!==lastFrame&&s.frame){lastFrame=s.frame;screen.src='/frame?'+s.frame}}catch(e){status.textContent=e.message}setTimeout(poll,500)}poll();
+async function poll(){try{let s=await(await fetch('/state')).json();version=s.version||1;status.textContent=s.status+' · '+(s.age===null?'no frame':s.age.toFixed(1)+'s since frame')+' · '+s.rejected+' rejected frames';if(s.frame!==lastFrame&&s.frame){lastFrame=s.frame;screen.src='/frame?'+s.frame}}catch(e){status.textContent=e.message}setTimeout(poll,500)}poll();
 </script>'''
 
 def main():
@@ -214,7 +219,7 @@ def main():
         def do_GET(self):
             if self.path=='/':return self.reply(200,HTML.replace('TOKEN',token).encode(),'text/html; charset=utf-8')
             if self.path=='/state':
-                with bridge.lock:data={'status':bridge.status,'frame':bridge.frame,'age':time.monotonic()-bridge.frame_at if bridge.frame_at else None,'rejected':bridge.parser.rejected}
+                with bridge.lock:data={'status':bridge.status,'version':bridge.version,'frame':bridge.frame,'age':time.monotonic()-bridge.frame_at if bridge.frame_at else None,'rejected':bridge.parser.rejected}
                 return self.reply(200,json.dumps(data).encode(),'application/json')
             if self.path.startswith('/frame'):
                 with bridge.lock:picture=bridge.picture

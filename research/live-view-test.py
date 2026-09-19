@@ -91,7 +91,10 @@ class Protocol(unittest.TestCase):
     def test_queue_coalesces_movement_preserves_release(self):
         bridge = v.Bridge.__new__(v.Bridge)
         bridge.ready = threading.Event();bridge.ready.set()
-        bridge.stopped = False;bridge.lock = threading.Lock();bridge.queue = collections.deque()
+        bridge.stopped = False;bridge.version=2;bridge.lock = threading.Lock();bridge.queue = collections.deque()
+        with self.assertRaises(ValueError):bridge.enqueue(['T 0.2 0.3'])
+        bridge.version=3;bridge.enqueue(['T 0.2 0.3'])
+        self.assertEqual(list(bridge.queue),['T 0.2 0.3']);bridge.queue.clear()
         bridge.enqueue(['D 0 0', 'M 0.1 0.1', 'M 0.2 0.2', 'U 0.2 0.2'])
         self.assertEqual(list(bridge.queue), ['D 0 0', 'M 0.1 0.1', 'M 0.2 0.2', 'U 0.2 0.2'])
         for invalid in [['K 3 1'], ['D nan 0'], ['Q'], ['F'], ['K 4 1', 'bad']]:

@@ -1,0 +1,244 @@
+{
+  "image": "service-root-taps-v83.dmg",
+  "base_image": "service-root-glyphs-v82.dmg",
+  "protocol_version": 3,
+  "cdhash": "780a53cd5baa88239b2eda90232756376707098e",
+  "binary_sha256": "ad5c4206a107fd82ebfe5caa257e16fc9bdf9572b4c7243973d53af048b1f7e8",
+  "trustcache_entries": 4423,
+  "runtime_verified": false,
+  "localization_key": "REMOVE_APP_SHORTCUT_ITEM_TITLE",
+  "english_value": "Remove App",
+  "resources": [
+    {
+      "path": "Assets.car",
+      "bytes": 88520,
+      "sha256": "8d0c9c3690482964081118016be78d411ebe60cfc118530af0d88d73a242693a"
+    },
+    {
+      "path": "Dim Icon Asset.ca/index.xml",
+      "bytes": 1455,
+      "sha256": "846e85dbca4861758a2413c9008441a24cf5849af35fe397d06f8abbead58930"
+    },
+    {
+      "path": "Dim Icon Asset.ca/main.caml",
+      "bytes": 7595,
+      "sha256": "2c93e14bfbc844b30dcdb0ff58fb6c58ce588ff3833f0430794d2d3b2367b7dd"
+    },
+    {
+      "path": "Icon Size Toggle.ca/index.xml",
+      "bytes": 1462,
+      "sha256": "20cea8f69f3e5a88002d94c9b67dd213319bde6fe39eee536e8e6566ea7ca50b"
+    },
+    {
+      "path": "Icon Size Toggle.ca/main.caml",
+      "bytes": 6750,
+      "sha256": "46bf2478dbdc138c8c8652ed000864040cd84c1b736cf9bf14ec4f2ab08b60a8"
+    },
+    {
+      "path": "Info.plist",
+      "bytes": 688,
+      "sha256": "2f1a065deb2f7e436f1424bb639bc47c460914503daf38b2967f4fadf430dac7"
+    },
+    {
+      "path": "Localizable.loctable",
+      "bytes": 19497,
+      "sha256": "34fbee3a20bb0523d40aafbde6b3eb61c8f32c45fc3f7061a072932a8e2b8559"
+    },
+    {
+      "path": "SpringBoard.loctable",
+      "bytes": 1530,
+      "sha256": "e344712a606a40082de33668369f84c402895a53ba2306a046815f18eeefc79f"
+    },
+    {
+      "path": "SpringBoardHome-AppClips.loctable",
+      "bytes": 9470,
+      "sha256": "613a797e5a7d0dac618dc14251ffa7519d9b7447ad04c41077754f30e4283a86"
+    },
+    {
+      "path": "SpringBoardHome.loctable",
+      "bytes": 343039,
+      "sha256": "fb3c20144126ba592ef263a2e6f20ff0b5bce61f38f0aa3fdcbab24fa73d356e"
+    },
+    {
+      "path": "_CodeSignature/CodeResources",
+      "bytes": 2467,
+      "sha256": "3c727b0f043e463c0227db49cef54c5567715986d08a46c98923c9bb73585e5a"
+    },
+    {
+      "path": "activityAmbientBackground.descendantrecipe",
+      "bytes": 171,
+      "sha256": "3c015ba6b12f993f21724952ff701c8e8983679a736c98a63ce8bb520721e7d8"
+    },
+    {
+      "path": "com.apple.Trial.NamespaceDescriptor.962.plist",
+      "bytes": 316,
+      "sha256": "1b916e3554fef9fc01bbcf3dcd425cb62d97da2ddee652b8e03ce4215ddda992"
+    },
+    {
+      "path": "coplanarLeadingTrailingBackgroundBlur.materialrecipe",
+      "bytes": 479,
+      "sha256": "7aae22de860f3b04816ed4851d4ba36341dde186581b5984116dc1ae6a88a7cf"
+    },
+    {
+      "path": "default_factors_962.pb",
+      "bytes": 67,
+      "sha256": "a065f61c661366b7c8f06531675b8b12fef1e67d34d79a26beeb6946f7db4d98"
+    },
+    {
+      "path": "folderDark.materialrecipe",
+      "bytes": 347,
+      "sha256": "22210f530e1845e448822f8a3865ad86808a9c4aa33dc3678e71a4c6517c7304"
+    },
+    {
+      "path": "folderDarkSimplified.materialrecipe",
+      "bytes": 1318,
+      "sha256": "1b096a7717eeeefd14cf91a8ddbda4bc9511f6af15d6142637528891f4e6ed66"
+    },
+    {
+      "path": "folderExpandedBackgroundApp.descendantrecipe",
+      "bytes": 228,
+      "sha256": "816c91d0a0ec65029bd4d799908b65463416c7b27d4c231a13c1b799b0b7fa10"
+    },
+    {
+      "path": "folderExpandedBackgroundHome.materialrecipe",
+      "bytes": 250,
+      "sha256": "b74263c444c31fce5fe940433d71e216e1edb30b94477e6483c784c55dc08c80"
+    },
+    {
+      "path": "folderExpandedBackgroundHomeSimplified.materialrecipe",
+      "bytes": 708,
+      "sha256": "9012a7d21b5deeb3f764b27bcc5e8c412b4c034f8414a48367b06b6e9e8a78a9"
+    },
+    {
+      "path": "folderExpandedDark.descendantrecipe",
+      "bytes": 188,
+      "sha256": "4c972521b1b3c369f39cfa7c9a53dbb7a28c4da44abcc57982c707f9e197d376"
+    },
+    {
+      "path": "folderExpandedLight.descendantrecipe",
+      "bytes": 256,
+      "sha256": "1cbbebaf4a871f08a61755aa34301cbdf578353ead9d7efeb0589f3626ad9d59"
+    },
+    {
+      "path": "folderLight.materialrecipe",
+      "bytes": 340,
+      "sha256": "44cd307ae44eb95eab0916de1d5be45e96f1a8f90d8e9a5b7fddc89cac2fe6ff"
+    },
+    {
+      "path": "folderLightSimplified.materialrecipe",
+      "bytes": 1317,
+      "sha256": "399ee52bc6bb6068b61e938995ff256a4488792a8716705511b3efc9cb030683"
+    },
+    {
+      "path": "homeScreenOverlay-iPad.materialrecipe",
+      "bytes": 833,
+      "sha256": "1d189c72a166cfb390dcd84a10a568e6452f4cb5163dac25dc57de329030399d"
+    },
+    {
+      "path": "homeScreenOverlay.materialrecipe",
+      "bytes": 834,
+      "sha256": "1196b2ee62ce8e39ba0f43eed0c7b25104f4a3d67df199a47d06c619698e840f"
+    },
+    {
+      "path": "homeScreenOverlayLibrary-iPad.descendantrecipe",
+      "bytes": 471,
+      "sha256": "d06c63930bb8c8220bd2b3617adf25d7dfbe6f133e5f03b041fc3065241d6b75"
+    },
+    {
+      "path": "homeScreenOverlayLibrarySearch-iPad.descendantrecipe",
+      "bytes": 684,
+      "sha256": "1fb8b8dd2e7a723d6db076cb01dd717575c070823456d1553ae51831d8584ebc"
+    },
+    {
+      "path": "homeScreenOverlayLibrarySearch.descendantrecipe",
+      "bytes": 594,
+      "sha256": "c46b661e9c01fbd4b7f4689862dd5c4f14d613b2dba3bf4c4cde4fa172c6bb53"
+    },
+    {
+      "path": "knowledgeBackgroundDarkZoomed.descendantrecipe",
+      "bytes": 472,
+      "sha256": "3e881157333d8d2d56f9d59a8bb5c651064ed4958c9a8198e76aed6728fdf8a1"
+    },
+    {
+      "path": "knowledgeBackgroundZoomed.descendantrecipe",
+      "bytes": 468,
+      "sha256": "a52382457cd81816b8fe24cff2cd3c74a8c60159486684722fea04ec7387e6fb"
+    },
+    {
+      "path": "librarySearchBackgroundSimplified.visualstyleset",
+      "bytes": 483,
+      "sha256": "b976267bef1a9298dee607c4d24757dda6f9ace80c07eaedb5455a9227968e39"
+    },
+    {
+      "path": "personDetailBackground-iPad.materialrecipe",
+      "bytes": 501,
+      "sha256": "128f995e19ac0a667b2cef1fb398a91f022c20b732b7e89274290955a4b98232"
+    },
+    {
+      "path": "personDetailBackground.materialrecipe",
+      "bytes": 500,
+      "sha256": "75069dc7a43dd1c31a80297ad240801834953a4d685855a505480dc033803be3"
+    },
+    {
+      "path": "podBackgroundViewDark.visualstyleset",
+      "bytes": 3107,
+      "sha256": "be284a5f52c19f56664e0d553b4ad25e87911234806bf850388f89d09e5b9a8f"
+    },
+    {
+      "path": "podBackgroundViewLight.visualstyleset",
+      "bytes": 3101,
+      "sha256": "9fa533ca1fd9ae8dbed16b5fa7d66af3a4d5f43501f37c29f03625c3161eeab8"
+    },
+    {
+      "path": "ranking-icon.ca/assetManifest.caml",
+      "bytes": 177,
+      "sha256": "0b5d74fe5cf879d832fb8b29c8141954a86eb90e275dd848344c83cd952cf744"
+    },
+    {
+      "path": "ranking-icon.ca/assets/star.tif",
+      "bytes": 41724,
+      "sha256": "dc7b20bf2c5e1fe4d7fcb3de1926eba95ceef3603acd569511acb139c9f4b502"
+    },
+    {
+      "path": "ranking-icon.ca/index.xml",
+      "bytes": 1294,
+      "sha256": "2f83d6ee3080d13b4f7c44d3f960694ecd0216ab877305ac5a18fc4ba7fef094"
+    },
+    {
+      "path": "ranking-icon.ca/main.caml",
+      "bytes": 34894,
+      "sha256": "bad206f1244a6e8819f113c36734570e2d083b6a2ed107fa29a7c5680a7975f5"
+    },
+    {
+      "path": "stackConfigurationBackground.materialrecipe",
+      "bytes": 568,
+      "sha256": "f359db4990ee26ed49ce77e1b8f508f53ac0a9b584993774e99d888d45beca03"
+    },
+    {
+      "path": "stackConfigurationForeground.materialrecipe",
+      "bytes": 516,
+      "sha256": "32b6db534e30178d6a1267e0b5fec3de0164068ce747a95289a038337d69f9fd"
+    },
+    {
+      "path": "suggestion-icon.ca/index.xml",
+      "bytes": 1294,
+      "sha256": "2f83d6ee3080d13b4f7c44d3f960694ecd0216ab877305ac5a18fc4ba7fef094"
+    },
+    {
+      "path": "suggestion-icon.ca/main.caml",
+      "bytes": 24825,
+      "sha256": "3079fdcff59bfe8f7895055272954e3af92ef12046cf78c981206fdebbfb988c"
+    },
+    {
+      "path": "widgetConfigurationBackground.materialrecipe",
+      "bytes": 501,
+      "sha256": "128f995e19ac0a667b2cef1fb398a91f022c20b732b7e89274290955a4b98232"
+    }
+  ],
+  "source_sha256": {
+    "live-input-agent.c": "f7ff0ff0ce942e1386d83265ef214d5bbf481be37e18f84c2f6d45a40e5bed84",
+    "live-display.c": "ce4453423e0fdf92b794d8584dac8ed153accfc6697bc6a07b183650ad4193aa",
+    "virtual-touch-service.c": "5dbb5558470ce5111b5ab726a99be3246e57f78e9ee7f0a8a42cfa0d59f98bce",
+    "live-view.py": "eed19da85ad161d16aded5750bb1fcaebba55fd78d61e17bd7901eb3fb2f1192"
+  }
+}

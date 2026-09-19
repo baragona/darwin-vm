@@ -29,15 +29,43 @@ static volatile sig_atomic_t stopping;
 static void stop_signal(int number){(void)number;stopping=1;}
 static double seconds(void){struct timespec t;if(clock_gettime(CLOCK_MONOTONIC,&t))return -1;return t.tv_sec+t.tv_nsec/1e9;}
 
-static int touch(double x,double y,int down,int moving) {
+static void *touch_event(double x,double y,int down,int moving,void **child) {
     unsigned mask=moving?4:3;
-    uint64_t stamp=now();
+    uint64_t stamp=0;
     void *h=hand(NULL,stamp,3,0,0,mask,0,x,y,0,0,0,down,down,0);
     void *f=finger(NULL,stamp,1,1,mask,x,y,0,down?1.0:0.0,0,down,down,0);
     if(!h||!f){if(h)release(h);if(f)release(f);return 0;}
     integer(h,0xb0019,1);integer(f,0xb0019,1);sender(h,identity);sender(f,identity);append(h,f,0);
-    int ok=virtual_touch_dispatch(h);release(f);release(h);
+    *child=f;
+    return h;
+}
+static int send_touch(void *event,void *child) {
+    uint64_t stamp=now();
+    timestamp(event,stamp);timestamp(child,stamp);
+    return virtual_touch_dispatch(event);
+}
+static int touch(double x,double y,int down,int moving) {
+    void *f=NULL,*h=touch_event(x,y,down,moving,&f);
+    if(!h)return 0;
+    int ok=send_touch(h,f);release(f);release(h);
     if(ok){touching=down;last_x=x;last_y=y;}
+    return ok;
+}
+static int tap(double x,double y) {
+    if(touching)return 0;
+    /* Allocate both events before pressing: allocation and UART waits must
+       not become part of a short click's hold duration. */
+    void *press_child=NULL,*lift_child=NULL;
+    void *press=touch_event(x,y,1,0,&press_child),*lift=touch_event(x,y,0,0,&lift_child);
+    if(!press||!lift){if(press){release(press_child);release(press);}if(lift){release(lift_child);release(lift);}return 0;}
+    int ok=send_touch(press,press_child);
+    if(ok){
+        touching=1;last_x=x;last_y=y;
+        usleep(40000);
+        ok=send_touch(lift,lift_child);
+        if(ok)touching=0;
+    }
+    release(press_child);release(press);release(lift_child);release(lift);
     return ok;
 }
 static int key(unsigned page,unsigned usage,int down) {
@@ -55,8 +83,9 @@ static int clear_input(void) {
 }
 static int command(char *line) {
     char op=0,extra=0;double x=0,y=0;char u[32],d[32];
-    if(sscanf(line," %c %lf %lf %c",&op,&x,&y,&extra)==3 && (op=='D'||op=='M'||op=='U')) {
+    if(sscanf(line," %c %lf %lf %c",&op,&x,&y,&extra)==3 && (op=='D'||op=='M'||op=='U'||op=='T')) {
         if(!isfinite(x)||!isfinite(y)||x<0||x>1||y<0||y>1)return 0;
+        if(op=='T')return tap(x,y);
         if((op=='D'&&touching)||(op!='D'&&!touching))return 0;
         return touch(x,y,op!='U',op=='M');
     }
@@ -98,7 +127,7 @@ int main(int argc,char **argv) {
     struct sigaction action={0};action.sa_handler=stop_signal;
     sigemptyset(&action.sa_mask);sigaction(SIGTERM,&action,NULL);sigaction(SIGINT,&action,NULL);
     double activity=seconds();if(activity<0){virtual_touch_stop();release(client);return 1;}
-    puts("LIVE_INPUT_READY 2");
+    puts("LIVE_INPUT_READY 3");
     char line[128];size_t length=0;int overflow=0,result=0;
     while(!stopping) {
         fd_set readable;FD_ZERO(&readable);FD_SET(STDIN_FILENO,&readable);struct timeval wait={0,10000};
@@ -112,7 +141,7 @@ int main(int argc,char **argv) {
                 if(bytes[i]=='\n') {
                     line[length]=0;
                     int ok=!overflow&&command(line);
-                    if(ok&&strchr("DMUKHR",line[0]))activity=seconds();
+                    if(ok&&strchr("DMUTKHR",line[0]))activity=seconds();
                     printf("LIVE_INPUT_RESULT %d\n",ok);length=0;overflow=0;
                 } else if(bytes[i]!='\r') {
                     if(bytes[i]==0||length==sizeof(line)-1)overflow=1;

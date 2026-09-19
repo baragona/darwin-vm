@@ -10,6 +10,8 @@ Protocol (normalized coordinates, case-sensitive commands):
 - `D X Y`: finger down; rejected if a finger is already down.
 - `M X Y`: move the active finger; rejected without a preceding down.
 - `U X Y`: release the active finger.
+- `T X Y`: short tap (protocol3), with both events allocated before pressing and
+  a 40ms guest delay before release. Rejected while a finger is already down.
 - `K USAGE DOWN`: keyboard page7 usage4..231, with DOWN0 or1.
 - `H`: consumer Menu/Home key down followed by release.
 - `R`: release all tracked touch and keyboard state.
@@ -18,7 +20,7 @@ Protocol (normalized coordinates, case-sensitive commands):
 - `P`: acknowledge a ping.
 - `Q`: release input and exit.
 
-The agent emits `LIVE_INPUT_READY 2` (the host also accepts the original version1), then `LIVE_INPUT_RESULT 0|1` for each
+The agent emits `LIVE_INPUT_READY 3` (the host also accepts versions1 and2), then `LIVE_INPUT_RESULT 0|1` for each
 line. It rejects out-of-range coordinates, malformed or oversized commands,
 and invalid touch transitions. It pumps the run loop while waiting for input.
 EOF, SIGTERM, SIGINT, and five seconds without successful input commands (frame requests and pings do not count) trigger release attempts.
@@ -26,6 +28,22 @@ A failed touch dispatch does not advance the tracked touch state. Keyboard
 API return is void, so acknowledgement means construction and dispatch, not
 confirmed delivery. Host disconnect does not necessarily become guest stdin
 EOF over UART; the idle release is necessary for that transport.
+
+With protocol3, the browser defers a stationary press for up to200ms. Releasing
+within that window sends `T`; movement of at least3 CSS pixels flushes the
+original down and continues a normal drag. Holding beyond200ms also flushes the
+down. Cancellation discards a pending tap and sends release. Older agents retain
+the original D/U path. This removes UART acknowledgement waits from a quick tap's
+press/release interval; it does not bound delays inside guest HID dispatch or
+fix capture latency. `node research/live-pointer-test.js` exercises the actual
+browser handlers for taps, drags, holds, cancellation, and legacy guests.
+
+Runtime update: V81 verified browser keyboard input, saving, and drawing using
+protocol2. V82 restored CoreGlyphs and rendered Apple Calculator controls, then
+later suffered a scheduler timestamp panic; arithmetic is not yet verified.
+V83 stages protocol3 plus the missing SpringBoardHome framework resources.
+Detailed runtime evidence
+is in `evidence/live-drawing-runtime-v81.md` and `evidence/glyphs-runtime-v82.md`.
 
 Build and sign like the diagnostic helper, substituting live-input-agent.c:
 
@@ -39,11 +57,11 @@ codesign --verify --strict /tmp/live-input-agent
 ```
 
 Install in a new guest image with its CDHash in that image's trust cache.
-Current status: strict cross-build and signature verification pass. Host-only
-stub tests verify invalid commands dispatch nothing, failed touch release
-preserves state, and reset releases tracked keys and touch. No host HID API is
-used by those tests. The persistent endpoint itself is not yet guest-tested;
-only the separate one-shot touch helper's taps/drags/Home have runtime proof.
+Strict cross-build and signature verification pass. Host-only stub tests verify
+invalid commands dispatch nothing, tap events are allocated before dispatch,
+failed touch release preserves state, and reset releases tracked keys and touch.
+No host HID API is used by those tests. See the runtime status above for the
+separate guest verification.
 
 Run host-only state tests with `clang -Wall -Wextra -Werror research/live-input-test.c -o /tmp/live-input-test && /tmp/live-input-test`.
 
@@ -72,10 +90,10 @@ until it has been stopped and the shell recovered.
 
 Host tests: `python3 research/live-view-test.py` checks pixel preservation,
 corruption/truncation rejection, recovery, and input queue ordering. These
-checks do not establish guest rendering or keyboard delivery. The combined
-agent and short-tap helper are staged in V80; runtime verification is pending.
+checks do not establish guest rendering or keyboard delivery; the recorded
+V81 runtime provides separate evidence for those behaviors.
 
-## Changed rectangles (protocol2, guest runtime pending)
+## Changed rectangles (protocol2 and later)
 
 The first capture is a full `LIVE_FRAME_BEGIN` frame. Later captures compare
 actual BGRA pixels against the previous capture and send the smallest enclosing
@@ -92,5 +110,5 @@ already holds that exact valid frame. No pixel values are guessed or repaired.
 
 `frame-damage-test.c` tests bounds and padded rows. The Python viewer tests also
 cover exact patch application, rejected stale bases, unchanged frames, truncated
-patches, and full-frame recovery. Protocol2 is built for V81; the running V80
-viewer still uses protocol1. Guest performance and input delivery remain open.
+patches, and full-frame recovery. V81 verified full and changed-rectangle frames
+in the guest. UART contention and capture latency remain limitations.
