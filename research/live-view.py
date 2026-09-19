@@ -171,7 +171,7 @@ class Bridge:
             if len(self.queue)+len(commands)>128:
                 self.queue.clear();self.queue.append('R');raise ValueError('Input queue full; releasing input')
             for cmd in commands:
-                if cmd.startswith('M ') and self.queue and self.queue[-1].startswith('M '):self.queue[-1]=cmd
+                if cmd.startswith('M ') and len(self.queue)>=16 and all(item.startswith('M ') for item in list(self.queue)[-16:]):self.queue[-1]=cmd
                 else:self.queue.append(cmd)
 
 HTML='''<!doctype html><meta charset="utf-8"><title>iOS guest</title>
@@ -180,7 +180,7 @@ HTML='''<!doctype html><meta charset="utf-8"><title>iOS guest</title>
 <script>
 const screen=document.querySelector('#screen'),status=document.querySelector('#status');let down=false,lastFrame=-1,outbox=[],sending=false;
 function send(cmds){
-  for(const cmd of cmds){if(cmd.startsWith('M ')&&outbox.length&&outbox[outbox.length-1].startsWith('M '))outbox[outbox.length-1]=cmd;else outbox.push(cmd)}
+  for(const cmd of cmds){if(cmd.startsWith('M ')&&outbox.length>=16&&outbox.slice(-16).every(item=>item.startsWith('M ')))outbox[outbox.length-1]=cmd;else outbox.push(cmd)}
   if(outbox.length>128){outbox=['R'];down=false;status.textContent='Input queue full; releasing input'}
   drain();
 }

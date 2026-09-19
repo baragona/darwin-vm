@@ -71,3 +71,12 @@ captures avoid compression; patches reference their exact previous frame, and
 the host requests a full frame after corruption or missing history. Unit tests
 verify exact pixels and reject patches against the wrong base. This is built
 for V81 but has not been staged or tested in the guest yet.
+
+A second swipe preserved all14 touch samples by placing ping barriers between
+moves in the existing bridge queue. All26 commands were acknowledged. Frame65
+then visibly showed the lock-screen sheet pulled upward, with the bottom controls
+and Home indicator near the top of the screen. This proves touch movement reached
+SpringBoard through the persistent endpoint; it is not yet proof of a completed
+unlock. The first test had collapsed all intermediate motion into one sample.
+The host now retains up to16 consecutive motion samples before coalescing excess
+updates, preserving normal gesture paths while still bounding backlogs.

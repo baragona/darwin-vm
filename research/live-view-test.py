@@ -93,11 +93,16 @@ class Protocol(unittest.TestCase):
         bridge.ready = threading.Event();bridge.ready.set()
         bridge.stopped = False;bridge.lock = threading.Lock();bridge.queue = collections.deque()
         bridge.enqueue(['D 0 0', 'M 0.1 0.1', 'M 0.2 0.2', 'U 0.2 0.2'])
-        self.assertEqual(list(bridge.queue), ['D 0 0', 'M 0.2 0.2', 'U 0.2 0.2'])
+        self.assertEqual(list(bridge.queue), ['D 0 0', 'M 0.1 0.1', 'M 0.2 0.2', 'U 0.2 0.2'])
         for invalid in [['K 3 1'], ['D nan 0'], ['Q'], ['F'], ['K 4 1', 'bad']]:
             before = list(bridge.queue)
             with self.assertRaises(ValueError):bridge.enqueue(invalid)
             self.assertEqual(list(bridge.queue), before)
+        bridge.queue.clear()
+        bridge.enqueue(['D 0 0']+['M 0.1 0.1']*30)
+        bridge.enqueue(['M 0.9 0.9', 'U 0.9 0.9'])
+        self.assertEqual(len(bridge.queue),18)
+        self.assertEqual(list(bridge.queue)[-2:], ['M 0.9 0.9','U 0.9 0.9'])
         bridge.stopped = True
         with self.assertRaises(ValueError):bridge.enqueue(['H'])
 
